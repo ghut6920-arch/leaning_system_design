@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "active_instruction_files": 34,
+  "framework_entries": 35,
+  "documents_checked": 48,
+  "local_links_checked": 433,
+  "broken_links": [],
+  "manifest_errors": [],
+  "frozen_sources_checked": 19,
+  "frozen_source_errors": [],
+  "protected_public_files_checked": 75,
+  "protected_public_files_changed": [],
+  "personal_files_hashed_or_read_by_this_probe": false,
+  "limits": [
+    "Paths, public fingerprints and manifest integrity only.",
+    "No semantic teaching or learning efficacy guarantee."
+  ]
+}

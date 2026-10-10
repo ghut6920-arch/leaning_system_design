@@ -1,0 +1,53 @@
+{
+  "status": "pass",
+  "execution_date_in_user_context": "2026-10-05",
+  "python": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+  "validator": "C:\\Users\\15006\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
+  "results": [
+    {
+      "skill": "learning-assessment",
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "skill": "learning-goals",
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "skill": "learning-materials",
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "skill": "learning-planning",
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "skill": "learning-strategies",
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "skill": "learning-teaching",
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "skill": "personal-learning",
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    }
+  ],
+  "limits": [
+    "Frontmatter and unfinished-scaffold checks; no semantic pedagogy assertion."
+  ]
+}

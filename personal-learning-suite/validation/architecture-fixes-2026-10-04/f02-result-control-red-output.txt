@@ -1,0 +1,14 @@
+test_pending_checks_each_result_control_without_hiding_an_unrestricted_candidate (test_b6_network.B6NetworkTests.test_pending_checks_each_result_control_without_hiding_an_unrestricted_candidate) ... FAIL
+
+======================================================================
+FAIL: test_pending_checks_each_result_control_without_hiding_an_unrestricted_candidate (test_b6_network.B6NetworkTests.test_pending_checks_each_result_control_without_hiding_an_unrestricted_candidate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\文献资料\学习系统架构设计\personal-learning-suite\tests\test_b6_network.py", line 428, in test_pending_checks_each_result_control_without_hiding_an_unrestricted_candidate
+    self.assertEqual(len(own), 2)
+AssertionError: 1 != 2
+
+----------------------------------------------------------------------
+Ran 1 test in 0.386s
+
+FAILED (failures=1)

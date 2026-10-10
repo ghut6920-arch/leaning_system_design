@@ -1,0 +1,34 @@
+{
+  "batch": "B1",
+  "synthetic_only": true,
+  "teaching": false,
+  "workspace": "E:\\文献资料\\学习系统架构设计\\B1_虚构演示学习空间",
+  "state_revision": 1,
+  "persisted_current_objects": 26,
+  "read_after_reopen": "ok",
+  "integrity": "ok",
+  "resume": {
+    "status": "needs_input",
+    "source": "checkpoint",
+    "needed_inputs": [
+      "unique_current_commitment",
+      "execution_authorization"
+    ],
+    "teaching": false
+  },
+  "route": {
+    "status": "candidate",
+    "readiness": "not_ready",
+    "target_skill": {
+      "id": "SK04",
+      "name": "learning-assessment",
+      "owner": "AG3"
+    },
+    "work_order_created": false
+  },
+  "limitations": [
+    "26 个对象来自人工夹具，不是用户的课程/表现/预算/授权。",
+    "演示保存与定位，不执行教学、评分或排期；真实宿主未绑定。",
+    "已存在的演示空间只查看，不重填或覆写；已删除的数据不会由此重新导入。"
+  ]
+}

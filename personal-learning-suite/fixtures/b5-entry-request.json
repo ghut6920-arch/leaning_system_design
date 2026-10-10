@@ -1,0 +1,612 @@
+{
+  "entry_version": "pl-entry/0.1.0",
+  "synthetic_only": true,
+  "expected_state_revision": 1,
+  "steps": [
+    {
+      "id": "initial",
+      "operation": "teaching.run",
+      "request": {
+        "synthetic_only": true,
+        "action": "record_initial",
+        "activity_ref": {
+          "id": "FIX-activity",
+          "revision": 1
+        },
+        "context": {
+          "goal_refs": [
+            {
+              "id": "FIX-goal",
+              "revision": 1
+            }
+          ],
+          "activity_ref": {
+            "id": "FIX-activity",
+            "revision": 1
+          },
+          "intended_use": "independent_check",
+          "purpose": "independent",
+          "required_modalities": [
+            "text",
+            "formula"
+          ],
+          "conditions": [
+            "人工虚构给定前提",
+            "初答前不给连接理由"
+          ]
+        },
+        "operation_id": "FIX-b5-initial",
+        "authorization_refs": [
+          {
+            "id": "FIX-b3b-teaching-grant",
+            "revision": 1
+          }
+        ],
+        "event_id": "FIX-b4-event",
+        "independent_sample_id": "FIX-b4-sample",
+        "original_response": {
+          "path": "b4-initial.md",
+          "locator": "B4-initial",
+          "revision": 1,
+          "origin": "synthetic_fixture",
+          "start_line": 1,
+          "end_line": 2
+        },
+        "artifacts": {
+          "b4-initial.md": "# B4-initial\nP 成立且 P→Q，所以 Q。\n"
+        },
+        "initial_response": {
+          "content": "P 成立且 P→Q，所以 Q。",
+          "visibility": "displayed",
+          "target_operations": [
+            "connect-P-to-Q"
+          ],
+          "substituted_operations": [],
+          "time": {
+            "status": "unknown",
+            "reason": "人工演示没有真实答题时间。"
+          }
+        },
+        "occurred_at": {
+          "status": "not_executed",
+          "reason": "人工夹具没有真实事件时间"
+        },
+        "contact_history": {
+          "status": "unknown",
+          "reason": "人工人物无可靠先前接触资料"
+        },
+        "actual_resources": {
+          "status": "known",
+          "value": [
+            "题面给定前提"
+          ]
+        },
+        "contributors": [
+          {
+            "actor": "synthetic_learner",
+            "operations": [
+              "写出结论 Q"
+            ]
+          }
+        ],
+        "prior_exposures": [],
+        "timeline_completeness": {
+          "status": "known",
+          "value": true
+        },
+        "active_minutes": 0.5
+      }
+    },
+    {
+      "id": "review",
+      "operation": "assessment.inspect",
+      "request": {
+        "judgment": {
+          "type": "Judgment",
+          "id": "FIX-b5-judgment",
+          "revision": 1,
+          "owner": "AG3",
+          "schema_version": "pl-contracts/0.1.0",
+          "basis_refs": [
+            {
+              "id": "FIX-goal",
+              "revision": 1
+            },
+            {
+              "id": "FIX-material",
+              "revision": 1
+            },
+            {
+              "id": "FIX-activity",
+              "revision": 1
+            },
+            null
+          ],
+          "goal_ref": {
+            "id": "FIX-goal",
+            "revision": 1
+          },
+          "requirement_id": "infer-Q",
+          "criterion_revision": 1,
+          "event_refs": [
+            null
+          ],
+          "conditions": {
+            "purpose": "independent",
+            "response_points": [
+              {
+                "event_ref": null,
+                "sequence": null
+              }
+            ],
+            "operation_findings": [
+              {
+                "operation": "connect-P-to-Q",
+                "support": "supported",
+                "rationale": "人工专业方声明当前原答调用条件连接；程序不判断答案真伪。"
+              }
+            ]
+          },
+          "support": "supported",
+          "eligibility": "usable",
+          "intended_uses": [
+            "independent_check"
+          ],
+          "rationale": "回查同一原答、操作声明、实际帮助顺序与当前判据。",
+          "unsupported_scope": [
+            "父任务完整链",
+            "延迟迁移",
+            "真实学习效果"
+          ],
+          "counterevidence": [],
+          "authorization_ref": {
+            "id": "FIX-evidence-grant",
+            "revision": 1
+          },
+          "decision_type": "professional_review",
+          "adoption": {
+            "status": "candidate",
+            "by": "AG3",
+            "scope": "人工判断候选",
+            "basis_refs": [],
+            "limitations": [
+              "仅隔离夹具；检查不自动采用。"
+            ],
+            "time": {
+              "status": "not_executed",
+              "reason": "无真实采用。"
+            }
+          },
+          "conclusion": "local-supported"
+        },
+        "context": {
+          "intended_use": "independent_check",
+          "review_triggers": [],
+          "material_context": {
+            "goal_refs": [
+              {
+                "id": "FIX-goal",
+                "revision": 1
+              }
+            ],
+            "activity_ref": {
+              "id": "FIX-activity",
+              "revision": 1
+            },
+            "intended_use": "independent_check",
+            "purpose": "independent",
+            "required_modalities": [
+              "text",
+              "formula"
+            ],
+            "conditions": [
+              "人工虚构给定前提",
+              "初答前不给连接理由"
+            ]
+          }
+        }
+      },
+      "bindings": {
+        "/judgment/event_refs/0": {
+          "step": "initial",
+          "path": "/event_ref"
+        },
+        "/judgment/basis_refs/3": {
+          "step": "initial",
+          "path": "/event_ref"
+        },
+        "/judgment/conditions/response_points/0/event_ref": {
+          "step": "initial",
+          "path": "/assessment_handoff/event_ref"
+        },
+        "/judgment/conditions/response_points/0/sequence": {
+          "step": "initial",
+          "path": "/assessment_handoff/response_point/sequence"
+        }
+      }
+    },
+    {
+      "id": "judgment",
+      "operation": "assessment.submit",
+      "request": {
+        "operation_id": "FIX-b5-judgment-save",
+        "changes": [
+          {
+            "type": "Judgment",
+            "id": "FIX-b5-judgment",
+            "revision": 1,
+            "owner": "AG3",
+            "schema_version": "pl-contracts/0.1.0",
+            "basis_refs": [
+              {
+                "id": "FIX-goal",
+                "revision": 1
+              },
+              {
+                "id": "FIX-material",
+                "revision": 1
+              },
+              {
+                "id": "FIX-activity",
+                "revision": 1
+              },
+              null
+            ],
+            "goal_ref": {
+              "id": "FIX-goal",
+              "revision": 1
+            },
+            "requirement_id": "infer-Q",
+            "criterion_revision": 1,
+            "event_refs": [
+              null
+            ],
+            "conditions": {
+              "purpose": "independent",
+              "response_points": [
+                {
+                  "event_ref": null,
+                  "sequence": null
+                }
+              ],
+              "operation_findings": [
+                {
+                  "operation": "connect-P-to-Q",
+                  "support": "supported",
+                  "rationale": "人工专业方声明当前原答调用条件连接；程序不判断答案真伪。"
+                }
+              ]
+            },
+            "support": "supported",
+            "eligibility": "usable",
+            "intended_uses": [
+              "independent_check"
+            ],
+            "rationale": "回查同一原答、操作声明、实际帮助顺序与当前判据。",
+            "unsupported_scope": [
+              "父任务完整链",
+              "延迟迁移",
+              "真实学习效果"
+            ],
+            "counterevidence": [],
+            "authorization_ref": {
+              "id": "FIX-evidence-grant",
+              "revision": 1
+            },
+            "decision_type": "professional_review",
+            "adoption": {
+              "status": "candidate",
+              "by": "AG3",
+              "scope": "人工判断候选",
+              "basis_refs": [],
+              "limitations": [
+                "仅隔离夹具；检查不自动采用。"
+              ],
+              "time": {
+                "status": "not_executed",
+                "reason": "无真实采用。"
+              }
+            },
+            "conclusion": "local-supported"
+          }
+        ],
+        "contexts": {
+          "FIX-b5-judgment": {
+            "intended_use": "independent_check",
+            "review_triggers": [],
+            "material_context": {
+              "goal_refs": [
+                {
+                  "id": "FIX-goal",
+                  "revision": 1
+                }
+              ],
+              "activity_ref": {
+                "id": "FIX-activity",
+                "revision": 1
+              },
+              "intended_use": "independent_check",
+              "purpose": "independent",
+              "required_modalities": [
+                "text",
+                "formula"
+              ],
+              "conditions": [
+                "人工虚构给定前提",
+                "初答前不给连接理由"
+              ]
+            }
+          }
+        },
+        "authorization_refs": [
+          {
+            "id": "FIX-evidence-grant",
+            "revision": 1
+          }
+        ],
+        "adoption_refs": [
+          {
+            "id": "FIX-evidence-grant",
+            "revision": 1
+          }
+        ],
+        "artifacts": {}
+      },
+      "bindings": {
+        "/changes/0/event_refs/0": {
+          "step": "initial",
+          "path": "/event_ref"
+        },
+        "/changes/0/basis_refs/3": {
+          "step": "initial",
+          "path": "/event_ref"
+        },
+        "/changes/0/conditions/response_points/0/event_ref": {
+          "step": "initial",
+          "path": "/assessment_handoff/event_ref"
+        },
+        "/changes/0/conditions/response_points/0/sequence": {
+          "step": "initial",
+          "path": "/assessment_handoff/response_point/sequence"
+        }
+      }
+    },
+    {
+      "id": "close",
+      "operation": "teaching.run",
+      "request": {
+        "synthetic_only": true,
+        "action": "close",
+        "activity_ref": {
+          "id": "FIX-activity",
+          "revision": 1
+        },
+        "authorization_refs": [
+          {
+            "id": "FIX-b3b-teaching-grant",
+            "revision": 1
+          }
+        ],
+        "context": {
+          "goal_refs": [
+            {
+              "id": "FIX-goal",
+              "revision": 1
+            }
+          ],
+          "activity_ref": {
+            "id": "FIX-activity",
+            "revision": 1
+          },
+          "intended_use": "independent_check",
+          "purpose": "independent",
+          "required_modalities": [
+            "text",
+            "formula"
+          ],
+          "conditions": [
+            "人工虚构给定前提",
+            "初答前不给连接理由"
+          ]
+        },
+        "operation_id": "FIX-b5-close",
+        "event_ref": null,
+        "checkpoint_id": "FIX-b5-checkpoint",
+        "stop_reason": "人工会话收束，专业采用和需求处置仍单独记录。",
+        "next_connection": "原有需求由 AG1 明确处置；不自动追加学习工作。",
+        "pending_owners": [
+          "AG1",
+          "AG3"
+        ],
+        "unrecorded_actions": {
+          "status": "unknown",
+          "reason": "未保存动作不推断。"
+        },
+        "active_minutes": 0.75,
+        "unfinished_requirement_ids": [
+          "infer-Q"
+        ],
+        "closure": {
+          "status": "unfinished",
+          "reason": "当前判断候选尚未专业采用。"
+        },
+        "existing_need_ref": {
+          "id": "FIX-need",
+          "revision": 1
+        }
+      },
+      "bindings": {
+        "/event_ref": {
+          "step": "initial",
+          "path": "/event_ref"
+        }
+      }
+    },
+    {
+      "id": "accept",
+      "operation": "planning.run",
+      "request": {
+        "synthetic_only": true,
+        "action": "accept",
+        "operation_id": "FIX-b5-accept",
+        "budget_ref": {
+          "id": "FIX-budget",
+          "revision": 1
+        },
+        "authorization_refs": [
+          {
+            "id": "FIX-user-grant",
+            "revision": 1
+          }
+        ],
+        "plan_id": "FIX-b4-plan",
+        "spent_minutes": {
+          "status": "known",
+          "value": {
+            "minutes": 0.75,
+            "basis": "observed",
+            "source": "人工声明累计投入。"
+          }
+        },
+        "reserve_minutes": 0,
+        "decisions": [
+          {
+            "need_ref": {
+              "id": "FIX-need",
+              "revision": 1
+            },
+            "status": "pending",
+            "reason": "当前有效目标需要有限条件连接；本次不增加整章工作",
+            "uncovered_impact": "安排并非独立掌握；父任务整体仍未支持",
+            "next_trigger": "实际证据、预算或相关使用条件变化时重看"
+          }
+        ],
+        "checkpoint_ref": null,
+        "allowed_adjustments": {
+          "actions": [
+            "shrink",
+            "stop"
+          ],
+          "need_ids": [
+            "FIX-need",
+            "FIX-b4-duplicate"
+          ],
+          "preserve_conditions": "不改变目标、判据、材料用途与必要反馈；不扩大资源"
+        }
+      },
+      "bindings": {
+        "/checkpoint_ref": {
+          "step": "close",
+          "path": "/checkpoint_ref"
+        }
+      }
+    },
+    {
+      "id": "dispose",
+      "operation": "planning.run",
+      "request": {
+        "synthetic_only": true,
+        "action": "dispose",
+        "operation_id": "FIX-b5-dispose",
+        "budget_ref": {
+          "id": "FIX-budget",
+          "revision": 1
+        },
+        "authorization_refs": [
+          {
+            "id": "FIX-user-grant",
+            "revision": 1
+          }
+        ],
+        "plan_id": "FIX-b4-plan",
+        "spent_minutes": {
+          "status": "known",
+          "value": {
+            "minutes": 0.75,
+            "basis": "observed",
+            "source": "人工声明累计投入。"
+          }
+        },
+        "reserve_minutes": 0,
+        "decisions": [
+          {
+            "need_ref": null,
+            "status": "deferred",
+            "reason": "当前有效目标需要有限条件连接；本次不增加整章工作",
+            "uncovered_impact": "安排并非独立掌握；父任务整体仍未支持",
+            "next_trigger": "实际证据、预算或相关使用条件变化时重看"
+          }
+        ],
+        "checkpoint_ref": null,
+        "allowed_adjustments": {
+          "actions": [
+            "shrink",
+            "stop"
+          ],
+          "need_ids": [
+            "FIX-need",
+            "FIX-b4-duplicate"
+          ],
+          "preserve_conditions": "不改变目标、判据、材料用途与必要反馈；不扩大资源"
+        }
+      },
+      "bindings": {
+        "/decisions/0/need_ref": {
+          "step": "accept",
+          "path": "/output_refs/0"
+        },
+        "/checkpoint_ref": {
+          "step": "close",
+          "path": "/checkpoint_ref"
+        }
+      }
+    },
+    {
+      "id": "resume",
+      "operation": "teaching.run",
+      "request": {
+        "synthetic_only": true,
+        "action": "resume",
+        "activity_ref": {
+          "id": "FIX-activity",
+          "revision": 1
+        },
+        "authorization_refs": [
+          {
+            "id": "FIX-b3b-teaching-grant",
+            "revision": 1
+          }
+        ],
+        "context": {
+          "goal_refs": [
+            {
+              "id": "FIX-goal",
+              "revision": 1
+            }
+          ],
+          "activity_ref": {
+            "id": "FIX-activity",
+            "revision": 1
+          },
+          "intended_use": "independent_check",
+          "purpose": "independent",
+          "required_modalities": [
+            "text",
+            "formula"
+          ],
+          "conditions": [
+            "人工虚构给定前提",
+            "初答前不给连接理由"
+          ]
+        },
+        "checkpoint_ref": null
+      },
+      "bindings": {
+        "/checkpoint_ref": {
+          "step": "close",
+          "path": "/checkpoint_ref"
+        }
+      }
+    }
+  ]
+}

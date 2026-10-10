@@ -1,0 +1,48 @@
+{
+  "executed_on": "2026-10-04",
+  "status": "passed",
+  "entries": 33,
+  "refreshed_entries": [
+    {
+      "path": "../../personal-learning-suite/src/agents/AG0-coach.md",
+      "before": "3c6adf7e7c4922788378d6362c53d47dfbe45910e56cf8cf84c0de9b22b29925",
+      "after": "2e8cce9101d646b4d0a6106f1922aa070d7dcbad5b99c9d8e1dc13dbf5320538"
+    },
+    {
+      "path": "../../personal-learning-suite/src/agents/AG1-design-planning.md",
+      "before": "135a70f67132cc71e17e97919abc0eb7d340c7691c507cf029c15d281e9494cb",
+      "after": "16333dcf894c8320b5efa49abbd438e1c9c95cd204e93b52ae0c64a91d44ecf5"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/SKILL.md",
+      "before": "3ff483a355c9a2820c8150a95efd0659f07cfd3a06206ae1d1d619330b2d2acc",
+      "after": "0dff8b9f6133f63487f3cb3067834632c11df3b5a9ccc11af29e2e688493efcc"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/c0.md",
+      "before": "fe3514f26ec3206b65bb7369a4f3e3c4ac79de1b71fd2d90ffdc1fa28000f4a1",
+      "after": "272195af9dc9cf7c38e3fcd0e4f75b196b38966be760041a51cc14ec27f7794e"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+      "before": "4b67a24f1c1333461ded97299056500bea3ece587788a1557c71343213d8d5a2",
+      "after": "913c3e9ed979c7d3decb242f9fea892d9b0d153f56a7b2009ebae2e5ca146560"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
+      "before": "054e62c2855c8805ef0a431c78f2ae448328f4388d584dd0a2628d719e0fc67b",
+      "after": "09d104488e414534904313c8b76c40de2a6961e9b54ef0814e87c055499327d3"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/runtime.md",
+      "before": "d348906aa795b6944835409dd695484114c47c096fb5e6b106a91976928d6be4",
+      "after": "20bb91fba1ed6a43c995a2b20471d43ca28a8e95db045d7cc94174896629c14f"
+    }
+  ],
+  "added_entry": {
+    "path": "../../personal-learning-suite/src/skills/learning-teaching/references/teaching-examples.md",
+    "sha256": "139a5a14f7b7b35f1612421c65a3419938fe555182ff49f8929c4b18c9aea321"
+  },
+  "mismatches": [],
+  "personal_records_modified": false
+}

@@ -1,0 +1,10 @@
+{
+  "unchanged": true,
+  "guarded_files": 79,
+  "changed_count": 0,
+  "private_contents_paths_or_digests_saved": false,
+  "excluded_public_protocols": [
+    "FRAMEWORK.md",
+    "framework-manifest.json"
+  ]
+}

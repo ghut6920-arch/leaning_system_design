@@ -1,0 +1,16 @@
+F
+======================================================================
+FAIL: test_canonical_boolean_read_flag_does_not_supply_a_locatable_read_scope (test_b2a_goals.B2aCandidateTests.test_canonical_boolean_read_flag_does_not_supply_a_locatable_read_scope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\文献资料\学习系统架构设计\personal-learning-suite\tests\test_b2a_goals.py", line 125, in test_canonical_boolean_read_flag_does_not_supply_a_locatable_read_scope
+    self.assertEqual(result["review_state"], "partial")
+AssertionError: 'complete' != 'partial'
+- complete
++ partial
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+FAILED (failures=1)

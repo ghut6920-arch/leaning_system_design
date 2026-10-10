@@ -1,0 +1,84 @@
+{
+  "audit": "B6 current candidate omitted from pending",
+  "client_date": "2026-10-04",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "workspace": "TemporaryDirectory; removed after probe",
+  "order_ref": {
+    "id": "FIX-b6-material-order",
+    "revision": 2
+  },
+  "first_run": {
+    "network_version": "pl-network/0.1.0",
+    "synthetic_only": true,
+    "mode": "local_serial",
+    "status": "committed",
+    "background_delegation": false,
+    "codex_deployed": false,
+    "mutated": true,
+    "state_revision": 4,
+    "result_ref": {
+      "id": "FIX-z-old-adopted-result",
+      "revision": 1
+    },
+    "professional_status": "compatible"
+  },
+  "first_adoption": {
+    "network_version": "pl-network/0.1.0",
+    "synthetic_only": true,
+    "mode": "local_serial",
+    "status": "committed",
+    "background_delegation": false,
+    "codex_deployed": false,
+    "mutated": true,
+    "state_revision": 5,
+    "result_ref": {
+      "id": "FIX-z-old-adopted-result",
+      "revision": 2
+    },
+    "adoption": {
+      "status": "adopted",
+      "by": "AG2",
+      "basis_refs": [
+        {
+          "id": "FIX-material",
+          "revision": 1
+        },
+        {
+          "id": "FIX-goal",
+          "revision": 1
+        }
+      ]
+    }
+  },
+  "second_run": {
+    "network_version": "pl-network/0.1.0",
+    "synthetic_only": true,
+    "mode": "local_serial",
+    "status": "committed",
+    "background_delegation": false,
+    "codex_deployed": false,
+    "mutated": true,
+    "state_revision": 6,
+    "result_ref": {
+      "id": "FIX-a-new-candidate-result",
+      "revision": 1
+    },
+    "professional_status": "compatible"
+  },
+  "second_candidate_adoption": {
+    "status": "candidate"
+  },
+  "pending": {
+    "network_version": "pl-network/0.1.0",
+    "synthetic_only": true,
+    "mode": "local_serial",
+    "status": "ok",
+    "background_delegation": false,
+    "codex_deployed": false,
+    "state_revision": 6,
+    "pending": []
+  },
+  "omission_reproduced": true,
+  "explanation": "pending collapses multiple WorkResults by order id; read_context orders records by id, so FIX-z-old-adopted-result wins over the later FIX-a-new-candidate-result and hides its pending adoption."
+}

@@ -1,0 +1,38 @@
+{
+  "status": "pass",
+  "changed_existing_public_files": [
+    "docs/README.md",
+    "personal-learning-suite/src/README.md",
+    "personal-learning-suite/src/agents/AG0-coach.md",
+    "personal-learning-suite/src/agents/AG1-design-planning.md",
+    "personal-learning-suite/src/agents/AG2-materials.md",
+    "personal-learning-suite/src/agents/AG3-assessment.md",
+    "personal-learning-suite/src/skills/learning-goals/SKILL.md",
+    "personal-learning-suite/src/skills/learning-goals/references/goal-design.md",
+    "personal-learning-suite/src/skills/learning-materials/SKILL.md",
+    "personal-learning-suite/src/skills/learning-materials/references/materials-workflow.md",
+    "personal-learning-suite/src/skills/learning-planning/SKILL.md",
+    "personal-learning-suite/src/skills/learning-planning/references/multi-scale-plan.md",
+    "personal-learning-suite/src/skills/learning-teaching/SKILL.md",
+    "personal-learning-suite/src/skills/learning-teaching/references/c0.md",
+    "personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+    "personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
+    "personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md",
+    "personal-learning-suite/src/skills/learning-teaching/references/teaching-examples.md",
+    "personal-learning-suite/src/skills/personal-learning/SKILL.md",
+    "personal-learning-suite/src/skills/personal-learning/references/session-entry.md",
+    "personal-learning-suite/validation/full-fidelity-audit-2026-10-05/README.md"
+  ],
+  "unexpected_public_changes": [],
+  "frozen_sources_checked": 19,
+  "frozen_source_errors": [],
+  "public_instruction_files": 41,
+  "links_checked": 394,
+  "broken_links": [],
+  "manifest_entries": 44,
+  "manifest_errors": [],
+  "limitations": [
+    "Links and fingerprints do not validate teaching quality",
+    "No learner fingerprints or records are persisted in this report"
+  ]
+}

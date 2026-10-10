@@ -1,0 +1,6 @@
+test_pending_keeps_new_candidate_after_another_result_is_adopted_in_either_id_order (test_b6_network.B6NetworkTests.test_pending_keeps_new_candidate_after_another_result_is_adopted_in_either_id_order) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.745s
+
+OK

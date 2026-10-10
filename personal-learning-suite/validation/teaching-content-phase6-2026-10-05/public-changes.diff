@@ -1,0 +1,178 @@
+--- before/docs/implementation/AI个人学习系统_教学内容重构执行路线_v1.md
++++ after/docs/implementation/AI个人学习系统_教学内容重构执行路线_v1.md
+@@ -1,6 +1,6 @@
+ # 教学内容重构执行路线 v1
+ 
+-日期：2026-10-04；阶段状态更新于2026-10-05。依据：[全套内容审查](../audits/AI个人学习系统_全套Skill与Agent内容兑现审查及重构判定_2026-10-04.md)。最初要求给出完整路线并执行第一步；随后按用户授权执行第二、第三阶段，本轮检查第四步并补齐其前置，再执行第五阶段。具体已改／待改以末尾状态表为准。
++日期：2026-10-04；阶段状态更新于2026-10-05。依据：[全套内容审查](../audits/AI个人学习系统_全套Skill与Agent内容兑现审查及重构判定_2026-10-04.md)。已按用户授权修复第一至五阶段；本轮复查第四／五阶段并补正边界，再执行第六阶段公开指令、受控内容核查与发布整理。真实学习／成本及独立前向状态另列，具体已改／待验证以末尾状态表为准。
+ 
+ ## 目标与范围
+ 
+@@ -45,8 +45,8 @@
+ | 1 | 已完成指令修改；2026-10-05已逐项来源复核并补正过度概括与实质缺项；独立／真实教学效果仍待验证 | [第一阶段实施与验证](AI个人学习系统_教学内容重构_第一阶段实施与验证_2026-10-04.md)、[来源复核与补正](../audits/AI个人学习系统_第一阶段修订_研究与设计逐项复核_2026-10-05.md) |
+ | 2 | 已完成指令修改、逐项来源复核、资源／内容检查及同模型内容走查；独立执行／真实效果仍待验证 | [第二阶段实施与验证](AI个人学习系统_教学内容重构_第二阶段实施与验证_2026-10-05.md)、[第二阶段来源复核](../audits/AI个人学习系统_第二阶段修订_研究与设计逐项复核_2026-10-05.md) |
+ | 3 | 已完成日常入口、四角色和跨模型提示词修改；2026-10-05继续核对并补专业入口承载、用户控制、复核独立性与失败恢复；内容走查为有背景同模型，独立执行／真实效果仍待验证 | [第三阶段实施与验证](AI个人学习系统_教学内容重构_第三阶段实施与验证_2026-10-05.md)、[第三阶段来源复核](../audits/AI个人学习系统_第三阶段修订_研究与设计逐项复核_2026-10-05.md)、[补充修订与验证](../audits/AI个人学习系统_第三阶段补充修订_研究核对与验证_2026-10-05.md) |
+-| 4 | 已补材料功能与当前输入、实际实例／静态图件、教学交接；原工作流的核验与纠错沿用。内容为同模型自查，独立执行／真实效果仍待验证 | [第四／五阶段来源核对](../audits/AI个人学习系统_第四阶段核对与第五阶段修复_研究设计逐项核对_2026-10-05.md)、[实施与验证](AI个人学习系统_教学内容重构_第四与第五阶段实施与验证_2026-10-05.md) |
+-| 5 | 已补从正文／用途导出复杂判据、连续作品实审、现有对象短视图及四尺度实际取舍；独立执行／真实效果仍待验证 | [第四／五阶段来源核对](../audits/AI个人学习系统_第四阶段核对与第五阶段修复_研究设计逐项核对_2026-10-05.md)、[实施与验证](AI个人学习系统_教学内容重构_第四与第五阶段实施与验证_2026-10-05.md) |
+-| 6 | 待实施 | 正常前向、完整端到端、真实有限学习与实际成本、按需要整理发布；软件及同模型内容自查不替代这些验证 |
++| 4 | 已补材料功能与当前输入、实际实例／静态图件、教学交接；本轮再次核具体内容与图件，保留原工作流核验／纠错。独立执行／真实效果仍待验证 | [原来源核对](../audits/AI个人学习系统_第四阶段核对与第五阶段修复_研究设计逐项核对_2026-10-05.md)、[原实施](AI个人学习系统_教学内容重构_第四与第五阶段实施与验证_2026-10-05.md)、[本轮复查](../audits/AI个人学习系统_第四第五阶段复查与第六阶段来源核对_2026-10-05.md) |
++| 5 | 已补正文／用途导出复杂判据、连续作品实审、短视图及四尺度取舍；本轮补真实使用日期冲突，C0旧开发限制不挡人工评价。独立执行／真实效果仍待验证 | [原来源核对](../audits/AI个人学习系统_第四阶段核对与第五阶段修复_研究设计逐项核对_2026-10-05.md)、[原实施](AI个人学习系统_教学内容重构_第四与第五阶段实施与验证_2026-10-05.md)、[本轮复查](../audits/AI个人学习系统_第四第五阶段复查与第六阶段来源核对_2026-10-05.md) |
++| 6 | 已修有限验证指导／发布导航，完成16个有背景同模型的实际教学情境输出、专业锚点、软件回归和公开布局核查；独立前向未获授权未运行，真实V3／可比V4仍未执行 | [第六阶段实施与验证](AI个人学习系统_教学内容重构_第六阶段实施与验证_2026-10-05.md)、[来源核对](../audits/AI个人学习系统_第四第五阶段复查与第六阶段来源核对_2026-10-05.md) |
+ 
+ 后续选择是否合并调用、编译更多卡或增加可视化，要由实际内容与重复成本决定。无需为修复教学先重做数据库、放宽开发程序门或增加 Agent 数量。
+--- before/docs/README.md
++++ after/docs/README.md
+@@ -1,6 +1,15 @@
+ # 文档分类索引
+ 
+-原项目顶层的 57 份文档按用途分区，文件名保持。实际 Agent／Skill 位于[实现目录](../personal-learning-suite/src/README.md)，全部项目入口见[总导航](../README.md)。
++原项目顶层的 57 份文档按用途分区，文件名保持。实际 Agent／Skill 位于[实现目录](../personal-learning-suite/src/README.md)，全部项目入口见[总导航](../README.md)。
++
++## 教学内容重构与当前验证
++
++- [六阶段执行路线与状态](implementation/AI个人学习系统_教学内容重构执行路线_v1.md)：索引各阶段修订与未验证范围。
++- [第四／第五阶段原实施记录](implementation/AI个人学习系统_教学内容重构_第四与第五阶段实施与验证_2026-10-05.md)：保留当时内容及检查结果。
++- [第四／第五阶段复查及第六阶段来源核对](audits/AI个人学习系统_第四第五阶段复查与第六阶段来源核对_2026-10-05.md)：本轮读取范围、转译、缺口及补正。
++- [第六阶段实施与验证](implementation/AI个人学习系统_教学内容重构_第六阶段实施与验证_2026-10-05.md)：实际输出、程序结果、失败重放和真实观察边界。
++
++以下数量指原顶层分类文档，不包含之后新增的修复报告。通用验证产物在套件validation，真实课程原件仍在课程工作区。
+ 
+ ## 总体架构与实施路线（5 份）
+ 
+--- before/learning/embodied-intelligence/framework-manifest.json
++++ after/learning/embodied-intelligence/framework-manifest.json
+@@ -93,7 +93,7 @@
+     },
+     {
+       "path": "../../personal-learning-suite/src/skills/learning-planning/references/multi-scale-plan.md",
+-      "sha256": "71bbf7be7a86064ed842fab21f8d778764ea3d31ce7054977604492e9ac7886d"
++      "sha256": "49b3afcd4cfdc5e8d8ef9ac8b87a9bbc948dbe4e12fa6c94dec448bf22a31522"
+     },
+     {
+       "path": "../../personal-learning-suite/src/skills/learning-planning/references/planning.md",
+@@ -129,7 +129,7 @@
+     },
+     {
+       "path": "../../personal-learning-suite/src/skills/learning-teaching/references/c0.md",
+-      "sha256": "ea4b55a1da8938826bf896f374f7d80c1496adffc38aaf35000be6727aebe7af"
++      "sha256": "fd80346b25d3fa36f070d1c042dd185839916b86e498d69f18dd89f2633aa788"
+     },
+     {
+       "path": "../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+@@ -172,12 +172,16 @@
+       "sha256": "c676a110d596bc1fdc299e75a4dda66683ca23fd83a81eb57e7a3baf12fe4779"
+     },
+     {
++      "path": "../../personal-learning-suite/src/skills/personal-learning/references/verification.md",
++      "sha256": "9868607fc327f8cd8ac34c6a969f64caf80cf108daa65ad901d96448686dbc19"
++    },
++    {
+       "path": "../../personal-learning-suite/src/skills/personal-learning/references/vertical-workflow.md",
+       "sha256": "90dcc4d46ade38d73c18705d43280c67f3ce231cc12784ef91146fa1fa3663f2"
+     },
+     {
+       "path": "../../personal-learning-suite/src/skills/personal-learning/SKILL.md",
+-      "sha256": "680a2920f87c5d5f7336c1d6524ea9565e1608dbb1f00084d1659daf5bf80729"
++      "sha256": "cc5505d10d63c1d07580bf6c74b3597011fac2512955d59df899a9a26c035d3f"
+     }
+   ]
+ }
+--- before/learning/embodied-intelligence/FRAMEWORK.md
++++ after/learning/embodied-intelligence/FRAMEWORK.md
+@@ -52,6 +52,7 @@
+ - 计划：[投入与安排](../../personal-learning-suite/src/skills/learning-planning/references/planning.md)、[恢复](../../personal-learning-suite/src/skills/learning-planning/references/recovery.md)。
+ - 课程／阶段／周取舍或缩时积压：[多尺度计划实例](../../personal-learning-suite/src/skills/learning-planning/references/multi-scale-plan.md)，四种视图共用当前目标、需求和预算；普通问答不预载四层计划。
+ - 选法：[方法适配](../../personal-learning-suite/src/skills/learning-strategies/references/selection-adaptation.md)，从具体工作发现候选，按需读完整包或未编译原卡；不预载整个策略库。Post 的 [功能与四包入口](../../personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md) 支持恢复、关系、自主选用、条件更新及组合顺序；首次实例化可参考 [方法与 Post 实例](../../personal-learning-suite/src/skills/learning-teaching/references/method-post-examples.md)。
++- 维护修复或用户明确有限试用：[验证与收口](../../personal-learning-suite/src/skills/personal-learning/references/verification.md)。内容、实际执行、真实表现与可比成本分别核；真实验证索引引用本目录现有原件，不复制个人内容到通用validation，日常问答不预载这套检查。
+ 
+ 规则文件路径及公共文件指纹登记于 framework-manifest.json。指纹用于识别规则修订，不证明学科正确或模型能力。规则变化后重新核对受影响用途，不能据“最新版本”自动撤销旧表现。
+ 
+--- before/personal-learning-suite/README.md
++++ after/personal-learning-suite/README.md
+@@ -1,8 +1,8 @@
+ # personal-learning-suite：B0—B7 开发基线
+ 
+-当前学习使用：[SK00 总入口](src/skills/personal-learning/SKILL.md)及 [开始／恢复](src/skills/personal-learning/references/session-entry.md)，真实具身智能文件模式见 [MODEL_ENTRY](../learning/embodied-intelligence/MODEL_ENTRY.md)。自然学习请求直接进入所需教学工作；四角色可顺序兼任，文件模式不要求虚构 CLI 初始化。第三阶段更新了入口与角色指导，见 [实施与验证](../docs/implementation/AI个人学习系统_教学内容重构_第三阶段实施与验证_2026-10-05.md)。以下 B0—B7 内容描述程序开发历史与技术范围，不作为人工学习的教学禁令。
++当前学习使用：[SK00 总入口](src/skills/personal-learning/SKILL.md)及 [开始／恢复](src/skills/personal-learning/references/session-entry.md)，真实具身智能文件模式见 [MODEL_ENTRY](../learning/embodied-intelligence/MODEL_ENTRY.md)。自然学习请求直接进入所需教学工作；四角色可顺序兼任，文件模式不要求虚构 CLI 初始化。六阶段指令修复及验证边界见 [最新记录](../docs/implementation/AI个人学习系统_教学内容重构_第六阶段实施与验证_2026-10-05.md)，维护或明确试用时才用 [有限验证](src/skills/personal-learning/references/verification.md)。以下 B0—B7 内容描述程序开发历史与技术范围，不作为人工学习的教学禁令。
+ 
+-共用协议 `pl-contracts/0.1.0`；B0 创建于 2026-10-02，B1—B6 更新于 2026-10-03，B7 第一切片开始于 2026-10-04。SQLite 共享记录和六个专业能力经 B5 串接；B6 增加本地串行宿主、四角色能力对象、工作单接责／采用及执行接管。B7 增加只读的试用配置及 V1—V4 验证引用检查。专业内容、评分、采用和成本仍由调用方提供。B1—B6 执行器仍只支持虚构开发输入；B7 不写个人记录或启动真实教学，七个 Skill 未安装，真实模型、课程和个人记录未绑定。下文各批描述保留历史范围，当前状态以 B7 及末节审计修复为准。
++共用协议 `pl-contracts/0.1.0`；B0 创建于 2026-10-02，B1—B6 更新于 2026-10-03，B7 第一切片开始于 2026-10-04。SQLite 共享记录和六个专业能力经 B5 串接；B6 增加本地串行宿主、四角色能力对象、工作单接责／采用及执行接管。B7 增加只读的试用配置及 V1—V4 验证引用检查。专业内容、评分、采用和成本仍由调用方提供。B1—B6 执行器仍只支持虚构开发输入；B7 不写个人记录或启动真实教学，七个 Skill 未安装，真实模型、课程和个人记录未绑定。下文各批保留程序历史范围；公开教学指令的最新修订以首段的六阶段记录为准。
+ 
+ 项目分类见[总导航](../README.md)；实际 Agent／Skill／程序入口见[实现索引](src/README.md)，设计与研究原文见[文档索引](../docs/README.md)。本套件内部相对依赖保持，演示数据库已集中到项目 `examples/workspaces`。
+ 
+--- before/personal-learning-suite/src/README.md
++++ after/personal-learning-suite/src/README.md
+@@ -1,6 +1,8 @@
+ # 实际实现入口
+ 
+ 本目录存放当前 Agent 指导、Skill 源和 Python 辅助实现。日常从 [SK00](skills/personal-learning/SKILL.md)进入；具身智能的真实人工文件学习从 [MODEL_ENTRY](../../learning/embodied-intelligence/MODEL_ENTRY.md)进入。开发规格在 specs，设计研究在 docs；文件指导可按需读取，尚未安装自包含包，Python 真实模型与个人记录承载仍未绑定。
++
++当前指令修复与实际检查见 [第六阶段记录](../../docs/implementation/AI个人学习系统_教学内容重构_第六阶段实施与验证_2026-10-05.md)。维护／明确试用时按 [有限验证](skills/personal-learning/references/verification.md)分别核内容、执行、真实学习与投入，日常课无需加载；验证报告及测试夹具留在 validation，原研究／设计留在 docs。
+ 
+ ## 四个 Agent
+ 
+--- before/personal-learning-suite/src/skills/learning-planning/references/multi-scale-plan.md
++++ after/personal-learning-suite/src/skills/learning-planning/references/multi-scale-plan.md
+@@ -12,6 +12,8 @@
+ | 会话 | 当前可靠输入、学习者操作、反馈锚点、预算、够用／停止和断点 | 本次开始、缩时、帮助或执行条件变化 | 不为每轮反馈重写上三层，不跳过必要反馈赶进度 |
+ 
+ 这四层引用现有 GoalSpec、LearningNeed、Judgment、PlanCommitment、材料／活动和 checkpoint。可在课程既有计划文件用短段落／链接表达，不另建四套数据库或掌握状态。短教学视图的合成见 [目标实例](../../learning-goals/references/goal-worked-design.md)。远期未就绪部分写暂定及细化触发，不阻塞当前合格工作。
++
++课程的真实截止日期／使用节点沿现有目标和安排读取，未知不补造，不能因内部会话延期而悄悄顺延。若目标内必要工作与剩余资源／使用日期已冲突，应具体指出不能全部完成的要求、影响及可行部分，保留正式标准；按最少受影响尺度重排。改变正式用途、期限或新增投入由用户决定，现有授权内可兑现的可靠工作仍可继续。
+ 
+ ## 已填例子：完整证明与构造，当前展开可以很短
+ 
+@@ -61,4 +63,6 @@
+ 
+ 例如目标明确要求“至少7天无相关再学习之后的重建”，虚构第0天学习、第5天又收到给出关键关系的反馈、第7天检查，就不支持那项7天条件；需回查相关操作最近接触，可在第12天或更晚且条件确实满足时再检查。若接触只给无关排版，不机械重置整份证明；若不知道期间接触，就不确认需排除再学习的保持结论。这个0／5／7／12例仅解释给定要求，不给全部课程规定7天复习。
+ 
++若同一目标还有不可自行变更的第8天使用节点，移到第12天不能解决该节点前的严格保持要求。保留第7天实际工作的有限支持，明确第8天前该条件无法由这条路径补齐；不降标宣布通过，不自动改使用日期。可靠允许资料下的当前使用可继续，但是否改变正式用途／期限需另作决定。
++
+ 日常自然使用的真实产物若已满足目标条件，可复用，不为整齐另排测验。日期到了只是进入检查的触发，提醒宿主当前未配置，不能称已经自动提醒或已经保持通过。按 [恢复与调整](recovery.md)和课程现有记录维护唯一有效承诺；提需求、接责、安排、学习和支持分别成立。
+--- before/personal-learning-suite/src/skills/learning-teaching/references/c0.md
++++ after/personal-learning-suite/src/skills/learning-teaching/references/c0.md
+@@ -24,7 +24,7 @@
+ | 内容与参考可靠 | 当前版本、对象域、条件、推导／测试与合法多解是否已有本用途所需核验；有核验路径不等于核验完成 | 停用依赖疑误内容的讲解／任务及确定评分；可靠部分可继续，交 AG2，必要时交 AG1 |
+ | 证据条件 | 资源、暴露、训练关系、目标实际要求的时间／情境是否相容 | 限相关用途；保留其他可观察工作 |
+ 
+-本助手检查引用和声明，不能独立证明任务内容正确或发现所有未标注的语义／视觉泄露。AG2 的内容核验与用途核验必须支持当前活动；远期资料未齐不阻止已准备范围。准备往返没有新信息时汇总具体缺项、用途影响、可行替代与责任方，停止重复索完整方案。
++B3b 程序辅助器检查引用和声明，不能独立证明任务内容正确或发现所有未标注的语义／视觉泄露。人工教学仍须实际核对内容、呈现与参考；AG2 的内容核验与用途核验必须支持当前活动，远期资料未齐不阻止已准备范围。准备往返没有新信息时汇总具体缺项、用途影响、可行替代与责任方，停止重复索完整方案。
+ 
+ ## 原答、帮助与反馈
+ 
+@@ -51,7 +51,7 @@
+ 
+ ## 局部修复与父任务
+ 
+-进入修复前保存 ParentTask 的父活动、规范 parent_artifact、blocker、entry_basis_refs、alternative_explanations、local_sufficiency、return_connection 与 budget_ref。简单活动显式不适用；不能只存父任务标题。
++进入修复前保留同一父产物的位置、实际卡点原答、已有帮助、仍可能的解释、局部够用条件、返回连接与剩余预算。人工文件模式可用原件引用和短段落，不要求学习者填内部字段。实际调用 B3b 时这些含义对应 ParentTask 的父活动、parent_artifact、blocker、entry_basis_refs、alternative_explanations、local_sufficiency、return_connection 与 budget_ref；简单活动可明确不适用，不能只存父任务标题。
+ 
+ 局部工作达到父任务所需程度即返回同一未完成产物，保留实际帮助、接触与原答。原题可以用来修订，但已暴露关键答案后不能当作新独立证据。父任务仍失败时保留局部成功，检查综合组织、识别、新前置或原解释，必要时收束；不靠子项打勾宣称整体通过。
+ 
+@@ -61,7 +61,7 @@
+ 
+ 收束记录实际完成／未完成、原答位置、帮助和条件、父产物与下一连接、停止原因、受限用途、必要责任和触发。预算须容纳必要反馈与收束；只剩收束时间则停止新展开。缩时仅改变当前范围，不能降低正式目标／判据或自动把所有未做项排到明天。
+ 
+-本次活动完成与目标能力结论是不同决定。仅未来必要条件尚未满足时可以结束当前教学；未纳入目标的保持／迁移不建立欠账。已有合格原答可直接交评估，不重复考。本批不实现 B3a 评估，C0 尚未接入正式评分／诊断；对原答、帮助、条件的说明保持事实／候选，不产正式 Judgment 或 DiagnosticNote。
++本次活动完成与目标能力结论是不同决定。仅未来必要条件尚未满足时可以结束当前教学；未纳入目标的保持／迁移不建立欠账。已有合格原答可直接交评估，不重复考。人工教学在有效授权、可靠判据与真实原件具备时按 [SK04](../../learning-assessment/SKILL.md)作相称评价，重要或争议结论按其复核边界处理。B3b 程序辅助器本身仅保存教学事实／候选，不自动产出正式 Judgment 或 DiagnosticNote；这是该开发服务的职责边界，不是人工教学的评分禁令。
+ 
+ LearningNeed 仅表达目标内必要工作：目标和要求、尚缺内容、已有事实、现在考虑的理由、不做影响、必要条件与时窗、原答／帮助／材料／父任务引用。相同缺口更新同一需求；不按答错次数或卡片创建平行队列。发出未获回执写待接收，收到但未承担写未接责，接责未处理写待处理并给责任和下一触发。没有有效 PlanCommitment 不能显示已安排；B3b 不代 AG1 作计划处置。
+ 
+--- before/personal-learning-suite/src/skills/personal-learning/SKILL.md
++++ after/personal-learning-suite/src/skills/personal-learning/SKILL.md
+@@ -41,3 +41,4 @@
+ 只有维护、调试或显式调用 synthetic 程序时才读 [入口控制命令](references/entry-controls.md)、[纵向工作流](references/vertical-workflow.md)、[受控宿主](references/network-host.md)。Python／SQLite 接口仍只支持虚构开发记录，start/resume 的只读定位结果不裁定人工教学能否开始；不得把真实原答标为 synthetic 来通过程序门。
+ 
+ 本文件可作为跨模型文件指导读取，尚未构建为自包含安装包。当前修改与分期开发历史见 [第三阶段实施记录](../../../../docs/implementation/AI个人学习系统_教学内容重构_第三阶段实施与验证_2026-10-05.md)。
++维护修复或用户明确有限试用时按 [验证与收口](references/verification.md)分别核内容、实际教学、真实表现与投入；日常问答不预载验证工程。最新修复与验证边界见 [第六阶段记录](../../../../docs/implementation/AI个人学习系统_教学内容重构_第六阶段实施与验证_2026-10-05.md)。
+--- before/README.md
++++ after/README.md
+@@ -2,7 +2,7 @@
+ 
+ 本目录将运行套件、设计研究、演示数据与维护记录分开。需要使用或修改 Agent／Skill 时，从 `personal-learning-suite` 开始；需要理解设计依据时，从 `docs` 开始。
+ 
+-开始／继续具身智能学习可直接复制 [启动提示词](learning/embodied-intelligence/START_PROMPT.md)。当前入口与角色已按 [重构路线](docs/implementation/AI个人学习系统_教学内容重构执行路线_v1.md)完成第三阶段，具体修改、来源核对与验证边界见 [第三阶段记录](docs/implementation/AI个人学习系统_教学内容重构_第三阶段实施与验证_2026-10-05.md)。
++开始／继续具身智能学习可直接复制 [启动提示词](learning/embodied-intelligence/START_PROMPT.md)。当前公开指令与导航已按 [重构路线](docs/implementation/AI个人学习系统_教学内容重构执行路线_v1.md)推进到第六阶段，具体修改、来源复查与验证边界见 [第六阶段记录](docs/implementation/AI个人学习系统_教学内容重构_第六阶段实施与验证_2026-10-05.md)。程序和虚构教学内容核查不替代真实学习效果。
+ 
+ ## 去哪里找什么
+ 

@@ -1,0 +1,2026 @@
+{
+  "batch": "B4-teaching",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "workspace": "E:\\文献资料\\学习系统架构设计\\B4_虚构专项教学学习空间",
+  "existing_workspace": false,
+  "write_receipts": [
+    {
+      "status": "committed",
+      "state_revision": 0,
+      "reasons": [],
+      "synthetic_only": true,
+      "initialized": true
+    },
+    {
+      "status": "committed",
+      "state_revision": 1,
+      "reasons": [],
+      "affected_ids": [
+        "FIX-activity",
+        "FIX-b2b-material-grant",
+        "FIX-b2b-material-work",
+        "FIX-b3b-teaching-grant",
+        "FIX-budget",
+        "FIX-change",
+        "FIX-checkpoint",
+        "FIX-content-source",
+        "FIX-control",
+        "FIX-correction",
+        "FIX-diagnostic",
+        "FIX-edge",
+        "FIX-event",
+        "FIX-evidence-grant",
+        "FIX-goal",
+        "FIX-instance",
+        "FIX-judgment",
+        "FIX-material",
+        "FIX-method",
+        "FIX-need",
+        "FIX-parent-activity",
+        "FIX-plan",
+        "FIX-requirement-source",
+        "FIX-restriction",
+        "FIX-result",
+        "FIX-scoring-grant",
+        "FIX-user-grant",
+        "FIX-validation",
+        "FIX-work-order"
+      ],
+      "object_count": 29,
+      "artifact_count": 2,
+      "synthetic_only": true
+    },
+    {
+      "status": "committed",
+      "synthetic_only": true,
+      "mutated": true,
+      "scoring": "not_executed",
+      "judgment_created": false,
+      "new_test_created": false,
+      "reasons": [],
+      "specialization_version": "pl-teaching-b4/0.1.0",
+      "state_revision": 2,
+      "affected_ids": [
+        "FIX-b4-event"
+      ],
+      "object_count": 1,
+      "artifact_count": 1,
+      "event_ref": {
+        "id": "FIX-b4-event",
+        "revision": 1
+      },
+      "factual_conditions": {
+        "displayed_help": {
+          "status": "known",
+          "value": []
+        },
+        "unrecorded_help": {
+          "status": "unknown",
+          "reason": "Unrecorded help and contact are not inferred from the record."
+        },
+        "unknown_visibility": false,
+        "substituted_operations": [],
+        "independent_support": "not_assessed"
+      },
+      "parent_help_history_refs": [
+        {
+          "id": "FIX-event",
+          "revision": 1
+        }
+      ],
+      "parent_help_conditions": [
+        {
+          "event_ref": {
+            "id": "FIX-event",
+            "revision": 1
+          },
+          "conditions": {
+            "displayed_help": {
+              "status": "known",
+              "value": [
+                {
+                  "sequence": 2,
+                  "kind": "help",
+                  "target_operations": [
+                    "connect-P-to-Q"
+                  ],
+                  "substituted_operations": [
+                    "connect-P-to-Q"
+                  ],
+                  "artifact_ref": null
+                }
+              ]
+            },
+            "unrecorded_help": {
+              "status": "unknown",
+              "reason": "Unrecorded help and contact are not inferred from the record."
+            },
+            "unknown_visibility": false,
+            "substituted_operations": [
+              "connect-P-to-Q"
+            ],
+            "independent_support": "not_assessed"
+          }
+        }
+      ],
+      "assessment_handoff": {
+        "status": "ready_for_inspection",
+        "event_ref": {
+          "id": "FIX-b4-event",
+          "revision": 1
+        },
+        "response_point": {
+          "event_ref": {
+            "id": "FIX-b4-event",
+            "revision": 1
+          },
+          "kind": "initial_response",
+          "sequence": 1
+        },
+        "material_context": {
+          "goal_refs": [
+            {
+              "id": "FIX-goal",
+              "revision": 1
+            }
+          ],
+          "activity_ref": {
+            "id": "FIX-activity",
+            "revision": 1
+          },
+          "intended_use": "independent_check",
+          "purpose": "independent",
+          "required_modalities": [
+            "text",
+            "formula"
+          ],
+          "conditions": [
+            "人工虚构给定前提",
+            "初答前不给连接理由"
+          ]
+        },
+        "timeline_completeness": {
+          "status": "unknown",
+          "reason": "The caller has not declared a complete contact and help timeline."
+        },
+        "assessment_called": false,
+        "judgment_created": false
+      }
+    },
+    {
+      "status": "committed",
+      "synthetic_only": true,
+      "mutated": true,
+      "scoring": "not_executed",
+      "judgment_created": false,
+      "new_test_created": false,
+      "reasons": [],
+      "specialization_version": "pl-teaching-b4/0.1.0",
+      "state_revision": 3,
+      "affected_ids": [
+        "FIX-b4-event"
+      ],
+      "object_count": 1,
+      "artifact_count": 1,
+      "event_ref": {
+        "id": "FIX-b4-event",
+        "revision": 2
+      },
+      "factual_conditions": {
+        "displayed_help": {
+          "status": "known",
+          "value": [
+            {
+              "sequence": 2,
+              "kind": "help",
+              "target_operations": [
+                "connect-P-to-Q"
+              ],
+              "substituted_operations": [],
+              "artifact_ref": {
+                "path": "c0/FIX-b4-event/help-2.md",
+                "locator": "C0-help-2",
+                "revision": 1,
+                "origin": "synthetic_fixture"
+              }
+            }
+          ]
+        },
+        "unrecorded_help": {
+          "status": "unknown",
+          "reason": "Unrecorded help and contact are not inferred from the record."
+        },
+        "unknown_visibility": false,
+        "substituted_operations": [],
+        "independent_support": "not_assessed"
+      }
+    },
+    {
+      "status": "committed",
+      "synthetic_only": true,
+      "mutated": true,
+      "scoring": "not_executed",
+      "judgment_created": false,
+      "new_test_created": false,
+      "reasons": [],
+      "specialization_version": "pl-teaching-b4/0.1.0",
+      "state_revision": 4,
+      "affected_ids": [
+        "FIX-b4-event"
+      ],
+      "object_count": 1,
+      "artifact_count": 1,
+      "event_ref": {
+        "id": "FIX-b4-event",
+        "revision": 3
+      },
+      "factual_conditions": {
+        "displayed_help": {
+          "status": "known",
+          "value": [
+            {
+              "sequence": 2,
+              "kind": "help",
+              "target_operations": [
+                "connect-P-to-Q"
+              ],
+              "substituted_operations": [],
+              "artifact_ref": {
+                "locator": "C0-help-2",
+                "origin": "synthetic_fixture",
+                "path": "c0/FIX-b4-event/help-2.md",
+                "revision": 1
+              }
+            }
+          ]
+        },
+        "unrecorded_help": {
+          "status": "unknown",
+          "reason": "Unrecorded help and contact are not inferred from the record."
+        },
+        "unknown_visibility": false,
+        "substituted_operations": [],
+        "independent_support": "not_assessed"
+      },
+      "assessment_handoff": {
+        "status": "ready_for_inspection",
+        "event_ref": {
+          "id": "FIX-b4-event",
+          "revision": 3
+        },
+        "response_point": {
+          "event_ref": {
+            "id": "FIX-b4-event",
+            "revision": 3
+          },
+          "kind": "revision",
+          "sequence": 3
+        },
+        "material_context": {
+          "goal_refs": [
+            {
+              "id": "FIX-goal",
+              "revision": 1
+            }
+          ],
+          "activity_ref": {
+            "id": "FIX-activity",
+            "revision": 1
+          },
+          "intended_use": "independent_check",
+          "purpose": "independent",
+          "required_modalities": [
+            "text",
+            "formula"
+          ],
+          "conditions": [
+            "人工虚构给定前提",
+            "初答前不给连接理由"
+          ]
+        },
+        "timeline_completeness": {
+          "reason": "The caller has not declared a complete contact and help timeline.",
+          "status": "unknown"
+        },
+        "assessment_called": false,
+        "judgment_created": false
+      }
+    },
+    {
+      "status": "committed",
+      "synthetic_only": true,
+      "mutated": true,
+      "scoring": "not_executed",
+      "judgment_created": false,
+      "new_test_created": false,
+      "reasons": [],
+      "specialization_version": "pl-teaching-b4/0.1.0",
+      "state_revision": 5,
+      "affected_ids": [
+        "FIX-b4-event"
+      ],
+      "object_count": 1,
+      "artifact_count": 0,
+      "event_ref": {
+        "id": "FIX-b4-event",
+        "revision": 4
+      },
+      "specialization": {
+        "module": "encoding",
+        "overall_support": "not_assessed",
+        "stack": [
+          {
+            "from_module": "post",
+            "module": "encoding",
+            "parent_activity_ref": {
+              "id": "FIX-activity",
+              "revision": 1
+            },
+            "parent_artifact": {
+              "end_line": 2,
+              "locator": "B4-supplied-revision",
+              "origin": "synthetic_fixture",
+              "path": "b4-supplied-revision.md",
+              "revision": 1,
+              "start_line": 1
+            },
+            "parent_task": {
+              "status": "known",
+              "value": {
+                "alternative_explanations": [
+                  "可能仅省略表达"
+                ],
+                "blocker": "第一步理由未写出",
+                "budget_ref": {
+                  "id": "FIX-budget",
+                  "revision": 1
+                },
+                "entry_basis_refs": [
+                  {
+                    "id": "FIX-event",
+                    "revision": 1
+                  }
+                ],
+                "local_sufficiency": "帮助后能实际运用第一步连接",
+                "parent_activity_ref": {
+                  "id": "FIX-parent-activity",
+                  "revision": 1
+                },
+                "parent_artifact": {
+                  "locator": "虚构父产物",
+                  "origin": "synthetic_fixture",
+                  "path": "originals.md",
+                  "revision": 1
+                },
+                "return_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审"
+              }
+            },
+            "budget_ref": {
+              "id": "FIX-budget",
+              "revision": 1
+            },
+            "entry_sequence": 4,
+            "operations": [
+              "connect-P-to-Q"
+            ],
+            "reason": "供给前提后本人工修订仍未连接，进入有限关系工作",
+            "blocker": "人工修订未写连接",
+            "local_sufficiency": "实际使用前提写出连接理由",
+            "return_connection": "返回同一父产物的当前连接，保留整体未完成",
+            "alternative_explanations": [
+              "可能只省略表达",
+              "可能尚未连接"
+            ],
+            "preserved_support_refs": [
+              {
+                "id": "FIX-judgment",
+                "revision": 1
+              }
+            ],
+            "premises_supplied": {
+              "status": "known",
+              "value": true
+            },
+            "observation": {
+              "artifact_ref": {
+                "path": "b4-supplied-revision.md",
+                "locator": "B4-supplied-revision",
+                "revision": 1,
+                "origin": "synthetic_fixture",
+                "start_line": 1,
+                "end_line": 2
+              },
+              "quote": "已看到前提，仍只写 Q。"
+            }
+          }
+        ],
+        "transition_history": [
+          {
+            "kind": "enter_local",
+            "sequence": 4,
+            "frame": {
+              "from_module": "post",
+              "module": "encoding",
+              "parent_activity_ref": {
+                "id": "FIX-activity",
+                "revision": 1
+              },
+              "parent_artifact": {
+                "end_line": 2,
+                "locator": "B4-supplied-revision",
+                "origin": "synthetic_fixture",
+                "path": "b4-supplied-revision.md",
+                "revision": 1,
+                "start_line": 1
+              },
+              "parent_task": {
+                "status": "known",
+                "value": {
+                  "alternative_explanations": [
+                    "可能仅省略表达"
+                  ],
+                  "blocker": "第一步理由未写出",
+                  "budget_ref": {
+                    "id": "FIX-budget",
+                    "revision": 1
+                  },
+                  "entry_basis_refs": [
+                    {
+                      "id": "FIX-event",
+                      "revision": 1
+                    }
+                  ],
+                  "local_sufficiency": "帮助后能实际运用第一步连接",
+                  "parent_activity_ref": {
+                    "id": "FIX-parent-activity",
+                    "revision": 1
+                  },
+                  "parent_artifact": {
+                    "locator": "虚构父产物",
+                    "origin": "synthetic_fixture",
+                    "path": "originals.md",
+                    "revision": 1
+                  },
+                  "return_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审"
+                }
+              },
+              "budget_ref": {
+                "id": "FIX-budget",
+                "revision": 1
+              },
+              "entry_sequence": 4,
+              "operations": [
+                "connect-P-to-Q"
+              ],
+              "reason": "供给前提后本人工修订仍未连接，进入有限关系工作",
+              "blocker": "人工修订未写连接",
+              "local_sufficiency": "实际使用前提写出连接理由",
+              "return_connection": "返回同一父产物的当前连接，保留整体未完成",
+              "alternative_explanations": [
+                "可能只省略表达",
+                "可能尚未连接"
+              ],
+              "preserved_support_refs": [
+                {
+                  "id": "FIX-judgment",
+                  "revision": 1
+                }
+              ],
+              "premises_supplied": {
+                "status": "known",
+                "value": true
+              },
+              "observation": {
+                "artifact_ref": {
+                  "path": "b4-supplied-revision.md",
+                  "locator": "B4-supplied-revision",
+                  "revision": 1,
+                  "origin": "synthetic_fixture",
+                  "start_line": 1,
+                  "end_line": 2
+                },
+                "quote": "已看到前提，仍只写 Q。"
+              }
+            }
+          }
+        ],
+        "version": "pl-teaching-b4/0.1.0"
+      },
+      "factual_conditions": {
+        "displayed_help": {
+          "status": "known",
+          "value": [
+            {
+              "sequence": 2,
+              "kind": "help",
+              "target_operations": [
+                "connect-P-to-Q"
+              ],
+              "substituted_operations": [],
+              "artifact_ref": {
+                "locator": "C0-help-2",
+                "origin": "synthetic_fixture",
+                "path": "c0/FIX-b4-event/help-2.md",
+                "revision": 1
+              }
+            }
+          ]
+        },
+        "unrecorded_help": {
+          "status": "unknown",
+          "reason": "Unrecorded help and contact are not inferred from the record."
+        },
+        "unknown_visibility": false,
+        "substituted_operations": [],
+        "independent_support": "not_assessed"
+      },
+      "next_action": "perform_declared_local_work",
+      "parent_artifact": {
+        "end_line": 2,
+        "locator": "B4-supplied-revision",
+        "origin": "synthetic_fixture",
+        "path": "b4-supplied-revision.md",
+        "revision": 1,
+        "start_line": 1
+      },
+      "overall_support": "not_assessed"
+    },
+    {
+      "status": "committed",
+      "synthetic_only": true,
+      "mutated": true,
+      "scoring": "not_executed",
+      "judgment_created": false,
+      "new_test_created": false,
+      "reasons": [],
+      "specialization_version": "pl-teaching-b4/0.1.0",
+      "state_revision": 6,
+      "affected_ids": [
+        "FIX-b4-demo-middle-checkpoint"
+      ],
+      "object_count": 1,
+      "artifact_count": 0,
+      "event_ref": {
+        "id": "FIX-b4-event",
+        "revision": 4
+      },
+      "checkpoint_ref": {
+        "id": "FIX-b4-demo-middle-checkpoint",
+        "revision": 1
+      },
+      "parent_artifact": {
+        "locator": "虚构父产物",
+        "origin": "synthetic_fixture",
+        "path": "originals.md",
+        "revision": 1
+      },
+      "return_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审",
+      "unfinished_requirement_ids": []
+    },
+    {
+      "status": "committed",
+      "synthetic_only": true,
+      "mutated": true,
+      "scoring": "not_executed",
+      "judgment_created": false,
+      "new_test_created": false,
+      "reasons": [],
+      "specialization_version": "pl-teaching-b4/0.1.0",
+      "state_revision": 7,
+      "affected_ids": [
+        "FIX-b4-event"
+      ],
+      "object_count": 1,
+      "artifact_count": 1,
+      "event_ref": {
+        "id": "FIX-b4-event",
+        "revision": 5
+      },
+      "factual_conditions": {
+        "displayed_help": {
+          "status": "known",
+          "value": [
+            {
+              "sequence": 2,
+              "kind": "help",
+              "target_operations": [
+                "connect-P-to-Q"
+              ],
+              "substituted_operations": [],
+              "artifact_ref": {
+                "locator": "C0-help-2",
+                "origin": "synthetic_fixture",
+                "path": "c0/FIX-b4-event/help-2.md",
+                "revision": 1
+              }
+            }
+          ]
+        },
+        "unrecorded_help": {
+          "status": "unknown",
+          "reason": "Unrecorded help and contact are not inferred from the record."
+        },
+        "unknown_visibility": false,
+        "substituted_operations": [],
+        "independent_support": "not_assessed"
+      },
+      "assessment_handoff": {
+        "status": "ready_for_inspection",
+        "event_ref": {
+          "id": "FIX-b4-event",
+          "revision": 5
+        },
+        "response_point": {
+          "event_ref": {
+            "id": "FIX-b4-event",
+            "revision": 5
+          },
+          "kind": "revision",
+          "sequence": 5
+        },
+        "material_context": {
+          "goal_refs": [
+            {
+              "id": "FIX-goal",
+              "revision": 1
+            }
+          ],
+          "activity_ref": {
+            "id": "FIX-activity",
+            "revision": 1
+          },
+          "intended_use": "independent_check",
+          "purpose": "independent",
+          "required_modalities": [
+            "text",
+            "formula"
+          ],
+          "conditions": [
+            "人工虚构给定前提",
+            "初答前不给连接理由"
+          ]
+        },
+        "timeline_completeness": {
+          "reason": "The caller has not declared a complete contact and help timeline.",
+          "status": "unknown"
+        },
+        "assessment_called": false,
+        "judgment_created": false
+      }
+    },
+    {
+      "status": "committed",
+      "synthetic_only": true,
+      "mutated": true,
+      "scoring": "not_executed",
+      "judgment_created": false,
+      "new_test_created": false,
+      "reasons": [],
+      "specialization_version": "pl-teaching-b4/0.1.0",
+      "state_revision": 8,
+      "affected_ids": [
+        "FIX-b4-event"
+      ],
+      "object_count": 1,
+      "artifact_count": 0,
+      "event_ref": {
+        "id": "FIX-b4-event",
+        "revision": 6
+      },
+      "specialization": {
+        "module": "post",
+        "overall_support": "not_assessed",
+        "stack": [],
+        "transition_history": [
+          {
+            "frame": {
+              "alternative_explanations": [
+                "可能只省略表达",
+                "可能尚未连接"
+              ],
+              "blocker": "人工修订未写连接",
+              "budget_ref": {
+                "id": "FIX-budget",
+                "revision": 1
+              },
+              "entry_sequence": 4,
+              "from_module": "post",
+              "local_sufficiency": "实际使用前提写出连接理由",
+              "module": "encoding",
+              "observation": {
+                "artifact_ref": {
+                  "end_line": 2,
+                  "locator": "B4-supplied-revision",
+                  "origin": "synthetic_fixture",
+                  "path": "b4-supplied-revision.md",
+                  "revision": 1,
+                  "start_line": 1
+                },
+                "quote": "已看到前提，仍只写 Q。"
+              },
+              "operations": [
+                "connect-P-to-Q"
+              ],
+              "parent_activity_ref": {
+                "id": "FIX-activity",
+                "revision": 1
+              },
+              "parent_artifact": {
+                "end_line": 2,
+                "locator": "B4-supplied-revision",
+                "origin": "synthetic_fixture",
+                "path": "b4-supplied-revision.md",
+                "revision": 1,
+                "start_line": 1
+              },
+              "parent_task": {
+                "status": "known",
+                "value": {
+                  "alternative_explanations": [
+                    "可能仅省略表达"
+                  ],
+                  "blocker": "第一步理由未写出",
+                  "budget_ref": {
+                    "id": "FIX-budget",
+                    "revision": 1
+                  },
+                  "entry_basis_refs": [
+                    {
+                      "id": "FIX-event",
+                      "revision": 1
+                    }
+                  ],
+                  "local_sufficiency": "帮助后能实际运用第一步连接",
+                  "parent_activity_ref": {
+                    "id": "FIX-parent-activity",
+                    "revision": 1
+                  },
+                  "parent_artifact": {
+                    "locator": "虚构父产物",
+                    "origin": "synthetic_fixture",
+                    "path": "originals.md",
+                    "revision": 1
+                  },
+                  "return_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审"
+                }
+              },
+              "premises_supplied": {
+                "status": "known",
+                "value": true
+              },
+              "preserved_support_refs": [
+                {
+                  "id": "FIX-judgment",
+                  "revision": 1
+                }
+              ],
+              "reason": "供给前提后本人工修订仍未连接，进入有限关系工作",
+              "return_connection": "返回同一父产物的当前连接，保留整体未完成"
+            },
+            "kind": "enter_local",
+            "sequence": 4
+          },
+          {
+            "kind": "return_local",
+            "sequence": 6,
+            "module": "post",
+            "parent_frame": {
+              "alternative_explanations": [
+                "可能只省略表达",
+                "可能尚未连接"
+              ],
+              "blocker": "人工修订未写连接",
+              "budget_ref": {
+                "id": "FIX-budget",
+                "revision": 1
+              },
+              "entry_sequence": 4,
+              "from_module": "post",
+              "local_sufficiency": "实际使用前提写出连接理由",
+              "module": "encoding",
+              "observation": {
+                "artifact_ref": {
+                  "end_line": 2,
+                  "locator": "B4-supplied-revision",
+                  "origin": "synthetic_fixture",
+                  "path": "b4-supplied-revision.md",
+                  "revision": 1,
+                  "start_line": 1
+                },
+                "quote": "已看到前提，仍只写 Q。"
+              },
+              "operations": [
+                "connect-P-to-Q"
+              ],
+              "parent_activity_ref": {
+                "id": "FIX-activity",
+                "revision": 1
+              },
+              "parent_artifact": {
+                "end_line": 2,
+                "locator": "B4-supplied-revision",
+                "origin": "synthetic_fixture",
+                "path": "b4-supplied-revision.md",
+                "revision": 1,
+                "start_line": 1
+              },
+              "parent_task": {
+                "status": "known",
+                "value": {
+                  "alternative_explanations": [
+                    "可能仅省略表达"
+                  ],
+                  "blocker": "第一步理由未写出",
+                  "budget_ref": {
+                    "id": "FIX-budget",
+                    "revision": 1
+                  },
+                  "entry_basis_refs": [
+                    {
+                      "id": "FIX-event",
+                      "revision": 1
+                    }
+                  ],
+                  "local_sufficiency": "帮助后能实际运用第一步连接",
+                  "parent_activity_ref": {
+                    "id": "FIX-parent-activity",
+                    "revision": 1
+                  },
+                  "parent_artifact": {
+                    "locator": "虚构父产物",
+                    "origin": "synthetic_fixture",
+                    "path": "originals.md",
+                    "revision": 1
+                  },
+                  "return_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审"
+                }
+              },
+              "premises_supplied": {
+                "status": "known",
+                "value": true
+              },
+              "preserved_support_refs": [
+                {
+                  "id": "FIX-judgment",
+                  "revision": 1
+                }
+              ],
+              "reason": "供给前提后本人工修订仍未连接，进入有限关系工作",
+              "return_connection": "返回同一父产物的当前连接，保留整体未完成"
+            },
+            "local_outcome": "sufficient",
+            "local_response_sequence": 5,
+            "parent_outcome": "still_blocked",
+            "overall_support": "not_assessed",
+            "goal_conditions": "not_reassessed"
+          }
+        ],
+        "version": "pl-teaching-b4/0.1.0"
+      },
+      "factual_conditions": {
+        "displayed_help": {
+          "status": "known",
+          "value": [
+            {
+              "sequence": 2,
+              "kind": "help",
+              "target_operations": [
+                "connect-P-to-Q"
+              ],
+              "substituted_operations": [],
+              "artifact_ref": {
+                "locator": "C0-help-2",
+                "origin": "synthetic_fixture",
+                "path": "c0/FIX-b4-event/help-2.md",
+                "revision": 1
+              }
+            }
+          ]
+        },
+        "unrecorded_help": {
+          "status": "unknown",
+          "reason": "Unrecorded help and contact are not inferred from the record."
+        },
+        "unknown_visibility": false,
+        "substituted_operations": [],
+        "independent_support": "not_assessed"
+      },
+      "next_action": "review_interfaces_or_close",
+      "parent_artifact": {
+        "end_line": 2,
+        "locator": "B4-supplied-revision",
+        "origin": "synthetic_fixture",
+        "path": "b4-supplied-revision.md",
+        "revision": 1,
+        "start_line": 1
+      },
+      "overall_support": "not_assessed"
+    },
+    {
+      "status": "committed",
+      "synthetic_only": true,
+      "mutated": true,
+      "scoring": "not_executed",
+      "judgment_created": false,
+      "new_test_created": false,
+      "reasons": [],
+      "specialization_version": "pl-teaching-b4/0.1.0",
+      "state_revision": 9,
+      "affected_ids": [
+        "FIX-b4-demo-final-checkpoint",
+        "FIX-b4-event"
+      ],
+      "object_count": 2,
+      "artifact_count": 0,
+      "event_ref": {
+        "id": "FIX-b4-event",
+        "revision": 7
+      },
+      "checkpoint_ref": {
+        "id": "FIX-b4-demo-final-checkpoint",
+        "revision": 1
+      },
+      "parent_artifact": {
+        "locator": "虚构父产物",
+        "origin": "synthetic_fixture",
+        "path": "originals.md",
+        "revision": 1
+      },
+      "return_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审",
+      "unfinished_requirement_ids": [
+        "infer-Q"
+      ],
+      "learning_need_candidate": {
+        "existing_need_ref": {
+          "id": "FIX-need",
+          "revision": 1
+        },
+        "status": "candidate",
+        "additional_event_ref": {
+          "id": "FIX-b4-event",
+          "revision": 7
+        },
+        "unfinished_requirement_ids": [
+          "infer-Q"
+        ],
+        "acceptance_changed": false,
+        "disposition_changed": false
+      },
+      "existing_need_ref": {
+        "id": "FIX-need",
+        "revision": 1
+      }
+    }
+  ],
+  "state_revision": 9,
+  "object_count": 32,
+  "event_ref": {
+    "id": "FIX-b4-event",
+    "revision": 7
+  },
+  "sample_id": "FIX-b4-sample",
+  "expected_synthetic_sample_id": "FIX-b4-sample",
+  "timeline_kinds": [
+    "initial_response",
+    "help",
+    "revision",
+    "enter_local",
+    "revision",
+    "return_local"
+  ],
+  "specialization": {
+    "module": "post",
+    "overall_support": "not_assessed",
+    "stack": [],
+    "transition_history": [
+      {
+        "frame": {
+          "alternative_explanations": [
+            "可能只省略表达",
+            "可能尚未连接"
+          ],
+          "blocker": "人工修订未写连接",
+          "budget_ref": {
+            "id": "FIX-budget",
+            "revision": 1
+          },
+          "entry_sequence": 4,
+          "from_module": "post",
+          "local_sufficiency": "实际使用前提写出连接理由",
+          "module": "encoding",
+          "observation": {
+            "artifact_ref": {
+              "end_line": 2,
+              "locator": "B4-supplied-revision",
+              "origin": "synthetic_fixture",
+              "path": "b4-supplied-revision.md",
+              "revision": 1,
+              "start_line": 1
+            },
+            "quote": "已看到前提，仍只写 Q。"
+          },
+          "operations": [
+            "connect-P-to-Q"
+          ],
+          "parent_activity_ref": {
+            "id": "FIX-activity",
+            "revision": 1
+          },
+          "parent_artifact": {
+            "end_line": 2,
+            "locator": "B4-supplied-revision",
+            "origin": "synthetic_fixture",
+            "path": "b4-supplied-revision.md",
+            "revision": 1,
+            "start_line": 1
+          },
+          "parent_task": {
+            "status": "known",
+            "value": {
+              "alternative_explanations": [
+                "可能仅省略表达"
+              ],
+              "blocker": "第一步理由未写出",
+              "budget_ref": {
+                "id": "FIX-budget",
+                "revision": 1
+              },
+              "entry_basis_refs": [
+                {
+                  "id": "FIX-event",
+                  "revision": 1
+                }
+              ],
+              "local_sufficiency": "帮助后能实际运用第一步连接",
+              "parent_activity_ref": {
+                "id": "FIX-parent-activity",
+                "revision": 1
+              },
+              "parent_artifact": {
+                "locator": "虚构父产物",
+                "origin": "synthetic_fixture",
+                "path": "originals.md",
+                "revision": 1
+              },
+              "return_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审"
+            }
+          },
+          "premises_supplied": {
+            "status": "known",
+            "value": true
+          },
+          "preserved_support_refs": [
+            {
+              "id": "FIX-judgment",
+              "revision": 1
+            }
+          ],
+          "reason": "供给前提后本人工修订仍未连接，进入有限关系工作",
+          "return_connection": "返回同一父产物的当前连接，保留整体未完成"
+        },
+        "kind": "enter_local",
+        "sequence": 4
+      },
+      {
+        "goal_conditions": "not_reassessed",
+        "kind": "return_local",
+        "local_outcome": "sufficient",
+        "local_response_sequence": 5,
+        "module": "post",
+        "overall_support": "not_assessed",
+        "parent_frame": {
+          "alternative_explanations": [
+            "可能只省略表达",
+            "可能尚未连接"
+          ],
+          "blocker": "人工修订未写连接",
+          "budget_ref": {
+            "id": "FIX-budget",
+            "revision": 1
+          },
+          "entry_sequence": 4,
+          "from_module": "post",
+          "local_sufficiency": "实际使用前提写出连接理由",
+          "module": "encoding",
+          "observation": {
+            "artifact_ref": {
+              "end_line": 2,
+              "locator": "B4-supplied-revision",
+              "origin": "synthetic_fixture",
+              "path": "b4-supplied-revision.md",
+              "revision": 1,
+              "start_line": 1
+            },
+            "quote": "已看到前提，仍只写 Q。"
+          },
+          "operations": [
+            "connect-P-to-Q"
+          ],
+          "parent_activity_ref": {
+            "id": "FIX-activity",
+            "revision": 1
+          },
+          "parent_artifact": {
+            "end_line": 2,
+            "locator": "B4-supplied-revision",
+            "origin": "synthetic_fixture",
+            "path": "b4-supplied-revision.md",
+            "revision": 1,
+            "start_line": 1
+          },
+          "parent_task": {
+            "status": "known",
+            "value": {
+              "alternative_explanations": [
+                "可能仅省略表达"
+              ],
+              "blocker": "第一步理由未写出",
+              "budget_ref": {
+                "id": "FIX-budget",
+                "revision": 1
+              },
+              "entry_basis_refs": [
+                {
+                  "id": "FIX-event",
+                  "revision": 1
+                }
+              ],
+              "local_sufficiency": "帮助后能实际运用第一步连接",
+              "parent_activity_ref": {
+                "id": "FIX-parent-activity",
+                "revision": 1
+              },
+              "parent_artifact": {
+                "locator": "虚构父产物",
+                "origin": "synthetic_fixture",
+                "path": "originals.md",
+                "revision": 1
+              },
+              "return_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审"
+            }
+          },
+          "premises_supplied": {
+            "status": "known",
+            "value": true
+          },
+          "preserved_support_refs": [
+            {
+              "id": "FIX-judgment",
+              "revision": 1
+            }
+          ],
+          "reason": "供给前提后本人工修订仍未连接，进入有限关系工作",
+          "return_connection": "返回同一父产物的当前连接，保留整体未完成"
+        },
+        "parent_outcome": "still_blocked",
+        "sequence": 6
+      }
+    ],
+    "version": "pl-teaching-b4/0.1.0"
+  },
+  "middle_recovery": {
+    "status": "ready",
+    "synthetic_only": true,
+    "mutated": false,
+    "scoring": "not_executed",
+    "judgment_created": false,
+    "new_test_created": false,
+    "reasons": [],
+    "specialization_version": "pl-teaching-b4/0.1.0",
+    "state_revision": 6,
+    "recovery": {
+      "source": "checkpoint",
+      "checkpoint_ref": {
+        "id": "FIX-b4-demo-middle-checkpoint",
+        "revision": 1
+      },
+      "activity_ref": {
+        "id": "FIX-activity",
+        "revision": 1
+      },
+      "last_trusted_event_ref": {
+        "id": "FIX-b4-event",
+        "revision": 4
+      },
+      "original_response": {
+        "end_line": 2,
+        "locator": "B4-initial",
+        "origin": "synthetic_fixture",
+        "path": "b4-initial.md",
+        "revision": 1,
+        "start_line": 1
+      },
+      "revisions": [
+        {
+          "end_line": 2,
+          "locator": "B4-supplied-revision",
+          "origin": "synthetic_fixture",
+          "path": "b4-supplied-revision.md",
+          "revision": 1,
+          "sequence": 3,
+          "start_line": 1
+        }
+      ],
+      "help_history": [
+        {
+          "artifact_ref": {
+            "end_line": 2,
+            "locator": "B4-initial",
+            "origin": "synthetic_fixture",
+            "path": "b4-initial.md",
+            "revision": 1,
+            "start_line": 1
+          },
+          "content": "Q。",
+          "kind": "initial_response",
+          "sequence": 1,
+          "substituted_operations": [],
+          "target_operations": [
+            "connect-P-to-Q"
+          ],
+          "time": {
+            "reason": "人工顺序，不虚构实际发生时间",
+            "status": "unknown"
+          },
+          "visibility": "displayed"
+        },
+        {
+          "artifact_ref": {
+            "locator": "C0-help-2",
+            "origin": "synthetic_fixture",
+            "path": "c0/FIX-b4-event/help-2.md",
+            "revision": 1
+          },
+          "content": "人工支持：P 与 P→Q 已明确给定。",
+          "kind": "help",
+          "sequence": 2,
+          "substituted_operations": [],
+          "target_operations": [
+            "connect-P-to-Q"
+          ],
+          "time": {
+            "reason": "人工演示顺序，无真实展示时间",
+            "status": "unknown"
+          },
+          "visibility": "displayed"
+        },
+        {
+          "artifact_ref": {
+            "end_line": 2,
+            "locator": "B4-supplied-revision",
+            "origin": "synthetic_fixture",
+            "path": "b4-supplied-revision.md",
+            "revision": 1,
+            "start_line": 1
+          },
+          "content": "已看到前提，仍只写 Q。",
+          "kind": "revision",
+          "sequence": 3,
+          "substituted_operations": [],
+          "target_operations": [
+            "connect-P-to-Q"
+          ],
+          "time": {
+            "reason": "人工演示顺序，无真实响应时间",
+            "status": "unknown"
+          },
+          "visibility": "displayed"
+        },
+        {
+          "content": "返回同一父产物的当前连接，保留整体未完成",
+          "kind": "enter_local",
+          "sequence": 4,
+          "substituted_operations": [],
+          "target_operations": [],
+          "time": {
+            "reason": "Module control is not a declared learner response time.",
+            "status": "unknown"
+          },
+          "visibility": "backend_reference"
+        }
+      ],
+      "factual_conditions": {
+        "displayed_help": {
+          "status": "known",
+          "value": [
+            {
+              "sequence": 2,
+              "kind": "help",
+              "target_operations": [
+                "connect-P-to-Q"
+              ],
+              "substituted_operations": [],
+              "artifact_ref": {
+                "locator": "C0-help-2",
+                "origin": "synthetic_fixture",
+                "path": "c0/FIX-b4-event/help-2.md",
+                "revision": 1
+              }
+            }
+          ]
+        },
+        "unrecorded_help": {
+          "status": "unknown",
+          "reason": "Unrecorded help and contact are not inferred from the record."
+        },
+        "unknown_visibility": false,
+        "substituted_operations": [],
+        "independent_support": "not_assessed"
+      },
+      "parent_help_history_refs": [
+        {
+          "id": "FIX-event",
+          "revision": 1
+        }
+      ],
+      "parent_help_conditions": [
+        {
+          "event_ref": {
+            "id": "FIX-event",
+            "revision": 1
+          },
+          "conditions": {
+            "displayed_help": {
+              "status": "known",
+              "value": [
+                {
+                  "sequence": 2,
+                  "kind": "help",
+                  "target_operations": [
+                    "connect-P-to-Q"
+                  ],
+                  "substituted_operations": [
+                    "connect-P-to-Q"
+                  ],
+                  "artifact_ref": null
+                }
+              ]
+            },
+            "unrecorded_help": {
+              "status": "unknown",
+              "reason": "Unrecorded help and contact are not inferred from the record."
+            },
+            "unknown_visibility": false,
+            "substituted_operations": [
+              "connect-P-to-Q"
+            ],
+            "independent_support": "not_assessed"
+          }
+        }
+      ],
+      "declared_active_minutes": {
+        "reason": "No active-time declaration was supplied.",
+        "status": "unknown"
+      },
+      "parent_artifact": {
+        "locator": "虚构父产物",
+        "origin": "synthetic_fixture",
+        "path": "originals.md",
+        "revision": 1
+      },
+      "next_connection": "返回同一父产物的当前连接，保留整体未完成",
+      "unrecorded_actions": {
+        "reason": "未保存期间的动作不推断",
+        "status": "unknown"
+      },
+      "specialization": {
+        "module": "encoding",
+        "overall_support": "not_assessed",
+        "stack": [
+          {
+            "alternative_explanations": [
+              "可能只省略表达",
+              "可能尚未连接"
+            ],
+            "blocker": "人工修订未写连接",
+            "budget_ref": {
+              "id": "FIX-budget",
+              "revision": 1
+            },
+            "entry_sequence": 4,
+            "from_module": "post",
+            "local_sufficiency": "实际使用前提写出连接理由",
+            "module": "encoding",
+            "observation": {
+              "artifact_ref": {
+                "end_line": 2,
+                "locator": "B4-supplied-revision",
+                "origin": "synthetic_fixture",
+                "path": "b4-supplied-revision.md",
+                "revision": 1,
+                "start_line": 1
+              },
+              "quote": "已看到前提，仍只写 Q。"
+            },
+            "operations": [
+              "connect-P-to-Q"
+            ],
+            "parent_activity_ref": {
+              "id": "FIX-activity",
+              "revision": 1
+            },
+            "parent_artifact": {
+              "end_line": 2,
+              "locator": "B4-supplied-revision",
+              "origin": "synthetic_fixture",
+              "path": "b4-supplied-revision.md",
+              "revision": 1,
+              "start_line": 1
+            },
+            "parent_task": {
+              "status": "known",
+              "value": {
+                "alternative_explanations": [
+                  "可能仅省略表达"
+                ],
+                "blocker": "第一步理由未写出",
+                "budget_ref": {
+                  "id": "FIX-budget",
+                  "revision": 1
+                },
+                "entry_basis_refs": [
+                  {
+                    "id": "FIX-event",
+                    "revision": 1
+                  }
+                ],
+                "local_sufficiency": "帮助后能实际运用第一步连接",
+                "parent_activity_ref": {
+                  "id": "FIX-parent-activity",
+                  "revision": 1
+                },
+                "parent_artifact": {
+                  "locator": "虚构父产物",
+                  "origin": "synthetic_fixture",
+                  "path": "originals.md",
+                  "revision": 1
+                },
+                "return_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审"
+              }
+            },
+            "premises_supplied": {
+              "status": "known",
+              "value": true
+            },
+            "preserved_support_refs": [
+              {
+                "id": "FIX-judgment",
+                "revision": 1
+              }
+            ],
+            "reason": "供给前提后本人工修订仍未连接，进入有限关系工作",
+            "return_connection": "返回同一父产物的当前连接，保留整体未完成"
+          }
+        ],
+        "transition_history": [
+          {
+            "frame": {
+              "alternative_explanations": [
+                "可能只省略表达",
+                "可能尚未连接"
+              ],
+              "blocker": "人工修订未写连接",
+              "budget_ref": {
+                "id": "FIX-budget",
+                "revision": 1
+              },
+              "entry_sequence": 4,
+              "from_module": "post",
+              "local_sufficiency": "实际使用前提写出连接理由",
+              "module": "encoding",
+              "observation": {
+                "artifact_ref": {
+                  "end_line": 2,
+                  "locator": "B4-supplied-revision",
+                  "origin": "synthetic_fixture",
+                  "path": "b4-supplied-revision.md",
+                  "revision": 1,
+                  "start_line": 1
+                },
+                "quote": "已看到前提，仍只写 Q。"
+              },
+              "operations": [
+                "connect-P-to-Q"
+              ],
+              "parent_activity_ref": {
+                "id": "FIX-activity",
+                "revision": 1
+              },
+              "parent_artifact": {
+                "end_line": 2,
+                "locator": "B4-supplied-revision",
+                "origin": "synthetic_fixture",
+                "path": "b4-supplied-revision.md",
+                "revision": 1,
+                "start_line": 1
+              },
+              "parent_task": {
+                "status": "known",
+                "value": {
+                  "alternative_explanations": [
+                    "可能仅省略表达"
+                  ],
+                  "blocker": "第一步理由未写出",
+                  "budget_ref": {
+                    "id": "FIX-budget",
+                    "revision": 1
+                  },
+                  "entry_basis_refs": [
+                    {
+                      "id": "FIX-event",
+                      "revision": 1
+                    }
+                  ],
+                  "local_sufficiency": "帮助后能实际运用第一步连接",
+                  "parent_activity_ref": {
+                    "id": "FIX-parent-activity",
+                    "revision": 1
+                  },
+                  "parent_artifact": {
+                    "locator": "虚构父产物",
+                    "origin": "synthetic_fixture",
+                    "path": "originals.md",
+                    "revision": 1
+                  },
+                  "return_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审"
+                }
+              },
+              "premises_supplied": {
+                "status": "known",
+                "value": true
+              },
+              "preserved_support_refs": [
+                {
+                  "id": "FIX-judgment",
+                  "revision": 1
+                }
+              ],
+              "reason": "供给前提后本人工修订仍未连接，进入有限关系工作",
+              "return_connection": "返回同一父产物的当前连接，保留整体未完成"
+            },
+            "kind": "enter_local",
+            "sequence": 4
+          }
+        ],
+        "version": "pl-teaching-b4/0.1.0"
+      }
+    }
+  },
+  "resume": {
+    "status": "ready",
+    "synthetic_only": true,
+    "mutated": false,
+    "scoring": "not_executed",
+    "judgment_created": false,
+    "new_test_created": false,
+    "reasons": [],
+    "specialization_version": "pl-teaching-b4/0.1.0",
+    "state_revision": 9,
+    "recovery": {
+      "source": "last_trusted_event",
+      "checkpoint_ref": null,
+      "activity_ref": {
+        "id": "FIX-activity",
+        "revision": 1
+      },
+      "last_trusted_event_ref": {
+        "id": "FIX-b4-event",
+        "revision": 7
+      },
+      "original_response": {
+        "end_line": 2,
+        "locator": "B4-initial",
+        "origin": "synthetic_fixture",
+        "path": "b4-initial.md",
+        "revision": 1,
+        "start_line": 1
+      },
+      "revisions": [
+        {
+          "end_line": 2,
+          "locator": "B4-supplied-revision",
+          "origin": "synthetic_fixture",
+          "path": "b4-supplied-revision.md",
+          "revision": 1,
+          "sequence": 3,
+          "start_line": 1
+        },
+        {
+          "end_line": 2,
+          "locator": "B4-local-revision",
+          "origin": "synthetic_fixture",
+          "path": "b4-local-revision.md",
+          "revision": 1,
+          "sequence": 5,
+          "start_line": 1
+        }
+      ],
+      "help_history": [
+        {
+          "artifact_ref": {
+            "end_line": 2,
+            "locator": "B4-initial",
+            "origin": "synthetic_fixture",
+            "path": "b4-initial.md",
+            "revision": 1,
+            "start_line": 1
+          },
+          "content": "Q。",
+          "kind": "initial_response",
+          "sequence": 1,
+          "substituted_operations": [],
+          "target_operations": [
+            "connect-P-to-Q"
+          ],
+          "time": {
+            "reason": "人工顺序，不虚构实际发生时间",
+            "status": "unknown"
+          },
+          "visibility": "displayed"
+        },
+        {
+          "artifact_ref": {
+            "locator": "C0-help-2",
+            "origin": "synthetic_fixture",
+            "path": "c0/FIX-b4-event/help-2.md",
+            "revision": 1
+          },
+          "content": "人工支持：P 与 P→Q 已明确给定。",
+          "kind": "help",
+          "sequence": 2,
+          "substituted_operations": [],
+          "target_operations": [
+            "connect-P-to-Q"
+          ],
+          "time": {
+            "reason": "人工演示顺序，无真实展示时间",
+            "status": "unknown"
+          },
+          "visibility": "displayed"
+        },
+        {
+          "artifact_ref": {
+            "end_line": 2,
+            "locator": "B4-supplied-revision",
+            "origin": "synthetic_fixture",
+            "path": "b4-supplied-revision.md",
+            "revision": 1,
+            "start_line": 1
+          },
+          "content": "已看到前提，仍只写 Q。",
+          "kind": "revision",
+          "sequence": 3,
+          "substituted_operations": [],
+          "target_operations": [
+            "connect-P-to-Q"
+          ],
+          "time": {
+            "reason": "人工演示顺序，无真实响应时间",
+            "status": "unknown"
+          },
+          "visibility": "displayed"
+        },
+        {
+          "content": "返回同一父产物的当前连接，保留整体未完成",
+          "kind": "enter_local",
+          "sequence": 4,
+          "substituted_operations": [],
+          "target_operations": [],
+          "time": {
+            "reason": "Module control is not a declared learner response time.",
+            "status": "unknown"
+          },
+          "visibility": "backend_reference"
+        },
+        {
+          "artifact_ref": {
+            "end_line": 2,
+            "locator": "B4-local-revision",
+            "origin": "synthetic_fixture",
+            "path": "b4-local-revision.md",
+            "revision": 1,
+            "start_line": 1
+          },
+          "content": "P 成立且 P→Q，所以 Q。",
+          "kind": "revision",
+          "sequence": 5,
+          "substituted_operations": [],
+          "target_operations": [
+            "connect-P-to-Q"
+          ],
+          "time": {
+            "reason": "人工演示顺序，无真实响应时间",
+            "status": "unknown"
+          },
+          "visibility": "displayed"
+        },
+        {
+          "content": "返回同一父产物的当前连接，保留整体未完成",
+          "kind": "return_local",
+          "sequence": 6,
+          "substituted_operations": [],
+          "target_operations": [],
+          "time": {
+            "reason": "Module control is not a declared learner response time.",
+            "status": "unknown"
+          },
+          "visibility": "backend_reference"
+        }
+      ],
+      "factual_conditions": {
+        "displayed_help": {
+          "status": "known",
+          "value": [
+            {
+              "sequence": 2,
+              "kind": "help",
+              "target_operations": [
+                "connect-P-to-Q"
+              ],
+              "substituted_operations": [],
+              "artifact_ref": {
+                "locator": "C0-help-2",
+                "origin": "synthetic_fixture",
+                "path": "c0/FIX-b4-event/help-2.md",
+                "revision": 1
+              }
+            }
+          ]
+        },
+        "unrecorded_help": {
+          "status": "unknown",
+          "reason": "Unrecorded help and contact are not inferred from the record."
+        },
+        "unknown_visibility": false,
+        "substituted_operations": [],
+        "independent_support": "not_assessed"
+      },
+      "parent_help_history_refs": [
+        {
+          "id": "FIX-event",
+          "revision": 1
+        }
+      ],
+      "parent_help_conditions": [
+        {
+          "event_ref": {
+            "id": "FIX-event",
+            "revision": 1
+          },
+          "conditions": {
+            "displayed_help": {
+              "status": "known",
+              "value": [
+                {
+                  "sequence": 2,
+                  "kind": "help",
+                  "target_operations": [
+                    "connect-P-to-Q"
+                  ],
+                  "substituted_operations": [
+                    "connect-P-to-Q"
+                  ],
+                  "artifact_ref": null
+                }
+              ]
+            },
+            "unrecorded_help": {
+              "status": "unknown",
+              "reason": "Unrecorded help and contact are not inferred from the record."
+            },
+            "unknown_visibility": false,
+            "substituted_operations": [
+              "connect-P-to-Q"
+            ],
+            "independent_support": "not_assessed"
+          }
+        }
+      ],
+      "declared_active_minutes": {
+        "reason": "No active-time declaration was supplied.",
+        "status": "unknown"
+      },
+      "parent_artifact": {
+        "locator": "虚构父产物",
+        "origin": "synthetic_fixture",
+        "path": "originals.md",
+        "revision": 1
+      },
+      "next_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审",
+      "unrecorded_actions": {
+        "status": "unknown",
+        "reason": "No checkpoint records additional actions."
+      },
+      "specialization": {
+        "module": "post",
+        "overall_support": "not_assessed",
+        "stack": [],
+        "transition_history": [
+          {
+            "frame": {
+              "alternative_explanations": [
+                "可能只省略表达",
+                "可能尚未连接"
+              ],
+              "blocker": "人工修订未写连接",
+              "budget_ref": {
+                "id": "FIX-budget",
+                "revision": 1
+              },
+              "entry_sequence": 4,
+              "from_module": "post",
+              "local_sufficiency": "实际使用前提写出连接理由",
+              "module": "encoding",
+              "observation": {
+                "artifact_ref": {
+                  "end_line": 2,
+                  "locator": "B4-supplied-revision",
+                  "origin": "synthetic_fixture",
+                  "path": "b4-supplied-revision.md",
+                  "revision": 1,
+                  "start_line": 1
+                },
+                "quote": "已看到前提，仍只写 Q。"
+              },
+              "operations": [
+                "connect-P-to-Q"
+              ],
+              "parent_activity_ref": {
+                "id": "FIX-activity",
+                "revision": 1
+              },
+              "parent_artifact": {
+                "end_line": 2,
+                "locator": "B4-supplied-revision",
+                "origin": "synthetic_fixture",
+                "path": "b4-supplied-revision.md",
+                "revision": 1,
+                "start_line": 1
+              },
+              "parent_task": {
+                "status": "known",
+                "value": {
+                  "alternative_explanations": [
+                    "可能仅省略表达"
+                  ],
+                  "blocker": "第一步理由未写出",
+                  "budget_ref": {
+                    "id": "FIX-budget",
+                    "revision": 1
+                  },
+                  "entry_basis_refs": [
+                    {
+                      "id": "FIX-event",
+                      "revision": 1
+                    }
+                  ],
+                  "local_sufficiency": "帮助后能实际运用第一步连接",
+                  "parent_activity_ref": {
+                    "id": "FIX-parent-activity",
+                    "revision": 1
+                  },
+                  "parent_artifact": {
+                    "locator": "虚构父产物",
+                    "origin": "synthetic_fixture",
+                    "path": "originals.md",
+                    "revision": 1
+                  },
+                  "return_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审"
+                }
+              },
+              "premises_supplied": {
+                "status": "known",
+                "value": true
+              },
+              "preserved_support_refs": [
+                {
+                  "id": "FIX-judgment",
+                  "revision": 1
+                }
+              ],
+              "reason": "供给前提后本人工修订仍未连接，进入有限关系工作",
+              "return_connection": "返回同一父产物的当前连接，保留整体未完成"
+            },
+            "kind": "enter_local",
+            "sequence": 4
+          },
+          {
+            "goal_conditions": "not_reassessed",
+            "kind": "return_local",
+            "local_outcome": "sufficient",
+            "local_response_sequence": 5,
+            "module": "post",
+            "overall_support": "not_assessed",
+            "parent_frame": {
+              "alternative_explanations": [
+                "可能只省略表达",
+                "可能尚未连接"
+              ],
+              "blocker": "人工修订未写连接",
+              "budget_ref": {
+                "id": "FIX-budget",
+                "revision": 1
+              },
+              "entry_sequence": 4,
+              "from_module": "post",
+              "local_sufficiency": "实际使用前提写出连接理由",
+              "module": "encoding",
+              "observation": {
+                "artifact_ref": {
+                  "end_line": 2,
+                  "locator": "B4-supplied-revision",
+                  "origin": "synthetic_fixture",
+                  "path": "b4-supplied-revision.md",
+                  "revision": 1,
+                  "start_line": 1
+                },
+                "quote": "已看到前提，仍只写 Q。"
+              },
+              "operations": [
+                "connect-P-to-Q"
+              ],
+              "parent_activity_ref": {
+                "id": "FIX-activity",
+                "revision": 1
+              },
+              "parent_artifact": {
+                "end_line": 2,
+                "locator": "B4-supplied-revision",
+                "origin": "synthetic_fixture",
+                "path": "b4-supplied-revision.md",
+                "revision": 1,
+                "start_line": 1
+              },
+              "parent_task": {
+                "status": "known",
+                "value": {
+                  "alternative_explanations": [
+                    "可能仅省略表达"
+                  ],
+                  "blocker": "第一步理由未写出",
+                  "budget_ref": {
+                    "id": "FIX-budget",
+                    "revision": 1
+                  },
+                  "entry_basis_refs": [
+                    {
+                      "id": "FIX-event",
+                      "revision": 1
+                    }
+                  ],
+                  "local_sufficiency": "帮助后能实际运用第一步连接",
+                  "parent_activity_ref": {
+                    "id": "FIX-parent-activity",
+                    "revision": 1
+                  },
+                  "parent_artifact": {
+                    "locator": "虚构父产物",
+                    "origin": "synthetic_fixture",
+                    "path": "originals.md",
+                    "revision": 1
+                  },
+                  "return_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审"
+                }
+              },
+              "premises_supplied": {
+                "status": "known",
+                "value": true
+              },
+              "preserved_support_refs": [
+                {
+                  "id": "FIX-judgment",
+                  "revision": 1
+                }
+              ],
+              "reason": "供给前提后本人工修订仍未连接，进入有限关系工作",
+              "return_connection": "返回同一父产物的当前连接，保留整体未完成"
+            },
+            "parent_outcome": "still_blocked",
+            "sequence": 6
+          }
+        ],
+        "version": "pl-teaching-b4/0.1.0"
+      }
+    }
+  },
+  "integrity": {
+    "status": "ok",
+    "state_revision": 9,
+    "reasons": [],
+    "issues": [],
+    "synthetic_only": true,
+    "object_revision_count": 38,
+    "artifact_count": 6
+  },
+  "scoring": "not_executed",
+  "plan_changed": false,
+  "limitations": [
+    "Answers, supplied premises, observations and visibility are explicit artificial declarations.",
+    "One event and one sample survive Post/Encoding/return; local success does not establish the parent goal.",
+    "Existing spaces are inspected read-only; absent or deleted records are never recreated.",
+    "C0 close returns any need update as a candidate; this demonstration makes no real planning or host claim.",
+    "The saved report is outside managed SQLite deletion scope."
+  ]
+}

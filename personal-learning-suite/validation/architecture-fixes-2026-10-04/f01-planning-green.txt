@@ -1,0 +1,6 @@
+test_legacy_checkpoint_spending_cannot_be_reset_by_a_new_plan (test_b4_planning.B4PlanningTests.test_legacy_checkpoint_spending_cannot_be_reset_by_a_new_plan) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.200s
+
+OK

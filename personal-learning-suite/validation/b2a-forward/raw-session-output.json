@@ -1,0 +1,482 @@
+{
+  "report_version": "pl-goals-review/0.1.0",
+  "input_version": "pl-goals-input/0.1.0",
+  "schema_version": "pl-contracts/0.1.0",
+  "status": "candidate",
+  "synthetic_only": true,
+  "review_state": "partial",
+  "goal_candidate": {
+    "type": "GoalSpec",
+    "id": "FIX-FWD-goal-xor",
+    "revision": 1,
+    "owner": "AG1",
+    "schema_version": "pl-contracts/0.1.0",
+    "basis_refs": [
+      {
+        "id": "FIX-FWD-source-A",
+        "revision": 1
+      },
+      {
+        "id": "FIX-FWD-source-B",
+        "revision": 1
+      }
+    ],
+    "requirement_source_refs": [
+      {
+        "id": "FIX-FWD-source-A",
+        "revision": 1
+      }
+    ],
+    "content_basis_refs": [
+      {
+        "id": "FIX-FWD-source-B",
+        "revision": 1
+      }
+    ],
+    "requirements": [
+      {
+        "requirement_id": "write-xor-rule",
+        "nature": "user_purpose",
+        "key_operations": [
+          "自主组织两个布尔输入的异或规则",
+          "检查规则对四种输入是否符合给定定义"
+        ],
+        "product": "学习者原始异或规则草稿及四种输入的对照检查；可用布尔表达式，具体配置语言执行资格另核语法文档",
+        "criterion": {
+          "text": "对 a、b ∈ {false,true}，规则仅在一个输入为真时输出真；四种输入的规则结果分别符合给定定义。接受语义等价规则。若声称具体语言可执行，另需匹配该语言语法与布尔类型处理，当前未知。",
+          "requirement_source_refs": [
+            {
+              "id": "FIX-FWD-source-A",
+              "revision": 1,
+              "locator": "claims/near_scope"
+            }
+          ],
+          "content_basis_refs": [
+            {
+              "id": "FIX-FWD-source-B",
+              "revision": 1,
+              "locator": "claims"
+            }
+          ]
+        },
+        "criterion_revision": 1,
+        "requirement_source_refs": [
+          {
+            "id": "FIX-FWD-source-A",
+            "revision": 1,
+            "locator": "claims/near_scope"
+          }
+        ],
+        "content_basis_refs": [
+          {
+            "id": "FIX-FWD-source-B",
+            "revision": 1,
+            "locator": "claims"
+          }
+        ],
+        "object_scope": [
+          "a、b ∈ {false,true}",
+          "当前同一规则草稿与同输入说明"
+        ]
+      },
+      {
+        "requirement_id": "explain-equal-inputs",
+        "nature": "user_purpose",
+        "key_operations": [
+          "学习者用异或定义解释两个输入相同的两种情况"
+        ],
+        "product": "与原始规则对应的简短说明，覆盖两输入都假和两输入都真",
+        "criterion": {
+          "text": "说明两输入都假时没有输入为真，两输入都真时有两个输入为真；两者均不满足恰有一个输入为真，因此输出假。可用等价解释，但不能将异或误作至少一个为真。",
+          "requirement_source_refs": [
+            {
+              "id": "FIX-FWD-source-A",
+              "revision": 1,
+              "locator": "claims/near_scope"
+            }
+          ],
+          "content_basis_refs": [
+            {
+              "id": "FIX-FWD-source-B",
+              "revision": 1,
+              "locator": "claims"
+            }
+          ]
+        },
+        "criterion_revision": 1,
+        "requirement_source_refs": [
+          {
+            "id": "FIX-FWD-source-A",
+            "revision": 1,
+            "locator": "claims/near_scope"
+          }
+        ],
+        "content_basis_refs": [
+          {
+            "id": "FIX-FWD-source-B",
+            "revision": 1,
+            "locator": "claims"
+          }
+        ],
+        "object_scope": [
+          "a、b ∈ {false,true}",
+          "当前同一规则草稿与同输入说明"
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "requirement_source_refs": [
+          {
+            "id": "FIX-FWD-source-A",
+            "revision": 1,
+            "locator": "claims/near_scope"
+          }
+        ],
+        "content_basis_refs": [
+          {
+            "id": "FIX-FWD-source-B",
+            "revision": 1,
+            "locator": "claims"
+          }
+        ],
+        "dependency_kind": "necessary",
+        "requirement_ids": [
+          "write-xor-rule",
+          "explain-equal-inputs"
+        ],
+        "capability": "在当前规则中将 a、b 解释为布尔量，并辨认恰有一个为真。它直接支持规则选择和同输入解释；可随任务查看定义，不要求先完成整章或闭卷记忆。",
+        "task_resource_reason": "无法把规则输入和给定输出条件对应",
+        "tool_substitution": "定义和许可布尔语法文档可伴随查阅；工具不代替学习者组织规则与解释理由",
+        "sufficiency_and_return": "能用定义辨认四种布尔输入条件即可返回同一规则草稿",
+        "learner_state": {
+          "status": "unknown",
+          "reason": "虚构用户未提供学习表现；没有学习历史不能推断此前置不会"
+        }
+      },
+      {
+        "requirement_source_refs": [
+          {
+            "id": "FIX-FWD-source-A",
+            "revision": 1,
+            "locator": "claims/allowed_resources"
+          }
+        ],
+        "content_basis_refs": [
+          {
+            "id": "FIX-FWD-source-B",
+            "revision": 1,
+            "locator": "read_scope/formula"
+          }
+        ],
+        "dependency_kind": "companion",
+        "requirement_ids": [
+          "write-xor-rule"
+        ],
+        "capability": "所选配置语言的布尔语法由允许查阅的文档伴随补充；语言未选定，所以暂不指定 API、运算符或把语法记忆设成前置。",
+        "task_resource_reason": "不能声称草稿已可在某配置平台执行，但语言无关语义规格仍可准备",
+        "tool_substitution": "定义和许可布尔语法文档可伴随查阅；工具不代替学习者组织规则与解释理由",
+        "sufficiency_and_return": "需要执行时定位语言版本和许可语法后检查该草稿",
+        "learner_state": {
+          "status": "unknown",
+          "reason": "虚构用户未提供学习表现；没有学习历史不能推断此前置不会"
+        }
+      }
+    ],
+    "allowed_resources": {
+      "status": "known",
+      "value": [
+        "原始虚构正文中的布尔和异或定义",
+        "所选语言的布尔语法文档，具体文档及版本待执行用途确定"
+      ]
+    },
+    "context_conditions": {
+      "status": "known",
+      "value": "只支持 a、b 已为布尔量的两个输入异或规则草稿与解释；文档可查但规则组织和关键解释须由学习者完成。示范可先看；随后复制示范或被代做的操作只支持有帮助条件。"
+    },
+    "time_requirements": {
+      "status": "not_required",
+      "reason": "用户没有要求作答时限、延迟保持或陌生迁移；会话时长属于预算条件"
+    },
+    "evidence_requirements": [
+      {
+        "requirement_id": "write-xor-rule",
+        "support_claim": "在允许文档的当前布尔域条件下，学习者能自己写当前异或规则并解释同输入输出假；此项只检查 write-xor-rule",
+        "required_operations": [
+          "自主组织两个布尔输入的异或规则",
+          "检查规则对四种输入是否符合给定定义"
+        ],
+        "observable_product": "学习者原始异或规则草稿及四种输入的对照检查；可用布尔表达式，具体配置语言执行资格另核语法文档。两项仍引用同一综合草稿；分字段不新增独立样本。",
+        "allowed_help": {
+          "status": "known",
+          "value": "实际文档、示范和提示须保留接触顺序与代做操作；看到完整示范后直接复制不支持自主组织结论。当前只是证据设计，无学习者表现。"
+        },
+        "task_coverage": [
+          "四种输入完整覆盖当前两个布尔输入域；同一草稿可观察规则与解释的关联，不增加第二个独立样本",
+          "每项按自己 criterion 检查；一项成功不抵消另一项关键错误"
+        ],
+        "cannot_infer": [
+          "闭卷背诵",
+          "延迟保持",
+          "陌生应用或多输入扩展",
+          "硬件实现",
+          "正式课程及格",
+          "某真实配置平台可部署"
+        ],
+        "requirement_source_refs": [
+          {
+            "id": "FIX-FWD-source-A",
+            "revision": 1,
+            "locator": "claims/near_scope"
+          }
+        ],
+        "content_basis_refs": [
+          {
+            "id": "FIX-FWD-source-B",
+            "revision": 1,
+            "locator": "claims"
+          }
+        ]
+      },
+      {
+        "requirement_id": "explain-equal-inputs",
+        "support_claim": "在允许文档的当前布尔域条件下，学习者能自己写当前异或规则并解释同输入输出假；此项只检查 explain-equal-inputs",
+        "required_operations": [
+          "学习者用异或定义解释两个输入相同的两种情况"
+        ],
+        "observable_product": "与原始规则对应的简短说明，覆盖两输入都假和两输入都真。两项仍引用同一综合草稿；分字段不新增独立样本。",
+        "allowed_help": {
+          "status": "known",
+          "value": "实际文档、示范和提示须保留接触顺序与代做操作；看到完整示范后直接复制不支持自主组织结论。当前只是证据设计，无学习者表现。"
+        },
+        "task_coverage": [
+          "四种输入完整覆盖当前两个布尔输入域；同一草稿可观察规则与解释的关联，不增加第二个独立样本",
+          "每项按自己 criterion 检查；一项成功不抵消另一项关键错误"
+        ],
+        "cannot_infer": [
+          "闭卷背诵",
+          "延迟保持",
+          "陌生应用或多输入扩展",
+          "硬件实现",
+          "正式课程及格",
+          "某真实配置平台可部署"
+        ],
+        "requirement_source_refs": [
+          {
+            "id": "FIX-FWD-source-A",
+            "revision": 1,
+            "locator": "claims/near_scope"
+          }
+        ],
+        "content_basis_refs": [
+          {
+            "id": "FIX-FWD-source-B",
+            "revision": 1,
+            "locator": "claims"
+          }
+        ]
+      }
+    ],
+    "version_compatibility": {
+      "status": "not_applicable",
+      "reason": "首个独立虚构候选；没有旧目标或旧表现支持关系"
+    },
+    "scope": [
+      "a、b 均为布尔量",
+      "个人近期配置校验用途的语言无关异或规则草稿及同输入解释"
+    ],
+    "excluded_scope": [
+      "闭卷背诵",
+      "延迟保持",
+      "陌生应用或多输入扩展",
+      "硬件实现",
+      "正式课程及格",
+      "某真实配置平台可部署"
+    ],
+    "adoption": {
+      "status": "candidate",
+      "by": "developer_forward_trial",
+      "scope": "仅虚构候选",
+      "basis_refs": [
+        {
+          "id": "FIX-FWD-source-A",
+          "revision": 1
+        },
+        {
+          "id": "FIX-FWD-source-B",
+          "revision": 1
+        }
+      ],
+      "limitations": [
+        "不创建真实课程状态、学习记录或计划"
+      ],
+      "time": {
+        "status": "not_executed",
+        "reason": "无正式采用"
+      }
+    }
+  },
+  "course_map_candidate": {
+    "topics": [
+      {
+        "topic": "命题与连接词",
+        "final_task": "近期只细化布尔输入、异或及表达规则所需连接词",
+        "status": "目录级粗地图；概念依据仅取资料 B"
+      },
+      {
+        "topic": "真值表",
+        "final_task": "近期用四种布尔输入对照异或输出作规则检查",
+        "status": "只支持当前两个布尔输入的穷举检查，不推广整章"
+      },
+      {
+        "topic": "证明",
+        "final_task": "范围外；同输入为何为假只需依定义作解释",
+        "status": "只有标题，证明系统、课程标准和必要性均未知"
+      },
+      {
+        "topic": "硬件设计",
+        "final_task": "本次明确不要求",
+        "status": "只有标题，不构造硬件前置或验收要求"
+      }
+    ],
+    "deferred_goals": [
+      {
+        "topic": "证明",
+        "provisional_scope": "范围外；同输入为何为假只需依定义作解释；只有标题，证明系统、课程标准和必要性均未知",
+        "refine_when": "用户提出更大用途或新增目标、提供正式课程要求，或需要在具体配置语言中执行规则时再细化相关部分。"
+      },
+      {
+        "topic": "硬件设计",
+        "provisional_scope": "本次明确不要求；只有标题，不构造硬件前置或验收要求",
+        "refine_when": "用户提出更大用途或新增目标、提供正式课程要求，或需要在具体配置语言中执行规则时再细化相关部分。"
+      }
+    ],
+    "refine_triggers": [
+      "用户提出更大用途或新增目标、提供正式课程要求，或需要在具体配置语言中执行规则时再细化相关部分。"
+    ],
+    "dependencies_and_unknowns": {
+      "course_basis_ref": {
+        "id": "FIX-FWD-source-A",
+        "revision": 1,
+        "locator": "claims/course_directory"
+      },
+      "purpose_basis_ref": {
+        "id": "FIX-FWD-source-A",
+        "revision": 1,
+        "locator": "claims/purpose"
+      },
+      "nodes": [
+        {
+          "node_id": "propositions-and-connectives",
+          "title": "命题与连接词",
+          "coverage": "近期只细化布尔输入、异或及表达规则所需连接词",
+          "depth": "目录级粗地图；概念依据仅取资料 B"
+        },
+        {
+          "node_id": "truth-table",
+          "title": "真值表",
+          "coverage": "近期用四种布尔输入对照异或输出作规则检查",
+          "depth": "只支持当前两个布尔输入的穷举检查，不推广整章"
+        },
+        {
+          "node_id": "proof",
+          "title": "证明",
+          "coverage": "范围外；同输入为何为假只需依定义作解释",
+          "depth": "只有标题，证明系统、课程标准和必要性均未知"
+        },
+        {
+          "node_id": "hardware",
+          "title": "硬件设计",
+          "coverage": "本次明确不要求",
+          "depth": "只有标题，不构造硬件前置或验收要求"
+        }
+      ],
+      "near_term_integrated_task": "学习者自己形成两个布尔输入的异或规则，并解释两个输入相同为何输出假；以同一规则草稿和解释检查两项要求。",
+      "course_and_personal_difference": "个人近期用途确定；目录并不证明课程要求、考试方式或完成课程的范围。",
+      "dependencies": "布尔值和异或含义直接支持写规则与解释；所选配置语言语法可由许可文档伴随补充。目录顺序不足以证明必须先学证明或硬件。",
+      "unknowns": [
+        "正式课程评分和考核方式",
+        "所选配置语言及可定位语法文档",
+        "证明与硬件的远期正文和实际依赖"
+      ],
+      "refinement_trigger": "用户提出更大用途或新增目标、提供正式课程要求，或需要在具体配置语言中执行规则时再细化相关部分。"
+    }
+  },
+  "reliable_requirement_ids": [
+    "write-xor-rule",
+    "explain-equal-inputs"
+  ],
+  "unresolved_items": [
+    {
+      "decision_needed": "具体配置语言与文档版本：会改变语法和可执行资格，不阻碍准备当前语言无关语义目标",
+      "owner": "AG0 收集用途；AG2 核文档；AG1 必要时补定位",
+      "next_trigger": "请求具体配置执行时",
+      "scope_requirement_ids": [],
+      "scope_reason": "当前仅是受手工内容声明支持的虚构语义目标候选；此项限制正式使用/具体执行，不堵住已明确的候选语义范围"
+    },
+    {
+      "decision_needed": "正式课程要求及考核形式：当前无法声称覆盖正式标准；不阻碍用户明确的个人近期用途",
+      "owner": "用户范围选择及 AG1；AG2 读取来源",
+      "next_trigger": "用户要求对齐正式考核时",
+      "scope_requirement_ids": [],
+      "scope_reason": "当前仅是受手工内容声明支持的虚构语义目标候选；此项限制正式使用/具体执行，不堵住已明确的候选语义范围"
+    },
+    {
+      "decision_needed": "内容依据的当前用途资格：开发手工枚举一致性不能替代正式材料用途核验",
+      "owner": "AG2",
+      "next_trigger": "真实采用或教学执行前",
+      "scope_requirement_ids": [],
+      "scope_reason": "当前仅是受手工内容声明支持的虚构语义目标候选；此项限制正式使用/具体执行，不堵住已明确的候选语义范围"
+    },
+    {
+      "decision_needed": "任务证据可观察性与实际帮助记录：证据规格候选不能产生已支持能力结论",
+      "owner": "AG3 与实际受控 AG0",
+      "next_trigger": "设计实际活动并取得合法原答时",
+      "scope_requirement_ids": [],
+      "scope_reason": "当前仅是受手工内容声明支持的虚构语义目标候选；此项限制正式使用/具体执行，不堵住已明确的候选语义范围"
+    }
+  ],
+  "errors": [],
+  "compatibility": {
+    "status": "preserve",
+    "preserve_requirement_ids": [
+      "write-xor-rule",
+      "explain-equal-inputs"
+    ],
+    "recheck_requirement_ids": [],
+    "judgment_transfer": "not_executed",
+    "previous_goal_ref": {
+      "id": "FIX-FWD-goal-xor",
+      "revision": 1
+    },
+    "current_goal_ref": {
+      "id": "FIX-FWD-goal-xor",
+      "revision": 1
+    },
+    "reasons": [
+      "Only session budget changes; goal remains exact."
+    ]
+  },
+  "change_notice_candidate": null,
+  "planning_handoff": {
+    "status": "candidate",
+    "owner": "SK05/AG1",
+    "decision_needed": "在已有资源授权内缩减本次承诺，保留正式目标及未覆盖影响；超范围交用户决定。",
+    "goal_ref": {
+      "id": "FIX-FWD-goal-xor",
+      "revision": 1
+    },
+    "reason": "虚构用户今天只有 3 分钟，明确继续相同目标，并请求先看示范；预算交 SK05，示范接触交 AG0/AG2 记录，目标和判据保持原文原修订",
+    "goal_revision_changed": false,
+    "valid_commitment": "not_created"
+  },
+  "boundaries": {
+    "content_verification": "not_executed",
+    "learner_judgment": "not_executed",
+    "professional_adoption": "not_executed",
+    "persistence": "not_executed",
+    "new_test": "not_proposed",
+    "valid_plan": "not_created",
+    "source_record_interpretation": "Existing FIX verification declarations only; this script does not establish content truth."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pilot_version": "pl-pilot/0.1.0",
+  "data_kind": "unconfigured",
+  "objects": [],
+  "artifacts": {},
+  "instance_ref": null,
+  "current_goal_refs": [],
+  "budget_ref": null,
+  "validation_refs": [],
+  "controls": {
+    "known": false,
+    "deleted_ids": [],
+    "paused_ids": [],
+    "restrictions": []
+  },
+  "followup": {
+    "status": "unknown",
+    "goal_refs": [],
+    "purpose": null
+  },
+  "comparison": {
+    "status": "not_requested",
+    "question": null,
+    "decision_needed": null,
+    "arms": []
+  },
+  "host": {
+    "mode": "manual_single_entry",
+    "execution_available": false
+  }
+}

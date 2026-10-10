@@ -1,0 +1,470 @@
+{
+  "batch": "B6",
+  "network_version": "pl-network/0.1.0",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "workspace": "E:\\文献资料\\学习系统架构设计\\B6_虚构工作网络空间",
+  "existing_workspace": false,
+  "initialization": [
+    {
+      "state_revision": 0,
+      "status": "committed"
+    },
+    {
+      "state_revision": 1,
+      "status": "committed"
+    }
+  ],
+  "execution": {
+    "status": "completed",
+    "bindings": [
+      {
+        "role": "AG0",
+        "status": "ok",
+        "loaded_rule_files": 5,
+        "capabilities": {
+          "asynchronous": false,
+          "asynchronous_delegation": false,
+          "parallel_presentation": false,
+          "host_identity_bound": true,
+          "local_output_gate": true,
+          "external_chat_interception": false
+        }
+      },
+      {
+        "role": "AG1",
+        "status": "ok",
+        "loaded_rule_files": 5,
+        "capabilities": {
+          "asynchronous": false,
+          "asynchronous_delegation": false,
+          "parallel_presentation": false,
+          "host_identity_bound": true,
+          "local_output_gate": true,
+          "external_chat_interception": false
+        }
+      },
+      {
+        "role": "AG2",
+        "status": "ok",
+        "loaded_rule_files": 2,
+        "capabilities": {
+          "asynchronous": false,
+          "asynchronous_delegation": false,
+          "parallel_presentation": false,
+          "host_identity_bound": true,
+          "local_output_gate": true,
+          "external_chat_interception": false
+        }
+      },
+      {
+        "role": "AG3",
+        "status": "ok",
+        "loaded_rule_files": 2,
+        "capabilities": {
+          "asynchronous": false,
+          "asynchronous_delegation": false,
+          "parallel_presentation": false,
+          "host_identity_bound": true,
+          "local_output_gate": true,
+          "external_chat_interception": false
+        }
+      }
+    ],
+    "steps": [
+      {
+        "stage": "execution_claim",
+        "result": {
+          "state_revision": 2,
+          "control_ref": {
+            "id": "FIX-network-execution-FIX-activity",
+            "revision": 1
+          },
+          "status": "committed",
+          "execution": {
+            "activity_ref": {
+              "id": "FIX-activity",
+              "revision": 1
+            },
+            "execution_epoch": 2,
+            "status": "active"
+          }
+        }
+      },
+      {
+        "role": "AG1",
+        "stages": [
+          {
+            "stage": "proposed",
+            "result": {
+              "state_revision": 3,
+              "acceptance": "proposed",
+              "order_ref": {
+                "id": "FIX-b6-review-AG1",
+                "revision": 1
+              },
+              "authorization_ready": true,
+              "responsible_owner": "AG0",
+              "status": "committed",
+              "ready": false
+            }
+          },
+          {
+            "stage": "received_only",
+            "result": {
+              "order_ref": {
+                "id": "FIX-b6-review-AG1",
+                "revision": 1
+              },
+              "responsible_owner": "AG0",
+              "status": "received"
+            }
+          },
+          {
+            "stage": "responsibility_accepted",
+            "result": {
+              "state_revision": 4,
+              "order_ref": {
+                "id": "FIX-b6-review-AG1",
+                "revision": 2
+              },
+              "status": "committed"
+            }
+          },
+          {
+            "stage": "candidate_returned",
+            "result": {
+              "state_revision": 5,
+              "professional_status": "candidate",
+              "result_ref": {
+                "id": "FIX-b6-demo-result-AG1",
+                "revision": 1
+              },
+              "status": "committed"
+            }
+          },
+          {
+            "stage": "professionally_adopted",
+            "result": {
+              "state_revision": 6,
+              "result_ref": {
+                "id": "FIX-b6-demo-result-AG1",
+                "revision": 2
+              },
+              "status": "committed",
+              "adoption": {
+                "status": "adopted",
+                "by": "AG1"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "role": "AG2",
+        "stages": [
+          {
+            "stage": "proposed",
+            "result": {
+              "state_revision": 7,
+              "acceptance": "proposed",
+              "order_ref": {
+                "id": "FIX-b6-review-AG2",
+                "revision": 1
+              },
+              "authorization_ready": true,
+              "responsible_owner": "AG0",
+              "status": "committed",
+              "ready": false
+            }
+          },
+          {
+            "stage": "received_only",
+            "result": {
+              "order_ref": {
+                "id": "FIX-b6-review-AG2",
+                "revision": 1
+              },
+              "responsible_owner": "AG0",
+              "status": "received"
+            }
+          },
+          {
+            "stage": "responsibility_accepted",
+            "result": {
+              "state_revision": 8,
+              "order_ref": {
+                "id": "FIX-b6-review-AG2",
+                "revision": 2
+              },
+              "status": "committed"
+            }
+          },
+          {
+            "stage": "candidate_returned",
+            "result": {
+              "state_revision": 9,
+              "professional_status": "compatible",
+              "result_ref": {
+                "id": "FIX-b6-demo-result-AG2",
+                "revision": 1
+              },
+              "status": "committed"
+            }
+          },
+          {
+            "stage": "professionally_adopted",
+            "result": {
+              "state_revision": 10,
+              "result_ref": {
+                "id": "FIX-b6-demo-result-AG2",
+                "revision": 2
+              },
+              "status": "committed",
+              "adoption": {
+                "status": "adopted",
+                "by": "AG2"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "role": "AG3",
+        "stages": [
+          {
+            "stage": "proposed",
+            "result": {
+              "state_revision": 11,
+              "acceptance": "proposed",
+              "order_ref": {
+                "id": "FIX-b6-review-AG3",
+                "revision": 1
+              },
+              "authorization_ready": true,
+              "responsible_owner": "AG0",
+              "status": "committed",
+              "ready": false
+            }
+          },
+          {
+            "stage": "received_only",
+            "result": {
+              "order_ref": {
+                "id": "FIX-b6-review-AG3",
+                "revision": 1
+              },
+              "responsible_owner": "AG0",
+              "status": "received"
+            }
+          },
+          {
+            "stage": "responsibility_accepted",
+            "result": {
+              "state_revision": 12,
+              "order_ref": {
+                "id": "FIX-b6-review-AG3",
+                "revision": 2
+              },
+              "status": "committed"
+            }
+          },
+          {
+            "stage": "candidate_returned",
+            "result": {
+              "state_revision": 13,
+              "professional_status": "limited",
+              "result_ref": {
+                "id": "FIX-b6-demo-result-AG3",
+                "revision": 1
+              },
+              "status": "committed"
+            }
+          },
+          {
+            "stage": "professional_recheck_recorded",
+            "result": {
+              "state_revision": 14,
+              "result_ref": {
+                "id": "FIX-b6-demo-result-AG3",
+                "revision": 2
+              },
+              "status": "committed",
+              "adoption": {
+                "status": "recheck",
+                "by": "AG3"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "role": "AG0",
+        "stages": [
+          {
+            "stage": "proposed",
+            "result": {
+              "state_revision": 15,
+              "acceptance": "proposed",
+              "order_ref": {
+                "id": "FIX-b6-review-AG0",
+                "revision": 1
+              },
+              "authorization_ready": true,
+              "responsible_owner": "AG0",
+              "status": "committed",
+              "ready": false
+            }
+          },
+          {
+            "stage": "received_only",
+            "result": {
+              "order_ref": {
+                "id": "FIX-b6-review-AG0",
+                "revision": 1
+              },
+              "responsible_owner": "AG0",
+              "status": "received"
+            }
+          },
+          {
+            "stage": "responsibility_accepted",
+            "result": {
+              "state_revision": 16,
+              "order_ref": {
+                "id": "FIX-b6-review-AG0",
+                "revision": 2
+              },
+              "status": "committed"
+            }
+          },
+          {
+            "stage": "candidate_returned",
+            "result": {
+              "state_revision": 17,
+              "professional_status": "ready",
+              "result_ref": {
+                "id": "FIX-b6-demo-result-AG0",
+                "revision": 1
+              },
+              "status": "committed"
+            }
+          },
+          {
+            "stage": "professionally_adopted",
+            "result": {
+              "state_revision": 18,
+              "result_ref": {
+                "id": "FIX-b6-demo-result-AG0",
+                "revision": 2
+              },
+              "status": "committed",
+              "adoption": {
+                "status": "adopted",
+                "by": "AG0"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "stage": "takeover",
+        "result": {
+          "state_revision": 19,
+          "control_ref": {
+            "id": "FIX-network-execution-FIX-activity",
+            "revision": 2
+          },
+          "status": "committed",
+          "execution": {
+            "activity_ref": {
+              "id": "FIX-activity",
+              "revision": 1
+            },
+            "execution_epoch": 3,
+            "status": "active"
+          }
+        },
+        "old_executor_presentation": {
+          "status": "rejected",
+          "reason_codes": [
+            "invalid_capability"
+          ]
+        },
+        "current_executor_presentation": {
+          "state_revision": 19,
+          "status": "ready"
+        }
+      }
+    ],
+    "failed_roles": [],
+    "pending_professional_roles": [
+      "AG3"
+    ],
+    "background_delegation": false,
+    "parallel_presentation": false
+  },
+  "recovery": {
+    "status": "ok",
+    "state_revision": 19,
+    "object_refs": [
+      {
+        "id": "FIX-b6-demo-result-AG0",
+        "revision": 2,
+        "type": "WorkResult"
+      },
+      {
+        "id": "FIX-b6-demo-result-AG1",
+        "revision": 2,
+        "type": "WorkResult"
+      },
+      {
+        "id": "FIX-b6-demo-result-AG2",
+        "revision": 2,
+        "type": "WorkResult"
+      },
+      {
+        "id": "FIX-b6-demo-result-AG3",
+        "revision": 2,
+        "type": "WorkResult"
+      },
+      {
+        "id": "FIX-b6-review-AG0",
+        "revision": 2,
+        "type": "WorkOrder"
+      },
+      {
+        "id": "FIX-b6-review-AG1",
+        "revision": 2,
+        "type": "WorkOrder"
+      },
+      {
+        "id": "FIX-b6-review-AG2",
+        "revision": 2,
+        "type": "WorkOrder"
+      },
+      {
+        "id": "FIX-b6-review-AG3",
+        "revision": 2,
+        "type": "WorkOrder"
+      },
+      {
+        "id": "FIX-network-execution-FIX-activity",
+        "revision": 2,
+        "type": "ControlState"
+      }
+    ]
+  },
+  "integrity": {
+    "status": "ok"
+  },
+  "reopen_read_only": true,
+  "state_revision": 19,
+  "limitations": [
+    "Synthetic fixture declarations only; no real learner, correctness review or learning efficacy is established.",
+    "Four roles use one cooperating local serial host with opaque in-process capabilities; distributed or background execution is disabled.",
+    "Existing workspaces are never reseeded, replayed, professionally adopted or assigned a new execution epoch by this demo.",
+    "External reports and request copies are beyond managed store deletion scope."
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "status": "ok",
+  "resource": {
+    "category": "Re-represent / 重表征",
+    "common_rules": {
+      "carrier_relationship": "R02/R03是同一卡库的两个载体，不计为两份独立证据。",
+      "closing": {
+        "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+        "body_sha256": "6fc6a6de6389713c0a5a098db00a5d5442488a2a58551b1ac08a6d341bf95cae",
+        "content_markdown": "## 添加例子与停止的规则\n\n不规定科学上不存在的“最佳3例”。初始工程默认可用一对以降低负荷（仅启发式），追加例子必须有明确用途：排除一个伪线索、覆盖一个未见条件、跨越一项表面变化、检验一项边界。学习者能在未见例识别关系、解释为什么并拒绝近似非例时结束当前编码段。若错误来自先决知识，加例通常不如补支架。\n\n**比较的内核不是“相同还是不同”**：先问“我现在需要扩展同一schema，还是分开两个schema？”前者优先类内共同关系，后者优先类间诊断差异。要比较的维度、预期表征变化、验收新例均应写入AI tutor任务卡。\n\n\n新增案例须说明它排除的错误或补足的条件；局部支架结束后返回整体。表面与结构变化分开记录；目标关系已足够且独立检查通过时结束本轮，长期保持另测。\n",
+        "source_ref": {
+          "declared_revision": "2.0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 663,
+            "heading": "## 添加例子与停止的规则",
+            "kind": "markdown_heading",
+            "start_line": 656
+          },
+          "project_relative_path": "../02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "02_Encoding微操作与提问库.md"
+        }
+      },
+      "governing_overrides": [
+        "N00 第七节与D07/D04/D05/D06优先：原卡完整训练设想按实际借用部分使用。",
+        "R01的两三项默认、诊断步骤及延迟建议不编译为固定流程；无错误模型也可可靠输入。",
+        "R02的撤提示/新例/长期保持不自动成为新增课程目标；是否需要由GoalSpec决定。",
+        "不按六类走完，不固定候选/卡数，不设置统一间隔、失败次数或神经机制状态。"
+      ],
+      "opening": {
+        "body_sha256": "4a11471deac30c60e9acda99c4a7aadeb5ee40c4e89f51d4203b63fe00353984",
+        "content_markdown": "# Encoding 微操作与提问库\n\n版本2.0。60张操作卡，每类10张；保留原ID与名称。与《Encoding 研究报告》的选择矩阵、证据台账和决策算法配套使用。\n\n**每次从当前表征缺口选择必要操作，不按目录逐项完成。** 同一任务可同时覆盖两类目的。所列内部表征变化是目标，需以无帮助的新题与修订表现验证。中文模板及案例均为原创设计综合；文献支持策略家族或邻近机制，不代表每个模板已有独立实验验证。\n\n证据约定：E1=聚合证据，E2=情境实证，H=理论/设计推论。操作中“直接家族”也只表示上级活动获支持；“相邻”不等于教学因果证据。\n\n\n本次逐卡新增“深化任务（H）”和“约束与验收”。这些段落与原目的、先备条件、示例和证据一起使用；H指教学设计及收益外推，不把其中的数学定义或合法推导也降为猜测。任务允许信息不足、不适用和多解。\n\n共同执行约定：先声明学习目标与所需前置，再指定允许变化项、必须保持的关系和不能凭空补入的信息；记录可见材料及提示程度；按卡片判据检查新例。只选适用卡，不要求每轮把六类走完。\n\n",
+        "source_ref": {
+          "declared_revision": "2.0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 13,
+            "kind": "markdown_line_range",
+            "start_line": 1
+          },
+          "project_relative_path": "../02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "02_Encoding微操作与提问库.md"
+        }
+      },
+      "resource_revision": "pl-strategies/0.1.0",
+      "schema_version": "pl-strategy-resources/1",
+      "single_performance_rule": "S07与X02对同一材料、关键补全与可观察变化重合时，只执行一次任务、保存一份原答；分别注明借用部分。",
+      "source_refs": [
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 376,
+            "heading": "## 七、策略资源怎样从原文变成运行资源",
+            "kind": "markdown_heading",
+            "start_line": 289
+          },
+          "project_relative_path": "../AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md",
+          "source_id": "N00",
+          "workspace_relative_path": "AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 231,
+            "heading": "## 六、从通用卡片到可执行任务",
+            "kind": "markdown_heading",
+            "start_line": 201
+          },
+          "project_relative_path": "../AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+          "source_id": "D07",
+          "workspace_relative_path": "AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 198,
+            "heading": "### 2. 从卡片到任务，需要完成内容实例化",
+            "kind": "markdown_heading",
+            "start_line": 180
+          },
+          "project_relative_path": "../AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+          "source_id": "D05",
+          "workspace_relative_path": "AI个人学习系统_工作包5_Encoding_设计方案_v0.md"
+        }
+      ]
+    },
+    "compiled": true,
+    "conditions": [
+      {
+        "explanation": "本次目标内工作、用途和允许资源可引用；不由选卡改写目标。",
+        "key": "goal_work_defined",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "本次内容、题面和参考在拟定用途内有核验依据；研究引文不代替内容核验。",
+        "key": "materials_reliable",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "能兑现必要的可靠纠正、反馈、修订与收束；成本包含这些工作。",
+        "key": "feedback_available",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "明确仍留给学习者的关键工作；模板槽已按当前内容实例化。",
+        "key": "learner_operation_preserved",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "目标允许输入与真实暴露条件下，拟观察的关键操作未被提示或材料代做；不等于一律闭卷。",
+        "key": "unaided_observation_preserved",
+        "origin": "suite_added",
+        "required_for": [
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "本次有可靠标准推理，不把开放猜想写成核验参考。",
+        "key": "standard_reasoning_available",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "理由关系所需前提当前可用或作为允许的可靠输入提供。",
+        "key": "prerequisites_available",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "仍可见规则/选项/答案和实际撤除部分明确，按它们解释表现。",
+        "key": "visible_clues_recorded",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      }
+    ],
+    "content_markdown": "- 目的/条件：先验不足、开放解释容易空白或臆造，但已有可学的标准推理。\n- Prompt：「在给定句干/节点中补一个关键理由，随后给结构相同的新例，去掉句干再解释。」\n- 好例：「概率树中相继独立事件的联合概率相乘，因为……；在下一个题中自行指出独立条件。」\n- 坏例：「从零发明整个概率体系。」\n- 风险：填词猜中却未理解；第二题必须换表面信息并要求条件判断。\n- 表征变化：受支持理由→可独立调用的推理结构；RR06 直接特定实验，撤除节奏为设计。\n- **深化任务（H）：**“补出理由链中的关键关系，同时记录哪些规则、选项、答案仍可见；撤去这些线索后，解释一个结构相近的新步骤。”\n- **约束与验收：**X02强调理由链重建与解释独立性，S07强调步骤补全与降低搜索负担。两者交叠时合用一次检查，避免相同填空重复计作两种深加工。\n",
+    "cost": {
+      "basis": "通用资源无具体课程和用时；实例化时引用实际预算/估计依据。",
+      "execution": "unknown",
+      "feedback": "unknown",
+      "preparation": "unknown",
+      "review": "unknown"
+    },
+    "evidence_ids": [
+      "RR06"
+    ],
+    "evidence_limits": [
+      "研究组件、学科内容正确性、任务与帮助条件、真实学习收益分别核验。",
+      "目标所需独立、整体、迁移与时间条件不由方法名称或卡片验收代替。",
+      "未知接触保持未知；隐藏答案、更换措辞或执行者不能重置暴露历史。",
+      "索引命中与本地资源正文核对不证明当前任务已可执行。",
+      "完整两载体正文保留；链接目标差异不构成第二份证据，未来实质冲突先限制相关用途。",
+      "原文H针对教学设计与收益外推，不把可核验数学定义/合法推导降为猜测。",
+      "X02关注理由链重建与解释独立性；S07关注步骤执行/搜索；共享补全不能重复计证。"
+    ],
+    "evidence_refs": [
+      {
+        "evidence_id": "RR06",
+        "externally_reverified_in_b3c": false,
+        "original_url": "https://link.springer.com/article/10.1007/s11251-008-9051-z",
+        "source_ref": {
+          "declared_revision": "2.0",
+          "identity_kind": "literature_entry",
+          "locator": {
+            "evidence_id": "RR06",
+            "kind": "markdown_table_row",
+            "line": 507
+          },
+          "project_relative_path": "../01_Encoding研究报告.md",
+          "source_id": "R01",
+          "workspace_relative_path": "01_Encoding研究报告.md"
+        }
+      }
+    ],
+    "exclusions": [
+      "不要求从零发明整个知识体系。",
+      "填词猜中与仍可见答案不能被解释为理由链独立形成。"
+    ],
+    "full_carriers": {
+      "R02": {
+        "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+        "body_sha256": "4cdbfd9554ac29a002adb66cee84a9728d071b6a0ef84cdb8fea6c1f326ac950",
+        "content_markdown": "### X02 约束补全与支架撤除\n\n- 目的/条件：先验不足、开放解释容易空白或臆造，但已有可学的标准推理。\n- Prompt：「在给定句干/节点中补一个关键理由，随后给结构相同的新例，去掉句干再解释。」\n- 好例：「概率树中相继独立事件的联合概率相乘，因为……；在下一个题中自行指出独立条件。」\n- 坏例：「从零发明整个概率体系。」\n- 风险：填词猜中却未理解；第二题必须换表面信息并要求条件判断。\n- 表征变化：受支持理由→可独立调用的推理结构；[RR06](https://link.springer.com/article/10.1007/s11251-008-9051-z) 直接特定实验，撤除节奏为设计。\n- **深化任务（H）：**“补出理由链中的关键关系，同时记录哪些规则、选项、答案仍可见；撤去这些线索后，解释一个结构相近的新步骤。”\n- **约束与验收：**X02强调理由链重建与解释独立性，S07强调步骤补全与降低搜索负担。两者交叠时合用一次检查，避免相同填空重复计作两种深加工。\n\n",
+        "source_ref": {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 567,
+            "heading": "### X02 约束补全与支架撤除",
+            "kind": "markdown_heading",
+            "start_line": 557
+          },
+          "project_relative_path": "../02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "02_Encoding微操作与提问库.md"
+        }
+      },
+      "R03": {
+        "body_sha256": "4be9617a4c06a74589bd198546e9440d1f5780d2460d37ed74d6e161048d478d",
+        "content_markdown": "- 目的/条件：先验不足、开放解释容易空白或臆造，但已有可学的标准推理。\n- Prompt：「在给定句干/节点中补一个关键理由，随后给结构相同的新例，去掉句干再解释。」\n- 好例：「概率树中相继独立事件的联合概率相乘，因为……；在下一个题中自行指出独立条件。」\n- 坏例：「从零发明整个概率体系。」\n- 风险：填词猜中却未理解；第二题必须换表面信息并要求条件判断。\n- 表征变化：受支持理由→可独立调用的推理结构；RR06 直接特定实验，撤除节奏为设计。\n- **深化任务（H）：**“补出理由链中的关键关系，同时记录哪些规则、选项、答案仍可见；撤去这些线索后，解释一个结构相近的新步骤。”\n- **约束与验收：**X02强调理由链重建与解释独立性，S07强调步骤补全与降低搜索负担。两者交叠时合用一次检查，避免相同填空重复计作两种深加工。\n",
+        "source_ref": {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/51",
+            "select_field": "id",
+            "select_value": "X02"
+          },
+          "project_relative_path": "../04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "04_Encoding策略库.json"
+        }
+      }
+    },
+    "help_and_feedback_constraints": [
+      "记录可见输入、备用帮助与教师参考；备用内容未展示不计暴露。",
+      "保存帮助前原答以及实际帮助内容、作用、顺序与相关发生时间。",
+      "允许提供足以继续的可靠帮助；帮助后的成功按实际条件解释。",
+      "用户请求示范或答案时可以转教学；不为维持独立证据拒绝必要帮助。"
+    ],
+    "intended_work": "给定可靠标准推理及局部支架，补出理由链关键关系，按目标观察撤除相关线索后的解释。",
+    "local_adaptations": [
+      "结构化条件、标签与资源键为本套件新增整理；不视为经验证的调度算法。"
+    ],
+    "name": "约束补全与支架撤除",
+    "nearby_method_difference": "X02关注理由链重建与解释独立性；S07关注步骤执行/搜索；共享补全不能重复计证。",
+    "original_claim_status": {
+      "per_template_experimentally_verified": false,
+      "status": "H：设计综合",
+      "template_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断"
+    },
+    "original_id": "X02",
+    "prerequisites": [
+      "已有可学、可核验的标准推理。",
+      "必要知识可通过合法先验或可靠允许输入获得；先验不足不是已确认能力标签。"
+    ],
+    "required_learner_operations": [
+      "在给定句干/节点中补出关键理由，说明条件。",
+      "记录仍可见的规则、选项和答案；目标需要独立理由链时，撤去相关线索并在结构近例解释。"
+    ],
+    "research_excerpts": [
+      {
+        "body_sha256": "ebb1ac6c49ae83c724615ed6ac50ef871d66e5db11a2fb35ce7627b4669e082d",
+        "content_markdown": "|[RR06](https://link.springer.com/article/10.1007/s11251-008-9051-z)|Berthold, Eysink & Renkl (2009；online 2008), *Assisting self-explanation prompts are more effective than open prompts when learning with multiple representations*. [原文/机构记录](https://link.springer.com/article/10.1007/s11251-008-9051-z) |N=62 概率论多表征例题；辅助解释/开放解释/无提示|两种提示促进程序知识；辅助提示更有利于概念知识，适合填缺口而非全自由生成|单一概率学习实验，不证明所有领域辅助均更好；出版方摘要|\n",
+        "source_ref": {
+          "declared_revision": "2.0",
+          "identity_kind": "literature_entry",
+          "locator": {
+            "evidence_id": "RR06",
+            "kind": "markdown_table_row",
+            "line": 507
+          },
+          "project_relative_path": "../01_Encoding研究报告.md",
+          "source_id": "R01",
+          "workspace_relative_path": "01_Encoding研究报告.md"
+        }
+      }
+    ],
+    "resource_key": "encoding/X02",
+    "resource_kind": "encoding-card-bundle",
+    "resource_revision": "pl-strategies/0.1.0",
+    "review_status": {
+      "course_applicability_verified": false,
+      "external_references_verified": false,
+      "learning_effect_verified": false,
+      "personal_data_included": false,
+      "scope": "核对本地选中正文、完整必要约束、源定位与指纹；按正式方案处理冲突。",
+      "status": "local_source_text_checked"
+    },
+    "schema_version": "pl-strategy-resources/1",
+    "source_refs": [
+      {
+        "declared_revision": "2.0",
+        "identity_kind": "card",
+        "locator": {
+          "end_line": 567,
+          "heading": "### X02 约束补全与支架撤除",
+          "kind": "markdown_heading",
+          "start_line": 557
+        },
+        "project_relative_path": "../02_Encoding微操作与提问库.md",
+        "source_id": "R02",
+        "workspace_relative_path": "02_Encoding微操作与提问库.md"
+      },
+      {
+        "declared_revision": "2.0",
+        "identity_kind": "card",
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/operations/51",
+          "select_field": "id",
+          "select_value": "X02"
+        },
+        "project_relative_path": "../04_Encoding策略库.json",
+        "source_id": "R03",
+        "workspace_relative_path": "04_Encoding策略库.json"
+      },
+      {
+        "declared_revision": "v0",
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 376,
+          "heading": "## 七、策略资源怎样从原文变成运行资源",
+          "kind": "markdown_heading",
+          "start_line": 289
+        },
+        "project_relative_path": "../AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md",
+        "source_id": "N00",
+        "workspace_relative_path": "AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md"
+      },
+      {
+        "declared_revision": "v0",
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 231,
+          "heading": "## 六、从通用卡片到可执行任务",
+          "kind": "markdown_heading",
+          "start_line": 201
+        },
+        "project_relative_path": "../AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+        "source_id": "D07",
+        "workspace_relative_path": "AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+      },
+      {
+        "declared_revision": "v0",
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 198,
+          "heading": "### 2. 从卡片到任务，需要完成内容实例化",
+          "kind": "markdown_heading",
+          "start_line": 180
+        },
+        "project_relative_path": "../AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+        "source_id": "D05",
+        "workspace_relative_path": "AI个人学习系统_工作包5_Encoding_设计方案_v0.md"
+      },
+      {
+        "declared_revision": "2.0",
+        "identity_kind": "literature_entry",
+        "locator": {
+          "evidence_id": "RR06",
+          "kind": "markdown_table_row",
+          "line": 507
+        },
+        "project_relative_path": "../01_Encoding研究报告.md",
+        "source_id": "R01",
+        "workspace_relative_path": "01_Encoding研究报告.md"
+      }
+    ],
+    "source_version": "2.0",
+    "stop_or_return_conditions": [
+      "目标内当前工作已有充分证据时结束；不为展示策略制造额外活动。",
+      "预算结束、用户暂停、无新增信息或参考争议时保存已做/未做与恢复点。",
+      "局部可用即回同一父任务；保留父任务卡点、已有支持、局部够用条件、返回位置与预算。",
+      "局部成功而父任务仍失败时重审接口、整体组织、额外前置或诊断；不无限下钻。",
+      "目标只缺未来时间条件时收束，给同一目标内需求；不即时加题补未来证据。"
+    ],
+    "template_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+    "time_constraints": {
+      "fixed_retrieval_first": false,
+      "fixed_spacing_interval": null,
+      "follows_goal_spec": true,
+      "required_events": "按相关学习、练习、帮助/反馈与已知再接触事件解释；不编造时间。"
+    }
+  },
+  "executable": false,
+  "mutated": false,
+  "limitations": [
+    "Complete source constraints require current task adaptation and subject verification."
+  ]
+}

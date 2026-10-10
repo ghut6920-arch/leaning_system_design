@@ -1,0 +1,90 @@
+{
+  "status": "pass",
+  "fictional_only": true,
+  "grid_states": [
+    {
+      "p": 0,
+      "a": -1,
+      "next": 0
+    },
+    {
+      "p": 0,
+      "a": 0,
+      "next": 0
+    },
+    {
+      "p": 0,
+      "a": 1,
+      "next": 1
+    },
+    {
+      "p": 1,
+      "a": -1,
+      "next": 0
+    },
+    {
+      "p": 1,
+      "a": 0,
+      "next": 1
+    },
+    {
+      "p": 1,
+      "a": 1,
+      "next": 2
+    },
+    {
+      "p": 2,
+      "a": -1,
+      "next": 1
+    },
+    {
+      "p": 2,
+      "a": 0,
+      "next": 2
+    },
+    {
+      "p": 2,
+      "a": 1,
+      "next": 2
+    }
+  ],
+  "sequence_examples": [
+    {
+      "actions": [
+        -1,
+        1
+      ],
+      "trajectory": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "actions": [
+        1,
+        -1
+      ],
+      "trajectory": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "existing_code_counterexample": {
+    "tp": 1,
+    "fp": 0,
+    "wrong": 0.5,
+    "correct": 1.0
+  },
+  "quadratic_roots_substitution": [
+    0,
+    1
+  ],
+  "limits": [
+    "Finite anchors only; not general proof or learning efficacy.",
+    "No real learning record was read or written.",
+    "General parity and full quadratic solution arguments are reviewed in prose."
+  ]
+}

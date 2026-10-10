@@ -1,0 +1,14 @@
+test_budget_checkpoint_recovers_consumption_and_stops_more_teaching (test_b3b_teaching.B3bTeachingTests.test_budget_checkpoint_recovers_consumption_and_stops_more_teaching) ... FAIL
+
+======================================================================
+FAIL: test_budget_checkpoint_recovers_consumption_and_stops_more_teaching (test_b3b_teaching.B3bTeachingTests.test_budget_checkpoint_recovers_consumption_and_stops_more_teaching)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\文献资料\学习系统架构设计\personal-learning-suite\tests\test_b3b_teaching.py", line 737, in test_budget_checkpoint_recovers_consumption_and_stops_more_teaching
+    self.assertEqual(resumed["recovery"]["declared_active_minutes"]["value"]["minutes"], 5)
+AssertionError: 1 != 5
+
+----------------------------------------------------------------------
+Ran 1 test in 0.184s
+
+FAILED (failures=1)

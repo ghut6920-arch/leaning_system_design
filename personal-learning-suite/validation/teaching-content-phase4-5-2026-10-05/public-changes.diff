@@ -1,0 +1,635 @@
+--- before/personal-learning-suite/src/skills/learning-materials/SKILL.md
++++ after/personal-learning-suite/src/skills/learning-materials/SKILL.md
+@@ -9,6 +9,8 @@
+ 
+ 按当前模式读取 [材料工作流](references/materials-workflow.md) 的相应部分。先检查原材料是否已够用，再选择直接引用、重组、局部桥接、外部补充、局部生成或暂不新增／暂缓。取得当前用途必需依据即停止扩展；准备复杂证明、构造、实现或开放论证时，保留其完整参考核验路径。
+ 
++备课时用工作流的“形式与功能”把材料落实为当前可看的内容和学习者操作；首次实例化或形式选择不清时读 [材料实例](references/materials-examples.md)。缺对象、规则或步骤组织时提供必要定义、框架或连贯示范，再接可完成的工作；已有这些输入或合格作品则直接使用。不能用问题清单代替材料，也不把先讲整章设为所有起点的要求。
++
+ 核验时读取 [领域与对象核验](references/domain-checks.md) 中当前对象的规则，以及实际原件或推导／测试依据。忠实读取、内容正确、当前用途合格和实际展示分别说明；模型级别、共识、研究支持与文件指纹都不证明本题正确。核过公式不代表其图或交互成品已核。
+ 
+ 交付 `SourceFragment` 与 `MaterialUse` 或保留同一含义的人工文件视图，引用确切修订，说明读清及未读清模态、条件、多解、核验锚点和限制；简单材料不要求填满 JSON。当前可见输入、备用帮助、教师参考分开；按目标操作说明潜在代做，包括标题、着色、编号、默认选项与折叠位置。材料 prepared 不等于 displayed，实际暴露由 AG0 记录，证据用途由 AG3 决定。
+--- before/personal-learning-suite/src/skills/learning-materials/references/materials-workflow.md
++++ after/personal-learning-suite/src/skills/learning-materials/references/materials-workflow.md
+@@ -36,6 +36,28 @@
+ 
+ 新生成前先确认可行核验路径，产物未核保持候选。改造例题同时准备题干、可接受解及核验依据，但不用一起展示。外部检索取得用途所需依据便停；不默认重写全章、做题库或加可视化。偏好可决定可逆形式选择，单次“看不懂”或成功不能固化为学习类型。
+ 
++## 形式与功能：把材料准备成能使用的内容
++
++转译自 D03 第六节，结合 D05 第四／五节和 R01 的任务条件。先说明当前缺的是对象、关系、步骤、条件、转换还是整体组织，再选择承担该功能的实际片段。表中是候选用途，不是每单元都要制作的清单。
++
++| 形式 | 承担的教学功能 | 留给学习者的具体工作 | 适用与核验要点 |
++|---|---|---|---|
++| 必要定义、短说明、任务框架 | 建立对象含义、用途和关系的初步入口 | 用已给信息定位对象，接上当前任务；无需空白建全章地图 | 缺对象时及时给；核对象域、指代、条件，不把目录当框架讲解 |
++| 公式与推导 | 显示数量关系、条件和合法连接 | 解释／完成对应步骤、检查条件或选择公式 | 保留量词与假设；代回检验候选，完整性另须推导 |
++| 完整例题、部分范例 | 让陌生的步骤组织可见，再按表现移交工作 | 在完整示范后承担未给的连接、步骤或选择 | 题干、理由、结论连贯；完整参考先核，展示过的方法按帮助解释 |
++| 近例、非例、条件对照 | 辨认决定适用性的条件 | 接受、拒用或指出信息不足，并说清改变的条件 | 控制无关差异；非例应真的违反指定条件，不只换数字 |
++| 图、关系表、坐标图 | 显示结构、变化或两种表示的对应 | 追踪变量、预测变化、解释映射或自行转换 | 轴、刻度、单位、方向、范围与公式对应；若构图正是目标，成图不能代替其工作 |
++| 动画／交互 | 暴露静态形式难以保留的过程或可操纵条件 | 在允许参数内作预测、操作并核对变化 | 确有增量才制作；检查实际成品的参数、约束、边界和行为，核公式不等于核交互 |
++| 代码、轨迹、规格与小型数据 | 把算法条件接到实现与可观察行为 | 解释状态、补实现、选择测试或解释结果 | 输入输出、环境、预期及异常行为明确；运行、理论、测试选择和实验解释分别核 |
++| 原始论述、证据片段、竞争案例 | 保留主张与论据之间的连接 | 比较证据、推理、替代解释与结论边界 | 保留情境、事实／价值前提；不按是否同意参考立场评分 |
++| 完整证明／综合作品及局部支架 | 维持整体约束和接口，修复局部后返回 | 组织完整论证或端到端产物 | 局部支持指回父产物；完整核验不能换成几道小题或孤立运行结果 |
++
++选择后必须交出实际内容或确切可访问位置，并说明“现在看什么→用它做什么→怎样核对→缺哪项时补什么”。只有“需要一张图／应有范例”的声明仍是待准备。新手缺对象时先给足够定义和示范；已有必要前提时允许有界尝试；原作品足够时直接审查。可靠性规则不能被用来无限推迟必要教学输入。
++
++信息相同的两种表示仍可能承担不同工作。例如公式便于计算，坐标图使极值与零点的空间对应可观察；转换本身是目标时，图不因信息等价而被删为冗余。按 R02／R03 的 S02、S03、X06 使用时保留语义对应、意义单元和全局连接，按当前缺口选必要操作；不机械分屏、不默认增加表征数量，也不以“图已给出”推为用户建立了映射。卡片的中文模板与顺序属于设计，研究家族支持不证明本次材料有效。
++
++具体起点、呈现边界和实际核验见 [材料实例](materials-examples.md)。
++
+ ## 核验：内容与用途分别判断
+ 
+ 读取 [领域与对象核验](domain-checks.md)。对重要材料表达“查了什么—依据在哪—支持何范围—没查什么—因此可怎样用”，保留核验责任、版本和局限。核验是专业工作，辅助检查器不能替代来源对照、合法推导、测试或适当专业审查。
+@@ -46,13 +68,15 @@
+ 
+ | 部分 | 处理 |
+ |---|---|
+-| 当前可见输入 | 本次必要题面／资料／工作和限制；采用理由若泄露待查方法则延后 |
++| 当前可见输入 | 本次必要题面、对象／规则说明、框架或示范，以及学习者工作和限制；采用理由若泄露待查方法则延后 |
+ | 备用帮助 | 符号释义、局部推导、例题或边界说明，仅按需要调用，注明会代做哪些操作 |
+ | 教师参考 | 位置、完整核验、答案／多解与评分边界，不随当前任务自动展开 |
+ 
+ 独立并非闭卷：允许公式／文档／计算器时，可提供它们，关键判断仍须由学习者完成。按目标逐项检查文字、标题、颜色、编号、箭头、默认值和折叠位置是否给出方法、关系、条件或构图答案；不能给媒体固定帮助等级。用户要求完整参考时可转教学，实际展示交 AG0 记录并由 AG3 限定后续结论。未显示记录不能证明用户从未见过。
+ 
+ 复用内容核验不等于复用用途资格。字体调整可只检查呈现；含义、对象域、关键假设、答案、图映射、软件／数据版本或目标用途改变时，重核受影响部分。新任务按与已有暴露的实质差异判断，生成日期或换数字不能证明“未练迁移”。接收方返回用途匹配、潜在代做、实际采用范围及缺项；返稿不等于已展示或已安排。
++
++交 SK03 时把这三部分接到当前活动：当前入口已落实的片段／成品、尚未展示的支持及调用信号、教师正确性锚点、学习者剩余操作和必要返回点。AG1／AG0 确认当前用途与预算；兼任可在同一可执行视图中直接完成，不另造材料审批队列。输入不足先落实缺项，输入足够后就交给学习者工作，不继续堆摘要。
+ 
+ ## 复杂整体参考
+ 
+--- before/personal-learning-suite/src/agents/AG2-materials.md
++++ after/personal-learning-suite/src/agents/AG2-materials.md
+@@ -21,6 +21,8 @@
+ 
+ 形式按当前功能选，说明表示间对应；原文难读可有可靠改写，静态够用无需复杂媒体。用户换形式时检查它是否仍承担同一功能；构图或实现正是目标时，替代输入可作帮助但不能替代其目标产物。材料准备、被采用、实际展示与用户使用分别成立；不把“资料已导入”写成接触或掌握。
+ 
++首次实例化或表示取舍不清时读 [材料实例](../skills/learning-materials/references/materials-examples.md)，按工作流的形式—功能表落实可直接使用的定义、连贯例题、图或规格。交教学方实际入口、备用支持的调用信号、核验锚点与剩余工作；仅有材料名称仍未准备完成。必要对象和规则不因“保护独立性”而一直不提供；已给内容限定相应证据用途即可。
++
+ 核验针对内容与用途：原件、合法推导、代回／反例、规格与测试或适当专业审查。数学有限数值不证明全称，程序运行不包办理论与实验解释，多模型同意不判真伪，方法研究不证明当前答案。没有实际执行的测试不写通过。
+ 
+ 关键条件、定义域、答案或用途改变时重新核相应部分；核验可靠仍需确认展示是否提前给出待观察操作。展示与实际帮助由 AG0 记录，证据用途由 AG3 解释，不直接发后台参考给用户。
+--- before/personal-learning-suite/src/skills/learning-teaching/references/design-whole.md
++++ after/personal-learning-suite/src/skills/learning-teaching/references/design-whole.md
+@@ -11,6 +11,8 @@
+ **辨认当前所需前置。**哪些必须由学习者现在完成，哪些允许教师提供或查阅，哪些与本次无关可暂缓。缺对象含义就补对象，缺规则就给必要规则，步骤组织陌生且有可靠路线时提供连贯示范；用户请求解释／示范时直接提供。“初学”本身不要求所有定义重讲或整套示范。相关经验不明但不影响输入，可边学边观察；已有可用前提时，也可用有界尝试接后续讲授。已有作品足以判断的部分直接复用。只有几种起点会导致不同活动时才补诊断。
+ 
+ **准备材料与可核验范例。**现有可靠材料足够就使用；缺项交 SK02／AG2，具体指出缺哪条关系、条件、范例、图式映射或完整参考。按 [领域与对象核验](../../learning-materials/references/domain-checks.md)核必要内容；图和代码应有可检查的实际成品与行为。材料与教学可以一起准备，但教学设计不替代内容核验。
++
++形式取舍与呈现不清时，按 SK02 的 [材料功能](../../learning-materials/references/materials-workflow.md)及 [实际实例](../../learning-materials/references/materials-examples.md)取得当前入口、备用支持和教师参考；将它们接到当前学习者操作，不能只交“待制作的图／框架”。合成现有对象的短视图及复杂目标展开见 [目标实例](../../learning-goals/references/goal-worked-design.md)，该视图不另存能力或需求。
+ 
+ | 内容准备的需要 | 当前可用材料／操作 | 留给学习者的工作 |
+ |---|---|---|
+--- before/personal-learning-suite/src/skills/learning-goals/SKILL.md
++++ after/personal-learning-suite/src/skills/learning-goals/SKILL.md
+@@ -9,6 +9,8 @@
+ 
+ 设计、澄清或材料不全时读[目标设计规则](references/goal-design.md)。区分要求来源与内容依据，给每项要求、前置和判据双向定位；课程明确要求、用户用途、系统建议和待澄清分别保留。近期目标须留下学习者必须完成的操作、可检查产物、关键正确性条件、允许资源和结论边界。独立允许使用规定工具，关键判断仍由学习者完成。
+ 
++复杂正文、目标深度不清或需交成可执行教学时，按需读 [目标实例与短视图](references/goal-worked-design.md)：由实际内容和用途推出判据，分别保留局部与整体作品义务，再引用现有目标、材料、活动、判断与计划合成当前展开。一般证明、构造、最小性、实现和实验解释各有对应工作；不以算例或固定深度级别统一替代。
++
+ 修订、纠错或复用旧目标时读[版本与纠错规则](references/version-rules.md)。保持稳定要求身份和确切修订引用。缩时交计划方调整承诺，不暗改目标判据；新要求不倒判旧答。来源疑误先请求限制受影响用途，再交材料／评估方核查；原答足够则直接重评，不自动加测。
+ 
+ 以 P-Goal 交出目标和双来源、证据要求、版本说明、已处理／未处理范围、限制、下一责任与触发。AG2 核内容依据，AG3 核证据可观察性，AG0 接收当前缺项；只把会改变承诺的部分交 SK05。候选返回不等于目标已采用、学习已发生或计划有效，不创建掌握状态。
+--- before/personal-learning-suite/src/skills/learning-goals/references/goal-design.md
++++ after/personal-learning-suite/src/skills/learning-goals/references/goal-design.md
+@@ -27,6 +27,8 @@
+ 
+ 拆分以是否改变观察、判断、帮助、材料或安排为理由，避免按段落机械拆分。保留局部与综合两层：子项分别成功不能自动支持端到端组织；综合产物只支持其中实际可辨认的操作。
+ 
++从正文落实判据时，先找定义域、前提、所求结论与使用目的，再辨认必须由学习者完成的计算、选择、解释、证明、构造或实现。将每项关键条件落实到产物中的可检查位置：例如证明的充分／必要方向与存在性，构造的可行性与所称最小性，代码的规格／接口／边界，实验的比较条件与解释范围。完整工作可以分段教，但整体目标仍须一次审查其连续连接；不能只统计子项数量。相应实例及不同深度的实际判据见 [目标实例](goal-worked-design.md)。
++
+ ## 前置与证据要求
+ 
+ 前置分必要、可伴随补充和有益背景。说明它针对的目标版本、缺少时哪个操作无法完成、依据、允许工具能否替代、补到何种程度及如何返回。课程顺序只作线索；单次失败不证明必要依赖，也不证明用户基础弱。互相依赖时先查粒度或显式支架接口，不展开无限前置链。
+@@ -41,4 +43,6 @@
+ 
+ 采用、教学、判断、承诺分别记录。只有相应责任及当前授权可以使候选成为正式依据；AG2 参考已恢复不代表 AG3 判断已恢复。SK01 不替材料核验、评分或规划完成未执行工作。
+ 
++交教学时可从既有对象／人工记录合成一段短视图：本次目标与范围、已有支持及未知、现在给什么、学习者剩余工作、反馈依据、必要分支、预算与停止／返回。目标标准由目标维护，当前展开由活动／计划维护，表现由 Judgment 维护；短视图只是引用它们的可执行解释，不另建状态或同步一份掌握记录。普通反馈不要求重写整份视图；来源、目标、帮助或承诺实质变化时才更新相关连接。
++
+ 进入 B4 专项设计时，AG1 在每个被引用 requirement 的 `teaching_scope` 中明确 `whole_required` 布尔值及 `whole_obligations` 列表；根据目标实际工作判断完整证明、组织或产物义务。不能为了通过执行检查取消原有整体要求。未声明的旧目标交回 AG1 澄清，不批量补默认值；修订后材料与证据用途按新引用重新检查。局部活动与整体核验的格式见[B4 教学接口](../../../../contracts/teaching-b4.md)。
+--- before/personal-learning-suite/src/skills/learning-assessment/SKILL.md
++++ after/personal-learning-suite/src/skills/learning-assessment/SKILL.md
+@@ -13,6 +13,8 @@
+ 
+ 涉及重要跳过、完整复杂产物、非标准解、评分异议、相反证据、删除影响、重大诊断或结论扩展，读取 [诊断与复核](references/diagnosis-review.md)，由 AG3 职能承担；可由具备能力的当前模型顺序兼任，不自动启动子 Agent。尚未读旧结论时先对照原任务、原答、真实条件与判据，再看评分或总结；已经读过时不假装能忘掉，用原始依据重新核查并说明限制。内容疑误交 AG2，判据歧义交 AG1，不能以模型投票裁定；无人能核查时限制该结论，可靠的其他工作仍可继续或收束。
+ 
++完整证明、构造、代码系统或综合论证按需读 [整体作品评审](references/product-review.md)，将先定义务定位到连续原件，查局部间的连接、约束及合法替代路线，并交出具体已支持／未完成工作。整体声明、分数或局部题数不能代替这次专业审查。
++
+ 输出要求级 `Judgment` 或同义人工视图：具体要求、判据修订、合法事件引用、评分理由、条件、`support` 与 `eligibility` 双轴、拟用途、反证及未支持范围，不要求用户填满内部对象。适用时输出有观察和替代解释的 `DiagnosticNote`、同一 `LearningNeed` 的必要补证，或明确“不追加检查”。当前充分即结束；只有 GoalSpec 内确实要求的时间／情境才产生待证项，不用即时加题替代时间。
+ 
+ 诊断只区分会改变当前安排的解释，引用有限预算、分支、停止和恢复条件。判断采用与需求接责／安排分开；AG3 不直接排复习或改目标。`WorkResult` 或同字段视图说明已处理／未处理范围、限制、采用责任、下一责任与触发。
+--- before/personal-learning-suite/src/skills/learning-assessment/references/evidence-rules.md
++++ after/personal-learning-suite/src/skills/learning-assessment/references/evidence-rules.md
+@@ -41,6 +41,8 @@
+ 
+ 比较新旧依据时看同一要求、条件可比、来源合法、新信息是什么。同原答同条件相反评分回原件与先定判据，不能平均、投票或以最后写入为准；不同条件分别保留支持，不机械合成冲突或清零整主题。有限能力解释须有原答中的对应观察，复杂证明／构造／代码系统／开放论证保留整体约束和可接受替代路线，子项通过不自动通过父产物。
+ 
++整体结论的实质评审按 [整体作品评审](product-review.md)执行：回连续原件，将每项原有义务和关键接口对应到实际推理／代码／论据，检查条件与结论的衔接。缺失的关键连接明示未完成，保留无关局部支持；目标本就仅需公式计算时按其标准结束，不追加一般证明。`whole_required`、参考覆盖声明和结构检查通过都不能自行生成整体 supported。
++
+ ## 时间只服务 GoalSpec 的实际要求
+ 
+ 未要求延迟／新情境时写 `not_required` 或作为结论边界，不新增欠项。目标内要求尚未取得才是待证，当前教学仍可结束。日期过去、睡眠、完成计划复习次数或即时流畅不能成为保持通过或能力衰退的依据。
+--- before/personal-learning-suite/src/skills/learning-planning/SKILL.md
++++ after/personal-learning-suite/src/skills/learning-planning/SKILL.md
+@@ -9,6 +9,8 @@
+ 
+ 实际取舍读 [计划与成本](references/planning.md)，跨会话／积压／缩时读 [恢复与调整](references/recovery.md)。对每项需求给实质去向、理由、未覆盖影响和下一触发；不全部移明天，不用日期代替接受条件，不生成另一套复习队列。教学与策略来自同一缺口时更新或合法合并同一需求；条件不同的需求不能只按名称合并。
+ 
++课程开始、阶段边界、周取舍或尺度冲突时，按需读 [多尺度计划实例](references/multi-scale-plan.md)。课程方向、阶段综合作品、周资源取舍与会话可执行范围引用同一目标／需求／预算；远期保留暂定程度，只更新受影响尺度。读已有记录即可合成短视图，不要求每轮重建四套计划。
++
+ 计划只承诺可靠、授权内、可反馈且可结束的子范围。完整投入含准备／核验、恢复、学习、反馈／检查、收束／切换、维护／纠错，等待、系统工作和费用分别声明。所有角色和目标共用一个 BudgetEnvelope，不把未知成本填零。人工视图可引用已有条件，只写影响本次取舍的范围、资源、可靠活动、未覆盖后果和触发，不要求用户造 JSON。必要条件未知时可保留暂缓或有边界的试行，不能以填写充分表格宣称可执行。
+ 
+ 已有充分目标内证据时，引用其专业采用与真实条件减少／关闭需求；常规授权 AG0 判断可以用于其允许的短路径，重要结论仍由 SK04 检查。仅缺未来时间条件，本次可结束，保留必要触发；日历过去不满足无再接触条件。关闭需求不产生掌握度，也不改变正式目标。
+--- before/personal-learning-suite/src/skills/learning-planning/references/planning.md
++++ after/personal-learning-suite/src/skills/learning-planning/references/planning.md
+@@ -12,4 +12,6 @@
+ 
+ 安排只用当前、已采用且可靠的目标／活动／材料／配置。B4 复杂任务保持 GoalSpec 的整体教学范围，核验引用须覆盖目标义务；缺整体参考时可交 AG2 或承诺明确局部子范围，不能降整体要求。计划软件沿用 C0/B4 的执行准备检查，计划通过不等目标通过。
+ 
++新课程、阶段／周变化或短期承诺与长程方向冲突时，用 [多尺度计划实例](multi-scale-plan.md)协调课程、阶段、周、会话四种视图。它们是同一安排的不同细化程度，不是四份额度或四个复习队列。阶段围绕目标内综合作品和依赖，周在真实剩余资源内选需求，会话只承诺可靠可反馈工作；正式目标不因缩时降级。已有稳定上层引用无需每轮重新排。
++
+ 关闭投资引用 SK04 已采用的 supported/usable 判断、planning_closure 用途及原活动的 material_context，由 SK04 复验原答响应点、实际帮助、授权、时间和冲突。有效的常规 AG0 判断无需伪造 AG3 二次会签；重要复核由评估接口控制。自然使用证据足够时不追加固定复习；证据条件不够可暂缓，不能用关闭需求掩盖未支持目标。
+--- before/personal-learning-suite/src/skills/learning-planning/references/recovery.md
++++ after/personal-learning-suite/src/skills/learning-planning/references/recovery.md
+@@ -8,4 +8,6 @@
+ 
+ 已花费声明不能回退，保存的 C0 累计时长形成下界；多个活动可能报告同一累计量，不直接相加。这里只检查显式声明，未绑定统一计时器或跨活动完整成本账本。恢复发现新执行消耗未反映在当前承诺时回交预算取舍，不再次发完整旧额度。
+ 
++缩时与积压的实际取舍见 [多尺度计划实例](multi-scale-plan.md)。先扣已花费及必要收束，再选可反馈子范围；连一个可核连接也放不下就停止，保存父产物断点和已给帮助。局部完成不能关闭父作品需求，恢复接尚未完成的连接，不能只因换聊天重新讲已完成构造。只有上层方向／用途或阶段可行性受影响才改对应尺度。
++
+ 积压从使用变化、错误依据撤回、证据已充分或资源减少重新处置；不全部滚到明天。仅缺未来必要条件时留触发，下次进入检查，不承诺后台提醒或已发生保持。删除／限制使相关承诺不可用时只据剩余合法记录重新确认范围，迟到稿和旧请求不复活证据；专业恢复、教学恢复与计划恢复分别成立。
+--- before/personal-learning-suite/src/agents/AG1-design-planning.md
++++ after/personal-learning-suite/src/agents/AG1-design-planning.md
+@@ -18,6 +18,8 @@
+ 4. 设计深度服从目标及证据。需要证明、构造、跨表征协调或实现／实验时保留对应整体工作；不按固定深度阶梯扩展。理论与实现根据当前内容相互核对，不强制每个术语配代码或 GPU 实验。
+ 5. 在实际预算内承诺可开始且可收束的范围；准备、核验、学习、反馈、等待、恢复及维护都计成本，未知分列，多角色不复制预算。其他必需但未入选工作说明后果与再次触发。
+ 
++复杂正文或正式深度不清时读 [目标实例与短视图](../skills/learning-goals/references/goal-worked-design.md)，区分公式使用、一般证明／构造及另加的最小性，给对应实际判据。课程开始、阶段／周变化或积压时读 [多尺度计划实例](../skills/learning-planning/references/multi-scale-plan.md)，同一目标／需求／预算按课程、阶段、周、会话细化；稳定上层引用无需每轮重写。
++
+ 交给 AG0 的活动必须让其知道：现在给什么、用户做什么、怎样核对合法结果、表现不同怎么支持／换路、何时返回或停止。普通活动只备必要分支，不写尽全套话术；只有抽象目标或文件清单不算交付。说明安排不能提前完成待检查的选择；用户要完整依据可以转教学。换形式不涉及目标操作时直接适配；形式正是目标时保留未覆盖要求，用户正式改变最终用途／范围才修目标。
+ 
+ ## 动态调整与连续性
+--- before/personal-learning-suite/src/agents/AG3-assessment.md
++++ after/personal-learning-suite/src/agents/AG3-assessment.md
+@@ -20,6 +20,8 @@
+ 
+ 完整证明、代码或综合论证看整体产物，局部题数不替代；参考有疑误先交 AG2、判据歧义交 AG1，不能先给用户记错。多个模型赞同、统一分数或统计次数不证明正确／掌握。
+ 
++整体结论或非标准作品按需读 [整体作品评审](../skills/learning-assessment/references/product-review.md)，把先定义务定位到连续原件并核关键连接。接受合法非模板解，缺下界／接口／解释时指出那项具体工作，保留无关局部支持；形式声明通过不代替专业评审。若原目标只要求简单公式计算，就按该范围结束。
++
+ ## 诊断与补证
+ 
+ 按 [诊断与复核](../skills/learning-assessment/references/diagnosis-review.md)保留具体观察、替代解释、反证、会改变安排的下一观察及资源／停止；未知不推断一般能力或固定学习类型。局部成功整体失败时重审连接、选择和任务，不默认全部前置薄弱。
+--- before/docs/implementation/AI个人学习系统_教学内容重构执行路线_v1.md
++++ after/docs/implementation/AI个人学习系统_教学内容重构执行路线_v1.md
+@@ -1,6 +1,6 @@
+ # 教学内容重构执行路线 v1
+ 
+-日期：2026-10-04；阶段状态更新于2026-10-05。依据：[全套内容审查](../audits/AI个人学习系统_全套Skill与Agent内容兑现审查及重构判定_2026-10-04.md)。最初要求给出完整路线并执行第一步；随后按用户授权执行第二、第三阶段。具体已改／待改以末尾状态表为准。
++日期：2026-10-04；阶段状态更新于2026-10-05。依据：[全套内容审查](../audits/AI个人学习系统_全套Skill与Agent内容兑现审查及重构判定_2026-10-04.md)。最初要求给出完整路线并执行第一步；随后按用户授权执行第二、第三阶段，本轮检查第四步并补齐其前置，再执行第五阶段。具体已改／待改以末尾状态表为准。
+ 
+ ## 目标与范围
+ 
+@@ -45,6 +45,8 @@
+ | 1 | 已完成指令修改；2026-10-05已逐项来源复核并补正过度概括与实质缺项；独立／真实教学效果仍待验证 | [第一阶段实施与验证](AI个人学习系统_教学内容重构_第一阶段实施与验证_2026-10-04.md)、[来源复核与补正](../audits/AI个人学习系统_第一阶段修订_研究与设计逐项复核_2026-10-05.md) |
+ | 2 | 已完成指令修改、逐项来源复核、资源／内容检查及同模型内容走查；独立执行／真实效果仍待验证 | [第二阶段实施与验证](AI个人学习系统_教学内容重构_第二阶段实施与验证_2026-10-05.md)、[第二阶段来源复核](../audits/AI个人学习系统_第二阶段修订_研究与设计逐项复核_2026-10-05.md) |
+ | 3 | 已完成日常入口、四角色和跨模型提示词修改；2026-10-05继续核对并补专业入口承载、用户控制、复核独立性与失败恢复；内容走查为有背景同模型，独立执行／真实效果仍待验证 | [第三阶段实施与验证](AI个人学习系统_教学内容重构_第三阶段实施与验证_2026-10-05.md)、[第三阶段来源复核](../audits/AI个人学习系统_第三阶段修订_研究与设计逐项复核_2026-10-05.md)、[补充修订与验证](../audits/AI个人学习系统_第三阶段补充修订_研究核对与验证_2026-10-05.md) |
+-| 4—6 | 待实施 | 材料功能、目标／评价与四尺度计划、完整端到端及真实有限学习，范围与验收按上表 |
++| 4 | 已补材料功能与当前输入、实际实例／静态图件、教学交接；原工作流的核验与纠错沿用。内容为同模型自查，独立执行／真实效果仍待验证 | [第四／五阶段来源核对](../audits/AI个人学习系统_第四阶段核对与第五阶段修复_研究设计逐项核对_2026-10-05.md)、[实施与验证](AI个人学习系统_教学内容重构_第四与第五阶段实施与验证_2026-10-05.md) |
++| 5 | 已补从正文／用途导出复杂判据、连续作品实审、现有对象短视图及四尺度实际取舍；独立执行／真实效果仍待验证 | [第四／五阶段来源核对](../audits/AI个人学习系统_第四阶段核对与第五阶段修复_研究设计逐项核对_2026-10-05.md)、[实施与验证](AI个人学习系统_教学内容重构_第四与第五阶段实施与验证_2026-10-05.md) |
++| 6 | 待实施 | 正常前向、完整端到端、真实有限学习与实际成本、按需要整理发布；软件及同模型内容自查不替代这些验证 |
+ 
+ 后续选择是否合并调用、编译更多卡或增加可视化，要由实际内容与重复成本决定。无需为修复教学先重做数据库、放宽开发程序门或增加 Agent 数量。
+--- before/learning/embodied-intelligence/FRAMEWORK.md
++++ after/learning/embodied-intelligence/FRAMEWORK.md
+@@ -1,7 +1,7 @@
+-# 共享框架路由
+-
++# 共享框架路由
++
+ 维护源在项目根的 personal-learning-suite；本学习目录引用当前 Agent／Skill 指导，不维护另一份专业规则。更换模型先读同一入口和真实记录，再按需读当前规则。移动整个项目时相对路径保持可用；只复制本目录须补齐所依赖框架。
+-
++
+ 人工文件模式见 [MODEL_ENTRY](MODEL_ENTRY.md)，总入口为 [SK00](../../personal-learning-suite/src/skills/personal-learning/SKILL.md)及 [开始／恢复](../../personal-learning-suite/src/skills/personal-learning/references/session-entry.md)。这里的真实记录不导入虚构 SQLite；程序 API 和分期开发状态仅在实际调试／调用时读取。无原生 Skill 发现时，模型仍可读取文件执行指导，不宣称已安装或绑定宿主。缺读取能力说明缺项与可用范围。
+ 
+ ## 最少使用路径
+@@ -15,40 +15,44 @@
+ | 解释安排、换形式、跳过检查、缩时、争议、换模型 | SK00 相应控制／恢复分支，再按需读计划／专业复核；用户可看完整依据并转教学，形式就是目标时保留未覆盖要求 |
+ 
+ 四角色表示决定责任。当前模型可顺序兼任相容职责，普通反馈无需全员会签；必要的重要复核仍需足够能力及依据，不能以换角色代替独立性。默认不自动发起子 Agent 或后台工作。
+-
+-## 四角色
+-
+-| 角色 | 原始定义 | 用途 |
+-|---|---|---|
+-| AG0 | [AG0-coach.md](../../personal-learning-suite/src/agents/AG0-coach.md) | 会话执行、真实过程与恢复 |
+-| AG1 | [AG1-design-planning.md](../../personal-learning-suite/src/agents/AG1-design-planning.md) | 目标、设计与计划 |
+-| AG2 | [AG2-materials.md](../../personal-learning-suite/src/agents/AG2-materials.md) | 内容与材料核验 |
+-| AG3 | [AG3-assessment.md](../../personal-learning-suite/src/agents/AG3-assessment.md) | 证据评价与复核 |
+-
+-## 七 Skill
+-
+-| Skill | 原始入口 | 何时加载 |
+-|---|---|---|
++
++## 四角色
++
++| 角色 | 原始定义 | 用途 |
++|---|---|---|
++| AG0 | [AG0-coach.md](../../personal-learning-suite/src/agents/AG0-coach.md) | 会话执行、真实过程与恢复 |
++| AG1 | [AG1-design-planning.md](../../personal-learning-suite/src/agents/AG1-design-planning.md) | 目标、设计与计划 |
++| AG2 | [AG2-materials.md](../../personal-learning-suite/src/agents/AG2-materials.md) | 内容与材料核验 |
++| AG3 | [AG3-assessment.md](../../personal-learning-suite/src/agents/AG3-assessment.md) | 证据评价与复核 |
++
++## 七 Skill
++
++| Skill | 原始入口 | 何时加载 |
++|---|---|---|
+ | SK00 | [personal-learning](../../personal-learning-suite/src/skills/personal-learning/SKILL.md) | 自然开始、恢复、求助、作品入口和控制；开发命令按需 |
+-| SK01 | [learning-goals](../../personal-learning-suite/src/skills/learning-goals/SKILL.md) | 目标与判据 |
+-| SK02 | [learning-materials](../../personal-learning-suite/src/skills/learning-materials/SKILL.md) | 来源、材料与参考 |
+-| SK03 | [learning-teaching](../../personal-learning-suite/src/skills/learning-teaching/SKILL.md) | Encoding/Post 教学 |
+-| SK04 | [learning-assessment](../../personal-learning-suite/src/skills/learning-assessment/SKILL.md) | 条件化评价 |
+-| SK05 | [learning-planning](../../personal-learning-suite/src/skills/learning-planning/SKILL.md) | 需求安排与连续性 |
+-| SK06 | [learning-strategies](../../personal-learning-suite/src/skills/learning-strategies/SKILL.md) | 按需选择教学方法 |
+-
+-## 核心规则与按需路径
+-
+-- 唯一字段与语义维护源：[共享契约](../../personal-learning-suite/contracts/shared-contracts.md)。人工模板不另创正式 schema。
+-- 首次目标：[目标设计](../../personal-learning-suite/src/skills/learning-goals/references/goal-design.md)。
++| SK01 | [learning-goals](../../personal-learning-suite/src/skills/learning-goals/SKILL.md) | 目标与判据 |
++| SK02 | [learning-materials](../../personal-learning-suite/src/skills/learning-materials/SKILL.md) | 来源、材料与参考 |
++| SK03 | [learning-teaching](../../personal-learning-suite/src/skills/learning-teaching/SKILL.md) | Encoding/Post 教学 |
++| SK04 | [learning-assessment](../../personal-learning-suite/src/skills/learning-assessment/SKILL.md) | 条件化评价 |
++| SK05 | [learning-planning](../../personal-learning-suite/src/skills/learning-planning/SKILL.md) | 需求安排与连续性 |
++| SK06 | [learning-strategies](../../personal-learning-suite/src/skills/learning-strategies/SKILL.md) | 按需选择教学方法 |
++
++## 核心规则与按需路径
++
++- 唯一字段与语义维护源：[共享契约](../../personal-learning-suite/contracts/shared-contracts.md)。人工模板不另创正式 schema。
++- 首次目标：[目标设计](../../personal-learning-suite/src/skills/learning-goals/references/goal-design.md)。
++- 复杂正文、深度或当前展开不清：[目标实例与现有对象的短视图](../../personal-learning-suite/src/skills/learning-goals/references/goal-worked-design.md)，按实际用途推出判据，不自动加最小性／延迟要求。
+ - 资料进入与核验：[材料工作流](../../personal-learning-suite/src/skills/learning-materials/references/materials-workflow.md)、[领域核验](../../personal-learning-suite/src/skills/learning-materials/references/domain-checks.md)。
++- 需要落实框架／例题／图／规格：[材料实例](../../personal-learning-suite/src/skills/learning-materials/references/materials-examples.md)，从实际功能接学习者操作；实例图仅在相应用途下加载。
+ - 陌生单元／尚无可执行活动：先读 SK03 的 [内容准备](../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md)，按内容加载 Encoding；首次实例化可参考 [正常教学实例](../../personal-learning-suite/src/skills/learning-teaching/references/teaching-examples.md)，不把例子固定为每次课程。
+ - 当前教学：[C0](../../personal-learning-suite/src/skills/learning-teaching/references/c0.md)，按需要加载 [Encoding](../../personal-learning-suite/src/skills/learning-teaching/references/encoding.md) 或 [Post-Encoding](../../personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md)。
+-- 复杂证明/完整代码：[整体设计与核验](../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md)。
+-- 评价：[证据规则](../../personal-learning-suite/src/skills/learning-assessment/references/evidence-rules.md)；争议与重要结论加载 [诊断与复核](../../personal-learning-suite/src/skills/learning-assessment/references/diagnosis-review.md)。
+-- 计划：[投入与安排](../../personal-learning-suite/src/skills/learning-planning/references/planning.md)、[恢复](../../personal-learning-suite/src/skills/learning-planning/references/recovery.md)。
++- 复杂证明/完整代码：[整体设计与核验](../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md)。
++- 评价：[证据规则](../../personal-learning-suite/src/skills/learning-assessment/references/evidence-rules.md)；争议与重要结论加载 [诊断与复核](../../personal-learning-suite/src/skills/learning-assessment/references/diagnosis-review.md)。
++- 完整证明／构造／代码／综合论证结论：[整体作品评审](../../personal-learning-suite/src/skills/learning-assessment/references/product-review.md)，沿连续原件查条件与接口；算例和局部题数不替代。
++- 计划：[投入与安排](../../personal-learning-suite/src/skills/learning-planning/references/planning.md)、[恢复](../../personal-learning-suite/src/skills/learning-planning/references/recovery.md)。
++- 课程／阶段／周取舍或缩时积压：[多尺度计划实例](../../personal-learning-suite/src/skills/learning-planning/references/multi-scale-plan.md)，四种视图共用当前目标、需求和预算；普通问答不预载四层计划。
+ - 选法：[方法适配](../../personal-learning-suite/src/skills/learning-strategies/references/selection-adaptation.md)，从具体工作发现候选，按需读完整包或未编译原卡；不预载整个策略库。Post 的 [功能与四包入口](../../personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md) 支持恢复、关系、自主选用、条件更新及组合顺序；首次实例化可参考 [方法与 Post 实例](../../personal-learning-suite/src/skills/learning-teaching/references/method-post-examples.md)。
+-
++
+ 规则文件路径及公共文件指纹登记于 framework-manifest.json。指纹用于识别规则修订，不证明学科正确或模型能力。规则变化后重新核对受影响用途，不能据“最新版本”自动撤销旧表现。
+ 
+ 实际调试程序时才加载 [材料运行接口](../../personal-learning-suite/src/skills/learning-materials/references/runtime.md)、[评估运行接口](../../personal-learning-suite/src/skills/learning-assessment/references/runtime.md)、[计划运行接口](../../personal-learning-suite/src/skills/learning-planning/references/runtime.md)。它们的 JSON、Grant、SQLite 与事务说明不作为人工开课门槛，真实记录不进入 synthetic 程序。
+--- before/learning/embodied-intelligence/framework-manifest.json
++++ after/learning/embodied-intelligence/framework-manifest.json
+@@ -1,159 +1,183 @@
+-{
+-  "format": "file-learning-framework-links/0.1",
+-  "generated_at": "2026-10-05",
+-  "mode": "manual_files",
+-  "shared_schema_reference": "pl-contracts/0.1.0",
+-  "native_skill_installation": false,
+-  "real_runtime_binding": false,
+-  "independent_agents_started": false,
+-  "entries": [
+-    {
+-      "path": "../../personal-learning-suite/contracts/shared-contracts.md",
+-      "sha256": "7a83601a8e4d0741b41322fc8883c161b44135c4e56c421eb4f3f408fac8d77e"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/agents/AG0-coach.md",
+-      "sha256": "f9e07652ef8f0b78fde925327eb9fa87e075d07443359e4c4d9234561db978fa"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/agents/AG1-design-planning.md",
+-      "sha256": "101d3e3e6ac9f1c4af0943fb085f693fdb2c0d38b1003a7cc8bf005a3b03fd56"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/agents/AG2-materials.md",
+-      "sha256": "6969d6e4eaf31b42e682b4b07a5c0e342f2e280e88488244f480b3c6b9583c2d"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/agents/AG3-assessment.md",
+-      "sha256": "76481577bdf87fa1f638e923e645dc1000760ba13a5e61101133b7bf54635985"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-assessment/references/diagnosis-review.md",
+-      "sha256": "04fd2f5571a28c1671801133aa874899d06849010c476817aebda84ca565f9d3"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-assessment/references/evidence-rules.md",
+-      "sha256": "d233c5f9989e1f0df105abf73b3ae8e7b9cc7e81445d0c98afe9401f7543f78b"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-assessment/references/runtime.md",
+-      "sha256": "923f1cb5d8ef6f3a1209e5d96c6f5bc6952d03a7fe82407c8079459b8f5c1006"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-assessment/SKILL.md",
+-      "sha256": "ef5f6d6ad0eb8183e4be414d6690dfad250acc103ed0fcf12e4627ee441be2bb"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-goals/references/goal-design.md",
+-      "sha256": "de148efe817b86f2bdaa73023ed343cb6c8998c359acd8f3f3df2dd2de32e59d"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-goals/references/version-rules.md",
+-      "sha256": "1350de96c4441358351b83f210235c7907017caf59a266bdc6f8c9a1054820f5"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-goals/SKILL.md",
+-      "sha256": "5c305a7dfee576879be6963d6afa11ecbbb84665db66192b4855af0996ff1a23"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-materials/references/domain-checks.md",
+-      "sha256": "805b96f93734c12d19a0f7f61de369e6afef20d0dd61cb3b53ae4cabf6fd8873"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-materials/references/materials-workflow.md",
+-      "sha256": "f5756bf0f53ef19d367366fac82bbc216ba52f0b7775b39cfca7f482f4fd885e"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-materials/references/runtime.md",
+-      "sha256": "526c7f34e5b117473b9d37e7ebffff82054795aac97e1454507fa1075d109183"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-materials/SKILL.md",
+-      "sha256": "dcb1974c642465a6429447375153be8125387f00b5fea9ae386d96db8fd7fd04"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-planning/references/planning.md",
+-      "sha256": "60dae5ee411b1d73ded1b31e4b50bb8fb4845769fd5ce73d722a4c823d288b27"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-planning/references/recovery.md",
+-      "sha256": "7edfb94efd8aa18a59164eac2f204093aa1ebee77beed1fead9d284552530ccc"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-planning/references/runtime.md",
+-      "sha256": "7ae28bc57633a30883716cd4b9cb8d0e4760ce049d2b85957f162887dc1beaef"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-planning/SKILL.md",
+-      "sha256": "3737b00a415a33c7eb48df8b07a761fe509d29e20e6ee8c9f676a7ec3b8c477f"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-strategies/references/reuse-change.md",
+-      "sha256": "8978afea2cd57091e2ac9c5435c98989af185aa142afbca3432b3cd2310ebf46"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-strategies/references/runtime.md",
+-      "sha256": "76c465d271be3de7bf5c6f1e014de2115146ceb971559a9acf73e8c96b47393f"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-strategies/references/selection-adaptation.md",
+-      "sha256": "ec4b767d234711d9e4f1f80b94a1fda264c787c174d45ad129a3e5866898f8a2"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-strategies/SKILL.md",
+-      "sha256": "034acacc96b4bd01264e03e58396eb06e0b9ed8eae55137a3285e07bbc4c9555"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/c0.md",
+-      "sha256": "ea4b55a1da8938826bf896f374f7d80c1496adffc38aaf35000be6727aebe7af"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+-      "sha256": "1ca105948f85748d7a53d0dffd998c47c2d9dfb888825406b2a572d2d1547236"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
+-      "sha256": "2370da82016dead12a1b34c35340950af1969bbf4cbd7ad8853eb67fa51399ff"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/method-post-examples.md",
+-      "sha256": "fe1f109248fdbf33d5c5572b005f123db7ef5b17bddf12d5988ecf5cb1fc10ca"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md",
+-      "sha256": "3e8a4a00993833ec3578ca64c13484b38f819902d13d968f09c67dac96e4b773"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/runtime.md",
+-      "sha256": "20bb91fba1ed6a43c995a2b20471d43ca28a8e95db045d7cc94174896629c14f"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/teaching-examples.md",
+-      "sha256": "87c9488352b4a08f7d5a15b0468089c4552cf13a69c43c10a6e3daeba35e0385"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/learning-teaching/SKILL.md",
+-      "sha256": "fb9a0ed91ba1aa2b9fb25fb003a0e6a731749b0f3ef71392ce4395c369dc2a4d"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/personal-learning/references/entry-controls.md",
+-      "sha256": "9debe29b120a32f4c68931a2f5dcbe8626da7753a1e89755d1c7034931f21cc4"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/personal-learning/references/network-host.md",
+-      "sha256": "998a3542e940526ef8f198f190a459a53d8ace29487eccde72ee0f6e5ee31b7d"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/personal-learning/references/session-entry.md",
+-      "sha256": "c676a110d596bc1fdc299e75a4dda66683ca23fd83a81eb57e7a3baf12fe4779"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/personal-learning/references/vertical-workflow.md",
+-      "sha256": "90dcc4d46ade38d73c18705d43280c67f3ce231cc12784ef91146fa1fa3663f2"
+-    },
+-    {
+-      "path": "../../personal-learning-suite/src/skills/personal-learning/SKILL.md",
+-      "sha256": "680a2920f87c5d5f7336c1d6524ea9565e1608dbb1f00084d1659daf5bf80729"
+-    }
+-  ]
+-}
++{
++  "format": "file-learning-framework-links/0.1",
++  "generated_at": "2026-10-05",
++  "mode": "manual_files",
++  "shared_schema_reference": "pl-contracts/0.1.0",
++  "native_skill_installation": false,
++  "real_runtime_binding": false,
++  "independent_agents_started": false,
++  "entries": [
++    {
++      "path": "../../personal-learning-suite/contracts/shared-contracts.md",
++      "sha256": "7a83601a8e4d0741b41322fc8883c161b44135c4e56c421eb4f3f408fac8d77e"
++    },
++    {
++      "path": "../../personal-learning-suite/src/agents/AG0-coach.md",
++      "sha256": "f9e07652ef8f0b78fde925327eb9fa87e075d07443359e4c4d9234561db978fa"
++    },
++    {
++      "path": "../../personal-learning-suite/src/agents/AG1-design-planning.md",
++      "sha256": "1b2121fed98c47108c46662f5144c77706d371f1e2e367ae9be89beab8ab8bde"
++    },
++    {
++      "path": "../../personal-learning-suite/src/agents/AG2-materials.md",
++      "sha256": "cd222f72dada056633ece3731aed90c1e6aa6b452c0ce0cdfd4aafb9efe1b67d"
++    },
++    {
++      "path": "../../personal-learning-suite/src/agents/AG3-assessment.md",
++      "sha256": "fbc60a9cb282020dd7a3de590578c701fabf0db8bd44b40a5f3f5c2771d8a1c9"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-assessment/references/diagnosis-review.md",
++      "sha256": "04fd2f5571a28c1671801133aa874899d06849010c476817aebda84ca565f9d3"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-assessment/references/evidence-rules.md",
++      "sha256": "a781d899c8f901e9bf1595957997eb964ba0b0cd1276021bd40f9a5789e59da2"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-assessment/references/product-review.md",
++      "sha256": "277acead194b585c2e3e9db76b07b06ad021861c275eda1f3e8492bc1939a8c2"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-assessment/references/runtime.md",
++      "sha256": "923f1cb5d8ef6f3a1209e5d96c6f5bc6952d03a7fe82407c8079459b8f5c1006"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-assessment/SKILL.md",
++      "sha256": "95c80eb1b0f7c74de6bbfb9614bb61edcfb17f88adcf739a52e4597576013d0a"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-goals/references/goal-design.md",
++      "sha256": "c3ef586ec22fbe4402e51b770b9d1eacc72c4b38e3df75ad1f8cbe42c082de48"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-goals/references/goal-worked-design.md",
++      "sha256": "6eea5375cbe2d3ffd7f46108703a8b2d9dcec25252acae3b8490e75e574187bf"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-goals/references/version-rules.md",
++      "sha256": "1350de96c4441358351b83f210235c7907017caf59a266bdc6f8c9a1054820f5"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-goals/SKILL.md",
++      "sha256": "1a505eb7add98c035b89b350a2ed71d7e863c959a452fe6b1173b578e464ba6e"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-materials/assets/quadratic-grid.png",
++      "sha256": "c6c0f192abfbe4247838ba38c817016804d6d801e8b55fad67305eae1e75cece"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-materials/assets/quadratic-reference.png",
++      "sha256": "9f567d8a2671fdad9fc1689e03f90988f1c74a114f3607f091e19a1bf9073762"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-materials/references/domain-checks.md",
++      "sha256": "805b96f93734c12d19a0f7f61de369e6afef20d0dd61cb3b53ae4cabf6fd8873"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-materials/references/materials-examples.md",
++      "sha256": "7cc3fc301195126b5b7acb4bfa76c7f36ef9e2d8babc894f450cfc997b588cc4"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-materials/references/materials-workflow.md",
++      "sha256": "49c0cc3eaa516fb16627cb7614c266b9a386168c380723c0be1fe327b4cbfa4c"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-materials/references/runtime.md",
++      "sha256": "526c7f34e5b117473b9d37e7ebffff82054795aac97e1454507fa1075d109183"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-materials/SKILL.md",
++      "sha256": "3ce0ba20ff7ccda521f5ec7d19c4693bfc8c43e012c5e58789fbff0f16b94bc4"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-planning/references/multi-scale-plan.md",
++      "sha256": "71bbf7be7a86064ed842fab21f8d778764ea3d31ce7054977604492e9ac7886d"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-planning/references/planning.md",
++      "sha256": "72beb50667895537040ec5355d36496d3c3a0cfe0d38ce8fa9a7c2fddc02fa33"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-planning/references/recovery.md",
++      "sha256": "950687522a4ba71aca34aaeaa6d93e03195322b3b704f8d51d7134a631ba8252"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-planning/references/runtime.md",
++      "sha256": "7ae28bc57633a30883716cd4b9cb8d0e4760ce049d2b85957f162887dc1beaef"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-planning/SKILL.md",
++      "sha256": "8e6619dba0b55c83ae7faa97c25a25ecc5f04f79410bc08924ce5d2f76caf407"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-strategies/references/reuse-change.md",
++      "sha256": "8978afea2cd57091e2ac9c5435c98989af185aa142afbca3432b3cd2310ebf46"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-strategies/references/runtime.md",
++      "sha256": "76c465d271be3de7bf5c6f1e014de2115146ceb971559a9acf73e8c96b47393f"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-strategies/references/selection-adaptation.md",
++      "sha256": "ec4b767d234711d9e4f1f80b94a1fda264c787c174d45ad129a3e5866898f8a2"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-strategies/SKILL.md",
++      "sha256": "034acacc96b4bd01264e03e58396eb06e0b9ed8eae55137a3285e07bbc4c9555"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/c0.md",
++      "sha256": "ea4b55a1da8938826bf896f374f7d80c1496adffc38aaf35000be6727aebe7af"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
++      "sha256": "179740a221d608b88c70b25c7013a04bb1a762d85d94e18c65108835f92688ac"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
++      "sha256": "2370da82016dead12a1b34c35340950af1969bbf4cbd7ad8853eb67fa51399ff"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/method-post-examples.md",
++      "sha256": "fe1f109248fdbf33d5c5572b005f123db7ef5b17bddf12d5988ecf5cb1fc10ca"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md",
++      "sha256": "3e8a4a00993833ec3578ca64c13484b38f819902d13d968f09c67dac96e4b773"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/runtime.md",
++      "sha256": "20bb91fba1ed6a43c995a2b20471d43ca28a8e95db045d7cc94174896629c14f"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/teaching-examples.md",
++      "sha256": "87c9488352b4a08f7d5a15b0468089c4552cf13a69c43c10a6e3daeba35e0385"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/learning-teaching/SKILL.md",
++      "sha256": "fb9a0ed91ba1aa2b9fb25fb003a0e6a731749b0f3ef71392ce4395c369dc2a4d"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/personal-learning/references/entry-controls.md",
++      "sha256": "9debe29b120a32f4c68931a2f5dcbe8626da7753a1e89755d1c7034931f21cc4"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/personal-learning/references/network-host.md",
++      "sha256": "998a3542e940526ef8f198f190a459a53d8ace29487eccde72ee0f6e5ee31b7d"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/personal-learning/references/session-entry.md",
++      "sha256": "c676a110d596bc1fdc299e75a4dda66683ca23fd83a81eb57e7a3baf12fe4779"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/personal-learning/references/vertical-workflow.md",
++      "sha256": "90dcc4d46ade38d73c18705d43280c67f3ce231cc12784ef91146fa1fa3663f2"
++    },
++    {
++      "path": "../../personal-learning-suite/src/skills/personal-learning/SKILL.md",
++      "sha256": "680a2920f87c5d5f7336c1d6524ea9565e1608dbb1f00084d1659daf5bf80729"
++    }
++  ]
++}

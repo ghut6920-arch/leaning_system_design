@@ -1,0 +1,177 @@
+{
+  "kind": "public original-source review and fictional first responses",
+  "copied_from_explicit_temporary_review_folders": true,
+  "real_learner_records_copied": false,
+  "artifacts": [
+    {
+      "reviewer": "entry-continuity-fresh",
+      "path": "reviewers/entry-continuity-fresh/01-unfamiliar-explanation.md",
+      "sha256": "f70d4133d66359203d770efb880e97d80e17d7d25f7343c367242133fe9915e4"
+    },
+    {
+      "reviewer": "entry-continuity-fresh",
+      "path": "reviewers/entry-continuity-fresh/02-resume-close-only.md",
+      "sha256": "71e667b671751b3b1a2d20d87aa3afab8747eef6eb37e71c8e3fccc31925241e"
+    },
+    {
+      "reviewer": "entry-continuity-fresh",
+      "path": "reviewers/entry-continuity-fresh/03-score-objection-original.md",
+      "sha256": "2e4f282ee611a60f4c27547e60ec0b7ab365157a1deaabf1b789205327189c03"
+    },
+    {
+      "reviewer": "entry-continuity-fresh",
+      "path": "reviewers/entry-continuity-fresh/04-transparency-format.md",
+      "sha256": "356fcd5d71c30fd3859a85d86889af09894e97a5391a7af4cde4d56be7c11355"
+    },
+    {
+      "reviewer": "entry-continuity-fresh",
+      "path": "reviewers/entry-continuity-fresh/audit-report.md",
+      "sha256": "46650c18a13c415d8f958edabdb6656d12644932c3ca5b46d179a222e40dd0a1"
+    },
+    {
+      "reviewer": "entry-continuity-fresh",
+      "path": "reviewers/entry-continuity-fresh/source-completion.md",
+      "sha256": "eb543dfd77b7eea44c1b6e4d288fd7cc975514ea3cb0428cf1974dc2e8296583"
+    },
+    {
+      "reviewer": "entry-continuity-fresh",
+      "path": "reviewers/entry-continuity-fresh/source-coverage.json",
+      "sha256": "6d039e23c7f920f9461c54211d0add2f5b28abcb0b186ef6be1a5e5553839d4b"
+    },
+    {
+      "reviewer": "entry-continuity-fresh",
+      "path": "reviewers/entry-continuity-fresh/source-coverage.md",
+      "sha256": "636b49bdbbb7126ea5174ce3b3d7b90ead8dee4c7dd770fc58714b5fddd8182f"
+    },
+    {
+      "reviewer": "design-assessment-fresh",
+      "path": "reviewers/design-assessment-fresh/audit.md",
+      "sha256": "20f13ef08509f7055105feadfa33f47d392bef515ab0de30867b394ce611ffab"
+    },
+    {
+      "reviewer": "design-assessment-fresh",
+      "path": "reviewers/design-assessment-fresh/coverage.md",
+      "sha256": "9a91a62c23dc4cf3bc91af8e787b17920aee27a1fb803ec5758f9fa402cb8548"
+    },
+    {
+      "reviewer": "design-assessment-fresh",
+      "path": "reviewers/design-assessment-fresh/manifest.json",
+      "sha256": "7e6abab6dc751c5a4a4d4d7f25e101609dda35b0140b0f1020de71cb3ced085e"
+    },
+    {
+      "reviewer": "design-assessment-fresh",
+      "path": "reviewers/design-assessment-fresh/artifacts/check_new_artifacts.py",
+      "sha256": "8eded34ec5527cf98ea805e7d5c7fb7b9273296e1d1e8c25988d5846a328ff2b"
+    },
+    {
+      "reviewer": "design-assessment-fresh",
+      "path": "reviewers/design-assessment-fresh/artifacts/R2-execution.json",
+      "sha256": "f19af0c51eb07a9b1f4b59ad1b0e4d10093a07aa39b95e0ed7bac476cd6c2fda"
+    },
+    {
+      "reviewer": "design-assessment-fresh",
+      "path": "reviewers/design-assessment-fresh/artifacts/R2-teacher-reference.md",
+      "sha256": "3d77671927bcfce65f2987fb84c61ed398fa0b778e9e32d7675626ac61d9475a"
+    },
+    {
+      "reviewer": "design-assessment-fresh",
+      "path": "reviewers/design-assessment-fresh/artifacts/R3-affine-comparison.png",
+      "sha256": "63ef4667b0c46fd6253f1a76bf1b80a3c52d63809ee6674766613a52a2fbedd2"
+    },
+    {
+      "reviewer": "design-assessment-fresh",
+      "path": "reviewers/design-assessment-fresh/outputs/R1-projection-review.md",
+      "sha256": "a29d05cc8b14ac990a56b997ce96a8b02d21072d2e82a6d2e3add836764c813d"
+    },
+    {
+      "reviewer": "design-assessment-fresh",
+      "path": "reviewers/design-assessment-fresh/outputs/R2-lower-bound-review-and-materials.md",
+      "sha256": "ab5fa8456771973b2ecc2e2fbdc37949550180a3db93df759e9b987daf114c7a"
+    },
+    {
+      "reviewer": "design-assessment-fresh",
+      "path": "reviewers/design-assessment-fresh/outputs/R3-affine-correction-and-materials.md",
+      "sha256": "b8e75b5271695094c8db3bd441ea67d6053ff40814e92831b08b0e9c2028c31b"
+    },
+    {
+      "reviewer": "design-assessment-fresh",
+      "path": "reviewers/design-assessment-fresh/outputs/R4-simple-stop.md",
+      "sha256": "559b621b902cc2bddb32988b62be5c8c8c5a83b02a07ccfb0fd729dc94a91156"
+    },
+    {
+      "reviewer": "design-assessment-fresh",
+      "path": "reviewers/design-assessment-fresh/requests/R1-projection-proof.md",
+      "sha256": "304fec69cf785a15e5a66381ee97d314e77fe8a499e4504b1c0ca60bb7796103"
+    },
+    {
+      "reviewer": "design-assessment-fresh",
+      "path": "reviewers/design-assessment-fresh/requests/R2-lower-bound.md",
+      "sha256": "ca77707744effbcde248870fe0704aaca0a26f167083a5c22de2afeb4593d7fb"
+    },
+    {
+      "reviewer": "design-assessment-fresh",
+      "path": "reviewers/design-assessment-fresh/requests/R3-affine-source-error.md",
+      "sha256": "67d52d94d0e562d6fb1380e6109bc3aaec6e5d8fe0e793e69ea7ef4164b66d29"
+    },
+    {
+      "reviewer": "design-assessment-fresh",
+      "path": "reviewers/design-assessment-fresh/requests/R4-simple-stop.md",
+      "sha256": "7fb33a9449a05cfd51479968f8079865d5687d6e1f9d1554a3af53c15f607042"
+    },
+    {
+      "reviewer": "teaching-forward-fresh",
+      "path": "reviewers/teaching-forward-fresh/carrier-check.json",
+      "sha256": "b119da7db9dcbc680e1e35ebf2fa579d483d69dd8f623cd7c164acee3d57a721"
+    },
+    {
+      "reviewer": "teaching-forward-fresh",
+      "path": "reviewers/teaching-forward-fresh/coverage.json",
+      "sha256": "215faf20b6d13b9a301ff5a488286cdfe6969f3a38885d0c97741c9daf9beeff"
+    },
+    {
+      "reviewer": "teaching-forward-fresh",
+      "path": "reviewers/teaching-forward-fresh/fresh-validation-report.md",
+      "sha256": "958d7c86322fcfa1d31f27286e107ed7324d416ded48a115cbf5ecfda7368703"
+    },
+    {
+      "reviewer": "teaching-forward-fresh",
+      "path": "reviewers/teaching-forward-fresh/generation-manifest.json",
+      "sha256": "29851f81d6f8584db6f9450b8294dade42ad5b4af8c3320ba72d1aa5cb044eac"
+    },
+    {
+      "reviewer": "teaching-forward-fresh",
+      "path": "reviewers/teaching-forward-fresh/integrity-check.json",
+      "sha256": "b6b34d51beb82492b002907b796556d83f354d245c8f756713ee7b31308ef90d"
+    },
+    {
+      "reviewer": "teaching-forward-fresh",
+      "path": "reviewers/teaching-forward-fresh/source-completion.md",
+      "sha256": "cb6b7808f4997978b96003f8c0db078851b27b78e7437e72c485ba147c6e1b20"
+    },
+    {
+      "reviewer": "teaching-forward-fresh",
+      "path": "reviewers/teaching-forward-fresh/T1-first-turn.md",
+      "sha256": "fcce0f49866480ab339f0f02448a04a0dbf5acfbd9c0ff8465da51a8c1f82f63"
+    },
+    {
+      "reviewer": "teaching-forward-fresh",
+      "path": "reviewers/teaching-forward-fresh/T2-first-turn.md",
+      "sha256": "74e72b83c2b8b1b14b6e6fb76a65b8723202819a987638760b738cf128181b26"
+    },
+    {
+      "reviewer": "teaching-forward-fresh",
+      "path": "reviewers/teaching-forward-fresh/T3-first-turn.md",
+      "sha256": "1e80dc7084ec58e1566b2d7cda8a8042d38c1fdd4f4568734bbcdb739484c38c"
+    },
+    {
+      "reviewer": "teaching-forward-fresh",
+      "path": "reviewers/teaching-forward-fresh/T4-first-turn.md",
+      "sha256": "777825df40fb625bed6cc79398e2fa48e4fba75b271fbd7842cd8eb6f21f4d21"
+    },
+    {
+      "reviewer": "teaching-forward-fresh-original-requests",
+      "path": "teaching-forward-requests.json",
+      "sha256": "b713a33920820ff5647298c2b8048ba86d4e1830a9519901f5702cc70fb15438"
+    }
+  ]
+}

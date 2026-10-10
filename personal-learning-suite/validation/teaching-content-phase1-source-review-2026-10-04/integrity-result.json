@@ -1,0 +1,131 @@
+{
+  "started_on": "2026-10-04",
+  "completed_on": "2026-10-05",
+  "source_fingerprints": [
+    {
+      "source_id": "N00",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "D00",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "D01",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "D02",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "D03",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "D04",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "D05",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "D06",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "D07",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "D08",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "D09",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "D10",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "D11",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "R01",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "R02",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "R03",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "R04",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "R05",
+      "matches_frozen_source": true
+    },
+    {
+      "source_id": "R06",
+      "matches_frozen_source": true
+    }
+  ],
+  "source_count": 19,
+  "public_instruction_files_changed": 7,
+  "manifest_refresh": [
+    {
+      "path": "../../personal-learning-suite/src/agents/AG0-coach.md",
+      "previous_sha256": "2e8cce9101d646b4d0a6106f1922aa070d7dcbad5b99c9d8e1dc13dbf5320538",
+      "current_sha256": "a8d8e6d6412d14dd702a07b6cda7e381e59851097c882620af1ebde360683d36"
+    },
+    {
+      "path": "../../personal-learning-suite/src/agents/AG1-design-planning.md",
+      "previous_sha256": "16333dcf894c8320b5efa49abbd438e1c9c95cd204e93b52ae0c64a91d44ecf5",
+      "current_sha256": "5d2304b97fa9ef0357475725f44bccce1be413ed65cf200c9ead1db5d192c063"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/c0.md",
+      "previous_sha256": "272195af9dc9cf7c38e3fcd0e4f75b196b38966be760041a51cc14ec27f7794e",
+      "current_sha256": "ea4b55a1da8938826bf896f374f7d80c1496adffc38aaf35000be6727aebe7af"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+      "previous_sha256": "913c3e9ed979c7d3decb242f9fea892d9b0d153f56a7b2009ebae2e5ca146560",
+      "current_sha256": "1ca105948f85748d7a53d0dffd998c47c2d9dfb888825406b2a572d2d1547236"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
+      "previous_sha256": "09d104488e414534904313c8b76c40de2a6961e9b54ef0814e87c055499327d3",
+      "current_sha256": "2370da82016dead12a1b34c35340950af1969bbf4cbd7ad8853eb67fa51399ff"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/SKILL.md",
+      "previous_sha256": "0dff8b9f6133f63487f3cb3067834632c11df3b5a9ccc11af29e2e688493efcc",
+      "current_sha256": "5a9c8312161f22857ce374501abcc3f8c48cac7d7e8b042c2eef87ebe405fb69"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/teaching-examples.md",
+      "previous_sha256": "139a5a14f7b7b35f1612421c65a3419938fe555182ff49f8929c4b18c9aea321",
+      "current_sha256": "87c9488352b4a08f7d5a15b0468089c4552cf13a69c43c10a6e3daeba35e0385"
+    }
+  ],
+  "manifest_entries": 33,
+  "manifest_all_match": true,
+  "markdown_files_checked": 12,
+  "local_links_checked": 126,
+  "broken_local_links": [],
+  "quick_validate": "Skill is valid! (separately executed)",
+  "what_was_checked": "source preservation, actual link targets, framework reference hashes",
+  "independent_model_forward_test": "not_executed",
+  "real_learning_outcomes": "not_executed",
+  "status": "pass"
+}

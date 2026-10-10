@@ -1,0 +1,516 @@
+{
+  "artifact_version": "0.1.0",
+  "baseline": "B0+B1+B2a+B2b+B3a+B3b+B3c+B4+B5+B6",
+  "created_on": "2026-10-02",
+  "updated_on": "2026-10-06",
+  "shared_protocol": "pl-contracts/0.1.0",
+  "store_protocol": "pl-store/0.1.0",
+  "materials_protocol": "pl-materials/0.1.0",
+  "teaching_protocol": "pl-teaching/0.1.0",
+  "purpose": "区分 B0—B6 虚构开发切片、本地受控串行宿主与真实课程／模型／个人记录未知；不表示已安装或学习效果通过。",
+  "status_vocabulary": {
+    "available_design_source": "当前本地设计源可读取且有登记，未等同运行资源核验",
+    "implemented_b1_synthetic": "已实现并以人工夹具验证的 B1 有限存储／入口切片；只支持虚构开发记录，不表示真实教学或宿主已绑定",
+    "implemented_b2a_synthetic": "已创建目标 Skill、目标／版本规则和虚构候选检查切片；不表示正式采用、内容核验或真实角色绑定",
+    "implemented_b2b_synthetic": "已创建材料 Skill、AG2 规范与虚构材料有限读取／声明检查／共享保存／更正追踪；不表示专业正确性自动核验或真实角色绑定",
+    "implemented_b3b_synthetic": "已创建 SK03/C0 与虚构活动执行／原答帮助修订／分支反馈／父任务断点切片；不表示真实教学、完整评估或宿主展示确认",
+    "pending_b3c": "历史阶段状态；B3c 有限资源和配置切片现已实现，未编译资源仍须按实例回源核对",
+    "pending_later_phase": "后续批次实现和行为检查尚未完成",
+    "host_unbound": "宿主配置或能力绑定尚未确定／验证",
+    "awaiting_real_input": "真实课程、用途或个人状态尚未提供，值保持 null",
+    "implemented_b3c_synthetic": "60张完整Encoding双载体卡包、4份完整Post条件包与SK06配置声明检查；64个资源键可读，实际认知适配、学科真伪与学习效果分别验证。",
+    "implemented_b3a_synthetic": "已创建 SK04、AG3 角色与操作级条件/授权/有限诊断检查及共享提交；仅人工声明，不证明学科真伪、真实身份或学习效果。",
+    "implemented_b3_interop_synthetic": "统一 B3 任务资格、时间和用途语义，显式连接已采用配置／C0 事件／选定响应点评估；不等于 B5 自动接责或真实宿主贯通。",
+    "implemented_b4_synthetic": "已创建 Encoding／Post 执行、AG1 关键教学设计与 SK05 计划／缩时／恢复的有限声明检查；只支持人工记录，不表示语义核验、自动排程、真实角色绑定或学习效果。",
+    "implemented_b5_synthetic": "SK00／AG0 单入口按显式请求顺序调用现有专业服务，连接精确引用、保存、需求去向与恢复；不生成评分或采用，不认证身份或启用后台委派。",
+    "implemented_b6_synthetic": "四角色规则加载、能力对象、本地单宿主锁、工作单接责返回采用、受控串行专业动作、执行接管与展示门；仅虚构记录和本地管道。"
+  },
+  "design_inputs": {
+    "status": "available_design_source",
+    "source_registry": "resources/source-registry.json",
+    "source_ids": [
+      "N00",
+      "D00",
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D05",
+      "D06",
+      "D07",
+      "D08",
+      "D09",
+      "D10",
+      "D11",
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06"
+    ],
+    "source_count": 19,
+    "normal_runtime_full_source_preload_required": false,
+    "runtime_rule": "正常运行读取精简规则和当前任务资源；未覆盖配置、重要核验、冲突或维护时回查相应原文。",
+    "read_depth_authority": "以 source-registry.json 各源 read_check_scope 为准；不复制原文历史阅读声明。"
+  },
+  "runtime_resources": [
+    {
+      "dependency_id": "strategy-index",
+      "status": "implemented_b3c_synthetic",
+      "source_ids": [
+        "R03",
+        "R04",
+        "D07"
+      ],
+      "required_scope": "实例必要的导航及稳定资源键，新增标签须标为本地整理",
+      "path": "resources/strategies/strategy-index.json",
+      "resource_revision": "pl-strategies/0.1.0",
+      "created_in_b0": false
+    },
+    {
+      "dependency_id": "encoding-card-bundle",
+      "status": "implemented_b3c_synthetic",
+      "source_ids": [
+        "R02",
+        "R03",
+        "D04",
+        "D05",
+        "D07"
+      ],
+      "required_scope": "仅已采用少量卡的完整正文、前置／排除／反馈／证据／停止条件，加 R02 文首文尾共用约束",
+      "path": "resources/strategies/encoding",
+      "resource_revision": "pl-strategies/0.1.0",
+      "created_in_b0": false
+    },
+    {
+      "dependency_id": "post-method-note",
+      "status": "implemented_b3c_synthetic",
+      "source_ids": [
+        "D04",
+        "D06",
+        "D07",
+        "R04",
+        "R05",
+        "R06"
+      ],
+      "required_scope": "从目标与当前工作形成有具体定位和时间／暴露边界的方法说明；文献号不当策略 ID",
+      "path": "resources/strategies/post",
+      "resource_revision": "pl-strategies/0.1.0",
+      "created_in_b0": false
+    },
+    {
+      "dependency_id": "method-config",
+      "status": "implemented_b3c_synthetic",
+      "source_ids": [
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08"
+      ],
+      "required_scope": "经核对运行资源＋真实当前条件＋有依据适配；不由生成器补造未知值",
+      "path": "contracts/strategies-b3c.md",
+      "resource_revision": "pl-strategies/0.1.0",
+      "created_in_b0": false
+    }
+  ],
+  "shared_runtime_components": [
+    {
+      "dependency_id": "learning_store",
+      "status": "implemented_b1_synthetic",
+      "implementation_batch": "B1",
+      "path": "src/runtime/learning_store.py",
+      "contract_adapter_path": "src/runtime/contract_rules.py",
+      "scope": "带虚构标记的 SQLite 单一记录来源；事务/CAS、幂等、精确历史读取、暂停／限制、删除门禁与清理、限定导出和完整性检查。权限主体仍是测试配置，未认证真实宿主身份。",
+      "validation_report": "validation/b1-runtime-report.json"
+    },
+    {
+      "dependency_id": "personal_learning_entry",
+      "status": "implemented_b5_synthetic",
+      "implementation_batch": "B1+B5",
+      "path": "src/runtime/personal_learning.py",
+      "skill_path": "src/skills/personal-learning/SKILL.md",
+      "control_reference_path": "src/skills/personal-learning/references/entry-controls.md",
+      "scope": "原 B1 开始／恢复／路由只读及受控暂停／限制／删除／导出保留；B5 execute 明确串接目标来源、目标、材料、教学、评估、需求与计划，专业决定由调用方提供。根 CAS 与逐步引用检查，部分失败留真实保存前缀，无后台网络工作单。",
+      "integration_path": "src/runtime/entry_b5.py",
+      "input_adapter_path": "contracts/entry-b5.md",
+      "integration_version": "pl-entry/0.1.0",
+      "installed": false,
+      "self_contained_distribution": false,
+      "validation_report": "validation/b5-all-runtime-report.json"
+    },
+    {
+      "dependency_id": "learning_goals_candidate",
+      "status": "implemented_b2a_synthetic",
+      "implementation_batch": "B2a",
+      "path": "src/runtime/learning_goals.py",
+      "skill_path": "src/skills/learning-goals/SKILL.md",
+      "resource_paths": [
+        "src/skills/learning-goals/references/goal-design.md",
+        "src/skills/learning-goals/references/version-rules.md"
+      ],
+      "input_adapter_path": "contracts/runtime-b2a.md",
+      "scope": "SK01 模型目标设计指导与 AG1 目标职能；程序只检查已编写的虚构候选、版本与交接，stdout 不自动提交；参考核验／评分／计划及正式采用仍由各自责任和授权处理。",
+      "installed": false,
+      "self_contained_distribution": false,
+      "validation_report": "validation/b2a-runtime-report.json"
+    },
+    {
+      "dependency_id": "learning_materials",
+      "status": "implemented_b2b_synthetic",
+      "implementation_batch": "B2b",
+      "path": "src/runtime/learning_materials.py",
+      "skill_path": "src/skills/learning-materials/SKILL.md",
+      "role_path": "src/agents/AG2-materials.md",
+      "resource_paths": [
+        "src/skills/learning-materials/references/materials-workflow.md",
+        "src/skills/learning-materials/references/domain-checks.md",
+        "src/skills/learning-materials/references/runtime.md"
+      ],
+      "input_adapter_path": "contracts/materials-b2b.md",
+      "scope": "受控文本段、分模态和核验双轴声明、用途精确绑定、标注操作泄露、共享提交与双链引用追踪；compatible 是声明检查，不证明学科真伪；未记录实际展示、评分或计划。",
+      "installed": false,
+      "self_contained_distribution": false,
+      "validation_report": "validation/b2b-runtime-report.json"
+    },
+    {
+      "dependency_id": "learning_teaching_c0",
+      "status": "implemented_b3b_synthetic",
+      "implementation_batch": "B3b",
+      "path": "src/runtime/learning_teaching.py",
+      "skill_path": "src/skills/learning-teaching/SKILL.md",
+      "resource_paths": [
+        "src/skills/learning-teaching/references/c0.md",
+        "src/skills/learning-teaching/references/runtime.md"
+      ],
+      "input_adapter_path": "contracts/teaching-b3b.md",
+      "scope": "可靠简单活动的统一资格／分区读取、显式初答与帮助修订时序及完整性、规格分支反馈、收束／父任务断点和恢复；可经 B3c 复验本次配置，携材料上下文交 B3a。共用受控提交，不自动评分、补测或排期；实际展示依调用方声明，不由程序认证。",
+      "installed": false,
+      "self_contained_distribution": false,
+      "validation_report": "validation/b3b-runtime-report.json"
+    },
+    {
+      "dependency_id": "learning_assessment",
+      "status": "implemented_b3a_synthetic",
+      "implementation_batch": "B3a",
+      "path": "src/runtime/learning_assessment.py",
+      "skill_path": "src/skills/learning-assessment/SKILL.md",
+      "role_path": "src/agents/AG3-assessment.md",
+      "resource_paths": [
+        "src/skills/learning-assessment/references/evidence-rules.md",
+        "src/skills/learning-assessment/references/diagnosis-review.md"
+      ],
+      "input_adapter_path": "contracts/assessment-b3a.md",
+      "authorization_template_path": "templates/routine-scoring-grant.json",
+      "scope": "原答响应点、操作级及继承帮助、统一资格、目标内最近相关接触时间、同条件冲突和有限诊断的声明检查；显式材料上下文区分材料用途和判断用途。经 B1 提交判断，不新增表现、测验、需求或计划；历史方法配置保留确切引用，专业用途门不自动恢复。",
+      "installed": false,
+      "self_contained_distribution": false,
+      "validation_report": "validation/b3a-runtime-report.json"
+    },
+    {
+      "dependency_id": "skill_runtime_and_agent_bindings",
+      "status": "implemented_b6_synthetic",
+      "implementation_batch": "B6",
+      "path": "src/runtime/network_b6.py",
+      "scope": "七 Skill 开发源及 B1—B5 专业切片已接入 B6 本地串行宿主，实际加载四角色及按角色的 Skill，通过能力对象维护工作单／接责／采用／接管／显示。七 Skill 未安装，真实模型、异步后台、外部输出与文件隔离仍未绑定。"
+    },
+    {
+      "dependency_id": "learning_strategies",
+      "status": "implemented_b3c_synthetic",
+      "implementation_batch": "B3c",
+      "path": "src/runtime/learning_strategies.py",
+      "skill_path": "src/skills/learning-strategies/SKILL.md",
+      "resource_paths": [
+        "resources/strategies/manifest.json",
+        "resources/strategies/strategy-index.json"
+      ],
+      "input_adapter_path": "contracts/strategies-b3c.md",
+      "scope": "完整约束按需加载，当前方法与完整 B2b 材料用途分别复验；当前配置采用／复用与历史引用分开。MethodConfig 沿用共享记录并可显式交 C0；不评分、排期或计证，未编译条目须回源。",
+      "installed": false,
+      "self_contained_distribution": false,
+      "validation_report": "validation/b3c-runtime-report.json"
+    },
+    {
+      "dependency_id": "b3_interop",
+      "status": "implemented_b3_interop_synthetic",
+      "implementation_batch": "B3 联合修复",
+      "path": "src/runtime/b3_semantics.py",
+      "input_adapter_path": "contracts/b3-interop.md",
+      "scope": "任务资格保守适配、布尔／时间声明及现代授权语义的共用解释；显式配置、材料和事件连接仍经各自专业入口和原 B1 保存。",
+      "installed": false,
+      "self_contained_distribution": false,
+      "validation_report": "validation/b3-interop-report.json"
+    },
+    {
+      "dependency_id": "learning_teaching_b4",
+      "status": "implemented_b4_synthetic",
+      "implementation_batch": "B4",
+      "path": "src/runtime/learning_teaching_b4.py",
+      "skill_path": "src/skills/learning-teaching/SKILL.md",
+      "role_path": "src/agents/AG1-design-planning.md",
+      "resource_paths": [
+        "src/skills/learning-teaching/references/encoding.md",
+        "src/skills/learning-teaching/references/post-encoding.md",
+        "src/skills/learning-teaching/references/design-whole.md"
+      ],
+      "input_adapter_path": "contracts/teaching-b4.md",
+      "scope": "继承 C0 同事件／样本与受控提交；AG1 候选设计和采用、Encoding／Post 局部切换返回、目标整体义务与当前参考覆盖、连续原件交 SK04、条件内已有证据复用。声明相容不证明学科正确或实际学习支持。",
+      "installed": false,
+      "self_contained_distribution": false,
+      "validation_report": "validation/b4-teaching-runtime-report.json"
+    },
+    {
+      "dependency_id": "learning_planning",
+      "status": "implemented_b4_synthetic",
+      "implementation_batch": "B4",
+      "path": "src/runtime/learning_planning.py",
+      "skill_path": "src/skills/learning-planning/SKILL.md",
+      "role_path": "src/agents/AG1-design-planning.md",
+      "resource_paths": [
+        "src/skills/learning-planning/references/planning.md",
+        "src/skills/learning-planning/references/recovery.md"
+      ],
+      "input_adapter_path": "contracts/planning-b4.md",
+      "scope": "同一 LearningNeed 实质处置与合并、当前一个共享预算承诺、完整成本和耗用下界、授权 AG0 缩时、控制和断点恢复；不自动选优先级、排日历、提醒或产生掌握结论。",
+      "installed": false,
+      "self_contained_distribution": false,
+      "validation_report": "validation/b4-planning-runtime-report.json"
+    },
+    {
+      "dependency_id": "network_b6",
+      "status": "implemented_b6_synthetic",
+      "implementation_batch": "B6",
+      "path": "src/runtime/network_b6.py",
+      "skill_path": "src/skills/personal-learning/SKILL.md",
+      "input_adapter_path": "contracts/network-b6.md",
+      "scope": "Trusted local serial capability channel, four loaded roles, WorkOrder/WorkResult responsibility and adoption, atomic execution takeover and presentation gate. Real models and external chat interception unbound.",
+      "installed": false,
+      "self_contained_distribution": false,
+      "validation_report": "validation/b6-network-runtime-report.json"
+    }
+  ],
+  "host_binding": {
+    "status": "implemented_b6_synthetic",
+    "target_host": "Python local serial NetworkHost; synthetic workspace",
+    "skill_discovery_and_routing": "Loads four role specifications and role-specific Skill source files; not installed",
+    "role_to_model_mapping": null,
+    "real_model_names": null,
+    "tool_bindings": "Opaque in-process capability; fixed B5 professional operations and controlled store calls",
+    "delegation_and_receipts": "Explicit synchronous WorkOrder acceptance and WorkResult return/adoption",
+    "single_user_facing_executor_enforcement": "Current AG0 capability + stored execution epoch within NetworkHost channel",
+    "serial_commit_enforcement": "Existing SQLite transactions; OS lock permits one NetworkHost per workspace",
+    "record_directory": "Caller explicitly chooses a synthetic workspace outside suite resources",
+    "deletion_and_host_history_capability": "Managed SQLite dependency cleanup and affected capability revocation; external history/context uncontrolled",
+    "cost_wait_and_budget_limits": "Existing shared BudgetEnvelope reference; no duplicate budget or new accounting queue",
+    "asynchronous_background_enabled": false,
+    "parallel_learner_display_enabled": false,
+    "codex_chat_interception_verified": false,
+    "adversarial_filesystem_isolation_verified": false,
+    "note": "Trusted local process boundary; direct legacy scripts and external model/chat/filesystem paths are outside host gate. Real course/model and V1—V4 remain B7."
+  },
+  "real_instance_inputs": {
+    "status": "awaiting_real_input",
+    "course": null,
+    "learner_purpose": null,
+    "finite_target_and_criteria": null,
+    "real_course_materials": null,
+    "reliable_reference_and_verification_anchors": null,
+    "necessary_followup_time_conditions": null,
+    "available_tools_for_subject_verification": null,
+    "learner_time_and_resource_budget": null,
+    "personal_record_location_and_save_scope": null,
+    "existing_personal_records_or_evidence": null,
+    "note": "项目中的设计案例、研究资源与未来虚构测试夹具均不能替代真实课程输入或个人学习事实。"
+  },
+  "skill_design_dependencies": {
+    "SK00": [
+      "N00",
+      "D00",
+      "D01",
+      "D08",
+      "D09",
+      "D10",
+      "D11"
+    ],
+    "SK01": [
+      "N00",
+      "D00",
+      "D01",
+      "D02",
+      "D03",
+      "D09",
+      "D10",
+      "D11"
+    ],
+    "SK02": [
+      "N00",
+      "D00",
+      "D01",
+      "D03",
+      "D04",
+      "D09",
+      "D10",
+      "D11"
+    ],
+    "SK03/C0": [
+      "N00",
+      "D00",
+      "D01",
+      "D02",
+      "D04",
+      "D08",
+      "D09",
+      "D10",
+      "D11"
+    ],
+    "SK03/Encoding": [
+      "N00",
+      "D00",
+      "D01",
+      "D04",
+      "D05",
+      "D07",
+      "R01",
+      "R02",
+      "R03"
+    ],
+    "SK03/Post": [
+      "N00",
+      "D00",
+      "D01",
+      "D04",
+      "D06",
+      "D07",
+      "R04",
+      "R05",
+      "R06"
+    ],
+    "SK04": [
+      "N00",
+      "D00",
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D06",
+      "D09",
+      "D10",
+      "D11"
+    ],
+    "SK05": [
+      "N00",
+      "D00",
+      "D01",
+      "D07",
+      "D08",
+      "D09",
+      "D10",
+      "D11"
+    ],
+    "SK06": [
+      "N00",
+      "D00",
+      "D01",
+      "D04",
+      "D05",
+      "D06",
+      "D07",
+      "D08",
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06"
+    ]
+  },
+  "b0_scope_guard": [
+    "以下为已完成 B0 的历史范围规则；不用于否定后续批次已实现的开发资源。",
+    "B0 不生成全库运行索引或 60 卡卡包。",
+    "B0 不创建或安装 SKILL.md，不执行真实学习；B1 已创建开发态 SK00，仍未安装或教学。",
+    "B0 不猜造课程、个人原答、回执、模型绑定或预算。",
+    "B0 不将来源指纹、文档结构检查或两载体一致性当成外部核验与效果证明。",
+    "B0 原设计和研究文件保持原文；旧 outputs 链接登记为待映射。"
+  ],
+  "b2a_scope_guard": [
+    "B2a 历史范围：仅启用 SK01 和 AG1 目标职能；当前关键教学、评分与计划已有 B3／B4 有限切片，真实多 Agent 运行仍待宿主阶段。",
+    "目标精简资源 pl-goals/0.1.0；输入适配 pl-goals-input/0.1.0；共用字段源仍为 pl-contracts/0.1.0。",
+    "开发候选程序只读虚构结构化输入，不抽取正文、不核验内容真伪、不自动写入数据库或采用候选。",
+    "候选 complete 仅表输入结构与记录范围满足本切片；不证明学科内容可靠、参考可评分或学习目标达成。",
+    "新旧要求映射不自动搬运 Judgment；会话缩时不改 GoalSpec；来源纠错通知不声称限制已经执行。",
+    "真实实例字段保持 null；虚构例、独立代理输出与有限测试不构成真实试用或 V1—V4 效果验证。"
+  ],
+  "b2b_scope_guard": [
+    "SK02 和 AG2 为依赖套件布局的开发源；未安装、未绑定真实角色或启动教学。",
+    "程序只检查分模态、精确引用、核验和用途声明、已标注潜在代做；compatible 不证明学科正确性或没有语义／视觉泄露。",
+    "受控文本段读取不自动标公式图像已读；当前未提供 PDF/OCR 或图形解析器。",
+    "正常用途材料经原共享 CAS／幂等／专业授权／采用入口；候选 partial／pending／error 不由助手保存为可用材料。",
+    "双链追踪只覆盖已记录引用，未知依赖保持未知；材料、历史判断、教学误导、计划四恢复不自动完成。",
+    "虚构材料准备保持实际展示未知；不产生新事件、成绩、补测、复习需求或正式承诺。",
+    "请求文件、stdout 和验证报告是组件之外的副本；删除仍限定受控 SQLite 及其依赖。",
+    "本批测试与前向试用不等于完整 B10 情境、真实 V1—V4 或学习效果验证。"
+  ],
+  "b3b_scope_guard": [
+    "B3b 对应 SK03/C0，不替代 B3a 的 SK04/AG3 完整评估。",
+    "只执行人工 FIX-* 活动；原答、帮助、时间、预算、展示和授权均为显式夹具声明，不生成真实个人事实。",
+    "同题修订沿同一 PerformanceEvent 和样本，初答原件及帮助时序保留；未知展示／接触不解释为无帮助。",
+    "活动完成、局部修复够用和目标支持分开；不自动创建 Judgment、诊断、保持迁移欠账或正式计划。",
+    "父任务和帮助共用原契约及确切历史引用；B3c 有限策略资源与配置已实现，B4 当前专项执行见其范围规则。",
+    "Skill 是依赖套件布局的开发源，未安装；展示、身份及旧执行者隔离待 B6 宿主验证。",
+    "B0 全情境历史状态不改变；有限程序验收不代表真实 V1—V4 或学习效果。"
+  ],
+  "b1_scope_guard": [
+    "只支持明确标记的虚构开发工作区及 FIX-* 对象；真实实例输入继续保持 null。",
+    "共用协议保持 pl-contracts/0.1.0；SQLite 承载格式不替代或复制维护共享对象语义。",
+    "只创建开发态 SK00 和 AG0 外壳，未安装 Skill、绑定真实宿主或启动教学。",
+    "开始与恢复只读；候选路由不创建 WorkOrder、Agent 回执、活动、评分或正式计划。",
+    "变更携带显式预期状态修订和 operation_id；解除用户暂停不自动恢复专业用途限制。",
+    "删除仅覆盖受控 SQLite 内容；宿主历史、外部备份及调用者保存的 stdout 副本不可控。",
+    "限定导出保留原证据条件；共用原件路径可能导出整份文件，不声称只出一个片段。",
+    "B1 行为报告仅证明虚构存储与入口有限切片，不能推断完整 B10 情境、真实试用或 V1—V4 效果。",
+    "此条为 B1 历史范围：当时策略资源待 B3c；现有 B3c 有限索引、完整卡包、Post 说明与配置，真实多 Agent 执行及旧展示拦截仍待宿主验证。"
+  ],
+  "strategies_protocol": "pl-strategies/0.1.0",
+  "strategies_input_protocol": "pl-strategies-input/0.2.0",
+  "b3c_scope_guard": [
+    "60张Encoding卡全部编译为完整资源，4个Post资源键为套件新增；原始策略和研究保持。",
+    "双载体不是独立证据；模板H为设计综合，R09空引用原样保留，文献E号不当卡号。",
+    "完整资源与当前配置按需检查；compatible仅表示结构、版本、受控引用和当前条件声明相容，不证明学科真伪、真实暴露或效果。",
+    "reviewed不等adopted；正式MethodConfig通过B1授权、采用、CAS、幂等与控制门，通用资源不含个人事实；material_context 必须显式给全并进入 review 绑定。",
+    "版本变化只追踪已记录的配置和引用；限制先提交，历史事件不改写，各恢复责任保持pending。",
+    "当前64个注册键均可读；未来未编译、缺正文或来源变化仍返回受限。已有完整合格单元可复用，新单元实际核选法与认知工作，不每题遍历全库。",
+    "真实课程、模型、个人保存范围、宿主绑定、V1—V4和完整B10仍未验证。"
+  ],
+  "assessment_protocol": "pl-assessment/0.1.0",
+  "b3a_scope_guard": [
+    "仅支持 FIX 人工记录，Skill 未安装，四角色及宿主身份/展示未绑定。",
+    "检查器验证专业声明、精确引用及所给实际条件，不自动评分任意学科答案或检测未标注泄露。",
+    "同题修订保持同一事件和样本；支持、资格、候选/采用分开，充分时不追加检查。",
+    "常规授权限定主体、对象、判据、结论、升级信号和共享预算，unbound 模板不能执行。",
+    "inspect/diagnose 只读，submit 沿原 CAS/幂等/控制门；不能写事件、材料、授权、需求或计划。",
+    "零预算/无进展停止诊断；时间按目标内选定响应之前最近相关接触及帮助事实，不从当前日历或事件初始时间代推。",
+    "删除、专业限制和递归旧依据阻断采用；原件不重写，四恢复面不自动完成。",
+    "人工行为测试及独立 Skill 前向不代表完整 B10、真实 V1—V4 或学习效果。"
+  ],
+  "teaching_b4_protocol": "pl-teaching-b4/0.1.0",
+  "planning_protocol": "pl-planning/0.1.0",
+  "b4_scope_guard": [
+    "只支持 FIX 人工开发记录；七 Skill 未安装，四角色和宿主未绑定。",
+    "共享字段源、原件与 SQLite 沿 B1，不另建深度分、事件、计划队列或掌握数据库。",
+    "目标 teaching_scope 和整体核验覆盖须当前声明；未知保持 not_ready，局部成功不累计成整体支持。",
+    "跨模块返回保持同一事件／样本／父产物／帮助与预算；可观察的新修订不等于无帮助的新独立样本。",
+    "计划采用原 LearningNeed 与 BudgetEnvelope；同预算当前一个有效承诺，成本未知不当零，收束与耗用下界保留。",
+    "候选、接责、安排、专业判断与实际发生分开；闭合须当前条件内有效专业证据。",
+    "设计／范围／可行性与成本为责任方声明，程序不自动核内容、测时或证明微缩教学等效。",
+    "B4 当时尚未实现 B5；当前单入口显式串接见 integration_path。B6 身份／显示／旧执行者隔离，B7 真实试用及完整 B10／V1—V4 未验证。"
+  ],
+  "network_protocol": "pl-network/0.1.0",
+  "b6_scope_guard": [
+    "Still synthetic_only; grants retain verified_for_fixture and are not promoted to host_verified.",
+    "WorkOrder, WorkResult and ControlState use the existing canonical store and deletion dependency graph.",
+    "Role loading and capability binding do not start independent models or prove independent professional review.",
+    "Only the local serial channel is enforced; asynchronous background, parallel display and external chat interception are disabled/unverified.",
+    "Professional decisions, semantic compatibility, observations and adoption evidence remain explicit accountable declarations."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "repair_date": "2026-10-04",
+  "timezone": "Asia/Shanghai",
+  "scope": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "R01 boundary characterization"
+  ],
+  "status": "passed",
+  "synthetic_only": true,
+  "behavior_validation": {
+    "executor": "scripts/check_b7.py --scope all",
+    "tests_run": 483,
+    "baseline_tests": 454,
+    "added_tests": 29,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_seconds": 81.379,
+    "report": "all-runtime-report.json",
+    "raw_output": "all-runtime-output.txt"
+  },
+  "static_validation": {
+    "executor": "scripts/check_b0.py",
+    "cases_passed": 32,
+    "cases_total": 32,
+    "design_sources_passed": 19,
+    "broken_local_links": 0,
+    "report": "static-report.json"
+  },
+  "resource_validation": {
+    "executor": "scripts/build_b3c_resources.py --check",
+    "status": "passed",
+    "files": 11,
+    "encoding_index": 60,
+    "compiled_encoding": [
+      "S07",
+      "X02",
+      "R09"
+    ],
+    "post_notes": 4,
+    "external_references_verified": false
+  },
+  "repairs": [
+    {
+      "id": "F01",
+      "status": "implemented",
+      "behavior": "Atomic checkpoint/event time persistence; legal legacy checkpoint lower bounds; exhausted budget stays stopped; restricted matching checkpoints block teaching and planning."
+    },
+    {
+      "id": "F02",
+      "status": "implemented",
+      "behavior": "Pending rows preserve each unresolved result; per-result current-control checks; adopted results do not hide newer candidates."
+    },
+    {
+      "id": "F03",
+      "status": "implemented",
+      "behavior": "Goal checker consumes canonical source declarations through the goal/material public pipeline; explicit AG2 modality range required; legacy remains read-compatible without automatic migration."
+    },
+    {
+      "id": "F04",
+      "status": "implemented",
+      "behavior": "Nested local entry and same-scope reentry require a new saved learner response; prior transition history prevents reopening old observations."
+    },
+    {
+      "id": "R01",
+      "status": "boundary_verified_not_support_transfer",
+      "tests": 3,
+      "report": "r01-version-boundary-review.json"
+    }
+  ],
+  "runtime_files_changed": [
+    "src/runtime/learning_teaching.py",
+    "src/runtime/learning_teaching_b4.py",
+    "src/runtime/learning_planning.py",
+    "src/runtime/network_b6.py",
+    "src/runtime/learning_goals.py"
+  ],
+  "preserved": [
+    "original audit probes/results",
+    "B0-B7 historical reports",
+    "19 design sources",
+    "existing demonstration workspaces",
+    "synthetic-only execution gates"
+  ],
+  "not_implemented": [
+    "formal historical reassessment and support migration",
+    "real model/course/personal-record host binding",
+    "real semantic next-action decision loop",
+    "self-contained installed seven-skill release",
+    "real V1-V4 learning-effect validation"
+  ],
+  "implementation_record": "../../../docs/audits/AI个人学习系统_架构审计修复实施记录_2026-10-04.md"
+}

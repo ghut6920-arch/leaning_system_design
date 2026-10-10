@@ -1,0 +1,47 @@
+{
+  "fix_id": "F02",
+  "client_date": "2026-10-04",
+  "client_timezone": "Asia/Shanghai",
+  "scope": "B6 network public API regression including six new F02 cases",
+  "synthetic_only": true,
+  "command": [
+    "E:\\anaconda\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "personal-learning-suite/tests",
+    "-p",
+    "test_b6_network.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "status": "passed",
+  "tests_run": 40,
+  "duration_seconds": 14.507,
+  "raw_output_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\validation\\architecture-fixes-2026-10-04\\f02-network-runtime-output.txt",
+  "raw_output_sha256": "8326ecceb138dafa42d9bec98abb3eba842f686a9b46814e0b080718b85abace",
+  "environment": {
+    "python": "3.12.3",
+    "sqlite": "3.46.1",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "source_sha256": {
+    "personal-learning-suite/src/runtime/network_b6.py": "0db886b6865c8540ec08877b8ce5164d075d40b0ec22cad3062119de9ea0d2f2",
+    "personal-learning-suite/tests/test_b6_network.py": "677c8739a37ef3494d8657ad3f267f6f3e0f9cc138a5c720dd1396f206005389",
+    "personal-learning-suite/contracts/network-b6.md": "7ff6c715c27a43d8aa07e8c49379e1d8fb6dc7dfaad3a1a1a6b4e153a061e3bb",
+    "personal-learning-suite/specs/b6-acceptance.md": "b4377f728c88ec5c8cf7eace8d8f7cc29746f62228e95d7fc2083dbc18d9e686"
+  },
+  "tdd_records": [
+    "f02-red-output.txt",
+    "f02-tracer-green-output.txt",
+    "f02-result-control-red-output.txt"
+  ],
+  "limits": [
+    "Temporary synthetic fixtures only; no real learning or host identity validation.",
+    "Existing historical audit probe and reports remain unchanged."
+  ]
+}

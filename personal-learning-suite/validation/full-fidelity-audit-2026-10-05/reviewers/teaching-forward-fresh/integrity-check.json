@@ -1,0 +1,26 @@
+[
+  {
+    "file": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\teaching-forward-fresh\\T1-first-turn.md",
+    "expected": "FCCE0F49866480AB339F0F02448A04A0DBF5ACFBD9C0FF8465DA51A8C1F82F63",
+    "actual": "FCCE0F49866480AB339F0F02448A04A0DBF5ACFBD9C0FF8465DA51A8C1F82F63",
+    "unchanged": true
+  },
+  {
+    "file": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\teaching-forward-fresh\\T2-first-turn.md",
+    "expected": "74E72B83C2B8B1B14B6E6FB76A65B8723202819A987638760B738CF128181B26",
+    "actual": "74E72B83C2B8B1B14B6E6FB76A65B8723202819A987638760B738CF128181B26",
+    "unchanged": true
+  },
+  {
+    "file": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\teaching-forward-fresh\\T3-first-turn.md",
+    "expected": "1E80DC7084EC58E1566B2D7CDA8A8042D38C1FDD4F4568734BBCDB739484C38C",
+    "actual": "1E80DC7084EC58E1566B2D7CDA8A8042D38C1FDD4F4568734BBCDB739484C38C",
+    "unchanged": true
+  },
+  {
+    "file": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\teaching-forward-fresh\\T4-first-turn.md",
+    "expected": "777825DF40FB625BED6CC79398E2FA48E4FBA75B271FBD7842CD8EB6F21F4D21",
+    "actual": "777825DF40FB625BED6CC79398E2FA48E4FBA75B271FBD7842CD8EB6F21F4D21",
+    "unchanged": true
+  }
+]

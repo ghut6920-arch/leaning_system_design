@@ -1,0 +1,313 @@
+{
+  "status": "pass",
+  "fictional_only": true,
+  "executor": "phase6/content_probe.py",
+  "python_version": "3.12.3",
+  "execution_date": "2026-10-05",
+  "mean_results": [
+    {
+      "code": "P3_original",
+      "input": [
+        2,
+        4
+      ],
+      "expected": {
+        "value": 3.0
+      },
+      "observed": {
+        "value": 3.0
+      },
+      "meets_spec": true
+    },
+    {
+      "code": "P3_original",
+      "input": [
+        5
+      ],
+      "expected": {
+        "value": 5.0
+      },
+      "observed": {
+        "value": 5.0
+      },
+      "meets_spec": true
+    },
+    {
+      "code": "P3_original",
+      "input": [],
+      "expected": {
+        "exception": "ValueError"
+      },
+      "observed": {
+        "exception": "ZeroDivisionError"
+      },
+      "meets_spec": false
+    },
+    {
+      "code": "AI_repair_fixture",
+      "input": [
+        2,
+        4
+      ],
+      "expected": {
+        "value": 3.0
+      },
+      "observed": {
+        "value": 3.0
+      },
+      "meets_spec": true
+    },
+    {
+      "code": "AI_repair_fixture",
+      "input": [
+        5
+      ],
+      "expected": {
+        "value": 5.0
+      },
+      "observed": {
+        "value": 5.0
+      },
+      "meets_spec": true
+    },
+    {
+      "code": "AI_repair_fixture",
+      "input": [],
+      "expected": {
+        "exception": "ValueError"
+      },
+      "observed": {
+        "exception": "ValueError"
+      },
+      "meets_spec": true
+    }
+  ],
+  "P3_original_spec_failure_expected": true,
+  "AI_repair_is_not_learner_revision": true,
+  "matrix_anchors": {
+    "A_n": [
+      0,
+      0
+    ],
+    "valid_Q_n": [
+      1,
+      0,
+      0
+    ],
+    "invalid_Q_n": [
+      0,
+      0,
+      0
+    ]
+  },
+  "merged_mean": "75",
+  "trajectories": [
+    {
+      "q": "1/5",
+      "rows": [
+        {
+          "t": 0,
+          "state": "0",
+          "error": "1"
+        },
+        {
+          "t": 1,
+          "state": "1/5",
+          "error": "4/5"
+        },
+        {
+          "t": 2,
+          "state": "9/25",
+          "error": "16/25"
+        },
+        {
+          "t": 3,
+          "state": "61/125",
+          "error": "64/125"
+        },
+        {
+          "t": 4,
+          "state": "369/625",
+          "error": "256/625"
+        },
+        {
+          "t": 5,
+          "state": "2101/3125",
+          "error": "1024/3125"
+        },
+        {
+          "t": 6,
+          "state": "11529/15625",
+          "error": "4096/15625"
+        },
+        {
+          "t": 7,
+          "state": "61741/78125",
+          "error": "16384/78125"
+        },
+        {
+          "t": 8,
+          "state": "325089/390625",
+          "error": "65536/390625"
+        }
+      ]
+    },
+    {
+      "q": "6/5",
+      "rows": [
+        {
+          "t": 0,
+          "state": "0",
+          "error": "1"
+        },
+        {
+          "t": 1,
+          "state": "6/5",
+          "error": "-1/5"
+        },
+        {
+          "t": 2,
+          "state": "24/25",
+          "error": "1/25"
+        },
+        {
+          "t": 3,
+          "state": "126/125",
+          "error": "-1/125"
+        },
+        {
+          "t": 4,
+          "state": "624/625",
+          "error": "1/625"
+        },
+        {
+          "t": 5,
+          "state": "3126/3125",
+          "error": "-1/3125"
+        },
+        {
+          "t": 6,
+          "state": "15624/15625",
+          "error": "1/15625"
+        },
+        {
+          "t": 7,
+          "state": "78126/78125",
+          "error": "-1/78125"
+        },
+        {
+          "t": 8,
+          "state": "390624/390625",
+          "error": "1/390625"
+        }
+      ]
+    },
+    {
+      "q": "2",
+      "rows": [
+        {
+          "t": 0,
+          "state": "0",
+          "error": "1"
+        },
+        {
+          "t": 1,
+          "state": "2",
+          "error": "-1"
+        },
+        {
+          "t": 2,
+          "state": "0",
+          "error": "1"
+        },
+        {
+          "t": 3,
+          "state": "2",
+          "error": "-1"
+        },
+        {
+          "t": 4,
+          "state": "0",
+          "error": "1"
+        },
+        {
+          "t": 5,
+          "state": "2",
+          "error": "-1"
+        },
+        {
+          "t": 6,
+          "state": "0",
+          "error": "1"
+        },
+        {
+          "t": 7,
+          "state": "2",
+          "error": "-1"
+        },
+        {
+          "t": 8,
+          "state": "0",
+          "error": "1"
+        }
+      ]
+    },
+    {
+      "q": "11/5",
+      "rows": [
+        {
+          "t": 0,
+          "state": "0",
+          "error": "1"
+        },
+        {
+          "t": 1,
+          "state": "11/5",
+          "error": "-6/5"
+        },
+        {
+          "t": 2,
+          "state": "-11/25",
+          "error": "36/25"
+        },
+        {
+          "t": 3,
+          "state": "341/125",
+          "error": "-216/125"
+        },
+        {
+          "t": 4,
+          "state": "-671/625",
+          "error": "1296/625"
+        },
+        {
+          "t": 5,
+          "state": "10901/3125",
+          "error": "-7776/3125"
+        },
+        {
+          "t": 6,
+          "state": "-31031/15625",
+          "error": "46656/15625"
+        },
+        {
+          "t": 7,
+          "state": "358061/78125",
+          "error": "-279936/78125"
+        },
+        {
+          "t": 8,
+          "state": "-1288991/390625",
+          "error": "1679616/390625"
+        }
+      ]
+    }
+  ],
+  "trajectory_closed_form_points_checked": 36,
+  "limits": [
+    "Finite exact anchors do not prove general theorems.",
+    "Expected specification violation is a teaching input, not a failed probe.",
+    "No real learner answers, code or private file contents are used.",
+    "No inference about autonomous coding, physical experiments or retention."
+  ]
+}

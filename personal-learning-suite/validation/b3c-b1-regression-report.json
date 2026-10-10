@@ -1,0 +1,165 @@
+{
+  "batch": "B1",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "executor": "scripts/check_b1.py; Python unittest",
+  "checker": "B1 独立测试开发子代理",
+  "versions": {
+    "shared": "pl-contracts/0.1.0",
+    "store": "pl-store/0.1.0"
+  },
+  "synthetic_only": true,
+  "status": "passed",
+  "tests_run": 33,
+  "cases": [
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_ag0_cannot_turn_routine_grant_into_professional_review",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_ag0_cannot_write_goal_owned_by_ag1",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_authorized_routine_judgment_can_persist_without_expanding_conclusion",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_candidate_is_not_adopted_basis",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_delete_cleans_histories_originals_summary_candidate_validation_and_keeps_unrelated",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_entry_paused_activity_remains_readable_and_blocked",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_entry_routes_unimplemented_capabilities_as_candidates",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_entry_start_does_not_claim_teaching_ready",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_entry_without_summary_recovers_same_parent_and_unknown_actions",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_export_originals_vs_summary_expresses_review_limit",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_failed_delete_keeps_durable_gate_after_restart_until_cleanup",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_failure_after_sql_write_rolls_back_objects_artifacts_and_receipt",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_fixture_actor_is_reported_as_test_configuration",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_grant_does_not_cover_new_event_scope",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_init_fixture_bootstrap_cannot_overwrite_live_state",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_integrity_checks_after_persisted_state",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_late_deleted_payload_is_rejected_before_payload_can_land",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_missing_artifact_and_unknown_reference_do_not_save",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_original_artifact_cannot_be_overwritten_in_place",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_path_traversal_and_absolute_artifact_paths_are_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_pause_immediately_blocks_related_commit_but_allows_read",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_pause_keeps_confirmed_independent_scope_writable",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_recovery_absent_help_record_keeps_unrecorded_help_unknown",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_recovery_retains_exact_trusted_historical_revision",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_recovery_unknown_budget_is_not_zero",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_resume_preserves_professional_use_restriction",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_same_operation_different_payload_is_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_same_operation_same_payload_is_idempotent",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_save_destroy_store_and_reopen_preserves_originals_and_objects",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_state_revision_cas_rejects_stale_commit_without_write",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_synthetic_only_rejects_real_fixture",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_two_concurrent_connections_get_one_cas_winner",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_unreferenced_artifact_cannot_bypass_scope_ownership",
+      "status": "passed"
+    }
+  ],
+  "host_versions": {
+    "python": "3.12.3",
+    "python_implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "sqlite": "3.46.1"
+  },
+  "raw_output_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\validation\\b3c-b1-regression-output.txt",
+  "limitations": [
+    "只使用 B0 人工夹具与隔离临时目录，没有真实课程或学习者记录。",
+    "覆盖 B1 存储、事务、控制和入口恢复；B10-05/06/08/12 与 N-B0-03 只执行相关有限切片，未判整个情境通过。",
+    "专业角色为测试配置；未证明真实宿主身份、工具写隔离、旧输出拦截或多 Agent 运行网络。",
+    "删除只验证本组件可控 SQLite 内容，不承诺删除外部会话历史、用户副本、备份或调用方已持有的内存。",
+    "导出为内存返回；本次未创建外部导出文件或验证外部文件管理。",
+    "并发检查仅两个线程、两个实际 SQLite 连接争同一 state_revision；未作长期并发或分布式压力测试。",
+    "失败注入验证单事务回滚和重新打开；未模拟断电、操作系统崩溃或磁盘硬件故障。",
+    "SK00 为骨架；教学、评分、计划、策略选择与 V1—V4 学习效果仍未实现或验证。"
+  ]
+}

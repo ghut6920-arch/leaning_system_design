@@ -1,0 +1,6 @@
+test_budget_close_cannot_reopen_activity_with_the_old_shared_budget (test_b3b_teaching.B3bTeachingTests.test_budget_close_cannot_reopen_activity_with_the_old_shared_budget) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.169s
+
+OK

@@ -1,0 +1,17 @@
+{
+  "existing_public_files_changed": [
+    "docs/implementation/AI个人学习系统_教学内容重构执行路线_v1.md",
+    "docs/README.md",
+    "learning/embodied-intelligence/framework-manifest.json",
+    "learning/embodied-intelligence/FRAMEWORK.md",
+    "personal-learning-suite/README.md",
+    "personal-learning-suite/src/README.md",
+    "personal-learning-suite/src/skills/learning-planning/references/multi-scale-plan.md",
+    "personal-learning-suite/src/skills/learning-teaching/references/c0.md",
+    "personal-learning-suite/src/skills/personal-learning/SKILL.md",
+    "README.md"
+  ],
+  "new_instruction_reference": "personal-learning-suite/src/skills/personal-learning/references/verification.md",
+  "private_files_copied_or_persistently_fingerprinted": false,
+  "baseline_archive_public_files": 47
+}

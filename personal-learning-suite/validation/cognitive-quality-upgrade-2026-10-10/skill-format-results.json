@@ -1,0 +1,51 @@
+{
+  "status": "pass",
+  "validator": "C:\\Users\\15006\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
+  "results": [
+    {
+      "skill": "learning-assessment",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "skill": "learning-goals",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "skill": "learning-materials",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "skill": "learning-planning",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "skill": "learning-strategies",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "skill": "learning-teaching",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "skill": "personal-learning",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "error": ""
+    }
+  ],
+  "limits": [
+    "Format validation does not evaluate cognition or model execution"
+  ]
+}

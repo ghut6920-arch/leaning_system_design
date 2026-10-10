@@ -1,0 +1,94 @@
+{
+  "batch": "B7",
+  "scope": "pilot",
+  "client_date": "2026-10-04",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "versions": {
+    "shared": "pl-contracts/0.1.0",
+    "store": "pl-store/0.1.0",
+    "pilot": "pl-pilot/0.1.0",
+    "network": "pl-network/0.1.0",
+    "professional_services": {
+      "entry": "pl-entry/0.1.0",
+      "goals_input": "pl-goals-input/0.1.0",
+      "materials": "pl-materials/0.1.0",
+      "assessment": "pl-assessment/0.1.0",
+      "teaching_core": "pl-teaching/0.1.0",
+      "teaching_specialized": "pl-teaching-b4/0.1.0",
+      "planning": "pl-planning/0.1.0",
+      "strategies": "pl-strategies/0.1.0"
+    },
+    "strategy_resources": "pl-strategies/0.1.0"
+  },
+  "executor": "scripts/check_b7.py; Python unittest",
+  "checker": "Independent B7 pilot test author; root reviews actual results",
+  "host_versions": {
+    "python": "3.12.3",
+    "python_implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "sqlite": "3.46.1"
+  },
+  "status": "failed",
+  "tests_run": 10,
+  "failures": 0,
+  "errors": 1,
+  "skipped": 0,
+  "cases": [
+    {
+      "case": "test_b7_pilot.B7PilotTests.test_absent_v1_v4_are_separate_and_not_real_effect",
+      "status": "passed"
+    },
+    {
+      "case": "test_b7_pilot.B7PilotTests.test_checker_rejects_historical_destinations_before_running_tests",
+      "status": "passed"
+    },
+    {
+      "case": "test_b7_pilot.B7PilotTests.test_cli_invalid_json_does_not_echo_input_or_traceback",
+      "status": "passed"
+    },
+    {
+      "case": "test_b7_pilot.B7PilotTests.test_cli_unconfigured_is_metadata_only_and_creates_no_store",
+      "status": "passed"
+    },
+    {
+      "case": "test_b7_pilot.B7PilotTests.test_malformed_payloads_fail_conservatively_without_body_echo",
+      "status": "passed"
+    },
+    {
+      "case": "test_b7_pilot.B7PilotTests.test_missing_version_and_unknown_controls_cannot_be_inputs_ready",
+      "status": "passed"
+    },
+    {
+      "case": "test_b7_pilot.B7PilotTests.test_nonpilot_cli_still_requires_workspace",
+      "status": "error"
+    },
+    {
+      "case": "test_b7_pilot.B7PilotTests.test_preflight_does_not_mutate_supplied_objects_or_artifacts",
+      "status": "passed"
+    },
+    {
+      "case": "test_b7_pilot.B7PilotTests.test_real_cannot_accept_fixture_ids_or_synthetic_provenance",
+      "status": "passed"
+    },
+    {
+      "case": "test_b7_pilot.B7PilotTests.test_unconfigured_needs_input_without_constructing_store",
+      "status": "passed"
+    }
+  ],
+  "raw_output_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\validation\\b7-pilot-initial-output.txt",
+  "real_validation": {
+    "V1": "not_executed",
+    "V2": "not_executed",
+    "V3": "not_executed",
+    "V4": "not_executed"
+  },
+  "limitations": [
+    "All test inputs, reviewer findings, responses, costs, identities and grants are explicitly fictional.",
+    "In-memory real-mode boundary probes are artificial declarations, never a real learner dataset or proof of authentic provenance.",
+    "Software contract checks establish conservative configuration and report behavior, not real V1–V4 or learning efficacy.",
+    "The pilot service does not persist records, conduct learning, adopt findings, bind real identities or enable an execution channel.",
+    "Reports and input files held by callers remain outside managed SQLite deletion scope.",
+    "No benefit from additional roles, independent samples or same-content repetition is inferred from these checks."
+  ]
+}

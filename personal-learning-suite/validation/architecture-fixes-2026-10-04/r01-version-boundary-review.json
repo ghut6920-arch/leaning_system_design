@@ -1,0 +1,20 @@
+{
+  "audit_date": "2026-10-04",
+  "timezone": "Asia/Shanghai",
+  "issue": "R01",
+  "classification": "current decision boundary verified; formal historical reassessment/support transfer remains unimplemented",
+  "tests": "tests/test_architecture_version_boundaries.py",
+  "test_count": 3,
+  "status": "passed",
+  "observations": [
+    "After description-only GoalSpec revision, exact historical goal, activity, response, judgment and original artifact remain readable and unchanged.",
+    "A version_compatibility preserve declaration does not by itself adopt a support transfer or qualify stale tasks for current decisions.",
+    "Correcting the current criterion does not rewrite the historical criterion, original response or judgment; current-use assessment of stale dependencies stays rejected."
+  ],
+  "production_gate_relaxed": false,
+  "limitations": [
+    "These are isolated synthetic public-API behavior tests.",
+    "Formal compatibility mappings adopted by assessment responsibility are not implemented by this repair.",
+    "Historical facts being readable does not mean historical reassessment submissions or support migration are operational."
+  ]
+}

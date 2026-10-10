@@ -1,0 +1,14 @@
+{
+  "changed_existing_public_files": [
+    "README.md",
+    "docs/README.md",
+    "docs/implementation/AI个人学习系统_教学内容重构执行路线_v1.md",
+    "learning/embodied-intelligence/FRAMEWORK.md",
+    "learning/embodied-intelligence/framework-manifest.json",
+    "personal-learning-suite/README.md",
+    "personal-learning-suite/src/README.md",
+    "personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md"
+  ],
+  "baseline_public_files": 48,
+  "private_content_copied": false
+}

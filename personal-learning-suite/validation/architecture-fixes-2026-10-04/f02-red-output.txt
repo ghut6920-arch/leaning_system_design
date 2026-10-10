@@ -1,0 +1,22 @@
+test_pending_keeps_new_candidate_after_another_result_is_adopted_in_either_id_order (test_b6_network.B6NetworkTests.test_pending_keeps_new_candidate_after_another_result_is_adopted_in_either_id_order) ... 
+  test_pending_keeps_new_candidate_after_another_result_is_adopted_in_either_id_order (test_b6_network.B6NetworkTests.test_pending_keeps_new_candidate_after_another_result_is_adopted_in_either_id_order) (adopted_id='FIX-z-adopted-result', candidate_id='FIX-a-new-candidate-result') ... FAIL
+
+======================================================================
+FAIL: test_pending_keeps_new_candidate_after_another_result_is_adopted_in_either_id_order (test_b6_network.B6NetworkTests.test_pending_keeps_new_candidate_after_another_result_is_adopted_in_either_id_order) (adopted_id='FIX-z-adopted-result', candidate_id='FIX-a-new-candidate-result')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\文献资料\学习系统架构设计\personal-learning-suite\tests\test_b6_network.py", line 352, in test_pending_keeps_new_candidate_after_another_result_is_adopted_in_either_id_order
+    self.assertEqual([item["result_ref"] for item in own], [second["result_ref"]])
+AssertionError: Lists differ: [] != [{'id': 'FIX-a-new-candidate-result', 'revision': 1}]
+
+Second list contains 1 additional elements.
+First extra element 0:
+{'id': 'FIX-a-new-candidate-result', 'revision': 1}
+
+- []
++ [{'id': 'FIX-a-new-candidate-result', 'revision': 1}]
+
+----------------------------------------------------------------------
+Ran 1 test in 0.732s
+
+FAILED (failures=1)

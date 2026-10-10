@@ -1,0 +1,109 @@
+{
+  "batch": "B3a",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "workspace": "E:\\文献资料\\学习系统架构设计\\B3a_虚构证据学习空间",
+  "existing_workspace": false,
+  "seed_receipt": {
+    "status": "committed",
+    "state_revision": 1,
+    "reasons": [],
+    "affected_ids": [
+      "FIX-activity",
+      "FIX-b2b-material-grant",
+      "FIX-b2b-material-work",
+      "FIX-budget",
+      "FIX-change",
+      "FIX-checkpoint",
+      "FIX-content-source",
+      "FIX-control",
+      "FIX-correction",
+      "FIX-diagnostic",
+      "FIX-edge",
+      "FIX-event",
+      "FIX-evidence-grant",
+      "FIX-goal",
+      "FIX-instance",
+      "FIX-judgment",
+      "FIX-material",
+      "FIX-method",
+      "FIX-need",
+      "FIX-parent-activity",
+      "FIX-plan",
+      "FIX-requirement-source",
+      "FIX-restriction",
+      "FIX-result",
+      "FIX-scoring-grant",
+      "FIX-user-grant",
+      "FIX-validation",
+      "FIX-work-order"
+    ],
+    "object_count": 28,
+    "artifact_count": 3,
+    "synthetic_only": true
+  },
+  "save_receipt": {
+    "status": "committed",
+    "state_revision": 2,
+    "reasons": [],
+    "affected_ids": [
+      "FIX-b3a-demo-judgment"
+    ],
+    "object_count": 1,
+    "artifact_count": 0,
+    "synthetic_only": true
+  },
+  "state_revision": 2,
+  "object_count": 29,
+  "judgment_ref": {
+    "id": "FIX-b3a-demo-judgment",
+    "revision": 1
+  },
+  "inspection": {
+    "status": "compatible",
+    "reasons": [],
+    "mutated": false,
+    "state_revision": 2,
+    "expected_support": "supported",
+    "submission_ready": true,
+    "operation_conditions": [
+      {
+        "operation": "connect-P-to-Q",
+        "declared_support": "supported",
+        "support": "supported",
+        "limits": [],
+        "displayed_substitution_sequences": []
+      }
+    ],
+    "samples": [
+      "FIX-sample-1"
+    ],
+    "unsupported_scope": [],
+    "conflicting_refs": [],
+    "next_action": "no_additional_check",
+    "semantic_grading": "agent_declared_not_verified",
+    "new_tasks": 0,
+    "new_samples": 0
+  },
+  "integrity": {
+    "status": "ok",
+    "state_revision": 2,
+    "reasons": [],
+    "issues": [],
+    "synthetic_only": true,
+    "object_revision_count": 29,
+    "artifact_count": 3
+  },
+  "teaching": false,
+  "new_performance_created": false,
+  "new_learning_need_created": false,
+  "plan_changed": false,
+  "professional_restrictions_lifted": false,
+  "limitations": [
+    "Artificial professional findings are inputs; compatible does not prove answer truth or learning efficacy.",
+    "The saved judgment remains candidate; inspection does not automatically adopt or schedule it.",
+    "Existing spaces are read-only; absent or deleted records are never reimported.",
+    "This report is a caller copy outside the store deletion scope."
+  ]
+}

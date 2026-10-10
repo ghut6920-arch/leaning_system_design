@@ -1,0 +1,646 @@
+{
+  "batch": "B3b",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "workspace": "E:\\文献资料\\学习系统架构设计\\B3b_虚构教学学习空间",
+  "existing_workspace": false,
+  "write_receipts": [
+    {
+      "status": "committed",
+      "state_revision": 0,
+      "reasons": [],
+      "synthetic_only": true,
+      "initialized": true
+    },
+    {
+      "status": "committed",
+      "state_revision": 1,
+      "reasons": [],
+      "affected_ids": [
+        "FIX-activity",
+        "FIX-b2b-material-grant",
+        "FIX-b2b-material-work",
+        "FIX-b3b-teaching-grant",
+        "FIX-budget",
+        "FIX-change",
+        "FIX-checkpoint",
+        "FIX-content-source",
+        "FIX-control",
+        "FIX-correction",
+        "FIX-diagnostic",
+        "FIX-edge",
+        "FIX-event",
+        "FIX-evidence-grant",
+        "FIX-goal",
+        "FIX-instance",
+        "FIX-judgment",
+        "FIX-material",
+        "FIX-method",
+        "FIX-need",
+        "FIX-parent-activity",
+        "FIX-plan",
+        "FIX-requirement-source",
+        "FIX-restriction",
+        "FIX-result",
+        "FIX-scoring-grant",
+        "FIX-user-grant",
+        "FIX-validation",
+        "FIX-work-order"
+      ],
+      "object_count": 29,
+      "artifact_count": 2,
+      "synthetic_only": true
+    },
+    {
+      "status": "committed",
+      "synthetic_only": true,
+      "mutated": true,
+      "scoring": "not_executed",
+      "judgment_created": false,
+      "new_test_created": false,
+      "reasons": [],
+      "state_revision": 2,
+      "affected_ids": [
+        "FIX-b3b-event"
+      ],
+      "object_count": 1,
+      "artifact_count": 1,
+      "event_ref": {
+        "id": "FIX-b3b-event",
+        "revision": 1
+      },
+      "factual_conditions": {
+        "displayed_help": {
+          "status": "known",
+          "value": []
+        },
+        "unrecorded_help": {
+          "status": "unknown",
+          "reason": "Unrecorded help and contact are not inferred from the record."
+        },
+        "unknown_visibility": false,
+        "substituted_operations": [],
+        "independent_support": "not_assessed"
+      },
+      "parent_help_history_refs": [
+        {
+          "id": "FIX-event",
+          "revision": 1
+        }
+      ],
+      "parent_help_conditions": [
+        {
+          "event_ref": {
+            "id": "FIX-event",
+            "revision": 1
+          },
+          "conditions": {
+            "displayed_help": {
+              "status": "known",
+              "value": [
+                {
+                  "sequence": 2,
+                  "kind": "help",
+                  "target_operations": [
+                    "connect-P-to-Q"
+                  ],
+                  "substituted_operations": [
+                    "connect-P-to-Q"
+                  ],
+                  "artifact_ref": null
+                }
+              ]
+            },
+            "unrecorded_help": {
+              "status": "unknown",
+              "reason": "Unrecorded help and contact are not inferred from the record."
+            },
+            "unknown_visibility": false,
+            "substituted_operations": [
+              "connect-P-to-Q"
+            ],
+            "independent_support": "not_assessed"
+          }
+        }
+      ]
+    },
+    {
+      "status": "committed",
+      "synthetic_only": true,
+      "mutated": true,
+      "scoring": "not_executed",
+      "judgment_created": false,
+      "new_test_created": false,
+      "reasons": [],
+      "state_revision": 3,
+      "affected_ids": [
+        "FIX-b3b-event"
+      ],
+      "object_count": 1,
+      "artifact_count": 1,
+      "event_ref": {
+        "id": "FIX-b3b-event",
+        "revision": 2
+      },
+      "factual_conditions": {
+        "displayed_help": {
+          "status": "known",
+          "value": [
+            {
+              "sequence": 2,
+              "kind": "feedback",
+              "target_operations": [
+                "connect-P-to-Q"
+              ],
+              "substituted_operations": [],
+              "artifact_ref": {
+                "path": "c0/FIX-b3b-event/feedback-2.md",
+                "locator": "C0-feedback-2",
+                "revision": 1,
+                "origin": "synthetic_fixture"
+              }
+            }
+          ]
+        },
+        "unrecorded_help": {
+          "status": "unknown",
+          "reason": "Unrecorded help and contact are not inferred from the record."
+        },
+        "unknown_visibility": false,
+        "substituted_operations": [],
+        "independent_support": "not_assessed"
+      },
+      "learner_next_work": "在同一题原有事件中写出 P 与 P→Q 的连接理由"
+    },
+    {
+      "status": "committed",
+      "synthetic_only": true,
+      "mutated": true,
+      "scoring": "not_executed",
+      "judgment_created": false,
+      "new_test_created": false,
+      "reasons": [],
+      "state_revision": 4,
+      "affected_ids": [
+        "FIX-b3b-event"
+      ],
+      "object_count": 1,
+      "artifact_count": 1,
+      "event_ref": {
+        "id": "FIX-b3b-event",
+        "revision": 3
+      },
+      "factual_conditions": {
+        "displayed_help": {
+          "status": "known",
+          "value": [
+            {
+              "sequence": 2,
+              "kind": "feedback",
+              "target_operations": [
+                "connect-P-to-Q"
+              ],
+              "substituted_operations": [],
+              "artifact_ref": {
+                "locator": "C0-feedback-2",
+                "origin": "synthetic_fixture",
+                "path": "c0/FIX-b3b-event/feedback-2.md",
+                "revision": 1
+              }
+            },
+            {
+              "sequence": 3,
+              "kind": "help",
+              "target_operations": [
+                "connect-P-to-Q"
+              ],
+              "substituted_operations": [
+                "connect-P-to-Q"
+              ],
+              "artifact_ref": {
+                "path": "c0/FIX-b3b-event/help-3.md",
+                "locator": "C0-help-3",
+                "revision": 1,
+                "origin": "synthetic_fixture"
+              }
+            }
+          ]
+        },
+        "unrecorded_help": {
+          "status": "unknown",
+          "reason": "Unrecorded help and contact are not inferred from the record."
+        },
+        "unknown_visibility": false,
+        "substituted_operations": [
+          "connect-P-to-Q"
+        ],
+        "independent_support": "not_assessed"
+      }
+    },
+    {
+      "status": "committed",
+      "synthetic_only": true,
+      "mutated": true,
+      "scoring": "not_executed",
+      "judgment_created": false,
+      "new_test_created": false,
+      "reasons": [],
+      "state_revision": 5,
+      "affected_ids": [
+        "FIX-b3b-event"
+      ],
+      "object_count": 1,
+      "artifact_count": 1,
+      "event_ref": {
+        "id": "FIX-b3b-event",
+        "revision": 4
+      },
+      "factual_conditions": {
+        "displayed_help": {
+          "status": "known",
+          "value": [
+            {
+              "sequence": 2,
+              "kind": "feedback",
+              "target_operations": [
+                "connect-P-to-Q"
+              ],
+              "substituted_operations": [],
+              "artifact_ref": {
+                "locator": "C0-feedback-2",
+                "origin": "synthetic_fixture",
+                "path": "c0/FIX-b3b-event/feedback-2.md",
+                "revision": 1
+              }
+            },
+            {
+              "sequence": 3,
+              "kind": "help",
+              "target_operations": [
+                "connect-P-to-Q"
+              ],
+              "substituted_operations": [
+                "connect-P-to-Q"
+              ],
+              "artifact_ref": {
+                "locator": "C0-help-3",
+                "origin": "synthetic_fixture",
+                "path": "c0/FIX-b3b-event/help-3.md",
+                "revision": 1
+              }
+            }
+          ]
+        },
+        "unrecorded_help": {
+          "status": "unknown",
+          "reason": "Unrecorded help and contact are not inferred from the record."
+        },
+        "unknown_visibility": false,
+        "substituted_operations": [
+          "connect-P-to-Q"
+        ],
+        "independent_support": "not_assessed"
+      }
+    },
+    {
+      "status": "committed",
+      "synthetic_only": true,
+      "mutated": true,
+      "scoring": "not_executed",
+      "judgment_created": false,
+      "new_test_created": false,
+      "reasons": [],
+      "state_revision": 6,
+      "affected_ids": [
+        "FIX-b3b-demo-checkpoint",
+        "FIX-b3b-event"
+      ],
+      "object_count": 2,
+      "artifact_count": 0,
+      "event_ref": {
+        "id": "FIX-b3b-event",
+        "revision": 5
+      },
+      "checkpoint_ref": {
+        "id": "FIX-b3b-demo-checkpoint",
+        "revision": 1
+      },
+      "parent_artifact": {
+        "locator": "虚构父产物",
+        "origin": "synthetic_fixture",
+        "path": "originals.md",
+        "revision": 1
+      },
+      "return_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审",
+      "unfinished_requirement_ids": [
+        "infer-Q"
+      ],
+      "learning_need_candidate": {
+        "existing_need_ref": {
+          "id": "FIX-need",
+          "revision": 1
+        },
+        "status": "candidate",
+        "additional_event_ref": {
+          "id": "FIX-b3b-event",
+          "revision": 5
+        },
+        "unfinished_requirement_ids": [
+          "infer-Q"
+        ],
+        "acceptance_changed": false,
+        "disposition_changed": false
+      },
+      "existing_need_ref": {
+        "id": "FIX-need",
+        "revision": 1
+      }
+    }
+  ],
+  "state_revision": 6,
+  "object_count": 31,
+  "event_ref": {
+    "id": "FIX-b3b-event",
+    "revision": 5
+  },
+  "sample_id": "FIX-b3b-sample",
+  "timeline_kinds": [
+    "initial_response",
+    "feedback",
+    "help",
+    "revision"
+  ],
+  "resume": {
+    "status": "ready",
+    "synthetic_only": true,
+    "mutated": false,
+    "scoring": "not_executed",
+    "judgment_created": false,
+    "new_test_created": false,
+    "reasons": [],
+    "state_revision": 6,
+    "recovery": {
+      "source": "last_trusted_event",
+      "checkpoint_ref": null,
+      "activity_ref": {
+        "id": "FIX-activity",
+        "revision": 1
+      },
+      "last_trusted_event_ref": {
+        "id": "FIX-b3b-event",
+        "revision": 5
+      },
+      "original_response": {
+        "end_line": 2,
+        "locator": "B3b-initial",
+        "origin": "synthetic_fixture",
+        "path": "b3b-initial.md",
+        "revision": 1,
+        "start_line": 1
+      },
+      "revisions": [
+        {
+          "end_line": 2,
+          "locator": "B3b-revision",
+          "origin": "synthetic_fixture",
+          "path": "b3b-revision.md",
+          "revision": 1,
+          "sequence": 4,
+          "start_line": 1
+        }
+      ],
+      "help_history": [
+        {
+          "artifact_ref": {
+            "end_line": 2,
+            "locator": "B3b-initial",
+            "origin": "synthetic_fixture",
+            "path": "b3b-initial.md",
+            "revision": 1,
+            "start_line": 1
+          },
+          "content": "Q。",
+          "kind": "initial_response",
+          "sequence": 1,
+          "substituted_operations": [],
+          "target_operations": [
+            "connect-P-to-Q"
+          ],
+          "time": {
+            "reason": "人工顺序，不虚构实际发生时间",
+            "status": "unknown"
+          },
+          "visibility": "displayed"
+        },
+        {
+          "artifact_ref": {
+            "locator": "C0-feedback-2",
+            "origin": "synthetic_fixture",
+            "path": "c0/FIX-b3b-event/feedback-2.md",
+            "revision": 1
+          },
+          "basis": "declared_branch_and_locatable_response",
+          "branch_index": 0,
+          "content": "原答写出了 Q，请将给定前提连接写成理由。",
+          "kind": "feedback",
+          "learner_next_work": "在同一题原有事件中写出 P 与 P→Q 的连接理由",
+          "observation": {
+            "artifact_ref": {
+              "end_line": 2,
+              "locator": "B3b-initial",
+              "origin": "synthetic_fixture",
+              "path": "b3b-initial.md",
+              "revision": 1,
+              "start_line": 1
+            },
+            "quote": "Q。"
+          },
+          "reference_refs": [
+            {
+              "end_line": 4,
+              "locator": "核验范围",
+              "origin": "synthetic_fixture",
+              "path": "b2b-reference.md",
+              "revision": 1,
+              "start_line": 3
+            }
+          ],
+          "sequence": 2,
+          "substituted_operations": [],
+          "target_operations": [
+            "connect-P-to-Q"
+          ],
+          "time": {
+            "reason": "人工演示顺序，无真实展示时间",
+            "status": "unknown"
+          },
+          "visibility": "displayed"
+        },
+        {
+          "artifact_ref": {
+            "locator": "C0-help-3",
+            "origin": "synthetic_fixture",
+            "path": "c0/FIX-b3b-event/help-3.md",
+            "revision": 1
+          },
+          "content": "前提 P 使 P→Q 可推出 Q。",
+          "kind": "help",
+          "sequence": 3,
+          "substituted_operations": [
+            "connect-P-to-Q"
+          ],
+          "target_operations": [
+            "connect-P-to-Q"
+          ],
+          "time": {
+            "reason": "人工演示顺序，无真实展示时间",
+            "status": "unknown"
+          },
+          "visibility": "displayed"
+        },
+        {
+          "artifact_ref": {
+            "end_line": 2,
+            "locator": "B3b-revision",
+            "origin": "synthetic_fixture",
+            "path": "b3b-revision.md",
+            "revision": 1,
+            "start_line": 1
+          },
+          "content": "P 成立且 P→Q，所以 Q。",
+          "kind": "revision",
+          "sequence": 4,
+          "substituted_operations": [],
+          "target_operations": [
+            "connect-P-to-Q"
+          ],
+          "time": {
+            "reason": "人工演示顺序，无真实作答时间",
+            "status": "unknown"
+          },
+          "visibility": "displayed"
+        }
+      ],
+      "factual_conditions": {
+        "displayed_help": {
+          "status": "known",
+          "value": [
+            {
+              "sequence": 2,
+              "kind": "feedback",
+              "target_operations": [
+                "connect-P-to-Q"
+              ],
+              "substituted_operations": [],
+              "artifact_ref": {
+                "locator": "C0-feedback-2",
+                "origin": "synthetic_fixture",
+                "path": "c0/FIX-b3b-event/feedback-2.md",
+                "revision": 1
+              }
+            },
+            {
+              "sequence": 3,
+              "kind": "help",
+              "target_operations": [
+                "connect-P-to-Q"
+              ],
+              "substituted_operations": [
+                "connect-P-to-Q"
+              ],
+              "artifact_ref": {
+                "locator": "C0-help-3",
+                "origin": "synthetic_fixture",
+                "path": "c0/FIX-b3b-event/help-3.md",
+                "revision": 1
+              }
+            }
+          ]
+        },
+        "unrecorded_help": {
+          "status": "unknown",
+          "reason": "Unrecorded help and contact are not inferred from the record."
+        },
+        "unknown_visibility": false,
+        "substituted_operations": [
+          "connect-P-to-Q"
+        ],
+        "independent_support": "not_assessed"
+      },
+      "parent_help_history_refs": [
+        {
+          "id": "FIX-event",
+          "revision": 1
+        }
+      ],
+      "parent_help_conditions": [
+        {
+          "event_ref": {
+            "id": "FIX-event",
+            "revision": 1
+          },
+          "conditions": {
+            "displayed_help": {
+              "status": "known",
+              "value": [
+                {
+                  "sequence": 2,
+                  "kind": "help",
+                  "target_operations": [
+                    "connect-P-to-Q"
+                  ],
+                  "substituted_operations": [
+                    "connect-P-to-Q"
+                  ],
+                  "artifact_ref": null
+                }
+              ]
+            },
+            "unrecorded_help": {
+              "status": "unknown",
+              "reason": "Unrecorded help and contact are not inferred from the record."
+            },
+            "unknown_visibility": false,
+            "substituted_operations": [
+              "connect-P-to-Q"
+            ],
+            "independent_support": "not_assessed"
+          }
+        }
+      ],
+      "declared_active_minutes": {
+        "reason": "No active-time declaration was supplied.",
+        "status": "unknown"
+      },
+      "parent_artifact": {
+        "locator": "虚构父产物",
+        "origin": "synthetic_fixture",
+        "path": "originals.md",
+        "revision": 1
+      },
+      "next_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审",
+      "unrecorded_actions": {
+        "status": "unknown",
+        "reason": "No checkpoint records additional actions."
+      }
+    }
+  },
+  "integrity": {
+    "status": "ok",
+    "state_revision": 6,
+    "reasons": [],
+    "issues": [],
+    "synthetic_only": true,
+    "object_revision_count": 35,
+    "artifact_count": 6
+  },
+  "scoring": "not_executed",
+  "plan_changed": false,
+  "limitations": [
+    "All original answers and displayed actions are explicit synthetic declarations.",
+    "Local sufficiency does not establish independent performance or the complete parent goal.",
+    "Existing spaces are read-only; missing/deleted records are not recreated.",
+    "This saved report is outside managed SQLite deletion scope."
+  ]
+}

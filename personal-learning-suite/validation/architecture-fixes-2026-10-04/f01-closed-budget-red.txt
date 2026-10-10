@@ -1,0 +1,17 @@
+test_budget_close_cannot_reopen_activity_with_the_old_shared_budget (test_b3b_teaching.B3bTeachingTests.test_budget_close_cannot_reopen_activity_with_the_old_shared_budget) ... FAIL
+
+======================================================================
+FAIL: test_budget_close_cannot_reopen_activity_with_the_old_shared_budget (test_b3b_teaching.B3bTeachingTests.test_budget_close_cannot_reopen_activity_with_the_old_shared_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\文献资料\学习系统架构设计\personal-learning-suite\tests\test_b3b_teaching.py", line 757, in test_budget_close_cannot_reopen_activity_with_the_old_shared_budget
+    self.assertEqual(opened["status"], "stopped", opened)
+AssertionError: 'ready' != 'stopped'
+- ready
++ stopped
+ : {'status': 'ready', 'synthetic_only': True, 'mutated': False, 'scoring': 'not_executed', 'judgment_created': False, 'new_test_created': False, 'reasons': [], 'state_revision': 3, 'activity_ref': {'id': 'FIX-activity', 'revision': 1}, 'execution_authorization_refs': [{'id': 'FIX-b3b-teaching-grant', 'revision': 1}], 'learner_packet': {'prompt': '已知 P→Q 且 P，请给出结论并说明理由。', 'visible_input': [{'channel': 'body', 'content': 'P→Q；P', 'provided_operations': []}]}, 'evidence_conditions': 'declared_activity_and_material_conditions', 'parent_help_history_refs': [{'id': 'FIX-event', 'revision': 1}], 'parent_help_conditions': [{'event_ref': {'id': 'FIX-event', 'revision': 1}, 'conditions': {'displayed_help': {'status': 'known', 'value': [{'sequence': 2, 'kind': 'help', 'target_operations': ['connect-P-to-Q'], 'substituted_operations': ['connect-P-to-Q'], 'artifact_ref': None}]}, 'unrecorded_help': {'status': 'unknown', 'reason': 'Unrecorded help and contact are not inferred from the record.'}, 'unknown_visibility': False, 'substituted_operations': ['connect-P-to-Q'], 'independent_support': 'not_assessed'}}], 'assessment_dependency': 'explicit_response_handoff', 'method_config_refs': [], 'budget_ref': {'id': 'FIX-budget', 'revision': 1}}
+
+----------------------------------------------------------------------
+Ran 1 test in 0.188s
+
+FAILED (failures=1)

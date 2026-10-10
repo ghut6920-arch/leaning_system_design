@@ -1,0 +1,154 @@
+{
+  "batch": "B2b",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "versions": {
+    "shared": "pl-contracts/0.1.0",
+    "store": "pl-store/0.1.0",
+    "materials": "pl-materials/0.1.0"
+  },
+  "executor": "scripts/check_b2b.py; Python unittest",
+  "checker": "Independent B2b test author; root reviewed observed outcomes",
+  "status": "passed",
+  "synthetic_only": true,
+  "tests_run": 30,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_annotated_title_layout_and_body_cannot_supply_independent_target_operation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_backup_help_and_teacher_reference_are_potential_help_not_actual_exposure",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_binding_checks_activity_conditions_goals_modalities_and_purpose",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_content_and_use_reviews_must_match_current_material_revision",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_controlled_read_returns_only_selected_lines_and_no_semantic_upgrade",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_domain_packets_have_distinct_required_checks_and_no_truth_certificate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_each_math_domain_check_is_required_and_unknown_cannot_be_supported",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_every_modality_must_be_explicit_even_when_not_required",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_explicit_modalities_and_complete_math_declarations_form_compatible_packet",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_late_submission_after_delete_cannot_reintroduce_objects_or_artifacts",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_material_restriction_beats_success_receipt_and_user_resume_does_not_restore",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_math_reference_anchor_must_exist_be_usable_and_cover_a_real_segment",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_missing_unread_scope_and_unspecified_required_modalities_are_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_partition_entries_need_content_channel_and_provided_operation_annotation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_read_honors_current_restriction_pause_and_delete_controls",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_read_real_identity_is_rejected_before_extraction",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_read_rejects_bad_ranges_external_paths_and_locator_outside_segment",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_real_cli_change_restrict_commits_gate_before_read_only_recovery_trace",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_source_fragment_cannot_bypass_professional_grant_via_read_only_origin",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_submission_is_persistent_after_reopen_and_preserves_original_event_and_plan",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_submission_same_operation_and_bytes_is_idempotent_but_changed_bytes_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_submit_permission_and_work_order_acceptance_are_not_inferred",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_submit_rejects_stale_state_and_stale_source_basis_without_writing",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_submit_uses_explicit_authority_and_adoption_and_ag2_actor",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_supported_text_with_pending_correctness_or_use_does_not_pass",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_teaching_example_requires_a_fresh_exact_binding_for_independent_check",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_trace_after_restriction_preserves_all_originals_and_plan_and_keeps_gate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_two_source_chains_trace_separately_and_four_recoveries_stay_pending",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_unknown_semantic_dependencies_and_sufficient_original_do_not_create_extra_work",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_unread_required_formula_or_figure_limits_and_unknown_nonrequired_is_preserved",
+      "status": "passed"
+    }
+  ],
+  "raw_output_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\validation\\b3a-b2b-regression-output.txt",
+  "host_versions": {
+    "python": "3.12.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "sqlite": "3.46.1"
+  },
+  "limitations": [
+    "Artificial fixtures in isolated temporary directories; no real learner course or responses.",
+    "Only declared metadata, exact managed references, annotated leakage, and storage/control behavior are checked by code.",
+    "No generic domain truth verifier, OCR/PDF/image parser, semantic leakage detector, or actual exposure recorder.",
+    "AG2 is a fixture actor configuration, not authenticated host identity or a bound multi-agent runtime.",
+    "Correction tracing covers recorded references; unknown dependencies and four recovery responsibilities stay separate.",
+    "This does not establish complete B10 scenarios, V1—V4 outcomes, or learning efficacy."
+  ]
+}

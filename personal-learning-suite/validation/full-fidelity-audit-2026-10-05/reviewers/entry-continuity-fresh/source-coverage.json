@@ -1,0 +1,592 @@
+{
+  "reviewDate": "2026-10-05",
+  "projectRoot": "E:\\文献资料\\学习系统架构设计",
+  "reviewer": "entry-continuity-fresh",
+  "method": "语义阅读范围为已向模型展示并完整审读的内容；行数和SHA-256仅用于当前文件身份与范围元数据，哈希不表示全文语义审读。",
+  "fullFileCount": 38,
+  "relatedSectionFileCount": 3,
+  "entries": [
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\docs\\architecture\\AI个人学习系统_整体学习流程与概念架构_v1.md",
+      "relativePath": "docs/architecture/AI个人学习系统_整体学习流程与概念架构_v1.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 420
+        }
+      ],
+      "lineCount": 420,
+      "sha256": "1552AF1B89B70910F5455555C030842BBF9BACD97469B7364012B0222F14F740"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\docs\\architecture\\AI个人学习系统_Skill架构设计_v0.md",
+      "relativePath": "docs/architecture/AI个人学习系统_Skill架构设计_v0.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 765
+        }
+      ],
+      "lineCount": 765,
+      "sha256": "61B5DDEBFAD4EF8928A3A44E8F7FD95804EC7CC7138C7EB796284F0347B4BEE2"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\docs\\architecture\\AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md",
+      "relativePath": "docs/architecture/AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 724
+        }
+      ],
+      "lineCount": 724,
+      "sha256": "60C13B6DA6C0B83BFEE06C03D4F1514BA712FF8396823C0A230C7845427C076A"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\docs\\designs\\AI个人学习系统_工作包7_长期计划与学习连续性_设计方案_v0.md",
+      "relativePath": "docs/designs/AI个人学习系统_工作包7_长期计划与学习连续性_设计方案_v0.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 242
+        }
+      ],
+      "lineCount": 242,
+      "sha256": "2D0769B417360C514DA3DFBF13A884A80594A6E87447118F78B75D2B635E2564"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\docs\\analysis\\AI个人学习系统_工作包7_长期计划与学习连续性_顶层设计分析.md",
+      "relativePath": "docs/analysis/AI个人学习系统_工作包7_长期计划与学习连续性_顶层设计分析.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 122
+        }
+      ],
+      "lineCount": 122,
+      "sha256": "760DC9CA2639EFA3CF35B3D3A9CD452A894FE1C56EACC5F2836370BAF6D065B3"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\docs\\designs\\AI个人学习系统_工作包8_多Agent协作与共享状态_设计方案_v0.md",
+      "relativePath": "docs/designs/AI个人学习系统_工作包8_多Agent协作与共享状态_设计方案_v0.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 297
+        }
+      ],
+      "lineCount": 297,
+      "sha256": "A47D8D7E06C71F2CA28065E226A71D7179AC00F3FE3A2B369A519BCDD85F912C"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\docs\\analysis\\AI个人学习系统_工作包8_多Agent协作与共享状态_顶层设计分析.md",
+      "relativePath": "docs/analysis/AI个人学习系统_工作包8_多Agent协作与共享状态_顶层设计分析.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 126
+        }
+      ],
+      "lineCount": 126,
+      "sha256": "E1450D00B969A3CEE0AB4D61370F8A1B7857A6A2D4A24413C0D3CB187FB09F0F"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\docs\\designs\\AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计方案_v0.md",
+      "relativePath": "docs/designs/AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计方案_v0.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 352
+        }
+      ],
+      "lineCount": 352,
+      "sha256": "3432D7B726E3B4FDD0A1AB60F200EAF7E986518B0BE9D94CD9D9BE5B59FF87F1"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\docs\\analysis\\AI个人学习系统_工作包9_跨学科用户体验与异常场景_顶层设计分析.md",
+      "relativePath": "docs/analysis/AI个人学习系统_工作包9_跨学科用户体验与异常场景_顶层设计分析.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 140
+        }
+      ],
+      "lineCount": 140,
+      "sha256": "0EB3E544D26EF7459C8A64EA0F8A4B7E5AC130DAE422A736B0F88C2FCD07ED9D"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\docs\\designs\\AI个人学习系统_工作包10_验证计划与设计收口_设计方案_v0.md",
+      "relativePath": "docs/designs/AI个人学习系统_工作包10_验证计划与设计收口_设计方案_v0.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 351
+        }
+      ],
+      "lineCount": 351,
+      "sha256": "065BA1AD1C44CD17461D90861B81F54EE70185818FCC522F07EF8FE83B07C25C"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\docs\\analysis\\AI个人学习系统_工作包10_验证计划与设计收口_顶层设计分析.md",
+      "relativePath": "docs/analysis/AI个人学习系统_工作包10_验证计划与设计收口_顶层设计分析.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 157
+        }
+      ],
+      "lineCount": 157,
+      "sha256": "2F8C9DD9C548A2DFC672D17F47CE94656E81F1F65D2FAC0FDE9D16A541F69BFF"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\personal-learning\\SKILL.md",
+      "relativePath": "personal-learning-suite/src/skills/personal-learning/SKILL.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 44
+        }
+      ],
+      "lineCount": 44,
+      "sha256": "CC5505D10D63C1D07580BF6C74B3597011FAC2512955D59DF899A9A26C035D3F"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\personal-learning\\references\\entry-controls.md",
+      "relativePath": "personal-learning-suite/src/skills/personal-learning/references/entry-controls.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 40
+        }
+      ],
+      "lineCount": 40,
+      "sha256": "9DEBE29B120A32F4C68931A2F5DCBE8626DA7753A1E89755D1C7034931F21CC4"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\personal-learning\\references\\session-entry.md",
+      "relativePath": "personal-learning-suite/src/skills/personal-learning/references/session-entry.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 61
+        }
+      ],
+      "lineCount": 61,
+      "sha256": "C676A110D596BC1FDC299E75A4DDA66683CA23FD83A81EB57E7A3BAF12FE4779"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\personal-learning\\references\\network-host.md",
+      "relativePath": "personal-learning-suite/src/skills/personal-learning/references/network-host.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 13
+        }
+      ],
+      "lineCount": 13,
+      "sha256": "998A3542E940526EF8F198F190A459A53D8ACE29487ECCDE72EE0F6E5EE31B7D"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\personal-learning\\references\\vertical-workflow.md",
+      "relativePath": "personal-learning-suite/src/skills/personal-learning/references/vertical-workflow.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 37
+        }
+      ],
+      "lineCount": 37,
+      "sha256": "90DCC4D46ADE38D73C18705D43280C67F3CE231CC12784EF91146FA1FA3663F2"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\personal-learning\\references\\verification.md",
+      "relativePath": "personal-learning-suite/src/skills/personal-learning/references/verification.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 46
+        }
+      ],
+      "lineCount": 46,
+      "sha256": "9868607FC327F8CD8AC34C6A969F64CAF80CF108DAA65AD901D96448686DBC19"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-planning\\SKILL.md",
+      "relativePath": "personal-learning-suite/src/skills/learning-planning/SKILL.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 20
+        }
+      ],
+      "lineCount": 20,
+      "sha256": "8E6619DBA0B55C83AE7FAA97C25A25ECC5F04F79410BC08924CE5D2F76CAF407"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-planning\\references\\runtime.md",
+      "relativePath": "personal-learning-suite/src/skills/learning-planning/references/runtime.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 11
+        }
+      ],
+      "lineCount": 11,
+      "sha256": "7AE28BC57633A30883716CD4B9CB8D0E4760CE049D2B85957F162887DC1BEAEF"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-planning\\references\\planning.md",
+      "relativePath": "personal-learning-suite/src/skills/learning-planning/references/planning.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 17
+        }
+      ],
+      "lineCount": 17,
+      "sha256": "72BEB50667895537040EC5355D36496D3C3A0CFE0D38CE8FA9A7C2FDDC02FA33"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-planning\\references\\recovery.md",
+      "relativePath": "personal-learning-suite/src/skills/learning-planning/references/recovery.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 13
+        }
+      ],
+      "lineCount": 13,
+      "sha256": "950687522A4BA71ACA34AAEAA6D93E03195322B3B704F8D51D7134A631BA8252"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-planning\\references\\multi-scale-plan.md",
+      "relativePath": "personal-learning-suite/src/skills/learning-planning/references/multi-scale-plan.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 68
+        }
+      ],
+      "lineCount": 68,
+      "sha256": "49B3AFCD4CFDC5E8D8EF9AC8B87A9BBC948DBE4E12FA6C94DEC448BF22A31522"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\agents\\AG0-coach.md",
+      "relativePath": "personal-learning-suite/src/agents/AG0-coach.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 37
+        }
+      ],
+      "lineCount": 37,
+      "sha256": "F9E07652EF8F0B78FDE925327EB9FA87E075D07443359E4C4D9234561DB978FA"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\agents\\AG1-design-planning.md",
+      "relativePath": "personal-learning-suite/src/agents/AG1-design-planning.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 41
+        }
+      ],
+      "lineCount": 41,
+      "sha256": "1B2121FED98C47108C46662F5144C77706D371F1E2E367AE9BE89BEAB8AB8BDE"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\agents\\AG2-materials.md",
+      "relativePath": "personal-learning-suite/src/agents/AG2-materials.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 42
+        }
+      ],
+      "lineCount": 42,
+      "sha256": "CD222F72DADA056633ECE3731AED90C1E6AA6B452C0CE0CDFD4AAFB9EFE1B67D"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\agents\\AG3-assessment.md",
+      "relativePath": "personal-learning-suite/src/agents/AG3-assessment.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 43
+        }
+      ],
+      "lineCount": 43,
+      "sha256": "FBC60A9CB282020DD7A3DE590578C701FABF0DB8BD44B40A5F3F5C2771D8A1C9"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\MODEL_ENTRY.md",
+      "relativePath": "learning/embodied-intelligence/MODEL_ENTRY.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 74
+        }
+      ],
+      "lineCount": 74,
+      "sha256": "BBCC3270658A395A1879D884DB32DD83F1DE3E89C7F203949E3366D64CDAB62A"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\FRAMEWORK.md",
+      "relativePath": "learning/embodied-intelligence/FRAMEWORK.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 61
+        }
+      ],
+      "lineCount": 61,
+      "sha256": "02314C77BDEAF1F8D5329695844A1527AEA2539234A321EDC844A3C485908B12"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\START_PROMPT.md",
+      "relativePath": "learning/embodied-intelligence/START_PROMPT.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 62
+        }
+      ],
+      "lineCount": 62,
+      "sha256": "FEECD13B89B0690562CDD0344ECAA0D1BAF61C345ECE822309FFBC190065DE9D"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\AGENTS.md",
+      "relativePath": "learning/embodied-intelligence/AGENTS.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 11
+        }
+      ],
+      "lineCount": 11,
+      "sha256": "2EA4B06A583EE448A8EA5E7B5624D8ED0F70CE356D2F3FDE348358D745EEF502"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\README.md",
+      "relativePath": "learning/embodied-intelligence/README.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 37
+        }
+      ],
+      "lineCount": 37,
+      "sha256": "5B2C95CDB83C112FC4434F28C5531027758CB1EC13C541B204E53B1A8A443FBC"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\INTERACTION.md",
+      "relativePath": "learning/embodied-intelligence/INTERACTION.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 21
+        }
+      ],
+      "lineCount": 21,
+      "sha256": "AF71D8104AC2F5F29E5150DF5336BF94F8042FC30726AB215C44A5C592508296"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\contracts\\shared-contracts.md",
+      "relativePath": "personal-learning-suite/contracts/shared-contracts.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 142
+        }
+      ],
+      "lineCount": 142,
+      "sha256": "7A83601A8E4D0741B41322FC8883C161B44135C4E56C421EB4F3F408FAC8D77E"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-teaching\\SKILL.md",
+      "relativePath": "personal-learning-suite/src/skills/learning-teaching/SKILL.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 35
+        }
+      ],
+      "lineCount": 35,
+      "sha256": "FB9A0ED91BA1AA2B9FB25FB003A0E6A731749B0F3EF71392CE4395C369DC2A4D"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-teaching\\references\\design-whole.md",
+      "relativePath": "personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 39
+        }
+      ],
+      "lineCount": 39,
+      "sha256": "179740A221D608B88C70B25C7013A04BB1A762D85D94E18C65108835F92688AC"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-teaching\\references\\encoding.md",
+      "relativePath": "personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 53
+        }
+      ],
+      "lineCount": 53,
+      "sha256": "2370DA82016DEAD12A1B34C35340950AF1969BBF4CBD7AD8853EB67FA51399FF"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-teaching\\references\\c0.md",
+      "relativePath": "personal-learning-suite/src/skills/learning-teaching/references/c0.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 70
+        }
+      ],
+      "lineCount": 70,
+      "sha256": "FD80346B25D3FA36F070D1C042DD185839916B86E498D69F18DD89F2633AA788"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-assessment\\SKILL.md",
+      "relativePath": "personal-learning-suite/src/skills/learning-assessment/SKILL.md",
+      "readStatus": "full",
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 24
+        }
+      ],
+      "lineCount": 24,
+      "sha256": "95C80EB1B0F7C74DE6BBFB9614BB61EDCFB17F88ADCF739A52E4597576013D0A"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\docs\\research\\01_Encoding研究报告.md",
+      "relativePath": "docs/research/01_Encoding研究报告.md",
+      "readStatus": "related_sections_only",
+      "sections": [
+        "第15节：如何验证系统，而不是只验证输出好看"
+      ],
+      "semanticReadRanges": [
+        {
+          "start": 401,
+          "end": 419
+        }
+      ],
+      "lineCount": 539,
+      "sha256": "12B7671DF7726B75DF71708A0FC0EC8BFBC3E4E6E79B06AC9C6937D9113BB8B1"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\docs\\research\\Post-Encoding-Dynamics-深度增量研究.md",
+      "relativePath": "docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+      "readStatus": "related_sections_only",
+      "sections": [
+        "题名、引言及第1节",
+        "第4节",
+        "第6节",
+        "第8节",
+        "第13—15节，含末尾参考链接"
+      ],
+      "semanticReadRanges": [
+        {
+          "start": 1,
+          "end": 40
+        },
+        {
+          "start": 108,
+          "end": 123
+        },
+        {
+          "start": 175,
+          "end": 193
+        },
+        {
+          "start": 231,
+          "end": 261
+        },
+        {
+          "start": 402,
+          "end": 466
+        }
+      ],
+      "lineCount": 466,
+      "sha256": "B9A6C07343DAB159A25C37FF054F04BD44751B9C7FFD3242B1DFF86D36B598F9"
+    },
+    {
+      "absolutePath": "E:\\文献资料\\学习系统架构设计\\docs\\research\\post-encoding证据台账与参考文献.md",
+      "relativePath": "docs/research/post-encoding证据台账与参考文献.md",
+      "readStatus": "related_sections_only",
+      "sections": [
+        "E19—E32（含D组标题）",
+        "E37—E38",
+        "E49"
+      ],
+      "semanticReadRanges": [
+        {
+          "start": 123,
+          "end": 208
+        },
+        {
+          "start": 235,
+          "end": 246
+        },
+        {
+          "start": 309,
+          "end": 314
+        }
+      ],
+      "lineCount": 326,
+      "sha256": "E36977D61DF248A2176BE8EB94387FA2E0323251EAF90EB147768B67D4381D49"
+    }
+  ],
+  "notRead": [
+    "真实 learning 记录：除明确允许的6个公开入口外，未读 learning/embodied-intelligence 中任何文件；未读其他个人学习 state、plan、raw、artifacts 或历史记录。",
+    "旧 audits／implementation／validation 报告：未读内容。目录检索曾显示文件名，未沿结果读取旧报告。",
+    "docs/architecture/AI个人学习系统_整体学习流程与概念架构_v0.md；docs/architecture/AI个人学习系统_设计流程与工作包.md：未读正文。",
+    "工作包2—6设计方案、交接对齐及其顶层分析：未读正文；本范围不声称它们通过。",
+    "docs/research/02_Encoding微操作与提问库.md、04_Encoding策略库.json、Retrieval-Integration-快速矩阵.md：未读正文。",
+    "R01、R05、R06未列范围的内容：未作语义审读。外部原始论文与网页：未回查。",
+    "其他 Skill：除上列必要教学及评估入口相关文件，未读其正文或参考文件；其他审查者覆盖不算本审查覆盖。",
+    "宿主 native API绑定、实际个人状态提交、真实单入口隔离、删除事务、后台任务、真实学习效果与可比成本：未执行验证。"
+  ]
+}

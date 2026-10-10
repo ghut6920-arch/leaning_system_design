@@ -1,0 +1,205 @@
+{
+  "batch": "B2a",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "executor": "scripts/check_b2a.py; Python unittest",
+  "checker": "B2a 独立测试开发子代理（负责测试与报告，不编辑目标程序）",
+  "versions": {
+    "shared": "pl-contracts/0.1.0",
+    "store": "pl-store/0.1.0",
+    "input": "pl-goals-input/0.1.0",
+    "report": "pl-goals-review/0.1.0"
+  },
+  "synthetic_only": true,
+  "status": "passed",
+  "tests_run": 42,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_aggregate_explanation_source_does_not_block_implementation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_background_dependency_does_not_become_a_gate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_cli_only_emits_preview_without_creating_records",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_complete_candidate_has_separate_implementation_and_explanation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_current_unknown_keeps_other_reliable_requirement",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_distinct_read_and_verification_scopes_with_text_conditions_remain_candidate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_dual_sources_missing_only_blocks_affected_requirement",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_false_adoption_cannot_be_announced",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_far_future_unknown_does_not_block_current_reliable_subscope",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_known_null_is_invalid_instead_of_known_information",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_malformed_unresolved_integer_is_invalid_without_crashing",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_malformed_verification_lists_do_not_crash_or_claim_reliability",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_missing_current_content_reference_is_pending_not_verification",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_missing_observable_evidence_stays_unresolved",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_no_delay_requirement_is_not_a_gap",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_only_course_map_preserves_topics_without_inventing_criteria",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_opened_source_with_unknown_verification_is_not_reliable",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_prerequisite_unknown_is_not_learner_failure",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_real_source_identity_is_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_single_failure_does_not_establish_necessary_prerequisite",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_synthetic_protocol_and_shape_are_enforced",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_unknown_fact_cannot_carry_guessed_value",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_unknown_help_is_not_zero_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_unknown_requirement_scope_is_rejected_or_conservatively_limited",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aStoreSeamTests.test_ag0_cannot_commit_ag1_goal_despite_preview_complete",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aStoreSeamTests.test_manually_adopted_goal_round_trips_exact_and_old_revision_stays",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aStoreSeamTests.test_paused_source_rejects_candidate_commit",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aStoreSeamTests.test_preview_success_without_explicit_authorization_cannot_write",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aStoreSeamTests.test_restricted_source_rejects_candidate_commit",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_budget_convenience_cannot_change_goal",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_changed_criterion_requires_increased_content_revision",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_corrective_notice_proposes_restrictions_but_never_claims_executed",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_exact_reuse_keeps_revision_but_does_not_copy_judgment",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_final_purpose_change_remains_pending_authorization",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_locator_equivalence_requires_rationale_and_mapping",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_malformed_mapping_does_not_crash_or_transfer",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_missing_mapping_prevents_equivalence_or_automatic_split_transfer",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_operations_resources_scope_and_formal_time_change_are_recheck",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_revised_candidate_carries_current_compatibility_without_mutating_input",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_revision_cannot_jump_or_decrease",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_session_budget_reduction_leaves_exact_goal_and_routes_plan",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_swapping_requirement_mapping_cannot_preserve_equivalence",
+      "status": "passed"
+    }
+  ],
+  "host_versions": {
+    "python": "3.12.3",
+    "python_implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "sqlite": "3.46.1"
+  },
+  "raw_output_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\validation\\b3c-b2a-regression-output.txt",
+  "limitations": [
+    "只使用 FIX 虚构目标、来源、授权和隔离临时目录，没有真实课程、学习者或原答。",
+    "检查的是候选结构、输入核验声明、要求作用域、版本规则和 B1 保存接缝；程序不核学科内容真伪。",
+    "preview 的 complete 和 reliable 只表示所给记录支持当前候选；专业采用、学习者判断、承诺生效与实际限制均不由预览执行。",
+    "保存测试显式模拟 FIX AG1 人工核对、授权与采用依据；角色配置和夹具授权不是宿主身份认证或真实授权。",
+    "版本保留与重核只是候选建议，不复制 Judgment，不自动生成补测或倒判旧答。",
+    "本次未验证真实 Skill 学习效果、完整 B10 情境、V1—V4 或四 Agent／七 Skill 运行网络。",
+    "本报告与原始输出单独保存为 B2a 文件，不覆盖 B0/B1 历史校验报告。"
+  ]
+}

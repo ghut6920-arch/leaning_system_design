@@ -1,0 +1,77 @@
+{
+  "status": "ready",
+  "synthetic_only": true,
+  "mutated": false,
+  "scoring": "not_executed",
+  "judgment_created": false,
+  "new_test_created": false,
+  "reasons": [],
+  "state_revision": 6,
+  "activity_ref": {
+    "id": "FIX-activity",
+    "revision": 1
+  },
+  "execution_authorization_refs": [
+    {
+      "id": "FIX-b3b-teaching-grant",
+      "revision": 1
+    }
+  ],
+  "learner_packet": {
+    "prompt": "已知 P→Q 且 P，请给出结论并说明理由。",
+    "visible_input": [
+      {
+        "channel": "body",
+        "content": "P→Q；P",
+        "provided_operations": []
+      }
+    ]
+  },
+  "evidence_conditions": "declared_activity_and_material_conditions",
+  "parent_help_history_refs": [
+    {
+      "id": "FIX-event",
+      "revision": 1
+    }
+  ],
+  "parent_help_conditions": [
+    {
+      "event_ref": {
+        "id": "FIX-event",
+        "revision": 1
+      },
+      "conditions": {
+        "displayed_help": {
+          "status": "known",
+          "value": [
+            {
+              "sequence": 2,
+              "kind": "help",
+              "target_operations": [
+                "connect-P-to-Q"
+              ],
+              "substituted_operations": [
+                "connect-P-to-Q"
+              ],
+              "artifact_ref": null
+            }
+          ]
+        },
+        "unrecorded_help": {
+          "status": "unknown",
+          "reason": "Unrecorded help and contact are not inferred from the record."
+        },
+        "unknown_visibility": false,
+        "substituted_operations": [
+          "connect-P-to-Q"
+        ],
+        "independent_support": "not_assessed"
+      }
+    }
+  ],
+  "assessment_dependency": "not_integrated_in_B3b",
+  "budget_ref": {
+    "id": "FIX-budget",
+    "revision": 1
+  }
+}

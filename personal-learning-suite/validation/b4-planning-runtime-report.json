@@ -1,0 +1,150 @@
+{
+  "batch": "B4",
+  "scope": "planning",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "versions": {
+    "shared": "pl-contracts/0.1.0",
+    "store": "pl-store/0.1.0",
+    "teaching_specialist": "pl-teaching-b4/0.1.0",
+    "planning": "pl-planning/0.1.0"
+  },
+  "executor": "scripts/check_b4.py; Python unittest",
+  "checker": "Independent initial test authors; primary agent reviewed and repaired failures",
+  "host_versions": {
+    "python": "3.12.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "sqlite": "3.46.1"
+  },
+  "status": "passed",
+  "tests_run": 29,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_acceptance_is_pending_and_has_owner_trigger_without_plan",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_ag0_cannot_formal_plan_expand_or_change_design",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_ag0_shrink_changes_only_current_scope_not_goal_or_budget",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_authorized_routine_judgment_can_close_without_extra_review",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_authorized_shrink_cannot_increase_fees_wait_or_system_effort",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_cas_and_exact_retry_preserve_single_need_revision_and_plan",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_cli_inspection_and_missing_request_return_json",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_closing_scheduled_need_supersedes_old_commitment_atomically",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_combined_demands_do_not_each_receive_full_shared_budget",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_deferred_and_no_investment_keep_uncovered_goal_and_trigger",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_deleted_evidence_blocks_late_retry_and_no_shadow_receipt_revives_it",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_distinct_evidence_conditions_are_not_merged_by_name",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_duplicate_is_merged_to_same_need_with_one_allocation_and_mapping",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_failed_save_returns_no_arrangement_and_keeps_original_need",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_full_cost_shared_budget_and_single_current_arrangement",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_future_temporal_conditions_do_not_close_by_calendar",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_merge_cannot_replace_whole_requirement_with_narrower_requirement",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_merged_duplicate_does_not_block_later_authorized_shrink",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_missing_feedback_closure_and_unknown_cost_do_not_become_scheduled",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_missing_summary_resume_does_not_invent_success_or_require_whole_restart",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_natural_evidence_closes_simple_need_without_new_check_or_mastery_object",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_only_closure_time_can_stop_without_moving_all_work_to_tomorrow",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_pause_and_use_restriction_prevent_commit_and_resume_immediately",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_read_only_candidate_and_missing_authority_create_no_arrangement",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_reopen_resume_preserves_parent_original_help_and_no_replanning",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_saved_c0_spending_cannot_be_reset_by_a_new_plan",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_specialist_whole_gate_is_preserved_by_planning",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_unknown_non_user_cost_and_estimated_full_allocation_are_not_zero",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_unsupported_natural_evidence_does_not_close_need",
+      "status": "passed"
+    }
+  ],
+  "raw_output_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\validation\\b4-all-runtime-output.txt",
+  "limitations": [
+    "Artificial goals, original answers, grants, observations, costs and references only.",
+    "Software checks declarations and controls; it does not prove content correctness, learning efficacy or real host authority.",
+    "B5 automatic single-entry orchestration and B6 host delegation remain unimplemented.",
+    "Reports and request copies are outside managed store deletion scope."
+  ]
+}

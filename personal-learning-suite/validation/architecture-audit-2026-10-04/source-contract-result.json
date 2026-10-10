@@ -1,0 +1,62 @@
+{
+  "probe": "B5 goal.sources_submit -> goal.submit -> materials.submit",
+  "data_kind": "synthetic",
+  "source": "Existing test_b5_entry.new_goal_fixture()",
+  "observed": {
+    "source_and_goal_status": "completed",
+    "source_and_goal_steps": [
+      {
+        "operation": "goal.sources_submit",
+        "status": "committed"
+      },
+      {
+        "operation": "goal.submit",
+        "status": "committed"
+      }
+    ],
+    "saved_source_shapes": [
+      {
+        "id": "FIX-b2a-course",
+        "revision": 1,
+        "read_scope_keys": [
+          "status",
+          "value"
+        ],
+        "verification_keys": [
+          "status",
+          "value"
+        ]
+      },
+      {
+        "id": "FIX-b2a-rule",
+        "revision": 1,
+        "read_scope_keys": [
+          "status",
+          "value"
+        ],
+        "verification_keys": [
+          "status",
+          "value"
+        ]
+      }
+    ],
+    "material_stage_status": "rejected",
+    "material_stage_result": {
+      "status": "rejected",
+      "reasons": [
+        {
+          "code": "modality_facts_required"
+        }
+      ]
+    },
+    "state_before_material_stage": 3,
+    "state_after_material_stage": 3,
+    "material_stage_mutated": false
+  },
+  "limitations": [
+    "A metadata-only source revision intentionally preserves the accepted B2a representation.",
+    "This verifies that B5 does not automatically bridge the B2a/B2b source formats.",
+    "It does not claim that an explicitly redesigned source packet cannot be submitted.",
+    "No semantic verification, real user learning, or effectiveness claim is made."
+  ]
+}

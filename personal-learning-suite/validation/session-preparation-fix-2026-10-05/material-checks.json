@@ -1,0 +1,97 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "case": "original-model/q=0/e0=1",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=0/e0=-3",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=0/e0=0",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=1/2/e0=1",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=1/2/e0=-3",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=1/2/e0=0",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=1/e0=1",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=1/e0=-3",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=1/e0=0",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=6/5/e0=1",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=6/5/e0=-3",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=6/5/e0=0",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=2/e0=1",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=2/e0=-3",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=2/e0=0",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=11/5/e0=1",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=11/5/e0=-3",
+      "pass": true
+    },
+    {
+      "case": "original-model/q=11/5/e0=0",
+      "pass": true
+    },
+    {
+      "case": "worked-example/0-to-5-to-7.5",
+      "pass": true
+    },
+    {
+      "case": "local-direction-does-not-imply-contraction",
+      "pass": true
+    },
+    {
+      "case": "delay-counterexample/initial-values-and-characteristic-roots",
+      "pass": true
+    }
+  ],
+  "checks_passed": 21,
+  "plot_data_rows": 52,
+  "static_images_generated": 2,
+  "limitations": [
+    "General proof checked in teacher-reference; finite tests do not prove it",
+    "No real learner or learning-effect validation",
+    "No runtime/API changes"
+  ]
+}

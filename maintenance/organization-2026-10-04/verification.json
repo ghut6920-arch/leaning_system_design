@@ -1,0 +1,732 @@
+{
+  "status": "passed",
+  "moved_documents": 57,
+  "moved_workspaces": 10,
+  "missing_original_files": [],
+  "unexpected_changed_files": [],
+  "broken_local_links": [],
+  "sqlite_preservation": [
+    {
+      "path": "examples/workspaces/B1_虚构演示学习空间/records.sqlite3",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "examples/workspaces/B2b_虚构材料学习空间/records.sqlite3",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "examples/workspaces/B3a_虚构证据学习空间/records.sqlite3",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "examples/workspaces/B3b_虚构教学学习空间/records.sqlite3",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "examples/workspaces/B3c_虚构策略学习空间/records.sqlite3",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "examples/workspaces/B4_虚构专项教学学习空间/records.sqlite3",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "examples/workspaces/B4_虚构计划学习空间/records.sqlite3",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "examples/workspaces/B5_虚构单入口学习空间/records.sqlite3",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "examples/workspaces/B6_虚构工作网络空间/records.sqlite3",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "examples/workspaces/b5-demo-workspace/records.sqlite3",
+      "bytes_unchanged": true
+    }
+  ],
+  "historical_raw_evidence": [
+    {
+      "path": "personal-learning-suite/validation/architecture-audit-2026-10-04/baseline-test-result.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-audit-2026-10-04/checkpoint-budget-result.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-audit-2026-10-04/network-pending-result.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-audit-2026-10-04/source-contract-result.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/all-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/all-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-c0-regression.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-checkpoint-green.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-checkpoint-red.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-closed-budget-green.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-closed-budget-red.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-control-regression.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-f04-b4-teaching-regression.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-legacy-green.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-legacy-red.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-planning-green.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-planning-red.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-planning-regression.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f02-network-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f02-network-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f02-red-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f02-result-control-red-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f02-tracer-green-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-anchor-green.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-anchor-red.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-b2a-regression.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-b2b-regression.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-b5-regression.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-final-canonical-b5.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-malformed-green.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-malformed-red.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-material-use-green.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-read-scope-green.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-read-scope-red.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-source-contract-green.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-source-contract-red.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f04-nested-green.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f04-nested-red.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f04-reentry-green.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f04-reentry-red.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/r01-version-boundary-review.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/static-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b0-static-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b1-demo-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b1-forward-check.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b1-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b1-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-b0-regression-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-b1-regression-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-b1-regression-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/actual-checks.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/candidate.semantic.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/input-session-change.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/input.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/raw-output.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/raw-output.json.stderr.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/raw-session-output.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/raw-session-output.json.stderr.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/session-change.semantic.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward-final.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2b-b0-static-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2b-b1-regression-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2b-b1-regression-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2b-demo-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2b-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b2b-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-b0-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-b1-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-b1-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-b2a-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-b2a-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-b3c-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-b3c-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-b0-static-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-b1-regression-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-b1-regression-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-b2a-regression-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-b2a-regression-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-b2b-regression-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-b2b-regression-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-demo-reopen-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-demo-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-b0-static-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-b1-regression-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-b1-regression-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-b2a-regression-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-b2a-regression-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-b2b-regression-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-b2b-regression-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-cli-open-output.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-cli-open-stderr.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-demo-reopen-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-demo-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-b0-static-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-b1-regression-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-b1-regression-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-b2a-regression-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-b2a-regression-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-b2b-regression-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-b2b-regression-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-demo-first-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-demo-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/candidate-condition-map.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/host-versions.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/index-s07.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/index-x02.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/load-conditional-update.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/load-retrieve-generate-order.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/load-s07.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/load-x02.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-resource-check-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-resource-check-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-skill-validation-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-skill-validation-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-all-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-all-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-b0-static-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-planning-boundary-before-fix.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-planning-demo-reopen-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-planning-demo-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-planning-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-skill-validation.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-teaching-demo-reopen-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-teaching-demo-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-teaching-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-all-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-all-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-b0-static-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-baseline-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-baseline-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-demo-reopen-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-demo-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-entry-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-entry-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-all-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-all-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-b0-static-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-baseline-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-baseline-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-demo-reopen-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-demo-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-independent-audit.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-network-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-network-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-skill-validation.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-all-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-all-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-b0-static-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-b10-baseline-coverage.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-b10-coverage.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-baseline-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-baseline-runtime-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-demo-repeat-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-demo-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-independent-audit-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-independent-audit.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-pilot-initial-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-pilot-initial-report.json",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-pilot-runtime-output.txt",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-pilot-runtime-report.json",
+      "bytes_unchanged": true
+    }
+  ]
+}

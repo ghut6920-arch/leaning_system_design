@@ -1,0 +1,520 @@
+{
+  "synthetic_only": true,
+  "fixture_id": "B3c-example-method-input",
+  "description": "人工虚构配置声明；匹配demo_b3c建立的隔离空间，所有条件和采用均为开发夹具。",
+  "config": {
+    "type": "MethodConfig",
+    "id": "FIX-strategy",
+    "revision": 1,
+    "owner": "AG1",
+    "schema_version": "pl-contracts/0.1.0",
+    "basis_refs": [
+      {
+        "id": "FIX-goal",
+        "revision": 1
+      },
+      {
+        "id": "FIX-material",
+        "revision": 1
+      },
+      {
+        "id": "FIX-activity",
+        "revision": 1
+      },
+      {
+        "id": "FIX-budget",
+        "revision": 1
+      },
+      {
+        "id": "FIX-b3c-work",
+        "revision": 1
+      }
+    ],
+    "intended_work": "Complete the same local reasoning connection",
+    "source_refs": [
+      {
+        "declared_revision": "2.0",
+        "identity_kind": "card",
+        "locator": {
+          "end_line": 187,
+          "heading": "### S07 局部补全",
+          "kind": "markdown_heading",
+          "start_line": 178
+        },
+        "project_relative_path": "../02_Encoding微操作与提问库.md",
+        "source_id": "R02",
+        "workspace_relative_path": "02_Encoding微操作与提问库.md"
+      },
+      {
+        "declared_revision": "2.0",
+        "identity_kind": "card",
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/operations/16",
+          "select_field": "id",
+          "select_value": "S07"
+        },
+        "project_relative_path": "../04_Encoding策略库.json",
+        "source_id": "R03",
+        "workspace_relative_path": "04_Encoding策略库.json"
+      },
+      {
+        "declared_revision": "v0",
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 376,
+          "heading": "## 七、策略资源怎样从原文变成运行资源",
+          "kind": "markdown_heading",
+          "start_line": 289
+        },
+        "project_relative_path": "../AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md",
+        "source_id": "N00",
+        "workspace_relative_path": "AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md"
+      },
+      {
+        "declared_revision": "v0",
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 231,
+          "heading": "## 六、从通用卡片到可执行任务",
+          "kind": "markdown_heading",
+          "start_line": 201
+        },
+        "project_relative_path": "../AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+        "source_id": "D07",
+        "workspace_relative_path": "AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+      },
+      {
+        "declared_revision": "v0",
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 198,
+          "heading": "### 2. 从卡片到任务，需要完成内容实例化",
+          "kind": "markdown_heading",
+          "start_line": 180
+        },
+        "project_relative_path": "../AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+        "source_id": "D05",
+        "workspace_relative_path": "AI个人学习系统_工作包5_Encoding_设计方案_v0.md"
+      },
+      {
+        "declared_revision": "2.0",
+        "identity_kind": "literature_entry",
+        "locator": {
+          "evidence_id": "OS10",
+          "kind": "markdown_table_row",
+          "line": 450
+        },
+        "project_relative_path": "../01_Encoding研究报告.md",
+        "source_id": "R01",
+        "workspace_relative_path": "01_Encoding研究报告.md"
+      },
+      {
+        "declared_revision": "2.0",
+        "identity_kind": "literature_entry",
+        "locator": {
+          "evidence_id": "OS12",
+          "kind": "markdown_table_row",
+          "line": 452
+        },
+        "project_relative_path": "../01_Encoding研究报告.md",
+        "source_id": "R01",
+        "workspace_relative_path": "01_Encoding研究报告.md"
+      },
+      {
+        "declared_revision": "2.0",
+        "identity_kind": "card",
+        "locator": {
+          "end_line": 567,
+          "heading": "### X02 约束补全与支架撤除",
+          "kind": "markdown_heading",
+          "start_line": 557
+        },
+        "project_relative_path": "../02_Encoding微操作与提问库.md",
+        "source_id": "R02",
+        "workspace_relative_path": "02_Encoding微操作与提问库.md"
+      },
+      {
+        "declared_revision": "2.0",
+        "identity_kind": "card",
+        "locator": {
+          "kind": "json_pointer",
+          "pointer": "/operations/51",
+          "select_field": "id",
+          "select_value": "X02"
+        },
+        "project_relative_path": "../04_Encoding策略库.json",
+        "source_id": "R03",
+        "workspace_relative_path": "04_Encoding策略库.json"
+      },
+      {
+        "declared_revision": "2.0",
+        "identity_kind": "literature_entry",
+        "locator": {
+          "evidence_id": "RR06",
+          "kind": "markdown_table_row",
+          "line": 507
+        },
+        "project_relative_path": "../01_Encoding研究报告.md",
+        "source_id": "R01",
+        "workspace_relative_path": "01_Encoding研究报告.md"
+      }
+    ],
+    "resource_revision": "pl-strategies/0.1.0",
+    "selected_parts": [
+      {
+        "resource_key": "encoding/S07",
+        "resource_revision": "pl-strategies/0.1.0",
+        "borrowed_parts": [
+          "Preserve learner reasoning and conditional support"
+        ],
+        "omitted_parts": [
+          "Training beyond the current goal"
+        ],
+        "non_equivalence": "Supported work does not establish unsupported independent work"
+      },
+      {
+        "resource_key": "encoding/X02",
+        "resource_revision": "pl-strategies/0.1.0",
+        "borrowed_parts": [
+          "Preserve learner reasoning and conditional support"
+        ],
+        "omitted_parts": [
+          "Training beyond the current goal"
+        ],
+        "non_equivalence": "Supported work does not establish unsupported independent work"
+      }
+    ],
+    "prerequisites": [
+      {
+        "condition": "Reliable given premises are available",
+        "check": {
+          "status": "known",
+          "value": true
+        }
+      }
+    ],
+    "exclusions": [
+      {
+        "condition": "No reliable correction can be delivered",
+        "check": {
+          "status": "known",
+          "value": false
+        }
+      }
+    ],
+    "required_learner_operations": [
+      "connect-P-to-Q"
+    ],
+    "help_and_feedback_constraints": {
+      "feedback": {
+        "status": "known",
+        "value": true
+      },
+      "allowed_resources": [
+        "题面给定前提"
+      ],
+      "provided_operations": [],
+      "exposure": {
+        "status": "unknown",
+        "reason": "Artificial fixture; condition not observed."
+      },
+      "contact_history": {
+        "status": "unknown",
+        "reason": "Artificial fixture; condition not observed."
+      },
+      "time_condition": {
+        "status": "unknown",
+        "reason": "Artificial fixture; condition not observed."
+      }
+    },
+    "adjustable_parts": [
+      "Change presentation while preserving the required connection"
+    ],
+    "combination_and_non_equivalence": {
+      "rationale": "The two sources address one local connection",
+      "interference_check": {
+        "status": "known",
+        "value": true
+      },
+      "single_performance": true,
+      "alternatives": []
+    },
+    "cost": {
+      "preparation": {
+        "status": "unknown",
+        "reason": "Artificial fixture; condition not observed."
+      },
+      "execution": {
+        "status": "unknown",
+        "reason": "Artificial fixture; condition not observed."
+      },
+      "feedback": {
+        "status": "unknown",
+        "reason": "Artificial fixture; condition not observed."
+      },
+      "verification": {
+        "status": "unknown",
+        "reason": "Artificial fixture; condition not observed."
+      },
+      "closure": {
+        "status": "unknown",
+        "reason": "Artificial fixture; condition not observed."
+      },
+      "budget_fit": {
+        "status": "known",
+        "value": true
+      }
+    },
+    "interruptibility": {
+      "status": "known",
+      "value": "Retain the same parent artifact and return point"
+    },
+    "stop_or_return_conditions": [
+      "Return when the local connection is sufficient; stop at the authorized budget"
+    ],
+    "evidence_limits": {
+      "resource_limits": {
+        "encoding/S07": [
+          "研究组件、学科内容正确性、任务与帮助条件、真实学习收益分别核验。",
+          "目标所需独立、整体、迁移与时间条件不由方法名称或卡片验收代替。",
+          "未知接触保持未知；隐藏答案、更换措辞或执行者不能重置暴露历史。",
+          "索引命中与本地资源正文核对不证明当前任务已可执行。",
+          "完整两载体正文保留；链接目标差异不构成第二份证据，未来实质冲突先限制相关用途。",
+          "原文H针对教学设计与收益外推，不把可核验数学定义/合法推导降为猜测。",
+          "S07主要处理步骤补全和搜索负担；理由链独立性借X02；重合只做一次。"
+        ],
+        "encoding/X02": [
+          "研究组件、学科内容正确性、任务与帮助条件、真实学习收益分别核验。",
+          "目标所需独立、整体、迁移与时间条件不由方法名称或卡片验收代替。",
+          "未知接触保持未知；隐藏答案、更换措辞或执行者不能重置暴露历史。",
+          "索引命中与本地资源正文核对不证明当前任务已可执行。",
+          "完整两载体正文保留；链接目标差异不构成第二份证据，未来实质冲突先限制相关用途。",
+          "原文H针对教学设计与收益外推，不把可核验数学定义/合法推导降为猜测。",
+          "X02关注理由链重建与解释独立性；S07关注步骤执行/搜索；共享补全不能重复计证。"
+        ]
+      },
+      "config_limits": [
+        "Artificial declarations do not verify effects, content truth or real exposure"
+      ]
+    },
+    "original_claim_status": {
+      "encoding/S07": {
+        "per_template_experimentally_verified": false,
+        "status": "H：设计综合",
+        "template_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断"
+      },
+      "encoding/X02": {
+        "per_template_experimentally_verified": false,
+        "status": "H：设计综合",
+        "template_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断"
+      }
+    },
+    "local_adaptations": [],
+    "review_status": {
+      "status": "reviewed",
+      "reviewer": "AG1",
+      "binding": {
+        "synthetic_only": true,
+        "intended_work": "Complete the same local reasoning connection",
+        "goal_refs": [
+          {
+            "id": "FIX-goal",
+            "revision": 1
+          }
+        ],
+        "activity_ref": {
+          "id": "FIX-activity",
+          "revision": 1
+        },
+        "material_refs": [
+          {
+            "id": "FIX-material",
+            "revision": 1
+          }
+        ],
+        "purpose": "teaching",
+        "conditions": [
+          "Artificial given premises; learner supplies the connection"
+        ],
+        "allowed_resources": [
+          "题面给定前提"
+        ],
+        "budget_ref": {
+          "id": "FIX-budget",
+          "revision": 1
+        },
+        "requires_time_condition": false,
+        "material_context": {
+          "goal_refs": [
+            {
+              "id": "FIX-goal",
+              "revision": 1
+            }
+          ],
+          "activity_ref": {
+            "id": "FIX-activity",
+            "revision": 1
+          },
+          "intended_use": "independent_check",
+          "purpose": "independent",
+          "required_modalities": [
+            "text",
+            "formula"
+          ],
+          "conditions": [
+            "人工虚构给定前提",
+            "初答前不给连接理由"
+          ]
+        }
+      }
+    },
+    "reuse_limits": [
+      "Recheck changed goal, material, help, source version and authorized resources"
+    ],
+    "previous_config": null,
+    "resource_checks": {
+      "encoding/S07": {
+        "goal_work_defined": {
+          "status": "known",
+          "value": true
+        },
+        "materials_reliable": {
+          "status": "known",
+          "value": true
+        },
+        "feedback_available": {
+          "status": "known",
+          "value": true
+        },
+        "learner_operation_preserved": {
+          "status": "known",
+          "value": true
+        },
+        "unaided_observation_preserved": {
+          "status": "known",
+          "value": true
+        },
+        "example_context_available": {
+          "status": "known",
+          "value": true
+        },
+        "key_step_identified": {
+          "status": "known",
+          "value": true
+        }
+      },
+      "encoding/X02": {
+        "goal_work_defined": {
+          "status": "known",
+          "value": true
+        },
+        "materials_reliable": {
+          "status": "known",
+          "value": true
+        },
+        "feedback_available": {
+          "status": "known",
+          "value": true
+        },
+        "learner_operation_preserved": {
+          "status": "known",
+          "value": true
+        },
+        "unaided_observation_preserved": {
+          "status": "known",
+          "value": true
+        },
+        "standard_reasoning_available": {
+          "status": "known",
+          "value": true
+        },
+        "prerequisites_available": {
+          "status": "known",
+          "value": true
+        },
+        "visible_clues_recorded": {
+          "status": "known",
+          "value": true
+        }
+      }
+    },
+    "adoption": {
+      "status": "adopted",
+      "by": "AG1",
+      "scope": "Artificial local configuration",
+      "basis_refs": [
+        {
+          "id": "FIX-b3c-work",
+          "revision": 1
+        }
+      ],
+      "limitations": [
+        "Fixture actor, not authenticated host"
+      ],
+      "time": {
+        "status": "not_executed",
+        "reason": "Artificial fixture; condition not observed."
+      }
+    }
+  },
+  "context": {
+    "synthetic_only": true,
+    "intended_work": "Complete the same local reasoning connection",
+    "goal_refs": [
+      {
+        "id": "FIX-goal",
+        "revision": 1
+      }
+    ],
+    "activity_ref": {
+      "id": "FIX-activity",
+      "revision": 1
+    },
+    "material_refs": [
+      {
+        "id": "FIX-material",
+        "revision": 1
+      }
+    ],
+    "purpose": "teaching",
+    "conditions": [
+      "Artificial given premises; learner supplies the connection"
+    ],
+    "allowed_resources": [
+      "题面给定前提"
+    ],
+    "budget_ref": {
+      "id": "FIX-budget",
+      "revision": 1
+    },
+    "requires_time_condition": false,
+    "selection_needed": true,
+    "existing_activity_reliable": {
+      "status": "known",
+      "value": true
+    },
+    "material_context": {
+      "goal_refs": [
+        {
+          "id": "FIX-goal",
+          "revision": 1
+        }
+      ],
+      "activity_ref": {
+        "id": "FIX-activity",
+        "revision": 1
+      },
+      "intended_use": "independent_check",
+      "purpose": "independent",
+      "required_modalities": [
+        "text",
+        "formula"
+      ],
+      "conditions": [
+        "人工虚构给定前提",
+        "初答前不给连接理由"
+      ]
+    }
+  }
+}

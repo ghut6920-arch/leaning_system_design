@@ -1,0 +1,88 @@
+{
+  "status": "maintenance_scope_complete",
+  "execution_date_in_user_context": "2026-10-05",
+  "summary_generated_at_utc": "2026-10-05T05:33:23.683405+00:00",
+  "executor": "current Codex root model; Python artifact executors",
+  "checker": "same root model with design background; automated public/software checks",
+  "forward_review": {
+    "fictional_cases": 16,
+    "actual_outputs_generated": true,
+    "hypothetical_learner_revisions_generated": false,
+    "independent_agent_execution": "not_executed_no_authorization",
+    "same_model_design_background": true,
+    "semantic_review": "content-review.md",
+    "failures_and_replays": "failure-replays.md"
+  },
+  "checks": {
+    "b0": "pass",
+    "b7_all": "passed",
+    "integrity": "pass",
+    "learner_files_unchanged": "pass",
+    "finite_content": "pass",
+    "b10_software_index": "indexed",
+    "changed_skill_format": "pass"
+  },
+  "b0_static_cases": 32,
+  "b7_tests": 483,
+  "b7_failures": 0,
+  "b7_errors": 0,
+  "b7_skipped": 0,
+  "b7_host_versions": {
+    "python": "3.12.3",
+    "python_implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "sqlite": "3.46.1"
+  },
+  "b10_software_slices": 12,
+  "full_b10_scenarios": "not_executed",
+  "local_content_anchors": "content-probe-result.json; content-review.md; actual image inspection",
+  "publication_integrity": {
+    "status": "pass",
+    "active_instruction_files": 41,
+    "public_assets": 2,
+    "framework_entries": 44,
+    "documents_checked": 64,
+    "local_links_checked": 577,
+    "broken_links": [],
+    "links_outside_project": [],
+    "manifest_errors": [],
+    "frozen_sources_checked": 19,
+    "frozen_source_errors": [],
+    "protected_public_files_checked": 203,
+    "protected_public_files_changed": [],
+    "existing_public_files_changed": 10,
+    "private_learner_files_read_or_hashed_by_this_probe": false,
+    "scope": "Current whole-project public relative layout and exact manifest; not standalone installation.",
+    "limitations": [
+      "No behavior/learning-efficacy assertion.",
+      "Frozen original research excerpts may retain historical absolute source paths; registry provides current project-relative lookup.",
+      "No private originals, state, learner code or experiments are scanned."
+    ]
+  },
+  "learner_file_guard": {
+    "unchanged": true,
+    "guarded_files": 79,
+    "changed_count": 0,
+    "private_contents_paths_or_digests_saved": false,
+    "excluded_public_protocols": [
+      "FRAMEWORK.md",
+      "framework-manifest.json"
+    ]
+  },
+  "real_validation": {
+    "V1": "real_pilot_not_executed; limited_public_content_checked",
+    "V2": "real_pilot_not_executed; fictional_same_model_outputs_only",
+    "V3": "not_executed",
+    "V4": "not_executed"
+  },
+  "real_runtime_enabled": false,
+  "native_skill_installation": false,
+  "cost_and_learning_gain_measurement": "not_executed",
+  "report_metadata_note": "Original B0/B7 scripts retain historical date/checker constants; they are not the current execution date or independent reviewer attribution.",
+  "limits": [
+    "No claim of real learning efficacy, causal benefit or universal model capability.",
+    "No standalone skill package or authenticated/isolated multi-model teaching runtime was published.",
+    "Private file bytes hashed only inside resident guard; no private contents/path list/hashes persisted or shown to the model.",
+    "Framework repair did not start a real course or change personal learning records."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "instruction_files": 41,
+  "public_assets": 2,
+  "manifest_entries": 44,
+  "public_documents_checked": 81,
+  "local_links_checked": 622,
+  "broken_links": [],
+  "manifest_errors": [],
+  "frozen_sources_checked": 19,
+  "frozen_source_errors": [],
+  "protected_public_files": 485,
+  "protected_public_changes": [],
+  "changed_existing_public_files": 8,
+  "private_records_read_or_hashed_by_this_probe": false,
+  "limits": [
+    "Public layout/fingerprints only; not pedagogy, learning efficacy or native deployment."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "synthetic_only": true,
+  "action": "open",
+  "activity_ref": {
+    "id": "FIX-activity",
+    "revision": 1
+  },
+  "context": {
+    "goal_refs": [
+      {
+        "id": "FIX-goal",
+        "revision": 1
+      }
+    ],
+    "activity_ref": {
+      "id": "FIX-activity",
+      "revision": 1
+    },
+    "intended_use": "independent_check",
+    "purpose": "independent",
+    "required_modalities": [
+      "text",
+      "formula"
+    ],
+    "conditions": [
+      "人工虚构给定前提",
+      "初答前不给连接理由"
+    ]
+  },
+  "authorization_refs": [
+    {
+      "id": "FIX-b3b-teaching-grant",
+      "revision": 1
+    }
+  ]
+}

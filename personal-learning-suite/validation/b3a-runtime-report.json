@@ -1,0 +1,251 @@
+{
+  "batch": "B3a",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "versions": {
+    "shared": "pl-contracts/0.1.0",
+    "store": "pl-store/0.1.0",
+    "assessment": "pl-assessment/0.1.0"
+  },
+  "executor": "scripts/check_b3a.py; Python unittest",
+  "checker": "Independent B3a test author; root added audit regressions and reviewed observed outcomes",
+  "status": "passed",
+  "synthetic_only": true,
+  "tests_run": 54,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_ag0_cannot_hide_important_use_counterevidence_or_grant_signal",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_assessment_submit_cannot_create_other_professional_or_execution_objects",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_assisted_revision_can_support_only_assisted_scope_and_same_sample",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_authority_checks_subject_decision_object_criterion_conclusion_validity_and_budget",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_cli_inspect_and_diagnose_are_read_only_and_use_real_stored_records",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_conflicting_prior_judgment_requires_original_review_not_arrival_order",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_controls_precede_inspection_and_success_receipt_and_resume_cannot_restore",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_demo_new_space_saves_once_then_existing_space_is_read_only",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_diagnostic_context_and_budget_and_observations_are_explicit",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_diagnostic_is_tentative_read_only_and_does_not_add_observation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_diagnostic_requires_alternatives_counterevidence_distinct_actions_and_stop_conditions",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_diagnostic_submit_uses_same_store_gate_without_scheduling",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_duplicate_event_reference_does_not_inflate_samples",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_elapsed_time_uses_last_relevant_contact_and_strict_no_contact_only_when_required",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_explicit_initial_finding_is_read_only_and_uses_one_sample",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_help_after_initial_response_does_not_contaminate_initial_point",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_important_review_requires_ag3_and_its_professional_grant",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_invalid_grant_is_rejected_before_loading_performance_or_context",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_known_empty_diagnostic_counterevidence_is_not_invented",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_late_deleted_result_cannot_reintroduce_payload_or_original",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_limited_result_cannot_save_usable_or_unrestricted_supported_claim",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_limited_unknown_pending_review_can_save_without_inventing_new_test",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_material_content_and_use_and_exact_binding_remain_separate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_missing_completeness_is_unknown_independence_not_zero_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_missing_explicit_professional_rationale_is_not_invented",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_missing_original_line_segment_locator_does_not_prove_reading",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_only_substituted_operation_is_limited_and_axis_aggregates_mixed",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_operation_findings_must_exactly_cover_requirement",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_pause_blocks_assessment_but_canonical_read_is_still_allowed",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_planned_requested_and_backend_help_are_not_actual_exposure",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_professional_findings_are_not_generated_by_content_guessing",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_recursive_old_material_after_error_revision_is_not_usable",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_required_no_contact_has_its_own_evidence_axis",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_response_point_missing_duplicate_or_nonresponse_sequence_is_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_review_resolution_must_cover_conflicting_reference",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_review_triggers_are_explicit_and_ag0_cannot_promote_its_own_review",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_same_id_revision_cannot_overwrite_conflicting_adopted_judgment",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_same_operation_same_bytes_is_idempotent_changed_bytes_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_stale_state_and_stale_event_basis_are_rejected_without_writing",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_submit_persists_after_reopen_preserves_events_originals_and_plan_without_adopting",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_submit_requires_explicit_authority_adoption_and_per_object_context",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_task_must_call_target_operation_and_fit_prerequisites_and_reference",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_teaching_material_binding_cannot_be_used_as_independent_material",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_temporal_gap_preserves_current_positive_operation_observation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_time_not_required_does_not_generate_missing_delay_evidence",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_top_level_support_cannot_disagree_with_operation_aggregation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_transaction_failure_has_no_partial_judgment_or_receipt_after_reopen",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_two_distinct_events_retain_two_independent_sample_ids",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unknown_display_limits_target_operation_without_asserting_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unknown_exposure_on_other_operation_does_not_blanket_contaminate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unknown_exposure_with_no_operation_scope_keeps_all_tested_operations_unknown",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unknown_last_contact_is_not_inferred_from_current_calendar",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_without_line_segment_reference_check_does_not_copy_original_body",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_zero_budget_or_stop_signal_does_not_request_more_observation",
+      "status": "passed"
+    }
+  ],
+  "raw_output_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\validation\\b3a-runtime-output.txt",
+  "host_versions": {
+    "python": "3.12.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "sqlite": "3.46.1"
+  },
+  "limitations": [
+    "Artificial fixtures in isolated temporary directories; no actual learner, course, diagnosis, or teaching exposure.",
+    "Operation support findings are professional input declarations; this code does not grade arbitrary answers or establish their truth.",
+    "Timeline completeness, task qualification, material validity, and active authorization are fixture declarations rather than host attestations.",
+    "AG0 and AG3 entry actors are fixture configuration; no real identity binding, child delegation, clock expiration, or output interception is tested.",
+    "Delay checks use supplied event/contact facts; no scheduler, automatic observation, new test, need, or plan is created.",
+    "Deletion controls the store; request files, stdout, reports, caller memory, external histories, and backups remain outside that deletion scope.",
+    "This finite B3a slice does not establish complete B10 cases, V1—V4 outcomes, or learning efficacy."
+  ]
+}

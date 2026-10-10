@@ -1,0 +1,237 @@
+{
+  "batch": "B4-planning",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "workspace": "E:\\文献资料\\学习系统架构设计\\B4_虚构计划学习空间",
+  "existing_workspace": true,
+  "receipts": [],
+  "state_revision": 3,
+  "commitment_ref": {
+    "id": "FIX-b4-plan",
+    "revision": 2
+  },
+  "needs": {
+    "FIX-need": {
+      "ref": {
+        "id": "FIX-need",
+        "revision": 3
+      },
+      "disposition": {
+        "commitment_refs": [
+          {
+            "id": "FIX-b4-plan",
+            "revision": 2
+          }
+        ],
+        "reason": "当前有效目标需要有限条件连接；本次不增加整章工作",
+        "status": "partially_scheduled"
+      },
+      "uncovered_impact": "安排并非独立掌握；父任务整体仍未支持"
+    },
+    "FIX-b4-duplicate": {
+      "ref": {
+        "id": "FIX-b4-duplicate",
+        "revision": 2
+      },
+      "disposition": {
+        "commitment_refs": [],
+        "merge_target_ref": {
+          "id": "FIX-need",
+          "revision": 2
+        },
+        "reason": "当前有效目标需要有限条件连接；本次不增加整章工作",
+        "requirement_mapping": {
+          "infer-Q": [
+            "infer-Q"
+          ]
+        },
+        "status": "merged"
+      },
+      "uncovered_impact": "安排并非独立掌握；父任务整体仍未支持"
+    }
+  },
+  "resume": {
+    "status": "ready",
+    "synthetic_only": true,
+    "mutated": false,
+    "reasons": [],
+    "judgment_created": false,
+    "new_test_created": false,
+    "automatic_reminder": false,
+    "state_revision": 3,
+    "commitment_ref": {
+      "id": "FIX-b4-plan",
+      "revision": 2
+    },
+    "allocations": [
+      {
+        "active_minutes": 3.0,
+        "activity_ref": {
+          "id": "FIX-activity",
+          "revision": 1
+        },
+        "cost": {
+          "blocked_wait": {
+            "reason": "材料已准备，无额外等待",
+            "status": "not_required"
+          },
+          "fees": {
+            "reason": "本例不承诺收费操作",
+            "status": "not_required"
+          },
+          "system_effort": {
+            "reason": "本例不承诺额外后台准备",
+            "status": "not_required"
+          },
+          "user_active": {
+            "closure_switch": {
+              "status": "known",
+              "value": {
+                "basis": "bounded_trial",
+                "minutes": 0.6000000000000001,
+                "source": "人工教学方确认的有限可收束方案"
+              }
+            },
+            "context_recovery": {
+              "status": "known",
+              "value": {
+                "basis": "bounded_trial",
+                "minutes": 0.30000000000000004,
+                "source": "人工教学方确认的有限可收束方案"
+              }
+            },
+            "feedback_check": {
+              "status": "known",
+              "value": {
+                "basis": "bounded_trial",
+                "minutes": 0.6000000000000001,
+                "source": "人工教学方确认的有限可收束方案"
+              }
+            },
+            "learning": {
+              "status": "known",
+              "value": {
+                "basis": "bounded_trial",
+                "minutes": 1.2000000000000002,
+                "source": "人工教学方确认的有限可收束方案"
+              }
+            },
+            "maintenance_correction": {
+              "status": "known",
+              "value": {
+                "basis": "bounded_trial",
+                "minutes": 0,
+                "source": "人工教学方确认的有限可收束方案"
+              }
+            },
+            "preparation_verification": {
+              "status": "known",
+              "value": {
+                "basis": "bounded_trial",
+                "minutes": 0.30000000000000004,
+                "source": "人工教学方确认的有限可收束方案"
+              }
+            }
+          }
+        },
+        "material_context": {
+          "activity_ref": {
+            "id": "FIX-activity",
+            "revision": 1
+          },
+          "conditions": [
+            "人工虚构给定前提",
+            "初答前不给连接理由"
+          ],
+          "goal_refs": [
+            {
+              "id": "FIX-goal",
+              "revision": 1
+            }
+          ],
+          "intended_use": "independent_check",
+          "purpose": "independent",
+          "required_modalities": [
+            "text",
+            "formula"
+          ]
+        },
+        "need_ref": {
+          "id": "FIX-need",
+          "revision": 3
+        },
+        "operations": [
+          "connect-P-to-Q"
+        ],
+        "readiness": {
+          "feasible_stop": {
+            "status": "known",
+            "value": true
+          },
+          "necessary_conditions": {
+            "status": "known",
+            "value": true
+          },
+          "scope_confirmed": {
+            "status": "known",
+            "value": true
+          }
+        },
+        "requirement_ids": [
+          "infer-Q"
+        ],
+        "scope": "有限推进条件连接并反馈、收束到同一父产物",
+        "strategy_context": null
+      }
+    ],
+    "recovery": {
+      "checkpoint_ref": {
+        "id": "FIX-checkpoint",
+        "revision": 1
+      },
+      "parent_artifact": {
+        "locator": "虚构父产物",
+        "origin": "synthetic_fixture",
+        "path": "originals.md",
+        "revision": 1
+      },
+      "last_trusted_event_ref": {
+        "id": "FIX-event",
+        "revision": 1
+      },
+      "help_history_refs": [
+        {
+          "id": "FIX-event",
+          "revision": 1
+        }
+      ],
+      "next_connection": "局部修订可连接回同一父产物，实际返回和整体完成尚未执行",
+      "unrecorded_actions": {
+        "reason": "不从摘要推断额外动作",
+        "status": "unknown"
+      }
+    },
+    "budget_ref": {
+      "id": "FIX-budget",
+      "revision": 1
+    },
+    "replanned": false,
+    "new_required_checks": 0
+  },
+  "integrity": {
+    "status": "ok",
+    "state_revision": 3,
+    "reasons": [],
+    "issues": [],
+    "synthetic_only": true,
+    "object_revision_count": 37,
+    "artifact_count": 3
+  },
+  "reopen_read_only": true,
+  "limitations": [
+    "Artificial decisions, grants, costs and evidence only; not an actual learner schedule.",
+    "No reminder, automatic priority choice, semantic grading or host binding.",
+    "Existing stores are not reimported; external report copies are beyond store deletion scope."
+  ]
+}

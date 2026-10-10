@@ -1,0 +1,14 @@
+test_legacy_checkpoint_consumption_is_a_bound_without_rewriting_originals (test_b3b_teaching.B3bTeachingTests.test_legacy_checkpoint_consumption_is_a_bound_without_rewriting_originals) ... FAIL
+
+======================================================================
+FAIL: test_legacy_checkpoint_consumption_is_a_bound_without_rewriting_originals (test_b3b_teaching.B3bTeachingTests.test_legacy_checkpoint_consumption_is_a_bound_without_rewriting_originals)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\文献资料\学习系统架构设计\personal-learning-suite\tests\test_b3b_teaching.py", line 773, in test_legacy_checkpoint_consumption_is_a_bound_without_rewriting_originals
+    self.assertEqual(recovered["recovery"]["declared_active_minutes"]["value"]["minutes"], 5)
+AssertionError: 1 != 5
+
+----------------------------------------------------------------------
+Ran 1 test in 0.219s
+
+FAILED (failures=1)

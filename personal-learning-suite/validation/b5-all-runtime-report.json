@@ -1,0 +1,1581 @@
+{
+  "batch": "B5",
+  "scope": "all",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "versions": {
+    "shared": "pl-contracts/0.1.0",
+    "store": "pl-store/0.1.0",
+    "entry": "pl-entry/0.1.0"
+  },
+  "executor": "scripts/check_b5.py; Python unittest",
+  "checker": "Independent B5 integration test author; root reviews actual results",
+  "host_versions": {
+    "python": "3.12.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "sqlite": "3.46.1"
+  },
+  "status": "passed",
+  "tests_run": 387,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_ag0_cannot_turn_routine_grant_into_professional_review",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_ag0_cannot_write_goal_owned_by_ag1",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_authorized_routine_judgment_can_persist_without_expanding_conclusion",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_candidate_is_not_adopted_basis",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_delete_cleans_histories_originals_summary_candidate_validation_and_keeps_unrelated",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_entry_paused_activity_remains_readable_and_blocked",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_entry_routes_unimplemented_capabilities_as_candidates",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_entry_start_does_not_claim_teaching_ready",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_entry_without_summary_recovers_same_parent_and_unknown_actions",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_export_originals_vs_summary_expresses_review_limit",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_failed_delete_keeps_durable_gate_after_restart_until_cleanup",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_failure_after_sql_write_rolls_back_objects_artifacts_and_receipt",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_fixture_actor_is_reported_as_test_configuration",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_grant_does_not_cover_new_event_scope",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_init_fixture_bootstrap_cannot_overwrite_live_state",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_integrity_checks_after_persisted_state",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_late_deleted_payload_is_rejected_before_payload_can_land",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_missing_artifact_and_unknown_reference_do_not_save",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_original_artifact_cannot_be_overwritten_in_place",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_path_traversal_and_absolute_artifact_paths_are_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_pause_immediately_blocks_related_commit_but_allows_read",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_pause_keeps_confirmed_independent_scope_writable",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_recovery_absent_help_record_keeps_unrecorded_help_unknown",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_recovery_retains_exact_trusted_historical_revision",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_recovery_unknown_budget_is_not_zero",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_resume_preserves_professional_use_restriction",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_same_operation_different_payload_is_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_same_operation_same_payload_is_idempotent",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_save_destroy_store_and_reopen_preserves_originals_and_objects",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_state_revision_cas_rejects_stale_commit_without_write",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_synthetic_only_rejects_real_fixture",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_two_concurrent_connections_get_one_cas_winner",
+      "status": "passed"
+    },
+    {
+      "case": "test_b1_runtime.B1RuntimeTests.test_unreferenced_artifact_cannot_bypass_scope_ownership",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_aggregate_explanation_source_does_not_block_implementation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_background_dependency_does_not_become_a_gate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_cli_only_emits_preview_without_creating_records",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_complete_candidate_has_separate_implementation_and_explanation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_current_unknown_keeps_other_reliable_requirement",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_distinct_read_and_verification_scopes_with_text_conditions_remain_candidate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_dual_sources_missing_only_blocks_affected_requirement",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_false_adoption_cannot_be_announced",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_far_future_unknown_does_not_block_current_reliable_subscope",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_known_null_is_invalid_instead_of_known_information",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_malformed_unresolved_integer_is_invalid_without_crashing",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_malformed_verification_lists_do_not_crash_or_claim_reliability",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_missing_current_content_reference_is_pending_not_verification",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_missing_observable_evidence_stays_unresolved",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_no_delay_requirement_is_not_a_gap",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_only_course_map_preserves_topics_without_inventing_criteria",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_opened_source_with_unknown_verification_is_not_reliable",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_prerequisite_unknown_is_not_learner_failure",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_real_source_identity_is_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_single_failure_does_not_establish_necessary_prerequisite",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_synthetic_protocol_and_shape_are_enforced",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_unknown_fact_cannot_carry_guessed_value",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_unknown_help_is_not_zero_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aCandidateTests.test_unknown_requirement_scope_is_rejected_or_conservatively_limited",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aStoreSeamTests.test_ag0_cannot_commit_ag1_goal_despite_preview_complete",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aStoreSeamTests.test_manually_adopted_goal_round_trips_exact_and_old_revision_stays",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aStoreSeamTests.test_paused_source_rejects_candidate_commit",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aStoreSeamTests.test_preview_success_without_explicit_authorization_cannot_write",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aStoreSeamTests.test_restricted_source_rejects_candidate_commit",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_budget_convenience_cannot_change_goal",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_changed_criterion_requires_increased_content_revision",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_corrective_notice_proposes_restrictions_but_never_claims_executed",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_exact_reuse_keeps_revision_but_does_not_copy_judgment",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_final_purpose_change_remains_pending_authorization",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_locator_equivalence_requires_rationale_and_mapping",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_malformed_mapping_does_not_crash_or_transfer",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_missing_mapping_prevents_equivalence_or_automatic_split_transfer",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_operations_resources_scope_and_formal_time_change_are_recheck",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_revised_candidate_carries_current_compatibility_without_mutating_input",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_revision_cannot_jump_or_decrease",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_session_budget_reduction_leaves_exact_goal_and_routes_plan",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2a_goals.B2aVersionTests.test_swapping_requirement_mapping_cannot_preserve_equivalence",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_annotated_title_layout_and_body_cannot_supply_independent_target_operation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_backup_help_and_teacher_reference_are_potential_help_not_actual_exposure",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_binding_checks_activity_conditions_goals_modalities_and_purpose",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_content_and_use_reviews_must_match_current_material_revision",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_controlled_read_returns_only_selected_lines_and_no_semantic_upgrade",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_domain_packets_have_distinct_required_checks_and_no_truth_certificate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_each_math_domain_check_is_required_and_unknown_cannot_be_supported",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_every_modality_must_be_explicit_even_when_not_required",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_explicit_modalities_and_complete_math_declarations_form_compatible_packet",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_late_submission_after_delete_cannot_reintroduce_objects_or_artifacts",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_material_restriction_beats_success_receipt_and_user_resume_does_not_restore",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_math_reference_anchor_must_exist_be_usable_and_cover_a_real_segment",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_missing_unread_scope_and_unspecified_required_modalities_are_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_partition_entries_need_content_channel_and_provided_operation_annotation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_read_honors_current_restriction_pause_and_delete_controls",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_read_real_identity_is_rejected_before_extraction",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_read_rejects_bad_ranges_external_paths_and_locator_outside_segment",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_real_cli_change_restrict_commits_gate_before_read_only_recovery_trace",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_source_fragment_cannot_bypass_professional_grant_via_read_only_origin",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_submission_is_persistent_after_reopen_and_preserves_original_event_and_plan",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_submission_same_operation_and_bytes_is_idempotent_but_changed_bytes_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_submit_permission_and_work_order_acceptance_are_not_inferred",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_submit_rejects_stale_state_and_stale_source_basis_without_writing",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_submit_uses_explicit_authority_and_adoption_and_ag2_actor",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_supported_text_with_pending_correctness_or_use_does_not_pass",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_teaching_example_requires_a_fresh_exact_binding_for_independent_check",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_trace_after_restriction_preserves_all_originals_and_plan_and_keeps_gate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_two_source_chains_trace_separately_and_four_recoveries_stay_pending",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_unknown_semantic_dependencies_and_sufficient_original_do_not_create_extra_work",
+      "status": "passed"
+    },
+    {
+      "case": "test_b2b_materials.B2bMaterialTests.test_unread_required_formula_or_figure_limits_and_unknown_nonrequired_is_preserved",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3_interop.B3DeclarationTests.test_legacy_boolean_qualification_is_read_only_and_conflicts_do_not_disappear",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3_interop.B3DeclarationTests.test_timestamps_share_one_explicit_timezone_representation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3_interop.B3InteropTests.test_adopted_configuration_teaching_evidence_and_judgment_share_one_store",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3_interop.B3InteropTests.test_candidate_method_cannot_be_used_by_teaching",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3_interop.B3InteropTests.test_configuration_requires_exact_material_binding_not_only_supported_labels",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3_interop.B3InteropTests.test_empty_report_does_not_claim_complete_exposure",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3_interop.B3InteropTests.test_later_config_dependencies_do_not_change_old_exact_evidence",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3_interop.B3InteropTests.test_modern_inactive_grant_cannot_adopt_method_through_store",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3_interop.B3InteropTests.test_parent_help_retained_by_teaching_limits_child_independent_evidence",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3_interop.B3InteropTests.test_same_event_initial_and_helped_revision_keep_distinct_support",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3_interop.B3InteropTests.test_strategy_restriction_blocks_new_execution_but_preserves_assessment_history",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_ag0_cannot_hide_important_use_counterevidence_or_grant_signal",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_assessment_submit_cannot_create_other_professional_or_execution_objects",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_assisted_revision_can_support_only_assisted_scope_and_same_sample",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_assisted_teaching_material_has_explicit_distinct_use_context",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_authority_checks_subject_decision_object_criterion_conclusion_validity_and_budget",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_cli_inspect_and_diagnose_are_read_only_and_use_real_stored_records",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_conflicting_parallel_task_declarations_are_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_conflicting_prior_judgment_requires_original_review_not_arrival_order",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_controls_precede_inspection_and_success_receipt_and_resume_cannot_restore",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_delay_can_pass_after_sufficient_gap_from_prior_practice",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_demo_new_space_saves_once_then_existing_space_is_read_only",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_diagnostic_context_and_budget_and_observations_are_explicit",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_diagnostic_is_tentative_read_only_and_does_not_add_observation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_diagnostic_requires_alternatives_counterevidence_distinct_actions_and_stop_conditions",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_diagnostic_submit_uses_same_store_gate_without_scheduling",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_displayed_contact_cannot_be_erased_by_declared_no_contact",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_duplicate_event_reference_does_not_inflate_samples",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_elapsed_time_uses_last_relevant_contact_and_strict_no_contact_only_when_required",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_exact_parent_help_is_retained_without_adding_response_samples",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_explicit_initial_finding_is_read_only_and_uses_one_sample",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_explicit_legacy_teaching_qualification_is_read_without_rewriting",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_help_after_initial_response_does_not_contaminate_initial_point",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_help_summary_without_exact_ancestor_is_not_a_help_fact",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_important_review_requires_ag3_and_its_professional_grant",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_incomplete_ancestor_history_is_not_treated_as_zero_exposure",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_independent_actual_resource_must_be_in_exact_goal_scope",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_inherited_cycle_is_rejected_without_recursion_or_sample_inflation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_invalid_grant_is_rejected_before_loading_performance_or_context",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_known_allowed_resource_fact_matches_list_shape_without_inference",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_known_empty_diagnostic_counterevidence_is_not_invented",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_known_empty_resource_scope_is_distinct_from_unknown",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_known_timestamp_object_is_accepted_by_assessment",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_late_deleted_result_cannot_reintroduce_payload_or_original",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_latest_displayed_help_restarts_required_delay",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_limited_result_cannot_save_usable_or_unrestricted_supported_claim",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_limited_unknown_pending_review_can_save_without_inventing_new_test",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_material_content_and_use_and_exact_binding_remain_separate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_material_context_requires_every_exact_b2b_binding_field",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_missing_completeness_is_unknown_independence_not_zero_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_missing_explicit_professional_rationale_is_not_invented",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_missing_original_line_segment_locator_does_not_prove_reading",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_only_substituted_operation_is_limited_and_axis_aggregates_mixed",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_operation_findings_must_exactly_cover_requirement",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_parent_displayed_contact_is_included_in_the_target_delay",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_parent_help_on_another_operation_does_not_blanket_limit_child",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_pause_blocks_assessment_but_canonical_read_is_still_allowed",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_planned_requested_and_backend_help_are_not_actual_exposure",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_prior_learner_practice_restarts_delay_without_teacher_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_prior_practice_on_other_operation_does_not_reset_target_delay",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_professional_findings_are_not_generated_by_content_guessing",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_recursive_ancestor_help_is_retained_and_duplicate_refs_do_not_count_twice",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_recursive_old_material_after_error_revision_is_not_usable",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_required_no_contact_has_its_own_evidence_axis",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_response_point_missing_duplicate_or_nonresponse_sequence_is_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_review_resolution_must_cover_conflicting_reference",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_review_triggers_are_explicit_and_ag0_cannot_promote_its_own_review",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_same_id_revision_cannot_overwrite_conflicting_adopted_judgment",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_same_operation_same_bytes_is_idempotent_changed_bytes_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_stale_state_and_stale_event_basis_are_rejected_without_writing",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_submit_persists_after_reopen_preserves_events_originals_and_plan_without_adopting",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_submit_requires_explicit_authority_adoption_and_per_object_context",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_task_must_call_target_operation_and_fit_prerequisites_and_reference",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_teaching_material_binding_cannot_be_used_as_independent_material",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_temporal_gap_preserves_current_positive_operation_observation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_time_not_required_does_not_generate_missing_delay_evidence",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_top_level_support_cannot_disagree_with_operation_aggregation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_transaction_failure_has_no_partial_judgment_or_receipt_after_reopen",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_two_distinct_events_retain_two_independent_sample_ids",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unknown_allowed_resources_limit_only_independent_claim",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unknown_display_limits_target_operation_without_asserting_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unknown_exposure_on_other_operation_does_not_blanket_contaminate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unknown_exposure_with_no_operation_scope_keeps_all_tested_operations_unknown",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unknown_last_contact_is_not_inferred_from_current_calendar",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unknown_parent_practice_time_limits_required_delay",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unknown_parent_visibility_limits_its_operation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unknown_prior_practice_time_is_not_filled_from_event_start",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unknown_relevant_help_time_prevents_delayed_claim",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unknown_revision_time_never_falls_back_to_original_time",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unknown_unrelated_parent_practice_does_not_reset_target_delay",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_unrelated_displayed_help_does_not_restart_target_delay",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_without_line_segment_reference_check_does_not_copy_original_body",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3a_assessment.B3aAssessmentTests.test_zero_budget_or_stop_signal_does_not_request_more_observation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_active_same_activity_cannot_create_second_initial_or_sample",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_budget_exhaustion_stops_before_creating_new_event",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_canonical_qualification_and_explicit_legacy_boolean_adapter",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_checkpoint_and_close_same_payload_retries_do_not_advance_state",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_cli_emits_valid_json_for_open_and_rejection_without_mutating",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_completeness_is_an_explicit_declaration_preserved_or_updated",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_conflicting_and_nonboolean_qualification_declarations_cannot_authorize_teaching",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_continuation_cannot_silently_replace_used_strategy_or_its_context",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_existing_sufficient_evidence_can_close_without_new_task_judgment_or_plan",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_explicit_authorization_and_ag0_actor_are_required",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_explicit_candidate_recheck_and_rejected_bases_cannot_start_execution",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_exposure_before_initial_and_help_after_initial_keep_distinct_sequences",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_extra_object_reference_revision_change_blocks_current_execution_not_historical_reads",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_failed_feedback_cas_returns_no_uncommitted_next_work_or_event_ref",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_failed_initial_cas_returns_no_unsaved_event_or_factual_conditions",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_feedback_branch_requires_usable_reference_and_actual_next_work",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_feedback_rejects_unlocatable_or_unrelated_observation_without_writing",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_feedback_uses_original_observation_reliable_branch_and_next_learner_work",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_help_retry_is_idempotent_after_event_revision_advanced",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_initial_help_revision_originals_survive_reopen_with_one_event_and_sample",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_invalid_completeness_cannot_be_saved_or_inferred",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_known_help_time_cannot_precede_initial_and_timezone_order_is_respected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_known_prior_exposure_time_cannot_follow_initial_and_unknown_is_preserved",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_known_timeline_time_requires_parseable_timezone",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_late_initial_after_delete_cannot_restore_records_or_originals",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_lower_reported_budget_cannot_reset_persisted_consumption",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_modern_unknown_and_inactive_grants_do_not_authorize_execution",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_open_is_read_only_and_separates_backup_and_teacher_reference",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_parent_entry_help_is_inherited_at_open_record_resume_and_return",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_parent_return_preserves_same_artifact_connection_and_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_parent_return_rejects_different_artifact_or_connection",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_pause_and_purpose_restriction_stop_before_originals_or_output",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_planned_requested_and_backend_help_remain_non_displayed",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_real_identity_and_missing_synthetic_marker_are_rejected_before_recording",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_recorded_budget_limit_stops_omitted_usage_help_but_allows_budget_close",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_resume_is_read_only_keeps_pause_and_restriction_and_does_not_add_check",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_same_operation_and_bytes_is_idempotent_changed_retry_is_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_saved_initial_retry_after_delete_never_restores_old_receipt_or_original",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_stale_state_and_stale_event_do_not_append_or_recount",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_strategy_requires_exact_context_adoption_and_its_own_control_gate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_unfinished_close_reuses_existing_need_without_creating_duplicate_or_schedule",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_unknown_help_visibility_and_contact_are_preserved_without_no_help_claim",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_unknown_task_qualification_unverified_material_and_changed_binding_limit_use",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_unrelated_legal_ref_cannot_stand_in_for_verified_feedback_reference",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_unreported_active_time_stays_unknown_across_help_and_resume",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_used_strategy_is_saved_without_activity_revision_and_recovers_on_continuation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3b_teaching.B3bTeachingTests.test_write_requires_cas_and_safe_original_artifact_and_preserves_state_on_rejection",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_all_compiled_packets_include_full_body_common_rules_source_and_conditions",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_changed_source_bytes_in_a_separate_project_root_block_derived_resources",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_light_index_keeps_sixty_distinct_original_encoding_ids_and_only_three_packets",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_missing_and_modified_packet_bytes_cannot_remain_available",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_r09_empty_evidence_stays_empty_and_design_template_is_not_experimental_proof",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_reproducible_resource_check_runs_from_another_cwd_without_rewriting_resources",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_two_body_carriers_preserve_one_set_of_original_evidence_references",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_uncompiled_entry_is_navigation_and_cannot_return_an_executable_packet",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_unknown_post_literature_or_coverage_ids_cannot_be_promoted_to_resource_keys",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_adoption_requires_scope_limits_and_time_and_respects_declared_scope",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_cas_does_not_replace_a_newer_state",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_cli_change_restrict_persists_control_and_returns_pending_recovery",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_cli_invalid_payload_returns_structured_error_without_input_marker",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_config_may_not_expand_resources_allowed_by_current_goal",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_current_material_declarations_must_support_both_correctness_and_use",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_current_scope_restriction_precedes_old_success_and_user_resume_does_not_restore_use",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_delete_late_result_cannot_restore_personal_config_and_generic_resources_are_unchanged",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_feedback_and_total_budget_are_gates_while_unmeasured_costs_stay_unknown",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_grant_and_adoption_receipts_are_explicit_and_ag0_cannot_write_method_config",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_independent_method_requires_material_review_for_independent_use",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_independent_positive_declarations_keep_one_event_and_no_adoption_in_inspection",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_independent_time_requirement_cannot_be_hidden_by_false_context_flag",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_independent_use_does_not_convert_unknown_exposure_and_contact_into_no_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_malformed_nested_declarations_return_error_without_throwing_or_writing",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_matching_required_time_declaration_is_checked_without_claiming_temporal_or_learning_verification",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_method_revision_preserves_historical_config_and_original_events",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_missing_body_or_uncompiled_choice_cannot_pass_config_compatibility",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_needed_resource_condition_unknown_and_active_exclusion_limit_the_configuration",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_not_required_goal_time_cannot_be_replaced_by_an_extra_independent_requirement",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_old_review_binding_is_preserved_but_cannot_approve_current_reuse",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_pause_blocks_current_configuration_and_direct_reuse",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_post_allowed_reference_and_unknown_time_do_not_force_retrieval_or_generate_schedule",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_r09_cannot_acquire_an_invented_paper_source_through_config_metadata",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_r09_remains_a_valid_design_candidate_without_inventing_research_ids",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_reliable_activity_short_path_does_not_read_catalog_or_add_work",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_resource_source_revision_trace_distinguishes_matching_and_unmatched_old_versions",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_restriction_is_committed_before_recovery_trace_and_remains_effective",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_reuse_requires_current_adopted_config_and_keeps_legitimate_previous_revision_readable",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_review_is_not_adoption_and_wrong_responsible_adopter_is_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_same_connection_two_cards_form_one_config_without_performance_or_plan_mutation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_same_operation_is_idempotent_changed_payload_rejected_and_reopen_preserves_config",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_source_resource_change_finds_only_recorded_selected_uses_without_rewriting_history",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_source_version_and_evidence_limits_cannot_be_silently_replaced",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_teaching_may_continue_before_target_time_requirement_without_creating_delayed_work",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_time_requirement_on_another_criterion_does_not_become_current_activity_debt",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_title_or_help_that_supplies_target_operation_limits_independent_use",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_trace_is_read_only_and_recovery_remains_separate_pending_responsibilities",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_acceptance_is_pending_and_has_owner_trigger_without_plan",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_ag0_cannot_formal_plan_expand_or_change_design",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_ag0_shrink_changes_only_current_scope_not_goal_or_budget",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_authorized_routine_judgment_can_close_without_extra_review",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_authorized_shrink_cannot_increase_fees_wait_or_system_effort",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_cas_and_exact_retry_preserve_single_need_revision_and_plan",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_cli_inspection_and_missing_request_return_json",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_closing_scheduled_need_supersedes_old_commitment_atomically",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_combined_demands_do_not_each_receive_full_shared_budget",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_deferred_and_no_investment_keep_uncovered_goal_and_trigger",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_deleted_evidence_blocks_late_retry_and_no_shadow_receipt_revives_it",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_distinct_evidence_conditions_are_not_merged_by_name",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_duplicate_is_merged_to_same_need_with_one_allocation_and_mapping",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_failed_save_returns_no_arrangement_and_keeps_original_need",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_full_cost_shared_budget_and_single_current_arrangement",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_future_temporal_conditions_do_not_close_by_calendar",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_merge_cannot_replace_whole_requirement_with_narrower_requirement",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_merged_duplicate_does_not_block_later_authorized_shrink",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_missing_feedback_closure_and_unknown_cost_do_not_become_scheduled",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_missing_summary_resume_does_not_invent_success_or_require_whole_restart",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_natural_evidence_closes_simple_need_without_new_check_or_mastery_object",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_only_closure_time_can_stop_without_moving_all_work_to_tomorrow",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_pause_and_use_restriction_prevent_commit_and_resume_immediately",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_read_only_candidate_and_missing_authority_create_no_arrangement",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_reopen_resume_preserves_parent_original_help_and_no_replanning",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_saved_c0_spending_cannot_be_reset_by_a_new_plan",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_specialist_whole_gate_is_preserved_by_planning",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_unknown_non_user_cost_and_estimated_full_allocation_are_not_zero",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_planning.B4PlanningTests.test_unsupported_natural_evidence_does_not_close_need",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_activity_cannot_opt_out_of_goal_whole_requirements",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_ag1_design_returns_candidate_and_formal_commit_requires_adoption",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_branch_cannot_use_another_event_or_reference_as_learner_observation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_budget_exhaustion_stops_new_expansion_and_keeps_original_goal",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_candidate_goal_cannot_authorize_evidence_reuse",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_checkpoint_reopen_restores_module_stack_and_help_without_resetting_unknowns",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_cli_open_and_unknown_action_emit_json_without_writes",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_closed_whole_product_remains_reviewable_after_budget_end",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_design_rejects_missing_whole_reference_and_local_only_coverage",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_encoding_can_enter_post_and_return_without_forced_recovery_first",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_failed_initial_transaction_has_no_saved_event_or_artifact",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_failed_transition_transaction_preserves_module_stack_and_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_local_declaration_rejects_unknown_premises_and_scope_expansion",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_local_same_request_is_idempotent_and_changed_payload_is_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_nested_local_work_cannot_expand_the_current_local_scope",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_open_and_initial_preserve_c0_privacy_and_same_event_identity",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_pause_restrict_and_delete_gate_specialist_actions_and_old_replay",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_post_encoding_return_uses_same_event_parent_budget_and_actual_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_post_to_encoding_needs_actual_supplied_premises_and_following_response",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_return_requires_new_response_and_preserves_declared_parent_connection",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_reuse_cannot_expand_conditions_requirements_or_unadopted_evidence",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_reuse_existing_adopted_judgment_can_end_simple_scope_without_new_work",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_select_branch_changes_only_prepared_candidate_and_preserves_record",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_stale_cas_rejects_local_entry_without_candidate_receipt",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_twenty_eight_calendar_days_do_not_override_yesterdays_relevant_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_unknown_or_unadopted_specialist_design_never_starts_execution",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_whole_review_does_not_stitch_fragments_or_accept_parent_copy",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_whole_review_preserves_continuous_product_actual_help_and_declared_obligations",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_accepting_existing_need_keeps_pending_and_does_not_create_plan",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_adopted_method_handoff_uses_same_teaching_event",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_ag0_routine_path_cannot_make_important_professional_judgment",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_candidate_goal_review_does_not_save_or_adopt",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_cli_execute_emits_json_and_open_is_read_only",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_deleted_goal_source_cannot_be_reintroduced_by_old_bridge_request",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_deleted_material_cannot_be_revived_by_single_entry",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_demo_existing_workspace_is_read_only_without_reseeding_or_replay",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_direct_service_uses_same_public_entry_contract",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_displayed_prior_help_limits_judgment_and_preserves_same_sample",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_failed_transaction_never_produces_unsaved_handoff",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_failure_preserves_saved_prefix_and_returns_responsibility_without_payload",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_forward_missing_and_forbidden_bindings_are_preflight_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_goal_review_cannot_replace_saved_source_with_changed_declaration",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_goal_source_bridge_rejects_changed_source_or_goal_payload",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_goal_source_bridge_requires_ag2_authorization",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_goal_submit_preserves_explicit_authorized_adoption",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_goal_submit_rejects_changed_criterion_without_saving_candidate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_goal_submit_saves_legacy_candidate_without_manufacturing_adoption",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_intent_only_returns_candidate_without_professional_work",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_material_read_and_inspect_remain_candidates_without_truth_upgrade",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_missing_result_binding_stops_after_successful_prefix",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_need_submit_cannot_reset_existing_accepted_or_scheduled_need",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_need_submit_keeps_proposed_pending_and_uses_shared_record_only",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_need_submit_rejects_automatic_acceptance_or_scheduling",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_new_goal_review_user_view_does_not_include_unrelated_existing_need",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_new_goal_sources_and_adopted_goal_are_both_saved_through_entry",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_pause_blocks_entry_and_does_not_lift_control",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_planning_only_grant_cannot_create_goal_by_declaring_planning_decision",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_public_single_entry_saves_judgment_checkpoint_need_disposition_and_reopens",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_read_only_open_exposes_only_learner_packet_and_preserves_state",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_restriction_blocks_new_teaching_without_erasing_history",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_same_need_pending_is_removed_only_after_real_disposition",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_saved_request_fixture_runs_the_same_explicit_handoff_chain",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_stale_root_cas_rejects_before_first_write",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_structural_errors_preflight_all_steps_before_mutation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_supported_candidate_is_visible_without_becoming_adopted_or_mastery",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_unhashable_operation_and_teaching_action_return_rejected_json",
+      "status": "passed"
+    }
+  ],
+  "raw_output_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\validation\\b5-all-runtime-output.txt",
+  "limitations": [
+    "All goals, findings, original responses, costs, exposure and grants are explicit fictional declarations.",
+    "Serial single-entry orchestration preserves managed controls; it does not verify semantic correctness or learning efficacy.",
+    "B6 authenticated host role binding and asynchronous delegation are outside this B5 slice.",
+    "External requests, stdout and reports remain outside managed store deletion scope."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "batch": "B7",
+  "pilot_version": "pl-pilot/0.1.0",
+  "client_date": "2026-10-04",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "existing_report": true,
+  "data_kind": "synthetic",
+  "input_origin": "Artificial B1/B5 canonical objects copied and extended only in memory.",
+  "preflight": {
+    "status": "prepared",
+    "inputs_ready": true,
+    "can_start_automated": false,
+    "live_execution_status": "not_enabled",
+    "mutated": false,
+    "reason_codes": []
+  },
+  "report": {
+    "status": "reported",
+    "inputs_ready": false,
+    "can_start_automated": false,
+    "live_execution_status": "not_enabled",
+    "mutated": false,
+    "reason_codes": [],
+    "reviews": {
+      "V1": {
+        "reported_status": "passed",
+        "review_refs": [
+          {
+            "id": "FIX-b7-review-V1",
+            "revision": 1
+          }
+        ],
+        "reason_codes": []
+      },
+      "V2": {
+        "reported_status": "passed",
+        "review_refs": [
+          {
+            "id": "FIX-b7-review-V2",
+            "revision": 1
+          }
+        ],
+        "reason_codes": []
+      },
+      "V3": {
+        "reported_status": "passed",
+        "review_refs": [
+          {
+            "id": "FIX-b7-review-V3",
+            "revision": 1
+          }
+        ],
+        "reason_codes": []
+      },
+      "V4": {
+        "reported_status": "not_executed",
+        "review_refs": [],
+        "reason_codes": [
+          "no_selected_review"
+        ]
+      }
+    }
+  },
+  "real_validation": {
+    "V1": "not_executed",
+    "V2": "not_executed",
+    "V3": "not_executed",
+    "V4": "not_executed"
+  },
+  "store_created": false,
+  "learning_executed": false,
+  "can_start_automated": false,
+  "replay_existing_workspace": false,
+  "limitations": [
+    "All objects, responses, reviewer findings and controls are artificial; no real learner or course was used.",
+    "This demo inspects supplied objects in memory and writes only the explicitly requested metadata report.",
+    "No SQLite store, personal record directory, teaching execution, adoption or workspace replay occurs.",
+    "Real V1–V4 remain not_executed; software behavior cannot establish learning or organizational benefit.",
+    "Input original text and original answers are omitted from both the report and stdout."
+  ]
+}

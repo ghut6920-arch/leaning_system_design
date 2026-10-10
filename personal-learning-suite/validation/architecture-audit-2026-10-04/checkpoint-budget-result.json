@@ -1,0 +1,240 @@
+{
+  "probe": "checkpoint-budget-loss",
+  "synthetic_only": true,
+  "claim": "software_behavior",
+  "budget_minutes": 5,
+  "initial_status": "committed",
+  "checkpoint_status": "committed",
+  "checkpoint_affected_ids": [
+    "FIX-audit-budget-checkpoint"
+  ],
+  "checkpoint_event_ref": {
+    "id": "FIX-b4-event",
+    "revision": 1
+  },
+  "checkpoint_minutes": {
+    "status": "known",
+    "value": {
+      "measurement": "caller_declaration",
+      "minutes": 5
+    }
+  },
+  "event_minutes_after_checkpoint": {
+    "status": "known",
+    "value": {
+      "measurement": "caller_declaration",
+      "minutes": 1
+    }
+  },
+  "resume_status": "ready",
+  "resume_minutes": {
+    "status": "known",
+    "value": {
+      "measurement": "caller_declaration",
+      "minutes": 1
+    }
+  },
+  "open_after_budget_status": "ready",
+  "help_after_budget_status": "committed",
+  "help_after_budget_reasons": [],
+  "help_event_ref": {
+    "id": "FIX-b4-event",
+    "revision": 2
+  },
+  "bug_reproduced": true,
+  "requests": {
+    "initial": {
+      "synthetic_only": true,
+      "action": "record_initial",
+      "activity_ref": {
+        "id": "FIX-activity",
+        "revision": 1
+      },
+      "context": {
+        "goal_refs": [
+          {
+            "id": "FIX-goal",
+            "revision": 1
+          }
+        ],
+        "activity_ref": {
+          "id": "FIX-activity",
+          "revision": 1
+        },
+        "intended_use": "independent_check",
+        "purpose": "independent",
+        "required_modalities": [
+          "text",
+          "formula"
+        ],
+        "conditions": [
+          "人工虚构给定前提",
+          "初答前不给连接理由"
+        ]
+      },
+      "expected_state_revision": 1,
+      "operation_id": "FIX-audit-initial",
+      "authorization_refs": [
+        {
+          "id": "FIX-b3b-teaching-grant",
+          "revision": 1
+        }
+      ],
+      "event_id": "FIX-b4-event",
+      "independent_sample_id": "FIX-b4-sample",
+      "original_response": {
+        "path": "b4-initial.md",
+        "locator": "B4-initial",
+        "revision": 1,
+        "origin": "synthetic_fixture",
+        "start_line": 1,
+        "end_line": 2
+      },
+      "artifacts": {
+        "b4-initial.md": "# B4-initial\nQ。\n"
+      },
+      "initial_response": {
+        "content": "Q。",
+        "visibility": "displayed",
+        "target_operations": [
+          "connect-P-to-Q"
+        ],
+        "substituted_operations": [],
+        "time": {
+          "status": "unknown",
+          "reason": "人工顺序，不虚构实际发生时间"
+        }
+      },
+      "occurred_at": {
+        "status": "not_executed",
+        "reason": "人工夹具没有真实事件时间"
+      },
+      "contact_history": {
+        "status": "unknown",
+        "reason": "人工人物无可靠先前接触资料"
+      },
+      "actual_resources": {
+        "status": "known",
+        "value": [
+          "题面给定前提"
+        ]
+      },
+      "contributors": [
+        {
+          "actor": "synthetic_learner",
+          "operations": [
+            "写出结论 Q"
+          ]
+        }
+      ],
+      "active_minutes": 1
+    },
+    "checkpoint": {
+      "synthetic_only": true,
+      "action": "checkpoint",
+      "activity_ref": {
+        "id": "FIX-activity",
+        "revision": 1
+      },
+      "context": {
+        "goal_refs": [
+          {
+            "id": "FIX-goal",
+            "revision": 1
+          }
+        ],
+        "activity_ref": {
+          "id": "FIX-activity",
+          "revision": 1
+        },
+        "intended_use": "independent_check",
+        "purpose": "independent",
+        "required_modalities": [
+          "text",
+          "formula"
+        ],
+        "conditions": [
+          "人工虚构给定前提",
+          "初答前不给连接理由"
+        ]
+      },
+      "authorization_refs": [
+        {
+          "id": "FIX-b3b-teaching-grant",
+          "revision": 1
+        }
+      ],
+      "expected_state_revision": 2,
+      "operation_id": "FIX-audit-checkpoint",
+      "event_ref": {
+        "id": "FIX-b4-event",
+        "revision": 1
+      },
+      "checkpoint_id": "FIX-audit-budget-checkpoint",
+      "active_minutes": 5,
+      "stop_reason": "Synthetic declared budget exhausted",
+      "next_connection": "Use only saved parent work after reconsideration",
+      "pending_owners": [
+        "AG1"
+      ],
+      "unrecorded_actions": {
+        "status": "unknown",
+        "reason": "No additional synthetic actions declared."
+      }
+    },
+    "help_after_checkpoint": {
+      "synthetic_only": true,
+      "action": "record_help",
+      "activity_ref": {
+        "id": "FIX-activity",
+        "revision": 1
+      },
+      "context": {
+        "goal_refs": [
+          {
+            "id": "FIX-goal",
+            "revision": 1
+          }
+        ],
+        "activity_ref": {
+          "id": "FIX-activity",
+          "revision": 1
+        },
+        "intended_use": "independent_check",
+        "purpose": "independent",
+        "required_modalities": [
+          "text",
+          "formula"
+        ],
+        "conditions": [
+          "人工虚构给定前提",
+          "初答前不给连接理由"
+        ]
+      },
+      "authorization_refs": [
+        {
+          "id": "FIX-b3b-teaching-grant",
+          "revision": 1
+        }
+      ],
+      "expected_state_revision": 3,
+      "operation_id": "FIX-audit-record_help",
+      "event_ref": {
+        "id": "FIX-b4-event",
+        "revision": 1
+      },
+      "help": {
+        "content": "Synthetic support: P and P implies Q are provided.",
+        "visibility": "displayed",
+        "target_operations": [
+          "connect-P-to-Q"
+        ],
+        "substituted_operations": [],
+        "time": {
+          "status": "unknown",
+          "reason": "Synthetic ordering; no real learner or display."
+        }
+      }
+    }
+  }
+}

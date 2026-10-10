@@ -1,0 +1,310 @@
+{
+  "batch": "B7",
+  "client_date": "2026-10-04",
+  "client_timezone": "Asia/Shanghai",
+  "scope": "B10 software slice traceability",
+  "synthetic_only": true,
+  "status": "indexed",
+  "source_report": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\validation\\b7-baseline-runtime-report.json",
+  "source_report_sha256": "d3ea45508fd965dd92742b52fb5e6ef12f9c2fb351c588c851bc7e164a28a94e",
+  "raw_output_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\validation\\b7-baseline-runtime-output.txt",
+  "raw_output_sha256": "af16d482d50f8d2994aaef42c904e90a02c55356307c70b596be7cd57591fef2",
+  "source_versions": {
+    "shared": "pl-contracts/0.1.0",
+    "store": "pl-store/0.1.0",
+    "network": "pl-network/0.1.0",
+    "professional_services": {
+      "entry": "pl-entry/0.1.0",
+      "goals_input": "pl-goals-input/0.1.0",
+      "materials": "pl-materials/0.1.0",
+      "assessment": "pl-assessment/0.1.0",
+      "teaching_core": "pl-teaching/0.1.0",
+      "teaching_specialized": "pl-teaching-b4/0.1.0",
+      "planning": "pl-planning/0.1.0",
+      "strategies": "pl-strategies/0.1.0"
+    },
+    "strategy_resources": "pl-strategies/0.1.0"
+  },
+  "cases": [
+    {
+      "case_id": "B10-01",
+      "full_scenario_status": "not_executed",
+      "slice_status": "passed",
+      "covered_slice": "已有采用判断的简单收束与需求闭合",
+      "remaining_scope": "真实简单目标的正常教学与实际停止理由",
+      "tests": [
+        {
+          "test": "test_b4_teaching.B4TeachingTests.test_reuse_existing_adopted_judgment_can_end_simple_scope_without_new_work",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b4_planning.B4PlanningTests.test_natural_evidence_closes_simple_need_without_new_check_or_mastery_object",
+          "status": "passed",
+          "raw_output_locatable": true
+        }
+      ]
+    },
+    {
+      "case_id": "B10-02",
+      "full_scenario_status": "not_executed",
+      "slice_status": "passed",
+      "covered_slice": "响应点、实际帮助与同题样本解释",
+      "remaining_scope": "真实题面中全部提示和原答的专业复核",
+      "tests": [
+        {
+          "test": "test_b3a_assessment.B3aAssessmentTests.test_help_after_initial_response_does_not_contaminate_initial_point",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b3a_assessment.B3aAssessmentTests.test_only_substituted_operation_is_limited_and_axis_aggregates_mixed",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b3a_assessment.B3aAssessmentTests.test_assisted_revision_can_support_only_assisted_scope_and_same_sample",
+          "status": "passed",
+          "raw_output_locatable": true
+        }
+      ]
+    },
+    {
+      "case_id": "B10-03",
+      "full_scenario_status": "not_executed",
+      "slice_status": "passed",
+      "covered_slice": "授权缩时与正式目标版本分离",
+      "remaining_scope": "用户真实改目标后的全链采用与安排",
+      "tests": [
+        {
+          "test": "test_b4_planning.B4PlanningTests.test_ag0_shrink_changes_only_current_scope_not_goal_or_budget",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b2a_goals.B2aVersionTests.test_operations_resources_scope_and_formal_time_change_are_recheck",
+          "status": "passed",
+          "raw_output_locatable": true
+        }
+      ]
+    },
+    {
+      "case_id": "B10-04",
+      "full_scenario_status": "not_executed",
+      "slice_status": "passed",
+      "covered_slice": "双来源纠错与四项待恢复责任",
+      "remaining_scope": "四恢复面全部完成及撤回错误补课的贯通重放",
+      "tests": [
+        {
+          "test": "test_b2b_materials.B2bMaterialTests.test_two_source_chains_trace_separately_and_four_recoveries_stay_pending",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b2b_materials.B2bMaterialTests.test_unknown_semantic_dependencies_and_sufficient_original_do_not_create_extra_work",
+          "status": "passed",
+          "raw_output_locatable": true
+        }
+      ]
+    },
+    {
+      "case_id": "B10-05",
+      "full_scenario_status": "not_executed",
+      "slice_status": "passed",
+      "covered_slice": "有据无关范围继续、未知语义依赖不推无影响",
+      "remaining_scope": "缺边依赖与专业结论及计划的组合异常",
+      "tests": [
+        {
+          "test": "test_b1_runtime.B1RuntimeTests.test_pause_keeps_confirmed_independent_scope_writable",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b2b_materials.B2bMaterialTests.test_unknown_semantic_dependencies_and_sufficient_original_do_not_create_extra_work",
+          "status": "passed",
+          "raw_output_locatable": true
+        }
+      ]
+    },
+    {
+      "case_id": "B10-06",
+      "full_scenario_status": "not_executed",
+      "slice_status": "passed",
+      "covered_slice": "可信原答、父任务与未知动作恢复",
+      "remaining_scope": "真实跨会话恢复成本与用户实际体验",
+      "tests": [
+        {
+          "test": "test_b1_runtime.B1RuntimeTests.test_entry_without_summary_recovers_same_parent_and_unknown_actions",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b4_planning.B4PlanningTests.test_missing_summary_resume_does_not_invent_success_or_require_whole_restart",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b6_network.B6NetworkTests.test_resume_without_summary_preserves_original_help_and_adds_no_required_check",
+          "status": "passed",
+          "raw_output_locatable": true
+        }
+      ]
+    },
+    {
+      "case_id": "B10-07",
+      "full_scenario_status": "not_executed",
+      "slice_status": "passed",
+      "covered_slice": "本地串行宿主接管与旧展示拒绝",
+      "remaining_scope": "外部聊天、真实模型与并行宿主展示拦截",
+      "tests": [
+        {
+          "test": "test_b6_network.B6NetworkTests.test_takeover_allows_only_current_executor_epoch_to_present_learner_packet",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b6_network.B6ExecutionStoreTests.test_takeover_revokes_old_executor_epoch_and_old_claim_receipt",
+          "status": "passed",
+          "raw_output_locatable": true
+        }
+      ]
+    },
+    {
+      "case_id": "B10-08",
+      "full_scenario_status": "not_executed",
+      "slice_status": "passed",
+      "covered_slice": "受管数据库清理、失败停用门与迟到拒绝",
+      "remaining_scope": "剩余 B 充分/部分/无效三分支及真实外部副本清理边界",
+      "tests": [
+        {
+          "test": "test_b1_runtime.B1RuntimeTests.test_delete_cleans_histories_originals_summary_candidate_validation_and_keeps_unrelated",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b1_runtime.B1RuntimeTests.test_late_deleted_payload_is_rejected_before_payload_can_land",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b6_network.B6NetworkTests.test_delete_rejects_cached_dispatch_run_and_result_adoption_without_reviving_payload",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b6_network.B6NetworkTests.test_failed_delete_cleanup_ends_loaded_capabilities_and_keeps_persisted_stop_gate",
+          "status": "passed",
+          "raw_output_locatable": true
+        }
+      ]
+    },
+    {
+      "case_id": "B10-09",
+      "full_scenario_status": "not_executed",
+      "slice_status": "passed",
+      "covered_slice": "已读、接责、处置和未接责任分离",
+      "remaining_scope": "真实高层不可用、改派与无新依据循环的组合场景",
+      "tests": [
+        {
+          "test": "test_b4_planning.B4PlanningTests.test_acceptance_is_pending_and_has_owner_trigger_without_plan",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b6_network.B6NetworkTests.test_received_is_read_only_and_unaccepted_work_stays_sender_responsibility",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b6_network.B6NetworkTests.test_partial_acceptance_keeps_unhandled_scope_and_does_not_schedule",
+          "status": "passed",
+          "raw_output_locatable": true
+        }
+      ]
+    },
+    {
+      "case_id": "B10-10",
+      "full_scenario_status": "not_executed",
+      "slice_status": "passed",
+      "covered_slice": "严格时间与接触条件、当前支持保留",
+      "remaining_scope": "真实目标内后续使用时点及可核查接触史",
+      "tests": [
+        {
+          "test": "test_b3a_assessment.B3aAssessmentTests.test_unknown_last_contact_is_not_inferred_from_current_calendar",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b3a_assessment.B3aAssessmentTests.test_displayed_contact_cannot_be_erased_by_declared_no_contact",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b4_teaching.B4TeachingTests.test_twenty_eight_calendar_days_do_not_override_yesterdays_relevant_help",
+          "status": "passed",
+          "raw_output_locatable": true
+        }
+      ]
+    },
+    {
+      "case_id": "B10-11",
+      "full_scenario_status": "not_executed",
+      "slice_status": "passed",
+      "covered_slice": "冲突、过期依据与采用门",
+      "remaining_scope": "完整目标/预算版本建议在真实路径中的联合复核",
+      "tests": [
+        {
+          "test": "test_b3a_assessment.B3aAssessmentTests.test_conflicting_prior_judgment_requires_original_review_not_arrival_order",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b3a_assessment.B3aAssessmentTests.test_same_id_revision_cannot_overwrite_conflicting_adopted_judgment",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b6_network.B6ExecutionStoreTests.test_upstream_source_revision_change_invalidates_execution_even_if_caller_omits_it",
+          "status": "passed",
+          "raw_output_locatable": true
+        }
+      ]
+    },
+    {
+      "case_id": "B10-12",
+      "full_scenario_status": "not_executed",
+      "slice_status": "passed",
+      "covered_slice": "可定位证据导出、删除停用、重要复核权限",
+      "remaining_scope": "真实查看/质疑交互及可控与不可控副本的实际说明",
+      "tests": [
+        {
+          "test": "test_b1_runtime.B1RuntimeTests.test_export_originals_vs_summary_expresses_review_limit",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b1_runtime.B1RuntimeTests.test_failed_delete_keeps_durable_gate_after_restart_until_cleanup",
+          "status": "passed",
+          "raw_output_locatable": true
+        },
+        {
+          "test": "test_b3a_assessment.B3aAssessmentTests.test_important_review_requires_ag3_and_its_professional_grant",
+          "status": "passed",
+          "raw_output_locatable": true
+        }
+      ]
+    }
+  ],
+  "missing_tests": [],
+  "real_validation": {
+    "V1": "not_executed",
+    "V2": "not_executed",
+    "V3": "not_executed",
+    "V4": "not_executed"
+  },
+  "limitations": [
+    "Indexing checks names, recorded results and raw-output locations; it is not a new execution or independent truth check.",
+    "Passed software slices never declare complete B10 scenarios or real learning efficacy.",
+    "Historical B0 scenario specifications and prior validation reports remain unchanged."
+  ]
+}

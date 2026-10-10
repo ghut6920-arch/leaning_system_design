@@ -1,0 +1,6 @@
+test_legacy_checkpoint_consumption_is_a_bound_without_rewriting_originals (test_b3b_teaching.B3bTeachingTests.test_legacy_checkpoint_consumption_is_a_bound_without_rewriting_originals) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.275s
+
+OK

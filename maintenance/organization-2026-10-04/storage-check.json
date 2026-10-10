@@ -1,0 +1,47 @@
+{
+  "sqlite_readonly_checks": [
+    {
+      "workspace": "examples/workspaces/B1_虚构演示学习空间",
+      "status": "passed"
+    },
+    {
+      "workspace": "examples/workspaces/B2b_虚构材料学习空间",
+      "status": "passed"
+    },
+    {
+      "workspace": "examples/workspaces/B3a_虚构证据学习空间",
+      "status": "passed"
+    },
+    {
+      "workspace": "examples/workspaces/B3b_虚构教学学习空间",
+      "status": "passed"
+    },
+    {
+      "workspace": "examples/workspaces/B3c_虚构策略学习空间",
+      "status": "passed"
+    },
+    {
+      "workspace": "examples/workspaces/B4_虚构专项教学学习空间",
+      "status": "passed"
+    },
+    {
+      "workspace": "examples/workspaces/B4_虚构计划学习空间",
+      "status": "passed"
+    },
+    {
+      "workspace": "examples/workspaces/b5-demo-workspace",
+      "status": "passed"
+    },
+    {
+      "workspace": "examples/workspaces/B5_虚构单入口学习空间",
+      "status": "passed"
+    },
+    {
+      "workspace": "examples/workspaces/B6_虚构工作网络空间",
+      "status": "passed"
+    }
+  ],
+  "backup_crc": "passed",
+  "failed_backup_member": null,
+  "mutated_database": false
+}

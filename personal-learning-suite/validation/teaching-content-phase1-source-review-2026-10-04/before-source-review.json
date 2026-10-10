@@ -1,0 +1,37 @@
+{
+  "synthetic_review": true,
+  "files": [
+    {
+      "path": "personal-learning-suite/src/skills/learning-teaching/SKILL.md",
+      "sha256": "0dff8b9f6133f63487f3cb3067834632c11df3b5a9ccc11af29e2e688493efcc"
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+      "sha256": "913c3e9ed979c7d3decb242f9fea892d9b0d153f56a7b2009ebae2e5ca146560"
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
+      "sha256": "09d104488e414534904313c8b76c40de2a6961e9b54ef0814e87c055499327d3"
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-teaching/references/c0.md",
+      "sha256": "272195af9dc9cf7c38e3fcd0e4f75b196b38966be760041a51cc14ec27f7794e"
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-teaching/references/teaching-examples.md",
+      "sha256": "139a5a14f7b7b35f1612421c65a3419938fe555182ff49f8929c4b18c9aea321"
+    },
+    {
+      "path": "personal-learning-suite/src/agents/AG0-coach.md",
+      "sha256": "2e8cce9101d646b4d0a6106f1922aa070d7dcbad5b99c9d8e1dc13dbf5320538"
+    },
+    {
+      "path": "personal-learning-suite/src/agents/AG1-design-planning.md",
+      "sha256": "16333dcf894c8320b5efa49abbd438e1c9c95cd204e93b52ae0c64a91d44ecf5"
+    },
+    {
+      "path": "learning/embodied-intelligence/framework-manifest.json",
+      "sha256": "f52de7d2b479e14ac43cab2d10a4b2eda2c10a1949cb7df8c729bd5b5f9e3b67"
+    }
+  ]
+}

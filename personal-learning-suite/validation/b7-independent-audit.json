@@ -1,0 +1,69 @@
+{
+  "batch": "B7",
+  "client_date": "2026-10-04",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "audit_method": "A requirements agent independently probed the implementation in memory; root replayed the resulting five regression cases after repair.",
+  "executor": "root; Python unittest",
+  "pilot_version": "pl-pilot/0.1.0",
+  "status": "passed",
+  "tests_run": 5,
+  "failures": 0,
+  "errors": 0,
+  "cases": [
+    {
+      "case": "test_b7_pilot.B7PilotTests.test_nonexistent_current_requirement_locator_cannot_prepare_scope",
+      "status": "passed"
+    },
+    {
+      "case": "test_b7_pilot.B7PilotTests.test_whole_coverage_label_cannot_override_pending_content_review",
+      "status": "passed"
+    },
+    {
+      "case": "test_b7_pilot.B7PilotTests.test_v3_identical_original_with_new_event_and_sample_cannot_prove_gain",
+      "status": "passed"
+    },
+    {
+      "case": "test_b7_pilot.B7PilotTests.test_v4_same_original_under_different_units_and_samples_is_not_increment",
+      "status": "passed"
+    },
+    {
+      "case": "test_b7_pilot.B7PilotTests.test_top_level_v4_matching_reference_is_gated_after_deletion_pause_or_restriction",
+      "status": "passed"
+    }
+  ],
+  "original_findings": [
+    {
+      "issue": "nonexistent_current_requirement_locator",
+      "before_repair": "prepared despite an absent requirement"
+    },
+    {
+      "issue": "pending_content_whole_coverage",
+      "before_repair": "prepared despite pending content verification"
+    },
+    {
+      "issue": "same_original_relabeled_as_sample",
+      "before_repair": "V3 learning_gain passed with the same original response; V4 now has a related regression check"
+    },
+    {
+      "issue": "top_level_matching_basis_control",
+      "before_repair": "V4 collaboration_gain passed after deleting its matching basis"
+    }
+  ],
+  "raw_output_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\validation\\b7-independent-audit-output.txt",
+  "fingerprints": {
+    "src\\runtime\\pilot_b7.py": "0cabbe3c8f0f7da6ba16825779b8bdfefd9b7ea4b6e6112bceab0c3e06c9bebd",
+    "tests\\test_b7_pilot.py": "56a6d94380c42a0800c3473c3be86a8b63df162ba479157fc403f16dd1c5367c",
+    "validation\\b7-independent-audit-output.txt": "1052e12c5c5bcaef789ec9c69313abe1839eb367dd374f96286da3bcfe6bfc77"
+  },
+  "real_validation": {
+    "V1": "not_executed",
+    "V2": "not_executed",
+    "V3": "not_executed",
+    "V4": "not_executed"
+  },
+  "limitations": [
+    "The five checks are included in the 33 B7 and 454 total checks; this replay is not five extra learner samples.",
+    "Artificial declarations and root replay do not authenticate provenance, content, identity, learning or organizational benefit."
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "synthetic_only": true,
+  "action": "schedule",
+  "expected_state_revision": 1,
+  "operation_id": "FIX-b4-schedule",
+  "budget_ref": {
+    "id": "FIX-budget",
+    "revision": 1
+  },
+  "authorization_refs": [
+    {
+      "id": "FIX-user-grant",
+      "revision": 1
+    }
+  ],
+  "plan_id": "FIX-b4-plan",
+  "spent_minutes": {
+    "status": "known",
+    "value": {
+      "minutes": 0,
+      "basis": "observed",
+      "source": "人工场景尚未投入"
+    }
+  },
+  "reserve_minutes": 0,
+  "decisions": [
+    {
+      "need_ref": {
+        "id": "FIX-need",
+        "revision": 1
+      },
+      "status": "scheduled",
+      "reason": "当前有效目标需要有限条件连接；本次不增加整章工作",
+      "uncovered_impact": "安排并非独立掌握；父任务整体仍未支持",
+      "next_trigger": "实际证据、预算或相关使用条件变化时重看",
+      "activity_ref": {
+        "id": "FIX-activity",
+        "revision": 1
+      },
+      "requirement_ids": [
+        "infer-Q"
+      ],
+      "operations": [
+        "connect-P-to-Q"
+      ],
+      "scope": "有限推进条件连接并反馈、收束到同一父产物",
+      "cost": {
+        "user_active": {
+          "preparation_verification": {
+            "status": "known",
+            "value": {
+              "minutes": 0.5,
+              "basis": "bounded_trial",
+              "source": "人工教学方确认的有限可收束方案"
+            }
+          },
+          "context_recovery": {
+            "status": "known",
+            "value": {
+              "minutes": 0.5,
+              "basis": "bounded_trial",
+              "source": "人工教学方确认的有限可收束方案"
+            }
+          },
+          "learning": {
+            "status": "known",
+            "value": {
+              "minutes": 2.0,
+              "basis": "bounded_trial",
+              "source": "人工教学方确认的有限可收束方案"
+            }
+          },
+          "feedback_check": {
+            "status": "known",
+            "value": {
+              "minutes": 1.0,
+              "basis": "bounded_trial",
+              "source": "人工教学方确认的有限可收束方案"
+            }
+          },
+          "closure_switch": {
+            "status": "known",
+            "value": {
+              "minutes": 1.0,
+              "basis": "bounded_trial",
+              "source": "人工教学方确认的有限可收束方案"
+            }
+          },
+          "maintenance_correction": {
+            "status": "known",
+            "value": {
+              "minutes": 0,
+              "basis": "bounded_trial",
+              "source": "人工教学方确认的有限可收束方案"
+            }
+          }
+        },
+        "blocked_wait": {
+          "status": "not_required",
+          "reason": "材料已准备，无额外等待"
+        },
+        "system_effort": {
+          "status": "not_required",
+          "reason": "本例不承诺额外后台准备"
+        },
+        "fees": {
+          "status": "not_required",
+          "reason": "本例不承诺收费操作"
+        }
+      },
+      "readiness": {
+        "necessary_conditions": {
+          "status": "known",
+          "value": true
+        },
+        "feasible_stop": {
+          "status": "known",
+          "value": true
+        },
+        "scope_confirmed": {
+          "status": "known",
+          "value": true
+        }
+      },
+      "material_context": {
+        "goal_refs": [
+          {
+            "id": "FIX-goal",
+            "revision": 1
+          }
+        ],
+        "activity_ref": {
+          "id": "FIX-activity",
+          "revision": 1
+        },
+        "intended_use": "independent_check",
+        "purpose": "independent",
+        "required_modalities": [
+          "text",
+          "formula"
+        ],
+        "conditions": [
+          "人工虚构给定前提",
+          "初答前不给连接理由"
+        ]
+      }
+    }
+  ],
+  "checkpoint_ref": {
+    "id": "FIX-checkpoint",
+    "revision": 1
+  },
+  "allowed_adjustments": {
+    "actions": [
+      "shrink",
+      "stop"
+    ],
+    "need_ids": [
+      "FIX-need",
+      "FIX-b4-duplicate"
+    ],
+    "preserve_conditions": "不改变目标、判据、材料用途与必要反馈；不扩大资源"
+  }
+}

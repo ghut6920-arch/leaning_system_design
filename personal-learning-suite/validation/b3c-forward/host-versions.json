@@ -1,0 +1,105 @@
+{
+  "captured_at": "2026-10-03T15:43:23.1122969+08:00",
+  "host": "Codex Desktop child agent /root/strategy_forward",
+  "platform": "Microsoft Windows 10.0.26200",
+  "powershell": "7.6.5",
+  "python": "Python 3.12.3",
+  "cwd": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite",
+  "skills_installed_by_trial": false,
+  "runtime_host_binding": "not_verified_for_real_host",
+  "synthetic_only": true,
+  "protocol_revision": "pl-contracts/0.1.0",
+  "resource_revision": "pl-strategies/0.1.0",
+  "resource_schema": "pl-strategy-resources/1",
+  "encoding_source_version": "2.0",
+  "design_sources": {
+    "N00": "v0",
+    "D07": "v0"
+  },
+  "files": [
+    {
+      "path": "src/skills/learning-strategies/SKILL.md",
+      "sha256": "cf7b37b32397e761f4ff6d6e53a7e81a2d6f9cd768a04ff21867fa1c12a1ac49",
+      "bytes": 2883,
+      "last_write_time": "2026-10-03T10:34:31.0527459+08:00"
+    },
+    {
+      "path": "src/skills/learning-strategies/references/selection-adaptation.md",
+      "sha256": "e391cdf6fcaf75903157627e78bc3d061738ecd2f2561929b6ea04f60597ca7a",
+      "bytes": 5393,
+      "last_write_time": "2026-10-03T10:34:36.0274656+08:00"
+    },
+    {
+      "path": "src/skills/learning-strategies/references/reuse-change.md",
+      "sha256": "8978afea2cd57091e2ac9c5435c98989af185aa142afbca3432b3cd2310ebf46",
+      "bytes": 3244,
+      "last_write_time": "2026-10-03T10:34:37.6915356+08:00"
+    },
+    {
+      "path": "src/skills/learning-strategies/references/runtime.md",
+      "sha256": "d515e63abda64086e3ae19498f4a6581561ff6850b083f036b06a83f3f092c02",
+      "bytes": 2536,
+      "last_write_time": "2026-10-03T10:40:44.8384696+08:00"
+    },
+    {
+      "path": "contracts/shared-contracts.md",
+      "sha256": "9257c077af974bd5b17669f2f90ac5fa997669572727b1c979fd3c7ac085df4b",
+      "bytes": 23775,
+      "last_write_time": "2026-10-02T23:55:36.6941186+08:00"
+    },
+    {
+      "path": "contracts/strategies-b3c.md",
+      "sha256": "ddf574c092d3c306f54d012d17a4da15e93794ee440b317cecc468ada0dd5312",
+      "bytes": 12125,
+      "last_write_time": "2026-10-03T10:40:42.9752278+08:00"
+    },
+    {
+      "path": "src/runtime/learning_strategies.py",
+      "sha256": "f8d437242d1e15f537fea0ea53a4609d9ec14da5ccd996bf8cb30247607e9afd",
+      "bytes": 32353,
+      "last_write_time": "2026-10-03T15:42:53.8101075+08:00"
+    },
+    {
+      "path": "resources/strategies/strategy-index.json",
+      "sha256": "9912ebaf9945c1d0414c146ea4e818b23e3ebbb9e1842cbf6599ae24d5ff28fe",
+      "bytes": 158125,
+      "last_write_time": "2026-10-03T10:40:37.2231244+08:00"
+    },
+    {
+      "path": "resources/strategies/manifest.json",
+      "sha256": "faeb92359f492576fa14e608ffd53b3610d9e4e44731da4cb2eab14b48c75ee0",
+      "bytes": 27217,
+      "last_write_time": "2026-10-03T10:40:37.2172088+08:00"
+    },
+    {
+      "path": "resources/strategies/common-constraints.json",
+      "sha256": "43dd089e6abd8e2738f18a762cc4497182254669a13f83dc97006e3ec5365e17",
+      "bytes": 5819,
+      "last_write_time": "2026-10-03T10:40:37.2146723+08:00"
+    },
+    {
+      "path": "resources/strategies/encoding/S07.json",
+      "sha256": "e9a75f10fda302a8b7cd8fc117b6b437f8784a2c934862689e7ec97cb934640e",
+      "bytes": 23773,
+      "last_write_time": "2026-10-03T10:40:37.2172088+08:00"
+    },
+    {
+      "path": "resources/strategies/encoding/X02.json",
+      "sha256": "3195f107b96ae240044230f80a2a65054af339992f2f2a026b22516790fa5f2a",
+      "bytes": 22311,
+      "last_write_time": "2026-10-03T10:40:37.2172088+08:00"
+    },
+    {
+      "path": "resources/strategies/post/conditional-update.json",
+      "sha256": "d49419047113d90fac5f00888ed16f73b20f844942cbd7a36f298a2f56c74e23",
+      "bytes": 58452,
+      "last_write_time": "2026-10-03T10:40:37.2192266+08:00"
+    },
+    {
+      "path": "resources/strategies/post/retrieve-generate-order.json",
+      "sha256": "abcf56036429416b1dd756a7e48f29c0bf52ab1aeebdecc448e751fecfd95044",
+      "bytes": 59155,
+      "last_write_time": "2026-10-03T10:40:37.2192266+08:00"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "pilot_version": "pl-pilot/0.1.0",
+  "data_kind": "unconfigured",
+  "status": "reported",
+  "reasons": [],
+  "inputs_ready": false,
+  "can_start_automated": false,
+  "live_execution_status": "not_enabled",
+  "mutated": false,
+  "persisted": false,
+  "limits": [
+    "declaration_checks_only",
+    "source_authenticity_not_proven",
+    "host_identity_not_authenticated",
+    "no_teaching_execution",
+    "no_new_scoring"
+  ],
+  "reviews": {
+    "V1": {
+      "reported_status": "not_executed",
+      "review_refs": [],
+      "reasons": [
+        {
+          "code": "no_selected_review"
+        }
+      ],
+      "claim_scope": "none",
+      "assessments": []
+    },
+    "V2": {
+      "reported_status": "not_executed",
+      "review_refs": [],
+      "reasons": [
+        {
+          "code": "no_selected_review"
+        }
+      ],
+      "claim_scope": "none",
+      "assessments": []
+    },
+    "V3": {
+      "reported_status": "not_executed",
+      "review_refs": [],
+      "reasons": [
+        {
+          "code": "no_selected_review"
+        }
+      ],
+      "claim_scope": "none",
+      "assessments": []
+    },
+    "V4": {
+      "reported_status": "not_executed",
+      "review_refs": [],
+      "reasons": [
+        {
+          "code": "no_selected_review"
+        }
+      ],
+      "claim_scope": "none",
+      "assessments": []
+    }
+  },
+  "real_results": {
+    "V1": "not_executed",
+    "V2": "not_executed",
+    "V3": "not_executed",
+    "V4": "not_executed"
+  },
+  "costs": {
+    "records": [],
+    "aggregation": "not_added",
+    "unknown_is_zero": false
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "method": "same-review-model fresh first-turn generation followed by original-source audit",
+  "first_turn_count": 4,
+  "frozen_output_integrity": "all four SHA-256 unchanged",
+  "substantive_observable_issues": [],
+  "research_coverage": [
+    {
+      "id": "R01",
+      "path": "docs/research/01_Encoding研究报告.md",
+      "total_lines": 539,
+      "semantic_ranges": [
+        "1-429"
+      ],
+      "scope": "introduction and sections 1-16",
+      "not_read": [
+        "430-539 section 17 evidence ledger"
+      ],
+      "external_papers_reopened": false
+    },
+    {
+      "id": "R02",
+      "path": "docs/research/02_Encoding微操作与提问库.md",
+      "total_lines": 663,
+      "semantic_ranges": [
+        "1-663"
+      ],
+      "scope": "full including all 60 operations and common stopping rules",
+      "external_papers_reopened": false
+    },
+    {
+      "id": "R03",
+      "path": "docs/research/04_Encoding策略库.json",
+      "parsed_entire_json": true,
+      "semantic_objects": [
+        "metadata",
+        "46-key source URL dictionary",
+        "O01",
+        "S05",
+        "R02",
+        "R09",
+        "D01",
+        "I01",
+        "X02",
+        "X10"
+      ],
+      "programmatically_compared_operations": 60,
+      "remaining_objects_semantically_reread": false,
+      "independent_evidence_carrier": false,
+      "external_sources_opened": false
+    },
+    {
+      "id": "R04",
+      "path": "docs/research/Retrieval-Integration-快速矩阵.md",
+      "total_lines": 51,
+      "semantic_ranges": [
+        "1-51"
+      ],
+      "scope": "full",
+      "external_papers_reopened": false,
+      "linked_old_outputs_opened": false
+    },
+    {
+      "id": "R05",
+      "path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+      "total_lines": 466,
+      "semantic_ranges": [
+        "1-40",
+        "56-193",
+        "231-383",
+        "402-433",
+        "450-466"
+      ],
+      "not_read": [
+        "41-55",
+        "194-230",
+        "384-401",
+        "434-449"
+      ],
+      "external_papers_reopened": false
+    },
+    {
+      "id": "R06",
+      "path": "docs/research/post-encoding证据台账与参考文献.md",
+      "total_lines": 326,
+      "semantic_ranges": [
+        "1-326"
+      ],
+      "scope": "full local ledger E01-E49",
+      "external_papers_reopened": 0,
+      "historical_access_status_is_current_read_coverage": false
+    }
+  ],
+  "formal_design_coverage": [
+    {
+      "id": "D04",
+      "path": "docs/designs/AI个人学习系统_工作包5_C0共同教学框架_设计方案_v0.md",
+      "total_lines": 540,
+      "semantic_ranges": [
+        "54-197",
+        "234-320"
+      ]
+    },
+    {
+      "id": "D05",
+      "path": "docs/designs/AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+      "total_lines": 474,
+      "semantic_ranges": [
+        "47-258"
+      ]
+    },
+    {
+      "id": "D06",
+      "path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "total_lines": 578,
+      "semantic_ranges": [
+        "50-320",
+        "505-523"
+      ],
+      "section_8_3_body_read": false,
+      "section_11_read": false
+    },
+    {
+      "id": "D07",
+      "path": "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+      "total_lines": 598,
+      "semantic_ranges": [
+        "43-278",
+        "431-524"
+      ]
+    }
+  ],
+  "supplementary_design_analysis": [
+    {
+      "path": "docs/analysis/AI个人学习系统_工作包5_Encoding_顶层设计分析.md",
+      "total_lines": 183,
+      "semantic_ranges": [
+        "1-183"
+      ],
+      "scope": "full; intent supplement"
+    },
+    {
+      "path": "docs/analysis/AI个人学习系统_工作包5_Post-Encoding_顶层设计分析.md",
+      "total_lines": 282,
+      "semantic_ranges": [
+        "1-282"
+      ],
+      "scope": "full; intent supplement"
+    }
+  ],
+  "all_current_teaching_and_strategy_skills_and_references_read": true,
+  "generic_resource_scope": [
+    "common-constraints.json full semantic read",
+    "strategy-index.json full parse and 60 Encoding source locator inspection",
+    "source-registry.json truncated locator read; incidental existing structural_audit metadata encountered only after frozen responses"
+  ],
+  "post_bundle_adoption": "none",
+  "complete_post_bundle_json_read": false,
+  "learner_followup_generated": false,
+  "state_written": false,
+  "personal_code_written": false,
+  "deployment_executed": false,
+  "teaching_effectiveness_test": "not executed",
+  "programmatic_checks": "carrier text/id comparison and frozen-output integrity only",
+  "source_fix": {
+    "executor": "parent reviewer",
+    "path": "personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md",
+    "line": 3,
+    "current_d06_scope": "第二至八、十至十一节",
+    "child_project_edits": 0,
+    "scope_notice_received": true
+  },
+  "output_root": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\teaching-forward-fresh"
+}

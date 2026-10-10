@@ -1,0 +1,122 @@
+{
+  "status": "pass",
+  "date": "2026-10-05",
+  "synthetic_content_only": true,
+  "post_full_loads": [
+    {
+      "key": "post/retrieve-relation",
+      "returned_complete_file": true,
+      "source_excerpts": 12,
+      "literature_entries": 2
+    },
+    {
+      "key": "post/select-method",
+      "returned_complete_file": true,
+      "source_excerpts": 11,
+      "literature_entries": 4
+    },
+    {
+      "key": "post/conditional-update",
+      "returned_complete_file": true,
+      "source_excerpts": 14,
+      "literature_entries": 3
+    },
+    {
+      "key": "post/retrieve-generate-order",
+      "returned_complete_file": true,
+      "source_excerpts": 13,
+      "literature_entries": 5
+    }
+  ],
+  "uncompiled_fallbacks": [
+    {
+      "key": "encoding/S05",
+      "status": "needs_source_review",
+      "original_locations_resolve": true
+    },
+    {
+      "key": "encoding/D09",
+      "status": "needs_source_review",
+      "original_locations_resolve": true
+    },
+    {
+      "key": "encoding/R06",
+      "status": "needs_source_review",
+      "original_locations_resolve": true
+    },
+    {
+      "key": "encoding/R07",
+      "status": "needs_source_review",
+      "original_locations_resolve": true
+    },
+    {
+      "key": "encoding/R10",
+      "status": "needs_source_review",
+      "original_locations_resolve": true
+    }
+  ],
+  "literal_index_limits": {
+    "ranking": null,
+    "executable": false
+  },
+  "dynamic_closed_form_checks": [
+    {
+      "q": 0.0,
+      "states_checked": 9,
+      "final_error": 1.0
+    },
+    {
+      "q": 0.2,
+      "states_checked": 9,
+      "final_error": 0.16777215999999995
+    },
+    {
+      "q": 1.0,
+      "states_checked": 9,
+      "final_error": 0.0
+    },
+    {
+      "q": 1.2,
+      "states_checked": 9,
+      "final_error": 2.5599999999847967e-06
+    },
+    {
+      "q": 2.0,
+      "states_checked": 9,
+      "final_error": 1.0
+    },
+    {
+      "q": 2.2,
+      "states_checked": 9,
+      "final_error": 4.2998169600000065
+    }
+  ],
+  "delayed_counterexample_q": 1.2,
+  "delayed_final_error": 4.123824639999999,
+  "mean_equality_finite_cases": 81,
+  "rank_examples": [
+    {
+      "construction": "projector",
+      "rank_Q": 1,
+      "stacked_rank": 3
+    },
+    {
+      "construction": "diagonal",
+      "rank_Q": 1,
+      "stacked_rank": 3
+    },
+    {
+      "construction": "wrong_direction",
+      "rank_Q": 1,
+      "stacked_rank": 2
+    }
+  ],
+  "affine_lambda_cases": 3,
+  "version_reference_checked": true,
+  "limitations": [
+    "数值与代数算例不是一般定理证明",
+    "目录行为不证明模型会自主发现方法",
+    "没有独立模型执行或真实用户学习试验",
+    "本次没有重新核验外部论文"
+  ]
+}

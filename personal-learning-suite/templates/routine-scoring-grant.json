@@ -1,0 +1,19 @@
+{
+  "type": "AuthorizationGrant",
+  "id": "FIX-routine-grant-template",
+  "revision": 1,
+  "owner": "AG3",
+  "schema_version": "pl-contracts/0.1.0",
+  "basis_refs": [],
+  "issuer": "AG3",
+  "grantee": "AG0",
+  "decision_types": ["routine_scoring"],
+  "object_scope": [],
+  "criterion_refs": [],
+  "permitted_conclusions": [],
+  "escalation_signals": ["important_skip", "complex_product", "nonstandard_solution", "scoring_dispute", "counterevidence", "deletion_impact", "conclusion_extension"],
+  "budget_ref": {"status": "unknown", "reason": "需引用同一活动的合法共享预算"},
+  "delegable": false,
+  "validity": {"status": "unknown", "reason": "需由有权主体落实有效范围与撤回条件"},
+  "binding_status": "unbound"
+}

@@ -1,0 +1,36 @@
+{
+  "observed_client_date": "2026-10-06",
+  "compiled_encoding": 60,
+  "compiled_post": 4,
+  "generated_files": 68,
+  "B3c": {
+    "tests": 47,
+    "passed": true
+  },
+  "full_library": {
+    "tests": 5,
+    "passed": true,
+    "all_64_readable": true
+  },
+  "B3_interop": {
+    "tests": 480,
+    "passed": true,
+    "includes_B3c": true
+  },
+  "B0": {
+    "cases": 32,
+    "passed": true,
+    "full_future_runtime_scenarios_not_executed": 15
+  },
+  "skill_format": {
+    "skills": 7,
+    "passed": true
+  },
+  "material_checks": {
+    "mathematical": 19,
+    "actual_package_reads": 6,
+    "passed": true
+  },
+  "classroom_validation": "Current model authored actual materials and response paths and self-reviewed them; not independent forward testing",
+  "real_learning_effect_verified": false
+}

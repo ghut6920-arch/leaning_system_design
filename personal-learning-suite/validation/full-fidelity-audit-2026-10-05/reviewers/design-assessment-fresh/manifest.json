@@ -1,0 +1,241 @@
+{
+  "scope": "design-assessment-fresh",
+  "synthetic_only": true,
+  "current_defects_confirmed": 0,
+  "current_sources": [
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\docs\\designs\\AI个人学习系统_工作包2与3_联合设计方案_v0.md",
+      "length": 71579,
+      "sha256": "D9EC50EA70D1E03010AF09519064D3C32A336D3D4879EB5BDB9E9E1CF645BA23"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\docs\\analysis\\AI个人学习系统_工作包2与3_联合顶层设计分析.md",
+      "length": 22726,
+      "sha256": "7885411B3CEC4CE20A6D5428D9D11ED53E52A453A6E850681243E4A1E78E0F4A"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\docs\\designs\\AI个人学习系统_工作包4_设计方案_v0.md",
+      "length": 72026,
+      "sha256": "813D12945FFD62F5B3DB5E91568BB423261C63AB4149B7DA4D18C293DDEC3D28"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\docs\\analysis\\AI个人学习系统_工作包4_顶层设计分析.md",
+      "length": 28721,
+      "sha256": "EEC9BC3662900FE8D5BE5CF5E87F8609405970E75CD5A84CBFD9411E85AA86FA"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\docs\\reviews\\AI个人学习系统_工作包4_审阅评估.md",
+      "length": 15142,
+      "sha256": "B127458937B8EDA62127D38F8F91AE7D78A4EFBFC4AA748EBC950AEDB9E97163"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\docs\\architecture\\AI个人学习系统_整体学习流程与概念架构_v1.md",
+      "length": 45382,
+      "sha256": "1552AF1B89B70910F5455555C030842BBF9BACD97469B7364012B0222F14F740"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\docs\\designs\\AI个人学习系统_工作包2至4_交接对齐说明.md",
+      "length": 14122,
+      "sha256": "835B7B98C53990915D671B5EFC5D056324E230351B371D32CB9B716B77394934"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\docs\\research\\01_Encoding研究报告.md",
+      "length": 80032,
+      "sha256": "12B7671DF7726B75DF71708A0FC0EC8BFBC3E4E6E79B06AC9C6937D9113BB8B1"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\docs\\research\\Post-Encoding-Dynamics-深度增量研究.md",
+      "length": 60248,
+      "sha256": "B9A6C07343DAB159A25C37FF054F04BD44751B9C7FFD3242B1DFF86D36B598F9"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\docs\\research\\Retrieval-Integration-快速矩阵.md",
+      "length": 6582,
+      "sha256": "F06A7D3889191F5FD6D49C6CD89EC3CAC0DF5402439EA586D6C5CEF101AE519F"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\docs\\designs\\AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+      "length": 49603,
+      "sha256": "0422DF3448789B77511B0AB7C74F7F2C92BA7F1919CEB44F28B683239A650B62"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\docs\\designs\\AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "length": 65510,
+      "sha256": "C0A266C68AAD62D6390AE1E53B3B3E66343D9E8A48865C953B2998CC387F3BCA"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\contracts\\shared-contracts.md",
+      "length": 25893,
+      "sha256": "7A83601A8E4D0741B41322FC8883C161B44135C4E56C421EB4F3F408FAC8D77E"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\agents\\AG1-design-planning.md",
+      "length": 5762,
+      "sha256": "1B2121FED98C47108C46662F5144C77706D371F1E2E367AE9BE89BEAB8AB8BDE"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\agents\\AG2-materials.md",
+      "length": 5178,
+      "sha256": "CD222F72DADA056633ECE3731AED90C1E6AA6B452C0CE0CDFD4AAFB9EFE1B67D"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\agents\\AG3-assessment.md",
+      "length": 5335,
+      "sha256": "FBC60A9CB282020DD7A3DE590578C701FABF0DB8BD44B40A5F3F5C2771D8A1C9"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-goals\\SKILL.md",
+      "length": 2893,
+      "sha256": "1A505EB7ADD98C035B89B350A2ED71D7E863C959A452FE6B1173B578E464BA6E"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-goals\\references\\goal-design.md",
+      "length": 6336,
+      "sha256": "C3EF586EC22FBE4402E51B770B9D1EACC72C4B38E3DF75AD1F8CBE42C082DE48"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-goals\\references\\goal-worked-design.md",
+      "length": 7753,
+      "sha256": "6EEA5375CBE2D3FFD7F46108703A8B2D9DCEC25252ACAE3B8490E75E574187BF"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-goals\\references\\version-rules.md",
+      "length": 3258,
+      "sha256": "1350DE96C4441358351B83F210235C7907017CAF59A266BDC6F8C9A1054820F5"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-materials\\SKILL.md",
+      "length": 3751,
+      "sha256": "3CE0BA20FF7CCDA521F5EC7D19C4693BFC8C43E012C5E58789FBFF0F16B94BC4"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-materials\\assets\\quadratic-grid.png",
+      "length": 23381,
+      "sha256": "C6C0F192ABFBE4247838BA38C817016804D6D801E8B55FAD67305EAE1E75CECE"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-materials\\assets\\quadratic-reference.png",
+      "length": 69809,
+      "sha256": "9F567D8A2671FDAD9FC1689E03F90988F1C74A114F3607F091E19A1BF9073762"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-materials\\references\\domain-checks.md",
+      "length": 4709,
+      "sha256": "805B96F93734C12D19A0F7F61DE369E6AFEF20D0DD61CB3B53AE4CABF6FD8873"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-materials\\references\\materials-examples.md",
+      "length": 6189,
+      "sha256": "7CC3FC301195126B5B7ACB4BFA76C7F36EF9E2D8BABC894F450CFC997B588CC4"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-materials\\references\\materials-workflow.md",
+      "length": 14198,
+      "sha256": "49C0CC3EAA516FB16627CB7614C266B9A386168C380723C0BE1FE327B4CBFA4C"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-materials\\references\\runtime.md",
+      "length": 4871,
+      "sha256": "526C7F34E5B117473B9D37E7EBFFFF82054795AAC97E1454507FA1075D109183"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-assessment\\SKILL.md",
+      "length": 4408,
+      "sha256": "95C80EB1B0F7C74DE6BBFB9614BB61EDCFB17F88ADCF739A52E4597576013D0A"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-assessment\\references\\diagnosis-review.md",
+      "length": 7519,
+      "sha256": "04FD2F5571A28C1671801133AA874899D06849010C476817AEBDA84CA565F9D3"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-assessment\\references\\evidence-rules.md",
+      "length": 6705,
+      "sha256": "A781D899C8F901E9BF1595957997EB964BA0B0CD1276021BD40F9A5789E59DA2"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-assessment\\references\\product-review.md",
+      "length": 6982,
+      "sha256": "277ACEAD194B585C2E3E9DB76B07B06AD021861C275EDA1F3E8492BC1939A8C2"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\skills\\learning-assessment\\references\\runtime.md",
+      "length": 2292,
+      "sha256": "923F1CB5D8EF6F3A1209E5D96C6F5BC6952D03A7FE82407C8079459B8F5C1006"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\design-assessment-fresh\\audit.md",
+      "length": 8906,
+      "sha256": "20F13EF08509F7055105FEADFA33F47D392BEF515AB0DE30867B394CE611FFAB"
+    },
+    {
+      "path": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\design-assessment-fresh\\coverage.md",
+      "length": 5348,
+      "sha256": "9A91A62C23DC4CF3BC91AF8E787B17920AEE27A1FB803EC5758F9FA402CB8548"
+    },
+    {
+      "path": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\design-assessment-fresh\\artifacts\\check_new_artifacts.py",
+      "length": 3383,
+      "sha256": "8EDED34EC5527CF98EA805E7D5C7FB7B9273296E1D1E8C25988D5846A328FF2B"
+    },
+    {
+      "path": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\design-assessment-fresh\\artifacts\\R2-execution.json",
+      "length": 3527,
+      "sha256": "F19AF0C51EB07A9B1F4B59AD1B0E4D10093A07AA39B95E0ED7BAC476CD6C2FDA"
+    },
+    {
+      "path": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\design-assessment-fresh\\artifacts\\R2-teacher-reference.md",
+      "length": 1125,
+      "sha256": "3D77671927BCFCE65F2987FB84C61ED398FA0B778E9E32D7675626AC61D9475A"
+    },
+    {
+      "path": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\design-assessment-fresh\\artifacts\\R3-affine-comparison.png",
+      "length": 39618,
+      "sha256": "63EF4667B0C46FD6253F1A76BF1B80A3C52D63809EE6674766613A52A2FBEDD2"
+    },
+    {
+      "path": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\design-assessment-fresh\\outputs\\R1-projection-review.md",
+      "length": 3047,
+      "sha256": "A29D05CC8B14AC990A56B997CE96A8B02D21072D2E82A6D2E3ADD836764C813D"
+    },
+    {
+      "path": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\design-assessment-fresh\\outputs\\R2-lower-bound-review-and-materials.md",
+      "length": 4763,
+      "sha256": "AB5FA8456771973B2ECC2E2FBDC37949550180A3DB93DF759E9B987DAF114C7A"
+    },
+    {
+      "path": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\design-assessment-fresh\\outputs\\R3-affine-correction-and-materials.md",
+      "length": 5212,
+      "sha256": "B8E75B5271695094C8DB3BD441EA67D6053FF40814E92831B08B0E9C2028C31B"
+    },
+    {
+      "path": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\design-assessment-fresh\\outputs\\R4-simple-stop.md",
+      "length": 213,
+      "sha256": "559B621B902CC2BDDB32988B62BE5C8C8C5A83B02A07CCFB0FD729DC94A91156"
+    },
+    {
+      "path": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\design-assessment-fresh\\requests\\R1-projection-proof.md",
+      "length": 1950,
+      "sha256": "304FEC69CF785A15E5A66381EE97D314E77FE8A499E4504B1C0CA60BB7796103"
+    },
+    {
+      "path": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\design-assessment-fresh\\requests\\R2-lower-bound.md",
+      "length": 1676,
+      "sha256": "CA77707744EFFBCDE248870FE0704AACA0A26F167083A5C22DE2AFEB4593D7FB"
+    },
+    {
+      "path": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\design-assessment-fresh\\requests\\R3-affine-source-error.md",
+      "length": 1606,
+      "sha256": "67D52D94D0E562D6FB1380E6109BC3AAEC6E5D8FE0E793E69EA7EF4164B66D29"
+    },
+    {
+      "path": "C:\\Users\\15006\\AppData\\Local\\Temp\\learning-suite-audit-20261005\\design-assessment-fresh\\requests\\R4-simple-stop.md",
+      "length": 653,
+      "sha256": "7FB33A9449A05CFD51479968F8079865D5687D6E1F9D1554A3AF53C15F607042"
+    }
+  ],
+  "coverage": "coverage.md",
+  "limitations": "Manual content execution; not host deployment or learning benefit validation"
+}

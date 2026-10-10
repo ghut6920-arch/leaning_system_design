@@ -1,0 +1,112 @@
+[
+  {
+    "path": "personal-learning-suite/src/skills/personal-learning/SKILL.md",
+    "removed_lines": 2,
+    "added_lines": 2
+  },
+  {
+    "path": "personal-learning-suite/src/skills/personal-learning/references/session-entry.md",
+    "removed_lines": 2,
+    "added_lines": 4
+  },
+  {
+    "path": "personal-learning-suite/src/agents/AG0-coach.md",
+    "removed_lines": 1,
+    "added_lines": 3
+  },
+  {
+    "path": "personal-learning-suite/src/agents/AG1-design-planning.md",
+    "removed_lines": 1,
+    "added_lines": 1
+  },
+  {
+    "path": "personal-learning-suite/src/agents/AG2-materials.md",
+    "removed_lines": 1,
+    "added_lines": 1
+  },
+  {
+    "path": "personal-learning-suite/src/agents/AG3-assessment.md",
+    "removed_lines": 2,
+    "added_lines": 2
+  },
+  {
+    "path": "personal-learning-suite/src/skills/learning-materials/SKILL.md",
+    "removed_lines": 4,
+    "added_lines": 6
+  },
+  {
+    "path": "personal-learning-suite/src/skills/learning-materials/references/runtime.md",
+    "removed_lines": 1,
+    "added_lines": 1
+  },
+  {
+    "path": "personal-learning-suite/src/skills/learning-assessment/SKILL.md",
+    "removed_lines": 8,
+    "added_lines": 8
+  },
+  {
+    "path": "personal-learning-suite/src/skills/learning-planning/SKILL.md",
+    "removed_lines": 4,
+    "added_lines": 6
+  },
+  {
+    "path": "learning/embodied-intelligence/MODEL_ENTRY.md",
+    "removed_lines": 4,
+    "added_lines": 6
+  },
+  {
+    "path": "learning/embodied-intelligence/FRAMEWORK.md",
+    "removed_lines": 2,
+    "added_lines": 4
+  },
+  {
+    "path": "learning/embodied-intelligence/START_PROMPT.md",
+    "removed_lines": 4,
+    "added_lines": 4
+  },
+  {
+    "path": "learning/embodied-intelligence/AGENTS.md",
+    "removed_lines": 2,
+    "added_lines": 2
+  },
+  {
+    "path": "learning/embodied-intelligence/INTERACTION.md",
+    "removed_lines": 1,
+    "added_lines": 1
+  },
+  {
+    "path": "learning/embodied-intelligence/framework-manifest.json",
+    "removed_lines": 13,
+    "added_lines": 21
+  },
+  {
+    "path": "docs/implementation/AI个人学习系统_教学内容重构执行路线_v1.md",
+    "removed_lines": 1,
+    "added_lines": 1
+  },
+  {
+    "path": "docs/implementation/AI个人学习系统_教学内容重构_第三阶段实施与验证_2026-10-05.md",
+    "removed_lines": 0,
+    "added_lines": 4
+  },
+  {
+    "path": "docs/audits/AI个人学习系统_第三阶段修订_研究与设计逐项复核_2026-10-05.md",
+    "removed_lines": 0,
+    "added_lines": 2
+  },
+  {
+    "path": "personal-learning-suite/src/skills/learning-assessment/references/diagnosis-review.md",
+    "removed_lines": 2,
+    "added_lines": 4
+  },
+  {
+    "path": "personal-learning-suite/src/skills/learning-planning/references/planning.md",
+    "removed_lines": 0,
+    "added_lines": 2
+  },
+  {
+    "path": "personal-learning-suite/src/skills/learning-planning/references/recovery.md",
+    "removed_lines": 0,
+    "added_lines": 2
+  }
+]

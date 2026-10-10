@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-10",
+  "status": "pass",
+  "baseline_files_checked": 435,
+  "changed_public_files": [
+    "learning/embodied-intelligence/framework-manifest.json",
+    "personal-learning-suite/src/agents/AG0-coach.md",
+    "personal-learning-suite/src/agents/AG1-design-planning.md",
+    "personal-learning-suite/src/agents/AG2-materials.md",
+    "personal-learning-suite/src/agents/AG3-assessment.md",
+    "personal-learning-suite/src/skills/learning-assessment/SKILL.md",
+    "personal-learning-suite/src/skills/learning-assessment/references/product-review.md",
+    "personal-learning-suite/src/skills/learning-goals/SKILL.md",
+    "personal-learning-suite/src/skills/learning-goals/references/goal-design.md",
+    "personal-learning-suite/src/skills/learning-materials/SKILL.md",
+    "personal-learning-suite/src/skills/learning-materials/references/domain-checks.md",
+    "personal-learning-suite/src/skills/learning-strategies/references/selection-adaptation.md",
+    "personal-learning-suite/src/skills/learning-teaching/SKILL.md",
+    "personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+    "personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
+    "personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md",
+    "personal-learning-suite/src/skills/learning-teaching/references/preparation-quality-examples.md",
+    "personal-learning-suite/src/skills/learning-teaching/references/teaching-examples.md",
+    "personal-learning-suite/src/skills/personal-learning/references/session-entry.md"
+  ],
+  "unexpected_changes": [],
+  "research_and_design_originals_checked": 17,
+  "source_errors": [],
+  "course_changes": [
+    "learning/embodied-intelligence/framework-manifest.json"
+  ],
+  "markdown_files_checked": 55,
+  "links_checked": 383,
+  "broken_links": [],
+  "missing_documents": [],
+  "manifest_entries": 118,
+  "manifest_errors": [],
+  "limits": [
+    "Hash/link checks do not evaluate teaching or learning outcomes",
+    "Existing course review files excluded; no review files edited by this upgrade",
+    "Protected snapshot covers sources, runtime definitions, resources, contracts and course records, not all workspace files"
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "status": "pass",
+  "date": "2026-10-05",
+  "active_instruction_files": 33,
+  "framework_entries": 34,
+  "source_checks": [
+    {
+      "source_id": "N00",
+      "unchanged": true
+    },
+    {
+      "source_id": "D00",
+      "unchanged": true
+    },
+    {
+      "source_id": "D01",
+      "unchanged": true
+    },
+    {
+      "source_id": "D02",
+      "unchanged": true
+    },
+    {
+      "source_id": "D03",
+      "unchanged": true
+    },
+    {
+      "source_id": "D04",
+      "unchanged": true
+    },
+    {
+      "source_id": "D05",
+      "unchanged": true
+    },
+    {
+      "source_id": "D06",
+      "unchanged": true
+    },
+    {
+      "source_id": "D07",
+      "unchanged": true
+    },
+    {
+      "source_id": "D08",
+      "unchanged": true
+    },
+    {
+      "source_id": "D09",
+      "unchanged": true
+    },
+    {
+      "source_id": "D10",
+      "unchanged": true
+    },
+    {
+      "source_id": "D11",
+      "unchanged": true
+    },
+    {
+      "source_id": "R01",
+      "unchanged": true
+    },
+    {
+      "source_id": "R02",
+      "unchanged": true
+    },
+    {
+      "source_id": "R03",
+      "unchanged": true
+    },
+    {
+      "source_id": "R04",
+      "unchanged": true
+    },
+    {
+      "source_id": "R05",
+      "unchanged": true
+    },
+    {
+      "source_id": "R06",
+      "unchanged": true
+    }
+  ],
+  "manifest_checks": [
+    {
+      "path": "../../personal-learning-suite/contracts/shared-contracts.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/agents/AG0-coach.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/agents/AG1-design-planning.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/agents/AG2-materials.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/agents/AG3-assessment.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-assessment/references/diagnosis-review.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-assessment/references/evidence-rules.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-assessment/SKILL.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-goals/references/goal-design.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-goals/references/version-rules.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-goals/SKILL.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-materials/references/domain-checks.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-materials/references/materials-workflow.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-materials/references/runtime.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-materials/SKILL.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-planning/references/planning.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-planning/references/recovery.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-planning/SKILL.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-strategies/references/reuse-change.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-strategies/references/runtime.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-strategies/references/selection-adaptation.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-strategies/SKILL.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/c0.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/method-post-examples.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/runtime.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/teaching-examples.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/SKILL.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/personal-learning/references/entry-controls.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/personal-learning/references/network-host.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/personal-learning/references/vertical-workflow.md",
+      "matches": true
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/personal-learning/SKILL.md",
+      "matches": true
+    }
+  ],
+  "changed_public_files": [
+    "personal-learning-suite/src/skills/learning-strategies/SKILL.md",
+    "personal-learning-suite/src/skills/learning-strategies/references/selection-adaptation.md",
+    "personal-learning-suite/src/skills/learning-strategies/references/runtime.md",
+    "personal-learning-suite/src/skills/learning-teaching/SKILL.md",
+    "personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md",
+    "learning/embodied-intelligence/FRAMEWORK.md",
+    "learning/embodied-intelligence/framework-manifest.json",
+    "docs/implementation/AI个人学习系统_教学内容重构执行路线_v1.md"
+  ],
+  "new_instruction_file": "personal-learning-suite/src/skills/learning-teaching/references/method-post-examples.md",
+  "protected_public_files_unchanged": 46,
+  "learning_originals_unchanged": {
+    "checked_file_count": 79,
+    "unchanged": true,
+    "raw_answers_copied": false,
+    "personal_fingerprints_retained": false
+  },
+  "markdown_files_checked": 11,
+  "local_links_checked": 99,
+  "broken_links": [],
+  "limits": [
+    "路径、指纹及具体内容探针不构成真实教学效果或独立执行验证"
+  ]
+}

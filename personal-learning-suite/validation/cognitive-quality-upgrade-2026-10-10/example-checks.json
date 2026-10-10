@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-10",
+  "status": "pass",
+  "checks": [
+    {
+      "name": "history_required_under_velocity_model",
+      "passed": true,
+      "details": {
+        "same_current": 0,
+        "next_positions": [
+          1.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "name": "current_only_sufficient_under_changed_model",
+      "passed": true,
+      "details": {
+        "changed_rule": "next=current",
+        "next_positions": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "demo_gradient_and_update",
+      "passed": true,
+      "details": {
+        "gradient": -0.432,
+        "alpha": 1.0432
+      }
+    },
+    {
+      "name": "local_fixed_reference_kl_decreases",
+      "passed": true,
+      "details": {
+        "before_parameter_square": 0.2304,
+        "after_parameter_square": 0.1945868544
+      }
+    },
+    {
+      "name": "analytic_gradient_matches_finite_difference",
+      "passed": true,
+      "details": {
+        "finite_difference": -0.43200000000020994,
+        "analytic": -0.432
+      }
+    },
+    {
+      "name": "expectation_identity_0",
+      "passed": true,
+      "details": {
+        "exact": 1.0,
+        "mean": 1.0,
+        "variance": 1.0
+      }
+    },
+    {
+      "name": "expectation_identity_1",
+      "passed": true,
+      "details": {
+        "exact": 4.75,
+        "mean": 1.0,
+        "variance": 4.5
+      }
+    },
+    {
+      "name": "expectation_identity_2",
+      "passed": true,
+      "details": {
+        "exact": 16.0,
+        "mean": 3.0,
+        "variance": 0.0
+      }
+    },
+    {
+      "name": "variance_can_reverse_action_choice",
+      "passed": true,
+      "details": {
+        "means": [
+          1.0,
+          0.5
+        ],
+        "point": [
+          0.0,
+          0.25
+        ],
+        "expected": [
+          1.0,
+          0.26
+        ]
+      }
+    },
+    {
+      "name": "equal_variance_need_not_reverse_choice",
+      "passed": true,
+      "details": {
+        "means": [
+          1.0,
+          0.5
+        ],
+        "point": [
+          0.0,
+          0.25
+        ],
+        "expected": [
+          1.0,
+          1.25
+        ]
+      }
+    },
+    {
+      "name": "demo_uses_updated_parameter",
+      "passed": true,
+      "details": {
+        "means": [
+          1.0432,
+          0.5432
+        ],
+        "point": [
+          0.00186624,
+          0.20866624
+        ],
+        "expected": [
+          1.00186624,
+          0.21866624
+        ]
+      }
+    },
+    {
+      "name": "demo_reassessment_uses_new_input",
+      "passed": true,
+      "details": {
+        "means": [
+          0.10432,
+          -0.39568
+        ],
+        "point": [
+          0.8022426624,
+          1.9479226624
+        ],
+        "expected": [
+          1.8022426624,
+          1.9579226624
+        ]
+      }
+    },
+    {
+      "name": "whole_update_and_first_choice",
+      "passed": true,
+      "details": {
+        "gradient": -0.2,
+        "alpha": 1.04,
+        "first": {
+          "means": [
+            1.04,
+            0.54
+          ],
+          "point": [
+            0.0016,
+            0.2116
+          ],
+          "expected": [
+            1.0016,
+            0.2216
+          ]
+        }
+      }
+    },
+    {
+      "name": "whole_reassessment_choice",
+      "passed": true,
+      "details": {
+        "means": [
+          0.104,
+          -0.396
+        ],
+        "point": [
+          0.802816,
+          1.948816
+        ],
+        "expected": [
+          1.802816,
+          1.958816
+        ]
+      }
+    },
+    {
+      "name": "dropping_variance_detected_by_choice",
+      "passed": true,
+      "details": {
+        "point_choice": 0,
+        "expected_choice": 1
+      }
+    },
+    {
+      "name": "reusing_stale_input_detected_by_choice",
+      "passed": true,
+      "details": {
+        "stale_choice": 1,
+        "updated_choice": 0
+      }
+    },
+    {
+      "name": "means_alone_do_not_identify_choice",
+      "passed": true,
+      "details": {
+        "first": {
+          "means": [
+            1.0,
+            0.5
+          ],
+          "point": [
+            0.0,
+            0.25
+          ],
+          "expected": [
+            1.0,
+            0.26
+          ]
+        },
+        "other": {
+          "means": [
+            1.0,
+            0.5
+          ],
+          "point": [
+            0.0,
+            0.25
+          ],
+          "expected": [
+            0.01,
+            1.25
+          ]
+        }
+      }
+    }
+  ],
+  "limits": [
+    "Finite mathematical and error-discrimination checks only",
+    "General expectation identity is proved in the material, not by these samples",
+    "No neural training, environment rollout, learner performance or learning effect measured"
+  ]
+}

@@ -1,0 +1,6 @@
+test_restricted_legacy_checkpoint_cannot_be_silently_skipped_for_more_work (test_b3b_teaching.B3bTeachingTests.test_restricted_legacy_checkpoint_cannot_be_silently_skipped_for_more_work) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.255s
+
+OK

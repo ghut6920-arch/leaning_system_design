@@ -1,0 +1,107 @@
+{
+  "fixture_id": "B2a-forward-xor-independent",
+  "synthetic": true,
+  "protocol_version": "pl-contracts/0.1.0",
+  "resource_version": "pl-goals/0.1.0",
+  "status": "candidate",
+  "provenance": "独立读取 SK01 和共用契约后按原始虚构请求形成；未读取预设 B2a 答案或测试期望。角色 owner 只是契约责任标签，不是已部署或已认证主体。",
+  "raw_input": {"path": "validation/b2a-forward/fixtures/raw-input.md", "locator": "原始请求", "revision": 1, "origin": "synthetic_fixture"},
+  "control_and_authority_view": {
+    "scope": "仅此虚构开发资料及候选产物",
+    "delete_or_pause": {"status": "known", "value": "当前提供的虚构输入未提出删除或暂停；这不是宿主控制状态认证"},
+    "record_policy": "只写开发试用资料；不保存真实个人记录",
+    "binding_status": "unbound",
+    "authorized_work": "虚构目标和判据候选设计",
+    "formal_adoption": {"status": "not_executed", "reason": "没有真实课程、专业采用权限或宿主绑定"},
+    "professional_receipts": {"status": "not_executed", "reason": "AG2/AG3/AG0 只是下一责任标签，没有部署调用或采用回执"}
+  },
+  "coarse_map": {
+    "course_basis_ref": {"id": "FIX-FWD-source-A", "revision": 1, "locator": "claims/course_directory"},
+    "purpose_basis_ref": {"id": "FIX-FWD-source-A", "revision": 1, "locator": "claims/purpose"},
+    "nodes": [
+      {"node_id": "propositions-and-connectives", "title": "命题与连接词", "coverage": "近期只细化布尔输入、异或及表达规则所需连接词", "depth": "目录级粗地图；概念依据仅取资料 B"},
+      {"node_id": "truth-table", "title": "真值表", "coverage": "近期用四种布尔输入对照异或输出作规则检查", "depth": "只支持当前两个布尔输入的穷举检查，不推广整章"},
+      {"node_id": "proof", "title": "证明", "coverage": "范围外；同输入为何为假只需依定义作解释", "depth": "只有标题，证明系统、课程标准和必要性均未知"},
+      {"node_id": "hardware", "title": "硬件设计", "coverage": "本次明确不要求", "depth": "只有标题，不构造硬件前置或验收要求"}
+    ],
+    "near_term_integrated_task": "学习者自己形成两个布尔输入的异或规则，并解释两个输入相同为何输出假；以同一规则草稿和解释检查两项要求。",
+    "course_and_personal_difference": "个人近期用途确定；目录并不证明课程要求、考试方式或完成课程的范围。",
+    "dependencies": "布尔值和异或含义直接支持写规则与解释；所选配置语言语法可由许可文档伴随补充。目录顺序不足以证明必须先学证明或硬件。",
+    "unknowns": ["正式课程评分和考核方式", "所选配置语言及可定位语法文档", "证明与硬件的远期正文和实际依赖"],
+    "refinement_trigger": "用户提出更大用途或新增目标、提供正式课程要求，或需要在具体配置语言中执行规则时再细化相关部分。"
+  },
+  "objects": [
+    {
+      "type": "SourceFragment", "id": "FIX-FWD-source-A", "revision": 1, "owner": "AG2", "schema_version": "pl-contracts/0.1.0", "basis_refs": [],
+      "source_ref": {"source_id": "FIX-FWD-A", "declared_revision": "fixture/1", "locator": "validation/b2a-forward/fixtures/raw-input.md#资料-A", "identity_kind": "synthetic"},
+      "read_scope": {"text": "原始请求及资料 A 全文", "formula": "无", "figure": "无"},
+      "claims": {"purpose": "写配置校验规则", "near_scope": "自己写两个布尔输入的异或规则，并解释输入相同为何为假", "allowed_resources": "允许查布尔语法文档", "exclusions": ["闭卷背诵", "硬件实现"], "course_directory": ["命题与连接词", "真值表", "证明", "硬件设计"], "history": "虚构用户自述没有学习历史，不代表宿主全域历史核查"},
+      "verification": {"status": "known", "value": "开发者人工给定的用途原文；不是课程标准，也未由已部署 AG2 审核"},
+      "unread_parts": {"status": "known", "value": []}
+    },
+    {
+      "type": "SourceFragment", "id": "FIX-FWD-source-B", "revision": 1, "owner": "AG2", "schema_version": "pl-contracts/0.1.0", "basis_refs": [],
+      "source_ref": {"source_id": "FIX-FWD-B", "declared_revision": "fixture/1", "locator": "validation/b2a-forward/fixtures/raw-input.md#资料-B", "identity_kind": "synthetic"},
+      "read_scope": {"text": "资料 B 定义和限制全文", "formula": "没有提供具体配置语言表达式", "figure": "无"},
+      "claims": ["a、b 都是布尔量", "恰有一个输入为真时异或为真，其余为假", "官方考核形式未知", "远期目录没有进一步正文"],
+      "verification": {"status": "known", "value": {"mode": "developer_manual_enumeration", "scope": "按给定虚构定义手工枚举两个布尔输入", "cases": [{"a": false, "b": false, "xor": false}, {"a": false, "b": true, "xor": true}, {"a": true, "b": false, "xor": true}, {"a": true, "b": true, "xor": false}], "limits": "手工内容一致性检查；不证明正式课程参考资格、语言语法或实际 AG2 部署"}},
+      "unread_parts": {"status": "unknown", "reason": "除提供正文外没有远期章节正文；目录标题不能补足正文"}
+    },
+    {
+      "type": "GoalSpec", "id": "FIX-FWD-goal-xor", "revision": 1, "owner": "AG1", "schema_version": "pl-contracts/0.1.0",
+      "basis_refs": [{"id": "FIX-FWD-source-A", "revision": 1}, {"id": "FIX-FWD-source-B", "revision": 1}],
+      "requirement_source_refs": [{"id": "FIX-FWD-source-A", "revision": 1}],
+      "content_basis_refs": [{"id": "FIX-FWD-source-B", "revision": 1}],
+      "requirements": [
+        {
+          "requirement_id": "write-xor-rule", "nature": "user_purpose", "key_operations": ["自主组织两个布尔输入的异或规则", "检查规则对四种输入是否符合给定定义"],
+          "product": "学习者原始异或规则草稿及四种输入的对照检查；可用布尔表达式，具体配置语言执行资格另核语法文档",
+          "criterion": {"text": "对 a、b ∈ {false,true}，规则仅在一个输入为真时输出真；四种输入的规则结果分别符合给定定义。接受语义等价规则。若声称具体语言可执行，另需匹配该语言语法与布尔类型处理，当前未知。", "requirement_source_refs": [{"id": "FIX-FWD-source-A", "revision": 1, "locator": "claims/near_scope"}], "content_basis_refs": [{"id": "FIX-FWD-source-B", "revision": 1, "locator": "claims"}]},
+          "criterion_revision": 1,
+          "requirement_source_refs": [{"id": "FIX-FWD-source-A", "revision": 1, "locator": "claims/near_scope"}], "content_basis_refs": [{"id": "FIX-FWD-source-B", "revision": 1, "locator": "claims"}]
+        },
+        {
+          "requirement_id": "explain-equal-inputs", "nature": "user_purpose", "key_operations": ["学习者用异或定义解释两个输入相同的两种情况"],
+          "product": "与原始规则对应的简短说明，覆盖两输入都假和两输入都真",
+          "criterion": {"text": "说明两输入都假时没有输入为真，两输入都真时有两个输入为真；两者均不满足恰有一个输入为真，因此输出假。可用等价解释，但不能将异或误作至少一个为真。", "requirement_source_refs": [{"id": "FIX-FWD-source-A", "revision": 1, "locator": "claims/near_scope"}], "content_basis_refs": [{"id": "FIX-FWD-source-B", "revision": 1, "locator": "claims"}]},
+          "criterion_revision": 1,
+          "requirement_source_refs": [{"id": "FIX-FWD-source-A", "revision": 1, "locator": "claims/near_scope"}], "content_basis_refs": [{"id": "FIX-FWD-source-B", "revision": 1, "locator": "claims"}]
+        }
+      ],
+      "prerequisites": [
+        {"kind": "necessary", "text": "在当前规则中将 a、b 解释为布尔量，并辨认恰有一个为真。它直接支持规则选择和同输入解释；可随任务查看定义，不要求先完成整章或闭卷记忆。", "affected_requirement_ids": ["write-xor-rule", "explain-equal-inputs"], "missing_consequence": "无法把规则输入和给定输出条件对应", "sufficiency": "能用定义辨认四种布尔输入条件即可返回同一规则草稿", "requirement_source_refs": [{"id": "FIX-FWD-source-A", "revision": 1, "locator": "claims/near_scope"}], "content_basis_refs": [{"id": "FIX-FWD-source-B", "revision": 1, "locator": "claims"}]},
+        {"kind": "accompanying", "text": "所选配置语言的布尔语法由允许查阅的文档伴随补充；语言未选定，所以暂不指定 API、运算符或把语法记忆设成前置。", "affected_requirement_ids": ["write-xor-rule"], "missing_consequence": "不能声称草稿已可在某配置平台执行，但语言无关语义规格仍可准备", "sufficiency": "需要执行时定位语言版本和许可语法后检查该草稿", "requirement_source_refs": [{"id": "FIX-FWD-source-A", "revision": 1, "locator": "claims/allowed_resources"}], "content_basis_refs": [{"id": "FIX-FWD-source-B", "revision": 1, "locator": "read_scope/formula"}]}
+      ],
+      "allowed_resources": ["原始虚构正文中的布尔和异或定义", "所选语言的布尔语法文档，具体文档及版本待执行用途确定"],
+      "context_conditions": "只支持 a、b 已为布尔量的两个输入异或规则草稿与解释；文档可查但规则组织和关键解释须由学习者完成。示范可先看；随后复制示范或被代做的操作只支持有帮助条件。",
+      "time_requirements": {"status": "not_required", "reason": "用户没有要求作答时限、延迟保持或陌生迁移；会话时长属于预算条件"},
+      "evidence_requirements": [
+        {"requirement_ids": ["write-xor-rule", "explain-equal-inputs"], "intended_conclusion": "在允许文档的当前布尔域条件下，学习者能自己写当前异或规则并解释同输入输出假", "required_operations": ["规则组织", "四种输入对照检查", "同输入理由解释"], "observable_product": "保留学习者原始规则及解释的同一草稿，四输入检查能区分都假、单真两例、都真", "resource_and_help_conditions": "实际文档、示范和提示须保留接触顺序与代做操作；看到完整示范后直接复制不支持自主组织结论。当前只是证据设计，无学习者表现。", "correctness": "按两项判据分别检查，规则错误不能由说明的得分抵消；解释正确也不能替代规则产物。", "coverage": "四种输入完整覆盖当前两个布尔输入域；同一草稿可观察规则与解释的关联，不增加第二个独立样本", "cannot_infer": ["闭卷背诵", "延迟保持", "陌生应用或多输入扩展", "硬件实现", "正式课程及格", "某真实配置平台可部署"], "requirement_source_refs": [{"id": "FIX-FWD-source-A", "revision": 1, "locator": "claims/near_scope"}], "content_basis_refs": [{"id": "FIX-FWD-source-B", "revision": 1, "locator": "claims"}]}
+      ],
+      "version_compatibility": {"status": "not_applicable", "reason": "首个独立虚构候选；没有旧目标或旧表现支持关系"}
+    }
+  ],
+  "pending_items": [
+    {"item": "具体配置语言与文档版本", "impact": "会改变语法和可执行资格，不阻碍准备当前语言无关语义目标", "owner": "AG0 收集用途；AG2 核文档；AG1 必要时补定位", "trigger": "请求具体配置执行时"},
+    {"item": "正式课程要求及考核形式", "impact": "当前无法声称覆盖正式标准；不阻碍用户明确的个人近期用途", "owner": "用户范围选择及 AG1；AG2 读取来源", "trigger": "用户要求对齐正式考核时"},
+    {"item": "内容依据的当前用途资格", "impact": "开发手工枚举一致性不能替代正式材料用途核验", "owner": "AG2", "trigger": "真实采用或教学执行前"},
+    {"item": "任务证据可观察性与实际帮助记录", "impact": "证据规格候选不能产生已支持能力结论", "owner": "AG3 与实际受控 AG0", "trigger": "设计实际活动并取得合法原答时"}
+  ],
+  "p_goal_view": {
+    "output_contract": "P-Goal",
+    "status": "candidate",
+    "goal_ref": {"id": "FIX-FWD-goal-xor", "revision": 1},
+    "requirement_source_refs": [{"id": "FIX-FWD-source-A", "revision": 1}],
+    "content_basis_refs": [{"id": "FIX-FWD-source-B", "revision": 1}],
+    "handled_scope": "目录粗地图、两个个人用途要求的候选判据、前置范围、许可资源、证据设计和版本起点",
+    "unhandled_scope": ["正式课程目标采用", "具体配置语言可执行性", "实际 AG2/AG3 核验", "学习表现或掌握判断", "有效承诺"],
+    "limitations": ["只读人工构造虚构资料", "候选返回没有宿主绑定或采用效果", "远期节点只到目录级", "没有学习者原答"],
+    "next_responsibilities": [
+      {"owner": "AG2", "scope": "核资料 B 对当前用途的内容和参考资格，以及需要执行时的语法资料", "trigger": "真实采用或实际活动准备"},
+      {"owner": "AG3", "scope": "核两项要求可观察证据与实际帮助条件", "trigger": "实际活动和原答可用"},
+      {"owner": "AG0", "scope": "接收语言未决项、候选状态与单入口/显示记录限制", "trigger": "用户继续准备或教学"}
+    ],
+    "adoption_needed": true,
+    "adoption": {"status": "candidate", "by": "developer_forward_trial", "scope": "仅虚构候选", "basis_refs": [{"id": "FIX-FWD-source-A", "revision": 1}, {"id": "FIX-FWD-source-B", "revision": 1}], "limitations": ["不创建真实课程状态、学习记录或计划"], "time": {"status": "not_executed", "reason": "无正式采用"}}
+  }
+}

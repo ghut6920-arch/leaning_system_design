@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "finite_transition_pairs_checked": 9,
+  "weighted_average_values": {
+    "correct": "7/2",
+    "direct_average": "3"
+  },
+  "precision_cases_checked": 4,
+  "precision_bad_denominator_counterexample_checked": true,
+  "real_user_code_executed": false,
+  "limits": [
+    "Finite reference anchors only.",
+    "Not skill execution, independent review, general proof, experiment validation or learning efficacy."
+  ]
+}

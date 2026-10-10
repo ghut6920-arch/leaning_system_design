@@ -1,0 +1,60 @@
+{
+  "pilot_version": "pl-pilot/0.1.0",
+  "data_kind": "unconfigured",
+  "status": "needs_input",
+  "reasons": [
+    {
+      "code": "pilot_not_configured"
+    },
+    {
+      "code": "current_instance_required"
+    },
+    {
+      "code": "current_goal_required"
+    },
+    {
+      "code": "current_budget_bounds_required"
+    },
+    {
+      "code": "controls_unknown"
+    },
+    {
+      "code": "necessary_followup_unknown"
+    }
+  ],
+  "inputs_ready": false,
+  "can_start_automated": false,
+  "live_execution_status": "not_enabled",
+  "mutated": false,
+  "persisted": false,
+  "limits": [
+    "declaration_checks_only",
+    "source_authenticity_not_proven",
+    "host_identity_not_authenticated",
+    "no_teaching_execution",
+    "no_new_scoring"
+  ],
+  "checks": {
+    "instance": false,
+    "current_goals": false,
+    "budget_axes": false
+  },
+  "prepared_goal_refs": [],
+  "budget": {
+    "axes": {
+      "user_active_time": {
+        "status": "unknown"
+      },
+      "blocked_wait": {
+        "status": "unknown"
+      },
+      "system_effort": {
+        "status": "unknown"
+      },
+      "fees": {
+        "status": "unknown"
+      }
+    },
+    "aggregation": "shared_envelope_not_multiplied"
+  }
+}

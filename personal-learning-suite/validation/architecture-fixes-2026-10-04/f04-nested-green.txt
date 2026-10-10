@@ -1,0 +1,6 @@
+test_nested_local_entry_requires_a_new_response_not_another_reason (test_b4_teaching.B4TeachingTests.test_nested_local_entry_requires_a_new_response_not_another_reason) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.346s
+
+OK

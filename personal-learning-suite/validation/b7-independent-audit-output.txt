@@ -1,0 +1,10 @@
+test_nonexistent_current_requirement_locator_cannot_prepare_scope (test_b7_pilot.B7PilotTests.test_nonexistent_current_requirement_locator_cannot_prepare_scope) ... ok
+test_whole_coverage_label_cannot_override_pending_content_review (test_b7_pilot.B7PilotTests.test_whole_coverage_label_cannot_override_pending_content_review) ... ok
+test_v3_identical_original_with_new_event_and_sample_cannot_prove_gain (test_b7_pilot.B7PilotTests.test_v3_identical_original_with_new_event_and_sample_cannot_prove_gain) ... ok
+test_v4_same_original_under_different_units_and_samples_is_not_increment (test_b7_pilot.B7PilotTests.test_v4_same_original_under_different_units_and_samples_is_not_increment) ... ok
+test_top_level_v4_matching_reference_is_gated_after_deletion_pause_or_restriction (test_b7_pilot.B7PilotTests.test_top_level_v4_matching_reference_is_gated_after_deletion_pause_or_restriction) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.118s
+
+OK

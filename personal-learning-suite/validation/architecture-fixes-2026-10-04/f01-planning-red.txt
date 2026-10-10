@@ -1,0 +1,16 @@
+test_legacy_checkpoint_spending_cannot_be_reset_by_a_new_plan (test_b4_planning.B4PlanningTests.test_legacy_checkpoint_spending_cannot_be_reset_by_a_new_plan) ... FAIL
+
+======================================================================
+FAIL: test_legacy_checkpoint_spending_cannot_be_reset_by_a_new_plan (test_b4_planning.B4PlanningTests.test_legacy_checkpoint_spending_cannot_be_reset_by_a_new_plan)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\文献资料\学习系统架构设计\personal-learning-suite\tests\test_b4_planning.py", line 431, in test_legacy_checkpoint_spending_cannot_be_reset_by_a_new_plan
+    self.reject(request(checkpoint_ref=None, decisions=[decision(minutes=4)], spent_minutes=fact("known", value={"minutes": 1})),
+  File "E:\文献资料\学习系统架构设计\personal-learning-suite\tests\test_b4_planning.py", line 134, in reject
+    self.assertNotEqual(result["status"], "committed", result)
+AssertionError: 'committed' == 'committed' : {'status': 'committed', 'synthetic_only': True, 'mutated': True, 'reasons': [], 'judgment_created': False, 'new_test_created': False, 'automatic_reminder': False, 'state_revision': 2, 'output_refs': [{'id': 'FIX-need', 'revision': 2}, {'id': 'FIX-b4-plan', 'revision': 1}], 'replayed': False}
+
+----------------------------------------------------------------------
+Ran 1 test in 0.189s
+
+FAILED (failures=1)

@@ -1,0 +1,26 @@
+[
+  {
+    "skill": "personal-learning",
+    "exit_code": 0,
+    "output": "Skill is valid!",
+    "errors": ""
+  },
+  {
+    "skill": "learning-materials",
+    "exit_code": 0,
+    "output": "Skill is valid!",
+    "errors": ""
+  },
+  {
+    "skill": "learning-assessment",
+    "exit_code": 0,
+    "output": "Skill is valid!",
+    "errors": ""
+  },
+  {
+    "skill": "learning-planning",
+    "exit_code": 0,
+    "output": "Skill is valid!",
+    "errors": ""
+  }
+]

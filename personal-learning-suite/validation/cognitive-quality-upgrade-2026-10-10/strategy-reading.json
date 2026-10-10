@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-10",
+  "mode": "file_read_and_partial_adaptation",
+  "selected_resources": [
+    {
+      "resource_key": "encoding/S05",
+      "resource_revision": "pl-strategies/0.1.0",
+      "bundle_path": "encoding/S05.json",
+      "sha256": "75be952e8bc57ae87fe6d228cf1097f7dcf8db591987794578324c757fbeca36",
+      "use": "Partial content adaptation in the synthetic teacher plan; not a runtime or learner event"
+    },
+    {
+      "resource_key": "encoding/R04",
+      "resource_revision": "pl-strategies/0.1.0",
+      "bundle_path": "encoding/R04.json",
+      "sha256": "24606c5326153afb271a0280cd4fe1439dae34796af44d1c8eb667dd027fdde9",
+      "use": "Partial content adaptation in the synthetic teacher plan; not a runtime or learner event"
+    },
+    {
+      "resource_key": "post/retrieve-relation",
+      "resource_revision": "pl-strategies/0.1.0",
+      "bundle_path": "post/retrieve-relation.json",
+      "sha256": "9a40c98a6eddedc06cab02155aed54480c242f3f7bd2bbf70e116a0c87ec2dbc",
+      "use": "Partial content adaptation in the synthetic teacher plan; not a runtime or learner event"
+    }
+  ],
+  "scope": "Read carriers, constraints and required Post excerpts/evidence locally. No external papers reverified, no independent Agent or real teaching run."
+}

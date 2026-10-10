@@ -1,0 +1,588 @@
+{
+  "baseline": "B0",
+  "client_date": "2026-10-02",
+  "protocol_version": "pl-contracts/0.1.0",
+  "validation_layer": "static_contract_and_source_integrity",
+  "host": "Python 3.12.3 / win32",
+  "executor": "scripts/check_b0.py",
+  "status": "pass",
+  "source_checks": [
+    {
+      "source_id": "N00",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "D00",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "D01",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "D02",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "D03",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "D04",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "D05",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "D06",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "D07",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "D08",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "D09",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "D10",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "D11",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "R01",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "R02",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "R03",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "R04",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "R05",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "R06",
+      "status": "pass",
+      "errors": []
+    }
+  ],
+  "resource_structure": {
+    "encoding_cards": 60,
+    "source_keys": 46,
+    "empty_evidence_cards": [
+      "R09"
+    ],
+    "external_papers_reverified": false
+  },
+  "spec_checks": {
+    "agent_specs": 4,
+    "skill_specs": 7,
+    "broken_local_links": 0,
+    "runtime_resources_created": true,
+    "created_in_b0": false,
+    "skills_installed": false
+  },
+  "synthetic_objects": 26,
+  "static_cases": [
+    {
+      "case_id": "B0-positive",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "case_id": "B0-S01",
+      "name": "要求无内容依据",
+      "expected_error": "GOAL_DUAL_SOURCE",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "GOAL_DUAL_SOURCE",
+          "detail": "FIX-goal: content_basis_refs 缺失"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S02",
+      "name": "前置无要求依据",
+      "expected_error": "GOAL_DUAL_SOURCE",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "GOAL_DUAL_SOURCE",
+          "detail": "FIX-goal: requirement_source_refs 缺失"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S03",
+      "name": "判据无内容依据",
+      "expected_error": "GOAL_DUAL_SOURCE",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "GOAL_DUAL_SOURCE",
+          "detail": "FIX-goal: content_basis_refs 缺失"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S04",
+      "name": "缺原答不得以摘要代替",
+      "expected_error": "REQUIRED_FIELD",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "REQUIRED_FIELD",
+          "detail": "FIX-event/original_response"
+        },
+        {
+          "code": "ORIGINAL_ARTIFACT",
+          "detail": "FIX-event"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S05",
+      "name": "单轴 mastered 不属于支持状态",
+      "expected_error": "JUDGMENT_AXIS",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "JUDGMENT_AXIS",
+          "detail": "FIX-judgment"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S06",
+      "name": "未保留判据具体修订",
+      "expected_error": "CRITERION_REVISION",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "CRITERION_REVISION",
+          "detail": "FIX-judgment"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S07",
+      "name": "引用不存在的事件修订",
+      "expected_error": "BROKEN_REF",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "BROKEN_REF",
+          "detail": "FIX-judgment/event_refs/0: {'id': 'FIX-event', 'revision': 2}"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S08",
+      "name": "帮助与修订顺序冲突",
+      "expected_error": "TIMELINE_ORDER",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "TIMELINE_ORDER",
+          "detail": "FIX-event"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S09",
+      "name": "同一表现复制成第二样本事件",
+      "expected_error": "SAMPLE_DUPLICATION",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "SAMPLE_DUPLICATION",
+          "detail": "FIX-sample-1: FIX-event, FIX-event-copy"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S10",
+      "name": "AG0 常规授权不授重要复核",
+      "expected_error": "AUTHORITY_SCOPE",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "AUTHORITY_SCOPE",
+          "detail": "FIX-judgment"
+        },
+        {
+          "code": "AUTHORITY_SCOPE",
+          "detail": "FIX-judgment: AG0 不拥有重要复核权"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S11",
+      "name": "评分授权主体不匹配",
+      "expected_error": "AUTHORITY_SCOPE",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "AUTHORITY_SCOPE",
+          "detail": "FIX-judgment"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S12",
+      "name": "候选判断不能进入已采用计划依据",
+      "expected_error": "UNADOPTED_BASIS",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "UNADOPTED_BASIS",
+          "detail": "FIX-plan: FIX-judgment"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S13",
+      "name": "只接责不能声称已安排",
+      "expected_error": "NEED_DISPOSITION",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "NEED_DISPOSITION",
+          "detail": "FIX-need: 安排未关联接责与承诺"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S14",
+      "name": "费用未知不能隐填零",
+      "expected_error": "FACT_STATUS",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "FACT_STATUS",
+          "detail": "FIX-budget/fees: 未知等状态带 value 或缺原因"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S15",
+      "name": "待查依赖未知不能隐填无影响",
+      "expected_error": "FACT_STATUS",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "FACT_STATUS",
+          "detail": "FIX-correction/unknown_dependencies: 未知等状态带 value 或缺原因"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S16",
+      "name": "材料角色不能维护能力判断",
+      "expected_error": "OWNER_SCOPE",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "OWNER_SCOPE",
+          "detail": "FIX-judgment: AG2"
+        },
+        {
+          "code": "AUTHORITY_SCOPE",
+          "detail": "FIX-judgment"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S17",
+      "name": "诊断不能只留原因标签",
+      "expected_error": "REQUIRED_FIELD",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "REQUIRED_FIELD",
+          "detail": "FIX-diagnostic/decision_branches"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S18",
+      "name": "纠错不能遗漏历史判断恢复",
+      "expected_error": "REQUIRED_FIELD",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "REQUIRED_FIELD",
+          "detail": "FIX-correction/judgment_recovery"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S19",
+      "name": "解除用途限制需要恢复依据",
+      "expected_error": "RESTRICTION_RESTORE",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "RESTRICTION_RESTORE",
+          "detail": "FIX-restriction"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S20",
+      "name": "同一操作不能被复制为另一工作单",
+      "expected_error": "OPERATION_DUPLICATION",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "OPERATION_DUPLICATION",
+          "detail": "FIX-operation-1: FIX-work-order, FIX-work-order-copy"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S21",
+      "name": "工作单授权收件人不匹配",
+      "expected_error": "WORK_AUTHORITY",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "WORK_AUTHORITY",
+          "detail": "FIX-work-order"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S22",
+      "name": "工作单超出接收者授权决定范围",
+      "expected_error": "WORK_AUTHORITY",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "WORK_AUTHORITY",
+          "detail": "FIX-work-order"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S23",
+      "name": "有限诊断不能靠 AG0 自报角色获得授权",
+      "expected_error": "DIAGNOSTIC_AUTHORITY",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "DIAGNOSTIC_AUTHORITY",
+          "detail": "FIX-diagnostic"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S24",
+      "name": "有限诊断必须引用明确授权",
+      "expected_error": "DIAGNOSTIC_AUTHORITY",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "REQUIRED_FIELD",
+          "detail": "FIX-diagnostic/authorization_ref"
+        },
+        {
+          "code": "DIAGNOSTIC_AUTHORITY",
+          "detail": "FIX-diagnostic"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S25",
+      "name": "空授权对象范围不是全域权限",
+      "expected_error": "AUTHORITY_SCOPE",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "AUTHORITY_SCOPE",
+          "detail": "FIX-judgment"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S26",
+      "name": "授权判据不能引用内容源冒充目标要求",
+      "expected_error": "AUTHORITY_SCOPE",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "AUTHORITY_SCOPE",
+          "detail": "FIX-judgment"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S27",
+      "name": "对象引用不能省略修订",
+      "expected_error": "REFERENCE_SHAPE",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "REFERENCE_SHAPE",
+          "detail": "FIX-goal/content_basis_refs/0: ObjectRef 缺合法修订"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S28",
+      "name": "空原答对象不构成原件引用",
+      "expected_error": "ORIGINAL_ARTIFACT",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "ORIGINAL_ARTIFACT",
+          "detail": "FIX-event"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S29",
+      "name": "空时序不能隐去初答和帮助",
+      "expected_error": "TIMELINE_CONTENT",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "TIMELINE_CONTENT",
+          "detail": "FIX-event"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S30",
+      "name": "父任务 known 不能只有空结构",
+      "expected_error": "PARENT_TASK",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "PARENT_TASK",
+          "detail": "FIX-activity"
+        }
+      ]
+    },
+    {
+      "case_id": "B0-S31",
+      "name": "删除状态不得保留可重建载荷",
+      "expected_error": "FACT_STATUS",
+      "status": "pass",
+      "observed_errors": [
+        {
+          "code": "FACT_STATUS",
+          "detail": "FIX-correction/unknown_dependencies: Fact 包含额外载荷"
+        }
+      ]
+    }
+  ],
+  "runtime_scenarios": [
+    {
+      "case_id": "B10-01",
+      "status": "not_executed"
+    },
+    {
+      "case_id": "B10-02",
+      "status": "not_executed"
+    },
+    {
+      "case_id": "B10-03",
+      "status": "not_executed"
+    },
+    {
+      "case_id": "B10-04",
+      "status": "not_executed"
+    },
+    {
+      "case_id": "B10-05",
+      "status": "not_executed"
+    },
+    {
+      "case_id": "B10-06",
+      "status": "not_executed"
+    },
+    {
+      "case_id": "B10-07",
+      "status": "not_executed"
+    },
+    {
+      "case_id": "B10-08",
+      "status": "not_executed"
+    },
+    {
+      "case_id": "B10-09",
+      "status": "not_executed"
+    },
+    {
+      "case_id": "B10-10",
+      "status": "not_executed"
+    },
+    {
+      "case_id": "B10-11",
+      "status": "not_executed"
+    },
+    {
+      "case_id": "B10-12",
+      "status": "not_executed"
+    },
+    {
+      "case_id": "N-B0-01",
+      "status": "not_executed"
+    },
+    {
+      "case_id": "N-B0-02",
+      "status": "not_executed"
+    },
+    {
+      "case_id": "N-B0-03",
+      "status": "not_executed"
+    }
+  ],
+  "limitations": [
+    "非运行记录服务，未验证真实身份/写隔离/原子保存/接管/删除/迟到拒绝",
+    "字段检查并非完整嵌套 schema 或专业核验",
+    "虚构数据不构成真实试用，不支持 V1—V4 通过或学习效果/组织净价值结论"
+  ],
+  "replay_batch": "B3a",
+  "replay_client_date": "2026-10-03",
+  "replay_client_timezone": "Asia/Shanghai"
+}

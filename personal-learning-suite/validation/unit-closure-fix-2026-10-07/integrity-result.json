@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "changed_public_files": [
+    "docs/README.md",
+    "learning/embodied-intelligence/FRAMEWORK.md",
+    "learning/embodied-intelligence/MODEL_ENTRY.md",
+    "learning/embodied-intelligence/START_PROMPT.md",
+    "learning/embodied-intelligence/framework-manifest.json",
+    "personal-learning-suite/src/README.md",
+    "personal-learning-suite/src/agents/AG0-coach.md",
+    "personal-learning-suite/src/agents/AG1-design-planning.md",
+    "personal-learning-suite/src/agents/AG3-assessment.md",
+    "personal-learning-suite/src/skills/learning-assessment/SKILL.md",
+    "personal-learning-suite/src/skills/learning-planning/references/recovery.md",
+    "personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+    "personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md"
+  ],
+  "unexpected_changes": [],
+  "registered_sources_checked": 19,
+  "source_errors": [],
+  "links_checked": 462,
+  "broken_links": [],
+  "manifest_entries": 117,
+  "manifest_errors": [],
+  "limits": [
+    "Only public baseline/diff retained here; private snapshot remains inside the course",
+    "Links and hashes are not learning-effect or independent-Agent proof"
+  ]
+}

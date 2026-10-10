@@ -1,0 +1,6 @@
+test_budget_checkpoint_recovers_consumption_and_stops_more_teaching (test_b3b_teaching.B3bTeachingTests.test_budget_checkpoint_recovers_consumption_and_stops_more_teaching) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.251s
+
+OK

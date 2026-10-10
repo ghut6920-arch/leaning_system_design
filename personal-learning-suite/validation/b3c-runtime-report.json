@@ -1,0 +1,211 @@
+{
+  "batch": "B3c",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "versions": {
+    "shared": "pl-contracts/0.1.0",
+    "store": "pl-store/0.1.0",
+    "strategies": "pl-strategies/0.1.0"
+  },
+  "executor": "scripts/check_b3c.py; Python unittest",
+  "checker": "Separate B3c behavior-test agent; implementation reviewed against observed results",
+  "status": "passed",
+  "synthetic_only": true,
+  "tests_run": 44,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_all_compiled_packets_include_full_body_common_rules_source_and_conditions",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_changed_source_bytes_in_a_separate_project_root_block_derived_resources",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_light_index_keeps_sixty_distinct_original_encoding_ids_and_only_three_packets",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_missing_and_modified_packet_bytes_cannot_remain_available",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_r09_empty_evidence_stays_empty_and_design_template_is_not_experimental_proof",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_reproducible_resource_check_runs_from_another_cwd_without_rewriting_resources",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_two_body_carriers_preserve_one_set_of_original_evidence_references",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_uncompiled_entry_is_navigation_and_cannot_return_an_executable_packet",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cCatalogTests.test_unknown_post_literature_or_coverage_ids_cannot_be_promoted_to_resource_keys",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_cas_does_not_replace_a_newer_state",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_cli_change_restrict_persists_control_and_returns_pending_recovery",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_cli_invalid_payload_returns_structured_error_without_input_marker",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_config_may_not_expand_resources_allowed_by_current_goal",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_current_material_declarations_must_support_both_correctness_and_use",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_current_scope_restriction_precedes_old_success_and_user_resume_does_not_restore_use",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_delete_late_result_cannot_restore_personal_config_and_generic_resources_are_unchanged",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_feedback_and_total_budget_are_gates_while_unmeasured_costs_stay_unknown",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_grant_and_adoption_receipts_are_explicit_and_ag0_cannot_write_method_config",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_independent_positive_declarations_keep_one_event_and_no_adoption_in_inspection",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_independent_time_requirement_cannot_be_hidden_by_false_context_flag",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_independent_use_does_not_convert_unknown_exposure_and_contact_into_no_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_malformed_nested_declarations_return_error_without_throwing_or_writing",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_matching_required_time_declaration_is_checked_without_claiming_temporal_or_learning_verification",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_method_revision_preserves_historical_config_and_original_events",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_missing_body_or_uncompiled_choice_cannot_pass_config_compatibility",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_needed_resource_condition_unknown_and_active_exclusion_limit_the_configuration",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_not_required_goal_time_cannot_be_replaced_by_an_extra_independent_requirement",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_pause_blocks_current_configuration_and_direct_reuse",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_post_allowed_reference_and_unknown_time_do_not_force_retrieval_or_generate_schedule",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_r09_cannot_acquire_an_invented_paper_source_through_config_metadata",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_r09_remains_a_valid_design_candidate_without_inventing_research_ids",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_reliable_activity_short_path_does_not_read_catalog_or_add_work",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_resource_source_revision_trace_distinguishes_matching_and_unmatched_old_versions",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_restriction_is_committed_before_recovery_trace_and_remains_effective",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_reuse_requires_current_adopted_config_and_keeps_legitimate_previous_revision_readable",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_review_is_not_adoption_and_wrong_responsible_adopter_is_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_same_connection_two_cards_form_one_config_without_performance_or_plan_mutation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_same_operation_is_idempotent_changed_payload_rejected_and_reopen_preserves_config",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_source_resource_change_finds_only_recorded_selected_uses_without_rewriting_history",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_source_version_and_evidence_limits_cannot_be_silently_replaced",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_teaching_may_continue_before_target_time_requirement_without_creating_delayed_work",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_time_requirement_on_another_criterion_does_not_become_current_activity_debt",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_title_or_help_that_supplies_target_operation_limits_independent_use",
+      "status": "passed"
+    },
+    {
+      "case": "test_b3c_strategies.B3cConfigurationTests.test_trace_is_read_only_and_recovery_remains_separate_pending_responsibilities",
+      "status": "passed"
+    }
+  ],
+  "raw_output_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\validation\\b3c-runtime-output.txt",
+  "host_versions": {
+    "python": "3.12.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "sqlite": "3.46.1"
+  },
+  "limitations": [
+    "Artificial fixtures and temporary SQLite workspaces; no real course, learner response, or actual teaching.",
+    "Resources and declared compatibility are checked; this does not establish domain truth, hidden semantic leakage, or method efficacy.",
+    "Three Encoding card packets are checked; light-index coverage does not compile or approve all sixty cards.",
+    "Catalog integrity and source versions do not independently reverify research papers or create a causal strategy ranking.",
+    "AG1/AG0 actors are fixture configuration, not authenticated host identity or deployed multi-agent authority.",
+    "Only managed records are subject to SQLite deletion; external requests, stdout copies, host history, and already loaded context remain outside its control.",
+    "Passing this finite slice does not establish complete B10 scenarios, real V1—V4 outcomes, or learning benefits."
+  ]
+}

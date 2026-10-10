@@ -1,0 +1,41 @@
+{
+  "completed_on": "2026-10-05",
+  "synthetic_only": true,
+  "check_kind": "reference_arithmetic_and_finite_model_examples",
+  "closed_loop_parameter_pairs": [
+    [
+      "1",
+      "3/5"
+    ],
+    [
+      "2",
+      "3/10"
+    ]
+  ],
+  "matching_track_points": 7,
+  "ideal_known_command_calibration": "verified_in_given_model",
+  "quadratic_cases": [
+    {
+      "lambda": "1/2",
+      "good_determinant": "10",
+      "bad_determinant": "0",
+      "flat_minimum": "5/11"
+    },
+    {
+      "lambda": "1",
+      "good_determinant": "20",
+      "bad_determinant": "0",
+      "flat_minimum": "5/6"
+    },
+    {
+      "lambda": "3",
+      "good_determinant": "60",
+      "bad_determinant": "0",
+      "flat_minimum": "15/8"
+    }
+  ],
+  "result": "pass",
+  "general_proof": "written_argument_in_teaching_reference_not_proved_by_this_probe",
+  "independent_teacher_validation": "not_executed",
+  "real_learning_outcomes": "not_executed"
+}

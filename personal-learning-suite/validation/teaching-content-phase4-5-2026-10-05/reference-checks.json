@@ -1,0 +1,210 @@
+{
+  "scope": "public fictional content anchors and asset existence",
+  "checks": [
+    {
+      "name": "quadratic anchor x=-1",
+      "passed": true
+    },
+    {
+      "name": "quadratic anchor x=0",
+      "passed": true
+    },
+    {
+      "name": "quadratic anchor x=1",
+      "passed": true
+    },
+    {
+      "name": "quadratic anchor x=2",
+      "passed": true
+    },
+    {
+      "name": "quadratic anchor x=3",
+      "passed": true
+    },
+    {
+      "name": "quadratic anchor x=4",
+      "passed": true
+    },
+    {
+      "name": "quadratic anchor x=5",
+      "passed": true
+    },
+    {
+      "name": "reverse reconstruction coefficient",
+      "passed": true
+    },
+    {
+      "name": "reverse reconstruction vertex and point",
+      "passed": true
+    },
+    {
+      "name": "zero must remain in y^2=3y",
+      "passed": true
+    },
+    {
+      "name": "fraction domain and valid solution",
+      "passed": true
+    },
+    {
+      "name": "provided mean fixtures",
+      "passed": true
+    },
+    {
+      "name": "empty mean has no valid denominator",
+      "passed": true
+    },
+    {
+      "name": "identity finite solution lambda=0.1",
+      "passed": true
+    },
+    {
+      "name": "identity finite positive curvature lambda=0.1",
+      "passed": true
+    },
+    {
+      "name": "difference finite solution lambda=0.1",
+      "passed": true
+    },
+    {
+      "name": "difference finite positive curvature lambda=0.1",
+      "passed": true
+    },
+    {
+      "name": "sum penalty free direction lambda=0.1",
+      "passed": true
+    },
+    {
+      "name": "sum penalty optimum finite check lambda=0.1",
+      "passed": true
+    },
+    {
+      "name": "identity finite solution lambda=1.0",
+      "passed": true
+    },
+    {
+      "name": "identity finite positive curvature lambda=1.0",
+      "passed": true
+    },
+    {
+      "name": "difference finite solution lambda=1.0",
+      "passed": true
+    },
+    {
+      "name": "difference finite positive curvature lambda=1.0",
+      "passed": true
+    },
+    {
+      "name": "sum penalty free direction lambda=1.0",
+      "passed": true
+    },
+    {
+      "name": "sum penalty optimum finite check lambda=1.0",
+      "passed": true
+    },
+    {
+      "name": "identity finite solution lambda=3.0",
+      "passed": true
+    },
+    {
+      "name": "identity finite positive curvature lambda=3.0",
+      "passed": true
+    },
+    {
+      "name": "difference finite solution lambda=3.0",
+      "passed": true
+    },
+    {
+      "name": "difference finite positive curvature lambda=3.0",
+      "passed": true
+    },
+    {
+      "name": "sum penalty free direction lambda=3.0",
+      "passed": true
+    },
+    {
+      "name": "sum penalty optimum finite check lambda=3.0",
+      "passed": true
+    },
+    {
+      "name": "three-dimensional null direction",
+      "passed": true
+    },
+    {
+      "name": "projection symmetric PSD rank-one fixture",
+      "passed": true
+    },
+    {
+      "name": "projection covers kernel fixture",
+      "passed": true
+    },
+    {
+      "name": "alternative diagonal symmetric PSD rank-one fixture",
+      "passed": true
+    },
+    {
+      "name": "alternative diagonal covers kernel fixture",
+      "passed": true
+    },
+    {
+      "name": "wrong rank-one construction misses direction",
+      "passed": true
+    },
+    {
+      "name": "shared week arithmetic",
+      "passed": true
+    },
+    {
+      "name": "relationship session arithmetic",
+      "passed": true
+    },
+    {
+      "name": "whole product session arithmetic",
+      "passed": true
+    },
+    {
+      "name": "remaining five minutes arithmetic",
+      "passed": true
+    },
+    {
+      "name": "candidate backlog arithmetic",
+      "passed": true
+    },
+    {
+      "name": "chosen backlog scope arithmetic",
+      "passed": true
+    },
+    {
+      "name": "defined toy model forward value",
+      "passed": true
+    },
+    {
+      "name": "defined toy identification a",
+      "passed": true
+    },
+    {
+      "name": "defined toy identification b",
+      "passed": true
+    },
+    {
+      "name": "zero actions do not determine b",
+      "passed": true
+    },
+    {
+      "name": "specified seven-day interval not met at day seven",
+      "passed": true
+    },
+    {
+      "name": "actual asset exists: quadratic-grid.png",
+      "passed": true
+    },
+    {
+      "name": "actual asset exists: quadratic-reference.png",
+      "passed": true
+    }
+  ],
+  "passed": 50,
+  "total": 50,
+  "finite_computations_are_not_general_proofs": true,
+  "teaching_effectiveness_tested": false,
+  "personal_records_read": false
+}

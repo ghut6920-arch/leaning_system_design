@@ -1,0 +1,73 @@
+{
+  "batch": "B6",
+  "network_version": "pl-network/0.1.0",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "workspace": "E:\\文献资料\\学习系统架构设计\\B6_虚构工作网络空间",
+  "existing_workspace": true,
+  "initialization": [],
+  "execution": null,
+  "recovery": {
+    "status": "ok",
+    "state_revision": 19,
+    "object_refs": [
+      {
+        "id": "FIX-b6-demo-result-AG0",
+        "revision": 2,
+        "type": "WorkResult"
+      },
+      {
+        "id": "FIX-b6-demo-result-AG1",
+        "revision": 2,
+        "type": "WorkResult"
+      },
+      {
+        "id": "FIX-b6-demo-result-AG2",
+        "revision": 2,
+        "type": "WorkResult"
+      },
+      {
+        "id": "FIX-b6-demo-result-AG3",
+        "revision": 2,
+        "type": "WorkResult"
+      },
+      {
+        "id": "FIX-b6-review-AG0",
+        "revision": 2,
+        "type": "WorkOrder"
+      },
+      {
+        "id": "FIX-b6-review-AG1",
+        "revision": 2,
+        "type": "WorkOrder"
+      },
+      {
+        "id": "FIX-b6-review-AG2",
+        "revision": 2,
+        "type": "WorkOrder"
+      },
+      {
+        "id": "FIX-b6-review-AG3",
+        "revision": 2,
+        "type": "WorkOrder"
+      },
+      {
+        "id": "FIX-network-execution-FIX-activity",
+        "revision": 2,
+        "type": "ControlState"
+      }
+    ]
+  },
+  "integrity": {
+    "status": "ok"
+  },
+  "reopen_read_only": true,
+  "state_revision": 19,
+  "limitations": [
+    "Synthetic fixture declarations only; no real learner, correctness review or learning efficacy is established.",
+    "Four roles use one cooperating local serial host with opaque in-process capabilities; distributed or background execution is disabled.",
+    "Existing workspaces are never reseeded, replayed, professionally adopted or assigned a new execution epoch by this demo.",
+    "External reports and request copies are beyond managed store deletion scope."
+  ]
+}

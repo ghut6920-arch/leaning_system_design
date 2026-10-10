@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "execution_date_in_user_context": "2026-10-05",
+  "command": "python -X utf8 personal-learning-suite/scripts/build_b3c_resources.py --check",
+  "exit_code": 0,
+  "observed_stdout": {
+    "passed": true,
+    "mode": "check",
+    "resource_revision": "pl-strategies/0.1.0",
+    "files": 11,
+    "encoding_index": 60,
+    "compiled_encoding": ["S07", "X02", "R09"],
+    "post_notes": 4,
+    "external_references_verified": false
+  },
+  "limits": ["Compiled resource/source fidelity only; not all 60 cards compiled or proven effective."]
+}

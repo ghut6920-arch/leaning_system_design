@@ -1,0 +1,121 @@
+{
+  "execution_date_in_user_context": "2026-10-05",
+  "kind": "whole-framework original-source fidelity review and fictional first-turn execution",
+  "reviewers": [
+    "entry_continuity_fresh",
+    "design_assessment_fresh",
+    "teaching_forward_fresh"
+  ],
+  "instruction_scope": {
+    "skills": 7,
+    "skill_references": 30,
+    "agent_definitions": 4,
+    "total": 41
+  },
+  "review_findings": {
+    "confirmed_substantive_instruction_deviations": 0,
+    "confirmed_source_locator_errors_fixed": 1,
+    "main_flow_rewrite_required_by_observed_evidence": false
+  },
+  "first_turn_execution": {
+    "fictional_cases": 12,
+    "cases_per_reviewer": 4,
+    "actual_requests_and_outputs_saved": true,
+    "root_read_all_cases": true,
+    "teaching_outputs_frozen_before_original_design_research_audit": true,
+    "entry_and_design_cases_created_after_their_source_review": true,
+    "ideal_answers_or_prior_outputs_provided_to_generators": false,
+    "teaching_narrow_source_locator_fix_notice_received": true,
+    "generated_learner_followups": false,
+    "formal_learning_state_submissions": false,
+    "same_system_model_subagents": true,
+    "technical_read_isolation": false,
+    "root_blind_grading": false,
+    "reviewer_self_grading_is_independent": false
+  },
+  "validation_layers": {
+    "V1": "limited specific math/code/content/figure anchors; not general efficacy",
+    "V2": "12 actual fictional first turns; later feedback and runtime adoption not executed",
+    "V3": "not_executed: no real learner performance",
+    "V4": "not_executed: no comparable learning/cost observations"
+  },
+  "content_anchors": {
+    "lower_bound_finite_inputs": 280,
+    "original_input_program_failures": 80,
+    "teacher_reference_failures": 0,
+    "general_proof_separate_from_finite_execution": true,
+    "affine_png_opened_by_generator_and_root": true,
+    "learner_independent_implementation_or_drawing_proven": false
+  },
+  "software_checks": {
+    "skill_formats_passed": 7,
+    "b0_static_cases_passed": 32,
+    "b0_future_scenarios_not_executed": 15,
+    "resource_build_check": {
+      "passed": true,
+      "mode": "check",
+      "resource_revision": "pl-strategies/0.1.0",
+      "files": 11,
+      "encoding_index": 60,
+      "compiled_encoding": [
+        "S07",
+        "X02",
+        "R09"
+      ],
+      "post_notes": 4,
+      "external_references_verified": false
+    },
+    "previous_phase_483_runtime_regressions_rerun": false,
+    "runtime_code_changed": false
+  },
+  "public_integrity": {
+    "status": "pass",
+    "instruction_files": 41,
+    "public_assets": 2,
+    "manifest_entries": 44,
+    "public_documents_checked": 81,
+    "local_links_checked": 622,
+    "broken_links": [],
+    "manifest_errors": [],
+    "frozen_sources_checked": 19,
+    "frozen_source_errors": [],
+    "protected_public_files": 485,
+    "protected_public_changes": [],
+    "changed_existing_public_files": 8,
+    "private_records_read_or_hashed_by_this_probe": false,
+    "limits": [
+      "Public layout/fingerprints only; not pedagogy, learning efficacy or native deployment."
+    ]
+  },
+  "learning_directory_unchanged": {
+    "unchanged": true,
+    "guarded_files": 79,
+    "changed_count": 0,
+    "guard_scope": "final_verification_segment_only",
+    "original_guard_result_available_after_turn_continuation": false,
+    "whole_audit_unchanged_verified": false,
+    "agent_writes_to_personal_learning_files": false,
+    "private_contents_paths_or_digests_saved": false,
+    "excluded_public_protocols": [
+      "FRAMEWORK.md",
+      "framework-manifest.json"
+    ]
+  },
+  "course_deployment": {
+    "mode": "manual_files",
+    "native_skills_installed": false,
+    "real_runtime_binding": false,
+    "four_independent_teaching_agents_started": false
+  },
+  "costs": {
+    "actual_real_learning_time": "unknown",
+    "user_wait_time": "unknown",
+    "actual_model_fees": "unknown",
+    "fictional_budget_is_measured_time": false
+  },
+  "limits": [
+    "No original educational papers revalidated.",
+    "Original source fidelity and first turns do not guarantee all models, later responses or learning outcomes.",
+    "Independent source-first contexts are not cross-model replication, blind grading or real learning."
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "batch": "B6",
+  "kind": "independent_targeted_audit",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "auditor": "/root/b6_audit",
+  "independent_test_author": "/root/network_tests",
+  "host": {
+    "kind": "managed local in-process serial NetworkHost",
+    "background_delegation": false,
+    "parallel_presentation": false,
+    "python": "3.12.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "sqlite": "3.46.1",
+    "python_executable": "E:\\anaconda\\python.exe",
+    "network": "pl-network/0.1.0",
+    "shared": "pl-contracts/0.1.0",
+    "store": "pl-store/0.1.0"
+  },
+  "status": "passed",
+  "tests_run": 12,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "working_directory": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\tests",
+  "actual_command": "python -X utf8 -m unittest -v test_b6_network.B6NetworkTests.test_deleted_typed_record_cannot_hide_personal_excerpt_inside_a_new_request test_b6_network.B6NetworkTests.test_work_order_scope_cannot_mislabel_another_professional_target test_b6_network.B6NetworkTests.test_business_limited_material_result_cannot_be_adopted_as_fully_handled test_b6_network.B6NetworkTests.test_context_segment_cannot_read_unrelated_original_from_shared_artifact_path test_b6_network.B6NetworkTests.test_material_context_cannot_expand_declared_reference_line_bounds test_b6_network.B6NetworkTests.test_read_only_material_authorization_cannot_be_relabelled_to_review_operation test_b6_network.B6NetworkTests.test_delete_execution_control_including_indexes_requires_fresh_capability_before_new_claim test_b6_network.B6NetworkTests.test_takeover_allows_only_current_executor_epoch_to_present_learner_packet test_b6_network.B6NetworkTests.test_pause_controls_are_checked_before_cached_context_and_presentation test_b6_network.B6ExecutionStoreTests.test_controls_are_checked_before_successful_execution_receipt test_b6_network.B6ExecutionStoreTests.test_takeover_revokes_old_executor_epoch_and_old_claim_receipt test_b6_network.B6ExecutionStoreTests.test_execution_claim_cas_and_identical_retry_do_not_increase_epoch",
+  "exit_code": 0,
+  "raw_output": "test_deleted_typed_record_cannot_hide_personal_excerpt_inside_a_new_request (test_b6_network.B6NetworkTests.test_deleted_typed_record_cannot_hide_personal_excerpt_inside_a_new_request) ... ok\r\ntest_work_order_scope_cannot_mislabel_another_professional_target (test_b6_network.B6NetworkTests.test_work_order_scope_cannot_mislabel_another_professional_target) ... ok\r\ntest_business_limited_material_result_cannot_be_adopted_as_fully_handled (test_b6_network.B6NetworkTests.test_business_limited_material_result_cannot_be_adopted_as_fully_handled) ... ok\r\ntest_context_segment_cannot_read_unrelated_original_from_shared_artifact_path (test_b6_network.B6NetworkTests.test_context_segment_cannot_read_unrelated_original_from_shared_artifact_path) ... ok\r\ntest_material_context_cannot_expand_declared_reference_line_bounds (test_b6_network.B6NetworkTests.test_material_context_cannot_expand_declared_reference_line_bounds) ... ok\r\ntest_read_only_material_authorization_cannot_be_relabelled_to_review_operation (test_b6_network.B6NetworkTests.test_read_only_material_authorization_cannot_be_relabelled_to_review_operation) ... ok\r\ntest_delete_execution_control_including_indexes_requires_fresh_capability_before_new_claim (test_b6_network.B6NetworkTests.test_delete_execution_control_including_indexes_requires_fresh_capability_before_new_claim) ... ok\r\ntest_takeover_allows_only_current_executor_epoch_to_present_learner_packet (test_b6_network.B6NetworkTests.test_takeover_allows_only_current_executor_epoch_to_present_learner_packet) ... ok\r\ntest_pause_controls_are_checked_before_cached_context_and_presentation (test_b6_network.B6NetworkTests.test_pause_controls_are_checked_before_cached_context_and_presentation) ... ok\r\ntest_controls_are_checked_before_successful_execution_receipt (test_b6_network.B6ExecutionStoreTests.test_controls_are_checked_before_successful_execution_receipt) ... ok\r\ntest_takeover_revokes_old_executor_epoch_and_old_claim_receipt (test_b6_network.B6ExecutionStoreTests.test_takeover_revokes_old_executor_epoch_and_old_claim_receipt) ... ok\r\ntest_execution_claim_cas_and_identical_retry_do_not_increase_epoch (test_b6_network.B6ExecutionStoreTests.test_execution_claim_cas_and_identical_retry_do_not_increase_epoch) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 12 tests in 2.568s\r\n\r\nOK\r\n",
+  "execution_notes": [
+    "最终使用全部 12 个正确的具体方法名同批重跑，12 个均通过。先前误写不存在方法名造成的 unittest loader 项不属于有效检查，已从本报告案例与计数剔除；对应正确 pause 方法在最终同批重跑中通过。",
+    "本审查仅新增此 JSON 产物；未修改运行代码、测试或既有验证报告。"
+  ],
+  "findings": [
+    {
+      "code": "INLINE_DELETED_PAYLOAD",
+      "before_fix": "合法删除 FIX-need 后重新 bind AG0，把旧 typed LearningNeed 放入 material_order.professional_request.memo，并补齐仍存的上游 refs，曾再次保存已删独特文本。",
+      "repair": "network_runtime 限定专业 typed definition 位置，检查自身 ID 的删除/暂停/当前性，既存定义 ID 加入 WorkOrder 规范依赖。root 复核 Store 删除的字符串闭包并收敛删除承诺。",
+      "cases": [
+        "test_b6_network.B6NetworkTests.test_deleted_typed_record_cannot_hide_personal_excerpt_inside_a_new_request"
+      ]
+    },
+    {
+      "code": "PRIMARY_SCOPE_MISMATCH",
+      "before_fix": "材料请求目标保持 FIX-material，scope 与 operation_scope 改成 FIX-goal 后曾被接责与执行。",
+      "repair": "network_runtime 从固定专业操作推导 primary targets，并在 dispatch 与 run 校验其属于操作和已接范围。root 校验 WorkResult 网络授权使用实际工作单范围。",
+      "cases": [
+        "test_b6_network.B6NetworkTests.test_work_order_scope_cannot_mislabel_another_professional_target"
+      ]
+    },
+    {
+      "code": "LIMITED_RESULT_ADOPTION",
+      "before_fix": "material verification pending 返回 limited；曾以 handled_scope 全范围和空限制 adopted。",
+      "repair": "network_runtime 复用 B5 successful 的完整条件，失败/不完整返回保留 unhandled_scope，采用检查 professional_successful。root 校对采用与正式专业产物的分界。",
+      "cases": [
+        "test_b6_network.B6NetworkTests.test_business_limited_material_result_cannot_be_adopted_as_fully_handled"
+      ]
+    },
+    {
+      "code": "ARTIFACT_IDENTITY_AND_BOUNDS",
+      "before_fix": "未包含 FIX-event 的材料工作单曾读出其 original_response；合法材料 locator 也曾允许 1–整件范围，返回范围外标记。",
+      "repair": "root 提出非上下文原答反例，b6_audit 实跑并追加扩窗反例；network_runtime 检查上下文内 ArtifactRef 的准确 path/locator/revision/origin 以及自身行范围。",
+      "cases": [
+        "test_b6_network.B6NetworkTests.test_context_segment_cannot_read_unrelated_original_from_shared_artifact_path",
+        "test_b6_network.B6NetworkTests.test_material_context_cannot_expand_declared_reference_line_bounds"
+      ]
+    },
+    {
+      "code": "OPERATION_DECISION_RELABEL",
+      "before_fix": "只允许 material_read 的新 AG2 grant 曾经调用方重标 material_read，获得 materials.inspect 的兼容审查结果。",
+      "repair": "network_runtime 固定 operation 到允许 decision_types 的映射，并检查专业提交 decision 与工作单一致、专业授权不超出工作单授权。root 复核读权限与专业审查权限分离。",
+      "cases": [
+        "test_b6_network.B6NetworkTests.test_read_only_material_authorization_cannot_be_relabelled_to_review_operation"
+      ]
+    },
+    {
+      "code": "DELETION_EPOCH_REUSE_BOUNDARY",
+      "before_fix": "单独 Store 在删除 execution 控制及索引后可复用相同数字 epoch；Store 字符串不是能力认证。",
+      "repair": "network_runtime 透传 include_indexes，已开启删除门或完成删除即终止本宿主能力；fresh bind 生成新的随机 executor_id。root 明确不保留已删个人关联高水位，由 Store 当前门与宿主能力失效联合保障。",
+      "cases": [
+        "test_b6_network.B6NetworkTests.test_delete_execution_control_including_indexes_requires_fresh_capability_before_new_claim",
+        "test_b6_network.B6NetworkTests.test_takeover_allows_only_current_executor_epoch_to_present_learner_packet"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "test_id": "test_b6_network.B6NetworkTests.test_deleted_typed_record_cannot_hide_personal_excerpt_inside_a_new_request",
+      "check": "删除后的完整 typed LearningNeed 藏入专业请求 memo，不得重新保存已删摘录。",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_b6_network.B6NetworkTests.test_work_order_scope_cannot_mislabel_another_professional_target",
+      "check": "materials.inspect 的实际 FIX-material 目标，不得伪装成已接责的 FIX-goal 范围。",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_b6_network.B6NetworkTests.test_business_limited_material_result_cannot_be_adopted_as_fully_handled",
+      "check": "material verification pending 导致 limited 返回时，不得全范围 adopted 隐去未完成工作。",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_b6_network.B6NetworkTests.test_context_segment_cannot_read_unrelated_original_from_shared_artifact_path",
+      "check": "材料工作单不得经共享 artifacts 路径读取未授权的 PerformanceEvent 原答 locator。",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_b6_network.B6NetworkTests.test_material_context_cannot_expand_declared_reference_line_bounds",
+      "check": "合法材料 artifact locator 不得把固有 3–4 行窗口扩到包含范围外标记的整件。",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_b6_network.B6NetworkTests.test_read_only_material_authorization_cannot_be_relabelled_to_review_operation",
+      "check": "仅 material_read 授权不得用调用方 decision_type 重标执行 materials.inspect 审查。",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_b6_network.B6NetworkTests.test_delete_execution_control_including_indexes_requires_fresh_capability_before_new_claim",
+      "check": "单删执行控制且 include_indexes=true 后，旧能力无效；重绑能力再接管仍可建立合法通道。",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_b6_network.B6NetworkTests.test_takeover_allows_only_current_executor_epoch_to_present_learner_packet",
+      "check": "接管后仅当前执行者及准确执行 epoch 可以取得学习者展示包。",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_b6_network.B6NetworkTests.test_pause_controls_are_checked_before_cached_context_and_presentation",
+      "check": "暂停控制先于已取得的上下文及显示请求；缓存请求不能恢复展示。",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_b6_network.B6ExecutionStoreTests.test_controls_are_checked_before_successful_execution_receipt",
+      "check": "已提交 execution claim 的相同操作重试仍先检查当前暂停控制。",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_b6_network.B6ExecutionStoreTests.test_takeover_revokes_old_executor_epoch_and_old_claim_receipt",
+      "check": "接管使旧执行者、旧 epoch 与旧 claim 成功回执都不能恢复旧通道。",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_b6_network.B6ExecutionStoreTests.test_execution_claim_cas_and_identical_retry_do_not_increase_epoch",
+      "check": "execution claim 使用 CAS；相同逻辑操作重试不增加 epoch 或重复保存。",
+      "status": "passed"
+    }
+  ],
+  "conclusion": "在明确的合成本地串行宿主管道内，本次 12 个控制、权限、采用、删除及输出反例未留下阻断问题。",
+  "limits": [
+    "该结果验证软件行为与有限宿主边界；不证明专业正文真伪、学习效果或四角色组织收益。",
+    "不保证外部文件系统写入、任意 Python 进程、外部 Codex 聊天拦截、已返回内容及外部历史删除。",
+    "未启用或验证后台工作器、并行学习者展示、分布式宿主和崩溃恢复租约。",
+    "Store 单独使用字符串 executor API 不提供宿主能力认证；索引删除后的安全性按宿主终止旧能力与新随机执行身份组合解释。"
+  ]
+}

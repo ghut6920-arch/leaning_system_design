@@ -1,0 +1,182 @@
+{
+  "batch": "B6",
+  "scope": "network",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "versions": {
+    "shared": "pl-contracts/0.1.0",
+    "store": "pl-store/0.1.0",
+    "network": "pl-network/0.1.0",
+    "professional_services": {
+      "entry": "pl-entry/0.1.0",
+      "goals_input": "pl-goals-input/0.1.0",
+      "materials": "pl-materials/0.1.0",
+      "assessment": "pl-assessment/0.1.0",
+      "teaching_core": "pl-teaching/0.1.0",
+      "teaching_specialized": "pl-teaching-b4/0.1.0",
+      "planning": "pl-planning/0.1.0",
+      "strategies": "pl-strategies/0.1.0"
+    },
+    "strategy_resources": "pl-strategies/0.1.0"
+  },
+  "executor": "scripts/check_b6.py; Python unittest",
+  "checker": "Independent B6 network test author; root reviews actual results",
+  "host_versions": {
+    "python": "3.12.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "sqlite": "3.46.1"
+  },
+  "status": "passed",
+  "tests_run": 34,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "case": "test_b6_network.B6ExecutionStoreTests.test_controls_are_checked_before_successful_execution_receipt",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6ExecutionStoreTests.test_execution_claim_cas_and_identical_retry_do_not_increase_epoch",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6ExecutionStoreTests.test_execution_failure_rolls_back_control_record_epoch_and_receipt",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6ExecutionStoreTests.test_non_entry_actor_and_stale_or_deleted_basis_cannot_claim",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6ExecutionStoreTests.test_takeover_revokes_old_executor_epoch_and_old_claim_receipt",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6ExecutionStoreTests.test_upstream_source_revision_change_invalidates_execution_even_if_caller_omits_it",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_async_and_parallel_requests_are_disabled_in_capabilities_and_behavior",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_bounded_material_context_reads_only_declared_reference_segment",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_business_limited_material_result_cannot_be_adopted_as_fully_handled",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_candidate_result_and_professional_adoption_are_distinct_and_cannot_be_forged",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_context_segment_cannot_read_unrelated_original_from_shared_artifact_path",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_delete_execution_control_including_indexes_requires_fresh_capability_before_new_claim",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_delete_rejects_cached_dispatch_run_and_result_adoption_without_reviving_payload",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_deleted_typed_record_cannot_hide_personal_excerpt_inside_a_new_request",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_demo_first_run_has_four_roles_and_takeover_then_reopens_without_replay_or_text_export",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_duplicate_host_is_rejected_in_process_and_subprocess_then_can_reopen",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_failed_delete_cleanup_ends_loaded_capabilities_and_keeps_persisted_stop_gate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_four_roles_load_actual_agent_and_skill_rules_and_execute_declared_review_services",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_material_context_cannot_expand_declared_reference_line_bounds",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_minimal_context_and_candidate_return_do_not_expose_unrelated_records_or_teacher_reference",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_opaque_identity_ignores_claimed_roles_and_cross_host_or_closed_capabilities",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_ordinary_reliable_short_path_creates_no_network_orders_or_professional_calls",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_partial_acceptance_keeps_unhandled_scope_and_does_not_schedule",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_pause_controls_are_checked_before_cached_context_and_presentation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_read_only_material_authorization_cannot_be_relabelled_to_review_operation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_received_is_read_only_and_unaccepted_work_stays_sender_responsibility",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_resume_without_summary_preserves_original_help_and_adds_no_required_check",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_run_wrong_role_or_relabelled_professional_operation_has_no_authority",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_same_operation_retry_cas_and_failed_candidate_are_transactional",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_scope_partition_and_candidate_adoption_cannot_expand_handled_work",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_shared_budget_is_referenced_once_without_creation_of_new_envelopes",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_successful_run_same_operation_retry_returns_saved_candidate_without_second_review",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_takeover_allows_only_current_executor_epoch_to_present_learner_packet",
+      "status": "passed"
+    },
+    {
+      "case": "test_b6_network.B6NetworkTests.test_work_order_scope_cannot_mislabel_another_professional_target",
+      "status": "passed"
+    }
+  ],
+  "raw_output_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\validation\\b6-network-runtime-output.txt",
+  "limitations": [
+    "All inputs, findings, original responses, costs, exposure and grants are explicitly fictional.",
+    "Host authority is verified only for this managed in-process serial adapter; arbitrary callers with filesystem or Python process access remain outside its boundary.",
+    "Background agents, parallel learner displays, distributed hosts and crash-recovery leases are not enabled or validated.",
+    "OS workspace lock checks establish cooperative local exclusion, not protection from direct SQLite or filesystem access.",
+    "No learning efficacy or benefit from four roles is established by these software behavior checks.",
+    "External requests, stdout and reports remain outside managed store deletion scope."
+  ]
+}

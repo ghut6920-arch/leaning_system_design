@@ -1,0 +1,146 @@
+{
+  "batch": "B4",
+  "scope": "teaching",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "versions": {
+    "shared": "pl-contracts/0.1.0",
+    "store": "pl-store/0.1.0",
+    "teaching_specialist": "pl-teaching-b4/0.1.0",
+    "planning": "pl-planning/0.1.0"
+  },
+  "executor": "scripts/check_b4.py; Python unittest",
+  "checker": "Independent initial test authors; primary agent reviewed and repaired failures",
+  "host_versions": {
+    "python": "3.12.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "sqlite": "3.46.1"
+  },
+  "status": "passed",
+  "tests_run": 28,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_activity_cannot_opt_out_of_goal_whole_requirements",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_ag1_design_returns_candidate_and_formal_commit_requires_adoption",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_branch_cannot_use_another_event_or_reference_as_learner_observation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_budget_exhaustion_stops_new_expansion_and_keeps_original_goal",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_candidate_goal_cannot_authorize_evidence_reuse",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_checkpoint_reopen_restores_module_stack_and_help_without_resetting_unknowns",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_cli_open_and_unknown_action_emit_json_without_writes",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_closed_whole_product_remains_reviewable_after_budget_end",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_design_rejects_missing_whole_reference_and_local_only_coverage",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_encoding_can_enter_post_and_return_without_forced_recovery_first",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_failed_initial_transaction_has_no_saved_event_or_artifact",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_failed_transition_transaction_preserves_module_stack_and_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_local_declaration_rejects_unknown_premises_and_scope_expansion",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_local_same_request_is_idempotent_and_changed_payload_is_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_nested_local_work_cannot_expand_the_current_local_scope",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_open_and_initial_preserve_c0_privacy_and_same_event_identity",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_pause_restrict_and_delete_gate_specialist_actions_and_old_replay",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_post_encoding_return_uses_same_event_parent_budget_and_actual_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_post_to_encoding_needs_actual_supplied_premises_and_following_response",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_return_requires_new_response_and_preserves_declared_parent_connection",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_reuse_cannot_expand_conditions_requirements_or_unadopted_evidence",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_reuse_existing_adopted_judgment_can_end_simple_scope_without_new_work",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_select_branch_changes_only_prepared_candidate_and_preserves_record",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_stale_cas_rejects_local_entry_without_candidate_receipt",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_twenty_eight_calendar_days_do_not_override_yesterdays_relevant_help",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_unknown_or_unadopted_specialist_design_never_starts_execution",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_whole_review_does_not_stitch_fragments_or_accept_parent_copy",
+      "status": "passed"
+    },
+    {
+      "case": "test_b4_teaching.B4TeachingTests.test_whole_review_preserves_continuous_product_actual_help_and_declared_obligations",
+      "status": "passed"
+    }
+  ],
+  "raw_output_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\validation\\b4-all-runtime-output.txt",
+  "limitations": [
+    "Artificial goals, original answers, grants, observations, costs and references only.",
+    "Software checks declarations and controls; it does not prove content correctness, learning efficacy or real host authority.",
+    "B5 automatic single-entry orchestration and B6 host delegation remain unimplemented.",
+    "Reports and request copies are outside managed store deletion scope."
+  ]
+}

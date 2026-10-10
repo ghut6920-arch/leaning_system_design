@@ -1,0 +1,52 @@
+{
+  "batch": "B2b",
+  "client_date": "2026-10-03",
+  "synthetic_only": true,
+  "workspace": "E:\\文献资料\\学习系统架构设计\\B2b_虚构材料学习空间",
+  "existing_workspace": true,
+  "seed_receipt": {
+    "status": "not_executed",
+    "reason": "Existing workspace is never reseeded."
+  },
+  "save_receipt": {
+    "status": "not_executed",
+    "reason": "Existing workspace is read-only in this demonstration."
+  },
+  "state_revision": 2,
+  "object_count": 29,
+  "prepared_material_ref": {
+    "id": "FIX-b2b-prepared-material",
+    "revision": 1
+  },
+  "inspection": {
+    "status": "compatible",
+    "reasons": [],
+    "content_status": "supported",
+    "substituted_operations": [],
+    "potential_help_operations": [
+      "connect-P-to-Q"
+    ],
+    "mutated": false,
+    "semantic_verification": "agent_declaration_with_managed_anchors",
+    "limitations": [
+      "The helper checks declared metadata and references, not truth, hidden visual clues, or actual display."
+    ]
+  },
+  "integrity": {
+    "status": "ok",
+    "state_revision": 2,
+    "reasons": [],
+    "issues": [],
+    "synthetic_only": true,
+    "object_revision_count": 29,
+    "artifact_count": 2
+  },
+  "teaching": false,
+  "assessment": false,
+  "new_performance_created": false,
+  "limitations": [
+    "Fixture declarations are not professional truth verification.",
+    "Existing spaces are read-only; absent or deleted records are never reimported.",
+    "The report is an external demonstration copy, outside the store deletion scope."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "batch": "B3c",
+  "client_date": "2026-10-03",
+  "synthetic_only": true,
+  "workspace": "E:\\文献资料\\学习系统架构设计\\B3c_虚构策略学习空间",
+  "existing_workspace_read_only": false,
+  "creation_receipt": {
+    "status": "committed",
+    "state_revision": 2,
+    "reasons": [],
+    "affected_ids": [
+      "FIX-strategy"
+    ],
+    "object_count": 1,
+    "artifact_count": 0,
+    "synthetic_only": true
+  },
+  "state_revision": 2,
+  "object_count": 31,
+  "reuse_status": "reusable",
+  "integrity_status": "ok",
+  "new_performance_events": 0,
+  "new_plans": 0,
+  "versions": {
+    "store": "pl-store/0.1.0",
+    "strategies": "pl-strategies/0.1.0",
+    "python": "3.12.3"
+  },
+  "limitations": [
+    "Developer-made declarations and grants; not real professional verification or learning.",
+    "Existing workspace is read only, including after deletion or restriction.",
+    "Seven Skill installation, host identity, timing, content truth and method efficacy remain unverified."
+  ]
+}

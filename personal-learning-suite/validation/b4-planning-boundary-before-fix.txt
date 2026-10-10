@@ -1,0 +1,39 @@
+FFFF
+======================================================================
+FAIL: test_merge_cannot_replace_whole_requirement_with_narrower_requirement (test_b4_planning.B4PlanningTests.test_merge_cannot_replace_whole_requirement_with_narrower_requirement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\文献资料\学习系统架构设计\personal-learning-suite\tests\test_b4_planning.py", line 210, in test_merge_cannot_replace_whole_requirement_with_narrower_requirement
+    self.reject(request(action="dispose", decisions=[merged]), "merge_must_preserve_requirement_conditions")
+  File "E:\文献资料\学习系统架构设计\personal-learning-suite\tests\test_b4_planning.py", line 134, in reject
+    self.assertNotEqual(result["status"], "committed", result)
+AssertionError: 'committed' == 'committed' : {'status': 'committed', 'synthetic_only': True, 'mutated': True, 'reasons': [], 'judgment_created': False, 'new_test_created': False, 'automatic_reminder': False, 'state_revision': 2, 'output_refs': [{'id': 'FIX-b4-duplicate', 'revision': 2}], 'replayed': False}
+
+======================================================================
+FAIL: test_authorized_shrink_cannot_increase_fees_wait_or_system_effort (test_b4_planning.B4PlanningTests.test_authorized_shrink_cannot_increase_fees_wait_or_system_effort) (resource='fees')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\文献资料\学习系统架构设计\personal-learning-suite\tests\test_b4_planning.py", line 327, in test_authorized_shrink_cannot_increase_fees_wait_or_system_effort
+    self.assertNotEqual(result["status"], "committed", result)
+AssertionError: 'committed' == 'committed' : {'status': 'committed', 'synthetic_only': True, 'mutated': True, 'reasons': [], 'judgment_created': False, 'new_test_created': False, 'automatic_reminder': False, 'state_revision': 3, 'output_refs': [{'id': 'FIX-need', 'revision': 3}, {'id': 'FIX-b4-plan', 'revision': 2}], 'replayed': False}
+
+======================================================================
+FAIL: test_authorized_shrink_cannot_increase_fees_wait_or_system_effort (test_b4_planning.B4PlanningTests.test_authorized_shrink_cannot_increase_fees_wait_or_system_effort) (resource='blocked_wait')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\文献资料\学习系统架构设计\personal-learning-suite\tests\test_b4_planning.py", line 327, in test_authorized_shrink_cannot_increase_fees_wait_or_system_effort
+    self.assertNotEqual(result["status"], "committed", result)
+AssertionError: 'committed' == 'committed' : {'status': 'committed', 'synthetic_only': True, 'mutated': True, 'reasons': [], 'judgment_created': False, 'new_test_created': False, 'automatic_reminder': False, 'state_revision': 3, 'output_refs': [{'id': 'FIX-need', 'revision': 3}, {'id': 'FIX-b4-plan', 'revision': 2}], 'replayed': False}
+
+======================================================================
+FAIL: test_authorized_shrink_cannot_increase_fees_wait_or_system_effort (test_b4_planning.B4PlanningTests.test_authorized_shrink_cannot_increase_fees_wait_or_system_effort) (resource='system_effort')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\文献资料\学习系统架构设计\personal-learning-suite\tests\test_b4_planning.py", line 327, in test_authorized_shrink_cannot_increase_fees_wait_or_system_effort
+    self.assertNotEqual(result["status"], "committed", result)
+AssertionError: 'committed' == 'committed' : {'status': 'committed', 'synthetic_only': True, 'mutated': True, 'reasons': [], 'judgment_created': False, 'new_test_created': False, 'automatic_reminder': False, 'state_revision': 3, 'output_refs': [{'id': 'FIX-need', 'revision': 3}, {'id': 'FIX-b4-plan', 'revision': 2}], 'replayed': False}
+
+----------------------------------------------------------------------
+Ran 2 tests in 1.025s
+
+FAILED (failures=4)

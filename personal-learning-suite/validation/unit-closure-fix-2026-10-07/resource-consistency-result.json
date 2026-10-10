@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "mode": "check",
+  "command": "python -X utf8 personal-learning-suite/scripts/build_b3c_resources.py --check",
+  "resource_revision": "pl-strategies/0.1.0",
+  "files": 68,
+  "encoding_index": 60,
+  "compiled_encoding_count": 60,
+  "post_notes": 4,
+  "external_references_verified": false,
+  "source": "Actual command output observed on 2026-10-07; this file keeps its compact summary"
+}

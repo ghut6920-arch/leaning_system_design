@@ -1,0 +1,26 @@
+test_absent_v1_v4_are_separate_and_not_real_effect (test_b7_pilot.B7PilotTests.test_absent_v1_v4_are_separate_and_not_real_effect) ... ok
+test_checker_rejects_historical_destinations_before_running_tests (test_b7_pilot.B7PilotTests.test_checker_rejects_historical_destinations_before_running_tests) ... ok
+test_cli_invalid_json_does_not_echo_input_or_traceback (test_b7_pilot.B7PilotTests.test_cli_invalid_json_does_not_echo_input_or_traceback) ... ok
+test_cli_unconfigured_is_metadata_only_and_creates_no_store (test_b7_pilot.B7PilotTests.test_cli_unconfigured_is_metadata_only_and_creates_no_store) ... ok
+test_malformed_payloads_fail_conservatively_without_body_echo (test_b7_pilot.B7PilotTests.test_malformed_payloads_fail_conservatively_without_body_echo) ... ok
+test_missing_version_and_unknown_controls_cannot_be_inputs_ready (test_b7_pilot.B7PilotTests.test_missing_version_and_unknown_controls_cannot_be_inputs_ready) ... ok
+test_nonpilot_cli_still_requires_workspace (test_b7_pilot.B7PilotTests.test_nonpilot_cli_still_requires_workspace) ... ERROR
+test_preflight_does_not_mutate_supplied_objects_or_artifacts (test_b7_pilot.B7PilotTests.test_preflight_does_not_mutate_supplied_objects_or_artifacts) ... ok
+test_real_cannot_accept_fixture_ids_or_synthetic_provenance (test_b7_pilot.B7PilotTests.test_real_cannot_accept_fixture_ids_or_synthetic_provenance) ... ok
+test_unconfigured_needs_input_without_constructing_store (test_b7_pilot.B7PilotTests.test_unconfigured_needs_input_without_constructing_store) ... ok
+
+======================================================================
+ERROR: test_nonpilot_cli_still_requires_workspace (test_b7_pilot.B7PilotTests.test_nonpilot_cli_still_requires_workspace)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\文献资料\学习系统架构设计\personal-learning-suite\tests\test_b7_pilot.py", line 153, in test_nonpilot_cli_still_requires_workspace
+    self.assertIn("--workspace", process.stderr)
+  File "E:\anaconda\Lib\unittest\case.py", line 1149, in assertIn
+    if member not in container:
+       ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.061s
+
+FAILED (errors=1)

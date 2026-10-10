@@ -1,0 +1,104 @@
+{
+  "runs": [
+    {
+      "input": "input.json",
+      "output": "raw-output.json",
+      "exit_code": 0,
+      "review_state": "partial",
+      "errors": [],
+      "reliable_requirement_ids": [
+        "write-xor-rule",
+        "explain-equal-inputs"
+      ],
+      "compatibility": {
+        "status": "not_compared",
+        "preserve_requirement_ids": [],
+        "recheck_requirement_ids": [],
+        "judgment_transfer": "not_executed"
+      },
+      "planning_handoff": null,
+      "boundaries": {
+        "content_verification": "not_executed",
+        "learner_judgment": "not_executed",
+        "professional_adoption": "not_executed",
+        "persistence": "not_executed",
+        "new_test": "not_proposed",
+        "valid_plan": "not_created",
+        "source_record_interpretation": "Existing FIX verification declarations only; this script does not establish content truth."
+      }
+    },
+    {
+      "input": "input-session-change.json",
+      "output": "raw-session-output.json",
+      "exit_code": 0,
+      "review_state": "partial",
+      "errors": [],
+      "reliable_requirement_ids": [
+        "write-xor-rule",
+        "explain-equal-inputs"
+      ],
+      "compatibility": {
+        "status": "preserve",
+        "preserve_requirement_ids": [
+          "write-xor-rule",
+          "explain-equal-inputs"
+        ],
+        "recheck_requirement_ids": [],
+        "judgment_transfer": "not_executed",
+        "previous_goal_ref": {
+          "id": "FIX-FWD-goal-xor",
+          "revision": 1
+        },
+        "current_goal_ref": {
+          "id": "FIX-FWD-goal-xor",
+          "revision": 1
+        },
+        "reasons": [
+          "Only session budget changes; goal remains exact."
+        ]
+      },
+      "planning_handoff": {
+        "status": "candidate",
+        "owner": "SK05/AG1",
+        "decision_needed": "在已有资源授权内缩减本次承诺，保留正式目标及未覆盖影响；超范围交用户决定。",
+        "goal_ref": {
+          "id": "FIX-FWD-goal-xor",
+          "revision": 1
+        },
+        "reason": "虚构用户今天只有 3 分钟，明确继续相同目标，并请求先看示范；预算交 SK05，示范接触交 AG0/AG2 记录，目标和判据保持原文原修订",
+        "goal_revision_changed": false,
+        "valid_commitment": "not_created"
+      },
+      "boundaries": {
+        "content_verification": "not_executed",
+        "learner_judgment": "not_executed",
+        "professional_adoption": "not_executed",
+        "persistence": "not_executed",
+        "new_test": "not_proposed",
+        "valid_plan": "not_created",
+        "source_record_interpretation": "Existing FIX verification declarations only; this script does not establish content truth."
+      }
+    }
+  ],
+  "local_checks": {
+    "synthetic_only": true,
+    "exact_goal_reused_after_change": true,
+    "goal_revision": 1,
+    "criterion_revisions": {
+      "write-xor-rule": 1,
+      "explain-equal-inputs": 1
+    },
+    "time_requirement_after_change": {
+      "status": "not_required",
+      "reason": "用户没有要求作答时限、延迟保持或陌生迁移；会话时长属于预算条件"
+    },
+    "demonstration_visibility": "requested",
+    "demonstration_actual_display": {
+      "status": "not_executed",
+      "reason": "SK01 本次只交候选目标与交接；没有受控教学入口显示回执"
+    },
+    "performance_or_judgment_objects_created": false,
+    "cli_candidate_matches_input_exactly": true,
+    "joint_product_and_original_two_requirement_ids_retained": true
+  }
+}

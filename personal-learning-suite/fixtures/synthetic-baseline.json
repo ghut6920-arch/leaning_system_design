@@ -1,0 +1,209 @@
+{
+  "fixture_id": "B0-synthetic-baseline",
+  "synthetic": true,
+  "protocol_version": "pl-contracts/0.1.0",
+  "description": "人工构造的字段关系示例，非用户课程或表现；采用和授权也仅是虚构快照。",
+  "objects": [
+    {
+      "type": "LearningInstance", "id": "FIX-instance", "revision": 1, "owner": "AG1", "schema_version": "pl-contracts/0.1.0", "basis_refs": [],
+      "course": {"status": "known", "value": "虚构课程：条件与推理"},
+      "purpose": {"status": "known", "value": "检查记录契约，不用于真实学习结论"},
+      "scope": "一个未完成父任务与局部理由连接",
+      "user_constraints": {"status": "known", "value": "所有授权与预算仅供夹具"},
+      "actor_bindings": {"status": "not_executed", "reason": "未绑定真实宿主"},
+      "record_root": {"status": "not_required", "reason": "B0 只读静态数据"},
+      "record_control_scope": "仅虚构夹具"
+    },
+    {
+      "type": "SourceFragment", "id": "FIX-requirement-source", "revision": 1, "owner": "AG2", "schema_version": "pl-contracts/0.1.0", "basis_refs": [],
+      "source_ref": {"source_id": "FIX-REQ", "declared_revision": "fixture/1", "locator": "originals.md#虚构要求", "identity_kind": "synthetic"},
+      "read_scope": {"text": "完整片段", "formula": "无", "figure": "无"},
+      "claims": ["理由连接由学习者完成，允许看已给前提"],
+      "verification": {"status": "known", "value": "开发者生成的虚构要求，非真实课程标准"},
+      "unread_parts": {"status": "known", "value": []}
+    },
+    {
+      "type": "SourceFragment", "id": "FIX-content-source", "revision": 1, "owner": "AG2", "schema_version": "pl-contracts/0.1.0", "basis_refs": [],
+      "source_ref": {"source_id": "FIX-CONTENT", "declared_revision": "fixture/1", "locator": "originals.md#虚构内容与参考", "identity_kind": "synthetic"},
+      "read_scope": {"text": "完整片段", "formula": "P→Q 与 P", "figure": "无"},
+      "claims": ["已知 P→Q 且 P 时可得 Q；若另有 Q→R，可由 Q 得 R"],
+      "verification": {"status": "known", "value": "虚构示例使用有效的假言推理；不代表 AG2 已部署"},
+      "unread_parts": {"status": "known", "value": []}
+    },
+    {
+      "type": "GoalSpec", "id": "FIX-goal", "revision": 1, "owner": "AG1", "schema_version": "pl-contracts/0.1.0",
+      "basis_refs": [{"id": "FIX-requirement-source", "revision": 1}, {"id": "FIX-content-source", "revision": 1}],
+      "requirement_source_refs": [{"id": "FIX-requirement-source", "revision": 1}],
+      "content_basis_refs": [{"id": "FIX-content-source", "revision": 1}],
+      "requirements": [{
+        "requirement_id": "infer-Q", "nature": "synthetic_course_requirement", "key_operations": ["connect-P-to-Q"], "product": "写出 Q 并说明理由",
+        "criterion": {"text": "指出 P→Q 与 P 共同支持 Q", "requirement_source_refs": [{"id": "FIX-requirement-source", "revision": 1}], "content_basis_refs": [{"id": "FIX-content-source", "revision": 1}]},
+        "criterion_revision": 1, "requirement_source_refs": [{"id": "FIX-requirement-source", "revision": 1}], "content_basis_refs": [{"id": "FIX-content-source", "revision": 1}]
+      }, {
+        "requirement_id": "complete-chain", "nature": "synthetic_course_requirement", "key_operations": ["connect-P-to-Q", "connect-Q-to-R"], "product": "保留前提与两步理由的完整链",
+        "criterion": {"text": "从 P→Q、Q→R 与 P 说明完整推理到 R", "requirement_source_refs": [{"id": "FIX-requirement-source", "revision": 1}], "content_basis_refs": [{"id": "FIX-content-source", "revision": 1}]},
+        "criterion_revision": 1, "requirement_source_refs": [{"id": "FIX-requirement-source", "revision": 1}], "content_basis_refs": [{"id": "FIX-content-source", "revision": 1}]
+      }],
+      "prerequisites": [{"text": "P 与 P→Q 可作为允许输入", "requirement_source_refs": [{"id": "FIX-requirement-source", "revision": 1}], "content_basis_refs": [{"id": "FIX-content-source", "revision": 1}]}],
+      "allowed_resources": ["题面给定前提"], "context_conditions": "只讨论当前虚构任务",
+      "time_requirements": {"status": "not_required", "reason": "虚构局部要求没有延迟或迁移要求"},
+      "evidence_requirements": "学习者在未被告知连接理由前完成关键连接", "version_compatibility": {"status": "not_applicable", "reason": "首个虚构修订"}
+    },
+    {
+      "type": "AuthorizationGrant", "id": "FIX-user-grant", "revision": 1, "owner": "USER", "schema_version": "pl-contracts/0.1.0", "basis_refs": [],
+      "issuer": "USER", "grantee": "AG1", "decision_types": ["planning", "goal_design", "teaching_design"], "object_scope": ["FIX-*"],
+      "criterion_refs": [{"id": "FIX-goal", "revision": 1, "locator": "requirements/infer-Q"}, {"id": "FIX-goal", "revision": 1, "locator": "requirements/complete-chain"}],
+      "permitted_conclusions": ["虚构局部范围"], "escalation_signals": ["真实执行请求"], "budget_ref": {"id": "FIX-budget", "revision": 1},
+      "delegable": false, "validity": "虚构检查期间", "binding_status": "verified_for_fixture"
+    },
+    {
+      "type": "AuthorizationGrant", "id": "FIX-scoring-grant", "revision": 1, "owner": "AG3", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-goal", "revision": 1}],
+      "issuer": "AG3", "grantee": "AG0", "decision_types": ["routine_scoring"], "object_scope": ["FIX-activity", "FIX-event"],
+      "criterion_refs": [{"id": "FIX-goal", "revision": 1, "locator": "requirements/infer-Q"}],
+      "permitted_conclusions": ["当前题的有限关系支持"], "escalation_signals": ["重要跳过", "新合法解", "评分争议"],
+      "budget_ref": {"id": "FIX-budget", "revision": 1}, "delegable": false, "validity": "虚构活动", "binding_status": "verified_for_fixture"
+    },
+    {
+      "type": "AuthorizationGrant", "id": "FIX-evidence-grant", "revision": 1, "owner": "USER", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-goal", "revision": 1}],
+      "issuer": "USER", "grantee": "AG3", "decision_types": ["professional_review", "limited_diagnosis"], "object_scope": ["FIX-*"],
+      "criterion_refs": [{"id": "FIX-goal", "revision": 1, "locator": "requirements/infer-Q"}],
+      "permitted_conclusions": ["虚构证据核对和有限诊断"], "escalation_signals": ["真实授权或内容条件缺失"], "budget_ref": {"id": "FIX-budget", "revision": 1},
+      "delegable": false, "validity": "虚构检查期间", "binding_status": "verified_for_fixture"
+    },
+    {
+      "type": "BudgetEnvelope", "id": "FIX-budget", "revision": 1, "owner": "AG1", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-user-grant", "revision": 1}],
+      "user_active_time": {"status": "known", "value": {"minutes": 5, "measurement": "synthetic_limit"}},
+      "blocked_wait": {"status": "unknown", "reason": "未运行，不能填零"}, "system_effort": {"status": "unknown", "reason": "未运行"}, "fees": {"status": "unknown", "reason": "未计费"},
+      "allocation_scope": ["FIX-parent-activity", "FIX-activity", "FIX-work-order"], "authorization_ref": {"id": "FIX-user-grant", "revision": 1}, "accounting_notes": "5 分钟是夹具人工值，不是用户预算；父任务、局部与委派共用此一额度"
+    },
+    {
+      "type": "MaterialUse", "id": "FIX-material", "revision": 1, "owner": "AG2", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-content-source", "revision": 1}],
+      "goal_refs": [{"id": "FIX-goal", "revision": 1}], "fragment_refs": [{"id": "FIX-content-source", "revision": 1}], "intended_use": "可见前提加教师参考",
+      "visible_input": "P→Q；P", "backup_help": "帮助时可指出两条前提的连接", "teacher_reference": {"path": "originals.md", "locator": "虚构内容与参考", "revision": 1, "origin": "synthetic_fixture"},
+      "verification": {"content": "虚构参考在给定前提下成立", "use": "初答前不给连接理由"}, "leakage_risk": "备用帮助会代做连接操作", "limitations": ["非真实材料包"]
+    },
+    {
+      "type": "ActivitySpec", "id": "FIX-activity", "revision": 1, "owner": "AG1", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-goal", "revision": 1}, {"id": "FIX-material", "revision": 1}],
+      "goal_refs": [{"id": "FIX-goal", "revision": 1}], "criterion_refs": [{"id": "FIX-goal", "revision": 1, "locator": "requirements/infer-Q"}],
+      "prompt": "已知 P→Q 且 P，请给出结论并说明理由。", "learner_operations": ["connect-P-to-Q"],
+      "material_refs": [{"id": "FIX-material", "revision": 1}], "reference_refs": [{"id": "FIX-content-source", "revision": 1}],
+      "task_qualification": {"status": "known", "value": "在虚构规格中调用理由连接，初答前不泄露理由，前提允许可见"},
+      "branches": [{"observation": "理由缺失", "action": "指出连接再让学习者修订", "next_observation": "是否可用支持继续", "counterevidence": "理由原已完整则不追加", "stop": "预算结束或支持充分"}],
+      "authority_refs": [{"id": "FIX-user-grant", "revision": 1}, {"id": "FIX-scoring-grant", "revision": 1}],
+      "parent_task": {"status": "known", "value": {
+        "parent_activity_ref": {"id": "FIX-parent-activity", "revision": 1},
+        "parent_artifact": {"path": "originals.md", "locator": "虚构父产物", "revision": 1, "origin": "synthetic_fixture"},
+        "blocker": "第一步理由未写出", "entry_basis_refs": [{"id": "FIX-event", "revision": 1}], "alternative_explanations": ["可能仅省略表达"],
+        "local_sufficiency": "帮助后能实际运用第一步连接", "return_connection": "把修订连接写回同一父产物，再处理 Q→R；整体尚未评审", "budget_ref": {"id": "FIX-budget", "revision": 1}
+      }}, "budget_ref": {"id": "FIX-budget", "revision": 1},
+      "stop_conditions": ["局部够用即返回", "预算结束", "用户暂停", "无可行分支"], "return_conditions": "局部足够后返回 FIX-parent-activity 的同一规范产物"
+    },
+    {
+      "type": "ActivitySpec", "id": "FIX-parent-activity", "revision": 1, "owner": "AG1", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-goal", "revision": 1}, {"id": "FIX-content-source", "revision": 1}],
+      "goal_refs": [{"id": "FIX-goal", "revision": 1}], "criterion_refs": [{"id": "FIX-goal", "revision": 1, "locator": "requirements/complete-chain"}],
+      "prompt": "由 P→Q、Q→R 与 P 形成保留理由的完整链。", "learner_operations": ["connect-P-to-Q", "connect-Q-to-R"],
+      "material_refs": [{"id": "FIX-material", "revision": 1}], "reference_refs": [{"id": "FIX-content-source", "revision": 1}],
+      "task_qualification": {"status": "known", "value": "父任务结构示例；未声称整体教学已运行"},
+      "branches": [{"observation": "第一步理由连接卡住", "action": "有限局部修复", "next_observation": "修复够用返回同一父产物", "counterevidence": "可能只是漏写理由", "stop": "预算结束或完整产物可审"}],
+      "authority_refs": [{"id": "FIX-user-grant", "revision": 1}], "parent_task": {"status": "not_applicable", "reason": "这是顶层父任务"},
+      "budget_ref": {"id": "FIX-budget", "revision": 1}, "stop_conditions": ["完整产物有合格支持", "预算结束", "用户暂停"], "return_conditions": {"status": "not_applicable", "reason": "顶层任务"}
+    },
+    {
+      "type": "PerformanceEvent", "id": "FIX-event", "revision": 1, "owner": "AG0", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-activity", "revision": 1}],
+      "activity_ref": {"id": "FIX-activity", "revision": 1}, "goal_refs": [{"id": "FIX-goal", "revision": 1}],
+      "original_response": {"path": "originals.md", "locator": "虚构初答", "revision": 1, "origin": "synthetic_fixture"},
+      "revisions": [{"path": "originals.md", "locator": "虚构修订", "revision": 1, "origin": "synthetic_fixture", "sequence": 3}],
+      "contributors": [{"actor": "synthetic_learner", "operations": ["结论 Q"]}, {"actor": "AG0", "operations": ["帮助指出前提连接"]}],
+      "timeline": [
+        {"kind": "initial_response", "sequence": 1, "visibility": "displayed", "content": "原答仅写 Q", "target_operations": ["connect-P-to-Q"], "substituted_operations": [], "time": {"status": "unknown", "reason": "人工顺序，无真实发生时间"}},
+        {"kind": "help", "sequence": 2, "visibility": "displayed", "content": "前提 P 使 P→Q 可推出 Q", "target_operations": ["connect-P-to-Q"], "substituted_operations": ["connect-P-to-Q"], "time": {"status": "unknown", "reason": "人工顺序"}},
+        {"kind": "revision", "sequence": 3, "visibility": "displayed", "content": "修订加入连接理由", "target_operations": ["connect-P-to-Q"], "substituted_operations": [], "time": {"status": "unknown", "reason": "人工顺序"}}
+      ],
+      "actual_resources": {"status": "known", "value": ["给定前提", "帮助后的连接理由"]},
+      "contact_history": {"status": "unknown", "reason": "虚构人物无真实接触历史，不填无再接触"}, "occurred_at": {"status": "not_executed", "reason": "非真实学习事件"},
+      "independent_sample_id": "FIX-sample-1", "method_config_refs": []
+    },
+    {
+      "type": "Judgment", "id": "FIX-judgment", "revision": 1, "owner": "AG0", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-event", "revision": 1}, {"id": "FIX-goal", "revision": 1}],
+      "goal_ref": {"id": "FIX-goal", "revision": 1}, "requirement_id": "infer-Q", "criterion_revision": 1, "event_refs": [{"id": "FIX-event", "revision": 1}],
+      "conditions": "仅支持帮助后的理由使用；帮助前只写结论，独立连接未知", "support": "supported", "eligibility": "usable", "intended_uses": ["确定帮助后可继续"],
+      "rationale": "同一原答和修订保持同一事件；不作重要跳过", "unsupported_scope": ["未帮助条件下的完整理由连接"], "counterevidence": [],
+      "authorization_ref": {"id": "FIX-scoring-grant", "revision": 1}, "decision_type": "routine_scoring",
+      "adoption": {"status": "adopted", "by": "AG0", "scope": "虚构局部判断", "basis_refs": [{"id": "FIX-scoring-grant", "revision": 1}], "limitations": ["仅夹具"], "time": {"status": "not_executed", "reason": "静态示例采用，不是真实采用"}}
+    },
+    {
+      "type": "DiagnosticNote", "id": "FIX-diagnostic", "revision": 1, "owner": "AG3", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-event", "revision": 1}],
+      "goal_refs": [{"id": "FIX-goal", "revision": 1}], "decision_question": "后续是否需要理由连接工作", "observations": [{"id": "FIX-event", "revision": 1}],
+      "explanation": "初答省略理由", "alternatives": ["可能仅未写而非不会"], "counterevidence": ["若已有原始完整理由直接复用"],
+      "next_observation": {"status": "not_executed", "reason": "B0 不追加真实检查"}, "decision_branches": [{"observation": "有未帮助完整原答", "plan_action": "直接复用并结束该需求"}, {"observation": "无足够原答且有价值", "plan_action": "在目标和预算内承诺有限连接工作"}],
+      "budget_ref": {"id": "FIX-budget", "revision": 1}, "authorization_ref": {"id": "FIX-evidence-grant", "revision": 1}, "decision_type": "limited_diagnosis", "stop_condition": "无新观察改变当前决定则停止", "stop_reason": "静态夹具没有诊断执行", "reopen_condition": "出现合法新原始证据"
+    },
+    {
+      "type": "LearningNeed", "id": "FIX-need", "revision": 1, "owner": "AG1", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-judgment", "revision": 1}],
+      "goal_ref": {"id": "FIX-goal", "revision": 1}, "requirement_ids": ["infer-Q"], "needed_work": "若仍有价值，观察未被代做的理由连接", "necessity": "正式要求未获得未帮助条件支持",
+      "non_action_consequence": "该范围独立支持仍未知，父任务整体未评审", "conditions": "合法活动和有限投入", "parent_task": {"id": "FIX-activity", "revision": 1, "locator": "parent_task"}, "judgment_refs": [{"id": "FIX-judgment", "revision": 1}],
+      "requester": "AG0", "assignee": "AG1", "acceptance": {"status": "accepted", "by": "AG1", "scope": "虚构需求", "next_trigger": "有可行投入时"},
+      "disposition": {"status": "deferred", "reason": "静态样例不实施后续学习", "commitment_refs": []}, "uncovered_impact": "独立理由要求未知，未安排不等于达成", "next_trigger": "真实用途、参考和授权落实后再考虑"
+    },
+    {
+      "type": "PlanCommitment", "id": "FIX-plan", "revision": 1, "owner": "AG1", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-user-grant", "revision": 1}, {"id": "FIX-goal", "revision": 1}],
+      "goal_refs": [{"id": "FIX-goal", "revision": 1}], "need_refs": [{"id": "FIX-need", "revision": 1}], "executable_scope": "只供静态检查的过去活动说明，后续需求暂缓",
+      "adopted_basis_refs": [{"id": "FIX-judgment", "revision": 1}], "budget_ref": {"id": "FIX-budget", "revision": 1}, "authorization_refs": [{"id": "FIX-user-grant", "revision": 1}],
+      "allowed_adjustments": ["缩小本次承诺，不改判据"], "unselected_consequences": "独立理由连接未获得支持", "checkpoint_ref": {"id": "FIX-checkpoint", "revision": 1}, "next_trigger": "无自动提醒", "status": "completed"
+    },
+    {
+      "type": "MethodConfig", "id": "FIX-method", "revision": 1, "owner": "AG1", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-content-source", "revision": 1}],
+      "intended_work": "虚构直接教学方法规格示例，未被实际采用", "source_refs": [{"source_id": "FIX-CONTENT", "declared_revision": "fixture/1", "locator": "originals.md#虚构内容与参考", "identity_kind": "synthetic"}],
+      "resource_revision": "fixture/1", "selected_parts": ["直接指出前提连接"], "prerequisites": "内容参考可核验", "exclusions": ["初答前不可泄露受测理由"],
+      "required_learner_operations": ["支持后实际运用理由"], "help_and_feedback_constraints": "帮助代做连接须记录", "adjustable_parts": ["措辞"], "combination_and_non_equivalence": "有提示的修订不等效于独立初答",
+      "cost": {"status": "unknown", "reason": "没有运行"}, "interruptibility": "可以保存断点", "stop_or_return_conditions": ["支持够用或预算结束"],
+      "evidence_limits": "非实验证实的方法效果", "original_claim_status": "synthetic_design", "local_adaptations": [], "review_status": "fixture_only", "reuse_limits": "不能作为已核对资源发布", "previous_config": {"status": "not_applicable", "reason": "首份虚构配置"}
+    },
+    {
+      "type": "ControlState", "id": "FIX-control", "revision": 1, "owner": "AG0", "schema_version": "pl-contracts/0.1.0", "basis_refs": [],
+      "state_revision": 1, "restrictions": [{"id": "FIX-restriction", "revision": 1}],
+      "execution": {"activity_ref": {"id": "FIX-activity", "revision": 1}, "current_executor": "AG0", "execution_epoch": 1, "status": "ended"},
+      "record_policy": "只供虚构静态检查；不是技术锁", "pending_controls": []
+    },
+    {
+      "type": "UseRestriction", "id": "FIX-restriction", "revision": 1, "owner": "AG0", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-judgment", "revision": 1}],
+      "scope_refs": [{"id": "FIX-goal", "revision": 1}], "intended_uses": ["以该帮助后修订作重要跳过"], "reason": "未获得独立连接支持", "issued_by": "AG0", "status": "active", "restoration_conditions": "由 AG3 核实足够合法依据", "restoration_refs": []
+    },
+    {
+      "type": "SessionCheckpoint", "id": "FIX-checkpoint", "revision": 1, "owner": "AG0", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-event", "revision": 1}],
+      "activity_ref": {"id": "FIX-activity", "revision": 1}, "parent_artifact": {"path": "originals.md", "locator": "虚构父产物", "revision": 1, "origin": "synthetic_fixture"}, "last_trusted_event_ref": {"id": "FIX-event", "revision": 1}, "help_history_refs": [{"id": "FIX-event", "revision": 1}],
+      "next_connection": "局部修订可连接回同一父产物，实际返回和整体完成尚未执行", "stop_reason": "synthetic_scope_end", "pending_owners": ["AG1"], "budget_ref": {"id": "FIX-budget", "revision": 1}, "control_ref": {"id": "FIX-control", "revision": 1}, "unrecorded_actions": {"status": "unknown", "reason": "不从摘要推断额外动作"}
+    },
+    {
+      "type": "WorkOrder", "id": "FIX-work-order", "revision": 1, "owner": "AG0", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-control", "revision": 1}],
+      "operation_id": "FIX-operation-1", "requester": "AG0", "assignee": "AG3", "decision_needed": "核对有限判断是否符合帮助条件", "decision_type": "professional_review", "scope": "虚构原答", "output_contract": "P-Performance",
+      "goal_and_criteria_refs": [{"id": "FIX-goal", "revision": 1, "locator": "requirements/infer-Q"}], "material_refs": [{"id": "FIX-material", "revision": 1}], "event_refs": [{"id": "FIX-event", "revision": 1}], "current_restrictions": [{"id": "FIX-restriction", "revision": 1}], "basis_revisions": [{"id": "FIX-control", "revision": 1}],
+      "execution_epoch": 1, "authority_scope": "专业核对，不面向学习者展示", "authorization_refs": [{"id": "FIX-evidence-grant", "revision": 1}], "shared_budget_ref": {"id": "FIX-budget", "revision": 1}, "stop_condition": "原始依据够用即返回", "return_owner": "AG0", "next_trigger": "静态样例不运行",
+      "acceptance": {"status": "proposed", "by": "AG0", "scope": "请求待接责", "next_trigger": "具备真实宿主后"}
+    },
+    {
+      "type": "WorkResult", "id": "FIX-result", "revision": 1, "owner": "AG3", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-work-order", "revision": 1}],
+      "work_order_ref": {"id": "FIX-work-order", "revision": 1}, "handled_scope": "候选示例可说明帮助后支持", "unhandled_scope": "真实独立表现", "result_refs": [{"id": "FIX-judgment", "revision": 1}], "limitations": ["未运行请求，不是后台回执"], "adoption_needed": true, "next_owner": "AG0", "next_trigger": "经真实授权和当前控制检查后",
+      "compatibility": {"status": "not_executed", "reason": "无真实采用"}, "adoption": {"status": "candidate", "by": "AG3", "scope": "仅候选", "basis_refs": [], "limitations": ["不产生承诺"], "time": {"status": "not_executed", "reason": "未采用"}}
+    },
+    {
+      "type": "ChangeNotice", "id": "FIX-change", "revision": 1, "owner": "AG2", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-content-source", "revision": 1}],
+      "changed_refs": [{"id": "FIX-content-source", "revision": 1}], "reason": "用于表达纠错接口的虚构通知，不声称当前逻辑参考错误", "immediate_restriction_refs": [{"id": "FIX-restriction", "revision": 1}],
+      "direct_dependencies": [{"id": "FIX-goal", "revision": 1}, {"id": "FIX-material", "revision": 1}], "unchecked_scope": {"status": "unknown", "reason": "没有运行依赖传播"}, "restoration_conditions": "分项核查", "return_owner": "AG0"
+    },
+    {
+      "type": "CorrectionCase", "id": "FIX-correction", "revision": 1, "owner": "AG2", "schema_version": "pl-contracts/0.1.0", "basis_refs": [{"id": "FIX-change", "revision": 1}],
+      "changed_refs": [{"id": "FIX-content-source", "revision": 1}], "reason": "纠错数据契约示例", "affected_refs": [{"id": "FIX-goal", "revision": 1}, {"id": "FIX-judgment", "revision": 1}], "unknown_dependencies": {"status": "unknown", "reason": "未执行追溯"}, "restriction_refs": [{"id": "FIX-restriction", "revision": 1}],
+      "material_recovery": {"status": "not_executed", "reason": "仅字段示例"}, "judgment_recovery": {"status": "not_executed", "reason": "未重评"}, "teaching_recovery": {"status": "not_executed", "reason": "未向真实用户修复"}, "planning_recovery": {"status": "not_executed", "reason": "未撤回或改排"}, "next_owner": "AG2", "next_trigger": "后续行为情境另构造触发"
+    },
+    {
+      "type": "DependencyEdge", "id": "FIX-edge", "revision": 1, "owner": "AG2", "schema_version": "pl-contracts/0.1.0", "basis_refs": [],
+      "from_ref": {"id": "FIX-goal", "revision": 1}, "to_ref": {"id": "FIX-content-source", "revision": 1}, "relation": "content_basis", "scope": "infer-Q", "provenance": "由 GoalSpec.content_basis_refs 导出的单边示例"
+    },
+    {
+      "type": "ValidationDecision", "id": "FIX-validation", "revision": 1, "owner": "DEVELOPER", "schema_version": "pl-contracts/0.1.0", "basis_refs": [],
+      "validation_layer": "B0-static", "case_id": "B0-positive", "host": "静态文件读取", "versions": {"protocol": "pl-contracts/0.1.0"}, "executor": "check_b0.py", "checker": "开发复核",
+      "raw_output_ref": {"status": "not_executed", "reason": "真实运行结果由 validation 报告另存，不伪造在夹具中"}, "status": "not_executed", "limitations": ["不证明 V1-V4 或 B10 行为"], "cost": {"status": "unknown", "reason": "无测量"}, "decision": "待运行静态检查", "replay_of": {"status": "not_applicable", "reason": "初次夹具"}
+    }
+  ]
+}

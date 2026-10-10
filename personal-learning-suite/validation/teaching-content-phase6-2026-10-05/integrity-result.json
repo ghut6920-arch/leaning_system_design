@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "active_instruction_files": 41,
+  "public_assets": 2,
+  "framework_entries": 44,
+  "documents_checked": 64,
+  "local_links_checked": 577,
+  "broken_links": [],
+  "links_outside_project": [],
+  "manifest_errors": [],
+  "frozen_sources_checked": 19,
+  "frozen_source_errors": [],
+  "protected_public_files_checked": 203,
+  "protected_public_files_changed": [],
+  "existing_public_files_changed": 10,
+  "private_learner_files_read_or_hashed_by_this_probe": false,
+  "scope": "Current whole-project public relative layout and exact manifest; not standalone installation.",
+  "limitations": [
+    "No behavior/learning-efficacy assertion.",
+    "Frozen original research excerpts may retain historical absolute source paths; registry provides current project-relative lookup.",
+    "No private originals, state, learner code or experiments are scanned."
+  ]
+}

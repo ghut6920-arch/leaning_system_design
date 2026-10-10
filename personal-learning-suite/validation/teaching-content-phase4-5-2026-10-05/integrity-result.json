@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "active_instruction_files": 40,
+  "public_material_assets": 2,
+  "framework_entries": 43,
+  "documents_checked": 57,
+  "local_links_checked": 557,
+  "broken_links": [],
+  "manifest_errors": [],
+  "frozen_sources_checked": 19,
+  "frozen_source_errors": [],
+  "protected_public_files_checked": 135,
+  "protected_public_files_changed": [],
+  "personal_files_hashed_or_read_by_this_probe": false,
+  "limits": [
+    "Paths and public fingerprints only.",
+    "No teaching behavior or learning efficacy guarantee."
+  ]
+}

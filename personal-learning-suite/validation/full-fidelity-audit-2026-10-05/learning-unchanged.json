@@ -1,0 +1,14 @@
+{
+  "unchanged": true,
+  "guarded_files": 79,
+  "changed_count": 0,
+  "guard_scope": "final_verification_segment_only",
+  "original_guard_result_available_after_turn_continuation": false,
+  "whole_audit_unchanged_verified": false,
+  "agent_writes_to_personal_learning_files": false,
+  "private_contents_paths_or_digests_saved": false,
+  "excluded_public_protocols": [
+    "FRAMEWORK.md",
+    "framework-manifest.json"
+  ]
+}

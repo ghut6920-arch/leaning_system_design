@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "removed_directories": [
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\scripts\\__pycache__",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\tests\\__pycache__"
+  ],
+  "removed_files": [
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\scripts\\__pycache__\\check_b0.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\scripts\\__pycache__\\check_b1.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\scripts\\__pycache__\\check_b7_coverage.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__\\__init__.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__\\b3_semantics.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__\\contract_rules.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__\\entry_b5.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__\\learning_assessment.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__\\learning_goals.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__\\learning_materials.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__\\learning_planning.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__\\learning_store.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__\\learning_strategies.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__\\learning_teaching_b4.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__\\learning_teaching.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__\\network_b6.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__\\personal_learning.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\src\\runtime\\__pycache__\\pilot_b7.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\tests\\__pycache__\\test_b1_runtime.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\tests\\__pycache__\\test_b2a_goals.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\tests\\__pycache__\\test_b2b_materials.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\tests\\__pycache__\\test_b3_interop.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\tests\\__pycache__\\test_b3a_assessment.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\tests\\__pycache__\\test_b3b_teaching.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\tests\\__pycache__\\test_b3c_strategies.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\tests\\__pycache__\\test_b4_planning.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\tests\\__pycache__\\test_b4_teaching.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\tests\\__pycache__\\test_b5_entry.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\tests\\__pycache__\\test_b6_network.cpython-312.pyc",
+    "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\tests\\__pycache__\\test_b7_pilot.cpython-312.pyc"
+  ],
+  "files_count": 30,
+  "scope": "Regenerable Python __pycache__ only",
+  "source_or_database_deleted": false
+}

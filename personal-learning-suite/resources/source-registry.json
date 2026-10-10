@@ -1,0 +1,1890 @@
+{
+  "artifact_version": "0.1.0",
+  "baseline": "B0",
+  "created_on": "2026-10-02",
+  "source_path_base": "suite_root",
+  "source_path_base_note": "suite_root 指 personal-learning-suite。../docs/ 指向分类保存的设计与研究原文；目录整理映射与原始备份见 ../maintenance/organization-2026-10-04/manifest.json。",
+  "source_count": 19,
+  "fingerprint_policy": {
+    "algorithm": "SHA256",
+    "scope": "only_non_personal_design_and_research_sources",
+    "personal_records": "不得以指纹保留可重建的个人内容；本登记无个人记录"
+  },
+  "namespace_policy": {
+    "source_ids": "N00、D00—D11、R01—R06；引用时标 type=source",
+    "encoding_card_ids": "O/S/R/D/I/X01—10；引用时标 type=encoding_card",
+    "literature_ids": "R03 /sources 的 OS/DI/RR/F/U 与 R06 的 E01—E49；引用时标 type=literature",
+    "warning": "例如 Encoding 卡 R09 不是来源登记号；来源 R02 与卡 R02 属于不同命名空间。"
+  },
+  "priority_policy": [
+    "D00 定义共同语义与当前生效规则。",
+    "N00 只在包装、四角色七 Skill、资源转译与实施路线显式修订范围内优先于 D01 旧包装。",
+    "对应正式专项在自身决定范围内执行；研究与实践库只提供候选及依据边界。",
+    "当前合法限制、删除范围、执行权与已生效版本先于展示／提交；B0 未创建这些真实状态。",
+    "未解决的同范围实质冲突保持未决，先限制受影响用途，不用摘要或早期研究建议覆盖正式规范。"
+  ],
+  "sources": [
+    {
+      "source_id": "N00",
+      "project_relative_path": "../docs/architecture/AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md",
+      "declared_version": "v0",
+      "version_declaration": "AI 个人学习系统：Agent 与 Skill 工作网络及实施路线 v0",
+      "declared_dates": [
+        "2026-10-02"
+      ],
+      "title": "AI 个人学习系统：Agent 与 Skill 工作网络及实施路线 v0",
+      "purpose_layer": "implementation_design",
+      "purpose": "当前四角色、七 Skill、依赖分层、资源转译和 B0—B7 实施路线",
+      "available": true,
+      "personal_source": false,
+      "sha256": "60c13b6da6c0b83bfee06c03d4f1514ba712ff8396823c0a230c7845427c076a",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# AI 个人学习系统：Agent 与 Skill 工作网络及实施路线 v0",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 一、对上一版架构作出的细化与修订",
+          "line": 13
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 二、文档与资源编号：先建立共同索引",
+          "line": 40
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 三、推荐工作网络",
+          "line": 74
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 四、四个 Agent 的责任说明",
+          "line": 128
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 五、七个 Skill 的详细边界与加载入口",
+          "line": 192
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 六、设计时读什么，运行时读什么",
+          "line": 238
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 七、策略资源怎样从原文变成运行资源",
+          "line": 289
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 八、Agent 之间交付什么，怎样才算完成",
+          "line": 377
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 九、正常工作流程：哪些每次做，哪些按需做",
+          "line": 419
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十、异常工作网络和暂停边界",
+          "line": 488
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十一、实现目录、共享资源和发布方式",
+          "line": 504
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十二、先设计和实现什么：按依赖推进",
+          "line": 565
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十三、下一阶段开发任务单应怎样写",
+          "line": 634
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十四、验收网络而不只验收文件",
+          "line": 681
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十五、本轮可执行的设计结论",
+          "line": 718
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false,
+        "sections_read": [
+          "二：文档与资源编号",
+          "六：设计时与运行时依赖",
+          "七：策略资源转译",
+          "十二：B0—B7 及交付门槛",
+          "十四：资源核对项"
+        ]
+      },
+      "priority_rule": "只在四角色／七 Skill 包装、资源转译和实施路线的显式修订范围内优先于 D01；共同规范仍以 D00 为准。"
+    },
+    {
+      "source_id": "D00",
+      "project_relative_path": "../docs/architecture/AI个人学习系统_整体学习流程与概念架构_v1.md",
+      "declared_version": "v1",
+      "version_declaration": "版本：v1／工作包 9—10 设计收口版",
+      "declared_dates": [
+        "2026-10-01",
+        "2026-10-02"
+      ],
+      "title": "AI 个人学习系统：整体学习流程与概念架构 v1",
+      "purpose_layer": "formal_design",
+      "purpose": "统一语义、权限、生效、纠错和首期范围",
+      "available": true,
+      "personal_source": false,
+      "sha256": "1552af1b89b70910f5455555c030842bbf9bacd97469b7364012b0222f14f740",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# AI 个人学习系统：整体学习流程与概念架构 v1",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 一、目标、依据与当前生效规则",
+          "line": 13
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 二、六项能力及其关系",
+          "line": 53
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 三、统一信息语义与最小追溯",
+          "line": 89
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 四、从课程到跨会话的完整流程",
+          "line": 132
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 五、责任、授权与协作配置",
+          "line": 199
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 六、交接、专业采用与计划生效",
+          "line": 228
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 七、跨学科适配与用户体验",
+          "line": 256
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 八、系统纠错：两条传播路径，分别恢复",
+          "line": 283
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 九、删除、迟到结果与异常恢复",
+          "line": 307
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十、完整而狭窄的首期",
+          "line": 343
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十一、验证状态与后续实施依赖",
+          "line": 371
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十二、从 v0 到 v1 的采纳与澄清记录",
+          "line": 386
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false
+      },
+      "priority_rule": "共同语义、权限、证据用途、删除与当前生效规则的统一上位规范。"
+    },
+    {
+      "source_id": "D01",
+      "project_relative_path": "../docs/architecture/AI个人学习系统_Skill架构设计_v0.md",
+      "declared_version": "v0",
+      "version_declaration": "版本：v0／从正式学习系统方案到 Skill 实现的架构设计",
+      "declared_dates": [
+        "2026-10-02"
+      ],
+      "title": "AI 个人学习系统：Skill 架构设计 v0",
+      "purpose_layer": "formal_design",
+      "purpose": "记录契约、持久化、加载与宿主边界；Skill 包装按 N00 显式修订",
+      "available": true,
+      "personal_source": false,
+      "sha256": "61b5ddebfad4ef8928a3a44e8f7fd95804ec7cc7138c7eb796284f0347b4bee2",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# AI 个人学习系统：Skill 架构设计 v0",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 一、本阶段需要作出的架构决定",
+          "line": 14
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 二、依据与转换范围",
+          "line": 46
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 三、整体架构：入口、专业工作流、个人记录和运行支持",
+          "line": 73
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 四、Skill 包的组织与按需加载",
+          "line": 120
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 五、职责、能力分配与 Agent 协作配置",
+          "line": 199
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 六、共享状态与最小数据契约",
+          "line": 236
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 七、一次学习的运行方式",
+          "line": 321
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 八、计划、需求与跨会话连续性",
+          "line": 401
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 九、委派、结果采用与执行权",
+          "line": 433
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十、持久化与运行支持的实现边界",
+          "line": 478
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十一、纠错、删除和组合异常",
+          "line": 545
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十二、跨学科适配与外部工具",
+          "line": 591
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十三、用户看到的交互",
+          "line": 621
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十四、贯通示例：从首次学习到恢复与纠错",
+          "line": 647
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十五、验证与实现验收",
+          "line": 678
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十六、实现顺序与明确交付物",
+          "line": 725
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十七、当前已明确与待落实的事项",
+          "line": 754
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false
+      },
+      "priority_rule": "约束共享记录与宿主边界；单包包装和拆分建议按 N00 显式修订。"
+    },
+    {
+      "source_id": "D02",
+      "project_relative_path": "../docs/designs/AI个人学习系统_工作包2与3_联合设计方案_v0.md",
+      "declared_version": "v0",
+      "version_declaration": "AI 个人学习系统：工作包 2 与 3 联合设计方案 v0",
+      "declared_dates": [
+        "2026-09-27"
+      ],
+      "title": "AI 个人学习系统：工作包 2 与 3 联合设计方案 v0",
+      "purpose_layer": "formal_design",
+      "purpose": "目标与判据、证据、诊断、近期展开",
+      "available": true,
+      "personal_source": false,
+      "sha256": "d9ec50ea70d1e03010af09519064d3c32a336d3d4879eb5bdb9e9e1cf645ba23",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# AI 个人学习系统：工作包 2 与 3 联合设计方案 v0",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 一、共同成果与本轮边界",
+          "line": 13
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 二、主流程：先形成可用安排，再持续修订",
+          "line": 49
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 三、工作包 2：从材料和用途形成目标",
+          "line": 84
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 四、目标粒度、前置关系与目标版本",
+          "line": 139
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 五、验收框架：先限定结论，再设计能支持它的任务",
+          "line": 207
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 六、工作包 3：用证据与判断表示学习者状态",
+          "line": 266
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 七、冷启动与局部诊断：围绕会改变安排的未知取证",
+          "line": 346
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 八、让判断真正改变内容展开",
+          "line": 408
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 九、新证据、纠错和变化的更新规则",
+          "line": 458
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十、与工作包 4—8 的交接与责任",
+          "line": 515
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十一、三个假设情境：检查这套设计能否产生不同安排",
+          "line": 555
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十二、首期落地、验收与待验证选择",
+          "line": 634
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 附录：依据定位与使用边界",
+          "line": 704
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false
+      },
+      "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+    },
+    {
+      "source_id": "D03",
+      "project_relative_path": "../docs/designs/AI个人学习系统_工作包4_设计方案_v0.md",
+      "declared_version": "v0",
+      "version_declaration": "AI 个人学习系统：工作包 4 设计方案 v0",
+      "declared_dates": [
+        "2026-09-28"
+      ],
+      "title": "AI 个人学习系统：工作包 4 设计方案 v0",
+      "purpose_layer": "formal_design",
+      "purpose": "来源片段、材料用途、内容核验和错误传播",
+      "available": true,
+      "personal_source": false,
+      "sha256": "813d12945ffd62f5b3db5e91568bb423261c63ab4149b7da4d18c293ddec3d28",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# AI 个人学习系统：工作包 4 设计方案 v0",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 一、本方案作出的选择",
+          "line": 8
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 二、B3 在整体学习流程中的位置",
+          "line": 45
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 三、用两个层次组织内容，保留必要的区别",
+          "line": 76
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 四、上传材料如何成为可用内容",
+          "line": 108
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 五、材料选择：先决定需要支持什么，再决定增加什么",
+          "line": 146
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 六、输入怎样组织，哪些表征值得制作",
+          "line": 193
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 七、生成与核验：把“可以相信什么”说具体",
+          "line": 227
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 八、学习、提示、参考答案与验收怎样衔接",
+          "line": 287
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 九、与相邻工作包的最小交接和责任",
+          "line": 326
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十、来源冲突、错误与版本变化的处理",
+          "line": 372
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十一、用有区分力的情境走查设计",
+          "line": 419
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十二、首期怎么落地，怎样判断值得保留",
+          "line": 509
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十三、本版取舍、证据索引与后续交付",
+          "line": 560
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false
+      },
+      "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+    },
+    {
+      "source_id": "D04",
+      "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_C0共同教学框架_设计方案_v0.md",
+      "declared_version": "v0",
+      "version_declaration": "AI 个人学习系统：工作包 5／C0 共同教学框架设计方案 v0",
+      "declared_dates": [
+        "2026-09-28"
+      ],
+      "title": "AI 个人学习系统：工作包 5／C0 共同教学框架设计方案 v0",
+      "purpose_layer": "formal_design",
+      "purpose": "共同教学回路、活动规格、帮助、反馈与收束",
+      "available": true,
+      "personal_source": false,
+      "sha256": "9159db63fbaae9983de09ae3f75226dd45db94c31bbfa269bb560a7ad5e5091b",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# AI 个人学习系统：工作包 5／C0 共同教学框架设计方案 v0",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 一、依据、未知与本版关键选择",
+          "line": 13
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 二、共同准备：从已有依据到可以开始",
+          "line": 54
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 三、共同框架：活动、表现和后续决定怎样连接",
+          "line": 97
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 四、活动规格：让执行者知道具体做什么",
+          "line": 121
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 五、输入、帮助与反馈：每一步都应改变下一步的依据",
+          "line": 156
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 六、检查与判断：把教学进展交回证据体系",
+          "line": 198
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 七、调整、异常与恢复权限",
+          "line": 234
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 八、共同收束与交接：留下结果，也留下处理结果",
+          "line": 284
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 九、贯通检查：用有限假设检验规则能否执行",
+          "line": 321
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十、当前通过标准、有限试用与简化条件",
+          "line": 425
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十一、研究依据与外推边界",
+          "line": 481
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十二、交给下一步设计的准备包",
+          "line": 501
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 附记：本次审阅意见处理",
+          "line": 530
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false
+      },
+      "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+    },
+    {
+      "source_id": "D05",
+      "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+      "declared_version": "v0",
+      "version_declaration": "AI 个人学习系统：工作包 5／Encoding 设计方案 v0",
+      "declared_dates": [
+        "2026-09-29"
+      ],
+      "title": "AI 个人学习系统：工作包 5／Encoding 设计方案 v0",
+      "purpose_layer": "formal_design",
+      "purpose": "关系建构、动态展开、复杂整体与局部返回",
+      "available": true,
+      "personal_source": false,
+      "sha256": "0422df3448789b77511b0ab7c74f7f2c92ba7f1919ceb44f28b683239a650b62",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# AI 个人学习系统：工作包 5／Encoding 设计方案 v0",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 一、本版的核心选择与依据",
+          "line": 11
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 二、设计单位：目标中的一项可用结构",
+          "line": 47
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 三、高理论上限：系统应能支持哪些深层工作",
+          "line": 72
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 四、动态实际深度：继承要求，选择当前工作",
+          "line": 104
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 五、把选择变成有内容的学习活动",
+          "line": 168
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 六、局部展开、检查与收束",
+          "line": 221
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 七、假设情境：深度怎样真正随要求和表现改变",
+          "line": 259
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 八、与各工作包衔接及最小记录",
+          "line": 358
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 九、关键取舍与本版复杂度边界",
+          "line": 416
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十、怎样检验这套设计值得采用",
+          "line": 429
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false
+      },
+      "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+    },
+    {
+      "source_id": "D06",
+      "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "declared_version": "v0",
+      "version_declaration": "AI 个人学习系统：工作包 5／Post-Encoding 设计方案 v0",
+      "declared_dates": [
+        "2026-09-29"
+      ],
+      "title": "AI 个人学习系统：工作包 5／Post-Encoding 设计方案 v0",
+      "purpose_layer": "formal_design",
+      "purpose": "恢复、整合、选用、更新与时间条件",
+      "available": true,
+      "personal_source": false,
+      "sha256": "c0a266c68aad62d6390ae1e53b3b3e66343d9e8a48865c953b2998cc387f3bca",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# AI 个人学习系统：工作包 5／Post-Encoding 设计方案 v0",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 一、核心选择、阅读范围与依据性质",
+          "line": 11
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 二、继承前序成果：先判断还缺什么，再决定做什么",
+          "line": 50
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 三、高理论上限：后续学习应能承接完整的目标工作",
+          "line": 84
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 四、从当前需要到一次活动：动态选择原则",
+          "line": 119
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 五、专项活动：把恢复、整合和应用做在所需内容上",
+          "line": 157
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 六、知识更新与局部重新 Encoding",
+          "line": 209
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 七、时间与证据：教学进展、当前可用和持久可用分别成立",
+          "line": 246
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 八、收束、后续需求与共同接口",
+          "line": 290
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 九、贯通情境：同一原则如何产生不同的教学工作",
+          "line": 361
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十、关键研究主张与设计外推的边界",
+          "line": 505
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十一、首期实施与验证：同时检查高上限和适时停止",
+          "line": 524
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false
+      },
+      "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+    },
+    {
+      "source_id": "D07",
+      "project_relative_path": "../docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+      "declared_version": "v0",
+      "version_declaration": "AI 个人学习系统：工作包 6／策略使用规则设计方案 v0",
+      "declared_dates": [
+        "2026-09-30"
+      ],
+      "title": "AI 个人学习系统：工作包 6／策略使用规则设计方案 v0",
+      "purpose_layer": "formal_design",
+      "purpose": "选法、适配、组合、替换、复用及教学／计划边界",
+      "available": true,
+      "personal_source": false,
+      "sha256": "23128e532dc02680c4fcd4bab0e1cb19553db8769ba8f4396a617612d1a00138",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# AI 个人学习系统：工作包 6／策略使用规则设计方案 v0",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 一、依据范围与实践库核对",
+          "line": 11
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 二、设计单位、职责与最小输入",
+          "line": 43
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 三、从当前需要到可审查的选择",
+          "line": 98
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 四、缺口与候选方法的条件化映射",
+          "line": 140
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 五、组合、顺序与相互干扰",
+          "line": 167
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 六、从通用卡片到可执行任务",
+          "line": 201
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 七、无进展时怎样替换和回退",
+          "line": 232
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 八、退出、收束与后续需求",
+          "line": 260
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 九、最小记录：让下一次选择能够复盘",
+          "line": 279
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十、代表性任务实例与分支",
+          "line": 308
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十一、策略复用、修改与停用",
+          "line": 431
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十二、工作包接口与责任闭环",
+          "line": 464
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十三、设计验收与纸上走查",
+          "line": 525
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十四、首期使用范围与待验证问题",
+          "line": 579
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false
+      },
+      "priority_rule": "按 D00 共同语义和对应教学专项执行；“工作包 7 尚未形成”为历史阶段说明，不作为本轮缺失依赖。"
+    },
+    {
+      "source_id": "D08",
+      "project_relative_path": "../docs/designs/AI个人学习系统_工作包7_长期计划与学习连续性_设计方案_v0.md",
+      "declared_version": "v0",
+      "version_declaration": "AI 个人学习系统：工作包 7／长期计划与学习连续性设计方案 v0",
+      "declared_dates": [
+        "2026-09-30"
+      ],
+      "title": "AI 个人学习系统：工作包 7／长期计划与学习连续性设计方案 v0",
+      "purpose_layer": "formal_design",
+      "purpose": "需求处置、资源竞争、滚动承诺与恢复",
+      "available": true,
+      "personal_source": false,
+      "sha256": "2d0769b417360c514da3dfbf13a884a80594a6e87447118f78b75d2b635e2564",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# AI 个人学习系统：工作包 7／长期计划与学习连续性设计方案 v0",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 一、计划负责什么，哪些决定仍在原处",
+          "line": 10
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 二、四种时间尺度怎样形成一项可信承诺",
+          "line": 33
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 三、需求进入计划时，先决定它是否值得继续占用注意力",
+          "line": 54
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 四、竞争与预算：选择一个完整可行的范围",
+          "line": 77
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 五、长任务保留整体，恢复从可信断点继续",
+          "line": 108
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 六、时间性需求怎样进入日历，何时可以结束重复投入",
+          "line": 126
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 七、漏学与积压：清理需求的理由，不搬运日历",
+          "line": 146
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 八、重排只改受影响的承诺",
+          "line": 171
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 九、与工作包 8 共用的交接和生效规则",
+          "line": 202
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十、用户看到的进展和本版的验证办法",
+          "line": 222
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false
+      },
+      "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+    },
+    {
+      "source_id": "D09",
+      "project_relative_path": "../docs/designs/AI个人学习系统_工作包8_多Agent协作与共享状态_设计方案_v0.md",
+      "declared_version": "v0",
+      "version_declaration": "AI 个人学习系统：工作包 8／多 Agent 协作与共享状态设计方案 v0",
+      "declared_dates": [
+        "2026-09-30"
+      ],
+      "title": "AI 个人学习系统：工作包 8／多 Agent 协作与共享状态设计方案 v0",
+      "purpose_layer": "formal_design",
+      "purpose": "委派、接责、专业采用、执行权与迟到结果",
+      "available": true,
+      "personal_source": false,
+      "sha256": "a47d8d7e06c71f2ca28065e226a71d7179ac00f3fe3a2b369a519bcdd85f912c",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# AI 个人学习系统：工作包 8／多 Agent 协作与共享状态设计方案 v0",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 一、设计从哪些问题开始",
+          "line": 11
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 二、责任跟随决定，不跟随 Agent 名称",
+          "line": 29
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 三、高层必须交出足够具体、又不过度铺开的设计",
+          "line": 59
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 四、共享的是有归属的依据，不是统一状态总分",
+          "line": 77
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 五、从委派到接管：责任必须真正落下",
+          "line": 106
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 六、版本和采用：保留新信息，不让旧决定覆盖现在",
+          "line": 143
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 七、与工作包 7 共用的五类交接",
+          "line": 155
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 八、纠错必须修到依赖它的决定",
+          "line": 171
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 九、用户控制贯穿原记录、派生判断和迟到结果",
+          "line": 186
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十、假设走查：规则是否会产生可检查的不同结果",
+          "line": 200
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十一、协作成本如何约束方案，而不牺牲关键依据",
+          "line": 272
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十二、本版决定与仍需校准的事项",
+          "line": 291
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false
+      },
+      "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+    },
+    {
+      "source_id": "D10",
+      "project_relative_path": "../docs/designs/AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计方案_v0.md",
+      "declared_version": "v0",
+      "version_declaration": "AI 个人学习系统：工作包 9／跨学科、用户体验与异常场景设计方案 v0",
+      "declared_dates": [
+        "2026-10-01",
+        "2026-10-02"
+      ],
+      "title": "AI 个人学习系统：工作包 9／跨学科、用户体验与异常场景设计方案 v0",
+      "purpose_layer": "formal_design",
+      "purpose": "学科差异、用户操作与组合异常",
+      "available": true,
+      "personal_source": false,
+      "sha256": "3432d7b726e3b4fdd0a1ab60f200eaf7e986518b0be9d94cd9d9be5b59ff87f1",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# AI 个人学习系统：工作包 9／跨学科、用户体验与异常场景设计方案 v0",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 一、阅读依据、继承和本轮增量",
+          "line": 14
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 二、贯通审查怎样做，结果怎样解释",
+          "line": 35
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 三、四学科共用什么，必须分别判断什么",
+          "line": 49
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 四、数学轨迹 M9：深目标跨会话继续，简单目标及时结束",
+          "line": 62
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 五、人工智能轨迹 A9：概念、实现、测试选择与实验解释分开",
+          "line": 98
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 六、金融轨迹 F9：相同公式必须绑定假设、单位与时点",
+          "line": 117
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 七、政治轨迹 P9：证据、解释和价值前提分别评分",
+          "line": 136
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 八、用户体验：每项控制都改变教学、证据或安排",
+          "line": 155
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 九、内容错误沿实际依赖修到计划：X9完整演练",
+          "line": 189
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十、运行异常与连续性演练",
+          "line": 230
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十一、跨包澄清与修订台账",
+          "line": 273
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十二、交给工作包10的可检验问题与具体输入",
+          "line": 304
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十三、本包交付自查及结论范围",
+          "line": 339
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false
+      },
+      "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+    },
+    {
+      "source_id": "D11",
+      "project_relative_path": "../docs/designs/AI个人学习系统_工作包10_验证计划与设计收口_设计方案_v0.md",
+      "declared_version": "v0",
+      "version_declaration": "AI 个人学习系统：工作包 10／验证计划与设计收口设计方案 v0",
+      "declared_dates": [
+        "2026-10-01",
+        "2026-10-02"
+      ],
+      "title": "AI 个人学习系统：工作包 10／验证计划与设计收口设计方案 v0",
+      "purpose_layer": "formal_design",
+      "purpose": "V1—V4、B10-01—12、首期实例与实施顺序",
+      "available": true,
+      "personal_source": false,
+      "sha256": "065ba1ad1c44cd17461d90861b81f54ee70185818fcc522f07ef8fe83b07c25c",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# AI 个人学习系统：工作包 10／验证计划与设计收口设计方案 v0",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 一、依据、结论性质与本包负责的决定",
+          "line": 14
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 二、首期统一选择：一个有限目标组合，一条完整路径",
+          "line": 44
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 三、把验证分成四个可以分别失败的问题",
+          "line": 87
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 四、优先验证哪些承诺，结果会改变哪里",
+          "line": 100
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 五、执行顺序：按证据就绪推进，不按统一周数推进",
+          "line": 125
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 六、四类验证具体怎么取得证据",
+          "line": 140
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 七、比较方案：每次只回答一个新增做法是否值得",
+          "line": 189
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 八、异常与技术行为的受控核查",
+          "line": 220
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 九、最小验证记录、处置规则和停止条件",
+          "line": 251
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十、接收工作包 9，并使架构 v1 真正生效",
+          "line": 296
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十一、进入实现的顺序与每一步的交付条件",
+          "line": 326
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 十二、本版收口结果与下一阶段入口",
+          "line": 341
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false
+      },
+      "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+    },
+    {
+      "source_id": "R01",
+      "project_relative_path": "../docs/research/01_Encoding研究报告.md",
+      "declared_version": "2.0",
+      "version_declaration": "研究日期：2026-09-24。版本：2.0（依据升级规范完成科学性审查与文档同步）。面向个人学习系统与 AI tutor。根据用户提供的《深度研究.md》确定问题范围；文档中的假设和示例作为待检验问题处理。",
+      "declared_dates": [
+        "2026-09-24"
+      ],
+      "title": "Encoding 高级策略：从知识结构到可迁移的内部模型",
+      "purpose_layer": "research_and_method_source",
+      "purpose": "结构属性、选择与顺序、研究证据边界",
+      "available": true,
+      "personal_source": false,
+      "sha256": "12b7671df7726b75df71708a0fc0ec8bfbc3e4e6e79b06ac9c6937d9113bb8b1",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# Encoding 高级策略：从知识结构到可迁移的内部模型",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 1. 最重要的判断",
+          "line": 7
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 2. 证据怎么读",
+          "line": 27
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 3. 哪些前沿进展值得改变系统设计",
+          "line": 47
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 4. Encoding Operation Taxonomy：六类动作向下拆解",
+          "line": 81
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 5. 用“结构属性”选择操作，而非给知识贴唯一标签",
+          "line": 111
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 6. Strategy Selection Matrix：实际如何只选两三个操作",
+          "line": 138
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 7. 关于“操作深度”：采用多维进展，不采用八级排行榜",
+          "line": 164
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 8. Relate 中最容易被伪深度掩盖的七个问题",
+          "line": 199
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 9. 顺序：哪些可优先采用，哪些需要测试",
+          "line": 223
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 10. 什么时候先生成，什么时候先支架",
+          "line": 242
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 11. Encoding Decision Algorithm",
+          "line": 261
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 12. 一套有答案判据的完整演示：学习一阶负反馈系统",
+          "line": 317
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 13. 另外三个短例：看起来类似的学习困难，为什么选不同策略",
+          "line": 353
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 14. 真正值得投入的高级策略",
+          "line": 374
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 15. 如何验证系统，而不是只验证输出好看",
+          "line": 401
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 16. 前沿与未知必须并列保留",
+          "line": 420
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 17. 证据台账：46项来源及其支持边界",
+          "line": 430
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 前沿设计与方法论来源 F01—F08",
+          "line": 516
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false
+      },
+      "priority_rule": "方法候选／研究边界，受 D00 及对应正式专项方案约束；不能覆盖目标、判据、帮助、时间或授权。"
+    },
+    {
+      "source_id": "R02",
+      "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+      "declared_version": "2.0",
+      "version_declaration": "版本2.0。60张操作卡，每类10张；保留原ID与名称。与《Encoding 研究报告》的选择矩阵、证据台账和决策算法配套使用。",
+      "declared_dates": [],
+      "title": "Encoding 微操作与提问库",
+      "purpose_layer": "method_body_source",
+      "purpose": "60 卡完整正文及文首／文尾共用约束",
+      "available": true,
+      "personal_source": false,
+      "sha256": "3f859c2642ab2a70a2a7e9ea5d9d9109c987f52dc9f04e92df0b3192ff07fa7b",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# Encoding 微操作与提问库",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## Orient / 定向",
+          "line": 14
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## Scaffold / 支架",
+          "line": 116
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## Relate / 关系化",
+          "line": 218
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## Differentiate / 辨析",
+          "line": 340
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## Instantiate / 具体化",
+          "line": 442
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## Re-represent / 重表征",
+          "line": 544
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 添加例子与停止的规则",
+          "line": 656
+        },
+        {
+          "kind": "markdown_heading_pattern",
+          "pattern": "^### ([OSRDIX]\\d{2}) (.+)$",
+          "count": 60,
+          "note": "卡片定位原始 ID；这是定位规则，不是运行索引。"
+        },
+        {
+          "kind": "markdown_line_range",
+          "start_line": 1,
+          "end_line": 13,
+          "purpose": "文首共用约定"
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false,
+        "complete_structural_check": true,
+        "all_card_ids_names_categories_evidence_refs_compared": true,
+        "all_card_body_citation_diffs_inspected": true,
+        "method_effect_or_course_applicability_validation": false
+      },
+      "priority_rule": "方法候选／研究边界，受 D00 及对应正式专项方案约束；不能覆盖目标、判据、帮助、时间或授权。"
+    },
+    {
+      "source_id": "R03",
+      "project_relative_path": "../docs/research/04_Encoding策略库.json",
+      "declared_version": "2.0",
+      "version_declaration": "/version",
+      "declared_dates": [
+        "2026-09-24"
+      ],
+      "title": "{",
+      "purpose_layer": "method_retrieval_carrier",
+      "purpose": "同一 60 卡的 JSON 检索载体与证据 ID；无调度算法",
+      "available": true,
+      "personal_source": false,
+      "sha256": "ddcaf4e43444b22d9affc33c086a8a900142a4b615af2fb8a3a9fc2820048cbc",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "json_pointer",
+          "pointer": "/version"
+        },
+        {
+          "kind": "json_pointer",
+          "pointer": "/research_date"
+        },
+        {
+          "kind": "json_pointer",
+          "pointer": "/status"
+        },
+        {
+          "kind": "json_pointer",
+          "pointer": "/operations"
+        },
+        {
+          "kind": "json_pointer",
+          "pointer": "/sources"
+        },
+        {
+          "kind": "json_array_selection",
+          "pointer": "/operations",
+          "select_field": "id",
+          "content_pointer_template": "/operations/{actual_array_index}/content_markdown",
+          "note": "先按实际 id 查找 array_index；ID 不等于数组下标。"
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false,
+        "complete_structural_check": true,
+        "all_card_ids_names_categories_evidence_refs_compared": true,
+        "all_card_body_citation_diffs_inspected": true,
+        "method_effect_or_course_applicability_validation": false
+      },
+      "priority_rule": "方法候选／研究边界，受 D00 及对应正式专项方案约束；不能覆盖目标、判据、帮助、时间或授权。"
+    },
+    {
+      "source_id": "R04",
+      "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+      "declared_version": null,
+      "version_declaration": "原文未声明独立版本号；日期不替代版本",
+      "declared_dates": [
+        "2026-09-25",
+        "2026-09-24"
+      ],
+      "title": "Retrieval × Integration：快速矩阵",
+      "purpose_layer": "method_navigation_source",
+      "purpose": "7×7 非互斥任务匹配、结果倒推、六种组合与三项边界",
+      "available": true,
+      "personal_source": false,
+      "sha256": "f06a7d3889191f5fd6d49c6cd89ec3cac0df5402439ea586d6c5cef101ae519f",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# Retrieval × Integration：快速矩阵",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 从结果倒推操作",
+          "line": 22
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 六种组合如何判断",
+          "line": 32
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 三个使用边界",
+          "line": 45
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false,
+        "full_local_text_read": true,
+        "matrix_and_all_navigation_sections_checked": true,
+        "empirical_claim_validation": false
+      },
+      "priority_rule": "方法候选／研究边界，受 D00 及对应正式专项方案约束；不能覆盖目标、判据、帮助、时间或授权。"
+    },
+    {
+      "source_id": "R05",
+      "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+      "declared_version": null,
+      "version_declaration": "原文未声明独立版本号；日期不替代版本",
+      "declared_dates": [],
+      "title": "Post-Encoding Dynamics：从学习操作到知识状态转移",
+      "purpose_layer": "research_and_method_source",
+      "purpose": "15 节研究综合：操作、结果、反馈、顺序与机制边界",
+      "available": true,
+      "personal_source": false,
+      "sha256": "b9a6c07343dab159a25c37ff054f04bd44751b9c7ffd3242b1dff86d36b598f9",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# Post-Encoding Dynamics：从学习操作到知识状态转移",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 1. 证据如何分级，以及本报告能回答到哪里",
+          "line": 17
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 2. 对 baseline 的精确增补",
+          "line": 41
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 3. 一个可检验的知识状态模型",
+          "line": 56
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 4. Integration 至少包含七种不同结果",
+          "line": 108
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 5. Retrieval × Integration Matrix",
+          "line": 124
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 6. 哪些检索参数会改变下一状态",
+          "line": 175
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 7. Retrieval 后究竟重新激活了什么",
+          "line": 194
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 8. Feedback / Updating：不是信息越多，改变就越深",
+          "line": 231
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 9. 组合与顺序：何时互补，何时重复，何时干扰",
+          "line": 262
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 10. Consolidation / Reconsolidation 与检索、更新如何交互",
+          "line": 313
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 11. Knowledge Type × Prior Knowledge × Learning Stage",
+          "line": 348
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 12. 最终模型：操作如何改变知识状态",
+          "line": 384
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 13. 用什么测量，才能知道知识真的改变了",
+          "line": 402
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 14. 同一个知识主题，七种检索会产生怎样不同的改变",
+          "line": 434
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 15. 哪些结论已经够用，哪些仍值得优先研究",
+          "line": 450
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false
+      },
+      "priority_rule": "方法候选／研究边界，受 D00 及对应正式专项方案约束；不能覆盖目标、判据、帮助、时间或授权。"
+    },
+    {
+      "source_id": "R06",
+      "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+      "declared_version": null,
+      "version_declaration": "原文未声明独立版本号；日期不替代版本",
+      "declared_dates": [
+        "2026-09-25"
+      ],
+      "title": "Post-Encoding Dynamics：证据台账与参考文献",
+      "purpose_layer": "literature_ledger_source",
+      "purpose": "E01—E49 文献条目、原文声明的核查深度与外推限制",
+      "available": true,
+      "personal_source": false,
+      "sha256": "e36977d61df248a2176be8eb94387fa2e0323251eaf90eb147768b67d4381d49",
+      "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+      "locators": [
+        {
+          "kind": "markdown_heading",
+          "heading": "# Post-Encoding Dynamics：证据台账与参考文献",
+          "line": 1
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## A. 综合证据：作为边界和基准，避免重复宏观综述",
+          "line": 9
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## B. Retrieval 的操作、迁移和先验知识",
+          "line": 59
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## C. Feedback、错误与 updating",
+          "line": 121
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## D. 组合、顺序与操作成分",
+          "line": 183
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## E. 重激活、关系整合、分化与竞争",
+          "line": 233
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## F. 巩固、图式与再巩固边界",
+          "line": 265
+        },
+        {
+          "kind": "markdown_heading",
+          "heading": "## 检索与引用审计说明",
+          "line": 315
+        },
+        {
+          "kind": "markdown_heading_pattern",
+          "pattern": "^### (E\\d{2})",
+          "count": 49,
+          "note": "仅文献编号，不是操作卡编号。"
+        }
+      ],
+      "read_check_scope": {
+        "all_text_decoded": true,
+        "metadata_and_top_level_headings_checked": true,
+        "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+        "external_references_verified": false,
+        "all_49_ledger_entry_identifiers_checked": true
+      },
+      "priority_rule": "方法候选／研究边界，受 D00 及对应正式专项方案约束；不能覆盖目标、判据、帮助、时间或授权。"
+    }
+  ],
+  "structural_audit": {
+    "audit_kind": "local_file_structure_and_carrier_consistency",
+    "runtime_execution_or_empirical_validation": false,
+    "encoding": {
+      "markdown_card_count": 60,
+      "json_card_count": 60,
+      "all_id_name_category_matches": true,
+      "id_order_matches": true,
+      "unique_ids": 60,
+      "category_counts": {
+        "Orient / 定向": 10,
+        "Scaffold / 支架": 10,
+        "Relate / 关系化": 10,
+        "Differentiate / 辨析": 10,
+        "Instantiate / 具体化": 10,
+        "Re-represent / 重表征": 10
+      },
+      "json_operation_fields": [
+        "id",
+        "name",
+        "category",
+        "content_markdown",
+        "template_status",
+        "evidence_ids"
+      ],
+      "uniform_template_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "template_status_count": 60,
+      "markdown_h_deepening_and_acceptance_present_count": 60,
+      "per_card_evidence_id_set_matches": true,
+      "missing_evidence_source_keys": [],
+      "empty_evidence_card_ids": [
+        "R09"
+      ],
+      "empty_evidence_rule": "保持 R09 的设计综合性质；不补造论文，也不因该字段为空自动禁用，仍需内容与用途核验。",
+      "source_key_count": 46,
+      "unique_evidence_keys_used_by_cards": 38,
+      "carrier_relationship": "R02 与 R03 是同一套方法的两个载体，不计为两份独立证据。",
+      "body_comparison": {
+        "normalization": "仅去除 Markdown 链接目标后逐行比较；差异人工检查为来源编号压缩写法",
+        "identical_count_after_link_removal": 32,
+        "citation_compression_difference_count": 28,
+        "citation_compression_difference_card_ids": [
+          "O01",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "S01",
+          "S02",
+          "S05",
+          "S08",
+          "S09",
+          "D01",
+          "D02",
+          "D03",
+          "D04",
+          "D05",
+          "D06",
+          "D07",
+          "I01",
+          "I02",
+          "I04",
+          "I05",
+          "I06",
+          "I07",
+          "I08",
+          "I09"
+        ],
+        "substantive_difference_found": false,
+        "limits": "一致性检查不证明方法有效、课程内容正确或转译已经完成。"
+      },
+      "document_level_rules_not_in_card_json": [
+        "R02 文首证据约定与共同执行约定",
+        "R02 文尾“添加例子与停止的规则”"
+      ],
+      "runtime_strategy_index_generated": false,
+      "card_bundle_generated": false
+    },
+    "post": {
+      "r04": {
+        "matrix_operation_rows": 7,
+        "matrix_result_columns": 7,
+        "operation_row_names": [
+          "Factual",
+          "Relational",
+          "Comparative",
+          "Explanatory",
+          "Generative",
+          "Application",
+          "Problem-solving"
+        ],
+        "result_column_names": [
+          "Accessibility",
+          "Differentiation",
+          "Relational",
+          "Causal / hierarchical",
+          "Abstraction / schema",
+          "Conditionalization",
+          "Transfer"
+        ],
+        "reverse_result_navigation_rows": 5,
+        "combination_rows": 6,
+        "usage_boundaries": 3,
+        "stable_strategy_ids_present": false,
+        "matrix_is": "非互斥任务匹配导航；符号不是经验效应量或排名",
+        "fixed_retrieval_first_rule": false
+      },
+      "r05_top_level_numbered_sections": 15,
+      "r06_literature_entries": 49,
+      "r06_contiguous_e01_e49": true,
+      "post_json_card_library_exists_among_declared_sources": false,
+      "new_post_operation_ids_created": false,
+      "evidence_ledger_verification_note": "只检查本地文献条目编号连续性；原文核查深度为历史声明，本轮未重新查论文。"
+    }
+  },
+  "legacy_local_links": [
+    {
+      "source_id": "R04",
+      "line": 5,
+      "original_target": "C:/Users/15006/Documents/Codex/2026-09-24/post-encoding-dynamics-retrieval-reactivation-feedback/outputs/Post-Encoding-Dynamics-深度增量研究.md",
+      "proposed_local_source_id": "R05",
+      "resolution_status": "mapping_pending_b3c",
+      "original_modified": false,
+      "external_verification": false
+    },
+    {
+      "source_id": "R04",
+      "line": 5,
+      "original_target": "C:/Users/15006/Documents/Codex/2026-09-24/post-encoding-dynamics-retrieval-reactivation-feedback/outputs/证据台账与参考文献.md",
+      "proposed_local_source_id": "R06",
+      "resolution_status": "mapping_pending_b3c",
+      "original_modified": false,
+      "external_verification": false
+    },
+    {
+      "source_id": "R05",
+      "line": 466,
+      "original_target": "C:/Users/15006/Documents/Codex/2026-09-24/post-encoding-dynamics-retrieval-reactivation-feedback/outputs/证据台账与参考文献.md",
+      "proposed_local_source_id": "R06",
+      "resolution_status": "mapping_pending_b3c",
+      "original_modified": false,
+      "external_verification": false
+    },
+    {
+      "source_id": "R05",
+      "line": 466,
+      "original_target": "C:/Users/15006/Documents/Codex/2026-09-24/post-encoding-dynamics-retrieval-reactivation-feedback/outputs/Retrieval-Integration-快速矩阵.md",
+      "proposed_local_source_id": "R04",
+      "resolution_status": "mapping_pending_b3c",
+      "original_modified": false,
+      "external_verification": false
+    }
+  ],
+  "legacy_local_links_policy": "仅登记旧本地 outputs 路径及候选当前来源映射，B3c 发布前解析；B0 未改原文、未检查旧路径存在、未修复链接、未作外部论文核验。",
+  "path_relocation_record": "../maintenance/organization-2026-10-04/manifest.json"
+}

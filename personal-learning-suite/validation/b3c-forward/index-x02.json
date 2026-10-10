@@ -1,0 +1,72 @@
+{
+  "status": "ok",
+  "resource_revision": "pl-strategies/0.1.0",
+  "entries": [
+    {
+      "bundle_path": "encoding/X02.json",
+      "category": "Re-represent / 重表征",
+      "compiled": true,
+      "evidence_ids": [
+        "RR06"
+      ],
+      "execution_limit": "必须读取完整资源并在当前任务核对条件；未编译项按需回原文，经开发维护核对后生成包。",
+      "identity_kind": "original_encoding_card_id",
+      "name": "约束补全与支架撤除",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "X02",
+      "resource_key": "encoding/X02",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 567,
+            "heading": "### X02 约束补全与支架撤除",
+            "kind": "markdown_heading",
+            "start_line": 557
+          },
+          "project_relative_path": "../02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/51",
+            "select_field": "id",
+            "select_value": "X02"
+          },
+          "project_relative_path": "../04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Re-represent / 重表征"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    }
+  ],
+  "mutated": false,
+  "executable": false,
+  "ranking": null,
+  "limitations": [
+    "Index navigation does not establish adaptation, truth, or effectiveness."
+  ]
+}

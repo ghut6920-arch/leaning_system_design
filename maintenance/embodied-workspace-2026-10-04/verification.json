@@ -1,0 +1,18 @@
+{
+  "validation_scope": "initialization, source preservation, local links and shared rule references; no teaching effectiveness claim",
+  "files_created": 37,
+  "source_copy_byte_equal": true,
+  "module_count": 9,
+  "chapter_rows_equal": true,
+  "chapter_count": 40,
+  "estimated_hours_from_chapter_rows": 260,
+  "gate_count": 6,
+  "checked_local_links": 156,
+  "broken_links": [],
+  "framework_reference_count": 32,
+  "missing_or_changed_framework_files": [],
+  "real_runtime_binding": false,
+  "databases_in_learning_workspace": [],
+  "actual_session_directories": [],
+  "passed": true
+}

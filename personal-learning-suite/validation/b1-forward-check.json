@@ -1,0 +1,172 @@
+{
+  "record_kind": "independent_forward_use_observation_summary",
+  "date": "2026-10-03",
+  "timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "evaluator": "contract_audit subagent",
+  "skill": "personal-learning-suite/src/skills/personal-learning/SKILL.md",
+  "user_request": "接着上次未完成的完整推理，不过今天先只告诉我从哪里继续、哪些条件还没确定；我想看原答再决定。",
+  "versions": {
+    "protocol": "pl-contracts/0.1.0",
+    "store": "pl-store/0.1.0",
+    "evidence": "协议取自夹具；store 常量与 contracts/runtime-b1.md 在整理摘要时核对。执行输出未另打印版本或源码指纹。"
+  },
+  "evidence_source": {
+    "kind": "conversation_tool_outputs",
+    "raw_stdout_file": null,
+    "output_chunks": [
+      {
+        "chunk_id": "c2aa96",
+        "observation": "直接导入原夹具被拒，空空间恢复缺输入"
+      },
+      {
+        "chunk_id": "226eda",
+        "observation": "内存标记适配后导入、route、resume、export 及前后只读比较"
+      }
+    ],
+    "note": "本文件是实际工具输出的观察摘要，不是原始 stdout 副本，不补造完整运行日志。"
+  },
+  "input_sources": [
+    "personal-learning-suite/fixtures/synthetic-baseline.json",
+    "personal-learning-suite/fixtures/originals.md"
+  ],
+  "execution": {
+    "host": "Windows 本地 Python API；通过 PowerShell 调用 python -B -",
+    "workspace": "tempfile.TemporaryDirectory(prefix='sk00-forward-audit-')",
+    "workspace_lifecycle": "两次尝试各用独立临时目录，退出后自动清理",
+    "entry_actor": "AG0",
+    "steps": [
+      "读取 SKILL.md、references/entry-controls.md 和实际 API 源码；未读取开发测试的预期答案。",
+      "LearningStore.init_workspace()",
+      "第一次直接 import_fixture(snapshot, {'originals.md': 原件全文})",
+      "确认原夹具 synthetic=true，只在内存增加 synthetic_only=true；在新的临时空间重新初始化并导入。",
+      "PersonalLearningEntry.route(user_request)",
+      "PersonalLearningEntry.resume()，未指定 activity_id，未执行 unpause",
+      "从恢复结果取得 FIX-event，再调用 LearningStore.export_scope(['FIX-event'])",
+      "比较导入后、查看前后的 read_context() 修订和对象内容"
+    ]
+  },
+  "import_observations": {
+    "direct_fixture": {
+      "status": "rejected",
+      "reason_code": "synthetic_fixture_required",
+      "reason": "Bootstrap requires synthetic_only=true and complete fixture objects.",
+      "fixture_marker": "synthetic=true"
+    },
+    "in_memory_adaptation": {
+      "added": {
+        "synthetic_only": true
+      },
+      "preserved_original_file": true,
+      "basis": "原夹具明确 synthetic=true，内容为人工 FIX-* 数据",
+      "status": "committed",
+      "state_revision": 1,
+      "object_count": 26,
+      "artifact_count": 1
+    }
+  },
+  "route_observation": {
+    "status": "control_request",
+    "command": "resume",
+    "state_revision": 1,
+    "needed_inputs": [],
+    "teaching": false,
+    "mutated": false,
+    "work_order_created": false
+  },
+  "resume_observation": {
+    "status": "needs_input",
+    "state_revision": 1,
+    "needed_inputs": [
+      "unique_current_commitment",
+      "execution_authorization"
+    ],
+    "teaching": false,
+    "mutated": false,
+    "recovery_source": "checkpoint",
+    "checkpoint_ref": {
+      "id": "FIX-checkpoint",
+      "revision": 1
+    },
+    "activity_ref": {
+      "id": "FIX-activity",
+      "revision": 1
+    },
+    "last_trusted_event_ref": {
+      "id": "FIX-event",
+      "revision": 1
+    },
+    "parent_artifact": {
+      "path": "originals.md",
+      "locator": "虚构父产物",
+      "revision": 1,
+      "origin": "synthetic_fixture"
+    },
+    "original_response": {
+      "path": "originals.md",
+      "locator": "虚构初答",
+      "revision": 1,
+      "origin": "synthetic_fixture"
+    },
+    "next_connection": "局部修订可连接回同一父产物，实际返回和整体完成尚未执行",
+    "unresolved_conditions": [
+      "尚无唯一当前有效承诺",
+      "尚无教学执行授权",
+      "相关接触历史 unknown",
+      "未记录动作 unknown",
+      "事件发生时间 not_executed，帮助只有人工顺序而无真实时刻"
+    ],
+    "recorded_help": "初答之后提供连接帮助，再产生修订；帮助后的修订不证明帮助前独立完成连接。",
+    "restriction": {
+      "scope_id": "FIX-goal",
+      "intended_uses": [
+        "以该帮助后修订作重要跳过"
+      ],
+      "reason": "未获得独立连接支持"
+    },
+    "new_test_created": false
+  },
+  "original_view_observation": {
+    "api": "LearningStore.export_scope(['FIX-event'])",
+    "status": "ok",
+    "state_revision": 1,
+    "artifact_paths": [
+      "originals.md"
+    ],
+    "exported_object_count": 10,
+    "initial_answer": "Q。",
+    "export_boundary": "实际返回整份共享 originals.md，除初答外含教师参考、父产物和修订；本摘要不复制这些全文。",
+    "display_requirement": "回应只看原答的请求时，须按虚构初答 locator 只展示对应段落，不能直接展示整份导出载荷。",
+    "limitation": "内存导出；调用者保存的副本、宿主历史和外部备份不受组件删除控制。"
+  },
+  "read_only_comparison": {
+    "after_import_before_inspection": {
+      "state_revision": 1,
+      "object_count": 26
+    },
+    "after_route_resume_export": {
+      "state_revision": 1,
+      "object_count": 26
+    },
+    "canonical_objects_equal": true,
+    "observation_mutations": false,
+    "bootstrap_import_is_separate": true,
+    "product_source_modified": false,
+    "existing_demo_or_report_modified": false
+  },
+  "conclusion": {
+    "observed": "可定位原有恢复位置与原答，并保留执行缺项和未知；未启动教学、补测、专业 Agent、工作回执或计划变更。",
+    "user_request_boundary": "只读查看可以完成；needs_input 描述执行条件不足，不应因此要求用户先补齐教学授权才能查看已有合法原答。",
+    "usage_gaps": [
+      "原 B0 夹具标记与 import_fixture 接口标记不同，需要明确的内存适配。",
+      "原答查看使用整份共享原件导出，展示层需要按 locator 限定内容。"
+    ]
+  },
+  "limitations": [
+    "仅人工夹具和独立临时数据库；没有真实个人数据或真实课程试用。",
+    "没有安装 Skill 或验证可发现的安装包。",
+    "未验证真实宿主身份、输出拦截或角色工具隔离。",
+    "未执行真实教学、能力评价、学习收益或协作收益验证。",
+    "没有覆盖完整 B1 验收；这是一次请求的前向使用观察。"
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "skill": "learning-assessment",
+    "exit_code": 0,
+    "output": "Skill is valid!"
+  },
+  {
+    "skill": "learning-goals",
+    "exit_code": 0,
+    "output": "Skill is valid!"
+  },
+  {
+    "skill": "learning-materials",
+    "exit_code": 0,
+    "output": "Skill is valid!"
+  },
+  {
+    "skill": "learning-planning",
+    "exit_code": 0,
+    "output": "Skill is valid!"
+  },
+  {
+    "skill": "learning-strategies",
+    "exit_code": 0,
+    "output": "Skill is valid!"
+  },
+  {
+    "skill": "learning-teaching",
+    "exit_code": 0,
+    "output": "Skill is valid!"
+  },
+  {
+    "skill": "personal-learning",
+    "exit_code": 0,
+    "output": "Skill is valid!"
+  }
+]

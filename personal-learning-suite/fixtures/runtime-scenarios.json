@@ -1,0 +1,25 @@
+{
+  "synthetic": true,
+  "protocol_version": "pl-contracts/0.1.0",
+  "source_ref": "D11 第八节；N00 第十四节",
+  "description": "行为测试规格，均尚未运行。B0 静态夹具只是数据契约准备；以下独立情境须由后续承载方式产生原始输出。",
+  "scenarios": [
+    {"case_id": "B10-01", "runtime_status": "not_executed", "earliest_batch": "B3a/B3b", "setup": "简单目标已有充分合法支持且无时间要求", "expected": "结束该范围，不新增必修检查，其他目标状态不变", "failure": "为走满流程继续加题", "artifacts": ["Judgment", "LearningNeed", "SessionCheckpoint"]},
+    {"case_id": "B10-02", "runtime_status": "not_executed", "earliest_batch": "B3a/B3b", "setup": "同一原答内容，两分支关键提示发生在初答前或后", "expected": "初答前后分条件解释，只限制被帮助替代操作，修订不加样本", "failure": "判断完全相同或全部证据作废", "artifacts": ["PerformanceEvent", "Judgment"]},
+    {"case_id": "B10-03", "runtime_status": "not_executed", "earliest_batch": "B2a/B4", "setup": "分别模拟临时缩时与用户改变正式目标", "expected": "缩时只改承诺；正式改目标形成修订并核旧证据兼容", "failure": "预算变动自动降低判据", "artifacts": ["GoalSpec", "PlanCommitment", "BudgetEnvelope"]},
+    {"case_id": "B10-04", "runtime_status": "not_executed", "earliest_batch": "B3a/B5", "setup": "虚构错误参考同时进入目标判据和评分，原答实际正确", "expected": "双链回查，原答够用直接重评，四恢复面分别落实，撤回错误补课", "failure": "只改答案或强迫重考", "artifacts": ["CorrectionCase", "DependencyEdge", "Judgment", "LearningNeed"]},
+    {"case_id": "B10-05", "runtime_status": "not_executed", "earliest_batch": "B1/B5", "setup": "关键依赖缺一段，另有已确认无关活动", "expected": "未知依赖相关用途受限，有据且授权的无关活动可继续", "failure": "查不到即无影响或全局停用", "artifacts": ["UseRestriction", "ChangeNotice"]},
+    {"case_id": "B10-06", "runtime_status": "not_executed", "earliest_batch": "B1/B3b", "setup": "无结束摘要但父草稿和部分帮助顺序仍在", "expected": "从最后可信事实恢复父任务，未记录动作保持未知", "failure": "整章冷启动或默认无帮助", "artifacts": ["SessionCheckpoint", "PerformanceEvent", "ActivitySpec"]},
+    {"case_id": "B10-07", "runtime_status": "not_executed", "earliest_batch": "B6", "setup": "同活动新执行者接管后旧者仍尝试展示和回传", "expected": "真实宿主拦截旧展示；迟到结果经过当前采用入口；不能隔离则串行", "failure": "两人同时教学或旧建议覆盖新计划", "artifacts": ["ControlState", "WorkOrder", "WorkResult", "宿主原始展示日志"]},
+    {"case_id": "B10-08", "runtime_status": "not_executed", "earliest_batch": "B1/B3a/B6", "setup": "删除 A 后迟到旧通过，剩余 B 分别充分/部分/无效；另测删除包含关联索引", "expected": "清理原件/修订/摘要/派生/候选/临时/验证/策略个人摘录/受管导出；终止受影响上下文；只据 B 保留/收窄/撤销，禁止复活 A", "failure": "摘要或日志留下可重建 A，删一条即全清零，旧通过复活", "artifacts": ["实际删除报告", "剩余合法引用", "Judgment", "迟到载荷拒绝结果"]},
+    {"case_id": "B10-09", "runtime_status": "not_executed", "earliest_batch": "B4/B6", "setup": "已读但无人接责、高层不可用、无新依据委派绕回", "expected": "发送方保留跟进；授权内改派或明确暂缓，停止循环", "failure": "已读变成已安排或用户被迫逐个催促", "artifacts": ["WorkOrder", "LearningNeed", "PlanCommitment"]},
+    {"case_id": "B10-10", "runtime_status": "not_executed", "earliest_batch": "B3a/B4", "setup": "目标要求严格无相关再学习间隔，期间发生相关学习或答案暴露；另测接触未知", "expected": "按操作和实际时间改解释；保留当前使用，严格条件不合格/未知，必要时重排", "failure": "按日历标通过或换 Agent 重置暴露", "artifacts": ["GoalSpec", "PerformanceEvent", "Judgment"]},
+    {"case_id": "B10-11", "runtime_status": "not_executed", "earliest_batch": "B3a/B6", "setup": "相反判断和旧目标/预算版本建议到达", "expected": "分对象/条件/版本；相容新事实保留，冲突用途待核，旧决定不覆写", "failure": "投票、平均或最后写入获胜", "artifacts": ["WorkResult", "Judgment", "PlanCommitment"]},
+    {"case_id": "B10-12", "runtime_status": "not_executed", "earliest_batch": "B1/B5", "setup": "查看理由、评分异议、限定导出、删除含可控与不可控副本", "expected": "理由可定位、异议有结果/待查；导出注明原证据；准确报告控制范围", "failure": "影子证据导出或宣称外部副本永久擦除", "artifacts": ["实际控制请求与报告", "导出原件清单", "Judgment"]}
+  ],
+  "network_additions": [
+    {"case_id": "N-B0-01", "runtime_status": "not_executed", "earliest_batch": "B3c/B4", "setup": "S07+X02 借用同一关键补全，R09 空证据字段", "expected": "一份表现，记录实际借用与帮助；R09 保留设计综合不补引文"},
+    {"case_id": "N-B0-02", "runtime_status": "not_executed", "earliest_batch": "B3c", "setup": "卡名命中但正文或共用规则缺失，或资源实质版本变化", "expected": "不声称可执行已核对配置；可靠活动仍可直接教学；冲突先限制"},
+    {"case_id": "N-B0-03", "runtime_status": "not_executed", "earliest_batch": "B1/B6", "setup": "同 operation_id 重试，多角色准备共享预算", "expected": "不重复计证/创建需求/复制额度；旧状态冲突不盲重试"}
+  ]
+}

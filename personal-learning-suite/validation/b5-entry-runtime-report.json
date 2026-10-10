@@ -1,0 +1,185 @@
+{
+  "batch": "B5",
+  "scope": "entry",
+  "client_date": "2026-10-03",
+  "client_timezone": "Asia/Shanghai",
+  "synthetic_only": true,
+  "versions": {
+    "shared": "pl-contracts/0.1.0",
+    "store": "pl-store/0.1.0",
+    "entry": "pl-entry/0.1.0"
+  },
+  "executor": "scripts/check_b5.py; Python unittest",
+  "checker": "Independent B5 integration test author; root reviews actual results",
+  "host_versions": {
+    "python": "3.12.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "sqlite": "3.46.1"
+  },
+  "status": "passed",
+  "tests_run": 38,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "case": "test_b5_entry.B5EntryTests.test_accepting_existing_need_keeps_pending_and_does_not_create_plan",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_adopted_method_handoff_uses_same_teaching_event",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_ag0_routine_path_cannot_make_important_professional_judgment",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_candidate_goal_review_does_not_save_or_adopt",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_cli_execute_emits_json_and_open_is_read_only",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_deleted_goal_source_cannot_be_reintroduced_by_old_bridge_request",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_deleted_material_cannot_be_revived_by_single_entry",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_demo_existing_workspace_is_read_only_without_reseeding_or_replay",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_direct_service_uses_same_public_entry_contract",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_displayed_prior_help_limits_judgment_and_preserves_same_sample",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_failed_transaction_never_produces_unsaved_handoff",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_failure_preserves_saved_prefix_and_returns_responsibility_without_payload",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_forward_missing_and_forbidden_bindings_are_preflight_rejected",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_goal_review_cannot_replace_saved_source_with_changed_declaration",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_goal_source_bridge_rejects_changed_source_or_goal_payload",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_goal_source_bridge_requires_ag2_authorization",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_goal_submit_preserves_explicit_authorized_adoption",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_goal_submit_rejects_changed_criterion_without_saving_candidate",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_goal_submit_saves_legacy_candidate_without_manufacturing_adoption",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_intent_only_returns_candidate_without_professional_work",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_material_read_and_inspect_remain_candidates_without_truth_upgrade",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_missing_result_binding_stops_after_successful_prefix",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_need_submit_cannot_reset_existing_accepted_or_scheduled_need",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_need_submit_keeps_proposed_pending_and_uses_shared_record_only",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_need_submit_rejects_automatic_acceptance_or_scheduling",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_new_goal_review_user_view_does_not_include_unrelated_existing_need",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_new_goal_sources_and_adopted_goal_are_both_saved_through_entry",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_pause_blocks_entry_and_does_not_lift_control",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_planning_only_grant_cannot_create_goal_by_declaring_planning_decision",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_public_single_entry_saves_judgment_checkpoint_need_disposition_and_reopens",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_read_only_open_exposes_only_learner_packet_and_preserves_state",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_restriction_blocks_new_teaching_without_erasing_history",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_same_need_pending_is_removed_only_after_real_disposition",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_saved_request_fixture_runs_the_same_explicit_handoff_chain",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_stale_root_cas_rejects_before_first_write",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_structural_errors_preflight_all_steps_before_mutation",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_supported_candidate_is_visible_without_becoming_adopted_or_mastery",
+      "status": "passed"
+    },
+    {
+      "case": "test_b5_entry.B5EntryTests.test_unhashable_operation_and_teaching_action_return_rejected_json",
+      "status": "passed"
+    }
+  ],
+  "raw_output_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\validation\\b5-entry-runtime-output.txt",
+  "limitations": [
+    "All goals, findings, original responses, costs, exposure and grants are explicit fictional declarations.",
+    "Serial single-entry orchestration preserves managed controls; it does not verify semantic correctness or learning efficacy.",
+    "B6 authenticated host role binding and asynchronous delegation are outside this B5 slice.",
+    "External requests, stdout and reports remain outside managed store deletion scope."
+  ]
+}

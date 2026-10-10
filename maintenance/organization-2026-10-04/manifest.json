@@ -1,0 +1,4919 @@
+{
+  "date": "2026-10-04",
+  "status": "complete",
+  "moves": [
+    {
+      "old": "01_Encoding研究报告.md",
+      "new": "docs/research/01_Encoding研究报告.md",
+      "kind": "document"
+    },
+    {
+      "old": "02_Encoding微操作与提问库.md",
+      "new": "docs/research/02_Encoding微操作与提问库.md",
+      "kind": "document"
+    },
+    {
+      "old": "04_Encoding策略库.json",
+      "new": "docs/research/04_Encoding策略库.json",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md",
+      "new": "docs/architecture/AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_B0规范与资源基线_v0.md",
+      "new": "docs/implementation/AI个人学习系统_B0规范与资源基线_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_B1保存与入口骨架_v0.md",
+      "new": "docs/implementation/AI个人学习系统_B1保存与入口骨架_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_B2a目标Skill与AG1目标职能_v0.md",
+      "new": "docs/implementation/AI个人学习系统_B2a目标Skill与AG1目标职能_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_B2b内容与材料_v0.md",
+      "new": "docs/implementation/AI个人学习系统_B2b内容与材料_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_B3a证据评估与AG3职能_v0.md",
+      "new": "docs/implementation/AI个人学习系统_B3a证据评估与AG3职能_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_B3b教学共同核心_v0.md",
+      "new": "docs/implementation/AI个人学习系统_B3b教学共同核心_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_B3c策略资源与配置_v0.md",
+      "new": "docs/implementation/AI个人学习系统_B3c策略资源与配置_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_B3联合接口评估与修复_v0.md",
+      "new": "docs/implementation/AI个人学习系统_B3联合接口评估与修复_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_B4教学专项与计划_v0.md",
+      "new": "docs/implementation/AI个人学习系统_B4教学专项与计划_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_B5单入口纵向集成_v0.md",
+      "new": "docs/implementation/AI个人学习系统_B5单入口纵向集成_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_B6工作网络与受控宿主_v0.md",
+      "new": "docs/implementation/AI个人学习系统_B6工作网络与受控宿主_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_B7有限真实试用与验证工具_v0.md",
+      "new": "docs/implementation/AI个人学习系统_B7有限真实试用与验证工具_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_Skill与Agent设计综合审计及补强路线_2026-10-04.md",
+      "new": "docs/audits/AI个人学习系统_Skill与Agent设计综合审计及补强路线_2026-10-04.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_Skill架构设计_v0.md",
+      "new": "docs/architecture/AI个人学习系统_Skill架构设计_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包10_验证计划与设计收口_设计提示词.md",
+      "new": "docs/prompts/AI个人学习系统_工作包10_验证计划与设计收口_设计提示词.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包10_验证计划与设计收口_设计方案_v0.md",
+      "new": "docs/designs/AI个人学习系统_工作包10_验证计划与设计收口_设计方案_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包10_验证计划与设计收口_顶层设计分析.md",
+      "new": "docs/analysis/AI个人学习系统_工作包10_验证计划与设计收口_顶层设计分析.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包2与3_联合设计提示词.md",
+      "new": "docs/prompts/AI个人学习系统_工作包2与3_联合设计提示词.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包2与3_联合设计方案_v0.md",
+      "new": "docs/designs/AI个人学习系统_工作包2与3_联合设计方案_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包2与3_联合顶层设计分析.md",
+      "new": "docs/analysis/AI个人学习系统_工作包2与3_联合顶层设计分析.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包2至4_交接对齐说明.md",
+      "new": "docs/designs/AI个人学习系统_工作包2至4_交接对齐说明.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包4_审阅评估.md",
+      "new": "docs/reviews/AI个人学习系统_工作包4_审阅评估.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包4_设计提示词.md",
+      "new": "docs/prompts/AI个人学习系统_工作包4_设计提示词.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包4_设计方案_v0.md",
+      "new": "docs/designs/AI个人学习系统_工作包4_设计方案_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包4_顶层设计分析.md",
+      "new": "docs/analysis/AI个人学习系统_工作包4_顶层设计分析.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包5_C0共同教学框架_审阅评估.md",
+      "new": "docs/reviews/AI个人学习系统_工作包5_C0共同教学框架_审阅评估.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包5_C0共同教学框架_设计提示词.md",
+      "new": "docs/prompts/AI个人学习系统_工作包5_C0共同教学框架_设计提示词.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包5_C0共同教学框架_设计方案_v0.md",
+      "new": "docs/designs/AI个人学习系统_工作包5_C0共同教学框架_设计方案_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包5_Encoding_设计提示词.md",
+      "new": "docs/prompts/AI个人学习系统_工作包5_Encoding_设计提示词.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+      "new": "docs/designs/AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包5_Encoding_顶层设计分析.md",
+      "new": "docs/analysis/AI个人学习系统_工作包5_Encoding_顶层设计分析.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包5_Post-Encoding_设计提示词.md",
+      "new": "docs/prompts/AI个人学习系统_工作包5_Post-Encoding_设计提示词.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "new": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包5_Post-Encoding_顶层设计分析.md",
+      "new": "docs/analysis/AI个人学习系统_工作包5_Post-Encoding_顶层设计分析.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+      "new": "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包7_长期计划与学习连续性_设计提示词.md",
+      "new": "docs/prompts/AI个人学习系统_工作包7_长期计划与学习连续性_设计提示词.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包7_长期计划与学习连续性_设计方案_v0.md",
+      "new": "docs/designs/AI个人学习系统_工作包7_长期计划与学习连续性_设计方案_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包7_长期计划与学习连续性_顶层设计分析.md",
+      "new": "docs/analysis/AI个人学习系统_工作包7_长期计划与学习连续性_顶层设计分析.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包8_多Agent协作与共享状态_设计提示词.md",
+      "new": "docs/prompts/AI个人学习系统_工作包8_多Agent协作与共享状态_设计提示词.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包8_多Agent协作与共享状态_设计方案_v0.md",
+      "new": "docs/designs/AI个人学习系统_工作包8_多Agent协作与共享状态_设计方案_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包8_多Agent协作与共享状态_顶层设计分析.md",
+      "new": "docs/analysis/AI个人学习系统_工作包8_多Agent协作与共享状态_顶层设计分析.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计提示词.md",
+      "new": "docs/prompts/AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计提示词.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计方案_v0.md",
+      "new": "docs/designs/AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计方案_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_工作包9_跨学科用户体验与异常场景_顶层设计分析.md",
+      "new": "docs/analysis/AI个人学习系统_工作包9_跨学科用户体验与异常场景_顶层设计分析.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_整体学习流程与概念架构_v0.md",
+      "new": "docs/architecture/AI个人学习系统_整体学习流程与概念架构_v0.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_整体学习流程与概念架构_v1.md",
+      "new": "docs/architecture/AI个人学习系统_整体学习流程与概念架构_v1.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_架构v0_检查记录.md",
+      "new": "docs/reviews/AI个人学习系统_架构v0_检查记录.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_架构审计修复实施记录_2026-10-04.md",
+      "new": "docs/audits/AI个人学习系统_架构审计修复实施记录_2026-10-04.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_架构设计提示词_GPT6Astra.md",
+      "new": "docs/prompts/AI个人学习系统_架构设计提示词_GPT6Astra.md",
+      "kind": "document"
+    },
+    {
+      "old": "AI个人学习系统_设计流程与工作包.md",
+      "new": "docs/architecture/AI个人学习系统_设计流程与工作包.md",
+      "kind": "document"
+    },
+    {
+      "old": "B1_虚构演示学习空间",
+      "new": "examples/workspaces/B1_虚构演示学习空间",
+      "kind": "synthetic_workspace"
+    },
+    {
+      "old": "B2b_虚构材料学习空间",
+      "new": "examples/workspaces/B2b_虚构材料学习空间",
+      "kind": "synthetic_workspace"
+    },
+    {
+      "old": "B3a_虚构证据学习空间",
+      "new": "examples/workspaces/B3a_虚构证据学习空间",
+      "kind": "synthetic_workspace"
+    },
+    {
+      "old": "B3b_虚构教学学习空间",
+      "new": "examples/workspaces/B3b_虚构教学学习空间",
+      "kind": "synthetic_workspace"
+    },
+    {
+      "old": "B3c_虚构策略学习空间",
+      "new": "examples/workspaces/B3c_虚构策略学习空间",
+      "kind": "synthetic_workspace"
+    },
+    {
+      "old": "B4_虚构专项教学学习空间",
+      "new": "examples/workspaces/B4_虚构专项教学学习空间",
+      "kind": "synthetic_workspace"
+    },
+    {
+      "old": "B4_虚构计划学习空间",
+      "new": "examples/workspaces/B4_虚构计划学习空间",
+      "kind": "synthetic_workspace"
+    },
+    {
+      "old": "B5_虚构单入口学习空间",
+      "new": "examples/workspaces/B5_虚构单入口学习空间",
+      "kind": "synthetic_workspace"
+    },
+    {
+      "old": "Post-Encoding-Dynamics-深度增量研究.md",
+      "new": "docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+      "kind": "document"
+    },
+    {
+      "old": "post-encoding证据台账与参考文献.md",
+      "new": "docs/research/post-encoding证据台账与参考文献.md",
+      "kind": "document"
+    },
+    {
+      "old": "Retrieval-Integration-快速矩阵.md",
+      "new": "docs/research/Retrieval-Integration-快速矩阵.md",
+      "kind": "document"
+    },
+    {
+      "old": "B6_虚构工作网络空间",
+      "new": "examples/workspaces/B6_虚构工作网络空间",
+      "kind": "synthetic_workspace"
+    },
+    {
+      "old": "personal-learning-suite/validation/b5-demo-workspace",
+      "new": "examples/workspaces/b5-demo-workspace",
+      "kind": "synthetic_workspace"
+    }
+  ],
+  "before_files": [
+    {
+      "path": "01_Encoding研究报告.md",
+      "sha256": "ccae80ccd66b1ad446b27309e0cffc46b59706701332bb9bb9f07818abae36f1",
+      "bytes": 80019
+    },
+    {
+      "path": "02_Encoding微操作与提问库.md",
+      "sha256": "3f859c2642ab2a70a2a7e9ea5d9d9109c987f52dc9f04e92df0b3192ff07fa7b",
+      "bytes": 76732
+    },
+    {
+      "path": "04_Encoding策略库.json",
+      "sha256": "ddcaf4e43444b22d9affc33c086a8a900142a4b615af2fb8a3a9fc2820048cbc",
+      "bytes": 88684
+    },
+    {
+      "path": "AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md",
+      "sha256": "498311dab7df9a632a960ae40ef56eb25b3596336cb127dcbcfb8250831c7bcb",
+      "bytes": 62086
+    },
+    {
+      "path": "AI个人学习系统_B0规范与资源基线_v0.md",
+      "sha256": "374deedc6768f63c006eca395e1705a7b5c3ff7d4c1b0bc0080ac5ad9db4d615",
+      "bytes": 5059
+    },
+    {
+      "path": "AI个人学习系统_B1保存与入口骨架_v0.md",
+      "sha256": "e2d9ef307fb1c0d482e0901188144033625e87437b978a52ec92e085b0c84b79",
+      "bytes": 6355
+    },
+    {
+      "path": "AI个人学习系统_B2a目标Skill与AG1目标职能_v0.md",
+      "sha256": "7f5719bfffb3b4c7b325556d54d51a76b109754b56de829fc7ce10d85180738f",
+      "bytes": 6180
+    },
+    {
+      "path": "AI个人学习系统_B2b内容与材料_v0.md",
+      "sha256": "068f3e065757b1441969148ee4e26501110adc910989a4d0faae8d09f57eee15",
+      "bytes": 7211
+    },
+    {
+      "path": "AI个人学习系统_B3a证据评估与AG3职能_v0.md",
+      "sha256": "967e7373beb13a7f9c458007bc5c6e02297bcb7a5db7c67e1ad26241bfbcc7ff",
+      "bytes": 4416
+    },
+    {
+      "path": "AI个人学习系统_B3b教学共同核心_v0.md",
+      "sha256": "0787b85837e8fece482b3d12bac609a517696f47b0af52f80325607e49156f5b",
+      "bytes": 6111
+    },
+    {
+      "path": "AI个人学习系统_B3c策略资源与配置_v0.md",
+      "sha256": "71a7f99bd937776f65bfc8cbac87361372c765303dd0dfda0c56633264c4734c",
+      "bytes": 9358
+    },
+    {
+      "path": "AI个人学习系统_B3联合接口评估与修复_v0.md",
+      "sha256": "26dfced3bf4cb2e87e5283ff2f5051f9a15d7e9bccce8ac1da5d1d75fa391871",
+      "bytes": 6940
+    },
+    {
+      "path": "AI个人学习系统_B4教学专项与计划_v0.md",
+      "sha256": "aebf7fbbe9ac020cd0e393a29cbd61dc42b8f0705286a3812fb6f1d7d6884084",
+      "bytes": 8798
+    },
+    {
+      "path": "AI个人学习系统_B5单入口纵向集成_v0.md",
+      "sha256": "d5954f74b66a46eec31abb2548ef4d28a30b97596a4cd346cf259fbce68f2e29",
+      "bytes": 9462
+    },
+    {
+      "path": "AI个人学习系统_B6工作网络与受控宿主_v0.md",
+      "sha256": "5432f75473a839439f34f5ca4fa8abb45d7108e2737782cc8e6f31d549df8f97",
+      "bytes": 7498
+    },
+    {
+      "path": "AI个人学习系统_B7有限真实试用与验证工具_v0.md",
+      "sha256": "6b500514ad8d66e2dbe1908aa4e96efce22ead141dd939055be6b5b6ab71ff8d",
+      "bytes": 6911
+    },
+    {
+      "path": "AI个人学习系统_Skill与Agent设计综合审计及补强路线_2026-10-04.md",
+      "sha256": "2bf382b89463aa0515839d80f6002cc06af6be4d09e2b796ed68d773bdd6258c",
+      "bytes": 29448
+    },
+    {
+      "path": "AI个人学习系统_Skill架构设计_v0.md",
+      "sha256": "3e1288cfa6ceb6c9f013a3846f7565075d759ab62dfa3185b4ac2722c8a0c859",
+      "bytes": 65446
+    },
+    {
+      "path": "AI个人学习系统_工作包10_验证计划与设计收口_设计提示词.md",
+      "sha256": "dd77a1d4589c08a750409db4104ff9d7cc7c70a97d56157618e77adea887a5aa",
+      "bytes": 6160
+    },
+    {
+      "path": "AI个人学习系统_工作包10_验证计划与设计收口_设计方案_v0.md",
+      "sha256": "04c4bcc347c420da469b75f7a362ecbdc81c593fd82f9588dadaac8f2e5badfd",
+      "bytes": 49514
+    },
+    {
+      "path": "AI个人学习系统_工作包10_验证计划与设计收口_顶层设计分析.md",
+      "sha256": "1ca6878ba7a0ee2cef62d2369fdcf8add45f61f70ecb73eab54734ae269be130",
+      "bytes": 19473
+    },
+    {
+      "path": "AI个人学习系统_工作包2与3_联合设计提示词.md",
+      "sha256": "c7d7a23576a706f0b82916c1d1329dec95d1455bd8228d42238bb23356546a12",
+      "bytes": 6046
+    },
+    {
+      "path": "AI个人学习系统_工作包2与3_联合设计方案_v0.md",
+      "sha256": "b1418268e976edd3e64cf8fcc8a6805d0f64b53727b77b2c79f35a9849253f0e",
+      "bytes": 71434
+    },
+    {
+      "path": "AI个人学习系统_工作包2与3_联合顶层设计分析.md",
+      "sha256": "841ed43e6680276988cdbbda6c312eefd658e8379ac02f70157f98ac349edcb8",
+      "bytes": 22380
+    },
+    {
+      "path": "AI个人学习系统_工作包2至4_交接对齐说明.md",
+      "sha256": "4c6cb7cd6b709e7c44872c0b160a8e9378819065e33580b0190c0d5d1be2a206",
+      "bytes": 14047
+    },
+    {
+      "path": "AI个人学习系统_工作包4_审阅评估.md",
+      "sha256": "f6af36d1e16f936115b04b24b5292c6af9b06e584b843c964c71707a6c80088e",
+      "bytes": 14945
+    },
+    {
+      "path": "AI个人学习系统_工作包4_设计提示词.md",
+      "sha256": "7fd313706a38e6156d02488fc3c6bd5fca35000a73196e9419470b9a96195ab6",
+      "bytes": 6498
+    },
+    {
+      "path": "AI个人学习系统_工作包4_设计方案_v0.md",
+      "sha256": "879c68a3bc5bbb14f3349c3ed008b858f8dbac8b60053b3f2b401994cc2e550d",
+      "bytes": 71505
+    },
+    {
+      "path": "AI个人学习系统_工作包4_顶层设计分析.md",
+      "sha256": "8edc27c94346f696c55cb1d3fe26d8f84be45334732bf3eb0738b94725646402",
+      "bytes": 28567
+    },
+    {
+      "path": "AI个人学习系统_工作包5_C0共同教学框架_审阅评估.md",
+      "sha256": "163672d456f07ab6c0284d2c347c8b8257d61b9719094cf02f3ba8a191416b0a",
+      "bytes": 9443
+    },
+    {
+      "path": "AI个人学习系统_工作包5_C0共同教学框架_设计提示词.md",
+      "sha256": "8d9b16cee2535ab57a5fcfe0beebe9995f5c59db2555deddce230fb488ed8de4",
+      "bytes": 15099
+    },
+    {
+      "path": "AI个人学习系统_工作包5_C0共同教学框架_设计方案_v0.md",
+      "sha256": "1136fe60df07124ce20704516752f2ddda86eedc5ed80011d0931d592d64a4a8",
+      "bytes": 66135
+    },
+    {
+      "path": "AI个人学习系统_工作包5_Encoding_设计提示词.md",
+      "sha256": "33141c292249ba139515fbc1d7740a0f1fb160a4c4cd0679bd5a57bcfbaebe0a",
+      "bytes": 6433
+    },
+    {
+      "path": "AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+      "sha256": "4b3f81220191f4a9d0760e1516be5a69e7f8c8db9e11865bd4c0135227658f17",
+      "bytes": 49404
+    },
+    {
+      "path": "AI个人学习系统_工作包5_Encoding_顶层设计分析.md",
+      "sha256": "c6ac69edcfccb6c171160acf518729996e4ef55707c8b87894d02f54e8076214",
+      "bytes": 20983
+    },
+    {
+      "path": "AI个人学习系统_工作包5_Post-Encoding_设计提示词.md",
+      "sha256": "e6dfa1d6e306c7d75cfeecda6079d8b58817d6074f7a8292c71596c9577be904",
+      "bytes": 5500
+    },
+    {
+      "path": "AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "sha256": "a23f4372a0b4e7ffed39f74de1a8b26e613b266f85ff6009302ad04725786ade",
+      "bytes": 65353
+    },
+    {
+      "path": "AI个人学习系统_工作包5_Post-Encoding_顶层设计分析.md",
+      "sha256": "60fad12b4bc537edc50f93e521886b00baad61cb1784f2b4f48c2255f491ac8f",
+      "bytes": 26938
+    },
+    {
+      "path": "AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+      "sha256": "56ec384bbb6e4457900de8db34e06465bcf631b7bb4450eec11a4d2d1a221559",
+      "bytes": 76331
+    },
+    {
+      "path": "AI个人学习系统_工作包7_长期计划与学习连续性_设计提示词.md",
+      "sha256": "2a16c16972aa4073944a363dca392a885fe40af3f91f6861b3261149dbfeadf4",
+      "bytes": 5030
+    },
+    {
+      "path": "AI个人学习系统_工作包7_长期计划与学习连续性_设计方案_v0.md",
+      "sha256": "d4ca34ac8ee3dc68430e766085be1a5736a46d3e11a6d8daad2dcfe11664cb92",
+      "bytes": 40902
+    },
+    {
+      "path": "AI个人学习系统_工作包7_长期计划与学习连续性_顶层设计分析.md",
+      "sha256": "59f6bda4a0de29b6599c8edc97497650c141b87f9157e1cb16f62f8c32476198",
+      "bytes": 16411
+    },
+    {
+      "path": "AI个人学习系统_工作包8_多Agent协作与共享状态_设计提示词.md",
+      "sha256": "66187972970fa6d5bca40e1af08ec89cf10ad9b2d691383481891edf8c2a4a3c",
+      "bytes": 6159
+    },
+    {
+      "path": "AI个人学习系统_工作包8_多Agent协作与共享状态_设计方案_v0.md",
+      "sha256": "0d96cdf6cf12019eec1163e9c8405fdcab88f41682313a5e00c98347318274ae",
+      "bytes": 42512
+    },
+    {
+      "path": "AI个人学习系统_工作包8_多Agent协作与共享状态_顶层设计分析.md",
+      "sha256": "274dbaacb66a24176ecfa950dc6463e6518ebb17fbeb35ea69fd703bf7099023",
+      "bytes": 15624
+    },
+    {
+      "path": "AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计提示词.md",
+      "sha256": "ca4707b2717357cd19aad57a6d5ac76de273caa5266fcd24d25ed65cd3b2187f",
+      "bytes": 5372
+    },
+    {
+      "path": "AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计方案_v0.md",
+      "sha256": "9f5e9cf21f6f8bf42ce0677adde562c82d9d8e17e38a723cddb2568a386b9b26",
+      "bytes": 50398
+    },
+    {
+      "path": "AI个人学习系统_工作包9_跨学科用户体验与异常场景_顶层设计分析.md",
+      "sha256": "47a716493454ac3d9d7ac55da2bb9bec09998676fef899233bca3aed19dafb4c",
+      "bytes": 17849
+    },
+    {
+      "path": "AI个人学习系统_整体学习流程与概念架构_v0.md",
+      "sha256": "7b940c2821fe8999850dc94dc2c5d58123debed8ccc7570f06ddb6cb0ada420d",
+      "bytes": 39252
+    },
+    {
+      "path": "AI个人学习系统_整体学习流程与概念架构_v1.md",
+      "sha256": "ebd95c8a1b6c8290f00821c975e6cc9714939a4e7dad7a985b6276e1772589a8",
+      "bytes": 45234
+    },
+    {
+      "path": "AI个人学习系统_架构v0_检查记录.md",
+      "sha256": "8702ef8e0389e3b7ae878b84910ab4e9665cfbf39e169f370bfaa0b03fc78780",
+      "bytes": 12521
+    },
+    {
+      "path": "AI个人学习系统_架构审计修复实施记录_2026-10-04.md",
+      "sha256": "3856c5e2e49351e18cfb53bf4f011da68bf896a8fecbcc555f9c1be3fe7a9ef9",
+      "bytes": 8197
+    },
+    {
+      "path": "AI个人学习系统_架构设计提示词_GPT6Astra.md",
+      "sha256": "c5e53d370aa3653e8d44832acedca528f58266a14e36be0e24c4478db54adb94",
+      "bytes": 23255
+    },
+    {
+      "path": "AI个人学习系统_设计流程与工作包.md",
+      "sha256": "506ef60f75a449f5daf7212ba5431b5060ff4729cc440cabc4af6fc47c394aff",
+      "bytes": 30608
+    },
+    {
+      "path": "B1_虚构演示学习空间/records.sqlite3",
+      "sha256": "0ec617783d8e900eaaef71b3f863dd2cc4c634087ba2a9fd6fbd92c508339408",
+      "bytes": 106496
+    },
+    {
+      "path": "B2b_虚构材料学习空间/records.sqlite3",
+      "sha256": "9b3400eabe61c264ea8285a06f87206e47a56cea9039d42a1ee209d65678c785",
+      "bytes": 114688
+    },
+    {
+      "path": "B3a_虚构证据学习空间/records.sqlite3",
+      "sha256": "9ecc85d2d38319a97a9b43c5aafc889b0da0f32e7aa9b2f8e2ad28bb30b20596",
+      "bytes": 118784
+    },
+    {
+      "path": "B3b_虚构教学学习空间/records.sqlite3",
+      "sha256": "d9175c7ed9168c975c9c0709ba8309e2dbc850ca40f4099cfe405e157c5d70f6",
+      "bytes": 151552
+    },
+    {
+      "path": "B3c_虚构策略学习空间/records.sqlite3",
+      "sha256": "5e213346636d191517de6d0dfdefcc079a06ac2d920c827ee649dc13b51d1bdf",
+      "bytes": 122880
+    },
+    {
+      "path": "B4_虚构专项教学学习空间/records.sqlite3",
+      "sha256": "3a52e506aea826da2cf99b3fbf3908666566649c66bddc4f7db8459cd8dfd3ae",
+      "bytes": 192512
+    },
+    {
+      "path": "B4_虚构计划学习空间/records.sqlite3",
+      "sha256": "58fb13157c4fb512257a9af92773a4cae3ae4a9e65a6dcfddf5f01ae010f22e4",
+      "bytes": 155648
+    },
+    {
+      "path": "B5_虚构单入口学习空间/records.sqlite3",
+      "sha256": "e9af107d6e00e09c7aac01a152a0f70fae60a7b35ba4df165370d4c5c3a189d5",
+      "bytes": 151552
+    },
+    {
+      "path": "B6_虚构工作网络空间/.network-b6.lock",
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "bytes": 1
+    },
+    {
+      "path": "B6_虚构工作网络空间/records.sqlite3",
+      "sha256": "3557f09a012364185478a051a702d23c2de221d12634fef176c1c3cce901da2c",
+      "bytes": 208896
+    },
+    {
+      "path": "personal-learning-suite/contracts/assessment-b3a.md",
+      "sha256": "e1ce4e4c461cefab58331354b8866bacdc36cc6b671550522969ac46a424ff75",
+      "bytes": 9658
+    },
+    {
+      "path": "personal-learning-suite/contracts/b3-interop.md",
+      "sha256": "b2a2f3a63eb92a99cf56eedd711b212d9ab58bd5cd3df6acbd1b590547724df5",
+      "bytes": 8930
+    },
+    {
+      "path": "personal-learning-suite/contracts/entry-b5.md",
+      "sha256": "5c862091b2e30f668bbda7afc45a19a571c5578606a7a53087cc1428194e14bb",
+      "bytes": 11012
+    },
+    {
+      "path": "personal-learning-suite/contracts/materials-b2b.md",
+      "sha256": "7d172da02ece54715e68e8d8465f252d7a73b14bec7659a5e5851eb29294ddcf",
+      "bytes": 8111
+    },
+    {
+      "path": "personal-learning-suite/contracts/network-b6.md",
+      "sha256": "7ff6c715c27a43d8aa07e8c49379e1d8fb6dc7dfaad3a1a1a6b4e153a061e3bb",
+      "bytes": 7427
+    },
+    {
+      "path": "personal-learning-suite/contracts/pilot-b7.md",
+      "sha256": "e1d34b10b5ced78d03877f231e41d4f532c447f2d077a6bddb40b92c444db394",
+      "bytes": 17713
+    },
+    {
+      "path": "personal-learning-suite/contracts/planning-b4.md",
+      "sha256": "946e4b446156542ab7daf93f56c03eb36423064adcdb741013f1200eea8b8cc3",
+      "bytes": 4859
+    },
+    {
+      "path": "personal-learning-suite/contracts/runtime-b1.md",
+      "sha256": "74d6159e7008614bb72bbe671b7224b366c27c722c4fc85af93a3c9d37b52713",
+      "bytes": 6406
+    },
+    {
+      "path": "personal-learning-suite/contracts/runtime-b2a.md",
+      "sha256": "f7cd4c638c57d55bb5d6a2c987921c387abd745a8ae8835aa1e85578bf43d0bc",
+      "bytes": 8377
+    },
+    {
+      "path": "personal-learning-suite/contracts/shared-contracts.md",
+      "sha256": "7a83601a8e4d0741b41322fc8883c161b44135c4e56c421eb4f3f408fac8d77e",
+      "bytes": 25893
+    },
+    {
+      "path": "personal-learning-suite/contracts/strategies-b3c.md",
+      "sha256": "4ebf02def0445b2635016d63be1f6ae48ea0a55aaf77e87075e1767a86d15105",
+      "bytes": 14773
+    },
+    {
+      "path": "personal-learning-suite/contracts/teaching-b3b.md",
+      "sha256": "19a416a634079db3bc5755653adf17d84289ade18b982491bf031dac0d2705e5",
+      "bytes": 14360
+    },
+    {
+      "path": "personal-learning-suite/contracts/teaching-b4.md",
+      "sha256": "accccf3dd2a3e05e8e65ddcc87de2ad08bd0f5c3ae52dcb6cccfc1ccf1a44dee",
+      "bytes": 7188
+    },
+    {
+      "path": "personal-learning-suite/fixtures/b2a-goal-input.json",
+      "sha256": "ccb6829617086a896788654b29f8b5fa4fd253e28b178c1da87ab3f9f623fcf7",
+      "bytes": 10011
+    },
+    {
+      "path": "personal-learning-suite/fixtures/b3b-open-request.json",
+      "sha256": "cd8d57c93b2f9be6f38ccb83704fcb4d8b4e841238d35f7a47e17d6386e1d28f",
+      "bytes": 675
+    },
+    {
+      "path": "personal-learning-suite/fixtures/b3c-method-input.json",
+      "sha256": "cb810c63486423c86bec7d755580b415d5d4c8f8ab90e1157bf4721149478919",
+      "bytes": 16296
+    },
+    {
+      "path": "personal-learning-suite/fixtures/b4-planning-input.json",
+      "sha256": "b744faadfdf9fd1df86ca329b7f6a7b1837117be08a9664809d5fd3e359e71e8",
+      "bytes": 4447
+    },
+    {
+      "path": "personal-learning-suite/fixtures/b4-teaching-open-request.json",
+      "sha256": "55bac89a8e850badf6b51e7ed60f753763e4f712102d43fecca845a9ad283920",
+      "bytes": 511
+    },
+    {
+      "path": "personal-learning-suite/fixtures/b5-entry-request.json",
+      "sha256": "bd8252ae562d64e5cb083fc309687a995fc7cb5b3baded70a69bd36a4aab26ba",
+      "bytes": 17486
+    },
+    {
+      "path": "personal-learning-suite/fixtures/originals.md",
+      "sha256": "af534213c758bacaaec7cac539b5cc61f2379726f680c4bfc26b7e235c96a2de",
+      "bytes": 978
+    },
+    {
+      "path": "personal-learning-suite/fixtures/runtime-scenarios.json",
+      "sha256": "daaf5d964897856547c395b27e21391e3440ef70165be3d4e237f37ba3773b32",
+      "bytes": 5852
+    },
+    {
+      "path": "personal-learning-suite/fixtures/static-cases.json",
+      "sha256": "4f4e645a875a51ecc4730a29791dd6688ee1edce6e6c829ac721d58b0353cec0",
+      "bytes": 6855
+    },
+    {
+      "path": "personal-learning-suite/fixtures/synthetic-baseline.json",
+      "sha256": "5e54c6c3c6ed2c2ddc5c5e9c462619ce2ed85c3aa2e989ae115640d3cc016552",
+      "bytes": 25605
+    },
+    {
+      "path": "personal-learning-suite/README.md",
+      "sha256": "b26fb33899ea4d0f12d7b6f97d588fdb9fd7ff7a7b8ef9162b79608ab241b11f",
+      "bytes": 27697
+    },
+    {
+      "path": "personal-learning-suite/resources/README.md",
+      "sha256": "a27b3f536f25865c85609cb33acf77a02f526fa7b765b80f7323415ae3911e06",
+      "bytes": 5820
+    },
+    {
+      "path": "personal-learning-suite/resources/runtime-dependencies.json",
+      "sha256": "2f8673226d5f4d26a8adc736c2505f32fa5456b1468a9119614eecf8a4ee46f9",
+      "bytes": 28078
+    },
+    {
+      "path": "personal-learning-suite/resources/source-registry.json",
+      "sha256": "6c9fac61a3f65e0bcf59efb20c6f64110d2eef78ce3bab5c384ca9ab5cb78fc4",
+      "bytes": 71341
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/common-constraints.json",
+      "sha256": "43dd089e6abd8e2738f18a762cc4497182254669a13f83dc97006e3ec5365e17",
+      "bytes": 5819
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/encoding/R09.json",
+      "sha256": "4f831e2d8b138c44295e12a568f52b8849f0fe54bf600366a22058d849d0efc5",
+      "bytes": 21461
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/encoding/S07.json",
+      "sha256": "e9a75f10fda302a8b7cd8fc117b6b437f8784a2c934862689e7ec97cb934640e",
+      "bytes": 23773
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/encoding/X02.json",
+      "sha256": "3195f107b96ae240044230f80a2a65054af339992f2f2a026b22516790fa5f2a",
+      "bytes": 22311
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/manifest.json",
+      "sha256": "faeb92359f492576fa14e608ffd53b3610d9e4e44731da4cb2eab14b48c75ee0",
+      "bytes": 27217
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/post/conditional-update.json",
+      "sha256": "d49419047113d90fac5f00888ed16f73b20f844942cbd7a36f298a2f56c74e23",
+      "bytes": 58452
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/post/retrieve-generate-order.json",
+      "sha256": "abcf56036429416b1dd756a7e48f29c0bf52ab1aeebdecc448e751fecfd95044",
+      "bytes": 59155
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/post/retrieve-relation.json",
+      "sha256": "048b2d3dd823eab296c8f78b61680cafa2a3f15b6e232676449c95abe32ebaa4",
+      "bytes": 51794
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/post/select-method.json",
+      "sha256": "f6c0ddac1550c01e6c02f053fb6b5f8cff8cb6630cd56403b3d0a9cae2f6a7a1",
+      "bytes": 53222
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/README.md",
+      "sha256": "6b7024951ffe1919fd733f8c1b8ca3f5dab4978dadb7ceb80eb602445537d7f6",
+      "bytes": 1421
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/strategy-index.json",
+      "sha256": "9912ebaf9945c1d0414c146ea4e818b23e3ebbb9e1842cbf6599ae24d5ff28fe",
+      "bytes": 158125
+    },
+    {
+      "path": "personal-learning-suite/scripts/build_b3c_resources.py",
+      "sha256": "981dfbe34f847d07c95b5b9605996a2805fd6585f13fa57fdb7055070b9bf8c4",
+      "bytes": 41822
+    },
+    {
+      "path": "personal-learning-suite/scripts/check_b0.py",
+      "sha256": "fc9973005c1a47d028fc1b089ececb3fc8d75012e2482083e44351b129597987",
+      "bytes": 22803
+    },
+    {
+      "path": "personal-learning-suite/scripts/check_b1.py",
+      "sha256": "a6b7926f60890d58b16a1f53233eed354d3c735d0656cdc339870b324f2544f8",
+      "bytes": 4746
+    },
+    {
+      "path": "personal-learning-suite/scripts/check_b2a.py",
+      "sha256": "e5594e53d57463028cc2ab0fba6df407413921cd270a7c3ad21cef1f0b49894a",
+      "bytes": 3816
+    },
+    {
+      "path": "personal-learning-suite/scripts/check_b2b.py",
+      "sha256": "c738febc0fc46324a9ab41bbd6d4d71ed8de14985f482dc2c68154ec728d6768",
+      "bytes": 3332
+    },
+    {
+      "path": "personal-learning-suite/scripts/check_b3_interop.py",
+      "sha256": "5da5ef3bb92890637f5d8ebe20d51a630581bf3fe41ece797e95a863c33f30aa",
+      "bytes": 3975
+    },
+    {
+      "path": "personal-learning-suite/scripts/check_b3a.py",
+      "sha256": "5d9d5e1d3df84a37f95018b37fee3253f68e918b1711ad48f14acbb5cb4e5b90",
+      "bytes": 3639
+    },
+    {
+      "path": "personal-learning-suite/scripts/check_b3b.py",
+      "sha256": "885bbcdebba4ff71ddce7894085f594af7b33aed9ae114c16ae9153425ec5901",
+      "bytes": 3435
+    },
+    {
+      "path": "personal-learning-suite/scripts/check_b3c.py",
+      "sha256": "e48d3a7166f7880157dd59018e0f4521e77295de3e0487704ec789878cd10cac",
+      "bytes": 3971
+    },
+    {
+      "path": "personal-learning-suite/scripts/check_b4.py",
+      "sha256": "67c77fbb97d893b3c5dbc372cdc7da2f5a2828b138fe5be2a3dd97a5179f693f",
+      "bytes": 4101
+    },
+    {
+      "path": "personal-learning-suite/scripts/check_b4_planning.py",
+      "sha256": "2e89c747b2953f7a9f9850d4dc31dec9b876e24a2959016f10cb942eb1804308",
+      "bytes": 170
+    },
+    {
+      "path": "personal-learning-suite/scripts/check_b4_teaching.py",
+      "sha256": "8bd43087c39ad78f952e815e9cbb3f21a9384596eb06aa816336ef1e5c7db541",
+      "bytes": 3534
+    },
+    {
+      "path": "personal-learning-suite/scripts/check_b5.py",
+      "sha256": "8ce897bd34b82a1e6912d5fb48c116eecdef635d1760f1555b764fdf95b07ac5",
+      "bytes": 3096
+    },
+    {
+      "path": "personal-learning-suite/scripts/check_b6.py",
+      "sha256": "dd749880c824ebd1dc759c3efd2ca74af7516e4260f8e6295ced92fb3de65302",
+      "bytes": 4670
+    },
+    {
+      "path": "personal-learning-suite/scripts/check_b7.py",
+      "sha256": "5e05460ed0abcbe42ae7bf2b629776998a8bdee8e9f7f2de5676009eeae6d168",
+      "bytes": 5164
+    },
+    {
+      "path": "personal-learning-suite/scripts/check_b7_coverage.py",
+      "sha256": "045deadf448e46130bc730d1f3da1aaaa700f61372537dce6fbc2ee7b525305a",
+      "bytes": 9034
+    },
+    {
+      "path": "personal-learning-suite/scripts/demo_b1.py",
+      "sha256": "98a88e7a8565e46a0589f4fa99edbe7326e147b8295b6533a3cef932b1b37076",
+      "bytes": 3849
+    },
+    {
+      "path": "personal-learning-suite/scripts/demo_b2b.py",
+      "sha256": "f1803bcf20c05268407c9a9f3e0699b1810e4acda450d90a64c0ede5bef8b52f",
+      "bytes": 4516
+    },
+    {
+      "path": "personal-learning-suite/scripts/demo_b3a.py",
+      "sha256": "0d1e45844807ecfc9a511f0e59627cecc641480fe25d6fcca75efb0ad0fe9bc9",
+      "bytes": 4382
+    },
+    {
+      "path": "personal-learning-suite/scripts/demo_b3b.py",
+      "sha256": "80f27c7752fca467f5f9696339f09da862dd27cf71d81b692bdc030dafbb64b7",
+      "bytes": 6945
+    },
+    {
+      "path": "personal-learning-suite/scripts/demo_b3c.py",
+      "sha256": "f5bc6ef83de8ba708ac1f66e8ea539916ecda2cbde022f181dad0f8d3b6606cf",
+      "bytes": 4016
+    },
+    {
+      "path": "personal-learning-suite/scripts/demo_b4_planning.py",
+      "sha256": "61095a4c9f90952e012734adee7d4b68adb4162543ef138c40409dc391e5011a",
+      "bytes": 4164
+    },
+    {
+      "path": "personal-learning-suite/scripts/demo_b4_teaching.py",
+      "sha256": "9d7c7c7602cd1557728e31bbba144c28a7a05ce307a227e80c4589c3d355fe06",
+      "bytes": 8996
+    },
+    {
+      "path": "personal-learning-suite/scripts/demo_b5.py",
+      "sha256": "04adef8b4ef6586a27d5d5fd8f655733f15b691b4a6a6e369f6a46868ff6c1f4",
+      "bytes": 3880
+    },
+    {
+      "path": "personal-learning-suite/scripts/demo_b6.py",
+      "sha256": "6355d13aaf85c49db0ddb9c8446d2202d6269a348ae5232c2534bdfe422c4d81",
+      "bytes": 9842
+    },
+    {
+      "path": "personal-learning-suite/scripts/demo_b7.py",
+      "sha256": "fb9ae12553958068df36b472418123adc68095513cbce3104dbedace95e3e75b",
+      "bytes": 3659
+    },
+    {
+      "path": "personal-learning-suite/scripts/reorganize_project.py",
+      "sha256": "1e64467e1b5ee1268053bddc9527a8da8fdbaab4889d1701ea6ebd3c7f29d42c",
+      "bytes": 12401
+    },
+    {
+      "path": "personal-learning-suite/specs/b1-acceptance.md",
+      "sha256": "ea048a493159be2ca4d128ee297f3dac0246aac8344face6b64c93a9fa494dea",
+      "bytes": 1840
+    },
+    {
+      "path": "personal-learning-suite/specs/b2a-acceptance.md",
+      "sha256": "b6e326cd702d37120e24b695de2fe50c5dbdb45cfae9ab9e6301774ac97bb34b",
+      "bytes": 2562
+    },
+    {
+      "path": "personal-learning-suite/specs/b2b-acceptance.md",
+      "sha256": "8aad13aac1691f9aa8ea6f4d1927e93a898333c5bec27bd7a48c68984ff1fb1f",
+      "bytes": 2616
+    },
+    {
+      "path": "personal-learning-suite/specs/b3a-acceptance.md",
+      "sha256": "23d984d14fba1a672056323aaa96181e10fa026e8fc0a4f93ee3fb97da8f5e6c",
+      "bytes": 2965
+    },
+    {
+      "path": "personal-learning-suite/specs/b3b-acceptance.md",
+      "sha256": "de3d29024963a0463f641710d990ad0bc0ea8cf8d86757366e319abbe2de3481",
+      "bytes": 4525
+    },
+    {
+      "path": "personal-learning-suite/specs/b3c-acceptance.md",
+      "sha256": "c64de82ae7d12c180d275995204fec652b5cb5e937590192531142f2d582c884",
+      "bytes": 4845
+    },
+    {
+      "path": "personal-learning-suite/specs/b4-planning-acceptance.md",
+      "sha256": "0c07056d2950b60ddb159d85fe92d67b7fec48cf8b8714757e259682b445ee44",
+      "bytes": 1345
+    },
+    {
+      "path": "personal-learning-suite/specs/b4-teaching-acceptance.md",
+      "sha256": "1cd6587f570ff1013dcf9bd3407146b75dce1b4c1af561f70becab2fcfbfd375",
+      "bytes": 1205
+    },
+    {
+      "path": "personal-learning-suite/specs/b5-acceptance.md",
+      "sha256": "5ac038b3557b8d242d71734faa9c404fbdb8cf4b14170933bab0d9e7bdd955dd",
+      "bytes": 4461
+    },
+    {
+      "path": "personal-learning-suite/specs/b6-acceptance.md",
+      "sha256": "b4377f728c88ec5c8cf7eace8d8f7cc29746f62228e95d7fc2083dbc18d9e686",
+      "bytes": 3276
+    },
+    {
+      "path": "personal-learning-suite/specs/b7-acceptance.md",
+      "sha256": "c322e5364550ee5934504c017b0f198c20ba96199c2c6d477c3cddb5170e6ea0",
+      "bytes": 5046
+    },
+    {
+      "path": "personal-learning-suite/specs/implementation-decisions.md",
+      "sha256": "16f33ecff48c676ec1947219a18e827a1b5282b7a8c6f32c743969d079b453f9",
+      "bytes": 14989
+    },
+    {
+      "path": "personal-learning-suite/specs/pilot-inputs.md",
+      "sha256": "f7ee9cd2f55ee168b84a58265c38a4c0b0534dc17c16b445997780685abf65f9",
+      "bytes": 3704
+    },
+    {
+      "path": "personal-learning-suite/specs/skills/SK00-personal-learning.md",
+      "sha256": "94436faf32c7bd2cb37e857c7c9213ac19d8367fccf2950f3e905fc7bc644c5e",
+      "bytes": 8243
+    },
+    {
+      "path": "personal-learning-suite/specs/skills/SK01-learning-goals.md",
+      "sha256": "0e6599491016a6438d140212701929cfac26b5831617e754008c8af48b1beb1f",
+      "bytes": 5561
+    },
+    {
+      "path": "personal-learning-suite/specs/skills/SK02-learning-materials.md",
+      "sha256": "db1b5c9384fa091ecdf8c570d7f6dd38056e367d2b908ba2fcaaab072a8fb83d",
+      "bytes": 6830
+    },
+    {
+      "path": "personal-learning-suite/specs/skills/SK03-learning-teaching.md",
+      "sha256": "07fc540658e2742d67c151bf3c4131267a6042abdb0edaaa87c2c08a8764fbb0",
+      "bytes": 8789
+    },
+    {
+      "path": "personal-learning-suite/specs/skills/SK04-learning-assessment.md",
+      "sha256": "ee69660e8861ac353ed7c340fac26d5fa58d9097cfc6ad8cddcd8242963b2a84",
+      "bytes": 6677
+    },
+    {
+      "path": "personal-learning-suite/specs/skills/SK05-learning-planning.md",
+      "sha256": "bba43c55eba810689402da351cba65eac4b7e3e264ece83ef6c4611a37b10250",
+      "bytes": 5901
+    },
+    {
+      "path": "personal-learning-suite/specs/skills/SK06-learning-strategies.md",
+      "sha256": "1ed825d15d460445bd1f143f1561095e3b2b63539458490d638fc06b82833d2e",
+      "bytes": 7170
+    },
+    {
+      "path": "personal-learning-suite/src/agents/AG0-coach.md",
+      "sha256": "3c6adf7e7c4922788378d6362c53d47dfbe45910e56cf8cf84c0de9b22b29925",
+      "bytes": 11367
+    },
+    {
+      "path": "personal-learning-suite/src/agents/AG1-design-planning.md",
+      "sha256": "135a70f67132cc71e17e97919abc0eb7d340c7691c507cf029c15d281e9494cb",
+      "bytes": 11373
+    },
+    {
+      "path": "personal-learning-suite/src/agents/AG2-materials.md",
+      "sha256": "22c8c20fac47ea278e6e7784c8c24256d0c2a7bdc5aaf0532da8f357553e9d60",
+      "bytes": 8375
+    },
+    {
+      "path": "personal-learning-suite/src/agents/AG3-assessment.md",
+      "sha256": "7a915b8d1b5f3e031566cfe9cfabde81f6d61d27b424152a05650e6bfea48270",
+      "bytes": 7257
+    },
+    {
+      "path": "personal-learning-suite/src/runtime/__init__.py",
+      "sha256": "ccc692dab2f877829eafa445143bd7b721f8822b9af3f5b9f691bf8c6ab06bca",
+      "bytes": 77
+    },
+    {
+      "path": "personal-learning-suite/src/runtime/b3_semantics.py",
+      "sha256": "186b2d93981677c9f893d1b887e1b7d64e7bdf23a7d4d73bc3f59f8787c05f39",
+      "bytes": 3590
+    },
+    {
+      "path": "personal-learning-suite/src/runtime/contract_rules.py",
+      "sha256": "5f80ae71523d515847b59a944edb04978a327a89c54f9bd59f857234487dcef9",
+      "bytes": 17310
+    },
+    {
+      "path": "personal-learning-suite/src/runtime/entry_b5.py",
+      "sha256": "3ff5d1cbeb9366d2404e0a74305692604830649764729cacf8169d83fd71b070",
+      "bytes": 25029
+    },
+    {
+      "path": "personal-learning-suite/src/runtime/learning_assessment.py",
+      "sha256": "a772a31e0d7d569fe5458995bd1128e0cd12865745397ef180df93b04039e1c6",
+      "bytes": 43167
+    },
+    {
+      "path": "personal-learning-suite/src/runtime/learning_goals.py",
+      "sha256": "0f5ebb63c3499144ca719006d3bfdc24461a2af07c6ffc6c082c2f336f2c4f1c",
+      "bytes": 37196
+    },
+    {
+      "path": "personal-learning-suite/src/runtime/learning_materials.py",
+      "sha256": "ac5737ee270aa305b18090851a2c1439e8fb162563559d713bc8e989f3b74225",
+      "bytes": 23052
+    },
+    {
+      "path": "personal-learning-suite/src/runtime/learning_planning.py",
+      "sha256": "47478fa6e857ba8bb33ddff6926cff2ecfcc4fd79e1a91c6d0a7d4f33b8c9947",
+      "bytes": 43518
+    },
+    {
+      "path": "personal-learning-suite/src/runtime/learning_store.py",
+      "sha256": "eebccc1ac77e94c07183a42defe9745702e57cbc101829ad99692dbeaae72146",
+      "bytes": 79323
+    },
+    {
+      "path": "personal-learning-suite/src/runtime/learning_strategies.py",
+      "sha256": "c749f09b6433be63c3d15e5e187463f1b31806175a434e1b50dd0cdd52b9ccf7",
+      "bytes": 34093
+    },
+    {
+      "path": "personal-learning-suite/src/runtime/learning_teaching.py",
+      "sha256": "d136ef56f0bdd61568dd2104497290920c31309227f467f08264554d6bbdd10e",
+      "bytes": 56444
+    },
+    {
+      "path": "personal-learning-suite/src/runtime/learning_teaching_b4.py",
+      "sha256": "9604dfc1575e808bdd704cea5ee48db9873bd37b89efa7934cd822c5d3a722dd",
+      "bytes": 32177
+    },
+    {
+      "path": "personal-learning-suite/src/runtime/network_b6.py",
+      "sha256": "0db886b6865c8540ec08877b8ce5164d075d40b0ec22cad3062119de9ea0d2f2",
+      "bytes": 53575
+    },
+    {
+      "path": "personal-learning-suite/src/runtime/personal_learning.py",
+      "sha256": "8a3025d73d122e67b20f465319b8fc98b2d10f37efb048842b0e37cb41982b4e",
+      "bytes": 28199
+    },
+    {
+      "path": "personal-learning-suite/src/runtime/pilot_b7.py",
+      "sha256": "0cabbe3c8f0f7da6ba16825779b8bdfefd9b7ea4b6e6112bceab0c3e06c9bebd",
+      "bytes": 49662
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-assessment/references/diagnosis-review.md",
+      "sha256": "86634af1141bef9664c4dfdb569b343e80849afb09d958cb587e4cf6a0060148",
+      "bytes": 6944
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-assessment/references/evidence-rules.md",
+      "sha256": "d233c5f9989e1f0df105abf73b3ae8e7b9cc7e81445d0c98afe9401f7543f78b",
+      "bytes": 6253
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-assessment/SKILL.md",
+      "sha256": "62b39aa34be56b53502a3cd6ede720274b5563cc50ba22bc8019e53ea8e2624a",
+      "bytes": 3955
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-goals/references/goal-design.md",
+      "sha256": "de148efe817b86f2bdaa73023ed343cb6c8998c359acd8f3f3df2dd2de32e59d",
+      "bytes": 5216
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-goals/references/version-rules.md",
+      "sha256": "1350de96c4441358351b83f210235c7907017caf59a266bdc6f8c9a1054820f5",
+      "bytes": 3258
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-goals/SKILL.md",
+      "sha256": "5c305a7dfee576879be6963d6afa11ecbbb84665db66192b4855af0996ff1a23",
+      "bytes": 2467
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-materials/references/domain-checks.md",
+      "sha256": "805b96f93734c12d19a0f7f61de369e6afef20d0dd61cb3b53ae4cabf6fd8873",
+      "bytes": 4709
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-materials/references/materials-workflow.md",
+      "sha256": "f5756bf0f53ef19d367366fac82bbc216ba52f0b7775b39cfca7f482f4fd885e",
+      "bytes": 10153
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-materials/references/runtime.md",
+      "sha256": "3a311e1c5b173f1c6f9303d7f5b078aeb288d2d5590272591d5dbd45dde3d6b7",
+      "bytes": 4648
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-materials/SKILL.md",
+      "sha256": "c49d7d9d8fb207ec3679a1ff0398b87ebdc9a0d01fec86e305302ed06bac59bb",
+      "bytes": 2826
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-planning/references/planning.md",
+      "sha256": "16091b6e71bbb7862ede447543df5ca257b7e95bcf3799bafde6e2d453b7ca61",
+      "bytes": 2150
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-planning/references/recovery.md",
+      "sha256": "942041e04ad64025385882ac334e69779321a9b61a365313f62f67d77fd97d5b",
+      "bytes": 1507
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-planning/SKILL.md",
+      "sha256": "0ce942e9392c70f8f430b3ef8bcceaf880079603d0db3babfefbb866354cd5c6",
+      "bytes": 2549
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-strategies/references/reuse-change.md",
+      "sha256": "8978afea2cd57091e2ac9c5435c98989af185aa142afbca3432b3cd2310ebf46",
+      "bytes": 3244
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-strategies/references/runtime.md",
+      "sha256": "f329bf059c6f44d298aaaf347577fcbe81a7acc2f88d10bfaa4e685d2dff9552",
+      "bytes": 3023
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-strategies/references/selection-adaptation.md",
+      "sha256": "e391cdf6fcaf75903157627e78bc3d061738ecd2f2561929b6ea04f60597ca7a",
+      "bytes": 5393
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-strategies/SKILL.md",
+      "sha256": "53578b1bc53875dc072ee6f8a32af7b8013d3d99059b3da795bd7094d682a3f2",
+      "bytes": 3245
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-teaching/references/c0.md",
+      "sha256": "fe3514f26ec3206b65bb7369a4f3e3c4ac79de1b71fd2d90ffdc1fa28000f4a1",
+      "bytes": 7960
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+      "sha256": "4b67a24f1c1333461ded97299056500bea3ece587788a1557c71343213d8d5a2",
+      "bytes": 1849
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
+      "sha256": "054e62c2855c8805ef0a431c78f2ae448328f4388d584dd0a2628d719e0fc67b",
+      "bytes": 2225
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md",
+      "sha256": "36f1f659da7f535996532775503942857cdcdadffe838464bd0ad684d91bb2ff",
+      "bytes": 2396
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-teaching/references/runtime.md",
+      "sha256": "d348906aa795b6944835409dd695484114c47c096fb5e6b106a91976928d6be4",
+      "bytes": 4802
+    },
+    {
+      "path": "personal-learning-suite/src/skills/learning-teaching/SKILL.md",
+      "sha256": "3ff483a355c9a2820c8150a95efd0659f07cfd3a06206ae1d1d619330b2d2acc",
+      "bytes": 3845
+    },
+    {
+      "path": "personal-learning-suite/src/skills/personal-learning/references/entry-controls.md",
+      "sha256": "33c74025db72ab2107248ab430f8b5b214648f7910da19047b5b9f52b79e94fa",
+      "bytes": 4839
+    },
+    {
+      "path": "personal-learning-suite/src/skills/personal-learning/references/network-host.md",
+      "sha256": "998a3542e940526ef8f198f190a459a53d8ace29487eccde72ee0f6e5ee31b7d",
+      "bytes": 2131
+    },
+    {
+      "path": "personal-learning-suite/src/skills/personal-learning/references/vertical-workflow.md",
+      "sha256": "90dcc4d46ade38d73c18705d43280c67f3ce231cc12784ef91146fa1fa3663f2",
+      "bytes": 4608
+    },
+    {
+      "path": "personal-learning-suite/src/skills/personal-learning/SKILL.md",
+      "sha256": "a54cda85c90c6cb45f0b8b3245d865d5e63a442f8e1df7f322f1ac2ebd31ac38",
+      "bytes": 3131
+    },
+    {
+      "path": "personal-learning-suite/templates/b7-pilot-input.json",
+      "sha256": "6967ef30debc11ca76f3b1dbec22e2a6b84e80a4f90e86ba95a398980f27a650",
+      "bytes": 606
+    },
+    {
+      "path": "personal-learning-suite/templates/routine-scoring-grant.json",
+      "sha256": "e610f44bdc93725731b09de790bdaafe0271b33eccbd38776a7b1f86c4670f22",
+      "bytes": 745
+    },
+    {
+      "path": "personal-learning-suite/tests/test_architecture_version_boundaries.py",
+      "sha256": "e1cd8640ad5f62ff2d6b9dec0cc1288ab26c6d0af92879821326e4606defe1b7",
+      "bytes": 4233
+    },
+    {
+      "path": "personal-learning-suite/tests/test_b1_runtime.py",
+      "sha256": "bea6e01626e3c344d155aafb85c95e90be093f8ea26969d2ba5e87f6dddc4a4c",
+      "bytes": 28873
+    },
+    {
+      "path": "personal-learning-suite/tests/test_b2a_goals.py",
+      "sha256": "e87908a8358a0633cb41b16cdd2f6e2b2260464573f3185e133ff827744e5f16",
+      "bytes": 31913
+    },
+    {
+      "path": "personal-learning-suite/tests/test_b2b_materials.py",
+      "sha256": "c9608fc7526a56a6388a29c8a96652a76b05b35ee571c48ed93176718fbc5f12",
+      "bytes": 39538
+    },
+    {
+      "path": "personal-learning-suite/tests/test_b3_interop.py",
+      "sha256": "653b662cf13229454a8c5777fd00347b7d29110defc43a14d5bc68be7f95fa43",
+      "bytes": 16592
+    },
+    {
+      "path": "personal-learning-suite/tests/test_b3a_assessment.py",
+      "sha256": "5f79859208c15bf641119690968ea7e0c4ddde92d4f80b6e881382a4e364afc1",
+      "bytes": 63327
+    },
+    {
+      "path": "personal-learning-suite/tests/test_b3b_teaching.py",
+      "sha256": "5964a380f5ce615c62986c5bfe62a46801e09d1ccabab9c7522c3635a2d9f6ae",
+      "bytes": 67636
+    },
+    {
+      "path": "personal-learning-suite/tests/test_b3c_strategies.py",
+      "sha256": "3867f4bc2e6dc12488ffe1c3889e0b642ca73b66048979f55044dd1ab86c7ae9",
+      "bytes": 45130
+    },
+    {
+      "path": "personal-learning-suite/tests/test_b4_planning.py",
+      "sha256": "22bc4d65672ec71ee2d391f1a3988227a01df8ec1b65d126f787e57698744349",
+      "bytes": 31189
+    },
+    {
+      "path": "personal-learning-suite/tests/test_b4_teaching.py",
+      "sha256": "2d899036dee0552c076234574564c93ee16e15de782afb7d50832617ef740b81",
+      "bytes": 47458
+    },
+    {
+      "path": "personal-learning-suite/tests/test_b5_entry.py",
+      "sha256": "c5428bb276f1f9e5a000515ea3df65f9280f643c1e93e90335ffa2b0e0ea9b34",
+      "bytes": 50852
+    },
+    {
+      "path": "personal-learning-suite/tests/test_b6_network.py",
+      "sha256": "677c8739a37ef3494d8657ad3f267f6f3e0f9cc138a5c720dd1396f206005389",
+      "bytes": 56954
+    },
+    {
+      "path": "personal-learning-suite/tests/test_b7_pilot.py",
+      "sha256": "56a6d94380c42a0800c3473c3be86a8b63df162ba479157fc403f16dd1c5367c",
+      "bytes": 35085
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-audit-2026-10-04/baseline-test-result.json",
+      "sha256": "f5b3d00b41a84681200050858fb5a9d7d1c5057023e1e786b526c03193112130",
+      "bytes": 547
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-audit-2026-10-04/checkpoint-budget-result.json",
+      "sha256": "71c5f2a79e5adbb11b6f550e8f2198f937bb4ce3512f14a97ea9d977631fe1f6",
+      "bytes": 6119
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-audit-2026-10-04/network-pending-result.json",
+      "sha256": "7b3c1e0bd6cff1aa134a51e76eea396932a8733dfa761a233ea7eccb86a7cefa",
+      "bytes": 2302
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-audit-2026-10-04/probe_checkpoint_budget.py",
+      "sha256": "758930963f822243f7db4f4a29b944e529fb13c6609171f7a5c2b613c5072dcf",
+      "bytes": 5579
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-audit-2026-10-04/probe_network_pending.py",
+      "sha256": "f53c39544abdd09774b0616f75ce7e9d3cb852ba56cb8f9dab5433261d3f77f6",
+      "bytes": 2970
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-audit-2026-10-04/probe_source_contract.py",
+      "sha256": "ab91736585960e5adc6e2f40e4b462e0c94faaa25d1ae56e300805ca80dd1c6e",
+      "bytes": 3786
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-audit-2026-10-04/source-contract-result.json",
+      "sha256": "c47e18b8adb6ad0911c5256e7abacd79ad775d270bdd11ae361ee1f6290025a6",
+      "bytes": 1678
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/all-runtime-output.txt",
+      "sha256": "585f1e084763104cbd1b7f4b62097562eae841bdc32ce0a5f13a4c4faf30b67d",
+      "bytes": 86392
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/all-runtime-report.json",
+      "sha256": "d3d0cf1be1d19ec6ff76aa9de4f18788b6307aed85a59177a2fb577ee27d6590",
+      "bytes": 79686
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-c0-regression.txt",
+      "sha256": "eb89b8bbf637af6110778f896d67f04e5b805b19a786e326d8756f0412c102e8",
+      "bytes": 9773
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-checkpoint-green.txt",
+      "sha256": "bafcda246f9ad47a5a6d11f28a474943f913c34bc1cbf8b505903f45dae83380",
+      "bytes": 283
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-checkpoint-red.txt",
+      "sha256": "670385b1bdf6b59dd0e36481702feb9ddcc9dba19f34c493c423a96f189e1b2e",
+      "bytes": 965
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-closed-budget-green.txt",
+      "sha256": "903015550b00854d5682ee8ca61f1f00d230512641d3e420f1b4ef3864f6087b",
+      "bytes": 283
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-closed-budget-red.txt",
+      "sha256": "0b0b0a6dcc806663be3be718a789f8b16edb18d3b5e56ac4992e8859be72bac9",
+      "bytes": 2248
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-control-regression.txt",
+      "sha256": "62178d99125ef38d97f84655c00c7cda9d1a2c379bd345347280e5a4bbf4c07f",
+      "bytes": 297
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-f04-b4-teaching-regression.txt",
+      "sha256": "04ec484e2adcc8edfe9c0e55893771e63055ee90ad3a179cb7abd2c492088a28",
+      "bytes": 5662
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-legacy-green.txt",
+      "sha256": "8d109aedf773e1601bca60085c2599171ee93015fd3d10cdff51e4bf7ec73e48",
+      "bytes": 295
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-legacy-red.txt",
+      "sha256": "ba9153d448cf1f2622091120bf79a428e481d6e14a7fc41a40428d0ab5a9b47d",
+      "bytes": 997
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-planning-green.txt",
+      "sha256": "06561cf6154465e0c0939e0249d7816a7a3c30ecb0d1265cb4efc25ec15952fd",
+      "bytes": 269
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-planning-red.txt",
+      "sha256": "e6efa36d99c1c4de5c036414194d15d91098a231cfec6c615ab77441ed0afd4e",
+      "bytes": 1469
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f01-planning-regression.txt",
+      "sha256": "2ec23ee38c6a1a43cb66da4a33dd7a5bf9636e5f4e964f97ee57f7f71568b336",
+      "bytes": 5602
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f02-network-runtime-output.txt",
+      "sha256": "8326ecceb138dafa42d9bec98abb3eba842f686a9b46814e0b080718b85abace",
+      "bytes": 7899
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f02-network-runtime-report.json",
+      "sha256": "c74a57bc6a271121479360e5565c0d9cd31ad204345b6c8624d005176ff7ea0c",
+      "bytes": 1739
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f02-red-output.txt",
+      "sha256": "125aa0d632e07aea93373eea06f5499c4d4752082a094a66fc137d057d83ba54",
+      "bytes": 1649
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f02-result-control-red-output.txt",
+      "sha256": "6949de15d8392efcf205332c55b204330f0080913ec03a233c8982189d989945",
+      "bytes": 962
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f02-tracer-green-output.txt",
+      "sha256": "80889293b9d9f459f7e75e76ea50dfb243cff0bc22f198be94ef13ce2b127d0a",
+      "bytes": 311
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-anchor-green.txt",
+      "sha256": "00314bcb93032e26b644e3865a18e0f8ea2a564911cc95518a72057ec0a39308",
+      "bytes": 103
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-anchor-red.txt",
+      "sha256": "1fba7d51636a1636ffc9c131f7779412424766a09934274d15d1d8761591e922",
+      "bytes": 7801
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-b2a-regression.txt",
+      "sha256": "54f22feb29d51c6ff7962fb2433b8e7791a1a6cff3cc0f27dab3ec45f415fe1f",
+      "bytes": 151
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-b2b-regression.txt",
+      "sha256": "0531777c038f207b36906ad3fd860578ef918bb6a14e18a1d4fd13935bf4b604",
+      "bytes": 135
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-b5-regression.txt",
+      "sha256": "a1d6daa837eeb43fde1c231708ead2fcd8b786eccc3d5cd82f9a09d5f66b6ad9",
+      "bytes": 146
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-final-canonical-b5.txt",
+      "sha256": "cabe37fafba7781184f6d343b24d8a33eb5b6653c51d1f3fa5ae48ef4aa3976d",
+      "bytes": 105
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-malformed-green.txt",
+      "sha256": "85a0f7f29486224014f00bf0e194f82b3adc9dba878ae2332d90b79957c8f82c",
+      "bytes": 103
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-malformed-red.txt",
+      "sha256": "8a18ab6eb89c94849b8c3cdbc30d17089df03fb017ac59bb811eb298bd7b2ef7",
+      "bytes": 10424
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-material-use-green.txt",
+      "sha256": "9617c291d5f6617db249bd67eddffdb310b78b3f3cf3d6c71fcab73950d5cce9",
+      "bytes": 103
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-read-scope-green.txt",
+      "sha256": "00314bcb93032e26b644e3865a18e0f8ea2a564911cc95518a72057ec0a39308",
+      "bytes": 103
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-read-scope-red.txt",
+      "sha256": "80ae2e3329f1075ce55f1904b72bf5110786ff0ba1d168b879a9e23a9b5105df",
+      "bytes": 796
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-source-contract-green.txt",
+      "sha256": "4f57473a6f9b26d0d9192757be7469b80d54f9ce694c143dd7fbd2a493bc8c26",
+      "bytes": 103
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-source-contract-red.txt",
+      "sha256": "8b900f36792a8867aa0a29a273b080aeb6835c6bec5141ba93ce2a5b7470a841",
+      "bytes": 1890
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/F03-source-contract-review.md",
+      "sha256": "55f9d1e8cad8be783d057564e2e73af77991c6dc35b6b09f563ef5db6b9e9be7",
+      "bytes": 3229
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f04-nested-green.txt",
+      "sha256": "3788932c6c7648f9a280d1847f1bedd9b3f0030a6140694c6678738410e3894c",
+      "bytes": 279
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f04-nested-red.txt",
+      "sha256": "59194557924fd48f4bdd86a85c79e6d99bfe6103c173cd38fd977c6b70bbf740",
+      "bytes": 9502
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f04-reentry-green.txt",
+      "sha256": "2ee5ee995bfabfa2da6f9ad866ba53aaaeeaea134796090999ae08cc37c85011",
+      "bytes": 277
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/f04-reentry-red.txt",
+      "sha256": "ad4a342515dbc90c703e43c00b78659390ad834ab4a524a6cf9e7ac8f16fd6fc",
+      "bytes": 9759
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/r01-version-boundary-review.json",
+      "sha256": "4a1e9055c733299c166b220cef62a218a5f80f90cfb9ca9ccc6783e95a43ca2a",
+      "bytes": 1166
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/repair-summary.json",
+      "sha256": "ce3704115061bba0bc5aface2371b860442ffe2690a917da3b458330eb641183",
+      "bytes": 2996
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/static-report.json",
+      "sha256": "778e0ca45149edae29bd54167da58ab8b57a63796d30a250e63f84966a4db94f",
+      "bytes": 14096
+    },
+    {
+      "path": "personal-learning-suite/validation/b0-review.md",
+      "sha256": "4ccc184ee698419f116ad4a5982e0f2d9a1061268f0d9e9212d13d3f4b86220a",
+      "bytes": 2474
+    },
+    {
+      "path": "personal-learning-suite/validation/b0-static-report.json",
+      "sha256": "0f31fa4beb43cf0e1fc8b07015e7328898cd190841b66c21b47838969299361b",
+      "bytes": 14036
+    },
+    {
+      "path": "personal-learning-suite/validation/b1-demo-report.json",
+      "sha256": "07587e273d233ac13de7454813fa4844494ac278819c2450f8c82e56ae9ca47a",
+      "bytes": 1019
+    },
+    {
+      "path": "personal-learning-suite/validation/b1-forward-check.json",
+      "sha256": "840fe1c261a297b21763064baf2b2b66f0af168236350f0751a081e866d3e3e7",
+      "bytes": 6785
+    },
+    {
+      "path": "personal-learning-suite/validation/b1-review.md",
+      "sha256": "e18d18766eb7b5c4895e9a05b09e7363d4d296ac22215f609c78a43340e72b3a",
+      "bytes": 3780
+    },
+    {
+      "path": "personal-learning-suite/validation/b1-runtime-output.txt",
+      "sha256": "cff4527c0c5271e07de8926febdd0afb2fbbc8e9d1768ce533976d0344557dfc",
+      "bytes": 5149
+    },
+    {
+      "path": "personal-learning-suite/validation/b1-runtime-report.json",
+      "sha256": "d653f8c4725777e9230934741dae2e09d8dc8edecc40d05f22b27074c15d8301",
+      "bytes": 6495
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-b0-regression-report.json",
+      "sha256": "0f31fa4beb43cf0e1fc8b07015e7328898cd190841b66c21b47838969299361b",
+      "bytes": 14036
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-b1-regression-output.txt",
+      "sha256": "cf4ec35458785c8e0fc33faa8349cc8239f3e04a3fdf22c7ad3661415d3c2bfe",
+      "bytes": 5149
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-b1-regression-report.json",
+      "sha256": "5f2d6da01327055b1774e9dba0805e4b22270002e1729d0038a97bd2281fdfef",
+      "bytes": 6502
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/actual-checks.json",
+      "sha256": "28da80bd16a9eccf755e2bdf7de32d3d8cd5eb1fc67fd47f46fa9433bbac1e33",
+      "bytes": 3666
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/adapt-and-run.py",
+      "sha256": "edd429fe1215bec9bb81829ba5ff470dcc7145a6d01f5bbeb8e67a8f5baa98c8",
+      "bytes": 8660
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/b2a-forward-review.md",
+      "sha256": "d5061b2de82da486859e52bb6fa555e2597ae5a7eb48c667bf35c7c142e02f34",
+      "bytes": 5403
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/candidate.semantic.json",
+      "sha256": "ff6262edc9595260943b536bdd2f9687b427c257f98d6b9144f19a22a7a7bfbc",
+      "bytes": 13833
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/fixtures/raw-input.md",
+      "sha256": "d13e9de673d997223064dc83824f78ba0373812a3b93dd0a67f1e9712e14b0d1",
+      "bytes": 1571
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/input-session-change.json",
+      "sha256": "92b182d3eb4500978e0aefc02a4cc5dc49935f4e6ea965cd9fa03f539f177392",
+      "bytes": 39256
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/input.json",
+      "sha256": "ac51dd5da21055f547445fc1cd39b6f65048af9645c57de9eeaaa27f9c51260e",
+      "bytes": 22725
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/raw-output.json",
+      "sha256": "35726a45b5fdd1a4ceb8ef9075018ded9d1c5bf9a0cf959d59688c3785d75b59",
+      "bytes": 18580
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/raw-output.json.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/raw-session-output.json",
+      "sha256": "2fe663e71ed8c30c3c328216d52e3e236cfe156430034d064933c011a97972d2",
+      "bytes": 19444
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/raw-session-output.json.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward/session-change.semantic.json",
+      "sha256": "e884cf0f3c2db1eedcc9eb3ec26ed025feca2e028cc893bc051b09647e1ceea2",
+      "bytes": 3405
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-forward-final.json",
+      "sha256": "4635cdd5454edf7a910e3098516d6f395f9cc9139a3eb4050d7066e377b33815",
+      "bytes": 48247
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-review.md",
+      "sha256": "9163d678a65aad0f05dd86eb10cf550ff7876f0398d583cef2386333fd55557b",
+      "bytes": 4821
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-runtime-output.txt",
+      "sha256": "10ac6c352e5f5b203069975c591e97890843a8ceb8e0e53cc3c8d5c86e145e54",
+      "bytes": 6684
+    },
+    {
+      "path": "personal-learning-suite/validation/b2a-runtime-report.json",
+      "sha256": "28f7d42bfc4d680c22d064a177bb43062b99d9e0101221507dde041978e67f87",
+      "bytes": 8026
+    },
+    {
+      "path": "personal-learning-suite/validation/b2b-b0-static-report.json",
+      "sha256": "0f31fa4beb43cf0e1fc8b07015e7328898cd190841b66c21b47838969299361b",
+      "bytes": 14036
+    },
+    {
+      "path": "personal-learning-suite/validation/b2b-b1-regression-output.txt",
+      "sha256": "37a8532294474c76e66d6283de79a7f8931dd1e7b0eca4195b756f92c83ef53c",
+      "bytes": 5149
+    },
+    {
+      "path": "personal-learning-suite/validation/b2b-b1-regression-report.json",
+      "sha256": "604fe0ea64c8b83855abb8b3dbdd553889e8e4246609b6044fb13ee60e736468",
+      "bytes": 6502
+    },
+    {
+      "path": "personal-learning-suite/validation/b2b-demo-report.json",
+      "sha256": "561060e991937903e77be2c251fa2ca4166c4c222245fb096d59cd22c6596232",
+      "bytes": 1591
+    },
+    {
+      "path": "personal-learning-suite/validation/b2b-review.md",
+      "sha256": "e3ceecb9984b88a3d4742daf36c5c6da1b5ee6f622b526581dde21a492ef8657",
+      "bytes": 4708
+    },
+    {
+      "path": "personal-learning-suite/validation/b2b-runtime-output.txt",
+      "sha256": "6891cfb0b219ccf4e84459166f6a524ac5bcfd7f6f9e8a1194805b46c8785e4f",
+      "bytes": 5870
+    },
+    {
+      "path": "personal-learning-suite/validation/b2b-runtime-report.json",
+      "sha256": "8e298f9d3d85b3a4ef3903712f865c40894ac0e90a843e4afebcd62e8a39ab4b",
+      "bytes": 6499
+    },
+    {
+      "path": "personal-learning-suite/validation/b2b-skill-forward-output.md",
+      "sha256": "4030b668102a976765fece5f5a9046679f9fa67bdca639d66ce1465b23ea6335",
+      "bytes": 19451
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-b0-report.json",
+      "sha256": "778e0ca45149edae29bd54167da58ab8b57a63796d30a250e63f84966a4db94f",
+      "bytes": 14096
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-b1-output.txt",
+      "sha256": "864658bf6f94378e2d8c9c9e0a09cdb591e111578d7d3e1acb64236a25263dda",
+      "bytes": 5149
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-b1-report.json",
+      "sha256": "aa9c83e6367ab724459a76e1f633234bde93c420bba49dbf58479db92322ffbe",
+      "bytes": 6498
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-b2a-output.txt",
+      "sha256": "5b560a0900d3c9ac38c1c0ae92e614efdf23334c2ddcb99588a08aaed1f06edb",
+      "bytes": 6684
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-b2a-report.json",
+      "sha256": "2d28ac8e8a6b8864d6ca65d822e80adaef4758380d42c854cd8c6e08fef7a5ea",
+      "bytes": 8029
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-b3c-output.txt",
+      "sha256": "713341a0c82f6dba1f896dda33e14ce8952d35845f5dfb6432a12d749d5861b2",
+      "bytes": 9720
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-b3c-report.json",
+      "sha256": "1b40ff4cc67143b7f7784d07b20af352d1ef2e812b99f4ac7af5a8cfe01da224",
+      "bytes": 10013
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-output.txt",
+      "sha256": "cb6b1c47a8751313bfb89c42ec689339e5c814a3633e8d1fc4904d402aabff67",
+      "bytes": 52671
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-report.json",
+      "sha256": "ef4bf167df52724b8f5b30e9d840a71e28856719096bb26fe52b11879261423b",
+      "bytes": 49026
+    },
+    {
+      "path": "personal-learning-suite/validation/b3-interop-review.md",
+      "sha256": "13d80d6ae7cf591eca776c44f91ea4552184d9806579f99b4911f279464a7365",
+      "bytes": 1690
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-b0-static-report.json",
+      "sha256": "376235da1344653001f04b7446ac720e0b190f5e1bc4dce9ca6a941bf6bfa38f",
+      "bytes": 14207
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-b1-regression-output.txt",
+      "sha256": "0446feb8153db62fd1095ad0374a8829dd572c62a87e560fe63a9fa045b660e1",
+      "bytes": 5149
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-b1-regression-report.json",
+      "sha256": "7923540865d27045f1a3e29f185d059513658485da0836a8ab7993b41bc03832",
+      "bytes": 6502
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-b2a-regression-output.txt",
+      "sha256": "5cdf3ecc06b2920500f7906bc404f8f91b87f641fcb35de62d5621cbc011515d",
+      "bytes": 6684
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-b2a-regression-report.json",
+      "sha256": "1eb6b3226696459bd6b99dff4ff792cedc2ef73b7881dd2d7324e58483f70d0a",
+      "bytes": 8033
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-b2b-regression-output.txt",
+      "sha256": "9294e43a5e1cadbd24e14a3084bc903f0fc7b75213a4a169b4a88de2e1755a7b",
+      "bytes": 5870
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-b2b-regression-report.json",
+      "sha256": "1c3423a57f381230429f77204d070a2f1106d8c9204bee13290925252756a883",
+      "bytes": 6506
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-demo-reopen-report.json",
+      "sha256": "956087d73610c8955bb0903b2a8c056dd3bb63d32eefbdd6c4ae3ecc9ac9fe55",
+      "bytes": 2074
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-demo-report.json",
+      "sha256": "e4f58e363efc82e39f98f0e57b61eef89eaacfda0157bcf604dab872cf670f84",
+      "bytes": 2961
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-forward/input.md",
+      "sha256": "f668183fe3fffe7cc10f8e39a9e1f15620e3e9677ee722beb0be97580afc24c5",
+      "bytes": 1483
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-forward/output.md",
+      "sha256": "408286d3d06b9a46834878f1b1a52ab6b3c42e9e7c481330f6b4225359214ff6",
+      "bytes": 11523
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-review.md",
+      "sha256": "85f7b7fac5e1238b7a0e77146a7aeb954e2e1bce40ed10ddd96fa6240a834624",
+      "bytes": 4212
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-runtime-output.txt",
+      "sha256": "db76d41ca345e0965a07c32cb6fe239541aeb371149bf25ca5b64843f22d3700",
+      "bytes": 10138
+    },
+    {
+      "path": "personal-learning-suite/validation/b3a-runtime-report.json",
+      "sha256": "3ed05e34afa40a24ff35cf346ee34aee439a6c7eb0437cf37cdea368a027e6be",
+      "bytes": 10753
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-b0-static-report.json",
+      "sha256": "778e0ca45149edae29bd54167da58ab8b57a63796d30a250e63f84966a4db94f",
+      "bytes": 14096
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-b1-regression-output.txt",
+      "sha256": "532cd6e2d440631dcefab316079a429495b540ac2bed546cf28aee599f107f1d",
+      "bytes": 5149
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-b1-regression-report.json",
+      "sha256": "c7a6987d846ffa871a0f9e785b21650ac7893a4c276fec3dc515fd04a7e90ca3",
+      "bytes": 6502
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-b2a-regression-output.txt",
+      "sha256": "f5f5d04d9cc33bac3b98bff7b03c7be8d17869c138d954cb6443fdf81a07b354",
+      "bytes": 6684
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-b2a-regression-report.json",
+      "sha256": "06d4fb64cb97ccc3a4971ae43c111d44697efcc15a1519f809af4c8e4fdcc4cd",
+      "bytes": 8033
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-b2b-regression-output.txt",
+      "sha256": "030aa56b5c8b36680c3da56a1ae2fa1d054dba957c2783659450ea76045068db",
+      "bytes": 5870
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-b2b-regression-report.json",
+      "sha256": "b32cd1df2c3804bd09387abac3d9b5ecb1f2da84b168471720b9d611b970519c",
+      "bytes": 6506
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-cli-open-output.json",
+      "sha256": "7e3be5b40a18410cf661bb014de4499fd7d35f28748a420cf827e5018c1bd8d6",
+      "bytes": 1842
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-cli-open-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-code-review-probes.md",
+      "sha256": "78eb5ee744b951dc2a837a1c857b2bd53fb068acf2af84a26ae1a7ab2a66beaf",
+      "bytes": 8927
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-demo-reopen-report.json",
+      "sha256": "5235b718efe73aa3f504f149bb66928f5e4a31cad8bc7d54d6b53b66b4c7c7c8",
+      "bytes": 8852
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-demo-report.json",
+      "sha256": "c358e47ad9e0b6410120c9cdb40ac53bc3601c4c1e4e3f5adf3cd337c747c3ff",
+      "bytes": 18705
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-review.md",
+      "sha256": "3d127a64f9add4bbd6c099b05d2d1d7296650d92f0af98408c87b002173b9f45",
+      "bytes": 4085
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-runtime-output.txt",
+      "sha256": "c6d7284dbe87607939c03c6769035b9d6fd30d3231618bc033c3fedbab28526e",
+      "bytes": 7355
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-runtime-report.json",
+      "sha256": "29e4a8fbee858b9a42e0d6fe16c3b949810db9c5a6d804bdd37c5182e9a5d2e3",
+      "bytes": 7969
+    },
+    {
+      "path": "personal-learning-suite/validation/b3b-skill-forward-output.md",
+      "sha256": "a4d43adaba081cf2b4c84aef5c1dafd7c7a4727ed997562115faa518c9467a20",
+      "bytes": 9511
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-b0-static-report.json",
+      "sha256": "778e0ca45149edae29bd54167da58ab8b57a63796d30a250e63f84966a4db94f",
+      "bytes": 14096
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-b1-regression-output.txt",
+      "sha256": "40b34ec04dfeb656e95de22b5d8046584a84a08beed8746d5e79f729543a21ac",
+      "bytes": 5149
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-b1-regression-report.json",
+      "sha256": "7b08c82a9fc8dab4241ed964b37f00879dc3622909c0be6519b05f6b658217df",
+      "bytes": 6502
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-b2a-regression-output.txt",
+      "sha256": "4f426013d7eb24c48399773e7653bbefa727e18b4ca14f336be60319a1a745e7",
+      "bytes": 6684
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-b2a-regression-report.json",
+      "sha256": "1f454dca8e2cc6303529dd020e42d6540484cadaa2d5e5fa34236e8b3e3e8a8f",
+      "bytes": 8033
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-b2b-regression-output.txt",
+      "sha256": "f0b0f32739139946e54396a5ebcb52060377e21d97837689da5c619fa4986c3f",
+      "bytes": 5870
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-b2b-regression-report.json",
+      "sha256": "ae756c8cb95978630ce169fb1daab2249a6fd9a293a284b8a189d93ae89cb55b",
+      "bytes": 6506
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-demo-first-report.json",
+      "sha256": "ec4229d440a6dc3fd5e01cf0ceddaaa4f841af8dd56624ad432ef710dc6c6872",
+      "bytes": 1045
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-demo-report.json",
+      "sha256": "40b00629e03867bf98fa31ed9500ba52f05bb9017dbbe38d8387438619ac5366",
+      "bytes": 837
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/answer-before-audit.md",
+      "sha256": "a3c61419c88f382d4c0de15542f96a75450104d8726e1939e89ae1c81e4f4c07",
+      "bytes": 10558
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/candidate-condition-map.json",
+      "sha256": "015fe2031fb84d8c0048c78c765da6c49b66ca26b6c6e09d71d9189e8a144660",
+      "bytes": 43592
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/host-versions.json",
+      "sha256": "316cf5d00f2b541905674c67723727eda81c76dacce5e6f841a43050c899e418",
+      "bytes": 4142
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/index-s07.json",
+      "sha256": "00b7f8503d55eb1218fb466f4c3c4c59d18301a986bd9e661413f159af0570c3",
+      "bytes": 6428
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/index-x02.json",
+      "sha256": "9e69026bae8da4e0c14bc803c0bcbfbac61c40637198079564878e9827151b43",
+      "bytes": 2336
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/load-conditional-update.json",
+      "sha256": "5d05f3adbaa1455c63ec188f12b2abcf5a12f659ba00eeb63be79e896367a90b",
+      "bytes": 60829
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/load-retrieve-generate-order.json",
+      "sha256": "384f19720b91b31a8725300a545d6e18f0ee629de11dd01d449cf66250d76b7a",
+      "bytes": 61640
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/load-s07.json",
+      "sha256": "2297cb229a51232c0d3ceddf6219d1ef742354272d4b4f7426d2d55ca02ef09c",
+      "bytes": 25307
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/load-x02.json",
+      "sha256": "04d3c5ab11a8becd31f12ceb28580b70766fe94b92b46d45bea3cb35d61a614d",
+      "bytes": 23740
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/raw-request.md",
+      "sha256": "cf32d1f849cdb9b5088d9f67c976cf4459ebececeaebf6d106ce26315e090ff2",
+      "bytes": 1136
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-forward/read-log.md",
+      "sha256": "3a530b78640ce52a9d35b0b0264fd85a7427f48c4521ffaac5f1557030d1a626",
+      "bytes": 5743
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-resource-check-output.txt",
+      "sha256": "55edf0b59099a70d23ce48baae11096bcce61ce995ddcb4d0ef89db1bfabcaaf",
+      "bytes": 214
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-resource-check-report.json",
+      "sha256": "24dee1680130c8e38759a723d2d8a23a4a8238b8ca0e50af13431ebf7d174288",
+      "bytes": 571
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-review.md",
+      "sha256": "c33419f81249de9886aa2df9f4b688a949a937cd69bd6accdc040d0edbb2b72b",
+      "bytes": 5918
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-runtime-output.txt",
+      "sha256": "a006edd2adb243bbf34e5937a26ab775f05f3b7e1e197f4a9bfe7b39536fe462",
+      "bytes": 9140
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-runtime-report.json",
+      "sha256": "8a6ac23943bf86e9d63daa623fb56b2a3e5fcda5c1d7d7e61983f86249dfdcd1",
+      "bytes": 9495
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-skill-validation-output.txt",
+      "sha256": "6cf9e7f0d34ccd36dbd28f270cd28dd04277b2e1516bd4333ce7bb501d7b18d4",
+      "bytes": 17
+    },
+    {
+      "path": "personal-learning-suite/validation/b3c-skill-validation-report.json",
+      "sha256": "6bf12f0b33414faea289e5a8461183ef1a1513472ba8213e45ddabf67ba9ae41",
+      "bytes": 643
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-all-runtime-output.txt",
+      "sha256": "eb4a29703060846e1d7398f55e2902b7751dfe47c9829eb2c72c6f23b2d54b84",
+      "bytes": 62654
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-all-runtime-report.json",
+      "sha256": "774c0493e680067ab375fafb9d17eba775dffbaf4c3ec257b5327913d4220a66",
+      "bytes": 57609
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-b0-static-report.json",
+      "sha256": "778e0ca45149edae29bd54167da58ab8b57a63796d30a250e63f84966a4db94f",
+      "bytes": 14096
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-planning-boundary-before-fix.txt",
+      "sha256": "13c39a0885460df6ee9da0b550e245d1180fe250ab4905f906fb5aef8fa0f24c",
+      "bytes": 4169
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-planning-demo-reopen-report.json",
+      "sha256": "3f85d5d82f37e85de5808e06004e970dcce02eaf0e998b4d644b36ffcf5cee14",
+      "bytes": 6870
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-planning-demo-report.json",
+      "sha256": "3f9fff8ff9a82fc34d00450afa19102914a15fb6be6ea40623420446672d2ee6",
+      "bytes": 9142
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-planning-runtime-report.json",
+      "sha256": "dc4b333f1419fb3cf25a534adbb708aebf358046948aaaf57813f9207e8d8dff",
+      "bytes": 5785
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-review.md",
+      "sha256": "5c6ff7b12890f5efac3da60215b370cb62c84592ab57cf8417d58951997963dc",
+      "bytes": 4847
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-skill-forward-output.md",
+      "sha256": "89cfcc117b21a787e8dad30a17075d5afd3790140e2f6cc5ee86fc3acc8c7989",
+      "bytes": 5904
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-skill-validation.json",
+      "sha256": "6e0e5f8cf7862e2de9754a957d8462a9892ef1654f0115e9b749ca4b6efbfbad",
+      "bytes": 556
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-teaching-demo-reopen-report.json",
+      "sha256": "01236c88e62304320ad0fb5afdea64991efe5e4c5301854a9b107cae3cacbd3b",
+      "bytes": 22357
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-teaching-demo-report.json",
+      "sha256": "01336990ece60afff1b510a47485d117e4f4a6aefd5a204b31c8fe78068828f9",
+      "bytes": 65633
+    },
+    {
+      "path": "personal-learning-suite/validation/b4-teaching-runtime-report.json",
+      "sha256": "37c28d6bfdaa87959df81fdddace601ec1c63d93424487439b0ad037d6787207",
+      "bytes": 5755
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-all-runtime-output.txt",
+      "sha256": "8a573b6502c47f70cb2e151a95e5386bcc1ceea1091457fc01f7de20efc05005",
+      "bytes": 68884
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-all-runtime-report.json",
+      "sha256": "1e687d0a4fbacfc1ad68f1538925d91d051642c4c5d2b00b1c3ca19c248c6c2f",
+      "bytes": 63259
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-b0-static-report.json",
+      "sha256": "778e0ca45149edae29bd54167da58ab8b57a63796d30a250e63f84966a4db94f",
+      "bytes": 14096
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-baseline-runtime-output.txt",
+      "sha256": "f6cbd1d1688cdae0274eca4e10e7f4ef8fc589454690c46a3b6571030d409357",
+      "bytes": 76141
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-baseline-runtime-report.json",
+      "sha256": "faa526dfa7973202122acd3b62d9b99f2d5ca0593196636b408c19204856d361",
+      "bytes": 60428
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-demo-reopen-report.json",
+      "sha256": "6ff76569887af1caac189ba5de3c26110505c6b3da692f37150eb75b4213e7e7",
+      "bytes": 6830
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-demo-report.json",
+      "sha256": "09ed2f9e90c441117ea1e4223369adcbe1d1dbea4822af59ed61be4418550fa9",
+      "bytes": 25424
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-demo-workspace/records.sqlite3",
+      "sha256": "e9af107d6e00e09c7aac01a152a0f70fae60a7b35ba4df165370d4c5c3a189d5",
+      "bytes": 151552
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-entry-runtime-output.txt",
+      "sha256": "82dfafddf80abbf03c0aa0a96ed1c57cb95503aa2086593a9d6fff2d82cea76b",
+      "bytes": 6334
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-entry-runtime-report.json",
+      "sha256": "2fe2d6ddeb29a63058d7fff95ed33badbfe890814a67ad24e687e9c946ad8213",
+      "bytes": 6914
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-review.md",
+      "sha256": "5cd7f0a8a68fa1bb39799e670940ad7afbe553062bbfed26e7ee7536b194cf87",
+      "bytes": 6461
+    },
+    {
+      "path": "personal-learning-suite/validation/b5-skill-forward-output.md",
+      "sha256": "eb1fee99e3c6094cf69e60d4c91d7f2692b78cc750f8db619544ae0fb8cad56e",
+      "bytes": 5067
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-all-runtime-output.txt",
+      "sha256": "00883cb01b93473bdd0b9810dc417046a68f13639255f47daba191a557bcdbb9",
+      "bytes": 75473
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-all-runtime-report.json",
+      "sha256": "3c954381bd9690e9c18ff23777a6eec7f916eae9232075dbe79088dc148c3336",
+      "bytes": 69670
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-b0-static-report.json",
+      "sha256": "778e0ca45149edae29bd54167da58ab8b57a63796d30a250e63f84966a4db94f",
+      "bytes": 14096
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-baseline-runtime-output.txt",
+      "sha256": "66de025b53805ccc7a2e233e4f4ecf36bc5adb5f8244b36b2bdc1ff918fd310c",
+      "bytes": 68885
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-baseline-runtime-report.json",
+      "sha256": "67ac2a651e833b27c84d9a89f906c1a807b486fdaaefe4bc49184e272008389a",
+      "bytes": 63264
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-demo-reopen-report.json",
+      "sha256": "13f210dca6ef58d8e6e596ddb3e754b02c9d659281f26ad1c6554d8ed2a30703",
+      "bytes": 2045
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-demo-report.json",
+      "sha256": "e1cf48c3f7b4591d423123e163dbb61243641b06f9d003574d780cf06299d63b",
+      "bytes": 13034
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-independent-audit.json",
+      "sha256": "f571546ebf93b3825db62dbbd6129453cdef04cf49a9277cf4dd0d75882defdf",
+      "bytes": 12740
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-network-runtime-output.txt",
+      "sha256": "a267fdcd444b2afaa2219c9b7a3f56588a51b99af5760849c7c06802c46b9fef",
+      "bytes": 6693
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-network-runtime-report.json",
+      "sha256": "a9c01c8f4af0cfc104cf8c48494340a405b0245d29b69641ceb2250313b603dd",
+      "bytes": 7649
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-review.md",
+      "sha256": "86212b0eb259fabcab8af8dd40b137ef94c3a7b51582969debbcc5b582c8c18b",
+      "bytes": 3515
+    },
+    {
+      "path": "personal-learning-suite/validation/b6-skill-validation.json",
+      "sha256": "59ff9295019920d6eabde37df4575f282cf90502351c9d516129480a378a7a6f",
+      "bytes": 407
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-all-runtime-output.txt",
+      "sha256": "9810580bfac0b6d8909c4a5aa45ccb72337445d8c4c07746c291f6edc1456e09",
+      "bytes": 80881
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-all-runtime-report.json",
+      "sha256": "587342001b4d0c44c7d619e9ff5dfee0c19625b5d95934ce335f8d6da3f927f1",
+      "bytes": 74811
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-b0-static-report.json",
+      "sha256": "778e0ca45149edae29bd54167da58ab8b57a63796d30a250e63f84966a4db94f",
+      "bytes": 14096
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-b10-baseline-coverage.json",
+      "sha256": "018152e9037ca21368a86263496ea0503a912fb3cb50b50ed266998ea22f0a0a",
+      "bytes": 12560
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-b10-coverage.json",
+      "sha256": "62b414246a39e804054df2db8698aa9fd8a48acf9494e5bd7ed8611fdf3deae9",
+      "bytes": 12582
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-baseline-runtime-output.txt",
+      "sha256": "af16d482d50f8d2994aaef42c904e90a02c55356307c70b596be7cd57591fef2",
+      "bytes": 75472
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-baseline-runtime-report.json",
+      "sha256": "d3ea45508fd965dd92742b52fb5e6ef12f9c2fb351c588c851bc7e164a28a94e",
+      "bytes": 69675
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-demo-repeat-report.json",
+      "sha256": "e0dcc4658eed80ea68f6c2e23e5b8e4b9638445616724a8cdf25b6e18fc33136",
+      "bytes": 2407
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-demo-report.json",
+      "sha256": "e0dcc4658eed80ea68f6c2e23e5b8e4b9638445616724a8cdf25b6e18fc33136",
+      "bytes": 2407
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-independent-audit-output.txt",
+      "sha256": "1052e12c5c5bcaef789ec9c69313abe1839eb367dd374f96286da3bcfe6bfc77",
+      "bytes": 1002
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-independent-audit.json",
+      "sha256": "0df345e400d2e33ef55610058071d29c73e9ed93ed45f18b28850a0ad8020dc3",
+      "bytes": 2793
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-pilot-initial-output.txt",
+      "sha256": "4695db9ebb269cda72cd4d3578d844f8bc7f0d0c073291e68f431a045371829d",
+      "bytes": 2350
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-pilot-initial-report.json",
+      "sha256": "d8e064576ad1cc4427861bfcbbac7dbb12951e468ec281151cf67b6d484a0c59",
+      "bytes": 3615
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-pilot-runtime-output.txt",
+      "sha256": "271c4c8ba8a8944b828b6c2320b5b0669fd39ca8a5984271f7cedbec81d763b9",
+      "bytes": 5513
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-pilot-runtime-report.json",
+      "sha256": "ee149d90ace1d5da274e469a05ab4a365faa5037fccbef1eea55b61f10f0d778",
+      "bytes": 7108
+    },
+    {
+      "path": "personal-learning-suite/validation/b7-review.md",
+      "sha256": "7a385517efb73ac6a2eb52e58b6c8da3a9be2e0fbd93fc9d36974163d29f3bf1",
+      "bytes": 4877
+    },
+    {
+      "path": "Post-Encoding-Dynamics-深度增量研究.md",
+      "sha256": "b9a6c07343dab159a25c37ff054f04bd44751b9c7ffd3242b1dff86d36b598f9",
+      "bytes": 60248
+    },
+    {
+      "path": "post-encoding证据台账与参考文献.md",
+      "sha256": "e36977d61df248a2176be8eb94387fa2e0323251eaf90eb147768b67d4381d49",
+      "bytes": 28962
+    },
+    {
+      "path": "Retrieval-Integration-快速矩阵.md",
+      "sha256": "f06a7d3889191f5fd6d49c6cd89ec3cac0df5402439ea586d6c5cef101ae519f",
+      "bytes": 6582
+    }
+  ],
+  "before_source_registry": {
+    "artifact_version": "0.1.0",
+    "baseline": "B0",
+    "created_on": "2026-10-02",
+    "source_path_base": "suite_root",
+    "source_path_base_note": "suite_root 指 personal-learning-suite。../ 指向保留原文的项目根；此开发登记依赖原项目，发布时需重新映射。",
+    "source_count": 19,
+    "fingerprint_policy": {
+      "algorithm": "SHA256",
+      "scope": "only_non_personal_design_and_research_sources",
+      "personal_records": "不得以指纹保留可重建的个人内容；本登记无个人记录"
+    },
+    "namespace_policy": {
+      "source_ids": "N00、D00—D11、R01—R06；引用时标 type=source",
+      "encoding_card_ids": "O/S/R/D/I/X01—10；引用时标 type=encoding_card",
+      "literature_ids": "R03 /sources 的 OS/DI/RR/F/U 与 R06 的 E01—E49；引用时标 type=literature",
+      "warning": "例如 Encoding 卡 R09 不是来源登记号；来源 R02 与卡 R02 属于不同命名空间。"
+    },
+    "priority_policy": [
+      "D00 定义共同语义与当前生效规则。",
+      "N00 只在包装、四角色七 Skill、资源转译与实施路线显式修订范围内优先于 D01 旧包装。",
+      "对应正式专项在自身决定范围内执行；研究与实践库只提供候选及依据边界。",
+      "当前合法限制、删除范围、执行权与已生效版本先于展示／提交；B0 未创建这些真实状态。",
+      "未解决的同范围实质冲突保持未决，先限制受影响用途，不用摘要或早期研究建议覆盖正式规范。"
+    ],
+    "sources": [
+      {
+        "source_id": "N00",
+        "project_relative_path": "../AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md",
+        "declared_version": "v0",
+        "version_declaration": "AI 个人学习系统：Agent 与 Skill 工作网络及实施路线 v0",
+        "declared_dates": [
+          "2026-10-02"
+        ],
+        "title": "AI 个人学习系统：Agent 与 Skill 工作网络及实施路线 v0",
+        "purpose_layer": "implementation_design",
+        "purpose": "当前四角色、七 Skill、依赖分层、资源转译和 B0—B7 实施路线",
+        "available": true,
+        "personal_source": false,
+        "sha256": "498311dab7df9a632a960ae40ef56eb25b3596336cb127dcbcfb8250831c7bcb",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# AI 个人学习系统：Agent 与 Skill 工作网络及实施路线 v0",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 一、对上一版架构作出的细化与修订",
+            "line": 13
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 二、文档与资源编号：先建立共同索引",
+            "line": 40
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 三、推荐工作网络",
+            "line": 74
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 四、四个 Agent 的责任说明",
+            "line": 128
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 五、七个 Skill 的详细边界与加载入口",
+            "line": 192
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 六、设计时读什么，运行时读什么",
+            "line": 238
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 七、策略资源怎样从原文变成运行资源",
+            "line": 289
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 八、Agent 之间交付什么，怎样才算完成",
+            "line": 377
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 九、正常工作流程：哪些每次做，哪些按需做",
+            "line": 419
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十、异常工作网络和暂停边界",
+            "line": 488
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十一、实现目录、共享资源和发布方式",
+            "line": 504
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十二、先设计和实现什么：按依赖推进",
+            "line": 565
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十三、下一阶段开发任务单应怎样写",
+            "line": 634
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十四、验收网络而不只验收文件",
+            "line": 681
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十五、本轮可执行的设计结论",
+            "line": 718
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false,
+          "sections_read": [
+            "二：文档与资源编号",
+            "六：设计时与运行时依赖",
+            "七：策略资源转译",
+            "十二：B0—B7 及交付门槛",
+            "十四：资源核对项"
+          ]
+        },
+        "priority_rule": "只在四角色／七 Skill 包装、资源转译和实施路线的显式修订范围内优先于 D01；共同规范仍以 D00 为准。"
+      },
+      {
+        "source_id": "D00",
+        "project_relative_path": "../AI个人学习系统_整体学习流程与概念架构_v1.md",
+        "declared_version": "v1",
+        "version_declaration": "版本：v1／工作包 9—10 设计收口版",
+        "declared_dates": [
+          "2026-10-01",
+          "2026-10-02"
+        ],
+        "title": "AI 个人学习系统：整体学习流程与概念架构 v1",
+        "purpose_layer": "formal_design",
+        "purpose": "统一语义、权限、生效、纠错和首期范围",
+        "available": true,
+        "personal_source": false,
+        "sha256": "ebd95c8a1b6c8290f00821c975e6cc9714939a4e7dad7a985b6276e1772589a8",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# AI 个人学习系统：整体学习流程与概念架构 v1",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 一、目标、依据与当前生效规则",
+            "line": 13
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 二、六项能力及其关系",
+            "line": 53
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 三、统一信息语义与最小追溯",
+            "line": 89
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 四、从课程到跨会话的完整流程",
+            "line": 132
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 五、责任、授权与协作配置",
+            "line": 199
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 六、交接、专业采用与计划生效",
+            "line": 228
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 七、跨学科适配与用户体验",
+            "line": 256
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 八、系统纠错：两条传播路径，分别恢复",
+            "line": 283
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 九、删除、迟到结果与异常恢复",
+            "line": 307
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十、完整而狭窄的首期",
+            "line": 343
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十一、验证状态与后续实施依赖",
+            "line": 371
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十二、从 v0 到 v1 的采纳与澄清记录",
+            "line": 386
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false
+        },
+        "priority_rule": "共同语义、权限、证据用途、删除与当前生效规则的统一上位规范。"
+      },
+      {
+        "source_id": "D01",
+        "project_relative_path": "../AI个人学习系统_Skill架构设计_v0.md",
+        "declared_version": "v0",
+        "version_declaration": "版本：v0／从正式学习系统方案到 Skill 实现的架构设计",
+        "declared_dates": [
+          "2026-10-02"
+        ],
+        "title": "AI 个人学习系统：Skill 架构设计 v0",
+        "purpose_layer": "formal_design",
+        "purpose": "记录契约、持久化、加载与宿主边界；Skill 包装按 N00 显式修订",
+        "available": true,
+        "personal_source": false,
+        "sha256": "3e1288cfa6ceb6c9f013a3846f7565075d759ab62dfa3185b4ac2722c8a0c859",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# AI 个人学习系统：Skill 架构设计 v0",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 一、本阶段需要作出的架构决定",
+            "line": 14
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 二、依据与转换范围",
+            "line": 46
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 三、整体架构：入口、专业工作流、个人记录和运行支持",
+            "line": 73
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 四、Skill 包的组织与按需加载",
+            "line": 120
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 五、职责、能力分配与 Agent 协作配置",
+            "line": 199
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 六、共享状态与最小数据契约",
+            "line": 236
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 七、一次学习的运行方式",
+            "line": 321
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 八、计划、需求与跨会话连续性",
+            "line": 401
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 九、委派、结果采用与执行权",
+            "line": 433
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十、持久化与运行支持的实现边界",
+            "line": 478
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十一、纠错、删除和组合异常",
+            "line": 545
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十二、跨学科适配与外部工具",
+            "line": 591
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十三、用户看到的交互",
+            "line": 621
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十四、贯通示例：从首次学习到恢复与纠错",
+            "line": 647
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十五、验证与实现验收",
+            "line": 678
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十六、实现顺序与明确交付物",
+            "line": 725
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十七、当前已明确与待落实的事项",
+            "line": 754
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false
+        },
+        "priority_rule": "约束共享记录与宿主边界；单包包装和拆分建议按 N00 显式修订。"
+      },
+      {
+        "source_id": "D02",
+        "project_relative_path": "../AI个人学习系统_工作包2与3_联合设计方案_v0.md",
+        "declared_version": "v0",
+        "version_declaration": "AI 个人学习系统：工作包 2 与 3 联合设计方案 v0",
+        "declared_dates": [
+          "2026-09-27"
+        ],
+        "title": "AI 个人学习系统：工作包 2 与 3 联合设计方案 v0",
+        "purpose_layer": "formal_design",
+        "purpose": "目标与判据、证据、诊断、近期展开",
+        "available": true,
+        "personal_source": false,
+        "sha256": "b1418268e976edd3e64cf8fcc8a6805d0f64b53727b77b2c79f35a9849253f0e",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# AI 个人学习系统：工作包 2 与 3 联合设计方案 v0",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 一、共同成果与本轮边界",
+            "line": 13
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 二、主流程：先形成可用安排，再持续修订",
+            "line": 49
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 三、工作包 2：从材料和用途形成目标",
+            "line": 84
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 四、目标粒度、前置关系与目标版本",
+            "line": 139
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 五、验收框架：先限定结论，再设计能支持它的任务",
+            "line": 207
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 六、工作包 3：用证据与判断表示学习者状态",
+            "line": 266
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 七、冷启动与局部诊断：围绕会改变安排的未知取证",
+            "line": 346
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 八、让判断真正改变内容展开",
+            "line": 408
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 九、新证据、纠错和变化的更新规则",
+            "line": 458
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十、与工作包 4—8 的交接与责任",
+            "line": 515
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十一、三个假设情境：检查这套设计能否产生不同安排",
+            "line": 555
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十二、首期落地、验收与待验证选择",
+            "line": 634
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 附录：依据定位与使用边界",
+            "line": 704
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false
+        },
+        "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+      },
+      {
+        "source_id": "D03",
+        "project_relative_path": "../AI个人学习系统_工作包4_设计方案_v0.md",
+        "declared_version": "v0",
+        "version_declaration": "AI 个人学习系统：工作包 4 设计方案 v0",
+        "declared_dates": [
+          "2026-09-28"
+        ],
+        "title": "AI 个人学习系统：工作包 4 设计方案 v0",
+        "purpose_layer": "formal_design",
+        "purpose": "来源片段、材料用途、内容核验和错误传播",
+        "available": true,
+        "personal_source": false,
+        "sha256": "879c68a3bc5bbb14f3349c3ed008b858f8dbac8b60053b3f2b401994cc2e550d",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# AI 个人学习系统：工作包 4 设计方案 v0",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 一、本方案作出的选择",
+            "line": 8
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 二、B3 在整体学习流程中的位置",
+            "line": 45
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 三、用两个层次组织内容，保留必要的区别",
+            "line": 76
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 四、上传材料如何成为可用内容",
+            "line": 108
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 五、材料选择：先决定需要支持什么，再决定增加什么",
+            "line": 146
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 六、输入怎样组织，哪些表征值得制作",
+            "line": 193
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 七、生成与核验：把“可以相信什么”说具体",
+            "line": 227
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 八、学习、提示、参考答案与验收怎样衔接",
+            "line": 287
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 九、与相邻工作包的最小交接和责任",
+            "line": 326
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十、来源冲突、错误与版本变化的处理",
+            "line": 372
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十一、用有区分力的情境走查设计",
+            "line": 419
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十二、首期怎么落地，怎样判断值得保留",
+            "line": 509
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十三、本版取舍、证据索引与后续交付",
+            "line": 560
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false
+        },
+        "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+      },
+      {
+        "source_id": "D04",
+        "project_relative_path": "../AI个人学习系统_工作包5_C0共同教学框架_设计方案_v0.md",
+        "declared_version": "v0",
+        "version_declaration": "AI 个人学习系统：工作包 5／C0 共同教学框架设计方案 v0",
+        "declared_dates": [
+          "2026-09-28"
+        ],
+        "title": "AI 个人学习系统：工作包 5／C0 共同教学框架设计方案 v0",
+        "purpose_layer": "formal_design",
+        "purpose": "共同教学回路、活动规格、帮助、反馈与收束",
+        "available": true,
+        "personal_source": false,
+        "sha256": "1136fe60df07124ce20704516752f2ddda86eedc5ed80011d0931d592d64a4a8",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# AI 个人学习系统：工作包 5／C0 共同教学框架设计方案 v0",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 一、依据、未知与本版关键选择",
+            "line": 13
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 二、共同准备：从已有依据到可以开始",
+            "line": 54
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 三、共同框架：活动、表现和后续决定怎样连接",
+            "line": 97
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 四、活动规格：让执行者知道具体做什么",
+            "line": 121
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 五、输入、帮助与反馈：每一步都应改变下一步的依据",
+            "line": 156
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 六、检查与判断：把教学进展交回证据体系",
+            "line": 198
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 七、调整、异常与恢复权限",
+            "line": 234
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 八、共同收束与交接：留下结果，也留下处理结果",
+            "line": 284
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 九、贯通检查：用有限假设检验规则能否执行",
+            "line": 321
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十、当前通过标准、有限试用与简化条件",
+            "line": 425
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十一、研究依据与外推边界",
+            "line": 481
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十二、交给下一步设计的准备包",
+            "line": 501
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 附记：本次审阅意见处理",
+            "line": 530
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false
+        },
+        "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+      },
+      {
+        "source_id": "D05",
+        "project_relative_path": "../AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+        "declared_version": "v0",
+        "version_declaration": "AI 个人学习系统：工作包 5／Encoding 设计方案 v0",
+        "declared_dates": [
+          "2026-09-29"
+        ],
+        "title": "AI 个人学习系统：工作包 5／Encoding 设计方案 v0",
+        "purpose_layer": "formal_design",
+        "purpose": "关系建构、动态展开、复杂整体与局部返回",
+        "available": true,
+        "personal_source": false,
+        "sha256": "4b3f81220191f4a9d0760e1516be5a69e7f8c8db9e11865bd4c0135227658f17",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# AI 个人学习系统：工作包 5／Encoding 设计方案 v0",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 一、本版的核心选择与依据",
+            "line": 11
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 二、设计单位：目标中的一项可用结构",
+            "line": 47
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 三、高理论上限：系统应能支持哪些深层工作",
+            "line": 72
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 四、动态实际深度：继承要求，选择当前工作",
+            "line": 104
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 五、把选择变成有内容的学习活动",
+            "line": 168
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 六、局部展开、检查与收束",
+            "line": 221
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 七、假设情境：深度怎样真正随要求和表现改变",
+            "line": 259
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 八、与各工作包衔接及最小记录",
+            "line": 358
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 九、关键取舍与本版复杂度边界",
+            "line": 416
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十、怎样检验这套设计值得采用",
+            "line": 429
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false
+        },
+        "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+      },
+      {
+        "source_id": "D06",
+        "project_relative_path": "../AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+        "declared_version": "v0",
+        "version_declaration": "AI 个人学习系统：工作包 5／Post-Encoding 设计方案 v0",
+        "declared_dates": [
+          "2026-09-29"
+        ],
+        "title": "AI 个人学习系统：工作包 5／Post-Encoding 设计方案 v0",
+        "purpose_layer": "formal_design",
+        "purpose": "恢复、整合、选用、更新与时间条件",
+        "available": true,
+        "personal_source": false,
+        "sha256": "a23f4372a0b4e7ffed39f74de1a8b26e613b266f85ff6009302ad04725786ade",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# AI 个人学习系统：工作包 5／Post-Encoding 设计方案 v0",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 一、核心选择、阅读范围与依据性质",
+            "line": 11
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 二、继承前序成果：先判断还缺什么，再决定做什么",
+            "line": 50
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 三、高理论上限：后续学习应能承接完整的目标工作",
+            "line": 84
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 四、从当前需要到一次活动：动态选择原则",
+            "line": 119
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 五、专项活动：把恢复、整合和应用做在所需内容上",
+            "line": 157
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 六、知识更新与局部重新 Encoding",
+            "line": 209
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 七、时间与证据：教学进展、当前可用和持久可用分别成立",
+            "line": 246
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 八、收束、后续需求与共同接口",
+            "line": 290
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 九、贯通情境：同一原则如何产生不同的教学工作",
+            "line": 361
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十、关键研究主张与设计外推的边界",
+            "line": 505
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十一、首期实施与验证：同时检查高上限和适时停止",
+            "line": 524
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false
+        },
+        "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+      },
+      {
+        "source_id": "D07",
+        "project_relative_path": "../AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+        "declared_version": "v0",
+        "version_declaration": "AI 个人学习系统：工作包 6／策略使用规则设计方案 v0",
+        "declared_dates": [
+          "2026-09-30"
+        ],
+        "title": "AI 个人学习系统：工作包 6／策略使用规则设计方案 v0",
+        "purpose_layer": "formal_design",
+        "purpose": "选法、适配、组合、替换、复用及教学／计划边界",
+        "available": true,
+        "personal_source": false,
+        "sha256": "56ec384bbb6e4457900de8db34e06465bcf631b7bb4450eec11a4d2d1a221559",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# AI 个人学习系统：工作包 6／策略使用规则设计方案 v0",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 一、依据范围与实践库核对",
+            "line": 11
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 二、设计单位、职责与最小输入",
+            "line": 43
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 三、从当前需要到可审查的选择",
+            "line": 98
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 四、缺口与候选方法的条件化映射",
+            "line": 140
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 五、组合、顺序与相互干扰",
+            "line": 167
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 六、从通用卡片到可执行任务",
+            "line": 201
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 七、无进展时怎样替换和回退",
+            "line": 232
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 八、退出、收束与后续需求",
+            "line": 260
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 九、最小记录：让下一次选择能够复盘",
+            "line": 279
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十、代表性任务实例与分支",
+            "line": 308
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十一、策略复用、修改与停用",
+            "line": 431
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十二、工作包接口与责任闭环",
+            "line": 464
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十三、设计验收与纸上走查",
+            "line": 525
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十四、首期使用范围与待验证问题",
+            "line": 579
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false
+        },
+        "priority_rule": "按 D00 共同语义和对应教学专项执行；“工作包 7 尚未形成”为历史阶段说明，不作为本轮缺失依赖。"
+      },
+      {
+        "source_id": "D08",
+        "project_relative_path": "../AI个人学习系统_工作包7_长期计划与学习连续性_设计方案_v0.md",
+        "declared_version": "v0",
+        "version_declaration": "AI 个人学习系统：工作包 7／长期计划与学习连续性设计方案 v0",
+        "declared_dates": [
+          "2026-09-30"
+        ],
+        "title": "AI 个人学习系统：工作包 7／长期计划与学习连续性设计方案 v0",
+        "purpose_layer": "formal_design",
+        "purpose": "需求处置、资源竞争、滚动承诺与恢复",
+        "available": true,
+        "personal_source": false,
+        "sha256": "d4ca34ac8ee3dc68430e766085be1a5736a46d3e11a6d8daad2dcfe11664cb92",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# AI 个人学习系统：工作包 7／长期计划与学习连续性设计方案 v0",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 一、计划负责什么，哪些决定仍在原处",
+            "line": 10
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 二、四种时间尺度怎样形成一项可信承诺",
+            "line": 33
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 三、需求进入计划时，先决定它是否值得继续占用注意力",
+            "line": 54
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 四、竞争与预算：选择一个完整可行的范围",
+            "line": 77
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 五、长任务保留整体，恢复从可信断点继续",
+            "line": 108
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 六、时间性需求怎样进入日历，何时可以结束重复投入",
+            "line": 126
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 七、漏学与积压：清理需求的理由，不搬运日历",
+            "line": 146
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 八、重排只改受影响的承诺",
+            "line": 171
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 九、与工作包 8 共用的交接和生效规则",
+            "line": 202
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十、用户看到的进展和本版的验证办法",
+            "line": 222
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false
+        },
+        "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+      },
+      {
+        "source_id": "D09",
+        "project_relative_path": "../AI个人学习系统_工作包8_多Agent协作与共享状态_设计方案_v0.md",
+        "declared_version": "v0",
+        "version_declaration": "AI 个人学习系统：工作包 8／多 Agent 协作与共享状态设计方案 v0",
+        "declared_dates": [
+          "2026-09-30"
+        ],
+        "title": "AI 个人学习系统：工作包 8／多 Agent 协作与共享状态设计方案 v0",
+        "purpose_layer": "formal_design",
+        "purpose": "委派、接责、专业采用、执行权与迟到结果",
+        "available": true,
+        "personal_source": false,
+        "sha256": "0d96cdf6cf12019eec1163e9c8405fdcab88f41682313a5e00c98347318274ae",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# AI 个人学习系统：工作包 8／多 Agent 协作与共享状态设计方案 v0",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 一、设计从哪些问题开始",
+            "line": 11
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 二、责任跟随决定，不跟随 Agent 名称",
+            "line": 29
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 三、高层必须交出足够具体、又不过度铺开的设计",
+            "line": 59
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 四、共享的是有归属的依据，不是统一状态总分",
+            "line": 77
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 五、从委派到接管：责任必须真正落下",
+            "line": 106
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 六、版本和采用：保留新信息，不让旧决定覆盖现在",
+            "line": 143
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 七、与工作包 7 共用的五类交接",
+            "line": 155
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 八、纠错必须修到依赖它的决定",
+            "line": 171
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 九、用户控制贯穿原记录、派生判断和迟到结果",
+            "line": 186
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十、假设走查：规则是否会产生可检查的不同结果",
+            "line": 200
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十一、协作成本如何约束方案，而不牺牲关键依据",
+            "line": 272
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十二、本版决定与仍需校准的事项",
+            "line": 291
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false
+        },
+        "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+      },
+      {
+        "source_id": "D10",
+        "project_relative_path": "../AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计方案_v0.md",
+        "declared_version": "v0",
+        "version_declaration": "AI 个人学习系统：工作包 9／跨学科、用户体验与异常场景设计方案 v0",
+        "declared_dates": [
+          "2026-10-01",
+          "2026-10-02"
+        ],
+        "title": "AI 个人学习系统：工作包 9／跨学科、用户体验与异常场景设计方案 v0",
+        "purpose_layer": "formal_design",
+        "purpose": "学科差异、用户操作与组合异常",
+        "available": true,
+        "personal_source": false,
+        "sha256": "9f5e9cf21f6f8bf42ce0677adde562c82d9d8e17e38a723cddb2568a386b9b26",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# AI 个人学习系统：工作包 9／跨学科、用户体验与异常场景设计方案 v0",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 一、阅读依据、继承和本轮增量",
+            "line": 14
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 二、贯通审查怎样做，结果怎样解释",
+            "line": 35
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 三、四学科共用什么，必须分别判断什么",
+            "line": 49
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 四、数学轨迹 M9：深目标跨会话继续，简单目标及时结束",
+            "line": 62
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 五、人工智能轨迹 A9：概念、实现、测试选择与实验解释分开",
+            "line": 98
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 六、金融轨迹 F9：相同公式必须绑定假设、单位与时点",
+            "line": 117
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 七、政治轨迹 P9：证据、解释和价值前提分别评分",
+            "line": 136
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 八、用户体验：每项控制都改变教学、证据或安排",
+            "line": 155
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 九、内容错误沿实际依赖修到计划：X9完整演练",
+            "line": 189
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十、运行异常与连续性演练",
+            "line": 230
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十一、跨包澄清与修订台账",
+            "line": 273
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十二、交给工作包10的可检验问题与具体输入",
+            "line": 304
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十三、本包交付自查及结论范围",
+            "line": 339
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false
+        },
+        "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+      },
+      {
+        "source_id": "D11",
+        "project_relative_path": "../AI个人学习系统_工作包10_验证计划与设计收口_设计方案_v0.md",
+        "declared_version": "v0",
+        "version_declaration": "AI 个人学习系统：工作包 10／验证计划与设计收口设计方案 v0",
+        "declared_dates": [
+          "2026-10-01",
+          "2026-10-02"
+        ],
+        "title": "AI 个人学习系统：工作包 10／验证计划与设计收口设计方案 v0",
+        "purpose_layer": "formal_design",
+        "purpose": "V1—V4、B10-01—12、首期实例与实施顺序",
+        "available": true,
+        "personal_source": false,
+        "sha256": "04c4bcc347c420da469b75f7a362ecbdc81c593fd82f9588dadaac8f2e5badfd",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# AI 个人学习系统：工作包 10／验证计划与设计收口设计方案 v0",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 一、依据、结论性质与本包负责的决定",
+            "line": 14
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 二、首期统一选择：一个有限目标组合，一条完整路径",
+            "line": 44
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 三、把验证分成四个可以分别失败的问题",
+            "line": 87
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 四、优先验证哪些承诺，结果会改变哪里",
+            "line": 100
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 五、执行顺序：按证据就绪推进，不按统一周数推进",
+            "line": 125
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 六、四类验证具体怎么取得证据",
+            "line": 140
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 七、比较方案：每次只回答一个新增做法是否值得",
+            "line": 189
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 八、异常与技术行为的受控核查",
+            "line": 220
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 九、最小验证记录、处置规则和停止条件",
+            "line": 251
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十、接收工作包 9，并使架构 v1 真正生效",
+            "line": 296
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十一、进入实现的顺序与每一步的交付条件",
+            "line": 326
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 十二、本版收口结果与下一阶段入口",
+            "line": 341
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false
+        },
+        "priority_rule": "在对应专业范围内采用，受 D00 统一规则约束；跨专业决定由其现行责任方处理。"
+      },
+      {
+        "source_id": "R01",
+        "project_relative_path": "../01_Encoding研究报告.md",
+        "declared_version": "2.0",
+        "version_declaration": "研究日期：2026-09-24。版本：2.0（依据升级规范完成科学性审查与文档同步）。面向个人学习系统与 AI tutor。根据用户提供的《深度研究.md》确定问题范围；文档中的假设和示例作为待检验问题处理。",
+        "declared_dates": [
+          "2026-09-24"
+        ],
+        "title": "Encoding 高级策略：从知识结构到可迁移的内部模型",
+        "purpose_layer": "research_and_method_source",
+        "purpose": "结构属性、选择与顺序、研究证据边界",
+        "available": true,
+        "personal_source": false,
+        "sha256": "ccae80ccd66b1ad446b27309e0cffc46b59706701332bb9bb9f07818abae36f1",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# Encoding 高级策略：从知识结构到可迁移的内部模型",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 1. 最重要的判断",
+            "line": 7
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 2. 证据怎么读",
+            "line": 27
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 3. 哪些前沿进展值得改变系统设计",
+            "line": 47
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 4. Encoding Operation Taxonomy：六类动作向下拆解",
+            "line": 81
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 5. 用“结构属性”选择操作，而非给知识贴唯一标签",
+            "line": 111
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 6. Strategy Selection Matrix：实际如何只选两三个操作",
+            "line": 138
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 7. 关于“操作深度”：采用多维进展，不采用八级排行榜",
+            "line": 164
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 8. Relate 中最容易被伪深度掩盖的七个问题",
+            "line": 199
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 9. 顺序：哪些可优先采用，哪些需要测试",
+            "line": 223
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 10. 什么时候先生成，什么时候先支架",
+            "line": 242
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 11. Encoding Decision Algorithm",
+            "line": 261
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 12. 一套有答案判据的完整演示：学习一阶负反馈系统",
+            "line": 317
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 13. 另外三个短例：看起来类似的学习困难，为什么选不同策略",
+            "line": 353
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 14. 真正值得投入的高级策略",
+            "line": 374
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 15. 如何验证系统，而不是只验证输出好看",
+            "line": 401
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 16. 前沿与未知必须并列保留",
+            "line": 420
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 17. 证据台账：46项来源及其支持边界",
+            "line": 430
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 前沿设计与方法论来源 F01—F08",
+            "line": 516
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false
+        },
+        "priority_rule": "方法候选／研究边界，受 D00 及对应正式专项方案约束；不能覆盖目标、判据、帮助、时间或授权。"
+      },
+      {
+        "source_id": "R02",
+        "project_relative_path": "../02_Encoding微操作与提问库.md",
+        "declared_version": "2.0",
+        "version_declaration": "版本2.0。60张操作卡，每类10张；保留原ID与名称。与《Encoding 研究报告》的选择矩阵、证据台账和决策算法配套使用。",
+        "declared_dates": [],
+        "title": "Encoding 微操作与提问库",
+        "purpose_layer": "method_body_source",
+        "purpose": "60 卡完整正文及文首／文尾共用约束",
+        "available": true,
+        "personal_source": false,
+        "sha256": "3f859c2642ab2a70a2a7e9ea5d9d9109c987f52dc9f04e92df0b3192ff07fa7b",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# Encoding 微操作与提问库",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## Orient / 定向",
+            "line": 14
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## Scaffold / 支架",
+            "line": 116
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## Relate / 关系化",
+            "line": 218
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## Differentiate / 辨析",
+            "line": 340
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## Instantiate / 具体化",
+            "line": 442
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## Re-represent / 重表征",
+            "line": 544
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 添加例子与停止的规则",
+            "line": 656
+          },
+          {
+            "kind": "markdown_heading_pattern",
+            "pattern": "^### ([OSRDIX]\\d{2}) (.+)$",
+            "count": 60,
+            "note": "卡片定位原始 ID；这是定位规则，不是运行索引。"
+          },
+          {
+            "kind": "markdown_line_range",
+            "start_line": 1,
+            "end_line": 13,
+            "purpose": "文首共用约定"
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false,
+          "complete_structural_check": true,
+          "all_card_ids_names_categories_evidence_refs_compared": true,
+          "all_card_body_citation_diffs_inspected": true,
+          "method_effect_or_course_applicability_validation": false
+        },
+        "priority_rule": "方法候选／研究边界，受 D00 及对应正式专项方案约束；不能覆盖目标、判据、帮助、时间或授权。"
+      },
+      {
+        "source_id": "R03",
+        "project_relative_path": "../04_Encoding策略库.json",
+        "declared_version": "2.0",
+        "version_declaration": "/version",
+        "declared_dates": [
+          "2026-09-24"
+        ],
+        "title": "{",
+        "purpose_layer": "method_retrieval_carrier",
+        "purpose": "同一 60 卡的 JSON 检索载体与证据 ID；无调度算法",
+        "available": true,
+        "personal_source": false,
+        "sha256": "ddcaf4e43444b22d9affc33c086a8a900142a4b615af2fb8a3a9fc2820048cbc",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "json_pointer",
+            "pointer": "/version"
+          },
+          {
+            "kind": "json_pointer",
+            "pointer": "/research_date"
+          },
+          {
+            "kind": "json_pointer",
+            "pointer": "/status"
+          },
+          {
+            "kind": "json_pointer",
+            "pointer": "/operations"
+          },
+          {
+            "kind": "json_pointer",
+            "pointer": "/sources"
+          },
+          {
+            "kind": "json_array_selection",
+            "pointer": "/operations",
+            "select_field": "id",
+            "content_pointer_template": "/operations/{actual_array_index}/content_markdown",
+            "note": "先按实际 id 查找 array_index；ID 不等于数组下标。"
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false,
+          "complete_structural_check": true,
+          "all_card_ids_names_categories_evidence_refs_compared": true,
+          "all_card_body_citation_diffs_inspected": true,
+          "method_effect_or_course_applicability_validation": false
+        },
+        "priority_rule": "方法候选／研究边界，受 D00 及对应正式专项方案约束；不能覆盖目标、判据、帮助、时间或授权。"
+      },
+      {
+        "source_id": "R04",
+        "project_relative_path": "../Retrieval-Integration-快速矩阵.md",
+        "declared_version": null,
+        "version_declaration": "原文未声明独立版本号；日期不替代版本",
+        "declared_dates": [
+          "2026-09-25",
+          "2026-09-24"
+        ],
+        "title": "Retrieval × Integration：快速矩阵",
+        "purpose_layer": "method_navigation_source",
+        "purpose": "7×7 非互斥任务匹配、结果倒推、六种组合与三项边界",
+        "available": true,
+        "personal_source": false,
+        "sha256": "f06a7d3889191f5fd6d49c6cd89ec3cac0df5402439ea586d6c5cef101ae519f",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# Retrieval × Integration：快速矩阵",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 从结果倒推操作",
+            "line": 22
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 六种组合如何判断",
+            "line": 32
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 三个使用边界",
+            "line": 45
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false,
+          "full_local_text_read": true,
+          "matrix_and_all_navigation_sections_checked": true,
+          "empirical_claim_validation": false
+        },
+        "priority_rule": "方法候选／研究边界，受 D00 及对应正式专项方案约束；不能覆盖目标、判据、帮助、时间或授权。"
+      },
+      {
+        "source_id": "R05",
+        "project_relative_path": "../Post-Encoding-Dynamics-深度增量研究.md",
+        "declared_version": null,
+        "version_declaration": "原文未声明独立版本号；日期不替代版本",
+        "declared_dates": [],
+        "title": "Post-Encoding Dynamics：从学习操作到知识状态转移",
+        "purpose_layer": "research_and_method_source",
+        "purpose": "15 节研究综合：操作、结果、反馈、顺序与机制边界",
+        "available": true,
+        "personal_source": false,
+        "sha256": "b9a6c07343dab159a25c37ff054f04bd44751b9c7ffd3242b1dff86d36b598f9",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# Post-Encoding Dynamics：从学习操作到知识状态转移",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 1. 证据如何分级，以及本报告能回答到哪里",
+            "line": 17
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 2. 对 baseline 的精确增补",
+            "line": 41
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 3. 一个可检验的知识状态模型",
+            "line": 56
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 4. Integration 至少包含七种不同结果",
+            "line": 108
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 5. Retrieval × Integration Matrix",
+            "line": 124
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 6. 哪些检索参数会改变下一状态",
+            "line": 175
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 7. Retrieval 后究竟重新激活了什么",
+            "line": 194
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 8. Feedback / Updating：不是信息越多，改变就越深",
+            "line": 231
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 9. 组合与顺序：何时互补，何时重复，何时干扰",
+            "line": 262
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 10. Consolidation / Reconsolidation 与检索、更新如何交互",
+            "line": 313
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 11. Knowledge Type × Prior Knowledge × Learning Stage",
+            "line": 348
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 12. 最终模型：操作如何改变知识状态",
+            "line": 384
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 13. 用什么测量，才能知道知识真的改变了",
+            "line": 402
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 14. 同一个知识主题，七种检索会产生怎样不同的改变",
+            "line": 434
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 15. 哪些结论已经够用，哪些仍值得优先研究",
+            "line": 450
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false
+        },
+        "priority_rule": "方法候选／研究边界，受 D00 及对应正式专项方案约束；不能覆盖目标、判据、帮助、时间或授权。"
+      },
+      {
+        "source_id": "R06",
+        "project_relative_path": "../post-encoding证据台账与参考文献.md",
+        "declared_version": null,
+        "version_declaration": "原文未声明独立版本号；日期不替代版本",
+        "declared_dates": [
+          "2026-09-25"
+        ],
+        "title": "Post-Encoding Dynamics：证据台账与参考文献",
+        "purpose_layer": "literature_ledger_source",
+        "purpose": "E01—E49 文献条目、原文声明的核查深度与外推限制",
+        "available": true,
+        "personal_source": false,
+        "sha256": "e36977d61df248a2176be8eb94387fa2e0323251eaf90eb147768b67d4381d49",
+        "fingerprint_purpose": "检测非个人设计源文件变化，不证明正确性或外部核查",
+        "locators": [
+          {
+            "kind": "markdown_heading",
+            "heading": "# Post-Encoding Dynamics：证据台账与参考文献",
+            "line": 1
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## A. 综合证据：作为边界和基准，避免重复宏观综述",
+            "line": 9
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## B. Retrieval 的操作、迁移和先验知识",
+            "line": 59
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## C. Feedback、错误与 updating",
+            "line": 121
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## D. 组合、顺序与操作成分",
+            "line": 183
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## E. 重激活、关系整合、分化与竞争",
+            "line": 233
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## F. 巩固、图式与再巩固边界",
+            "line": 265
+          },
+          {
+            "kind": "markdown_heading",
+            "heading": "## 检索与引用审计说明",
+            "line": 315
+          },
+          {
+            "kind": "markdown_heading_pattern",
+            "pattern": "^### (E\\d{2})",
+            "count": 49,
+            "note": "仅文献编号，不是操作卡编号。"
+          }
+        ],
+        "read_check_scope": {
+          "all_text_decoded": true,
+          "metadata_and_top_level_headings_checked": true,
+          "semantic_review": "本资源登记子任务未完成全文逐项语义审核",
+          "external_references_verified": false,
+          "all_49_ledger_entry_identifiers_checked": true
+        },
+        "priority_rule": "方法候选／研究边界，受 D00 及对应正式专项方案约束；不能覆盖目标、判据、帮助、时间或授权。"
+      }
+    ],
+    "structural_audit": {
+      "audit_kind": "local_file_structure_and_carrier_consistency",
+      "runtime_execution_or_empirical_validation": false,
+      "encoding": {
+        "markdown_card_count": 60,
+        "json_card_count": 60,
+        "all_id_name_category_matches": true,
+        "id_order_matches": true,
+        "unique_ids": 60,
+        "category_counts": {
+          "Orient / 定向": 10,
+          "Scaffold / 支架": 10,
+          "Relate / 关系化": 10,
+          "Differentiate / 辨析": 10,
+          "Instantiate / 具体化": 10,
+          "Re-represent / 重表征": 10
+        },
+        "json_operation_fields": [
+          "id",
+          "name",
+          "category",
+          "content_markdown",
+          "template_status",
+          "evidence_ids"
+        ],
+        "uniform_template_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+        "template_status_count": 60,
+        "markdown_h_deepening_and_acceptance_present_count": 60,
+        "per_card_evidence_id_set_matches": true,
+        "missing_evidence_source_keys": [],
+        "empty_evidence_card_ids": [
+          "R09"
+        ],
+        "empty_evidence_rule": "保持 R09 的设计综合性质；不补造论文，也不因该字段为空自动禁用，仍需内容与用途核验。",
+        "source_key_count": 46,
+        "unique_evidence_keys_used_by_cards": 38,
+        "carrier_relationship": "R02 与 R03 是同一套方法的两个载体，不计为两份独立证据。",
+        "body_comparison": {
+          "normalization": "仅去除 Markdown 链接目标后逐行比较；差异人工检查为来源编号压缩写法",
+          "identical_count_after_link_removal": 32,
+          "citation_compression_difference_count": 28,
+          "citation_compression_difference_card_ids": [
+            "O01",
+            "O03",
+            "O04",
+            "O05",
+            "O06",
+            "O07",
+            "O08",
+            "O09",
+            "S01",
+            "S02",
+            "S05",
+            "S08",
+            "S09",
+            "D01",
+            "D02",
+            "D03",
+            "D04",
+            "D05",
+            "D06",
+            "D07",
+            "I01",
+            "I02",
+            "I04",
+            "I05",
+            "I06",
+            "I07",
+            "I08",
+            "I09"
+          ],
+          "substantive_difference_found": false,
+          "limits": "一致性检查不证明方法有效、课程内容正确或转译已经完成。"
+        },
+        "document_level_rules_not_in_card_json": [
+          "R02 文首证据约定与共同执行约定",
+          "R02 文尾“添加例子与停止的规则”"
+        ],
+        "runtime_strategy_index_generated": false,
+        "card_bundle_generated": false
+      },
+      "post": {
+        "r04": {
+          "matrix_operation_rows": 7,
+          "matrix_result_columns": 7,
+          "operation_row_names": [
+            "Factual",
+            "Relational",
+            "Comparative",
+            "Explanatory",
+            "Generative",
+            "Application",
+            "Problem-solving"
+          ],
+          "result_column_names": [
+            "Accessibility",
+            "Differentiation",
+            "Relational",
+            "Causal / hierarchical",
+            "Abstraction / schema",
+            "Conditionalization",
+            "Transfer"
+          ],
+          "reverse_result_navigation_rows": 5,
+          "combination_rows": 6,
+          "usage_boundaries": 3,
+          "stable_strategy_ids_present": false,
+          "matrix_is": "非互斥任务匹配导航；符号不是经验效应量或排名",
+          "fixed_retrieval_first_rule": false
+        },
+        "r05_top_level_numbered_sections": 15,
+        "r06_literature_entries": 49,
+        "r06_contiguous_e01_e49": true,
+        "post_json_card_library_exists_among_declared_sources": false,
+        "new_post_operation_ids_created": false,
+        "evidence_ledger_verification_note": "只检查本地文献条目编号连续性；原文核查深度为历史声明，本轮未重新查论文。"
+      }
+    },
+    "legacy_local_links": [
+      {
+        "source_id": "R04",
+        "line": 5,
+        "original_target": "C:/Users/15006/Documents/Codex/2026-09-24/post-encoding-dynamics-retrieval-reactivation-feedback/outputs/Post-Encoding-Dynamics-深度增量研究.md",
+        "proposed_local_source_id": "R05",
+        "resolution_status": "mapping_pending_b3c",
+        "original_modified": false,
+        "external_verification": false
+      },
+      {
+        "source_id": "R04",
+        "line": 5,
+        "original_target": "C:/Users/15006/Documents/Codex/2026-09-24/post-encoding-dynamics-retrieval-reactivation-feedback/outputs/证据台账与参考文献.md",
+        "proposed_local_source_id": "R06",
+        "resolution_status": "mapping_pending_b3c",
+        "original_modified": false,
+        "external_verification": false
+      },
+      {
+        "source_id": "R05",
+        "line": 466,
+        "original_target": "C:/Users/15006/Documents/Codex/2026-09-24/post-encoding-dynamics-retrieval-reactivation-feedback/outputs/证据台账与参考文献.md",
+        "proposed_local_source_id": "R06",
+        "resolution_status": "mapping_pending_b3c",
+        "original_modified": false,
+        "external_verification": false
+      },
+      {
+        "source_id": "R05",
+        "line": 466,
+        "original_target": "C:/Users/15006/Documents/Codex/2026-09-24/post-encoding-dynamics-retrieval-reactivation-feedback/outputs/Retrieval-Integration-快速矩阵.md",
+        "proposed_local_source_id": "R04",
+        "resolution_status": "mapping_pending_b3c",
+        "original_modified": false,
+        "external_verification": false
+      }
+    ],
+    "legacy_local_links_policy": "仅登记旧本地 outputs 路径及候选当前来源映射，B3c 发布前解析；B0 未改原文、未检查旧路径存在、未修复链接、未作外部论文核验。"
+  },
+  "backup": "before-organization.zip",
+  "changed_files": [
+    {
+      "path": "personal-learning-suite/scripts/reorganize_project.py",
+      "before_sha256": "1e64467e1b5ee1268053bddc9527a8da8fdbaab4889d1701ea6ebd3c7f29d42c",
+      "after_sha256": "a496c244150908852b5ccc5fbc1254f4873ada17d50e670956b2077efc1478e2",
+      "reason": "Include B6 network workspace naming in the organization planner."
+    },
+    {
+      "path": "docs/analysis/AI个人学习系统_工作包10_验证计划与设计收口_顶层设计分析.md",
+      "before_sha256": "1ca6878ba7a0ee2cef62d2369fdcf8add45f61f70ecb73eab54734ae269be130",
+      "after_sha256": "2f8c9dd9c548a2dfc672d17f47ce94656e81f1f65d2fac0fde9d16a541f69bff",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/analysis/AI个人学习系统_工作包2与3_联合顶层设计分析.md",
+      "before_sha256": "841ed43e6680276988cdbbda6c312eefd658e8379ac02f70157f98ac349edcb8",
+      "after_sha256": "7885411b3cec4ce20a6d5428d9d11ed53e52a453a6e850681243e4a1e78e0f4a",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/analysis/AI个人学习系统_工作包4_顶层设计分析.md",
+      "before_sha256": "8edc27c94346f696c55cb1d3fe26d8f84be45334732bf3eb0738b94725646402",
+      "after_sha256": "eec9bc3662900fe8d5be5cf5e87f8609405970e75cd5a84cbfd9411e85aa86fa",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/analysis/AI个人学习系统_工作包5_Encoding_顶层设计分析.md",
+      "before_sha256": "c6ac69edcfccb6c171160acf518729996e4ef55707c8b87894d02f54e8076214",
+      "after_sha256": "e0cd29b4949814719fbe6d08c09318899d9e5df9d116363fef96481adef1f57b",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/analysis/AI个人学习系统_工作包5_Post-Encoding_顶层设计分析.md",
+      "before_sha256": "60fad12b4bc537edc50f93e521886b00baad61cb1784f2b4f48c2255f491ac8f",
+      "after_sha256": "8c9df5395168a9145315e394e429bcaadc34bcab58ffac4992ac215291e3c6b1",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/analysis/AI个人学习系统_工作包7_长期计划与学习连续性_顶层设计分析.md",
+      "before_sha256": "59f6bda4a0de29b6599c8edc97497650c141b87f9157e1cb16f62f8c32476198",
+      "after_sha256": "760dc9ca2639efa3cf35b3d3a9cd452a894fe1c56eacc5f2836370baf6d065b3",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/analysis/AI个人学习系统_工作包8_多Agent协作与共享状态_顶层设计分析.md",
+      "before_sha256": "274dbaacb66a24176ecfa950dc6463e6518ebb17fbeb35ea69fd703bf7099023",
+      "after_sha256": "e1450d00b969a3cee0ab4d61370f8a1b7857a6a2d4a24413c0d3cb187fb09f0f",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/analysis/AI个人学习系统_工作包9_跨学科用户体验与异常场景_顶层设计分析.md",
+      "before_sha256": "47a716493454ac3d9d7ac55da2bb9bec09998676fef899233bca3aed19dafb4c",
+      "after_sha256": "0eb3e544d26ef7459c8a64ea0f8a4b7e5ac130dae422a736b0f88c2fcd07ed9d",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/architecture/AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md",
+      "before_sha256": "498311dab7df9a632a960ae40ef56eb25b3596336cb127dcbcfb8250831c7bcb",
+      "after_sha256": "60c13b6da6c0b83bfee06c03d4f1514ba712ff8396823c0a230c7845427c076a",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/architecture/AI个人学习系统_Skill架构设计_v0.md",
+      "before_sha256": "3e1288cfa6ceb6c9f013a3846f7565075d759ab62dfa3185b4ac2722c8a0c859",
+      "after_sha256": "61b5ddebfad4ef8928a3a44e8f7fd95804ec7cc7138c7eb796284f0347b4bee2",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/architecture/AI个人学习系统_整体学习流程与概念架构_v0.md",
+      "before_sha256": "7b940c2821fe8999850dc94dc2c5d58123debed8ccc7570f06ddb6cb0ada420d",
+      "after_sha256": "9d207861a9a0912add583e2e12d1c508733a35a033b585409340ec998eaa95e5",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/architecture/AI个人学习系统_整体学习流程与概念架构_v1.md",
+      "before_sha256": "ebd95c8a1b6c8290f00821c975e6cc9714939a4e7dad7a985b6276e1772589a8",
+      "after_sha256": "1552af1b89b70910f5455555c030842bbf9bacd97469b7364012b0222f14f740",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/architecture/AI个人学习系统_设计流程与工作包.md",
+      "before_sha256": "506ef60f75a449f5daf7212ba5431b5060ff4729cc440cabc4af6fc47c394aff",
+      "after_sha256": "c40dfb1dc37fda8d5da5fdcf113f51261ab7f2a717df4d57e03fd517171fd8e8",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/audits/AI个人学习系统_Skill与Agent设计综合审计及补强路线_2026-10-04.md",
+      "before_sha256": "2bf382b89463aa0515839d80f6002cc06af6be4d09e2b796ed68d773bdd6258c",
+      "after_sha256": "52f2dc08392e2d114af73b03b23e8c56cd4c29cae84266d15af00091eef5d306",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/audits/AI个人学习系统_架构审计修复实施记录_2026-10-04.md",
+      "before_sha256": "3856c5e2e49351e18cfb53bf4f011da68bf896a8fecbcc555f9c1be3fe7a9ef9",
+      "after_sha256": "5a42f15270b0d093e5c875b5ef7a94107f027eb974a4336f5052ad3261422d0e",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/designs/AI个人学习系统_工作包10_验证计划与设计收口_设计方案_v0.md",
+      "before_sha256": "04c4bcc347c420da469b75f7a362ecbdc81c593fd82f9588dadaac8f2e5badfd",
+      "after_sha256": "065ba1ad1c44cd17461d90861b81f54ee70185818fcc522f07ef8fe83b07c25c",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/designs/AI个人学习系统_工作包2与3_联合设计方案_v0.md",
+      "before_sha256": "b1418268e976edd3e64cf8fcc8a6805d0f64b53727b77b2c79f35a9849253f0e",
+      "after_sha256": "d9ec50ea70d1e03010af09519064d3c32a336d3d4879eb5bdb9e9e1cf645ba23",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/designs/AI个人学习系统_工作包2至4_交接对齐说明.md",
+      "before_sha256": "4c6cb7cd6b709e7c44872c0b160a8e9378819065e33580b0190c0d5d1be2a206",
+      "after_sha256": "835b7b98c53990915d671b5efc5d056324e230351b371d32cb9b716b77394934",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/designs/AI个人学习系统_工作包4_设计方案_v0.md",
+      "before_sha256": "879c68a3bc5bbb14f3349c3ed008b858f8dbac8b60053b3f2b401994cc2e550d",
+      "after_sha256": "813d12945ffd62f5b3db5e91568bb423261c63ab4149b7da4d18c293ddec3d28",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/designs/AI个人学习系统_工作包5_C0共同教学框架_设计方案_v0.md",
+      "before_sha256": "1136fe60df07124ce20704516752f2ddda86eedc5ed80011d0931d592d64a4a8",
+      "after_sha256": "9159db63fbaae9983de09ae3f75226dd45db94c31bbfa269bb560a7ad5e5091b",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/designs/AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+      "before_sha256": "4b3f81220191f4a9d0760e1516be5a69e7f8c8db9e11865bd4c0135227658f17",
+      "after_sha256": "0422df3448789b77511b0ab7c74f7f2c92ba7f1919ceb44f28b683239a650b62",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "before_sha256": "a23f4372a0b4e7ffed39f74de1a8b26e613b266f85ff6009302ad04725786ade",
+      "after_sha256": "c0a266c68aad62d6390ae1e53b3b3e66343d9e8a48865c953b2998cc387f3bca",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+      "before_sha256": "56ec384bbb6e4457900de8db34e06465bcf631b7bb4450eec11a4d2d1a221559",
+      "after_sha256": "23128e532dc02680c4fcd4bab0e1cb19553db8769ba8f4396a617612d1a00138",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/designs/AI个人学习系统_工作包7_长期计划与学习连续性_设计方案_v0.md",
+      "before_sha256": "d4ca34ac8ee3dc68430e766085be1a5736a46d3e11a6d8daad2dcfe11664cb92",
+      "after_sha256": "2d0769b417360c514da3dfbf13a884a80594a6e87447118f78b75d2b635e2564",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/designs/AI个人学习系统_工作包8_多Agent协作与共享状态_设计方案_v0.md",
+      "before_sha256": "0d96cdf6cf12019eec1163e9c8405fdcab88f41682313a5e00c98347318274ae",
+      "after_sha256": "a47d8d7e06c71f2ca28065e226a71d7179ac00f3fe3a2b369a519bcdd85f912c",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/designs/AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计方案_v0.md",
+      "before_sha256": "9f5e9cf21f6f8bf42ce0677adde562c82d9d8e17e38a723cddb2568a386b9b26",
+      "after_sha256": "3432d7b726e3b4fdd0a1ab60f200eaf7e986518b0be9d94cd9d9be5b59ff87f1",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/implementation/AI个人学习系统_B0规范与资源基线_v0.md",
+      "before_sha256": "374deedc6768f63c006eca395e1705a7b5c3ff7d4c1b0bc0080ac5ad9db4d615",
+      "after_sha256": "cbad59b555bfc41d2714edd3b1ab0aa22534e52323b59309f4a8164449a23b04",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/implementation/AI个人学习系统_B1保存与入口骨架_v0.md",
+      "before_sha256": "e2d9ef307fb1c0d482e0901188144033625e87437b978a52ec92e085b0c84b79",
+      "after_sha256": "aa6a86172bc05304f8484b3d6073103304eedfb706b59008f04375c549ed41a2",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/implementation/AI个人学习系统_B2a目标Skill与AG1目标职能_v0.md",
+      "before_sha256": "7f5719bfffb3b4c7b325556d54d51a76b109754b56de829fc7ce10d85180738f",
+      "after_sha256": "e61821dbcc4f00930ef8c14ff80b3caa7e7dee30065fe6c1dc3c2b87bab4bf30",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/implementation/AI个人学习系统_B2b内容与材料_v0.md",
+      "before_sha256": "068f3e065757b1441969148ee4e26501110adc910989a4d0faae8d09f57eee15",
+      "after_sha256": "1620d37dbc41b6c9857a269ec8b0aab7a004d969145b5a24058447ec73fa9fad",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/implementation/AI个人学习系统_B3a证据评估与AG3职能_v0.md",
+      "before_sha256": "967e7373beb13a7f9c458007bc5c6e02297bcb7a5db7c67e1ad26241bfbcc7ff",
+      "after_sha256": "7b43ac633f1322ce4b918859500ab5d8bd1e3de5a44c6ae9b3f28c6f3d8c222e",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/implementation/AI个人学习系统_B3b教学共同核心_v0.md",
+      "before_sha256": "0787b85837e8fece482b3d12bac609a517696f47b0af52f80325607e49156f5b",
+      "after_sha256": "d5d2654b58d6a05e9256e2850c7bea144560eed2ecf14c9bc55bd3ce7a8c16cb",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/implementation/AI个人学习系统_B3c策略资源与配置_v0.md",
+      "before_sha256": "71a7f99bd937776f65bfc8cbac87361372c765303dd0dfda0c56633264c4734c",
+      "after_sha256": "943afc79c638dd1c5a9000fd62493e913304c721be02c05ce32d0381c379944b",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/implementation/AI个人学习系统_B3联合接口评估与修复_v0.md",
+      "before_sha256": "26dfced3bf4cb2e87e5283ff2f5051f9a15d7e9bccce8ac1da5d1d75fa391871",
+      "after_sha256": "a8d41e51d3aa8a15ff9890c7f46df30d119868148b1a621ec40bb75e2b91fbab",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/implementation/AI个人学习系统_B4教学专项与计划_v0.md",
+      "before_sha256": "aebf7fbbe9ac020cd0e393a29cbd61dc42b8f0705286a3812fb6f1d7d6884084",
+      "after_sha256": "8238aaa00875bdc78683c3cdf6efa882012e36f0c017e551aa0416d5952acd5c",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/implementation/AI个人学习系统_B5单入口纵向集成_v0.md",
+      "before_sha256": "d5954f74b66a46eec31abb2548ef4d28a30b97596a4cd346cf259fbce68f2e29",
+      "after_sha256": "dd0acf356dd97593345759b96875200bc07a3c9e4c91f83203361a4ab4872180",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/implementation/AI个人学习系统_B6工作网络与受控宿主_v0.md",
+      "before_sha256": "5432f75473a839439f34f5ca4fa8abb45d7108e2737782cc8e6f31d549df8f97",
+      "after_sha256": "ed1afd165b38d2d26c42b0f276095055d4ec024bd501482724b45d21d231edbc",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/implementation/AI个人学习系统_B7有限真实试用与验证工具_v0.md",
+      "before_sha256": "6b500514ad8d66e2dbe1908aa4e96efce22ead141dd939055be6b5b6ab71ff8d",
+      "after_sha256": "78e6732cc277371088cd4f144babae042a4849752d0ca917290d27d655f7ebc9",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/prompts/AI个人学习系统_工作包10_验证计划与设计收口_设计提示词.md",
+      "before_sha256": "dd77a1d4589c08a750409db4104ff9d7cc7c70a97d56157618e77adea887a5aa",
+      "after_sha256": "81e27509559f076034e77b935c0800b1c32183c12fc890d6ecf539135e2b282a",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/prompts/AI个人学习系统_工作包7_长期计划与学习连续性_设计提示词.md",
+      "before_sha256": "2a16c16972aa4073944a363dca392a885fe40af3f91f6861b3261149dbfeadf4",
+      "after_sha256": "cf839367a4248c657a4f6a753f238823b8b01bb1f24ab0983787a28a626ac240",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/prompts/AI个人学习系统_工作包8_多Agent协作与共享状态_设计提示词.md",
+      "before_sha256": "66187972970fa6d5bca40e1af08ec89cf10ad9b2d691383481891edf8c2a4a3c",
+      "after_sha256": "c5548103a1a71bf80d7208e1a94bb0557ea42f3ece24e1b42759715c1f1c2b78",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/prompts/AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计提示词.md",
+      "before_sha256": "ca4707b2717357cd19aad57a6d5ac76de273caa5266fcd24d25ed65cd3b2187f",
+      "after_sha256": "d891e29a50a704bc8a5ffdb20a220cb34b7acec236c5225838bbed9da8b883ca",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/prompts/AI个人学习系统_架构设计提示词_GPT6Astra.md",
+      "before_sha256": "c5e53d370aa3653e8d44832acedca528f58266a14e36be0e24c4478db54adb94",
+      "after_sha256": "9e1d308016daadc6db0f2d1c57d9c1e3ebc9c8b5da91b2affa2872abcad797b7",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/reviews/AI个人学习系统_工作包4_审阅评估.md",
+      "before_sha256": "f6af36d1e16f936115b04b24b5292c6af9b06e584b843c964c71707a6c80088e",
+      "after_sha256": "b127458937b8eda62127d38f8f91ae7d78a4efbfc4aa748ebc950aedb9e97163",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/reviews/AI个人学习系统_工作包5_C0共同教学框架_审阅评估.md",
+      "before_sha256": "163672d456f07ab6c0284d2c347c8b8257d61b9719094cf02f3ba8a191416b0a",
+      "after_sha256": "2fe0f2d1b91f01a0035e9fd9f55f6974f7e28025fa8dc878232a742498e1f998",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "docs/reviews/AI个人学习系统_架构v0_检查记录.md",
+      "before_sha256": "8702ef8e0389e3b7ae878b84910ab4e9665cfbf39e169f370bfaa0b03fc78780",
+      "after_sha256": "e2a3838334160d12f297d86cd27ce250bcfec2c1b11810360ddf1c52c4efcd05",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "personal-learning-suite/contracts/assessment-b3a.md",
+      "before_sha256": "e1ce4e4c461cefab58331354b8866bacdc36cc6b671550522969ac46a424ff75",
+      "after_sha256": "a3d98c19f21c9c12194bf4f678baec50c89831c4437be01657c8d32bcfefe5c4",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "personal-learning-suite/README.md",
+      "before_sha256": "b26fb33899ea4d0f12d7b6f97d588fdb9fd7ff7a7b8ef9162b79608ab241b11f",
+      "after_sha256": "327b8759a4ec540653039e3159bb1fdb6dcada79dc462a992ea350c7619f9206",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "personal-learning-suite/src/skills/personal-learning/references/entry-controls.md",
+      "before_sha256": "33c74025db72ab2107248ab430f8b5b214648f7910da19047b5b9f52b79e94fa",
+      "after_sha256": "9debe29b120a32f4c68931a2f5dcbe8626da7753a1e89755d1c7034931f21cc4",
+      "reason": "Relocate Markdown link targets and project-root demo command paths only."
+    },
+    {
+      "path": "personal-learning-suite/resources/source-registry.json",
+      "before_sha256": "6c9fac61a3f65e0bcf59efb20c6f64110d2eef78ce3bab5c384ca9ab5cb78fc4",
+      "after_sha256": "12ea21d80074ad9c578a0d6c85ffa18c25146606fc477b94a0baa05863c99872",
+      "reason": "Update 19 source locations and fingerprints after link-only source edits; retain prior registration in the manifest."
+    },
+    {
+      "path": "personal-learning-suite/validation/architecture-fixes-2026-10-04/repair-summary.json",
+      "before_sha256": "ce3704115061bba0bc5aface2371b860442ffe2690a917da3b458330eb641183",
+      "after_sha256": "6996b86942b2cfb98aa269f5ded5eaa4824c434b30912aa561b493a6db1dcb6c",
+      "reason": "Repair the implementation-document navigation pointer only."
+    },
+    {
+      "path": "docs/research/01_Encoding研究报告.md",
+      "before_sha256": "ccae80ccd66b1ad446b27309e0cffc46b59706701332bb9bb9f07818abae36f1",
+      "after_sha256": "12b7671df7726b75df71708a0fc0ec8bfbc3e4e6e79b06ac9c6937d9113bb8b1",
+      "reason": "Mark an already-missing legacy HTML companion honestly; retain the original link in the backup."
+    },
+    {
+      "path": "personal-learning-suite/resources/source-registry.json",
+      "before_sha256": "12ea21d80074ad9c578a0d6c85ffa18c25146606fc477b94a0baa05863c99872",
+      "after_sha256": "2be1eef28a113f19f2d9b9829c7e09a2e612d853ea9ee07da86848c57901bbec",
+      "reason": "Refresh R01 fingerprint after correcting the missing companion reference only."
+    },
+    {
+      "path": "personal-learning-suite/README.md",
+      "before_sha256": "327b8759a4ec540653039e3159bb1fdb6dcada79dc462a992ea350c7619f9206",
+      "after_sha256": "042136f6dc850211c08c4937fba61b23c4cc6772dae8571d08192ac38cfa3f6c",
+      "reason": "Add navigation to categorized documents and actual implementation."
+    }
+  ],
+  "source_path_changes": [
+    {
+      "source_id": "N00",
+      "old_path": "../AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md",
+      "new_path": "../docs/architecture/AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md",
+      "before_sha256": "498311dab7df9a632a960ae40ef56eb25b3596336cb127dcbcfb8250831c7bcb",
+      "after_sha256": "60c13b6da6c0b83bfee06c03d4f1514ba712ff8396823c0a230c7845427c076a",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "D00",
+      "old_path": "../AI个人学习系统_整体学习流程与概念架构_v1.md",
+      "new_path": "../docs/architecture/AI个人学习系统_整体学习流程与概念架构_v1.md",
+      "before_sha256": "ebd95c8a1b6c8290f00821c975e6cc9714939a4e7dad7a985b6276e1772589a8",
+      "after_sha256": "1552af1b89b70910f5455555c030842bbf9bacd97469b7364012b0222f14f740",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "D01",
+      "old_path": "../AI个人学习系统_Skill架构设计_v0.md",
+      "new_path": "../docs/architecture/AI个人学习系统_Skill架构设计_v0.md",
+      "before_sha256": "3e1288cfa6ceb6c9f013a3846f7565075d759ab62dfa3185b4ac2722c8a0c859",
+      "after_sha256": "61b5ddebfad4ef8928a3a44e8f7fd95804ec7cc7138c7eb796284f0347b4bee2",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "D02",
+      "old_path": "../AI个人学习系统_工作包2与3_联合设计方案_v0.md",
+      "new_path": "../docs/designs/AI个人学习系统_工作包2与3_联合设计方案_v0.md",
+      "before_sha256": "b1418268e976edd3e64cf8fcc8a6805d0f64b53727b77b2c79f35a9849253f0e",
+      "after_sha256": "d9ec50ea70d1e03010af09519064d3c32a336d3d4879eb5bdb9e9e1cf645ba23",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "D03",
+      "old_path": "../AI个人学习系统_工作包4_设计方案_v0.md",
+      "new_path": "../docs/designs/AI个人学习系统_工作包4_设计方案_v0.md",
+      "before_sha256": "879c68a3bc5bbb14f3349c3ed008b858f8dbac8b60053b3f2b401994cc2e550d",
+      "after_sha256": "813d12945ffd62f5b3db5e91568bb423261c63ab4149b7da4d18c293ddec3d28",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "D04",
+      "old_path": "../AI个人学习系统_工作包5_C0共同教学框架_设计方案_v0.md",
+      "new_path": "../docs/designs/AI个人学习系统_工作包5_C0共同教学框架_设计方案_v0.md",
+      "before_sha256": "1136fe60df07124ce20704516752f2ddda86eedc5ed80011d0931d592d64a4a8",
+      "after_sha256": "9159db63fbaae9983de09ae3f75226dd45db94c31bbfa269bb560a7ad5e5091b",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "D05",
+      "old_path": "../AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+      "new_path": "../docs/designs/AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+      "before_sha256": "4b3f81220191f4a9d0760e1516be5a69e7f8c8db9e11865bd4c0135227658f17",
+      "after_sha256": "0422df3448789b77511b0ab7c74f7f2c92ba7f1919ceb44f28b683239a650b62",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "D06",
+      "old_path": "../AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "new_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "before_sha256": "a23f4372a0b4e7ffed39f74de1a8b26e613b266f85ff6009302ad04725786ade",
+      "after_sha256": "c0a266c68aad62d6390ae1e53b3b3e66343d9e8a48865c953b2998cc387f3bca",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "D07",
+      "old_path": "../AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+      "new_path": "../docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+      "before_sha256": "56ec384bbb6e4457900de8db34e06465bcf631b7bb4450eec11a4d2d1a221559",
+      "after_sha256": "23128e532dc02680c4fcd4bab0e1cb19553db8769ba8f4396a617612d1a00138",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "D08",
+      "old_path": "../AI个人学习系统_工作包7_长期计划与学习连续性_设计方案_v0.md",
+      "new_path": "../docs/designs/AI个人学习系统_工作包7_长期计划与学习连续性_设计方案_v0.md",
+      "before_sha256": "d4ca34ac8ee3dc68430e766085be1a5736a46d3e11a6d8daad2dcfe11664cb92",
+      "after_sha256": "2d0769b417360c514da3dfbf13a884a80594a6e87447118f78b75d2b635e2564",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "D09",
+      "old_path": "../AI个人学习系统_工作包8_多Agent协作与共享状态_设计方案_v0.md",
+      "new_path": "../docs/designs/AI个人学习系统_工作包8_多Agent协作与共享状态_设计方案_v0.md",
+      "before_sha256": "0d96cdf6cf12019eec1163e9c8405fdcab88f41682313a5e00c98347318274ae",
+      "after_sha256": "a47d8d7e06c71f2ca28065e226a71d7179ac00f3fe3a2b369a519bcdd85f912c",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "D10",
+      "old_path": "../AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计方案_v0.md",
+      "new_path": "../docs/designs/AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计方案_v0.md",
+      "before_sha256": "9f5e9cf21f6f8bf42ce0677adde562c82d9d8e17e38a723cddb2568a386b9b26",
+      "after_sha256": "3432d7b726e3b4fdd0a1ab60f200eaf7e986518b0be9d94cd9d9be5b59ff87f1",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "D11",
+      "old_path": "../AI个人学习系统_工作包10_验证计划与设计收口_设计方案_v0.md",
+      "new_path": "../docs/designs/AI个人学习系统_工作包10_验证计划与设计收口_设计方案_v0.md",
+      "before_sha256": "04c4bcc347c420da469b75f7a362ecbdc81c593fd82f9588dadaac8f2e5badfd",
+      "after_sha256": "065ba1ad1c44cd17461d90861b81f54ee70185818fcc522f07ef8fe83b07c25c",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "R01",
+      "old_path": "../01_Encoding研究报告.md",
+      "new_path": "../docs/research/01_Encoding研究报告.md",
+      "before_sha256": "ccae80ccd66b1ad446b27309e0cffc46b59706701332bb9bb9f07818abae36f1",
+      "after_sha256": "12b7671df7726b75df71708a0fc0ec8bfbc3e4e6e79b06ac9c6937d9113bb8b1",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed. The pre-existing absent HTML companion is now a plain missing-file note."
+    },
+    {
+      "source_id": "R02",
+      "old_path": "../02_Encoding微操作与提问库.md",
+      "new_path": "../docs/research/02_Encoding微操作与提问库.md",
+      "before_sha256": "3f859c2642ab2a70a2a7e9ea5d9d9109c987f52dc9f04e92df0b3192ff07fa7b",
+      "after_sha256": "3f859c2642ab2a70a2a7e9ea5d9d9109c987f52dc9f04e92df0b3192ff07fa7b",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "R03",
+      "old_path": "../04_Encoding策略库.json",
+      "new_path": "../docs/research/04_Encoding策略库.json",
+      "before_sha256": "ddcaf4e43444b22d9affc33c086a8a900142a4b615af2fb8a3a9fc2820048cbc",
+      "after_sha256": "ddcaf4e43444b22d9affc33c086a8a900142a4b615af2fb8a3a9fc2820048cbc",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "R04",
+      "old_path": "../Retrieval-Integration-快速矩阵.md",
+      "new_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+      "before_sha256": "f06a7d3889191f5fd6d49c6cd89ec3cac0df5402439ea586d6c5cef101ae519f",
+      "after_sha256": "f06a7d3889191f5fd6d49c6cd89ec3cac0df5402439ea586d6c5cef101ae519f",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "R05",
+      "old_path": "../Post-Encoding-Dynamics-深度增量研究.md",
+      "new_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+      "before_sha256": "b9a6c07343dab159a25c37ff054f04bd44751b9c7ffd3242b1dff86d36b598f9",
+      "after_sha256": "b9a6c07343dab159a25c37ff054f04bd44751b9c7ffd3242b1dff86d36b598f9",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    },
+    {
+      "source_id": "R06",
+      "old_path": "../post-encoding证据台账与参考文献.md",
+      "new_path": "../docs/research/post-encoding证据台账与参考文献.md",
+      "before_sha256": "e36977d61df248a2176be8eb94387fa2e0323251eaf90eb147768b67d4381d49",
+      "after_sha256": "e36977d61df248a2176be8eb94387fa2e0323251eaf90eb147768b67d4381d49",
+      "reason": "Directory relocation and link-only source edits; no teaching or research claims changed."
+    }
+  ],
+  "preservation": "SQLite and historical raw JSON/TXT evidence are not rewritten.",
+  "preexisting_missing_companion": {
+    "source_id": "R01",
+    "old_target": "Encoding研究与策略库.html#tutor",
+    "resolution": "Explicit absence note; no replacement content fabricated."
+  },
+  "new_navigation_files": [
+    "README.md",
+    "docs/README.md",
+    "personal-learning-suite/src/README.md",
+    "examples/README.md",
+    "maintenance/README.md"
+  ],
+  "final_changed_file_fingerprints": {
+    "personal-learning-suite/scripts/reorganize_project.py": "a496c244150908852b5ccc5fbc1254f4873ada17d50e670956b2077efc1478e2",
+    "docs/analysis/AI个人学习系统_工作包10_验证计划与设计收口_顶层设计分析.md": "2f8c9dd9c548a2dfc672d17f47ce94656e81f1f65d2fac0fde9d16a541f69bff",
+    "docs/analysis/AI个人学习系统_工作包2与3_联合顶层设计分析.md": "7885411b3cec4ce20a6d5428d9d11ed53e52a453a6e850681243e4a1e78e0f4a",
+    "docs/analysis/AI个人学习系统_工作包4_顶层设计分析.md": "eec9bc3662900fe8d5be5cf5e87f8609405970e75cd5a84cbfd9411e85aa86fa",
+    "docs/analysis/AI个人学习系统_工作包5_Encoding_顶层设计分析.md": "e0cd29b4949814719fbe6d08c09318899d9e5df9d116363fef96481adef1f57b",
+    "docs/analysis/AI个人学习系统_工作包5_Post-Encoding_顶层设计分析.md": "8c9df5395168a9145315e394e429bcaadc34bcab58ffac4992ac215291e3c6b1",
+    "docs/analysis/AI个人学习系统_工作包7_长期计划与学习连续性_顶层设计分析.md": "760dc9ca2639efa3cf35b3d3a9cd452a894fe1c56eacc5f2836370baf6d065b3",
+    "docs/analysis/AI个人学习系统_工作包8_多Agent协作与共享状态_顶层设计分析.md": "e1450d00b969a3cee0ab4d61370f8a1b7857a6a2d4a24413c0d3cb187fb09f0f",
+    "docs/analysis/AI个人学习系统_工作包9_跨学科用户体验与异常场景_顶层设计分析.md": "0eb3e544d26ef7459c8a64ea0f8a4b7e5ac130dae422a736b0f88c2fcd07ed9d",
+    "docs/architecture/AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md": "60c13b6da6c0b83bfee06c03d4f1514ba712ff8396823c0a230c7845427c076a",
+    "docs/architecture/AI个人学习系统_Skill架构设计_v0.md": "61b5ddebfad4ef8928a3a44e8f7fd95804ec7cc7138c7eb796284f0347b4bee2",
+    "docs/architecture/AI个人学习系统_整体学习流程与概念架构_v0.md": "9d207861a9a0912add583e2e12d1c508733a35a033b585409340ec998eaa95e5",
+    "docs/architecture/AI个人学习系统_整体学习流程与概念架构_v1.md": "1552af1b89b70910f5455555c030842bbf9bacd97469b7364012b0222f14f740",
+    "docs/architecture/AI个人学习系统_设计流程与工作包.md": "c40dfb1dc37fda8d5da5fdcf113f51261ab7f2a717df4d57e03fd517171fd8e8",
+    "docs/audits/AI个人学习系统_Skill与Agent设计综合审计及补强路线_2026-10-04.md": "52f2dc08392e2d114af73b03b23e8c56cd4c29cae84266d15af00091eef5d306",
+    "docs/audits/AI个人学习系统_架构审计修复实施记录_2026-10-04.md": "5a42f15270b0d093e5c875b5ef7a94107f027eb974a4336f5052ad3261422d0e",
+    "docs/designs/AI个人学习系统_工作包10_验证计划与设计收口_设计方案_v0.md": "065ba1ad1c44cd17461d90861b81f54ee70185818fcc522f07ef8fe83b07c25c",
+    "docs/designs/AI个人学习系统_工作包2与3_联合设计方案_v0.md": "d9ec50ea70d1e03010af09519064d3c32a336d3d4879eb5bdb9e9e1cf645ba23",
+    "docs/designs/AI个人学习系统_工作包2至4_交接对齐说明.md": "835b7b98c53990915d671b5efc5d056324e230351b371d32cb9b716b77394934",
+    "docs/designs/AI个人学习系统_工作包4_设计方案_v0.md": "813d12945ffd62f5b3db5e91568bb423261c63ab4149b7da4d18c293ddec3d28",
+    "docs/designs/AI个人学习系统_工作包5_C0共同教学框架_设计方案_v0.md": "9159db63fbaae9983de09ae3f75226dd45db94c31bbfa269bb560a7ad5e5091b",
+    "docs/designs/AI个人学习系统_工作包5_Encoding_设计方案_v0.md": "0422df3448789b77511b0ab7c74f7f2c92ba7f1919ceb44f28b683239a650b62",
+    "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md": "c0a266c68aad62d6390ae1e53b3b3e66343d9e8a48865c953b2998cc387f3bca",
+    "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md": "23128e532dc02680c4fcd4bab0e1cb19553db8769ba8f4396a617612d1a00138",
+    "docs/designs/AI个人学习系统_工作包7_长期计划与学习连续性_设计方案_v0.md": "2d0769b417360c514da3dfbf13a884a80594a6e87447118f78b75d2b635e2564",
+    "docs/designs/AI个人学习系统_工作包8_多Agent协作与共享状态_设计方案_v0.md": "a47d8d7e06c71f2ca28065e226a71d7179ac00f3fe3a2b369a519bcdd85f912c",
+    "docs/designs/AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计方案_v0.md": "3432d7b726e3b4fdd0a1ab60f200eaf7e986518b0be9d94cd9d9be5b59ff87f1",
+    "docs/implementation/AI个人学习系统_B0规范与资源基线_v0.md": "cbad59b555bfc41d2714edd3b1ab0aa22534e52323b59309f4a8164449a23b04",
+    "docs/implementation/AI个人学习系统_B1保存与入口骨架_v0.md": "aa6a86172bc05304f8484b3d6073103304eedfb706b59008f04375c549ed41a2",
+    "docs/implementation/AI个人学习系统_B2a目标Skill与AG1目标职能_v0.md": "e61821dbcc4f00930ef8c14ff80b3caa7e7dee30065fe6c1dc3c2b87bab4bf30",
+    "docs/implementation/AI个人学习系统_B2b内容与材料_v0.md": "1620d37dbc41b6c9857a269ec8b0aab7a004d969145b5a24058447ec73fa9fad",
+    "docs/implementation/AI个人学习系统_B3a证据评估与AG3职能_v0.md": "7b43ac633f1322ce4b918859500ab5d8bd1e3de5a44c6ae9b3f28c6f3d8c222e",
+    "docs/implementation/AI个人学习系统_B3b教学共同核心_v0.md": "d5d2654b58d6a05e9256e2850c7bea144560eed2ecf14c9bc55bd3ce7a8c16cb",
+    "docs/implementation/AI个人学习系统_B3c策略资源与配置_v0.md": "943afc79c638dd1c5a9000fd62493e913304c721be02c05ce32d0381c379944b",
+    "docs/implementation/AI个人学习系统_B3联合接口评估与修复_v0.md": "a8d41e51d3aa8a15ff9890c7f46df30d119868148b1a621ec40bb75e2b91fbab",
+    "docs/implementation/AI个人学习系统_B4教学专项与计划_v0.md": "8238aaa00875bdc78683c3cdf6efa882012e36f0c017e551aa0416d5952acd5c",
+    "docs/implementation/AI个人学习系统_B5单入口纵向集成_v0.md": "dd0acf356dd97593345759b96875200bc07a3c9e4c91f83203361a4ab4872180",
+    "docs/implementation/AI个人学习系统_B6工作网络与受控宿主_v0.md": "ed1afd165b38d2d26c42b0f276095055d4ec024bd501482724b45d21d231edbc",
+    "docs/implementation/AI个人学习系统_B7有限真实试用与验证工具_v0.md": "78e6732cc277371088cd4f144babae042a4849752d0ca917290d27d655f7ebc9",
+    "docs/prompts/AI个人学习系统_工作包10_验证计划与设计收口_设计提示词.md": "81e27509559f076034e77b935c0800b1c32183c12fc890d6ecf539135e2b282a",
+    "docs/prompts/AI个人学习系统_工作包7_长期计划与学习连续性_设计提示词.md": "cf839367a4248c657a4f6a753f238823b8b01bb1f24ab0983787a28a626ac240",
+    "docs/prompts/AI个人学习系统_工作包8_多Agent协作与共享状态_设计提示词.md": "c5548103a1a71bf80d7208e1a94bb0557ea42f3ece24e1b42759715c1f1c2b78",
+    "docs/prompts/AI个人学习系统_工作包9_跨学科用户体验与异常场景_设计提示词.md": "d891e29a50a704bc8a5ffdb20a220cb34b7acec236c5225838bbed9da8b883ca",
+    "docs/prompts/AI个人学习系统_架构设计提示词_GPT6Astra.md": "9e1d308016daadc6db0f2d1c57d9c1e3ebc9c8b5da91b2affa2872abcad797b7",
+    "docs/reviews/AI个人学习系统_工作包4_审阅评估.md": "b127458937b8eda62127d38f8f91ae7d78a4efbfc4aa748ebc950aedb9e97163",
+    "docs/reviews/AI个人学习系统_工作包5_C0共同教学框架_审阅评估.md": "2fe0f2d1b91f01a0035e9fd9f55f6974f7e28025fa8dc878232a742498e1f998",
+    "docs/reviews/AI个人学习系统_架构v0_检查记录.md": "e2a3838334160d12f297d86cd27ce250bcfec2c1b11810360ddf1c52c4efcd05",
+    "personal-learning-suite/contracts/assessment-b3a.md": "a3d98c19f21c9c12194bf4f678baec50c89831c4437be01657c8d32bcfefe5c4",
+    "personal-learning-suite/README.md": "aad32bcb163d539db93766a2ccca7bbfcba52c4755e636977c36461e9f69a66d",
+    "personal-learning-suite/src/skills/personal-learning/references/entry-controls.md": "9debe29b120a32f4c68931a2f5dcbe8626da7753a1e89755d1c7034931f21cc4",
+    "personal-learning-suite/resources/source-registry.json": "2be1eef28a113f19f2d9b9829c7e09a2e612d853ea9ee07da86848c57901bbec",
+    "personal-learning-suite/validation/architecture-fixes-2026-10-04/repair-summary.json": "6996b86942b2cfb98aa269f5ded5eaa4824c434b30912aa561b493a6db1dcb6c",
+    "docs/research/01_Encoding研究报告.md": "12b7671df7726b75df71708a0fc0ec8bfbc3e4e6e79b06ac9c6937d9113bb8b1"
+  },
+  "rebuilt_strategy_resources": [
+    {
+      "path": "personal-learning-suite/resources/strategies/common-constraints.json",
+      "after_sha256": "e217a01ac8e71eae367cd4132cbc084c5c25d1f2a866341b05cacba6d15f3026",
+      "reason": "Rebuilt deterministically from relocated source registry and link-adjusted source bytes."
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/encoding/R09.json",
+      "after_sha256": "08e24fd3bf370bdfe73aed98b7b721b0ec8606b660ba30df813cf32c7083d495",
+      "reason": "Rebuilt deterministically from relocated source registry and link-adjusted source bytes."
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/encoding/S07.json",
+      "after_sha256": "054132e6ce8029d3124966d82de6a4dffdd974d76f3099fe3ae46505d46dfda0",
+      "reason": "Rebuilt deterministically from relocated source registry and link-adjusted source bytes."
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/encoding/X02.json",
+      "after_sha256": "739b8f268d8115d1ca522e9a450f6d0acfff2918b2f7b3a97f4061e8f648ee45",
+      "reason": "Rebuilt deterministically from relocated source registry and link-adjusted source bytes."
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/manifest.json",
+      "after_sha256": "24e5e934d14046e6027df2f9a52caca701a92819e082fb79396e854730831e2a",
+      "reason": "Rebuilt deterministically from relocated source registry and link-adjusted source bytes."
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/post/conditional-update.json",
+      "after_sha256": "dd9ff6021b01147af7e8d51d610f1e5ba3174ccf7d0061903462f4ec2f4e9874",
+      "reason": "Rebuilt deterministically from relocated source registry and link-adjusted source bytes."
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/post/retrieve-generate-order.json",
+      "after_sha256": "8cad8dc9ad814f5b279688e91426ed837fe1f77b989fb05e8ecf138a82235839",
+      "reason": "Rebuilt deterministically from relocated source registry and link-adjusted source bytes."
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/post/retrieve-relation.json",
+      "after_sha256": "9a40c98a6eddedc06cab02155aed54480c242f3f7bd2bbf70e116a0c87ec2dbc",
+      "reason": "Rebuilt deterministically from relocated source registry and link-adjusted source bytes."
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/post/select-method.json",
+      "after_sha256": "b33844944758174619f882a3131a60f3367782fcf88a94e3f2cb00eab2d022b8",
+      "reason": "Rebuilt deterministically from relocated source registry and link-adjusted source bytes."
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/README.md",
+      "after_sha256": "6b7024951ffe1919fd733f8c1b8ca3f5dab4978dadb7ceb80eb602445537d7f6",
+      "reason": "Rebuilt deterministically from relocated source registry and link-adjusted source bytes."
+    },
+    {
+      "path": "personal-learning-suite/resources/strategies/strategy-index.json",
+      "after_sha256": "542b9bd70e1a345782e42abea4a484dbf59688bb30c2ce84a05781d9b33bae90",
+      "reason": "Rebuilt deterministically from relocated source registry and link-adjusted source bytes."
+    }
+  ],
+  "cache_cleanup_report": "cache-cleanup.json",
+  "storage_check_report": "storage-check.json",
+  "runtime_report": "../../personal-learning-suite/validation/folder-organization-2026-10-04/all-runtime-report.json",
+  "static_report": "../../personal-learning-suite/validation/folder-organization-2026-10-04/static-report.json",
+  "runtime_services_changed": false
+}

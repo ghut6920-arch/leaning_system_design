@@ -1,0 +1,16 @@
+F
+======================================================================
+FAIL: test_same_canonical_sources_cross_goal_and_material_public_entry (test_b5_entry.B5EntryTests.test_same_canonical_sources_cross_goal_and_material_public_entry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\文献资料\学习系统架构设计\personal-learning-suite\tests\test_b5_entry.py", line 419, in test_same_canonical_sources_cross_goal_and_material_public_entry
+    self.assertEqual(result["status"], "completed", result)
+AssertionError: 'rejected' != 'completed'
+- rejected
++ completed
+ : {'entry_version': 'pl-entry/0.1.0', 'synthetic_only': True, 'mode': 'single_entry_sequential', 'status': 'rejected', 'state_revision': 1, 'mutated': False, 'steps': [{'id': 'sources', 'operation': 'goal.sources_submit', 'owner': 'AG2', 'status': 'rejected', 'stage': 'pending', 'result': {'status': 'rejected', 'mutated': False, 'reasons': [{'code': 'complete_explicit_goal_changes_required'}]}}], 'pending': [{'owner': 'AG2', 'decision_needed': '补齐或复核本步骤，后续步骤未执行', 'next_trigger': '解决返回缺项后，以当前修订提交剩余步骤', 'step': 'sources', 'status': 'rejected'}], 'output_refs': [], 'background_delegation': False, 'host_identity_verified': False, 'learning_effect_verified': False, 'user_view': {'current_work': [{'step': 'sources', 'operation': 'goal.sources_submit', 'owner': 'AG2', 'stage': 'pending', 'budget': {'status': 'unknown', 'reason': '本步骤未返回投入视图'}}], 'activity_facts': [], 'conditional_support': [], 'learning_needs': [], 'controls': {'restrictions': [], 'paused_ids': [], 'deleted_ids': []}}, 'unexecuted_steps': ['goal']}
+
+----------------------------------------------------------------------
+Ran 1 test in 0.081s
+
+FAILED (failures=1)

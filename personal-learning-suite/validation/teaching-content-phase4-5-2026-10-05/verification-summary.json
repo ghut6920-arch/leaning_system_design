@@ -1,0 +1,64 @@
+{
+  "execution_date": "2026-10-05",
+  "status": "pass",
+  "b0_static_cases": {
+    "passed": 32,
+    "total": 32
+  },
+  "b6_network": {
+    "scope": "network",
+    "status": "passed",
+    "tests_run": 40,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "public_reference_checks": {
+    "passed": 50,
+    "total": 50
+  },
+  "skill_entry_format": {
+    "passed": 4,
+    "total": 4
+  },
+  "public_integrity": {
+    "status": "pass",
+    "active_instruction_files": 40,
+    "public_material_assets": 2,
+    "framework_entries": 43,
+    "documents_checked": 57,
+    "local_links_checked": 557,
+    "broken_links": [],
+    "manifest_errors": [],
+    "frozen_sources_checked": 19,
+    "frozen_source_errors": [],
+    "protected_public_files_checked": 135,
+    "protected_public_files_changed": [],
+    "personal_files_hashed_or_read_by_this_probe": false,
+    "limits": [
+      "Paths and public fingerprints only.",
+      "No teaching behavior or learning efficacy guarantee."
+    ]
+  },
+  "learning_unchanged": {
+    "unchanged": true,
+    "guarded_files": 79,
+    "changed_count": 0,
+    "personal_contents_or_fingerprints_saved": false,
+    "excluded_public_protocols": [
+      "FRAMEWORK.md",
+      "framework-manifest.json"
+    ]
+  },
+  "changed_existing_public_files": 16,
+  "content_walkthrough": {
+    "cases": 12,
+    "kind": "informed same-model self-review",
+    "independent_or_blind": false,
+    "real_learner_records": false
+  },
+  "phase4_phase5_instruction_repair": "complete",
+  "phase6_real_learning_and_forward_verification": "pending",
+  "historical_test_metadata_does_not_establish_current_independence": true,
+  "guarantees_learning_effectiveness": false
+}

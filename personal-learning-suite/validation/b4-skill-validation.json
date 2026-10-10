@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-03",
+  "validator": "C:\\Users\\15006\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
+  "scope": "Skill metadata and structural validation; no installation, host binding or learning effect check",
+  "status": "passed",
+  "results": [
+    {
+      "skill": "learning-teaching",
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "skill": "learning-planning",
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    }
+  ]
+}

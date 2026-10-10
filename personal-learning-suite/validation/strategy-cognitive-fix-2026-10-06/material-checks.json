@@ -1,0 +1,180 @@
+{
+  "status": "pass",
+  "mathematical_checks": 19,
+  "resource_load_checks": 6,
+  "checks": [
+    {
+      "case": "coordinate/0/0/0",
+      "pass": true
+    },
+    {
+      "case": "coordinate/0/0/1",
+      "pass": true
+    },
+    {
+      "case": "whole-formula/0/0",
+      "pass": true
+    },
+    {
+      "case": "coordinate/0/1/0",
+      "pass": true
+    },
+    {
+      "case": "coordinate/0/1/1",
+      "pass": true
+    },
+    {
+      "case": "whole-formula/0/1",
+      "pass": true
+    },
+    {
+      "case": "coordinate/1/0/0",
+      "pass": true
+    },
+    {
+      "case": "coordinate/1/0/1",
+      "pass": true
+    },
+    {
+      "case": "whole-formula/1/0",
+      "pass": true
+    },
+    {
+      "case": "coordinate/1/1/0",
+      "pass": true
+    },
+    {
+      "case": "coordinate/1/1/1",
+      "pass": true
+    },
+    {
+      "case": "whole-formula/1/1",
+      "pass": true
+    },
+    {
+      "case": "exact-output",
+      "pass": true
+    },
+    {
+      "case": "shape-equality-does-not-identify-roles",
+      "pass": true
+    },
+    {
+      "case": "raw-channel-change-retains-scaling",
+      "pass": true
+    },
+    {
+      "case": "other-output-unchanged",
+      "pass": true
+    },
+    {
+      "case": "combination-not-invertible-from-one-feature",
+      "pass": true
+    },
+    {
+      "case": "A-no-repeat-scaling-or-permutation",
+      "pass": true
+    },
+    {
+      "case": "B-keeps-original-role-order",
+      "pass": true
+    },
+    {
+      "case": "complete-resource-load/encoding/S05",
+      "pass": true
+    },
+    {
+      "case": "complete-resource-load/encoding/D02",
+      "pass": true
+    },
+    {
+      "case": "complete-resource-load/encoding/X05",
+      "pass": true
+    },
+    {
+      "case": "complete-resource-load/encoding/S09",
+      "pass": true
+    },
+    {
+      "case": "complete-resource-load/post/retrieve-relation",
+      "pass": true
+    },
+    {
+      "case": "complete-resource-load/post/select-method",
+      "pass": true
+    }
+  ],
+  "actual_resource_reads": [
+    {
+      "resource_key": "encoding/S05",
+      "resource_revision": "pl-strategies/0.1.0",
+      "bundle_path": "encoding/S05.json",
+      "sha256": "75be952e8bc57ae87fe6d228cf1097f7dcf8db591987794578324c757fbeca36",
+      "full_carriers": [
+        "R02",
+        "R03"
+      ],
+      "post_source_excerpts": 0,
+      "scope": "Whole JSON fetched and parsed; author separately reviewed operating bodies/source excerpts"
+    },
+    {
+      "resource_key": "encoding/D02",
+      "resource_revision": "pl-strategies/0.1.0",
+      "bundle_path": "encoding/D02.json",
+      "sha256": "1b64fd3c927f8ac9823faba37621f55bf6eebf7c16c7737a4e24dcad525c9c47",
+      "full_carriers": [
+        "R02",
+        "R03"
+      ],
+      "post_source_excerpts": 0,
+      "scope": "Whole JSON fetched and parsed; author separately reviewed operating bodies/source excerpts"
+    },
+    {
+      "resource_key": "encoding/X05",
+      "resource_revision": "pl-strategies/0.1.0",
+      "bundle_path": "encoding/X05.json",
+      "sha256": "d44da135839e8d9edf0952ba3fd204e3e73f6a5a72ee143a2342fb88314744a6",
+      "full_carriers": [
+        "R02",
+        "R03"
+      ],
+      "post_source_excerpts": 0,
+      "scope": "Whole JSON fetched and parsed; author separately reviewed operating bodies/source excerpts"
+    },
+    {
+      "resource_key": "encoding/S09",
+      "resource_revision": "pl-strategies/0.1.0",
+      "bundle_path": "encoding/S09.json",
+      "sha256": "f844542d840596a094784e21c26cf92c03fefbe0601aaa3816d775c469dea0e3",
+      "full_carriers": [
+        "R02",
+        "R03"
+      ],
+      "post_source_excerpts": 0,
+      "scope": "Whole JSON fetched and parsed; author separately reviewed operating bodies/source excerpts"
+    },
+    {
+      "resource_key": "post/retrieve-relation",
+      "resource_revision": "pl-strategies/0.1.0",
+      "bundle_path": "post/retrieve-relation.json",
+      "sha256": "9a40c98a6eddedc06cab02155aed54480c242f3f7bd2bbf70e116a0c87ec2dbc",
+      "full_carriers": [],
+      "post_source_excerpts": 12,
+      "scope": "Whole JSON fetched and parsed; author separately reviewed operating bodies/source excerpts"
+    },
+    {
+      "resource_key": "post/select-method",
+      "resource_revision": "pl-strategies/0.1.0",
+      "bundle_path": "post/select-method.json",
+      "sha256": "b33844944758174619f882a3131a60f3367782fcf88a94e3f2cb00eab2d022b8",
+      "full_carriers": [],
+      "post_source_excerpts": 11,
+      "scope": "Whole JSON fetched and parsed; author separately reviewed operating bodies/source excerpts"
+    }
+  ],
+  "limitations": [
+    "Self-contained hypothetical specifications; no personal learner facts",
+    "Numerical checks supplement stated algebra; not a learning-effect test",
+    "Current model authored and self-reviewed classroom; no independent forward test"
+  ]
+}

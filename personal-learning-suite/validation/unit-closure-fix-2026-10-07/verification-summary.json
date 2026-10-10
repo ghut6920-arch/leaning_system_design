@@ -1,0 +1,62 @@
+{
+  "client_date": "2026-10-07",
+  "status": "pass_with_declared_limits",
+  "scope": "unit closure, prepared same-artifact continuation, restoration and Skill/Agent call audit",
+  "waiting_rules_changed": false,
+  "native_installation_or_runtime_changed": false,
+  "skill_format": {
+    "passed": 7,
+    "total": 7
+  },
+  "b0_static": {
+    "passed": 32,
+    "total": 32,
+    "runtime_not_executed": 15
+  },
+  "compiled_resources": {
+    "encoding": 60,
+    "post": 4,
+    "files": 68,
+    "check_passed": true
+  },
+  "teacher_reference_tests": {
+    "passed": 9,
+    "skipped": 1,
+    "failures": 0,
+    "pytorch_executed": false,
+    "reference_syntax_checks_passed": 2
+  },
+  "content_walkthrough": {
+    "performed": true,
+    "independent_review": false,
+    "new_learner_performance": false
+  },
+  "original_chat_audit": {
+    "skill_entries_read": 7,
+    "role_entries_read": 3,
+    "ag3_role_entry_read_observed": false,
+    "sk04_assessment_observed": true,
+    "independent_teaching_agent_launch_observed": false
+  },
+  "maintenance_ag3_responsibilities_reviewed": true,
+  "protected_existing_records": {
+    "count": 53,
+    "unchanged": true,
+    "private_hash_list_published": false
+  },
+  "limits": [
+    "New course materials are prepared, not shown in the original teaching chat",
+    "Teacher checks are not learner implementation or learning-effect evidence",
+    "No claim of independent review, native Skill invocation or four separate teaching Agent processes",
+    "Original control, goal criteria, raw answers and assessments retained"
+  ],
+  "integrity": {
+    "status": "pass",
+    "registered_sources_checked": 19,
+    "links_checked": 462,
+    "manifest_entries": 117,
+    "broken_links": [],
+    "manifest_errors": [],
+    "unexpected_changes": []
+  }
+}

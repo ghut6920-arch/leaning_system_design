@@ -1,0 +1,1076 @@
+{
+  "synthetic_only": true,
+  "nature": "candidate_condition_map_not_methodconfig_or_adoption",
+  "purpose": "teaching",
+  "facts_are_synthetic_request_declarations": true,
+  "package_revision": "pl-strategies/0.1.0",
+  "resources": {
+    "encoding/S07": {
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 187,
+            "heading": "### S07 局部补全",
+            "kind": "markdown_heading",
+            "start_line": 178
+          },
+          "project_relative_path": "../02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/16",
+            "select_field": "id",
+            "select_value": "S07"
+          },
+          "project_relative_path": "../04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "04_Encoding策略库.json"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 376,
+            "heading": "## 七、策略资源怎样从原文变成运行资源",
+            "kind": "markdown_heading",
+            "start_line": 289
+          },
+          "project_relative_path": "../AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md",
+          "source_id": "N00",
+          "workspace_relative_path": "AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 231,
+            "heading": "## 六、从通用卡片到可执行任务",
+            "kind": "markdown_heading",
+            "start_line": 201
+          },
+          "project_relative_path": "../AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+          "source_id": "D07",
+          "workspace_relative_path": "AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 198,
+            "heading": "### 2. 从卡片到任务，需要完成内容实例化",
+            "kind": "markdown_heading",
+            "start_line": 180
+          },
+          "project_relative_path": "../AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+          "source_id": "D05",
+          "workspace_relative_path": "AI个人学习系统_工作包5_Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "literature_entry",
+          "locator": {
+            "evidence_id": "OS10",
+            "kind": "markdown_table_row",
+            "line": 450
+          },
+          "project_relative_path": "../01_Encoding研究报告.md",
+          "source_id": "R01",
+          "workspace_relative_path": "01_Encoding研究报告.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "literature_entry",
+          "locator": {
+            "evidence_id": "OS12",
+            "kind": "markdown_table_row",
+            "line": 452
+          },
+          "project_relative_path": "../01_Encoding研究报告.md",
+          "source_id": "R01",
+          "workspace_relative_path": "01_Encoding研究报告.md"
+        }
+      ],
+      "resource_checks": {
+        "goal_work_defined": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "known",
+            "value": true,
+            "reason": "仅在虚构请求的自然语言范围内目标内工作和允许查阅已声明；精确引用尚未建立。"
+          }
+        },
+        "materials_reliable": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "feedback_available": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "learner_operation_preserved": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "unaided_observation_preserved": {
+          "scope": "requirement",
+          "required_for": [
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "example_context_available": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "key_step_identified": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        }
+      },
+      "evidence_limits": [
+        "研究组件、学科内容正确性、任务与帮助条件、真实学习收益分别核验。",
+        "目标所需独立、整体、迁移与时间条件不由方法名称或卡片验收代替。",
+        "未知接触保持未知；隐藏答案、更换措辞或执行者不能重置暴露历史。",
+        "索引命中与本地资源正文核对不证明当前任务已可执行。",
+        "完整两载体正文保留；链接目标差异不构成第二份证据，未来实质冲突先限制相关用途。",
+        "原文H针对教学设计与收益外推，不把可核验数学定义/合法推导降为猜测。",
+        "S07主要处理步骤补全和搜索负担；理由链独立性借X02；重合只做一次。"
+      ],
+      "original_claim_status": {
+        "per_template_experimentally_verified": false,
+        "status": "H：设计综合",
+        "template_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断"
+      },
+      "raw_load_file": "load-s07.json"
+    },
+    "encoding/X02": {
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 567,
+            "heading": "### X02 约束补全与支架撤除",
+            "kind": "markdown_heading",
+            "start_line": 557
+          },
+          "project_relative_path": "../02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/51",
+            "select_field": "id",
+            "select_value": "X02"
+          },
+          "project_relative_path": "../04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "04_Encoding策略库.json"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 376,
+            "heading": "## 七、策略资源怎样从原文变成运行资源",
+            "kind": "markdown_heading",
+            "start_line": 289
+          },
+          "project_relative_path": "../AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md",
+          "source_id": "N00",
+          "workspace_relative_path": "AI个人学习系统_Agent与Skill工作网络及实施路线_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 231,
+            "heading": "## 六、从通用卡片到可执行任务",
+            "kind": "markdown_heading",
+            "start_line": 201
+          },
+          "project_relative_path": "../AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+          "source_id": "D07",
+          "workspace_relative_path": "AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 198,
+            "heading": "### 2. 从卡片到任务，需要完成内容实例化",
+            "kind": "markdown_heading",
+            "start_line": 180
+          },
+          "project_relative_path": "../AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+          "source_id": "D05",
+          "workspace_relative_path": "AI个人学习系统_工作包5_Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "literature_entry",
+          "locator": {
+            "evidence_id": "RR06",
+            "kind": "markdown_table_row",
+            "line": 507
+          },
+          "project_relative_path": "../01_Encoding研究报告.md",
+          "source_id": "R01",
+          "workspace_relative_path": "01_Encoding研究报告.md"
+        }
+      ],
+      "resource_checks": {
+        "goal_work_defined": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "known",
+            "value": true,
+            "reason": "仅在虚构请求的自然语言范围内目标内工作和允许查阅已声明；精确引用尚未建立。"
+          }
+        },
+        "materials_reliable": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "feedback_available": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "learner_operation_preserved": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "unaided_observation_preserved": {
+          "scope": "requirement",
+          "required_for": [
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "standard_reasoning_available": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "prerequisites_available": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "visible_clues_recorded": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        }
+      },
+      "evidence_limits": [
+        "研究组件、学科内容正确性、任务与帮助条件、真实学习收益分别核验。",
+        "目标所需独立、整体、迁移与时间条件不由方法名称或卡片验收代替。",
+        "未知接触保持未知；隐藏答案、更换措辞或执行者不能重置暴露历史。",
+        "索引命中与本地资源正文核对不证明当前任务已可执行。",
+        "完整两载体正文保留；链接目标差异不构成第二份证据，未来实质冲突先限制相关用途。",
+        "原文H针对教学设计与收益外推，不把可核验数学定义/合法推导降为猜测。",
+        "X02关注理由链重建与解释独立性；S07关注步骤执行/搜索；共享补全不能重复计证。"
+      ],
+      "original_claim_status": {
+        "per_template_experimentally_verified": false,
+        "status": "H：设计综合",
+        "template_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断"
+      },
+      "raw_load_file": "load-x02.json"
+    },
+    "post/conditional-update": {
+      "source_refs": [
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 223,
+            "heading": "### 1. 先确定哪一类变化有依据",
+            "kind": "markdown_heading",
+            "start_line": 211
+          },
+          "project_relative_path": "../AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 229,
+            "heading": "### 2. 更新成功应能排除哪些假象",
+            "kind": "markdown_heading",
+            "start_line": 224
+          },
+          "project_relative_path": "../AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 245,
+            "heading": "### 4. 系统纠错与学习者更新分开完成",
+            "kind": "markdown_heading",
+            "start_line": 238
+          },
+          "project_relative_path": "../AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 289,
+            "heading": "### 4. Consolidation 与 Reconsolidation 的位置",
+            "kind": "markdown_heading",
+            "start_line": 282
+          },
+          "project_relative_path": "../AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 230,
+            "heading": "### 7.3 Successful、partial、failed 与 erroneous retrieval",
+            "kind": "markdown_heading",
+            "start_line": 215
+          },
+          "project_relative_path": "../Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 245,
+            "heading": "### 8.1 反馈信息与目标状态的对应",
+            "kind": "markdown_heading",
+            "start_line": 233
+          },
+          "project_relative_path": "../Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 347,
+            "heading": "### 10.3 Reconsolidation：须区分三个层级",
+            "kind": "markdown_heading",
+            "start_line": 336
+          },
+          "project_relative_path": "../Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 420,
+            "heading": "### 13.1 最小但有区分力的测量组合",
+            "kind": "markdown_heading",
+            "start_line": 404
+          },
+          "project_relative_path": "../Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 31,
+            "heading": "## 从结果倒推操作",
+            "kind": "markdown_heading",
+            "start_line": 22
+          },
+          "project_relative_path": "../Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 44,
+            "heading": "## 六种组合如何判断",
+            "kind": "markdown_heading",
+            "start_line": 32
+          },
+          "project_relative_path": "../Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 51,
+            "heading": "## 三个使用边界",
+            "kind": "markdown_heading",
+            "start_line": 45
+          },
+          "project_relative_path": "../Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 200,
+            "heading": "## 五、组合、顺序与相互干扰",
+            "kind": "markdown_heading",
+            "start_line": 167
+          },
+          "project_relative_path": "../AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+          "source_id": "D07",
+          "workspace_relative_path": "AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 231,
+            "heading": "## 六、从通用卡片到可执行任务",
+            "kind": "markdown_heading",
+            "start_line": 201
+          },
+          "project_relative_path": "../AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+          "source_id": "D07",
+          "workspace_relative_path": "AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 289,
+            "heading": "## 七、时间与证据：教学进展、当前可用和持久可用分别成立",
+            "kind": "markdown_heading",
+            "start_line": 246
+          },
+          "project_relative_path": "../AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 164,
+            "heading": "### E25｜Schroeder, N. L., & Kucera, A. C.（2022；2021 在线）",
+            "kind": "markdown_heading",
+            "start_line": 159
+          },
+          "project_relative_path": "../post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 246,
+            "heading": "### E38｜Ye, Z., Shi, L., Li, A., Chen, C., & Xue, G.（2020）",
+            "kind": "markdown_heading",
+            "start_line": 241
+          },
+          "project_relative_path": "../post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 314,
+            "heading": "### E49｜Schroyens, N., Beckers, T., & Luyten, L.（2023；2022 在线）",
+            "kind": "markdown_heading",
+            "start_line": 309
+          },
+          "project_relative_path": "../post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "post-encoding证据台账与参考文献.md"
+        }
+      ],
+      "resource_checks": {
+        "goal_work_defined": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "known",
+            "value": true,
+            "reason": "仅在虚构请求的自然语言范围内目标内工作和允许查阅已声明；精确引用尚未建立。"
+          }
+        },
+        "materials_reliable": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "feedback_available": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "learner_operation_preserved": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "unaided_observation_preserved": {
+          "scope": "requirement",
+          "required_for": [
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "old_new_bases_reliable": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "valid_old_scope_preserved": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "update_reason_identified": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "reference_dispute_unresolved": {
+          "scope": "exclusion",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        }
+      },
+      "evidence_limits": [
+        "研究组件、学科内容正确性、任务与帮助条件、真实学习收益分别核验。",
+        "目标所需独立、整体、迁移与时间条件不由方法名称或卡片验收代替。",
+        "未知接触保持未知；隐藏答案、更换措辞或执行者不能重置暴露历史。",
+        "索引命中与本地资源正文核对不证明当前任务已可执行。",
+        "E38为实验室关联更新，新旧内容可共存；不能直接证明概念模型整体重构或分子再巩固。",
+        "E25非全部检索后反馈；E49限制教育中普遍可控再巩固归因，不否定生物机制存在。",
+        "台账核查深度为原文历史声明；B3c只回查本地条目，未重新读或核验外部论文。"
+      ],
+      "original_claim_status": {
+        "no_original_post_card_id": true,
+        "research_claim_ratings_not_method_score": true,
+        "status": "H：本套件条件化设计综合"
+      },
+      "raw_load_file": "load-conditional-update.json"
+    },
+    "post/retrieve-generate-order": {
+      "source_refs": [
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 156,
+            "heading": "### 3. 活动顺序由功能决定",
+            "kind": "markdown_heading",
+            "start_line": 147
+          },
+          "project_relative_path": "../AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 208,
+            "heading": "### 4. 反馈：修复目标需要的那一层",
+            "kind": "markdown_heading",
+            "start_line": 193
+          },
+          "project_relative_path": "../AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 273,
+            "heading": "### 9.1 先界定 synergy",
+            "kind": "markdown_heading",
+            "start_line": 264
+          },
+          "project_relative_path": "../Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 284,
+            "heading": "### 9.2 六种目标组合的证据地图",
+            "kind": "markdown_heading",
+            "start_line": 274
+          },
+          "project_relative_path": "../Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 296,
+            "heading": "### 9.3 顺序效应的最新证据需要改写默认流程",
+            "kind": "markdown_heading",
+            "start_line": 285
+          },
+          "project_relative_path": "../Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 306,
+            "heading": "### 9.4 两个值得保留的非正向结果",
+            "kind": "markdown_heading",
+            "start_line": 297
+          },
+          "project_relative_path": "../Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 312,
+            "heading": "### 9.5 哪些“生成在前”证据不能直接移植",
+            "kind": "markdown_heading",
+            "start_line": 307
+          },
+          "project_relative_path": "../Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 31,
+            "heading": "## 从结果倒推操作",
+            "kind": "markdown_heading",
+            "start_line": 22
+          },
+          "project_relative_path": "../Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 44,
+            "heading": "## 六种组合如何判断",
+            "kind": "markdown_heading",
+            "start_line": 32
+          },
+          "project_relative_path": "../Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 51,
+            "heading": "## 三个使用边界",
+            "kind": "markdown_heading",
+            "start_line": 45
+          },
+          "project_relative_path": "../Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 200,
+            "heading": "## 五、组合、顺序与相互干扰",
+            "kind": "markdown_heading",
+            "start_line": 167
+          },
+          "project_relative_path": "../AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+          "source_id": "D07",
+          "workspace_relative_path": "AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 231,
+            "heading": "## 六、从通用卡片到可执行任务",
+            "kind": "markdown_heading",
+            "start_line": 201
+          },
+          "project_relative_path": "../AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+          "source_id": "D07",
+          "workspace_relative_path": "AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 289,
+            "heading": "## 七、时间与证据：教学进展、当前可用和持久可用分别成立",
+            "kind": "markdown_heading",
+            "start_line": 246
+          },
+          "project_relative_path": "../AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 190,
+            "heading": "### E29｜Roelle, J., Froese, L., Krebs, R., Obergassel, N., & Waldeyer, J.（2022）",
+            "kind": "markdown_heading",
+            "start_line": 185
+          },
+          "project_relative_path": "../post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 196,
+            "heading": "### E30｜Obergassel, N., Renkl, A., Endres, T., Nückles, M., Carpenter, S. K., & Roelle, J.（2025）",
+            "kind": "markdown_heading",
+            "start_line": 191
+          },
+          "project_relative_path": "../post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 202,
+            "heading": "### E31｜Obergassel, N., Renkl, A., Endres, T., Nückles, M., Carpenter, S. K., & Roelle, J.（2026）",
+            "kind": "markdown_heading",
+            "start_line": 197
+          },
+          "project_relative_path": "../post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 214,
+            "heading": "### E33｜O’Day, G. M., & Karpicke, J. D.（2021）",
+            "kind": "markdown_heading",
+            "start_line": 209
+          },
+          "project_relative_path": "../post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 220,
+            "heading": "### E34｜McDaniel, M. A.（2023）",
+            "kind": "markdown_heading",
+            "start_line": 215
+          },
+          "project_relative_path": "../post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "post-encoding证据台账与参考文献.md"
+        }
+      ],
+      "resource_checks": {
+        "goal_work_defined": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "known",
+            "value": true,
+            "reason": "仅在虚构请求的自然语言范围内目标内工作和允许查阅已声明；精确引用尚未建立。"
+          }
+        },
+        "materials_reliable": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "feedback_available": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "learner_operation_preserved": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "unaided_observation_preserved": {
+          "scope": "requirement",
+          "required_for": [
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "combination_adds_necessary_work": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "sequence_visibility_defined": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "prerequisites_available": {
+          "scope": "requirement",
+          "required_for": [
+            "teaching",
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        },
+        "preceding_step_leaks_required_operation": {
+          "scope": "exclusion",
+          "required_for": [
+            "independent"
+          ],
+          "check": {
+            "status": "unknown",
+            "reason": "请求未提供最终实例化活动、用途核验与实际对象引用；不能由正文/索引加载默认为通过。"
+          }
+        }
+      },
+      "evidence_limits": [
+        "研究组件、学科内容正确性、任务与帮助条件、真实学习收益分别核验。",
+        "目标所需独立、整体、迁移与时间条件不由方法名称或卡片验收代替。",
+        "未知接触保持未知；隐藏答案、更换措辞或执行者不能重置暴露历史。",
+        "索引命中与本地资源正文核对不证明当前任务已可执行。",
+        "E29只支持特定R→G配置；E30生成可开卷、有反馈修订且非等时；E31未发现稳定差异不证明普遍等效。",
+        "E33保留概念图组合未增益的局部反例；E34的初始编码→检索与编码后RG/GR不是同一问题。",
+        "台账核查深度为原文历史声明；B3c只回查本地条目，未重新读或核验外部论文。"
+      ],
+      "original_claim_status": {
+        "no_original_post_card_id": true,
+        "research_claim_ratings_not_method_score": true,
+        "status": "H：本套件条件化设计综合"
+      },
+      "raw_load_file": "load-retrieve-generate-order.json"
+    }
+  }
+}

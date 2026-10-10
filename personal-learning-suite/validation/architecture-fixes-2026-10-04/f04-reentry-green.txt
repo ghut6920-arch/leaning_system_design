@@ -1,0 +1,6 @@
+test_returned_local_scope_requires_new_parent_work_before_reentry (test_b4_teaching.B4TeachingTests.test_returned_local_scope_requires_new_parent_work_before_reentry) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.500s
+
+OK

@@ -1,0 +1,655 @@
+{
+  "compiled": true,
+  "conditions": [
+    {
+      "explanation": "本次目标内工作、用途和允许资源可引用；不由选卡改写目标。",
+      "key": "goal_work_defined",
+      "origin": "suite_added",
+      "required_for": [
+        "teaching",
+        "independent"
+      ],
+      "scope": "requirement",
+      "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+    },
+    {
+      "explanation": "本次内容、题面和参考在拟定用途内有核验依据；研究引文不代替内容核验。",
+      "key": "materials_reliable",
+      "origin": "suite_added",
+      "required_for": [
+        "teaching",
+        "independent"
+      ],
+      "scope": "requirement",
+      "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+    },
+    {
+      "explanation": "能兑现必要的可靠纠正、反馈、修订与收束；成本包含这些工作。",
+      "key": "feedback_available",
+      "origin": "suite_added",
+      "required_for": [
+        "teaching",
+        "independent"
+      ],
+      "scope": "requirement",
+      "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+    },
+    {
+      "explanation": "明确仍留给学习者的关键工作；模板槽已按当前内容实例化。",
+      "key": "learner_operation_preserved",
+      "origin": "suite_added",
+      "required_for": [
+        "teaching",
+        "independent"
+      ],
+      "scope": "requirement",
+      "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+    },
+    {
+      "explanation": "目标允许输入与真实暴露条件下，拟观察的关键操作未被提示或材料代做；不等于一律闭卷。",
+      "key": "unaided_observation_preserved",
+      "origin": "suite_added",
+      "required_for": [
+        "independent"
+      ],
+      "scope": "requirement",
+      "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+    },
+    {
+      "explanation": "可竞争的方法和必要条件当前可用，陌生源域不直接当迁移缺口。",
+      "key": "candidate_methods_available",
+      "origin": "suite_added",
+      "required_for": [
+        "teaching",
+        "independent"
+      ],
+      "scope": "requirement",
+      "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+    },
+    {
+      "explanation": "实际变化、保持条件、新前置与近期线索明确，观察范围相称。",
+      "key": "selection_task_conditions_defined",
+      "origin": "suite_added",
+      "required_for": [
+        "teaching",
+        "independent"
+      ],
+      "scope": "requirement",
+      "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+    },
+    {
+      "explanation": "题面/标题/题组/邻题/笔记/工具或已发生帮助已经提供拟观察的方法选择。",
+      "key": "method_choice_preprovided",
+      "origin": "suite_added",
+      "required_for": [
+        "independent"
+      ],
+      "scope": "exclusion",
+      "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+    }
+  ],
+  "content_markdown": "目标需要时观察方法自主选择、角色映射与执行，接受有依据拒用或信息不足。\n\n识别当前适用知识、说明接受/拒用/信息不足依据，完成角色映射及执行。\n\n必要时先保存未提示表现，再用最少支持缩小失败范围。\n\n变式与检索贡献未完全分离；源知识选择、映射、执行分别支持，近迁移证据不保证广泛自发远迁移。\n\nE15中的aptitude不是当前领域先验知识，不据此固化个人身份标签。",
+  "cost": {
+    "basis": "通用资源无具体课程和用时；实例化时引用实际预算/估计依据。",
+    "execution": "unknown",
+    "feedback": "unknown",
+    "preparation": "unknown",
+    "review": "unknown"
+  },
+  "evidence_limits": [
+    "研究组件、学科内容正确性、任务与帮助条件、真实学习收益分别核验。",
+    "目标所需独立、整体、迁移与时间条件不由方法名称或卡片验收代替。",
+    "未知接触保持未知；隐藏答案、更换措辞或执行者不能重置暴露历史。",
+    "索引命中与本地资源正文核对不证明当前任务已可执行。",
+    "变式与检索贡献未完全分离；源知识选择、映射、执行分别支持，近迁移证据不保证广泛自发远迁移。",
+    "E15中的aptitude不是当前领域先验知识，不据此固化个人身份标签。",
+    "台账核查深度为原文历史声明；B3c只回查本地条目，未重新读或核验外部论文。"
+  ],
+  "evidence_refs": [
+    {
+      "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+      "body_sha256": "12cd87f356fbc355d4873f44486022f90b23b2daa66132c19f266de51f98c429",
+      "content_markdown": "### E11｜Butler, A. C., Black-Maier, A. C., Raley, N. D., & Marsh, E. J.（2017）\n\n*Retrieving and applying knowledge to different examples promotes transfer of learning.* **Journal of Experimental Psychology: Applied, 23**, 433–446. [DOI](https://doi.org/10.1037/xap0000142)；[PubMed](https://pubmed.ncbi.nlm.nih.gov/29265856/)\n\n4 实验，地质学视频及应用题，两天后测；L+X；核查摘要及设计说明。**Moderate/直接：变式应用优于只重复同例的迁移。** 变式 study 也可获益，因此变化性和 retrieval 的贡献不能混为一个机制。\n\n",
+      "evidence_id": "E11",
+      "externally_reverified_in_b3c": false,
+      "historical_verification_only": true,
+      "source_ref": {
+        "declared_revision": null,
+        "identity_kind": "literature_entry",
+        "locator": {
+          "end_line": 78,
+          "heading": "### E11｜Butler, A. C., Black-Maier, A. C., Raley, N. D., & Marsh, E. J.（2017）",
+          "kind": "markdown_heading",
+          "start_line": 73
+        },
+        "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+        "source_id": "R06",
+        "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+      }
+    },
+    {
+      "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+      "body_sha256": "2d38a723e17161a75eadf83b43f034003adbd05a9a5413d72636883dfc0d97d9",
+      "content_markdown": "### E12｜Corral, D., Carpenter, S. K., & St. Hilaire, K.（2023）\n\n*The effects of retrieval versus study on analogical problem solving.* **Psychonomic Bulletin & Review, 30**, 1954–1965. [DOI](https://doi.org/10.3758/s13423-023-02268-4)\n\n4 实验；研究例题 vs 解题加正确反馈 vs 混合；即时/一周后测；L+X；核查全文关键段。**Moderate/直接反例：原题再做收益与新类比迁移分离。** 不支持该配置中练习解题的独特迁移优势；不证明所有练习剂量和任务皆等效。\n\n",
+      "evidence_id": "E12",
+      "externally_reverified_in_b3c": false,
+      "historical_verification_only": true,
+      "source_ref": {
+        "declared_revision": null,
+        "identity_kind": "literature_entry",
+        "locator": {
+          "end_line": 84,
+          "heading": "### E12｜Corral, D., Carpenter, S. K., & St. Hilaire, K.（2023）",
+          "kind": "markdown_heading",
+          "start_line": 79
+        },
+        "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+        "source_id": "R06",
+        "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+      }
+    },
+    {
+      "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+      "body_sha256": "89fa56c3525569aef954883afc0d2fb454e1362eef8f65ae3cae2d176b2277d5",
+      "content_markdown": "### E13｜Snoddy & Kurtz（2021）\n\n*Preventing inert knowledge: Category status promotes spontaneous structure-based retrieval of prior knowledge.* **Journal of Experimental Psychology: Learning, Memory, and Cognition, 47**, 571–607. [DOI](https://doi.org/10.1037/xlm0000974)；[PubMed](https://pubmed.ncbi.nlm.nih.gov/33151719/)\n\n4 实验，关系类别学习与自发结构提取；L+X；核查摘要。**Moderate/直接：类别化可改善无提示的结构性联想。** 不等于任何自生总结都形成 schema；对完整 R→类比链属于局部证据。\n\n",
+      "evidence_id": "E13",
+      "externally_reverified_in_b3c": false,
+      "historical_verification_only": true,
+      "source_ref": {
+        "declared_revision": null,
+        "identity_kind": "literature_entry",
+        "locator": {
+          "end_line": 90,
+          "heading": "### E13｜Snoddy & Kurtz（2021）",
+          "kind": "markdown_heading",
+          "start_line": 85
+        },
+        "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+        "source_id": "R06",
+        "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+      }
+    },
+    {
+      "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+      "body_sha256": "eca605e2a18e3b302e571c204d194f475fbed68083bfc7954bc324657ecf25bb",
+      "content_markdown": "### E15｜Foss, D. J., Pirozzolo, J. W., & Kulesz, P. A.（2023）\n\n*Retrieving and transferring knowledge: Effects of test item variation on transfer in an authentic learning environment.* **Learning and Instruction, 88**, 101807. [DOI](https://doi.org/10.1016/j.learninstruc.2023.101807)\n\n287 人、整学期研究方法课、四次期中和期末；C/A+X；核查摘要与方法/讨论片段。**Moderate/直接：变式迁移受学习者差异调节。** aptitude 是 GPA/入学测验，不是领域先验知识；不能作 novice/expert 的直接替代。\n\n",
+      "evidence_id": "E15",
+      "externally_reverified_in_b3c": false,
+      "historical_verification_only": true,
+      "source_ref": {
+        "declared_revision": null,
+        "identity_kind": "literature_entry",
+        "locator": {
+          "end_line": 102,
+          "heading": "### E15｜Foss, D. J., Pirozzolo, J. W., & Kulesz, P. A.（2023）",
+          "kind": "markdown_heading",
+          "start_line": 97
+        },
+        "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+        "source_id": "R06",
+        "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+      }
+    }
+  ],
+  "exclusions": [
+    "标题、题组、邻题、笔记、刚发生讲解和工具默认也可能代选。",
+    "同题仅换数字不支持广泛远迁移；提示后执行不补记自主选择。"
+  ],
+  "help_and_feedback_constraints": [
+    "记录可见输入、备用帮助与教师参考；备用内容未展示不计暴露。",
+    "保存帮助前原答以及实际帮助内容、作用、顺序与相关发生时间。",
+    "允许提供足以继续的可靠帮助；帮助后的成功按实际条件解释。",
+    "用户请求示范或答案时可以转教学；不为维持独立证据拒绝必要帮助。"
+  ],
+  "identity_kind": "suite_added_method_key",
+  "intended_work": "目标需要时观察方法自主选择、角色映射与执行，接受有依据拒用或信息不足。",
+  "local_adaptations": [
+    "结构化条件、标签与资源键为本套件新增整理；不视为经验证的调度算法。",
+    "post/键为本套件新增方法说明；R06的E编号只作文献定位，D06的P1—P5只作验收定位。"
+  ],
+  "name": "在实际线索条件下选择、拒用并执行",
+  "navigation_limits": {
+    "D06_P1_P5_are_acceptance_ids": true,
+    "E01_E49_are_literature_ids": true,
+    "matrix_is_effect_ranking": false,
+    "matrix_is_task_matching": true,
+    "operations_non_exclusive": true
+  },
+  "original_claim_status": {
+    "no_original_post_card_id": true,
+    "research_claim_ratings_not_method_score": true,
+    "status": "H：本套件条件化设计综合"
+  },
+  "original_id": null,
+  "prerequisites": [
+    "候选方法与其适用条件可跟踪，任务没有非必要新增前置。",
+    "若要支持更广自主选择，任务包含合格方法竞争情境。"
+  ],
+  "required_learner_operations": [
+    "识别当前适用知识、说明接受/拒用/信息不足依据，完成角色映射及执行。",
+    "必要时先保存未提示表现，再用最少支持缩小失败范围。"
+  ],
+  "resource_key": "post/select-method",
+  "resource_kind": "post-method-note",
+  "resource_revision": "pl-strategies/0.1.0",
+  "review_status": {
+    "course_applicability_verified": false,
+    "external_references_verified": false,
+    "learning_effect_verified": false,
+    "personal_data_included": false,
+    "scope": "核对本地选中正文、完整必要约束、源定位与指纹；按正式方案处理冲突。",
+    "status": "local_source_text_checked"
+  },
+  "schema_version": "pl-strategy-resources/1",
+  "source_excerpts": [
+    {
+      "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+      "body_sha256": "8d2106e40006fbdedaae463571841cca590a8a124dfca55dd5eaedeb74f88b26",
+      "content_markdown": "### 3. 自主选用与迁移：把识别、映射和执行分别看清\n\n目标要求自主选用时，任务初始呈现应不代做方法选择。检查题面之外的标题、所在题组、连续任务、可见笔记、刚发生的讲解及工具默认设置。需要更广的方法选择证据时，使用合理的混合任务，其中包含应选该法、应选其他法、不能据现有信息决定的情况；不是仅把同一种题换背景。\n\n一次失败可以通过最少必要帮助缩小范围：先保存未提示选择，再视需要提示源知识或方法，观察角色映射与执行。按实际提供的信息限定被代做的部分：给源例不支持自主源知识选择，仍可支持由学习者完成的映射、条件判断和执行；部分映射支架也只限制它实际覆盖的操作。诊断步骤本身产生学习，后续成功不能倒算为先前独立完成。\n\n每次声称迁移，都说明三件事：**改变了什么，保持了什么，是否引入了新的前置。**换数字主要是参数变化；从群体均值到速度问题可能改变分母量，不能把“也是平均数”当作结构相同。某次映射成功，只支持实际观察到的变化范围，不证明广泛远迁移。\n\n",
+      "source_ref": {
+        "declared_revision": "v0",
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 192,
+          "heading": "### 3. 自主选用与迁移：把识别、映射和执行分别看清",
+          "kind": "markdown_heading",
+          "start_line": 185
+        },
+        "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+        "source_id": "D06",
+        "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+      }
+    },
+    {
+      "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+      "body_sha256": "2eb05ac99158068ed9b9e0393e3486d7cd33e0925ccd63679821e8b81f874b84",
+      "content_markdown": "### 1. 检查应对应原目标声称的能力\n\n| 需要支持的结论 | 合适的观察 | 不能单独替代它的表现 |\n|---|---|---|\n| 在规定入口准确恢复 | 目标条件下恢复所需事实、条件或关系 | 看见答案后复述；只认固定卡片外形 |\n| 在允许输入下形成关系 | 给定合格前提后作出正确连接或论证 | 前提各自答对，或者 AI 画好全部关系 |\n| 自主选用、映射并执行 | 不泄露方法的任务中完成相关工作 | 给方法后的执行，或只换数字的同题 |\n| 区分边界与抽象结构 | 目标范围内的正例、近邻非例及结构变化 | 背定义；只识别全部具有同一表面线索的练习 |\n| 一般论证或方法构造 | 完整合法论证、构造理由及目标要求的边界检验 | 若干算例、工具跑通、公式回忆 |\n| 更新后选择可靠 | 正确使用新信息，区分仍有效旧场景；需要时观察旧错复发 | 即时改答，或只熟悉一个反例 |\n| 在目标时段保持可用 | 相应延迟与再接触条件下的实际表现 | 即时流畅、已经过夜、完成了计划中的复习次数 |\n\n检查条件可以在一个合格任务中兼有；同一原答只有一份证据，不因同时涉及恢复、选择、推理而计成三次独立成功。多个 Agent 重评同一答案也不增加独立观察。\n\n学习目的下的帮助后成功可以很有价值。它既不自动完成更宽的验收，也不需要被归为“没有学会”。3 继续维护原有“结论范围＋证据状况”，Post-Encoding 只提供表现与解释线索。\n\n",
+      "source_ref": {
+        "declared_revision": "v0",
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 263,
+          "heading": "### 1. 检查应对应原目标声称的能力",
+          "kind": "markdown_heading",
+          "start_line": 248
+        },
+        "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+        "source_id": "D06",
+        "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+      }
+    },
+    {
+      "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+      "body_sha256": "7d496e3d3bcc81c428493225397b5749b91051ca690062b561972437d009910e",
+      "content_markdown": "### 5.5 更可能促进 transfer：练习发现何时用，再练如何用\n\n不同案例上的检索和应用能促进新案例表现；同一系列实验也发现，变式本身在 study 条件下可有益，因此不能把收益全部归给 retrieval。[Butler et al., 2017](https://doi.org/10.1037/xap0000142)。\n\n两个反向结果决定了这里的边界：\n\n- 高阶或混合问题能支持高阶测验，事实问题并未稳定提供相同收益；小学真实课堂中，事实检索对事实保持更有利，而总结对理解相对更有利。**Moderate/直接，L+C/A+X**。[Agarwal, 2019](https://doi.org/10.1037/edu0000282)；[Ophuis-Cox et al., 2024](https://doi.org/10.1037/xap0000507)。\n- 事实检索并非永远不能促进应用。2025 年复杂概念实验在重复练习和一周测验中观察到收益，但一次练习、短延迟时没有；练习次数与延迟一起改变，不能分离两者的因果贡献。**Moderate/直接，L+X**。[Corral & Carpenter, 2025](https://doi.org/10.1016/j.learninstruc.2025.102219)。\n\n因此，事实可检索性可能是某些迁移任务的瓶颈，却不是迁移的充分条件；也不必等所有事实熟练后才开始关系学习。\n\n**还有直接的负向关系推理结果。** 三项传递推理实验要求学习 A>B、B>C 等前提，再检索或重读这些前提；检索组之后的未练关系推理表现更差。结合该团队先前研究的小规模综合得到负向效应。这是 **Moderate/直接，L** 的反例：练习多个关系的恢复，并不保证形成更好的整体序列结构。它不能推广为所有 relational retrieval 有害，也不能只凭行为结果确定是关系编码受损、策略变化还是其他过程。[Mulligan, Buchin, & Powers, 2023](https://doi.org/10.1177/17470218231156732)。\n\n",
+      "source_ref": {
+        "declared_revision": null,
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 174,
+          "heading": "### 5.5 更可能促进 transfer：练习发现何时用，再练如何用",
+          "kind": "markdown_heading",
+          "start_line": 162
+        },
+        "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+        "source_id": "R05",
+        "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+      }
+    },
+    {
+      "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+      "body_sha256": "fa13e2669eaef7a2f8eaccfd80ab2e078eb39d860a352affed8863d160a16407",
+      "content_markdown": "### 9.4 两个值得保留的非正向结果\n\n**更多 elaboration 不一定更好。** 研究生物学文本的实验中，在检索前加开放式概念图，即使增加活动时间，也未在一周后带来额外收益。它说明一种组合可能冗余，不说明所有概念图都无价值。[O’Day & Karpicke, 2021](https://doi.org/10.1037/edu0000486)。\n\n**做过问题不保证类比迁移优于研究解答。** 四项实验中，解题加正确反馈、研究例题及混合安排，对新类比题没有稳定差异；练习对原题再做更有利。结果直接区分了程序可访问性与迁移。**Moderate/直接的局部零结果，L+X。**[Corral, Carpenter, & St. Hilaire, 2023](https://doi.org/10.3758/s13423-023-02268-4)。\n\n与此同时，2024 年 constructive retrieval 实验显示，**自生精细加工**而非仅回忆给定例子改善理解；单独的精细加工也带来类似理解收益。这支持检查组合增加了什么认知操作，而不是把所有更丰富的回答都归因于检索。[Endres, Carpenter, & Renkl, 2024](https://doi.org/10.1016/j.learninstruc.2024.101974)。\n\n对“检索→解释反馈→自我解释”的更直接检验来自在线物理实验：支架要求定位错因，再说明正确概念和使用方法，改善即时纠错与近迁移；泛化的自我解释提示未稳定有效，远迁移未见显著收益。第二项实验招募 110 人、排除后分析 73 人，且没有延迟后测，因而不能将其写成长期迁移证据。**Moderate/直接的短期局部效应，L+X。**[Zhang & Fiorella, 2024](https://doi.org/10.1016/j.cedpsych.2024.102326)。\n\n",
+      "source_ref": {
+        "declared_revision": null,
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 306,
+          "heading": "### 9.4 两个值得保留的非正向结果",
+          "kind": "markdown_heading",
+          "start_line": 297
+        },
+        "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+        "source_id": "R05",
+        "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+      }
+    },
+    {
+      "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+      "body_sha256": "9a8b7b0e0b1e583f605afbc55f4184c1160ea2b3148460f0a5359b6aacff871d",
+      "content_markdown": "### 13.1 最小但有区分力的测量组合\n\n| 要验证的变化 | 建议测验 | 必须加入的控制/对照 |\n|---|---|---|\n| Accessibility | 延迟后的原内容恢复＋不同合理线索恢复 | 不让正确答案在题干中直接出现；区分正确率与速度 |\n| Relational integration | 未练过的跨事实关系题 | 单独测前提保持；必要时提供前提再测，区分访问与推理 |\n| Differentiation | 新的最小差异案例及混淆矩阵 | 同时要求解释诊断特征；不要把非目标遗忘当作正确区分 |\n| Causal understanding | 改变某条件/干预某变量后的预测及理由 | 加入只依表面共现会答错的案例；用可靠领域答案评分 |\n| Abstraction | 表面不同/结构相同，与表面相似/结构不同的交叉测验 | 分别报告四种组合；避免“所有新题都共享显眼线索” |\n| Schema restructuring | 更新前后模型的预测、关系、例外处理 | 测旧场景与新场景；区分新增注释、局部修正和规则改变 |\n| Conditionalization | 不给方法名的新问题，再提供方法提示复测 | 先无提示，避免提示污染自发选择结果 |\n| Transfer | 无提示的识别→映射→执行；另记录提示后能否完成 | 明确迁移距离：内容、表面、情境、时间和功能变化各是什么 |\n| Updating durability | 不同时间/情境下测新答案及旧答案侵入 | 保留旧知识正确适用的场景，检查是否误删仍有效知识 |\n| Source fidelity | 区分学过的事实、推导结论与想象内容 | 不把合理推断自动评分成错误；按任务目标分别计分 |\n\n这是**研究设计建议**。任何一个测验都不直接“读取”内部知识状态；多指标相互约束，才能减少误判。整合也不要求生成一个永久存储的完整答案：能在新情境可靠重建关系本身就是重要结果，但应把它称为重建能力，不强行归因为固定表征。\n\n",
+      "source_ref": {
+        "declared_revision": null,
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 420,
+          "heading": "### 13.1 最小但有区分力的测量组合",
+          "kind": "markdown_heading",
+          "start_line": 404
+        },
+        "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+        "source_id": "R05",
+        "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+      }
+    },
+    {
+      "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+      "body_sha256": "c353e0a61dd16c8baa97e4789bde2183a8438439e13efab88377d5134103511a",
+      "content_markdown": "## 从结果倒推操作\n\n| 首要目标 | 更匹配的操作 | 下一次检验 | 判断与主要依据 |\n|---|---|---|---|\n| **Accessibility** | 恢复目标事实/命题，纠错，再于延迟后换合理线索恢复 | 无提示准确率、速度、跨线索表现 | **Strong/直接**：[检索与间隔综述](https://doi.org/10.1038/s44159-022-00089-1) |\n| **Differentiation** | 恢复相似概念，比较诊断差异，分类并解释排除理由 | 新的最小差异案例、混淆矩阵 | **Moderate**；分类/反馈直接，整条检索链间接：[正反例与反馈](https://doi.org/10.1177/1747021820909454) |\n| **Relational / causal integration** | 恢复关系前提、原理及条件，解释依赖或预测条件变化 | 新关系、机制预测；控制前提可用性 | **Moderate**；学科证据局部直接：[物理原理与条件检索](https://doi.org/10.1103/PhysRevPhysEducRes.18.010136) |\n| **Abstraction / schema** | 恢复多个实例，对齐结构，生成新例与非例并核验 | 表面不同/结构相同，以及表面相似/结构不同 | **Moderate** 的操作证据；完整机制链间接：[关系类别与自发提取](https://doi.org/10.1037/xlm0000974) |\n| **Transfer** | 在变式中自主识别适用知识、映射并执行；逐步去除方法提示 | 先无提示新题，再提示复测，分解失败环节 | 近迁移 **Moderate**，远迁移有限：[变式应用](https://doi.org/10.1037/xap0000142) |\n\n",
+      "source_ref": {
+        "declared_revision": null,
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 31,
+          "heading": "## 从结果倒推操作",
+          "kind": "markdown_heading",
+          "start_line": 22
+        },
+        "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+        "source_id": "R04",
+        "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+      }
+    },
+    {
+      "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+      "body_sha256": "7b6ee7ad96c84952601a5b9a2b07775a69e006f920fae0040de1c33cb002ab2f",
+      "content_markdown": "## 六种组合如何判断\n\n| 组合 | 优先检查的条件 | 证据边界 |\n|---|---|---|\n| Retrieval → Feedback | 是否处理了正确内容及具体差异 | 纠错证据强；先自主作答并非所有任务的必要条件 |\n| Retrieval → Explanation | 原理、前提是否可用；解释有无支架和核验 | 局部理解/近迁移有证据；远迁移另测 |\n| Retrieval → Comparison | 两侧是否都恢复；比较的是诊断结构还是表面 | 比较有效不等于先检索有独立增量 |\n| Retrieval → Analogy | 能否自行找到源例；能否建立角色映射 | 做过原题未必比研究例题更利于新类比 |\n| Retrieval → Problem Solving | 缺的是内容访问、方法选择还是执行 | 不把解题整体当成一个纯检索操作 |\n| Retrieval → Integration → Subsequent Retrieval | 下次是否恢复关系/条件，而非又只问事实 | 完整循环是有依据的模型，尚非逐环验证的统一机制 |\n\n**顺序没有固定赢家。** 2022 年实验支持 R→G，2025/2026 年研究显示互补收益但未支持普遍顺序优势；后两项有材料可见、反馈和修订等条件。[2022](https://doi.org/10.1016/j.learninstruc.2022.101634)；[2025](https://doi.org/10.1037/edu0000949)；[2026](https://doi.org/10.1002/acp.70188)。组合优于一个单策略，不足以证明超加成 synergy。\n\n",
+      "source_ref": {
+        "declared_revision": null,
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 44,
+          "heading": "## 六种组合如何判断",
+          "kind": "markdown_heading",
+          "start_line": 32
+        },
+        "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+        "source_id": "R04",
+        "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+      }
+    },
+    {
+      "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+      "body_sha256": "0efb3aa845aa3e153283067b4619a33b56fb83e910a493e112824e1ebd3704f2",
+      "content_markdown": "## 三个使用边界\n\n1. **知识前提不足时增加可用支架。** 不把 novice 与“不能从检索受益”等同；依据当前错误决定补事实、补关系还是补条件。\n2. **在整合时保留区分与来源。** 连接增多、叙述更连贯，可能伴随错误绑定；总体关系推理也可能因特定前提检索安排受损。[传递推理反例](https://doi.org/10.1177/17470218231156732)。\n3. **延迟更新不自动证明 reconsolidation。** 可以验证新答案、旧侵入和情境选择；“旧痕迹已失稳并被覆盖”仍需独立机制证据。[再巩固评估](https://doi.org/10.3758/s13423-022-02173-2)。\n\n模型使用方式：**目标状态 → 选取恢复内容 → 指定关系操作 → 提供匹配反馈 → 延迟并变式检验**。这是条件化设计框架，不是对每个学习者的固定处方。\n",
+      "source_ref": {
+        "declared_revision": null,
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 51,
+          "heading": "## 三个使用边界",
+          "kind": "markdown_heading",
+          "start_line": 45
+        },
+        "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+        "source_id": "R04",
+        "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+      }
+    },
+    {
+      "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+      "body_sha256": "70ef20e7f937379d31ae8a756aeb03ab8146deed27e3402d60c474b021831877",
+      "content_markdown": "## 五、组合、顺序与相互干扰\n\n### 1. 合并按学习者工作判断\n\n两张卡指向相同材料、相同关键操作和同一可观察变化时，合并为一次活动。可以保留多个来源 ID，并注明各自借用的部分，但只有一份原答和一次事件。例如 S07＋X02 都要求补全同一处有理由的推导，就不安排两次相同填空；D01 与 I08 若落实为同一次角色映射，也不额外复制表格。\n\n同名卡也可能服务不同工作，不能仅按 ID 去重。例如一次 R04 检查模型假设，另一次 R04 检查模型输出是否足以作某项判断；只有后者属于尚未完成的目标要求时才保留。合并不得掩盖不同允许资源、线索、整体性或时间条件。\n\n### 2. 第二项操作必须增加什么\n\n| 条件化组合 | 后项增加的必要工作 | 可跳过、合并或停止的条件 |\n|---|---|---|\n| S05 → S07／X02 → 目标任务 | 从可见范例转为局部承担，再观察目标要求的独立工作 | 原有证据已支持的环节跳过；整体任务已覆盖关键连接时不另做补全 |\n| D02／D01 → D10 的独立判断部分 | 去掉并排对照所提供的线索，观察条件能否主动调用 | 若目标只要求并排比较，不强加混合选用验收 |\n| I01 → I02／D03 → X07 | 从实例落点到排除偶然特征，再形成有边界的概括 | 已有可靠规则且只缺一个应用时，直接实例化，不固定先归纳后规则 |\n| O05／O08 → 可靠解释 → X09 | 利用真实分歧定位修订，并观察新模型如何改变判断 | 没有旧模型不制造误解；没有可兑现反馈不启动冲突活动 |\n| 后续恢复 → 比较／应用 | 先获得目标所需恢复表现，再加工仍未完成的关系 | 恢复不是目标且材料允许查阅时，直接开卷加工；复杂任务已同时完成时合并 |\n| S09 → 整体任务；或已可靠整体 → X10 | 前者检查接口是否可用，后者检查压缩能否支持重建 | 不把组装必经化；能直接完整证明者直接完成，不先拆散 |\n| Post 目标任务 → 局部 Encoding → 原父任务 | 修复有证据定位的结构，再检验它能否接回原任务 | 只是访问问题、算术失误或题意问题时不重建整段结构 |\n\n以上为可复用配置，不是已经验证的最佳顺序。活动可以重叠、交替或整合。复杂工作可以一次保留完整产物，不受统一卡数限制；每次投入仍受当前范围和预算约束。\n\n### 3. 组合之前要排除的干扰\n\n| 干扰 | 处理办法 |\n|---|---|\n| 先给方法名／完整模型，再声称测自主选择或恢复 | 所需的初始表现先保存；已发生暴露就限定结论或另提合格检查，隐藏答案不能撤销历史 |\n| 同时改变数据、表示、情境和前置，无法解释错误来源 | 如果目的是诊断，收缩到会改变判断的差异；若目标本来是综合适应，可保留复杂变化，但不从失败直接归因单一缺口 |\n| 比较太多候选而学习者尚不能跟踪任何一个 | 先提供必要解释，减少同时呈现范围；不以“辨析更深”为由持续加候选 |\n| 连续题都暗示同一种方法 | 教学可以这样组织；要支持更广自主选择时另用不泄露方法的合格情境，并保留近端线索限制 |\n| 错误预测没有反馈、反馈未回应初始尝试 | 补齐可靠纠正及对应关系；兑现不了就不采用该组合 |\n| 压缩、类比或可视化省略必要条件 | 回到原参考核查；只保留合法映射，恢复目标不可丢失的信息 |\n| 多卡造成重复原答、重复计证或无用途产物 | 以实际认知工作合并，删去不能改变下一步的重复活动与记录 |\n\n",
+      "source_ref": {
+        "declared_revision": "v0",
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 200,
+          "heading": "## 五、组合、顺序与相互干扰",
+          "kind": "markdown_heading",
+          "start_line": 167
+        },
+        "project_relative_path": "../docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+        "source_id": "D07",
+        "workspace_relative_path": "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+      }
+    },
+    {
+      "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+      "body_sha256": "8efe03efbc21b8f4431256065ae1ddfe82dc3d9a0b9204b1de49d13c21953054",
+      "content_markdown": "## 六、从通用卡片到可执行任务\n\n### 1. 实例化规格\n\n**具体任务仍属于 5 的活动设计。**6 提供可复用的适配要求，可以辅助生成候选题面、变式与反馈分支；5 对照内容依据、实际帮助和目标要求确认后，写入同一份 C0 活动规格。内容核验仍由 4 的规则约束。已有题面满足要求时复用，不为证明 6 已参与而重新生成。\n\n| 要素 | 6 提供的适配要求 | 5 落实的具体内容 |\n|---|---|---|\n| 用途及目标 | 方法能服务的工作类型及适用限制 | 教学／诊断／检查用途，目标与判据、本次范围、预期变化 |\n| 来源与改动 | 库版本、卡 ID、可合并部分、变更后的检查项 | 实际选用与未执行候选，删减、改顺序或新增方法的理由 |\n| 内容与材料 | 方法需要的案例、对照、参考及反馈条件 | 对象、题面、数据、定义域、版本、合法答案及核验依据 |\n| 变化与保持 | 哪些结构与条件必须保留，哪些变化会增加前置或改变用途 | 本题实际改变和保持什么；新前置是否已满足 |\n| 工作分配 | 哪种帮助会代做哪项目标操作 | 可见材料、工具、已知暴露、教师参考、备用帮助及学习者工作 |\n| 产物与判据 | 方法产物可支持及不能支持的变化 | 引用原目标判据，接受合法多解、拒用与信息不足 |\n| 反馈与分支 | 可复用的替换、停止条件及必要纠正 | 内容特定反馈、实际帮助、局部返回与活动收束 |\n| 结果与去向 | 使用配置与预期不符时应回传什么 | 原答引用、实际结果、剩余要求、成本与后续需求，提交 7 并接收处理结果 |\n\n执行前分别核查三件事：内容与参考是否正确；任务是否确实需要学习者完成目标操作；预定证据解释是否符合真实条件。库里有研究引用不替代这三项核查，正确教师参考也不能证明题目没有泄露关键方法。\n\n### 2. 帮助按作用记录\n\n“给了一点提示”不够具体。记录它给出了对象定义、候选规则、选择方向、关键等式、角色映射还是完整答案。允许给足以继续的支持；不要求按固定三级提示逐层试。S10 原卡中的阶梯是候选配置，实际采用时仍须按具体卡点和作用调整。\n\n帮助前后的表现分开解释，原始尝试保留。用户要求示范或答案时可转教学，不能为了保持测评外观拒绝必要帮助；转教学后的成功按新条件记录。同一任务支持多项目标工作时复用原答，不将其算成多次独立成功。\n\n### 3. 卡片验收与课程验收的关系\n\n卡片的“新例、撤提示、延迟、反例”等要求，首先约束它所声称的学习变化。如果本次只借用示范或比较部分，就写明实际配置与完成范围，不称整条卡片目标已完成。是否还需独立、迁移或延迟证据，由正式目标决定。\n\n例如 I01 的典型例可以完成一次概念输入，但不能据此声称跨例概括；目标只要求在给定例中标注角色时，可以结束这一目标，无需为满足卡片完整训练设想另造目标外欠账。目标要求自主方法选择时，则不能因某卡的并排比较已经做完而省掉该项要求。\n\n",
+      "source_ref": {
+        "declared_revision": "v0",
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 231,
+          "heading": "## 六、从通用卡片到可执行任务",
+          "kind": "markdown_heading",
+          "start_line": 201
+        },
+        "project_relative_path": "../docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+        "source_id": "D07",
+        "workspace_relative_path": "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+      }
+    },
+    {
+      "body_normalization": "UTF-8；仅把CRLF统一为LF；保留原文及原链接。",
+      "body_sha256": "87d05715c4b0465995d160ab6b754985141b48f3fd738f7aca26c754c4844307",
+      "content_markdown": "## 七、时间与证据：教学进展、当前可用和持久可用分别成立\n\n### 1. 检查应对应原目标声称的能力\n\n| 需要支持的结论 | 合适的观察 | 不能单独替代它的表现 |\n|---|---|---|\n| 在规定入口准确恢复 | 目标条件下恢复所需事实、条件或关系 | 看见答案后复述；只认固定卡片外形 |\n| 在允许输入下形成关系 | 给定合格前提后作出正确连接或论证 | 前提各自答对，或者 AI 画好全部关系 |\n| 自主选用、映射并执行 | 不泄露方法的任务中完成相关工作 | 给方法后的执行，或只换数字的同题 |\n| 区分边界与抽象结构 | 目标范围内的正例、近邻非例及结构变化 | 背定义；只识别全部具有同一表面线索的练习 |\n| 一般论证或方法构造 | 完整合法论证、构造理由及目标要求的边界检验 | 若干算例、工具跑通、公式回忆 |\n| 更新后选择可靠 | 正确使用新信息，区分仍有效旧场景；需要时观察旧错复发 | 即时改答，或只熟悉一个反例 |\n| 在目标时段保持可用 | 相应延迟与再接触条件下的实际表现 | 即时流畅、已经过夜、完成了计划中的复习次数 |\n\n检查条件可以在一个合格任务中兼有；同一原答只有一份证据，不因同时涉及恢复、选择、推理而计成三次独立成功。多个 Agent 重评同一答案也不增加独立观察。\n\n学习目的下的帮助后成功可以很有价值。它既不自动完成更宽的验收，也不需要被归为“没有学会”。3 继续维护原有“结论范围＋证据状况”，Post-Encoding 只提供表现与解释线索。\n\n### 2. 时间按相关工作和事件解释\n\nC0 记录发生时间、相关学习／练习／反馈时间及已知再接触。本专项在需要解释时区分：初始 Encoding 至恢复、恢复至反馈、反馈至后测、相邻练习之间的间隔。不是每次都新增四个字段；已有事件引用能够复原关系即可。\n\n不同关系可能有不同历史。一个月前学过整个主题、昨天只修订了一项条件，今天完成综合任务时：旧有部分可保留自己的历史，新修订条件只能据昨天以来的实际情况解释。既不能把整段能力都标为“一个月保持”，也不能把全部旧证据归零。\n\n**具体时间走查（假设）：**9 月 1 日建立总体均值关系；9 月 20 日完成一次无提示的同类任务；9 月 28 日观看完整解答并修订“两个均值总能直接平均”的说法；9 月 29 日在新题答对。此次距离初学 28 天，距离该次反馈 1 天。它支持实际资源条件下的当前表现，并可描述为该次反馈后 1 天的表现；不能称为“28 天无再学习保持”或证明新修订保持了 28 天。9 月 20 日原答的有效部分仍保留；若它与后来的错误冲突，交 3 按任务与条件重审。\n\n已知接触注明内容、时间和信息来源；未知接触写未知。近期看到材料只影响其实际提供的信息和拟作结论，不机械重置所有计时，也不使随后所有自主工作无效。若原目标要求一段无相关再学习的间隔，这段条件被破坏时，保留当前表现并另提合格检查需求；若目标本就允许持续使用中的保持，则按该条件解释。\n\n### 3. 跨时间检验会反过来影响学习\n\n延迟检查失败时，先保存此次表现，再提供必要教学；其后的成功带有新的帮助与时间背景。一次检查也可能强化知识，后续结果应承认其间已经发生练习，不能把多次后测都当作未受干预的自然保持。\n\n已有目标条件下的充分证据时，可减少重复投入。日期过去不会自动把能力判为衰退；近期有同条件可靠使用记录时，也可以复用，不另造一场测验。判断时效由目标的实际使用要求、变化与相关反证决定。\n\n保持未知可以与后续学习并存。只限制需要以保持为前提的重要决定，不一律堵住新内容。目标没有要求持久性或更广迁移时，将它们作为结论边界即可，不追加必修欠账。\n\n### 4. Consolidation 与 Reconsolidation 的位置\n\n系统支持合理分布练习与未来观察，允许离线过程参与变化；“巩固完成”不是可从睡眠或时间经过直接读取的节点。也不设置“已打开再巩固窗口”“旧记忆已擦除”等状态。\n\n可靠更新与后续检查可以依据可观察表现运行，无须先确认特定神经机制。睡眠参与记忆巩固的研究支持宏观认识，不据此制定定向重放、固定小时窗口或每次睡眠自动抽象的教学承诺。\n\n【继承】2／3 第五、六、九节；C0 第五、六、八节。【研究支持】PE §6、§8.3、§10、§13；台账 E01、E22、E42—E49。具体时间解释、任务对应和取舍是本版设计；未知条件不补写成事实。\n\n",
+      "source_ref": {
+        "declared_revision": "v0",
+        "identity_kind": "document_section",
+        "locator": {
+          "end_line": 289,
+          "heading": "## 七、时间与证据：教学进展、当前可用和持久可用分别成立",
+          "kind": "markdown_heading",
+          "start_line": 246
+        },
+        "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+        "source_id": "D06",
+        "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+      }
+    }
+  ],
+  "source_refs": [
+    {
+      "declared_revision": "v0",
+      "identity_kind": "document_section",
+      "locator": {
+        "end_line": 192,
+        "heading": "### 3. 自主选用与迁移：把识别、映射和执行分别看清",
+        "kind": "markdown_heading",
+        "start_line": 185
+      },
+      "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "source_id": "D06",
+      "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+    },
+    {
+      "declared_revision": "v0",
+      "identity_kind": "document_section",
+      "locator": {
+        "end_line": 263,
+        "heading": "### 1. 检查应对应原目标声称的能力",
+        "kind": "markdown_heading",
+        "start_line": 248
+      },
+      "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "source_id": "D06",
+      "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+    },
+    {
+      "declared_revision": null,
+      "identity_kind": "document_section",
+      "locator": {
+        "end_line": 174,
+        "heading": "### 5.5 更可能促进 transfer：练习发现何时用，再练如何用",
+        "kind": "markdown_heading",
+        "start_line": 162
+      },
+      "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+      "source_id": "R05",
+      "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+    },
+    {
+      "declared_revision": null,
+      "identity_kind": "document_section",
+      "locator": {
+        "end_line": 306,
+        "heading": "### 9.4 两个值得保留的非正向结果",
+        "kind": "markdown_heading",
+        "start_line": 297
+      },
+      "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+      "source_id": "R05",
+      "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+    },
+    {
+      "declared_revision": null,
+      "identity_kind": "document_section",
+      "locator": {
+        "end_line": 420,
+        "heading": "### 13.1 最小但有区分力的测量组合",
+        "kind": "markdown_heading",
+        "start_line": 404
+      },
+      "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+      "source_id": "R05",
+      "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+    },
+    {
+      "declared_revision": null,
+      "identity_kind": "document_section",
+      "locator": {
+        "end_line": 31,
+        "heading": "## 从结果倒推操作",
+        "kind": "markdown_heading",
+        "start_line": 22
+      },
+      "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+      "source_id": "R04",
+      "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+    },
+    {
+      "declared_revision": null,
+      "identity_kind": "document_section",
+      "locator": {
+        "end_line": 44,
+        "heading": "## 六种组合如何判断",
+        "kind": "markdown_heading",
+        "start_line": 32
+      },
+      "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+      "source_id": "R04",
+      "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+    },
+    {
+      "declared_revision": null,
+      "identity_kind": "document_section",
+      "locator": {
+        "end_line": 51,
+        "heading": "## 三个使用边界",
+        "kind": "markdown_heading",
+        "start_line": 45
+      },
+      "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+      "source_id": "R04",
+      "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+    },
+    {
+      "declared_revision": "v0",
+      "identity_kind": "document_section",
+      "locator": {
+        "end_line": 200,
+        "heading": "## 五、组合、顺序与相互干扰",
+        "kind": "markdown_heading",
+        "start_line": 167
+      },
+      "project_relative_path": "../docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+      "source_id": "D07",
+      "workspace_relative_path": "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+    },
+    {
+      "declared_revision": "v0",
+      "identity_kind": "document_section",
+      "locator": {
+        "end_line": 231,
+        "heading": "## 六、从通用卡片到可执行任务",
+        "kind": "markdown_heading",
+        "start_line": 201
+      },
+      "project_relative_path": "../docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+      "source_id": "D07",
+      "workspace_relative_path": "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+    },
+    {
+      "declared_revision": "v0",
+      "identity_kind": "document_section",
+      "locator": {
+        "end_line": 289,
+        "heading": "## 七、时间与证据：教学进展、当前可用和持久可用分别成立",
+        "kind": "markdown_heading",
+        "start_line": 246
+      },
+      "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "source_id": "D06",
+      "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+    },
+    {
+      "declared_revision": null,
+      "identity_kind": "literature_entry",
+      "locator": {
+        "end_line": 78,
+        "heading": "### E11｜Butler, A. C., Black-Maier, A. C., Raley, N. D., & Marsh, E. J.（2017）",
+        "kind": "markdown_heading",
+        "start_line": 73
+      },
+      "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+      "source_id": "R06",
+      "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+    },
+    {
+      "declared_revision": null,
+      "identity_kind": "literature_entry",
+      "locator": {
+        "end_line": 84,
+        "heading": "### E12｜Corral, D., Carpenter, S. K., & St. Hilaire, K.（2023）",
+        "kind": "markdown_heading",
+        "start_line": 79
+      },
+      "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+      "source_id": "R06",
+      "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+    },
+    {
+      "declared_revision": null,
+      "identity_kind": "literature_entry",
+      "locator": {
+        "end_line": 90,
+        "heading": "### E13｜Snoddy & Kurtz（2021）",
+        "kind": "markdown_heading",
+        "start_line": 85
+      },
+      "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+      "source_id": "R06",
+      "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+    },
+    {
+      "declared_revision": null,
+      "identity_kind": "literature_entry",
+      "locator": {
+        "end_line": 102,
+        "heading": "### E15｜Foss, D. J., Pirozzolo, J. W., & Kulesz, P. A.（2023）",
+        "kind": "markdown_heading",
+        "start_line": 97
+      },
+      "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+      "source_id": "R06",
+      "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+    }
+  ],
+  "source_version": null,
+  "stop_or_return_conditions": [
+    "目标内当前工作已有充分证据时结束；不为展示策略制造额外活动。",
+    "预算结束、用户暂停、无新增信息或参考争议时保存已做/未做与恢复点。",
+    "局部可用即回同一父任务；保留父任务卡点、已有支持、局部够用条件、返回位置与预算。",
+    "局部成功而父任务仍失败时重审接口、整体组织、额外前置或诊断；不无限下钻。",
+    "目标只缺未来时间条件时收束，给同一目标内需求；不即时加题补未来证据。"
+  ],
+  "time_constraints": {
+    "fixed_retrieval_first": false,
+    "fixed_spacing_interval": null,
+    "follows_goal_spec": true,
+    "required_events": "按相关学习、练习、帮助/反馈与已知再接触事件解释；不编造时间。"
+  }
+}

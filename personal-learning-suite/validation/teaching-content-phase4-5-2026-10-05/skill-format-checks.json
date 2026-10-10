@@ -1,0 +1,30 @@
+{
+  "scope": "entry format only",
+  "results": [
+    {
+      "skill": "learning-goals",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "skill": "learning-materials",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "skill": "learning-assessment",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "skill": "learning-planning",
+      "exit_code": 0,
+      "output": "Skill is valid!",
+      "error": ""
+    }
+  ],
+  "teaching_effectiveness_tested": false
+}

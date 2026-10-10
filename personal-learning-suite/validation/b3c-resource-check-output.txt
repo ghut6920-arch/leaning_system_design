@@ -1,0 +1,1 @@
+{"passed": true, "mode": "check", "resource_revision": "pl-strategies/0.1.0", "files": 11, "encoding_index": 60, "compiled_encoding": ["S07", "X02", "R09"], "post_notes": 4, "external_references_verified": false}
