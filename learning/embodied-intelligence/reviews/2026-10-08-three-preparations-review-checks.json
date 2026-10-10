@@ -1,0 +1,29 @@
+{
+  "client_date": "2026-10-08",
+  "status": "pass",
+  "protected_existing_files": 198,
+  "existing_course_and_candidate_files_unchanged": true,
+  "framework_or_state_changed": false,
+  "private_hash_list_published": false,
+  "learner_execution": false,
+  "pytorch_executed": false,
+  "blind_review": false,
+  "local_links_checked": 8,
+  "broken_local_links": [],
+  "framework_entries_checked": 117,
+  "framework_mismatches": [],
+  "new_candidate_resource_mismatches": [],
+  "source_hash_summaries": [
+    {
+      "packet": "2026-10-08-video-interface-single-model",
+      "checked": 18,
+      "mismatches": []
+    },
+    {
+      "packet": "2026-10-08-video-interface-independent-02",
+      "checked": 61,
+      "mismatches": []
+    }
+  ],
+  "new_candidate_reference_checks_passed": 13
+}

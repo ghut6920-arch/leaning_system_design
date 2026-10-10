@@ -1,0 +1,458 @@
+{
+  "scope": "Existing real learning records and current entry files only. Comparison preparation tests excluded and unread.",
+  "captured_at": "2026-10-09T00:46:20.6026235+08:00",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "01100f12aa2c58bc54329bb59169594491e6ab623cb9ecb70df00b3d94134d51"
+    },
+    {
+      "path": "artifacts/M0-video-interface-working-view-20261007.md",
+      "sha256": "fa8f3ffbc4293ed6d18bd76d0c25292b59dc13159f03e7ee607093d8ccf46149"
+    },
+    {
+      "path": "assessment/M0-video-interface-closure-review-20261007.md",
+      "sha256": "30f8fbd6047262279e0816e4a10ab7e96345926f36581bb0c49ab0664de0ae84"
+    },
+    {
+      "path": "assessment/README.md",
+      "sha256": "a49bb1229c9e0fd74aa544366cf2738d665ff3021431157dad1749a190fceff2"
+    },
+    {
+      "path": "experiments/M0/20261006-interface-demo-check.md",
+      "sha256": "ab12757f834a2dcdfa58c7aa9e27198ed84c54f08b843db8d4c0611e761ecf04"
+    },
+    {
+      "path": "experiments/M0/video-interface-sequence-teacher-check-20261007.json",
+      "sha256": "3cd796a650c11be51f6dc000a595e527166977208f15b143d18ffb2209af3e14"
+    },
+    {
+      "path": "experiments/README.md",
+      "sha256": "fc24893a907c730816d865f326f431603c575502b36a070171a028782ad7a535"
+    },
+    {
+      "path": "framework-manifest.json",
+      "sha256": "25ed2397a116b1b09955ba18a32f4e8e94bb96ce203d87365f257730ed4a6bdc"
+    },
+    {
+      "path": "FRAMEWORK.md",
+      "sha256": "185126dc92263b321c94139c852cc2d900cdeac0448cd172d7a9eb2cbc315f95"
+    },
+    {
+      "path": "goals/course-goals-draft.md",
+      "sha256": "185a094cecee09a9c36cbdb1b193d574726cf901dc04071098d33e7c90b63b97"
+    },
+    {
+      "path": "goals/M0-practice-001.md",
+      "sha256": "ef9dc37ea7eea6f1e27e60ea91706f224f29d76472dccb08de6614c20daa16ca"
+    },
+    {
+      "path": "goals/M0-shape-001.md",
+      "sha256": "0f90fc9b16b0d68f5cdc1c952641a04627774edaeeddeee5c4f350ade3973e81"
+    },
+    {
+      "path": "goals/M0-video-interface-first-20261006-02.md",
+      "sha256": "dd8e882a60fb63688133dca8dd4be04a38cd0d2a8f4a757d320611c01ef9d3b1"
+    },
+    {
+      "path": "INTERACTION.md",
+      "sha256": "31c334e7a14965c1825cf0d9cfc5802219f7dddbba1a20a211b6ef098d398cca"
+    },
+    {
+      "path": "materials/embodied-framework-v1.md",
+      "sha256": "1b95f2f9fa75badf4fd7f9ac09c46f89e8e31ab62b2c3648ba52e6a6d528fef1"
+    },
+    {
+      "path": "materials/M0-video-feature-sequence-20261007-sources.md",
+      "sha256": "d7cf7eea15e0c96d2d0825c2196727b07e48feb08747a4f2c97c01ade8a95cc6"
+    },
+    {
+      "path": "materials/M0-video-interface-20261006-02-sources.md",
+      "sha256": "887148654fa6c961cccd3c78c20d5d2660f144c554eac8251d03552e77ed070f"
+    },
+    {
+      "path": "materials/sources.md",
+      "sha256": "b989992b59d9dc5ef0264c36ec18a4b04fd3f7a198215023d80088f0e6651ed9"
+    },
+    {
+      "path": "MODEL_ENTRY.md",
+      "sha256": "cd934d17d932eedfe8d7ca5eb9334770bca9036345002bcfd0063d3e111d41cb"
+    },
+    {
+      "path": "plan/current.md",
+      "sha256": "851102edb24aabaffbe0cff20b0c04535b12f1e6827b4e58c80c60526bd9cbc0"
+    },
+    {
+      "path": "plan/needs.md",
+      "sha256": "010c5d2a59df26656ee1bd8219b07a44d5f367a310c16c08daf304ff778d5348"
+    },
+    {
+      "path": "questions/backup/M0-axis-labels-001-v1.md",
+      "sha256": "a14ec98386b4b4f8f6e7f43738bedda37226fd64bd97929ba1ef37b161d98867"
+    },
+    {
+      "path": "questions/backup/M0-frame-encoding-order-20261008-v1.md",
+      "sha256": "4491c7236763792899131be6814dd99ecd4c656472859d01c8a11e03b3f9964e"
+    },
+    {
+      "path": "questions/backup/M0-frame-identity-plain-20261007-v1.md",
+      "sha256": "e5b01d0c326af12984bc4e734057b0f9546e430794a0a81991ab630d93444630"
+    },
+    {
+      "path": "questions/backup/M0-video-interface-20261006-02-v1.md",
+      "sha256": "5363df76f7d4e0a5998c67d0339e1116bdaf4967a5c4029c905c1bc52f151a4e"
+    },
+    {
+      "path": "questions/backup/M0-video-interface-identity-20261006-02-v1.md",
+      "sha256": "3ba68aa0b75b48687eaf78cddb02f8a3b4f18d0ad4014339d5599b441765db14"
+    },
+    {
+      "path": "questions/preparation-tests/2026-10-08-01a11b49/backup/support.md",
+      "sha256": "2966a4f26f3758ee065cd69b4060f943a7483092aa289bb6b550db86bdbf8a56"
+    },
+    {
+      "path": "questions/preparation-tests/2026-10-08-01a11b49/teacher-reference/reference.md",
+      "sha256": "dd0ecf2b221291340e142fea624ee91e7034c2e0e31ca51bf830652698dcabe8"
+    },
+    {
+      "path": "questions/preparation-tests/2026-10-08-01a11b49/visible/first-reply.md",
+      "sha256": "9ba7a4e680d0aea288620cfd656ac55e923affad705a96dcd936c92fad5bc27e"
+    },
+    {
+      "path": "questions/preparation-tests/2026-10-08-01a11b49/visible/materials.md",
+      "sha256": "4b753d945f625b3c0bfacaffe0831ef9b2c4a86c07d2b93f1c63916663801daa"
+    },
+    {
+      "path": "questions/preparation-tests/2026-10-08-01a11b49/visible/tasks.md",
+      "sha256": "2a77848d9238eb1a15f0b64db71d51f932c88a1d509b9d55ba1154d887eb5535"
+    },
+    {
+      "path": "questions/README.md",
+      "sha256": "be2558963915216bb617dc2789e718dd7a69e6d6c3ba5c893b3ce0170eda133c"
+    },
+    {
+      "path": "questions/teacher-reference/M0-broadcast-20261006-v1.md",
+      "sha256": "6bfa07cc2598752eb2da09a61511ee46ec2d2157d5b7b669a8a1a67b406e37db"
+    },
+    {
+      "path": "questions/teacher-reference/M0-first-20261006-001-v1.md",
+      "sha256": "91af27ca7e2f830a586f569a6e391261c894b5cfdca9ccfd5173481751940e03"
+    },
+    {
+      "path": "questions/teacher-reference/M0-interface-20261006-001-v1.md",
+      "sha256": "c2379cf504afbb85dba0803729eee45949c4520ba49448d4e15e78686bd1d42a"
+    },
+    {
+      "path": "questions/teacher-reference/M0-matmul-20261006-v1.md",
+      "sha256": "06cb245e95b410cc1435bf414224988be576dbe7dcf17577446776e774152aaf"
+    },
+    {
+      "path": "questions/teacher-reference/M0-practice-001-v1.md",
+      "sha256": "aaa54cbeee58c70c80b7d01b61ff166ba72e5f6b41f6c0965ec1f7c26cff19d1"
+    },
+    {
+      "path": "questions/teacher-reference/M0-preprocess-20261006-v1.md",
+      "sha256": "e9cd3a32e1d7d4d794ea48c76f733d7747a40075a77cb9cd4883e4a77818829d"
+    },
+    {
+      "path": "questions/teacher-reference/M0-restart-001-v1.md",
+      "sha256": "de562e1b18a161f151de47002cec8764162e5a575674be2b0dcac475aa62f1a9"
+    },
+    {
+      "path": "questions/teacher-reference/M0-shape-001-v1.md",
+      "sha256": "0110991a0d74320f6080c6476862c2eb08ea4a0fb31de973ed7753b65ba640b2"
+    },
+    {
+      "path": "questions/teacher-reference/M0-video-feature-sequence-20261007-v1.md",
+      "sha256": "7cf75d4cbf24c81359f1d0f340ddfa7faeaee59214b8933ad613205c063d4f32"
+    },
+    {
+      "path": "questions/teacher-reference/M0-video-interface-20261006-02-v1.md",
+      "sha256": "93d0716adb9e573df603f8c4d6323359b460531ef4b9f3e72902f8e51b913bcf"
+    },
+    {
+      "path": "questions/visible/M0-axis-001-v1.md",
+      "sha256": "c8b67f05d589c01915700f86695b2803affbce96401b8514798b479f2e627310"
+    },
+    {
+      "path": "questions/visible/M0-axis-compare-001-v1.md",
+      "sha256": "3036561e566aceec278755591cab4ce158530b346654800423008c29ce8a9573"
+    },
+    {
+      "path": "questions/visible/M0-axis-order-001-v1.md",
+      "sha256": "4711b37e2990ec4ad7cf47ed7937170b3c549bdd6cb10f1cda62b5915b877d92"
+    },
+    {
+      "path": "questions/visible/M0-broadcast-20261006-v1.md",
+      "sha256": "4c74acc866dc5e61a2b2dff3babf9f3dc1ca890458575f715c8d313bb1c00c95"
+    },
+    {
+      "path": "questions/visible/M0-first-20261006-001-v1.md",
+      "sha256": "319d7656626cef444a59dd388890a143cb36eabe34b0d4daabe51d294dc8caec"
+    },
+    {
+      "path": "questions/visible/M0-interface-20261006-001-v1.md",
+      "sha256": "d98803bec593986651d3a4030851b98c51679e707c0661e717c8badb4b72cb86"
+    },
+    {
+      "path": "questions/visible/M0-matmul-20261006-v1.md",
+      "sha256": "ac7ce64690a09aa5b319820d9c017bbd8d1a2f7d518d5b3ec32d89433017064f"
+    },
+    {
+      "path": "questions/visible/M0-practice-001-v1.md",
+      "sha256": "485c2235f2282e23e63618aec50a4d321dde6e3adecfb542a33b469f575aefd4"
+    },
+    {
+      "path": "questions/visible/M0-preprocess-20261006-v1.md",
+      "sha256": "175c2374305a48c80692d89ca8368b4b92a56bc39e4d69feeb7d4e6eff950f78"
+    },
+    {
+      "path": "questions/visible/M0-rank-001-v1.md",
+      "sha256": "781de4c4fe82b8aeb5eb9fb54e7aced953be5867407a048dc27a6c0e3cf9c142"
+    },
+    {
+      "path": "questions/visible/M0-restart-001-v1.md",
+      "sha256": "66870ecda4dffca7a672841d2c7892bf4c401b642aa886a5b0ebaf67f30d81f1"
+    },
+    {
+      "path": "questions/visible/M0-second-learning-20261007-001-v1.md",
+      "sha256": "72c68356c1ef51328484e66528f534c01b847710d30e501832eebdb4d80e18bd"
+    },
+    {
+      "path": "questions/visible/M0-shape-001-v1.md",
+      "sha256": "a3fa972234281b64e038e5d4879b2fb5d82d13c7bc8d23a8a147796b6a69144e"
+    },
+    {
+      "path": "questions/visible/M0-video-feature-sequence-20261007-v1.md",
+      "sha256": "e9c246e376cf0a74f90418f2d4c7766dfa18e3a312b046d1bbe96384e0609593"
+    },
+    {
+      "path": "questions/visible/M0-video-interface-20261006-02-001-v1.md",
+      "sha256": "e44338cd620d83f9a29d0654b7afa26f49532baefb2cc2a7a914ffa35b000278"
+    },
+    {
+      "path": "questions/visible/M0-video-interface-20261006-02-002-v1.md",
+      "sha256": "139eb1358f34c4a6e7a6d6a2bdea3a3455a70ac31ef59bdeadeda7e14a23fc08"
+    },
+    {
+      "path": "sessions/2026-10-04-01/event-M0-axis-001.md",
+      "sha256": "b85329e1f3187f5730c7c451ab17f9bda3a21f1d2792cc8d1ced4f3b03857b38"
+    },
+    {
+      "path": "sessions/2026-10-04-01/event-M0-axis-compare-001.md",
+      "sha256": "e6fbb9eb7fc555afcd21fcfddd30c846d2a00aba1b2db0492125dcffa5f14603"
+    },
+    {
+      "path": "sessions/2026-10-04-01/event-M0-axis-order-001.md",
+      "sha256": "b3b7ff48c12eee1cd16bba8c301857024fcfb7818fb87abbe3b5d12bfc73d56e"
+    },
+    {
+      "path": "sessions/2026-10-04-01/event-M0-practice-001.md",
+      "sha256": "7f608ffc764ef5b78bcbdc76a1aadaee80a0ca6d45244b9030e6a12a230f5720"
+    },
+    {
+      "path": "sessions/2026-10-04-01/event-M0-rank-001.md",
+      "sha256": "3a3584a0ec8cb4d89e63450cd85bd786cd14ba472418dd2683b83808324df8ab"
+    },
+    {
+      "path": "sessions/2026-10-04-01/event-M0-shape-001.md",
+      "sha256": "ae47d1bf3821b63c3ef24fdc6e5d9d690458150c06c9bb7536c974ca604b8d7a"
+    },
+    {
+      "path": "sessions/2026-10-04-01/raw/entry-001.txt",
+      "sha256": "3feada511ac6f9e753397e9e41076e8e5ed2bc2d5c7e832b1877e37e5897692e"
+    },
+    {
+      "path": "sessions/2026-10-04-01/raw/environment-001.txt",
+      "sha256": "0ef5c86fab94f13a7b7d54aa531ceb5d586cd9ebee98198ad975df3852da824a"
+    },
+    {
+      "path": "sessions/2026-10-04-01/raw/M0-axis-001-initial.txt",
+      "sha256": "1724893ce3ea79621dfde52c241219cb76d42a6a16a635dba26600594a580d0e"
+    },
+    {
+      "path": "sessions/2026-10-04-01/raw/M0-axis-compare-001-initial.txt",
+      "sha256": "e2677d6b55718d5eb87120ba0653f493a41c76e9949aaf6e4b4a1ba701f234d8"
+    },
+    {
+      "path": "sessions/2026-10-04-01/raw/M0-axis-compare-001-revision-001.txt",
+      "sha256": "569a3ecd9fc95a0e0be378e8f754575ff93e25f6b24edec2d27483828cf4c90c"
+    },
+    {
+      "path": "sessions/2026-10-04-01/raw/M0-axis-order-001-initial.txt",
+      "sha256": "d3cbd0dc1ab8407dfd0c53383f9cd1d179af1672ef12efcd18f9d07dfbfd11a4"
+    },
+    {
+      "path": "sessions/2026-10-04-01/raw/M0-practice-001-output-001.txt",
+      "sha256": "a708bc100b3d5534c8a10d1da7371cfaa7eb5dcbdff85456bb4ef38ebcc1a422"
+    },
+    {
+      "path": "sessions/2026-10-04-01/raw/M0-rank-001-initial.txt",
+      "sha256": "5c8e8d018370556c0d85fc973b166ebe63483c83d40d6f06508df60b0237a6bc"
+    },
+    {
+      "path": "sessions/2026-10-04-01/raw/M0-shape-001-completion-001.txt",
+      "sha256": "6f4f5675543da4fa57d9e6ab6cf909720c9b0867947ed636617f663ca4f94ae5"
+    },
+    {
+      "path": "sessions/2026-10-04-01/raw/M0-shape-001-initial.txt",
+      "sha256": "4912c85d2b4d43c259898b14ec936b366c8d92f63d41173deeb7918aa56b5248"
+    },
+    {
+      "path": "sessions/2026-10-04-01/raw/mental-representation-feedback-001.txt",
+      "sha256": "9829856b96dff452a4407bc9be9d033d0734664653e33cc0815350ccb36888c8"
+    },
+    {
+      "path": "sessions/2026-10-04-01/raw/teaching-role-question-001.txt",
+      "sha256": "0799063c23060ac4cff541a78b93e3aa617c8de2c6a7b23942101a83312f793c"
+    },
+    {
+      "path": "sessions/2026-10-04-01/session.md",
+      "sha256": "ba6056aac792ab7f38fedec54d3d4bddb4841f516123b8a9b900def333e70ff4"
+    },
+    {
+      "path": "sessions/2026-10-05-01/raw/entry-001.txt",
+      "sha256": "da08ca5bd966c1cae0f4730c16eec50db19816817af368734abac522546066ea"
+    },
+    {
+      "path": "sessions/2026-10-05-01/session.md",
+      "sha256": "50bfa34509a3f64fb4c941763a778a4a5d402c0485dec38fc874dd6d217075ec"
+    },
+    {
+      "path": "sessions/2026-10-06-01/checkpoint.md",
+      "sha256": "929c4d657ebd44d8e441f622778b5e13f67a914b71a7c778c3ad4f8e3e033026"
+    },
+    {
+      "path": "sessions/2026-10-06-01/event-M0-broadcast-001.md",
+      "sha256": "7faa15b7f1bcbf2eef32f1ae6eb9eb69a2b35516dc019e7ef1efdbcd4132de70"
+    },
+    {
+      "path": "sessions/2026-10-06-01/event-M0-first-001.md",
+      "sha256": "e1afa00b50b18e16c61b56da43ad60c25b030230e5724ec1a447b8a3a6a5a52a"
+    },
+    {
+      "path": "sessions/2026-10-06-01/event-M0-interface-001.md",
+      "sha256": "8c3e3c1735a85ce40efb8148693988bee98bb30e95cf4a58736719a1d6006054"
+    },
+    {
+      "path": "sessions/2026-10-06-01/event-M0-preprocess-001.md",
+      "sha256": "2fd4178b8b7114df078c8a7da1245d4ea3b03cc62b4c320a456ba034b197be82"
+    },
+    {
+      "path": "sessions/2026-10-06-01/raw/continue-001.txt",
+      "sha256": "7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f"
+    },
+    {
+      "path": "sessions/2026-10-06-01/raw/continue-002.txt",
+      "sha256": "7c9691192f1b73408bbe4c0cb6d00db94375ca9d8fce0a0d5985e7a5178f083f"
+    },
+    {
+      "path": "sessions/2026-10-06-01/raw/continue-003.txt",
+      "sha256": "8ed9c2b8bee2a5c920744aa2bfdc5218defbf05cebe525034cd773c8537267ef"
+    },
+    {
+      "path": "sessions/2026-10-06-01/raw/continue-004.txt",
+      "sha256": "da8b61e82d69029a2778bdffa543ae3ed90f24c2c0f3c3be7a36b49694c19db9"
+    },
+    {
+      "path": "sessions/2026-10-06-01/raw/entry-001.txt",
+      "sha256": "a8747f2c72b36baacaee6a77790a15fc44068c6341808904d2c97b49ceb5e059"
+    },
+    {
+      "path": "sessions/2026-10-06-01/raw/M0-broadcast-001-initial.txt",
+      "sha256": "db65429737e29490515cec373edaf3bba4a851f2ba5cc14ef5c5542710c90c71"
+    },
+    {
+      "path": "sessions/2026-10-06-01/raw/M0-first-001-initial.txt",
+      "sha256": "317168dff07464098ae75df2a630431b112a08bbadc52e14124ed4bcf9c302a1"
+    },
+    {
+      "path": "sessions/2026-10-06-01/raw/M0-interface-001-initial.txt",
+      "sha256": "37a37044a85a736ee11029cb04d7f3aac6d8f2437fa0263497e879942a58752d"
+    },
+    {
+      "path": "sessions/2026-10-06-01/raw/M0-preprocess-001-initial.txt",
+      "sha256": "fc68c05f103fc7fbdf70f955cb21be3c50a31dd29ce9c69d1c786d9cb737a806"
+    },
+    {
+      "path": "sessions/2026-10-06-01/session.md",
+      "sha256": "3ba77d5d50c0f3dbbcc1059c7c23a9c3ec39789cea56bf1e730ac9e0bb188e99"
+    },
+    {
+      "path": "sessions/2026-10-06-02/checkpoint.md",
+      "sha256": "788a87230f5dc8c6fd14d5ca2b47b263912459a8d71145a2a264f902bae5a64a"
+    },
+    {
+      "path": "sessions/2026-10-06-02/event-M0-video-interface-001.md",
+      "sha256": "39a87f1bb0b609d95f2388b8059e3ef54853f1472bf70160e3db7bdd6982b0ad"
+    },
+    {
+      "path": "sessions/2026-10-06-02/event-M0-video-interface-002.md",
+      "sha256": "f85846020212bf0231aa18a0a0d87337c3d194afcc77e471a1aa648e82fc11da"
+    },
+    {
+      "path": "sessions/2026-10-06-02/raw/entry-001.txt",
+      "sha256": "0344c99a8b7045d9d520cb5b0d1f969df02e69c47ab5016cf08edeb19927f90b"
+    },
+    {
+      "path": "sessions/2026-10-06-02/raw/M0-video-interface-001-initial.txt",
+      "sha256": "f605bcb019f8a9c5db21ccb461ad250fbdccc09575bdc3eeeee884d884000728"
+    },
+    {
+      "path": "sessions/2026-10-06-02/raw/M0-video-interface-002-initial.txt",
+      "sha256": "e53c41b5d2a5b6e902ac8fde3260b9182a2ad2a428c1a6fa8a02bba7d6316d22"
+    },
+    {
+      "path": "sessions/2026-10-06-02/raw/M0-video-interface-002-revision-001.txt",
+      "sha256": "8d745a116569f35e15f0e05912c26d10625015a9b7694ec82367fef274086e6d"
+    },
+    {
+      "path": "sessions/2026-10-06-02/session.md",
+      "sha256": "7eff4f65ea6688d9c2d1d62cc077267d515de569d305c71f7b1e08ba2cac3539"
+    },
+    {
+      "path": "sessions/2026-10-07-01/checkpoint.md",
+      "sha256": "cf49fed4351309b57ca150644a62e800a702e03d0167afa1e26108632bfe03aa"
+    },
+    {
+      "path": "sessions/2026-10-07-01/event-M0-feature-sequence-001.md",
+      "sha256": "4bbfbbed95c5d095de34a38003bc3d9ee04e7f025fe92c5ee89499dd285ff2d9"
+    },
+    {
+      "path": "sessions/2026-10-07-01/raw/entry-001.txt",
+      "sha256": "891b4f4a859dfcd0e656b528c5784e56d15da6edc9ab5ed2ee9fb4cd080eda21"
+    },
+    {
+      "path": "sessions/2026-10-07-01/raw/M0-feature-sequence-001-help-request.txt",
+      "sha256": "e6995724ca41e23712216425ffa606128888e2328a6fcaa5fa3f90e382634583"
+    },
+    {
+      "path": "sessions/2026-10-07-01/raw/M0-feature-sequence-001-initial.txt",
+      "sha256": "bf32c19ff4d7a5af941ebebdddcf160389180b86f45609dcf8da6c1856d18891"
+    },
+    {
+      "path": "sessions/2026-10-07-01/raw/M0-feature-sequence-001-revision-001.txt",
+      "sha256": "8fa48b411993895cb0936214774eb0c60e60750650e92fa0465cd442905ad9ea"
+    },
+    {
+      "path": "sessions/2026-10-07-01/session.md",
+      "sha256": "a0a5e67a11a11f71489bc7cc6120df6249d887821ebc4339ab8d60968c6add63"
+    },
+    {
+      "path": "sessions/README.md",
+      "sha256": "0130cfa0d3598a426b758a6c8661f66cb11a6502aea7e94ef6b91ca71a68776a"
+    },
+    {
+      "path": "state/checkpoint.md",
+      "sha256": "c92d495078ff3e46e1ac1e965ec36daf461a4b97b0c22f14ce91ac82c15f03b8"
+    },
+    {
+      "path": "state/control.md",
+      "sha256": "d7ba0aa3bf5c84b0a6888bbcccb48da66ddb7c3dbdc623daf31ff99b44692d87"
+    },
+    {
+      "path": "state/current.md",
+      "sha256": "0cdb6c945d41f929f66c9d1752403bb47b516e10ddd6fb763e160f84e3719977"
+    }
+  ]
+}

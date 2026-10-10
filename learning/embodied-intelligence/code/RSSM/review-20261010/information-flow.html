@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RSSM：信息权限与更新对象</title>
+<style>
+:root{color-scheme:light;--ink:#192838;--muted:#526473;--line:#cad5df;--blue:#12669a;--purple:#6751a7;--paper:#f3f6f8}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 "Segoe UI","Microsoft YaHei",sans-serif}main{max-width:1120px;margin:auto;padding:40px 30px}.eyebrow{font-size:13px;letter-spacing:.13em;color:var(--blue)}h1{font-size:34px;line-height:1.3;margin:9px 0 12px}p{margin:8px 0}header>p{max-width:880px;color:var(--muted)}nav{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}button{border:1px solid var(--line);border-radius:9px;padding:12px 19px;font:inherit;cursor:pointer;background:#fff;color:var(--ink)}button[aria-pressed=true]{background:var(--blue);color:white;border-color:var(--blue)}button:focus-visible{outline:3px solid #f8b147;outline-offset:3px}.context{background:#e8f1f7;padding:16px 22px;border-radius:12px;margin-bottom:20px;border-left:4px solid var(--blue)}.context b{display:block}.diagram{background:white;border:1px solid var(--line);border-radius:16px;padding:24px;display:grid;grid-template-columns:1.2fr .12fr 1.4fr .12fr 1.2fr;gap:10px;align-items:center}.node{border:1px solid var(--line);border-radius:10px;padding:16px;min-height:132px}.node h2{font-size:17px;margin:0 0 8px}.node small{color:var(--muted);display:block;line-height:1.5}.formula{font-family:"Cambria Math","Times New Roman",serif;font-size:20px;margin:10px 0}.arrow{text-align:center;font-size:27px;color:var(--muted)}.memory{grid-column:1;grid-row:1}.prior{grid-column:3;grid-row:1;border-color:#b4a7d5;background:#f5f1fb}.posterior{grid-column:3;grid-row:2;border-color:#83b4d3;background:#f2f8fc}.sample{grid-column:5;grid-row:1/3;border-color:#b4a7d5}.input{grid-column:1;grid-row:2}.a1{grid-column:2;grid-row:1}.a2{grid-column:2;grid-row:2}.a3{grid-column:4;grid-row:1}.a4{grid-column:4;grid-row:2}.unavailable{opacity:.48;border-style:dashed}.sample .tag{display:inline-block;background:#eee7fa;color:#4d388b;border-radius:5px;padding:3px 9px;font-size:14px}.two{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:20px 0}.panel{background:white;border:1px solid var(--line);border-radius:12px;padding:20px}.panel h2{font-size:18px;margin:0 0 7px}.panel strong{color:#9b4e10}.note{font-size:14px;color:var(--muted)}details{border-top:1px solid var(--line);padding:16px 0}summary{cursor:pointer;font-weight:600}.timing{font-family:"Cambria Math",serif;font-size:24px;color:var(--blue);padding:10px 0}footer{font-size:13px;color:var(--muted);margin-top:20px}a{color:var(--blue)}@media(max-width:760px){main{padding:24px 15px}h1{font-size:27px}.diagram{grid-template-columns:1fr;gap:12px;padding:16px}.node,.arrow{grid-column:1!important;grid-row:auto!important}.arrow{display:none}.two{grid-template-columns:1fr}.node{min-height:0}}
+</style>
+</head>
+<body><main>
+<header><div class="eyebrow">2026-10-10 · 备课审查辅助 · v1</div><h1>同一 RSSM，四种信息权限</h1><p>切换当前工作，观察哪些观测可以进入推断、潜变量从哪个分布取值，以及究竟更新状态还是参数。这是条件关系的可视化；正文中的推导和数值示范仍可独立阅读。</p></header>
+<nav aria-label="工作模式">
+<button type="button" data-mode="filter" aria-pressed="true">在线过滤</button>
+<button type="button" data-mode="train" aria-pressed="false">序列训练</button>
+<button type="button" data-mode="imagine" aria-pressed="false">未来想象</button>
+<button type="button" data-mode="replan" aria-pressed="false">新观测后重规划</button>
+</nav>
+<section class="context" aria-live="polite"><b id="scope"></b><span id="info"></span></section>
+<section class="diagram" aria-label="RSSM 条件依赖图">
+<div class="node memory"><h2>历史递推记忆 h<sub>t</sub></h2><div class="formula">h<sub>t</sub> = f<sub>θ</sub>(h<sub>t−1</sub>, z<sub>t−1</sub>, a<sub>t−1</sub>)</div><small id="action-info"></small></div>
+<div class="arrow a1" aria-hidden="true">→</div>
+<div class="node prior"><h2>生成先验 p<sub>t</sub></h2><div class="formula">p<sub>θ</sub>(z<sub>t</sub> | h<sub>t</sub>)</div><small>动作通过 h<sub>t</sub> 进入。无当前观测时仍能预测。</small></div>
+<div class="arrow a3" id="prior-arrow" aria-hidden="true">→</div>
+<div class="node input" id="observation"><h2 id="observation-title">实际观测 o<sub>t</sub></h2><small id="observation-info"></small></div>
+<div class="arrow a2" id="observation-arrow" aria-hidden="true">→</div>
+<div class="node posterior" id="posterior"><h2>识别 / 过滤 q<sub>t</sub></h2><div class="formula">q<sub>φ</sub>(z<sub>t</sub> | h<sub>t</sub>, o<sub>t</sub>)</div><small id="posterior-info"></small></div>
+<div class="arrow a4" id="posterior-arrow" aria-hidden="true">→</div>
+<div class="node sample"><h2>本步潜变量与下游接口</h2><span class="tag" id="sample-source"></span><div class="formula">s<sub>t</sub><sup>m</sup> = (h<sub>t</sub>, z<sub>t</sub>)</div><small id="downstream"></small></div>
+</section>
+<div class="two" aria-live="polite">
+<section class="panel"><h2>这一步更新什么？</h2><p id="update"></p><p class="note" id="fixed"></p></section>
+<section class="panel"><h2>结果可以支持什么？</h2><p id="output"></p><p class="note" id="limit"></p></section>
+</div>
+<details open><summary>贯穿各模式的时序与对象</summary><div class="timing">a<sub>t−1</sub> → x<sub>t</sub> → (o<sub>t</sub>, r<sub>t</sub>) → a<sub>t</sub></div><p>x 是环境隐藏状态；真实 belief 是条件分布 β<sup>env</sup><sub>t</sub> = P(x<sub>t</sub> | 历史)。模型状态 (h,z) 或其中一个样本不能直接等同这个分布。</p><p>h 的确定性指给定上一步模型状态和动作后的函数更新。不同随机 z 历史仍会产生不同 h；“h 确定”不等于它是真状态或跨轨迹固定。</p></details>
+<details><summary>训练与预测为何不是同一件事</summary><p>标准 ELBO 的重建 / 奖励项与同时间 KL(q<sub>t</sub> ∥ p<sub>t</sub>)共同训练模型。后续误差可经 h 递推向以前参数传播梯度，但这不等于直接对无观测的多步 prior 展开加了训练约束。</p><p>多步 rollout 是模型用法；latent overshooting 是可选训练关系；离线多步评估与闭环控制评估各自需要实际实验。此图不执行这些实验。</p></details>
+<details><summary>静态回退：不操作也能读清</summary><p>在线过滤：看到当前实际观测，用 q 得到状态表示，参数固定。序列训练：沿过滤路径计算目标，聚合损失后用优化器更新参数。未来想象：从当前过滤表示出发，对候选动作只沿 p 展开，不能读尚未发生的实际观测。重规划：执行首动作后取得新观测，重新过滤并搜索后续动作。</p><p>CEM 更新候选动作的搜索分布；MPC 指规划—首动作执行—观测—再规划的外层循环。两者与 RSSM 参数更新、latent 分布更新分别处理。</p></details>
+<footer>AI 制作的教学辅助。模型条件参考 <a href="https://proceedings.mlr.press/v97/hafner19a.html">Hafner et al., ICML 2019</a>；本次完整正文位于 prep/rssm-review-20261010/03-learner-materials.md。此文件不包含学习记录或评分。</footer>
+</main><script>
+const modes={
+filter:{scope:'当前时刻 t：观测已经到达',info:'可用 o₁:ₜ 与已执行的 a₀:ₜ₋₁。尚未取得未来实际观测。',action:'输入的是已经执行的 aₜ₋₁；看过 oₜ 后才选择 aₜ。',obs:'传感器本次返回的数据，与生成模型的预测不同。',posterior:'h 携带历史；本因子仅加当前观测，不使用 oₜ₊₁。',source:'zₜ ∼ qφ(zₜ | hₜ, oₜ)',downstream:'本步状态供下一次递推和当前动作规划使用。',update:'更新模型内部状态 / 近似过滤表示。',fixed:'θ、φ 固定；新观测不自动执行梯度训练。',output:'获得有当前证据的模型状态表示，再开始候选动作评价。',limit:'近似过滤不保证是真实环境的充分统计量或精确 Bayesian belief。'},
+train:{scope:'训练片段：因子逐步保持过滤的信息集',info:'整段资料可作为损失目标，但局部 qₜ 的输入仍只含历史与 oₜ。',action:'训练数据提供实际 aₜ₋₁；h 沿同一条 posterior latent 历史递推。',obs:'当前观测进入 recognition 与观测似然；后时刻观测可形成后时刻损失。',posterior:'过滤路径用于序列目标；整个联合 q 不是互相独立的边缘分布。',source:'zₜ ∼ qφ；训练时可重参数化',downstream:'解码观测 / 奖励并计算同时间 KL(qₜ ∥ pₜ)，聚合整段目标。',update:'优化器依据负 ELBO 的梯度更新 θ、φ。',fixed:'局部数值示范可固定 q、h 只更新一个 prior 参数；完整网络还含 encoder、decoder、递推和采样路径。',output:'建立变分下界及参数学习的机制联系。',limit:'损失下降不自动证明多步预测校准、闭环回报改善或真实因果泛化。'},
+imagine:{scope:'候选未来时刻 t：实际观测还未发生',info:'起点来自已取得的当前过滤表示；未来只给候选动作序列。',action:'这里输入的是候选动作；不是尚未执行动作后的真实结果。',obs:'不可读取未来实际 oₜ。模型可解码预测图像，预测图像不成为新传感器证据。',posterior:'本模式不调用未来 recognition。用 prior 样本保持整条 h/z 轨迹的依赖。',source:'zₜ ∼ pθ(zₜ | hₜ)',downstream:'继续沿 prior 递推，评价预测奖励 / 成本。单条 trajectory 只是一个样本。',update:'展开预测状态，内层搜索可更新候选动作分布。',fixed:'模型 θ、φ 固定。搜索分布、latent 分布和真实 belief 是不同对象。',output:'得到模型内的候选动作评价；选出整段后只执行首动作。',limit:'逐步均值回填在非线性模型中一般不等于期望；无观测展开也不等于 latent overshooting 训练。'},
+replan:{scope:'首动作已执行：新的实际观测到达',info:'重新取得当前信息集，先过滤，再规划下一段。旧候选段的尾部不具有强制执行权。',action:'输入刚刚实际执行的动作；新观测到达后才能选择下一动作。',obs:'新传感器数据可以改变状态估计；预测解码与实际观测仍分开。',posterior:'沿本次内部历史计算 h，再用新 o 更新 q；保留实际帮助和模型近似的边界。',source:'zₜ ∼ 新 qφ(zₜ | hₜ, oₜ)',downstream:'用新起点重新做无未来观测的 prior rollout；选择并执行新的首动作。',update:'更新近似过滤状态，并重新搜索候选动作。',fixed:'θ、φ 保持原版本。若另收集训练批次并运行优化器，才是参数更新。',output:'形成 MPC 的反馈循环，可因新证据改变首动作。',limit:'重规划不能保证消除模型偏差、获得全局最优或保证现实控制稳定。'}
+};
+function render(mode){const m=modes[mode];document.querySelectorAll('button[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));for(const id of ['scope','info','update','fixed','output','limit'])document.getElementById(id).textContent=m[id];document.getElementById('action-info').textContent=m.action;document.getElementById('observation-info').textContent=m.obs;document.getElementById('posterior-info').textContent=m.posterior;document.getElementById('sample-source').textContent=m.source;document.getElementById('downstream').textContent=m.downstream;const absent=mode==='imagine';document.getElementById('observation-title').textContent=absent?'未来实际观测尚不可见':'本步实际观测 oₜ';for(const id of ['observation','posterior','observation-arrow','posterior-arrow'])document.getElementById(id).classList.toggle('unavailable',absent);document.getElementById('prior-arrow').style.opacity=absent?'1':'.25';}
+document.querySelectorAll('button[data-mode]').forEach(b=>b.addEventListener('click',()=>render(b.dataset.mode)));render('filter');
+</script></body></html>

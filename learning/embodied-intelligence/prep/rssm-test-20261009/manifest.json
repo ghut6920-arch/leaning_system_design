@@ -1,0 +1,132 @@
+{
+  "format": "rssm-preparation-review/1",
+  "date": "2026-10-09",
+  "timezone": "Asia/Shanghai",
+  "status": "prepared_for_review",
+  "formal_teaching_executed": false,
+  "learner_performance_created": false,
+  "subagents": [
+    "cognitive_design",
+    "source_research",
+    "materials_build",
+    "design_audit"
+  ],
+  "framework_entry_count": 117,
+  "framework_hash_differences": 0,
+  "canonical_workflow_revision": 2,
+  "numerical_code_runtime": "Python 3.12.3 standard library",
+  "diagram_semantics_checked": true,
+  "diagram_render_visually_checked": false,
+  "state_file_checks": [
+    {
+      "path": "state/current.md",
+      "before": "0cdb6c945d41f929f66c9d1752403bb47b516e10ddd6fb763e160f84e3719977",
+      "after": "0cdb6c945d41f929f66c9d1752403bb47b516e10ddd6fb763e160f84e3719977",
+      "unchanged": true
+    },
+    {
+      "path": "state/control.md",
+      "before": "d7ba0aa3bf5c84b0a6888bbcccb48da66ddb7c3dbdc623daf31ff99b44692d87",
+      "after": "d7ba0aa3bf5c84b0a6888bbcccb48da66ddb7c3dbdc623daf31ff99b44692d87",
+      "unchanged": true
+    }
+  ],
+  "files": [
+    {
+      "path": "prep/rssm-test-20261009/00-scope-and-provenance.md",
+      "sha256": "263431fc8fc5751046cdeab291b2aca54299db9d459259972297a321a8eb51e7",
+      "bytes": 3450,
+      "origin": "AI preparation / teacher reference"
+    },
+    {
+      "path": "prep/rssm-test-20261009/01-cognitive-design.md",
+      "sha256": "dcc1ad48535ce8a886b4558e054b2fa14bb86b79182c31e0032063cc5680b7d8",
+      "bytes": 26377,
+      "origin": "AI preparation / teacher reference"
+    },
+    {
+      "path": "prep/rssm-test-20261009/02-source-notes.md",
+      "sha256": "4f65e697057ba58cd5a435f674913e4d18cb14eb0bc73046edafdd06c99db9a7",
+      "bytes": 23994,
+      "origin": "AI preparation / teacher reference"
+    },
+    {
+      "path": "prep/rssm-test-20261009/03-core-materials.md",
+      "sha256": "8e19e071feba6b419c79f69d5002a39f84abe2954539ec1c0bac96effa637353",
+      "bytes": 16558,
+      "origin": "AI preparation / teacher reference"
+    },
+    {
+      "path": "prep/rssm-test-20261009/04-learner-work.md",
+      "sha256": "ff4fe44b85fc1183720533cb68e16d2c34626e11f40d7d9574569cb0ecd9d4c6",
+      "bytes": 11830,
+      "origin": "AI preparation / teacher reference"
+    },
+    {
+      "path": "prep/rssm-test-20261009/05-teacher-reference.md",
+      "sha256": "505afc27cd586a7ff3a56cdb59b13a3db4e18e581cfbd9dbc70cf3c43fab28ee",
+      "bytes": 13184,
+      "origin": "AI preparation / teacher reference"
+    },
+    {
+      "path": "prep/rssm-test-20261009/06-support-branches.md",
+      "sha256": "ee81acc1de1adfb4d5fa8236acee35e4d43e08fc00f314f2354df2e7368cbc89",
+      "bytes": 10421,
+      "origin": "AI preparation / teacher reference"
+    },
+    {
+      "path": "prep/rssm-test-20261009/07-first-teaching-reply.md",
+      "sha256": "9a4b5e3b83aab36c4a6a080ec755e388b69ec902a1814bc249780a20c0d30e93",
+      "bytes": 4043,
+      "origin": "AI preparation / teacher reference"
+    },
+    {
+      "path": "prep/rssm-test-20261009/08-audit.md",
+      "sha256": "233d69d8cc1f716db46d4818c448383a6d49a53d34923f1809caf81c23aa3ecd",
+      "bytes": 21039,
+      "origin": "AI preparation / teacher reference"
+    },
+    {
+      "path": "prep/rssm-test-20261009/09-numerical-check.json",
+      "sha256": "3203650a181322ac76667e096c37c208edea6a1f1e1eb51c67461a2202f701e8",
+      "bytes": 42968,
+      "origin": "AI preparation / teacher reference"
+    },
+    {
+      "path": "prep/rssm-test-20261009/10-verification.md",
+      "sha256": "d6ba0ff38cf33616f43fcce5704631b20c6860a42693326a4d59ff2c104f85b2",
+      "bytes": 3430,
+      "origin": "AI preparation / teacher reference"
+    },
+    {
+      "path": "prep/rssm-test-20261009/完整备课成品.md",
+      "sha256": "06848f6d4b25d7355c7c0f7a07ed5f1758d7b72419b8847e169d2f3eb10fcc8e",
+      "bytes": 143113,
+      "origin": "AI preparation / teacher reference"
+    },
+    {
+      "path": "prep/rssm-test-20261009/README.md",
+      "sha256": "8975a056192b468941d79f927bbdb15203158d1ca2040e22005990ead9a53777",
+      "bytes": 8031,
+      "origin": "AI preparation / teacher reference"
+    },
+    {
+      "path": "code/rssm-test-20261009/README.md",
+      "sha256": "1b71a78946a2c30c3cbbf4dd324c58b749e18cc2fbbd2c2b6dfa0de99a94c6ee",
+      "bytes": 2199,
+      "origin": "AI preparation / teacher reference"
+    },
+    {
+      "path": "code/rssm-test-20261009/verify_toy.py",
+      "sha256": "562123dd23cdce0ce11f8426a27091847004a592600fa8a4175383ded1a8cbe9",
+      "bytes": 6986,
+      "origin": "AI preparation / teacher reference"
+    },
+    {
+      "path": "code/rssm-test-20261009/workflow-specs.txt",
+      "sha256": "afe9695123ac8c7b5f7c4f1609802ce7213cb01a77607a646695ad33d3065c02",
+      "bytes": 1387,
+      "origin": "AI preparation / teacher reference"
+    }
+  ]
+}

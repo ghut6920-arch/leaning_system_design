@@ -1,0 +1,63 @@
+{
+  "lesson": "2026-10-06-02",
+  "status": "pass",
+  "cases": [
+    {
+      "case": "input_elements_96",
+      "pass": true
+    },
+    {
+      "case": "video_output_shape",
+      "pass": true
+    },
+    {
+      "case": "frame_output_shape",
+      "pass": true
+    },
+    {
+      "case": "alternate_valid_route",
+      "pass": true
+    },
+    {
+      "case": "all_coordinate_identities_and_inverse",
+      "pass": true
+    },
+    {
+      "case": "given_green_values",
+      "pass": true
+    },
+    {
+      "case": "given_bad_result_is_compatible_with_direct_reshape",
+      "pass": true
+    },
+    {
+      "case": "equal_elements_and_dimensions_do_not_prove_identity",
+      "pass": true
+    },
+    {
+      "case": "swapping_second_third_axes_of_BTHWC_is_not_BCTHW",
+      "pass": true
+    },
+    {
+      "case": "merging_BT_only_does_not_move_channel",
+      "pass": true
+    },
+    {
+      "case": "image_6_recovers_video_1_frame_2",
+      "pass": true
+    },
+    {
+      "case": "N_alone_does_not_determine_original_BT",
+      "pass": true
+    }
+  ],
+  "checks_passed": 12,
+  "coordinate_checks": 288,
+  "pytorch_executed": false,
+  "learner_performance_generated": false,
+  "limits": [
+    "Additional audit constructed from the lesson's stated specifications",
+    "Finite coordinate checking does not prove general software correctness or learning effects",
+    "Given green samples alone cannot prove whole-data correctness or uniquely identify an operation"
+  ]
+}

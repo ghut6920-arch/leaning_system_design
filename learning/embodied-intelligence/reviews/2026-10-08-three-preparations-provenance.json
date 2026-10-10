@@ -1,0 +1,121 @@
+{
+  "client_date": "2026-10-08",
+  "test_id": "01a11b49-ca52-74b0-976d-4eb6ad2483a3",
+  "title": "请执行一次单模型备课测试。依据当前框架、研究与设计方案，以及我最近的真实学习记录，重新准备当前视频接口单元。交付完整认…",
+  "turn_id": "01a11b49-feb2-7e62-a10e-38c6e2a6f8cd",
+  "model": "gpt-6.1-sol",
+  "effort": "xhigh",
+  "model_context_timestamp": "2026-10-08T11:33:22.609Z",
+  "mode_source": "Named local session turn_context; only configuration fields inspected",
+  "prompt": "请执行一次单模型备课测试。依据当前框架、研究与设计方案，以及我最近的真实学习记录，重新准备当前视频接口单元。交付完整认知主线、实际材料与连贯示范、Encoding和Post-Encoding工作、具体问题、教师参考、必要支持分支，以及第一份教学回复。重点检查必要语义是否充分、不同维度是否被混绑、从示范到整体工作的跨度是否合适。先只交备课成品供审查，不开展正式教学或修改真实学习进度。对于另外两个相同提示词的“重备视频接口单元”，是用于和本次问答进行对比测试的，你不需要读取，对于同样的主题，完全由你自己自行发挥即可",
+  "core_prompt_equal": true,
+  "independence_note_difference": "Another two tests instead of another one; same independently prepare instruction",
+  "prior_comparison_content_read_observed": false,
+  "prior_detailed_review_read_observed": false,
+  "independent_teaching_agents_started": false,
+  "observed_skill_entries": 6,
+  "missing_direct_skill_entry": "learning-planning/SKILL.md; no real plan adoption made",
+  "observed_role_files": 4,
+  "selected_methods": [
+    "encoding/S05",
+    "encoding/D04",
+    "post/retrieve-relation",
+    "post/select-method"
+  ],
+  "calls": [
+    {
+      "ref": "personal-learning/SKILL.md",
+      "command_ids": [
+        "exec-2b67e877-4f2b-4012-9f12-730017392d81",
+        "exec-927d3927-090a-4871-a179-170b3ecd57f1"
+      ]
+    },
+    {
+      "ref": "learning-goals/SKILL.md",
+      "command_ids": [
+        "exec-5297be2a-5d89-4edb-b53e-1d23cdd5245e"
+      ]
+    },
+    {
+      "ref": "learning-materials/SKILL.md",
+      "command_ids": [
+        "exec-5297be2a-5d89-4edb-b53e-1d23cdd5245e",
+        "exec-eb37cd45-0337-44b5-ac1d-3554b287fd43"
+      ]
+    },
+    {
+      "ref": "learning-teaching/SKILL.md",
+      "command_ids": [
+        "exec-85b3faa6-6ac8-4ca2-bdd9-b48ac8d35380"
+      ]
+    },
+    {
+      "ref": "learning-assessment/SKILL.md",
+      "command_ids": [
+        "exec-d18ae753-bcb8-4f15-8d33-30b939a866dd",
+        "exec-f91641ec-6524-4605-a937-14a002c9b642"
+      ]
+    },
+    {
+      "ref": "learning-planning/SKILL.md",
+      "command_ids": []
+    },
+    {
+      "ref": "learning-strategies/SKILL.md",
+      "command_ids": [
+        "exec-662c7ddb-a4c9-440a-810a-caa9345b3165"
+      ]
+    },
+    {
+      "ref": "agents/AG0-coach.md",
+      "command_ids": [
+        "exec-2b67e877-4f2b-4012-9f12-730017392d81"
+      ]
+    },
+    {
+      "ref": "agents/AG1-design-planning.md",
+      "command_ids": [
+        "exec-5297be2a-5d89-4edb-b53e-1d23cdd5245e"
+      ]
+    },
+    {
+      "ref": "agents/AG2-materials.md",
+      "command_ids": [
+        "exec-5297be2a-5d89-4edb-b53e-1d23cdd5245e",
+        "exec-eb37cd45-0337-44b5-ac1d-3554b287fd43"
+      ]
+    },
+    {
+      "ref": "agents/AG3-assessment.md",
+      "command_ids": [
+        "exec-65f5e9f7-837e-44f5-890c-c3458388185a"
+      ]
+    },
+    {
+      "ref": "learning-assessment/references/product-review.md",
+      "command_ids": [
+        "exec-65f5e9f7-837e-44f5-890c-c3458388185a",
+        "exec-d18ae753-bcb8-4f15-8d33-30b939a866dd"
+      ]
+    }
+  ],
+  "commands_observed": 27,
+  "nonzero_exit": [
+    {
+      "id": "exec-8cdaa415-877e-4104-8e61-b0e9795607dc",
+      "reason": "Read-only git status in a directory without a .git repository; no teaching or math-check failure"
+    }
+  ],
+  "sample_counts": {
+    "xhigh": 2,
+    "ultra": 1
+  },
+  "identical_effective_inputs": false,
+  "source_evidence_changes": "New C explicitly permits visible source table; older C cases constrain reasoning to supplied delivery records",
+  "provisional_review": "current entry is more focused; provenance versus value distinction richer; downstream use less developed than ultra; original R3 boundary needs explicit distinction",
+  "limits": [
+    "Only prepared artifacts and limited code verified; no new learner answers",
+    "Reviewer knows settings and prior outputs; no blind review",
+    "Two xhigh samples cannot establish stable setting superiority"
+  ]
+}

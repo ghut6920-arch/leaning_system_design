@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-08",
+  "mode_provenance": "Exact turn_context fields from the two named local session logs",
+  "tests": [
+    {
+      "label": "xhigh",
+      "thread_id": "01a11a77-77d3-75e2-b3a2-551d2465f6a3",
+      "title": "重备视频接口单元",
+      "turn_id": "01a11a77-90be-7180-8419-2ed49bdc4ce4",
+      "model": "gpt-6.1-sol",
+      "effort": "xhigh",
+      "artifact_directory": "artifacts/preparation-tests/2026-10-08-video-interface-single-model",
+      "model_context_timestamp": "2026-10-08T07:43:27.233Z",
+      "prompt": "请执行一次单模型备课测试。依据当前框架、研究与设计方案，以及我最近的真实学习记录，重新准备当前视频接口单元。交付完整认知主线、实际材料与连贯示范、Encoding和Post-Encoding工作、具体问题、教师参考、必要支持分支，以及第一份教学回复。重点检查必要语义是否充分、不同维度是否被混绑、从示范到整体工作的跨度是否合适。先只交备课成品供审查，不开展正式教学或修改真实学习进度。",
+      "commands": 26,
+      "nonzero_exit_commands": [
+        {
+          "id": "exec-e556d128-00b4-4a01-b485-715a27897235",
+          "exit_code": 1
+        }
+      ],
+      "independent_agents_launched": false,
+      "prior_detailed_review_read": true,
+      "skill_entry_files_observed": 7,
+      "role_files_observed": 4
+    },
+    {
+      "label": "ultra",
+      "thread_id": "01a11ab1-418d-7eb0-939d-dac5588d3e0d",
+      "title": "重备视频接口单元",
+      "turn_id": "01a11ab2-47a4-7ff0-9963-44f666599544",
+      "model": "gpt-6.1-sol",
+      "effort": "ultra",
+      "artifact_directory": "artifacts/preparation-tests/2026-10-08-video-interface-independent-02",
+      "model_context_timestamp": "2026-10-08T08:47:35.252Z",
+      "prompt": "请执行一次单模型备课测试。依据当前框架、研究与设计方案，以及我最近的真实学习记录，重新准备当前视频接口单元。交付完整认知主线、实际材料与连贯示范、Encoding和Post-Encoding工作、具体问题、教师参考、必要支持分支，以及第一份教学回复。重点检查必要语义是否充分、不同维度是否被混绑、从示范到整体工作的跨度是否合适。先只交备课成品供审查，不开展正式教学或修改真实学习进度。对于另外一个相同提示词的“重备视频接口单元”，是用于和本次问答进行对比测试的，你不需要读取，对于同样的主题，完全由你自己自行发挥即可",
+      "commands": 35,
+      "nonzero_exit_commands": [
+        {
+          "id": "exec-a9359886-0492-400b-a774-7ac2765200f0",
+          "exit_code": 1
+        }
+      ],
+      "independent_agents_launched": false,
+      "prior_detailed_review_read_observed": false,
+      "skill_entry_files_observed": 6,
+      "assessment_product_review_observed": true,
+      "role_files_observed": 4
+    }
+  ],
+  "comparison": {
+    "shared_prompt_prefix_equal": true,
+    "ultra_added_instruction": "对于另外一个相同提示词的“重备视频接口单元”，是用于和本次问答进行对比测试的，你不需要读取，对于同样的主题，完全由你自己自行发挥即可",
+    "samples_per_effort": 1,
+    "same_model_identifier": true,
+    "shared_course_root": true,
+    "shared_framework_manifest_entries": 117,
+    "identical_effective_inputs": false,
+    "source_data_examples_identical": false,
+    "cross_candidate_content_read_observed": false,
+    "blind_reviewer": false,
+    "learning_effect_comparison_executed": false,
+    "evaluation_scope": "Prepared content, cognitive work and constrained execution; no formal teaching or learner outcome test",
+    "notes": [
+      "Source-read counts, self-check counts and document length are not quality scores",
+      "No universal model-setting or multi-Agent superiority conclusion",
+      "Each nonzero shell exit was a final rg with no forbidden-string match, not a failed mathematical check"
+    ]
+  }
+}

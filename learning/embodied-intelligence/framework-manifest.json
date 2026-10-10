@@ -1,0 +1,483 @@
+{
+  "format": "file-learning-framework-links/0.1",
+  "generated_at": "2026-10-10",
+  "mode": "manual_files",
+  "shared_schema_reference": "pl-contracts/0.1.0",
+  "native_skill_installation": false,
+  "real_runtime_binding": false,
+  "independent_agents_started": false,
+  "entries": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "01100f12aa2c58bc54329bb59169594491e6ab623cb9ecb70df00b3d94134d51"
+    },
+    {
+      "path": "FRAMEWORK.md",
+      "sha256": "185126dc92263b321c94139c852cc2d900cdeac0448cd172d7a9eb2cbc315f95"
+    },
+    {
+      "path": "INTERACTION.md",
+      "sha256": "31c334e7a14965c1825cf0d9cfc5802219f7dddbba1a20a211b6ef098d398cca"
+    },
+    {
+      "path": "MODEL_ENTRY.md",
+      "sha256": "cd934d17d932eedfe8d7ca5eb9334770bca9036345002bcfd0063d3e111d41cb"
+    },
+    {
+      "path": "START_PROMPT.md",
+      "sha256": "9de36eece2362cd7103ce368de7997c638ab83ecd63afca5b9d3273d7b6e4b01"
+    },
+    {
+      "path": "../../personal-learning-suite/contracts/shared-contracts.md",
+      "sha256": "7a83601a8e4d0741b41322fc8883c161b44135c4e56c421eb4f3f408fac8d77e"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/common-constraints.json",
+      "sha256": "e217a01ac8e71eae367cd4132cbc084c5c25d1f2a866341b05cacba6d15f3026"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/D01.json",
+      "sha256": "340912bf366a92f9837bd28ef40f4da6f0e1e081bf7b5d1ec93f8a8b023688c8"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/D02.json",
+      "sha256": "1b64fd3c927f8ac9823faba37621f55bf6eebf7c16c7737a4e24dcad525c9c47"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/D03.json",
+      "sha256": "a29bd40ee4a49d2c17a5ceda1b8031aa6b3dc743101d385966b0e7a08c4e52da"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/D04.json",
+      "sha256": "c8757b56e85a06e45d62e6c70e9acbf7393756364eca737cfd7470d899ffd832"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/D05.json",
+      "sha256": "13880672763fdf2a20aeb2df89c5c8fd57d46728aad2f5e951a442473140a5e7"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/D06.json",
+      "sha256": "9e48f3a5694123475a58a21755903c33a77a5f95461bf5cebbd17796c542a72b"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/D07.json",
+      "sha256": "6e56be1495d02a8fa23457f678e39232bf7df846acb85177f60ddba1a5acfbdf"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/D08.json",
+      "sha256": "967ba5aac320087d73983fcb808b86523f13a02cdd81dceac3c116d36fa76dda"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/D09.json",
+      "sha256": "10eaa02780d499d11e8f851225bfd58ff150a78659b6ce90fad41434ba817c84"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/D10.json",
+      "sha256": "c9ddf52394cb73affc211354329f2a16a4d5226daff110f46926af9f0e19f9ae"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/I01.json",
+      "sha256": "c94aeb66105320bd236bdfaeb095d62f0aac91f8086071691ab1b05ba1807e23"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/I02.json",
+      "sha256": "57d270438f0602c777b0bbee15b8fd2bc4c267487ad3e83bf024be15982c3912"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/I03.json",
+      "sha256": "a9fb2b502f50f38e831e0930e72a9c211d89ae7b3ac620c86eeb1b9035f87b76"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/I04.json",
+      "sha256": "f3081aa5106518c5c06a69ebf1b3e3eb4cd37c07da9e4b60af7c738d3a8e0365"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/I05.json",
+      "sha256": "bba4182cb4ec60e7fc040c0964e10adbe621463d32a87289dda6c2a2dad9c049"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/I06.json",
+      "sha256": "7f0d4b047109640f3d749ee309db8a2b0101505daaeccdb1a07d86ef54c0f54d"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/I07.json",
+      "sha256": "c60c7c295cecf2df9b41572d6cf95897aacb67d16a2398d7cb16d02da7b1fa34"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/I08.json",
+      "sha256": "e260e737241f0c40e9c8e4d972f63fdd37ed7b1570e5211e416a7e08bb05254f"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/I09.json",
+      "sha256": "a2997abed92cfe0dbc63a9da34379a3830b1ed39648e99d87d6eb675e77dca5e"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/I10.json",
+      "sha256": "71a8eb9e739d042c979efec2156d76dafe78ed8ec232fab5b97649c03e6b63f5"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/O01.json",
+      "sha256": "60a7e942590c0df8e1b30454c3a73e98af0da4d8276e497c383570b1128f5c6c"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/O02.json",
+      "sha256": "fa0525129b92299b12b04410d10b726a971e64e029bf268f291f470e0815f8b7"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/O03.json",
+      "sha256": "1502d07342148e9cc59b803517fdf48843e26703f85e3b0f5b2ef1c26a1f2247"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/O04.json",
+      "sha256": "da3686e91dd219db6c6422b02581ea9df9f1357f6fd2af6d7254f751012fc828"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/O05.json",
+      "sha256": "31f3e01e63e693c3f00313d68343f702b6dd31f676e3c1093ea6bfb757c9f4cb"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/O06.json",
+      "sha256": "b1f5042560c284391defe168087f9d6b67dc5b970acb971abdcdda85f1ae1e85"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/O07.json",
+      "sha256": "dc4cf609352e5931037853a6d00f1479e4001cc5bf94331b10852602ce70c976"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/O08.json",
+      "sha256": "86b1158d927c7c03415f07d96754f90f0f45606febf410e431e171ea1fd70791"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/O09.json",
+      "sha256": "1ad737f48b0415840562892a140da2a0b761e9f1d22a8ae4145aa791c73d1020"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/O10.json",
+      "sha256": "aa87caff1ffd973ec1df487d405ef757f747b3915ecdf75cdd6c97ca02971f4d"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/R01.json",
+      "sha256": "7ab01bb00d9c4fc6ef9bad4255393d6df0bb9cf57188869b2b18df069ff14320"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/R02.json",
+      "sha256": "f58455ff38716c871ee13ad298a7333b85fbbb533c5012d85bd42b66613a7cc9"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/R03.json",
+      "sha256": "bc54560715cbbb95790d29b5b4bdd5cf40a088fd648a8d0b0427bafbd1bc5524"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/R04.json",
+      "sha256": "24606c5326153afb271a0280cd4fe1439dae34796af44d1c8eb667dd027fdde9"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/R05.json",
+      "sha256": "912355194eaaaa177a40e26810970bd4127437dbd0e6e17793cb4fadd5615109"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/R06.json",
+      "sha256": "bf99f2ad28c2871ea3ea20d63fc9adb41f85ccef326488da9ac405d3a645b1bf"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/R07.json",
+      "sha256": "20afeaab3c7ff49d5169fa505b3dfdc7330783b0fed7adda0b17db2453ec0d6c"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/R08.json",
+      "sha256": "ef4f2a49aefaf461f8abcd74c3ad5219becbded5b5c110f7b8fe6e5bfb86336a"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/R09.json",
+      "sha256": "dbd600def9a85898d2f8415d28b70cc00a4183544c213127130866a13415305a"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/R10.json",
+      "sha256": "16612c0a90f4a9fafe9f8e2e1da6f27d055ce0feed55cd56155433c4a147e597"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/S01.json",
+      "sha256": "2420a3a34da28f9100ac98f05f998e41529b231cb4be1b53b040edc8316e1414"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/S02.json",
+      "sha256": "9667957a9178dcf83c3ff69785a870608045111bd6c08a36d3df2bd319a7a1c3"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/S03.json",
+      "sha256": "38da316802ffb02fab759d4c44f99441c2f374c37d16f8d7a13a974c557870f4"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/S04.json",
+      "sha256": "a1abb85f1029a849d94b711e4115e0406216a7b4d7711735de130cfa0be57c8c"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/S05.json",
+      "sha256": "75be952e8bc57ae87fe6d228cf1097f7dcf8db591987794578324c757fbeca36"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/S06.json",
+      "sha256": "92b7702c7ed84bbeb841133ff67e91c7907c4d41dde47fbac319ab093d3e3d6a"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/S07.json",
+      "sha256": "fc98b08fd23ff72e1069055c2bec072bfcb06fd2467761ff39cf24041459e437"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/S08.json",
+      "sha256": "9e4b899ac7ac0d3c5ed0ecd8c00cf17f344a5d5d88e9ecf8920b2e2806d20910"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/S09.json",
+      "sha256": "f844542d840596a094784e21c26cf92c03fefbe0601aaa3816d775c469dea0e3"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/S10.json",
+      "sha256": "77e20f090cea40841c2cfec4a384c983bef55bf38d1e6de7c3c9b779dad56eb5"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/X01.json",
+      "sha256": "a79b0063f92a53d6446e825e4d1baa619d6e3c221514b059642b06ace1685639"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/X02.json",
+      "sha256": "f61ef64d9f4884e43739cd653808f958c812e99afbfe3fd2b88ac33c65dea24c"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/X03.json",
+      "sha256": "d1c8cd19392e9037c9bda6c58b6dd121d08c6fbee461ff3569584b9226e10d9f"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/X04.json",
+      "sha256": "62d5401e964490b92767308b4325dd106d67f6587c261deb9ce384ad6ffaddc8"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/X05.json",
+      "sha256": "d44da135839e8d9edf0952ba3fd204e3e73f6a5a72ee143a2342fb88314744a6"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/X06.json",
+      "sha256": "3b475b4935bbe7426d9b54fe688cf89856d8138e804d2a0c5532908c282f1785"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/X07.json",
+      "sha256": "d0c04bc2990e79b791e367681ca582c4aeddc2ffdadb624107aa94a32b79f8fd"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/X08.json",
+      "sha256": "86db378e3876351b55a724e7efbb80bc9ef6ac409b6092e8bc691464741b19ee"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/X09.json",
+      "sha256": "04ae37344ca7f61c54b849752c2d80083237816c1d044c8d706b8b56feac2700"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/X10.json",
+      "sha256": "271ab1eeeed1a7ddd69a2fad417a5262468d354d485a9cef48fbc84ac57eecdb"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/manifest.json",
+      "sha256": "83306754e9f802531a15a8be3ec35dfbaafc65e9cae2e2a45b92e7fd16457954"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/post/conditional-update.json",
+      "sha256": "dd9ff6021b01147af7e8d51d610f1e5ba3174ccf7d0061903462f4ec2f4e9874"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/post/retrieve-generate-order.json",
+      "sha256": "8cad8dc9ad814f5b279688e91426ed837fe1f77b989fb05e8ecf138a82235839"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/post/retrieve-relation.json",
+      "sha256": "9a40c98a6eddedc06cab02155aed54480c242f3f7bd2bbf70e116a0c87ec2dbc"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/post/select-method.json",
+      "sha256": "b33844944758174619f882a3131a60f3367782fcf88a94e3f2cb00eab2d022b8"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/README.md",
+      "sha256": "64c07b5360b40a6724efffb850e14c2ffc3dad6ad82d5c1ddb07e434ad3db1cb"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/strategy-index.json",
+      "sha256": "59a70c5da52e89f0da3e52c8e42267881168b99f4c864f5e86d11030be33685d"
+    },
+    {
+      "path": "../../personal-learning-suite/src/agents/AG0-coach.md",
+      "sha256": "e70210c2fe815786ed5dd79ca4001464c2360d536682d63eea67026f8a9c6a12"
+    },
+    {
+      "path": "../../personal-learning-suite/src/agents/AG1-design-planning.md",
+      "sha256": "af649aa7c76ab29a4c07e47384ed7b41d45ccc9d05b84ec6a45bc32c9e39a732"
+    },
+    {
+      "path": "../../personal-learning-suite/src/agents/AG2-materials.md",
+      "sha256": "0433b53d542fd4e3ec9984b3cbc67f643dc9693b17db6d2f0bf237ae25123090"
+    },
+    {
+      "path": "../../personal-learning-suite/src/agents/AG3-assessment.md",
+      "sha256": "1d8925500630f6454cc7e7ee1ee2e97783001e13ec88002151895e24ba9f8877"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-assessment/references/diagnosis-review.md",
+      "sha256": "04fd2f5571a28c1671801133aa874899d06849010c476817aebda84ca565f9d3"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-assessment/references/evidence-rules.md",
+      "sha256": "a781d899c8f901e9bf1595957997eb964ba0b0cd1276021bd40f9a5789e59da2"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-assessment/references/product-review.md",
+      "sha256": "1cf97fb14c8d11b8de8c8989da754b619ce506c88f37e60799f909958b9ac025"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-assessment/references/runtime.md",
+      "sha256": "923f1cb5d8ef6f3a1209e5d96c6f5bc6952d03a7fe82407c8079459b8f5c1006"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-assessment/SKILL.md",
+      "sha256": "50a5337f7e11422b5aaa6f413ed69bf7796c4bb0517c64b69fb473688f2144fe"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-goals/references/goal-design.md",
+      "sha256": "cc05c9f37aea08ce9b4de8a06093a905718da6d78c3ee161188620b630ee17fb"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-goals/references/goal-worked-design.md",
+      "sha256": "6eea5375cbe2d3ffd7f46108703a8b2d9dcec25252acae3b8490e75e574187bf"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-goals/references/version-rules.md",
+      "sha256": "1350de96c4441358351b83f210235c7907017caf59a266bdc6f8c9a1054820f5"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-goals/SKILL.md",
+      "sha256": "267ffad6e6b6c569d64c5d09d5947cd74d38370ee3a86c77d7a82841ad32e2b4"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-materials/assets/quadratic-grid.png",
+      "sha256": "c6c0f192abfbe4247838ba38c817016804d6d801e8b55fad67305eae1e75cece"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-materials/assets/quadratic-reference.png",
+      "sha256": "9f567d8a2671fdad9fc1689e03f90988f1c74a114f3607f091e19a1bf9073762"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-materials/references/domain-checks.md",
+      "sha256": "dc19f2ec5d619ad4085ccb9f5ca1c0f7569f623e6ec9a84c21ddae2465f54a31"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-materials/references/materials-examples.md",
+      "sha256": "7cc3fc301195126b5b7acb4bfa76c7f36ef9e2d8babc894f450cfc997b588cc4"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-materials/references/materials-workflow.md",
+      "sha256": "72469e3bbf1d999de66cc6e470df32eb315a19b9ed2110cfad27cc505daeb1b3"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-materials/references/runtime.md",
+      "sha256": "526c7f34e5b117473b9d37e7ebffff82054795aac97e1454507fa1075d109183"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-materials/SKILL.md",
+      "sha256": "cd3796069628bfeb0fbf26fc8ea8fb3b70105448996d0968b107f92d0a96daa9"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-planning/references/multi-scale-plan.md",
+      "sha256": "4e36c03a26c27adcf45d92a41ccf7387f31f93609815ab830a6fc96783749e3e"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-planning/references/planning.md",
+      "sha256": "72beb50667895537040ec5355d36496d3c3a0cfe0d38ce8fa9a7c2fddc02fa33"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-planning/references/recovery.md",
+      "sha256": "3cd082c2b6ea59d274b4474f382c7bbcd3aeeacd07f620a9d8094b719f477f05"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-planning/references/runtime.md",
+      "sha256": "7ae28bc57633a30883716cd4b9cb8d0e4760ce049d2b85957f162887dc1beaef"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-planning/SKILL.md",
+      "sha256": "5617b5826c2b4ce5a0509f6ef6bd99af576f5418b5cb3bf4fdfcc2be0007193e"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-strategies/references/reuse-change.md",
+      "sha256": "8978afea2cd57091e2ac9c5435c98989af185aa142afbca3432b3cd2310ebf46"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-strategies/references/runtime.md",
+      "sha256": "b0f27fdc0fb12d05e2e119426e0b587054efeec9cce99bb51243b92831e91c5d"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-strategies/references/selection-adaptation.md",
+      "sha256": "43e6f0c2113b2aea3b453e5d64355799d36b92568b87446955b9558f6bffd799"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-strategies/SKILL.md",
+      "sha256": "60c61e24f057b942ae9f20dbaf3707e6d60b4d256250544aaf1dac720ddcdbdb"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/c0.md",
+      "sha256": "84ace1c84b51190796678db8853cdddcc157d6ed885ec81333a123b16f9fd67e"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+      "sha256": "fff7698124d92de0edd03f40545014fa050c733ebef66f8a1d85598a38d57d65"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
+      "sha256": "81ec3986e81df62559c65d7f1d6778fd0fa06b58b291ba7a94b4c6fbaa08afdd"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/method-post-examples.md",
+      "sha256": "fe1f109248fdbf33d5c5572b005f123db7ef5b17bddf12d5988ecf5cb1fc10ca"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md",
+      "sha256": "81c5f80f002910255ac27d4b6c77f16424c7344c1a48424fd2746b8c6de7c7dc"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/runtime.md",
+      "sha256": "20bb91fba1ed6a43c995a2b20471d43ca28a8e95db045d7cc94174896629c14f"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/teaching-examples.md",
+      "sha256": "ec542b6f8ed0d3b4cd5fd07c4f9e12e89f869bc7363d2950d2bf4707e2c0c274"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/SKILL.md",
+      "sha256": "0054623aec6d48d259301e861a9d0882278aa052caa97ee70e000b382ff0b594"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/personal-learning/references/entry-controls.md",
+      "sha256": "9debe29b120a32f4c68931a2f5dcbe8626da7753a1e89755d1c7034931f21cc4"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/personal-learning/references/network-host.md",
+      "sha256": "998a3542e940526ef8f198f190a459a53d8ace29487eccde72ee0f6e5ee31b7d"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/personal-learning/references/session-entry.md",
+      "sha256": "dabc80178f30b30be79039352c13d44c80b16d535de1c7585b04e498bf30ef31"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/personal-learning/references/verification.md",
+      "sha256": "9868607fc327f8cd8ac34c6a969f64caf80cf108daa65ad901d96448686dbc19"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/personal-learning/references/vertical-workflow.md",
+      "sha256": "90dcc4d46ade38d73c18705d43280c67f3ce231cc12784ef91146fa1fa3663f2"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/personal-learning/SKILL.md",
+      "sha256": "93c0d219f7129abb860fe44bbd8a21881c6f211e4c684fbb211a1b86eb463937"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/preparation-quality-examples.md",
+      "sha256": "3e195cfbdee0d4f8671b657604337d03a69d859504c8f4de8ac710ac7a989be9"
+    }
+  ]
+}

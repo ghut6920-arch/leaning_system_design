@@ -1,0 +1,38 @@
+{
+  "artifact_id": "video-interface-preparation-01a11b49",
+  "revision": 1,
+  "date": "2026-10-08",
+  "mode": "single_model_preparation_review",
+  "formal_teaching_started": false,
+  "learner_performance_created": false,
+  "independent_review": false,
+  "comparison_preparations_read": false,
+  "current_framework_entries_checked": 117,
+  "current_framework_mismatches": [],
+  "preserved_progress_files": {
+    "plan/current.md": "851102EDB24AABAFFBE0CFF20B0C04535B12F1E6827B4E58C80C60526BD9CBC0",
+    "state/current.md": "0CDB6C945D41F929F66C9D1752403BB47B516E10DDD6FB763E160F84E3719977",
+    "sessions/2026-10-07-01/checkpoint.md": "CF49FED4351309B57CA150644A62E800A702E03D0167AFA1E26108632BFE03AA",
+    "plan/needs.md": "010C5D2A59DF26656EE1BD8219B07A44D5F367A310C16C08DAF304FF778D5348",
+    "sessions/2026-10-07-01/event-M0-feature-sequence-001.md": "4BBFBBED95C5D095DE34A38003BC3D9EE04E7F025FE92C5EE89499DD285FF2D9",
+    "state/control.md": "D7BA0AA3BF5C84B0A6888BBCCCB48DA66DDB7C3DBDC623DAF31FF99B44692D87",
+    "goals/M0-video-interface-first-20261006-02.md": "DD8E882A60FB63688133DCA8DD4BE04A38CD0D2A8F4A757D320611C01EF9D3B1"
+  },
+  "selected_methods": [
+    "encoding/S05",
+    "encoding/D04",
+    "post/retrieve-relation",
+    "post/select-method"
+  ],
+  "resource_revision": "pl-strategies/0.1.0",
+  "source_reading": "Full selected carrier bodies, conditions, evidence limits and post source excerpts; stable common text reused.",
+  "technical_sources": [
+    "https://docs.pytorch.org/docs/2.14/generated/torch.permute.html",
+    "https://docs.pytorch.org/docs/2.14/generated/torch.reshape.html"
+  ],
+  "review_limits": [
+    "Prepared material is not displayed teaching",
+    "Self-check is not independent review",
+    "Finite numerical checking is not learning outcome validation"
+  ]
+}

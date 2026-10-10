@@ -1,0 +1,64 @@
+{
+  "author": "actual delegated teacher-code AI Agent",
+  "contribution": "all project initial implementation/scaffold/figures by AI",
+  "revision": "M7.2-teacher-code-provenance-r1-20261010",
+  "learner_contribution": "none yet",
+  "date": "2026-10-10",
+  "upstream_code_copied": false,
+  "sources": [
+    {
+      "use": "independent Gaussian setup, oracle formulas, derivative, risk and numerical comparison",
+      "path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/00-disciplinary-analysis.md",
+      "revision": 1
+    },
+    {
+      "use": "68-feature OLS family, loss convention, references, learner core specification",
+      "path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/01-cognitive-design.md",
+      "revision": 1
+    },
+    {
+      "use": "scientific axis/legend/redundant styling and PNG/SVG QA",
+      "path": "C:/Users/15006/.agents/skills/scientific-visualization/SKILL.md"
+    }
+  ],
+  "future_revision_policy": "preserve r1 files/hash and outputs before replacing teaching or learner evidence",
+  "purpose": "preparation review only; no learner submission or run",
+  "files": [
+    {
+      "file": "teacher_cfm.py",
+      "sha256": "0883d9bb81bb9f6f3c96a6c83f06982048f7b2fe7c6eef264205670667a45851",
+      "contribution": "AI teacher-code Agent original",
+      "revision": 1
+    },
+    {
+      "file": "learner_sampler.py",
+      "sha256": "30d2b0e865a5e65d0edf423ff265a446b87caec924bfe6e5273d6d09c50fd0c2",
+      "contribution": "AI teacher-code Agent original",
+      "revision": 1
+    },
+    {
+      "file": "SAMPLER_SPEC.md",
+      "sha256": "5c397ec2e1594f8a1bfd1d46459084bd91688ce764ef2542c5a47657bece7c0e",
+      "contribution": "AI teacher-code Agent original",
+      "revision": 1
+    },
+    {
+      "file": "mathematical_checks.py",
+      "sha256": "b59f1a5022349ca9a19fac8cca70db95c8ef72974b1d2c49ab8328c3f523178b",
+      "contribution": "AI teacher-code Agent original",
+      "revision": 1
+    },
+    {
+      "file": "make_figures.py",
+      "sha256": "a66f60e2cc0a648140e17d8cd74a839ed0ce1d5449e2b9c25c9d7bb453de0df2",
+      "contribution": "AI teacher-code Agent original",
+      "revision": 1
+    },
+    {
+      "file": "README.md",
+      "sha256": "6c6f564c645026ce888711d3c37e246498ea6733931a5384d8fbe3c80567fdbb",
+      "contribution": "AI teacher-code Agent original",
+      "revision": 1
+    }
+  ]
+}

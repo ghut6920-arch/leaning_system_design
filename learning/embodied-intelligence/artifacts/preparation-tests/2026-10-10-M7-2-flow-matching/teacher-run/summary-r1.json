@@ -1,0 +1,727 @@
+{
+  "revision": "M7.2-teacher-cfm-r1-20261010",
+  "purpose": "AI teacher preparation run; no learner run or progress",
+  "config": {
+    "seeds": {
+      "train": 20261010,
+      "heldout": 20261011,
+      "generation": 20261012
+    },
+    "train_size": 100000,
+    "heldout_size": 25000,
+    "generation_size": 8192,
+    "class_counts": "exactly half each, shuffled",
+    "sigma": 0.5,
+    "mu": [
+      [
+        -2.0,
+        0.0
+      ],
+      [
+        2.0,
+        0.0
+      ]
+    ],
+    "n_time_knots": 17,
+    "features": "h_j(t)*[1,x_coord0,x_coord1,2*c-1], raw current x coordinates",
+    "training_labels": "independent X1-X0, NO oracle targets/features",
+    "loss": "coordinate MSE = (1/(2B))*sum_b ||prediction-U||^2",
+    "solver": "numpy.linalg.lstsq(Phi,U,rcond=None), no regularization",
+    "n_list": [
+      1,
+      4,
+      16,
+      64,
+      128
+    ],
+    "reference_steps": 2048,
+    "double_reference_steps": 4096
+  },
+  "environment": {
+    "python": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "E:\\anaconda\\python.exe",
+    "numpy": "1.26.4",
+    "matplotlib": "3.8.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "threads_env": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "timing": "single wall-clock observation, vectorized batch, no benchmark guarantee"
+  },
+  "shapes": {
+    "x0": [
+      100000,
+      2
+    ],
+    "x1": [
+      100000,
+      2
+    ],
+    "t": [
+      100000
+    ],
+    "c": [
+      100000
+    ],
+    "xt": [
+      100000,
+      2
+    ],
+    "u": [
+      100000,
+      2
+    ],
+    "Phi": [
+      100000,
+      68
+    ],
+    "W": [
+      68,
+      2
+    ]
+  },
+  "fit": {
+    "rank": 68,
+    "seconds": 0.4388251000200398,
+    "singular_min": 8.903050762480955,
+    "singular_max": 160.66386428993104,
+    "W_l2": 11.685122058268883,
+    "W_min": -1.2716494020520663,
+    "W_max": 3.2711900165186347,
+    "W_changed_entries": 136,
+    "training_zero_coordinate_mse": 3.252074327065438,
+    "training_fitted_coordinate_mse": 0.7882149208298074,
+    "normal_equation_gradient_maxabs": 5.624611887355968e-16,
+    "query": {
+      "x": [
+        [
+          0.0,
+          0.5
+        ]
+      ],
+      "t": 0.25,
+      "c": [
+        1
+      ],
+      "sample_target": [
+        [
+          4.0,
+          -2.0
+        ]
+      ],
+      "before": [
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "after": [
+        [
+          2.6155658361889462,
+          -0.5562565808105954
+        ]
+      ],
+      "oracle_for_evaluation": [
+        [
+          2.5945945945945947,
+          -0.5945945945945946
+        ]
+      ]
+    }
+  },
+  "heldout": {
+    "learned_cfm_coordinate_mse": 0.7841924747531227,
+    "learned_field_coordinate_mse": 0.0005578586976070426,
+    "oracle_cfm_coordinate_mse": 0.7836408287928087,
+    "population_irreducible_coordinate_cfm_risk": 0.7853981633974483,
+    "sample_mean_conditional_variance": 0.7815269998672663,
+    "finite_sample_cross_term": -6.212737293213935e-06,
+    "finite_sample_decomposition_residual": 1.4856110861893174e-16
+  },
+  "learned_reference": {
+    "steps": 2048,
+    "double_steps": 4096,
+    "N_vs_double_N": {
+      "coordinate_mse": 3.391486078622692e-08,
+      "coordinate_rmse": 0.0001841598783292032,
+      "norm_rms_2d": 0.0002604413975781382
+    },
+    "double_reference_vs_oracle_exact": {
+      "coordinate_mse": 4.0532116107842725e-05,
+      "coordinate_rmse": 0.006366483810380949,
+      "norm_rms_2d": 0.009003567749269479
+    },
+    "seconds": 1.7607374000072014,
+    "double_seconds": 3.661912699986715,
+    "warning": "finite Euler reference, not exact; small double-N change does not bound all remaining error"
+  },
+  "generation_input_statistics": {
+    "0": {
+      "count": 4096,
+      "mean": [
+        -0.0034681022607664976,
+        0.008170167570817673
+      ],
+      "covariance_ddof1": [
+        [
+          0.9656976749134069,
+          0.01342937484708066
+        ],
+        [
+          0.01342937484708066,
+          1.0317125990284601
+        ]
+      ]
+    },
+    "1": {
+      "count": 4096,
+      "mean": [
+        -0.038796788246548905,
+        -0.03720982066309618
+      ],
+      "covariance_ddof1": [
+        [
+          1.0009620652008706,
+          -0.012299566244105683
+        ],
+        [
+          -0.012299566244105683,
+          1.0217740690982264
+        ]
+      ]
+    }
+  },
+  "target_class_statistics": {
+    "0": {
+      "mean": [
+        -2.0,
+        0.0
+      ],
+      "covariance": [
+        [
+          0.25,
+          0.0
+        ],
+        [
+          0.0,
+          0.25
+        ]
+      ]
+    },
+    "1": {
+      "mean": [
+        2.0,
+        0.0
+      ],
+      "covariance": [
+        [
+          0.25,
+          0.0
+        ],
+        [
+          0.0,
+          0.25
+        ]
+      ]
+    }
+  },
+  "samples": [
+    {
+      "n_steps": 1,
+      "nfe_per_sample": 1,
+      "oracle_theory_coefficient": 0.0,
+      "oracle_theory_coordinate_variance": 0.0,
+      "oracle_theory_coordinate_rmse": 0.5,
+      "oracle_theory_norm_rms_2d": 0.7071067811865476,
+      "oracle_euler_vs_exact": {
+        "coordinate_mse": 0.2513833417554824,
+        "coordinate_rmse": 0.5013814333972514,
+        "norm_rms_2d": 0.7090604230324555
+      },
+      "learned_vs_oracle_exact": {
+        "coordinate_mse": 0.2518548395601897,
+        "coordinate_rmse": 0.5018514118344092,
+        "norm_rms_2d": 0.709725072912307
+      },
+      "learned_vs_double_reference": {
+        "coordinate_mse": 0.2526649204599358,
+        "coordinate_rmse": 0.5026578562600368,
+        "norm_rms_2d": 0.7108655575563299
+      },
+      "oracle_class_statistics": {
+        "0": {
+          "count": 4096,
+          "mean": [
+            -2.0,
+            0.0
+          ],
+          "covariance_ddof1": [
+            [
+              6.020000802968649e-33,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        "1": {
+          "count": 4096,
+          "mean": [
+            2.0,
+            0.0
+          ],
+          "covariance_ddof1": [
+            [
+              7.043400939473319e-33,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      },
+      "learned_class_statistics": {
+        "0": {
+          "count": 4096,
+          "mean": [
+            -1.950689323083265,
+            -0.03946662821105846
+          ],
+          "covariance_ddof1": [
+            [
+              0.0001164009626758549,
+              -1.429970217189838e-05
+            ],
+            [
+              -1.429970217189838e-05,
+              9.202198145885546e-05
+            ]
+          ]
+        },
+        "1": {
+          "count": 4096,
+          "mean": [
+            1.9838255423915976,
+            0.019556884315219788
+          ],
+          "covariance_ddof1": [
+            [
+              0.00011961781451147303,
+              -1.796039256615003e-05
+            ],
+            [
+              -1.796039256615003e-05,
+              9.286803527574116e-05
+            ]
+          ]
+        }
+      },
+      "oracle_seconds": 0.001419799984432757,
+      "learned_seconds": 0.0009802000131458044
+    },
+    {
+      "n_steps": 4,
+      "nfe_per_sample": 4,
+      "oracle_theory_coefficient": 0.3405405405405405,
+      "oracle_theory_coordinate_variance": 0.1159678597516435,
+      "oracle_theory_coordinate_rmse": 0.1594594594594595,
+      "oracle_theory_norm_rms_2d": 0.22550973021625037,
+      "oracle_euler_vs_exact": {
+        "coordinate_mse": 0.02556801790068179,
+        "coordinate_rmse": 0.15990002470506937,
+        "norm_rms_2d": 0.22613278356170205
+      },
+      "learned_vs_oracle_exact": {
+        "coordinate_mse": 0.027560430730701857,
+        "coordinate_rmse": 0.1660133450379874,
+        "norm_rms_2d": 0.23477832408764596
+      },
+      "learned_vs_double_reference": {
+        "coordinate_mse": 0.02772880131269841,
+        "coordinate_rmse": 0.16651967244952895,
+        "norm_rms_2d": 0.23549437918004926
+      },
+      "oracle_class_statistics": {
+        "0": {
+          "count": 4096,
+          "mean": [
+            -2.001181029418536,
+            0.0027822732808730445
+          ],
+          "covariance_ddof1": [
+            [
+              0.11198989252684623,
+              0.0015573758588184948
+            ],
+            [
+              0.0015573758588184948,
+              0.11964550198813607
+            ]
+          ]
+        },
+        "1": {
+          "count": 4096,
+          "mean": [
+            1.9867881207592872,
+            -0.012671452442027376
+          ],
+          "covariance_ddof1": [
+            [
+              0.11607942839393005,
+              -0.0014263543732024962
+            ],
+            [
+              -0.0014263543732024962,
+              0.11849295194304925
+            ]
+          ]
+        }
+      },
+      "learned_class_statistics": {
+        "0": {
+          "count": 4096,
+          "mean": [
+            -1.9961153849436943,
+            0.007836052502747406
+          ],
+          "covariance_ddof1": [
+            [
+              0.10546915263443396,
+              0.003633253437653364
+            ],
+            [
+              0.003633253437653364,
+              0.11878659966107577
+            ]
+          ]
+        },
+        "1": {
+          "count": 4096,
+          "mean": [
+            1.9940692721776523,
+            0.0011207644261416046
+          ],
+          "covariance_ddof1": [
+            [
+              0.10926451091310121,
+              0.0007747333852090643
+            ],
+            [
+              0.0007747333852090643,
+              0.11758804927389102
+            ]
+          ]
+        }
+      },
+      "oracle_seconds": 0.005356600013328716,
+      "learned_seconds": 0.002821900008711964
+    },
+    {
+      "n_steps": 16,
+      "nfe_per_sample": 16,
+      "oracle_theory_coefficient": 0.4556830933916337,
+      "oracle_theory_coordinate_variance": 0.20764708160296838,
+      "oracle_theory_coordinate_rmse": 0.04431690660836629,
+      "oracle_theory_norm_rms_2d": 0.06267357036797346,
+      "oracle_euler_vs_exact": {
+        "coordinate_mse": 0.0019748556789347294,
+        "coordinate_rmse": 0.044439348318069755,
+        "norm_rms_2d": 0.06284672909443624
+      },
+      "learned_vs_oracle_exact": {
+        "coordinate_mse": 0.0020425702217393444,
+        "coordinate_rmse": 0.04519480303905909,
+        "norm_rms_2d": 0.06391510340661813
+      },
+      "learned_vs_double_reference": {
+        "coordinate_mse": 0.0020783844208211244,
+        "coordinate_rmse": 0.0455893016048845,
+        "norm_rms_2d": 0.06447300862874517
+      },
+      "oracle_class_statistics": {
+        "0": {
+          "count": 4096,
+          "mean": [
+            -2.001580355566387,
+            0.0037230072321981964
+          ],
+          "covariance_ddof1": [
+            [
+              0.20052430390654094,
+              0.002788570494748608
+            ],
+            [
+              0.002788570494748608,
+              0.21423211024127312
+            ]
+          ]
+        },
+        "1": {
+          "count": 4096,
+          "mean": [
+            1.9823209595181484,
+            -0.016955886184307666
+          ],
+          "covariance_ddof1": [
+            [
+              0.20784685163424083,
+              -0.002553969035570925
+            ],
+            [
+              -0.002553969035570925,
+              0.21216840350583635
+            ]
+          ]
+        }
+      },
+      "learned_class_statistics": {
+        "0": {
+          "count": 4096,
+          "mean": [
+            -2.0009720710427343,
+            0.00711379175173718
+          ],
+          "covariance_ddof1": [
+            [
+              0.19847814476603398,
+              0.004558966336382582
+            ],
+            [
+              0.004558966336382582,
+              0.21589513361431326
+            ]
+          ]
+        },
+        "1": {
+          "count": 4096,
+          "mean": [
+            1.9895243540772996,
+            -0.012417440501761074
+          ],
+          "covariance_ddof1": [
+            [
+              0.20562855881393263,
+              -0.0007997054050507862
+            ],
+            [
+              -0.0007997054050507862,
+              0.21382313004056466
+            ]
+          ]
+        }
+      },
+      "oracle_seconds": 0.014878100017085671,
+      "learned_seconds": 0.015053500013891608
+    },
+    {
+      "n_steps": 64,
+      "nfe_per_sample": 64,
+      "oracle_theory_coefficient": 0.4885552946873278,
+      "oracle_theory_coordinate_variance": 0.2386862759670217,
+      "oracle_theory_coordinate_rmse": 0.011444705312672221,
+      "oracle_theory_norm_rms_2d": 0.01618525747054447,
+      "oracle_euler_vs_exact": {
+        "coordinate_mse": 0.00013170604718746077,
+        "coordinate_rmse": 0.011476325508953672,
+        "norm_rms_2d": 0.016229975180970597
+      },
+      "learned_vs_oracle_exact": {
+        "coordinate_mse": 0.00015317425837026584,
+        "coordinate_rmse": 0.012376358849446222,
+        "norm_rms_2d": 0.017502814537683122
+      },
+      "learned_vs_double_reference": {
+        "coordinate_mse": 0.00013244149840837887,
+        "coordinate_rmse": 0.011508323005910934,
+        "norm_rms_2d": 0.016275226475129547
+      },
+      "oracle_class_statistics": {
+        "0": {
+          "count": 4096,
+          "mean": [
+            -2.00169435972202,
+            0.003991578625205671
+          ],
+          "covariance_ddof1": [
+            [
+              0.23049878173509247,
+              0.003205407470814879
+            ],
+            [
+              0.003205407470814879,
+              0.24625563813035992
+            ]
+          ]
+        },
+        "1": {
+          "count": 4096,
+          "mean": [
+            1.981045623685286,
+            -0.018179054899321603
+          ],
+          "covariance_ddof1": [
+            [
+              0.23891590772705476,
+              -0.00293573766281527
+            ],
+            [
+              -0.00293573766281527,
+              0.2438834474327258
+            ]
+          ]
+        }
+      },
+      "learned_class_statistics": {
+        "0": {
+          "count": 4096,
+          "mean": [
+            -1.997716987592574,
+            0.00838174287599122
+          ],
+          "covariance_ddof1": [
+            [
+              0.22877943191807193,
+              0.005064582377080304
+            ],
+            [
+              0.005064582377080304,
+              0.24962807401149542
+            ]
+          ]
+        },
+        "1": {
+          "count": 4096,
+          "mean": [
+            1.9867134765995391,
+            -0.013901619280434445
+          ],
+          "covariance_ddof1": [
+            [
+              0.23703006334567697,
+              -0.001121372681015777
+            ],
+            [
+              -0.001121372681015777,
+              0.24723396998906055
+            ]
+          ]
+        }
+      },
+      "oracle_seconds": 0.06440360000124201,
+      "learned_seconds": 0.04876820000936277
+    },
+    {
+      "n_steps": 128,
+      "nfe_per_sample": 128,
+      "oracle_theory_coefficient": 0.4942451024643148,
+      "oracle_theory_coordinate_variance": 0.24427822130996105,
+      "oracle_theory_coordinate_rmse": 0.0057548975356851995,
+      "oracle_theory_norm_rms_2d": 0.008138654145033512,
+      "oracle_euler_vs_exact": {
+        "coordinate_mse": 3.3302104374532957e-05,
+        "coordinate_rmse": 0.0057707975509918,
+        "norm_rms_2d": 0.008161140162322045
+      },
+      "learned_vs_oracle_exact": {
+        "coordinate_mse": 6.304039593707348e-05,
+        "coordinate_rmse": 0.007939798230249524,
+        "norm_rms_2d": 0.011228570339724776
+      },
+      "learned_vs_double_reference": {
+        "coordinate_mse": 3.2332549731574906e-05,
+        "coordinate_rmse": 0.005686171799336959,
+        "norm_rms_2d": 0.008041461276605752
+      },
+      "oracle_class_statistics": {
+        "0": {
+          "count": 4096,
+          "mean": [
+            -2.0017140925572323,
+            0.004038065308189409
+          ],
+          "covariance_ddof1": [
+            [
+              0.23589891035101251,
+              0.003280503800949607
+            ],
+            [
+              0.003280503800949607,
+              0.2520249185937498
+            ]
+          ]
+        },
+        "1": {
+          "count": 4096,
+          "mean": [
+            1.980824877417798,
+            -0.01839077162631082
+          ],
+          "covariance_ddof1": [
+            [
+              0.24451323288601448,
+              -0.003004516164994184
+            ],
+            [
+              -0.003004516164994184,
+              0.2495971521799565
+            ]
+          ]
+        }
+      },
+      "learned_class_statistics": {
+        "0": {
+          "count": 4096,
+          "mean": [
+            -1.9974800328871234,
+            0.008604747984515583
+          ],
+          "covariance_ddof1": [
+            [
+              0.23417053214597058,
+              0.005150291131523369
+            ],
+            [
+              0.005150291131523369,
+              0.25565276685642563
+            ]
+          ]
+        },
+        "1": {
+          "count": 4096,
+          "mean": [
+            1.9865589652184177,
+            -0.014158555985015907
+          ],
+          "covariance_ddof1": [
+            [
+              0.24261706068837724,
+              -0.0011831619506945945
+            ],
+            [
+              -0.0011831619506945945,
+              0.25320121433323306
+            ]
+          ]
+        }
+      },
+      "oracle_seconds": 0.11837150002247654,
+      "learned_seconds": 0.09929670000565238
+    }
+  ],
+  "limits": [
+    "fixed t,c field is affine in x; same-c multimodal example is analytic only",
+    "finite OLS, one seed, no optimizer/neural/robot benchmark",
+    "moments do not identify general distributions",
+    "paired noise comparisons, not independent repeats",
+    "more integration steps keep the same W"
+  ],
+  "total_seconds_before_output_review": 8.220662199979415,
+  "source_sha256": "0883d9bb81bb9f6f3c96a6c83f06982048f7b2fe7c6eef264205670667a45851"
+}

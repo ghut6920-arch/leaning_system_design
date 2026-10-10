@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-08",
+  "revision": 1,
+  "generated_at": "2026-10-08T17:08:23.871629+08:00",
+  "executor_and_checker": "same_model; no independent or blind review",
+  "framework": {
+    "checked": 117,
+    "mismatches": []
+  },
+  "protected_existing_learning_files": {
+    "checked": 110,
+    "changed": []
+  },
+  "teacher_reference": {
+    "passed": 21,
+    "failed": 0,
+    "details": "teacher-check.json",
+    "torch": {
+      "status": "not_executed",
+      "reason": "torch not installed in teacher runtime"
+    }
+  },
+  "printed_packet": {
+    "task_matches": true,
+    "first_reply_matches": true
+  },
+  "local_links": {
+    "broken": []
+  },
+  "prepared_documents": [
+    {
+      "path": "01-mainline.md",
+      "sha256": "0c2169dbaf14d04bd67fe559897d4717ddc2417c6b3f0e02941db50dbbe00b78"
+    },
+    {
+      "path": "02-materials.md",
+      "sha256": "4091c0cf0eadd341df9a86c01dedd9775536e83d08802d4134d3a7b9c686665e"
+    },
+    {
+      "path": "03-work.md",
+      "sha256": "dbb6258c44a29966d2b0f910de735b8853860a52163f8cc1f1f1e424d00a1ebb"
+    },
+    {
+      "path": "04-teacher-reference.md",
+      "sha256": "9cc8b04f15a1d627c619a7f39f12d559ac71c27325bc9857e0d066aea4b2e6e5"
+    },
+    {
+      "path": "05-support.md",
+      "sha256": "1a00cce7259ffbcc024f3ccbe55a6275b3764f63c4f76fa9f11ec5b46575f64c"
+    },
+    {
+      "path": "06-first-reply-draft.md",
+      "sha256": "89ef9ee0a822e1b12b47923178e3a7d71bb8808f295b3a94913530dbb900339a"
+    },
+    {
+      "path": "07-self-review.md",
+      "sha256": "692e49df3da6ca2db5f7c1d26f53ed939d1edb2f5e90a67aae69650467dd201c"
+    },
+    {
+      "path": "完整备课.md",
+      "sha256": "4292ff5019f5b27a2d61e97866acb02f3ab50b71b6ecaa6c21e86943700d07a3"
+    }
+  ],
+  "code_versions": [
+    {
+      "path": "code\\M0\\preparation-tests\\video-interface-independent-02\\build_audit.py",
+      "sha256": "196a3637005a9fba39dc03e6c225b4b8318d3504d83132f8c426d69c1a834691"
+    },
+    {
+      "path": "code\\M0\\preparation-tests\\video-interface-independent-02\\reference.py",
+      "sha256": "40fc5e74eaf8a7b15c89617332dbffd7713762696f1cb3020cebf61ed09eccf0"
+    }
+  ],
+  "validation_scope": {
+    "V1": "teacher content checks plus semantic self-review; finite examples do not prove all model behavior",
+    "V2": "draft prepared; formal teaching/feedback not executed",
+    "V3": "not_executed; no new learner response",
+    "V4": "not_executed; no comparator read or learning-effect/cost comparison"
+  }
+}

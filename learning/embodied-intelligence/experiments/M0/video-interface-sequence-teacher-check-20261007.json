@@ -1,0 +1,155 @@
+{
+  "status": "pass",
+  "teacher_checks_only": true,
+  "tests_run": 10,
+  "passed": 9,
+  "failures": 0,
+  "errors": 0,
+  "skipped": [
+    "PyTorch is absent; no installation requested"
+  ],
+  "python_version": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+  "pytorch_executed": false,
+  "demo": {
+    "camera_shape": [
+      2,
+      4,
+      2,
+      2,
+      3
+    ],
+    "video_shape": [
+      2,
+      3,
+      4,
+      2,
+      2
+    ],
+    "frames_shape": [
+      8,
+      3,
+      2,
+      2
+    ],
+    "features_shape": [
+      8,
+      2
+    ],
+    "sequence_shape": [
+      2,
+      4,
+      2
+    ],
+    "frame_ids": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "features": [
+      [
+        0,
+        1
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        24,
+        25
+      ],
+      [
+        36,
+        37
+      ],
+      [
+        48,
+        49
+      ],
+      [
+        60,
+        61
+      ],
+      [
+        72,
+        73
+      ],
+      [
+        84,
+        85
+      ]
+    ],
+    "sequence": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          36,
+          37
+        ]
+      ],
+      [
+        [
+          48,
+          49
+        ],
+        [
+          60,
+          61
+        ],
+        [
+          72,
+          73
+        ],
+        [
+          84,
+          85
+        ]
+      ]
+    ],
+    "video_identity_example": 73,
+    "teacher_reference_only": true,
+    "trained_encoder": false
+  },
+  "learner_run_observed": false,
+  "learning_effect_verified": false
+}

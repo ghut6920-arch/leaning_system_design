@@ -1,0 +1,73 @@
+{
+  "client_date": "2026-10-08",
+  "status": "pass",
+  "passed": 14,
+  "total": 14,
+  "checks": [
+    {
+      "name": "xhigh_96_coordinates_both_routes",
+      "passed": true
+    },
+    {
+      "name": "xhigh_printed_encoded_rows",
+      "passed": true
+    },
+    {
+      "name": "xhigh_tags_restore_all_eight_frames",
+      "passed": true
+    },
+    {
+      "name": "xhigh_same_source_blue_change_preserves_features",
+      "passed": true
+    },
+    {
+      "name": "xhigh_wrong_Y_reshape_coordinate",
+      "passed": true
+    },
+    {
+      "name": "xhigh_G_order_sensitive",
+      "passed": true
+    },
+    {
+      "name": "xhigh_source_collision",
+      "passed": true
+    },
+    {
+      "name": "ultra_96_coordinates_both_routes",
+      "passed": true
+    },
+    {
+      "name": "ultra_printed_encoded_rows",
+      "passed": true
+    },
+    {
+      "name": "ultra_tags_restore_all_eight_frames",
+      "passed": true
+    },
+    {
+      "name": "ultra_same_source_blue_change_preserves_features",
+      "passed": true
+    },
+    {
+      "name": "ultra_S_correct_and_wrong_outputs",
+      "passed": true
+    },
+    {
+      "name": "ultra_K_same_features_opposite_answers",
+      "passed": true
+    },
+    {
+      "name": "ultra_printed_row_lookup",
+      "passed": true
+    }
+  ],
+  "teacher_review_only": true,
+  "independent_agent": false,
+  "pytorch_executed": false,
+  "learner_execution": false,
+  "learning_effect_verified": false,
+  "limits": [
+    "Selected finite claims under printed contracts",
+    "Separate maintenance calculation; original candidate checks not rerun or overwritten"
+  ]
+}

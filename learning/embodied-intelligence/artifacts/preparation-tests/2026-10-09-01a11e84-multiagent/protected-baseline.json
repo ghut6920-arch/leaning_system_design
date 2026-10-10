@@ -1,0 +1,418 @@
+[
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\state\\checkpoint.md",
+    "sha256": "C92D495078FF3E46E1AC1E965EC36DAF461A4B97B0C22F14CE91AC82C15F03B8"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\state\\control.md",
+    "sha256": "D7BA0AA3BF5C84B0A6888BBCCCB48DA66DDB7C3DBDC623DAF31FF99B44692D87"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\state\\current.md",
+    "sha256": "0CDB6C945D41F929F66C9D1752403BB47B516E10DDD6FB763E160F84E3719977"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\README.md",
+    "sha256": "0130CFA0D3598A426B758A6C8661F66CB11A6502AEA7E94EF6B91CA71A68776A"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\event-M0-axis-001.md",
+    "sha256": "B85329E1F3187F5730C7C451AB17F9BDA3A21F1D2792CC8D1CED4F3B03857B38"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\event-M0-axis-compare-001.md",
+    "sha256": "E6FBB9EB7FC555AFCD21FCFDDD30C846D2A00ABA1B2DB0492125DCFFA5F14603"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\event-M0-axis-order-001.md",
+    "sha256": "B3B7FF48C12EEE1CD16BBA8C301857024FCFB7818FB87ABBE3B5D12BFC73D56E"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\event-M0-practice-001.md",
+    "sha256": "7F608FFC764EF5B78BCBDC76A1AADAEE80A0CA6D45244B9030E6A12A230F5720"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\event-M0-rank-001.md",
+    "sha256": "3A3584A0EC8CB4D89E63450CD85BD786CD14BA472418DD2683B83808324DF8AB"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\event-M0-shape-001.md",
+    "sha256": "AE47D1BF3821B63C3EF24FDC6E5D9D690458150C06C9BB7536C974CA604B8D7A"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\session.md",
+    "sha256": "BA6056AAC792AB7F38FEDEC54D3D4BDDB4841F516123B8A9B900DEF333E70FF4"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\raw\\entry-001.txt",
+    "sha256": "3FEADA511AC6F9E753397E9E41076E8E5ED2BC2D5C7E832B1877E37E5897692E"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\raw\\environment-001.txt",
+    "sha256": "0EF5C86FAB94F13A7B7D54AA531CEB5D586CD9EBEE98198AD975DF3852DA824A"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\raw\\M0-axis-001-initial.txt",
+    "sha256": "1724893CE3EA79621DFDE52C241219CB76D42A6A16A635DBA26600594A580D0E"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\raw\\M0-axis-compare-001-initial.txt",
+    "sha256": "E2677D6B55718D5EB87120BA0653F493A41C76E9949AAF6E4B4A1BA701F234D8"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\raw\\M0-axis-compare-001-revision-001.txt",
+    "sha256": "569A3ECD9FC95A0E0BE378E8F754575FF93E25F6B24EDEC2D27483828CF4C90C"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\raw\\M0-axis-order-001-initial.txt",
+    "sha256": "D3CBD0DC1AB8407DFD0C53383F9CD1D179AF1672EF12EFCD18F9D07DFBFD11A4"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\raw\\M0-practice-001-output-001.txt",
+    "sha256": "A708BC100B3D5534C8A10D1DA7371CFAA7EB5DCBDFF85456BB4EF38EBCC1A422"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\raw\\M0-rank-001-initial.txt",
+    "sha256": "5C8E8D018370556C0D85FC973B166EBE63483C83D40D6F06508DF60B0237A6BC"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\raw\\M0-shape-001-completion-001.txt",
+    "sha256": "6F4F5675543DA4FA57D9E6AB6CF909720C9B0867947ED636617F663CA4F94AE5"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\raw\\M0-shape-001-initial.txt",
+    "sha256": "4912C85D2B4D43C259898B14EC936B366C8D92F63D41173DEEB7918AA56B5248"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\raw\\mental-representation-feedback-001.txt",
+    "sha256": "9829856B96DFF452A4407BC9BE9D033D0734664653E33CC0815350CCB36888C8"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-04-01\\raw\\teaching-role-question-001.txt",
+    "sha256": "0799063C23060AC4CFF541A78B93E3AA617C8DE2C6A7B23942101A83312F793C"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-05-01\\session.md",
+    "sha256": "50BFA34509A3F64FB4C941763A778A4A5D402C0485DEC38FC874DD6D217075EC"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-05-01\\raw\\entry-001.txt",
+    "sha256": "DA08CA5BD966C1CAE0F4730C16EEC50DB19816817AF368734ABAC522546066EA"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-01\\checkpoint.md",
+    "sha256": "929C4D657EBD44D8E441F622778B5E13F67A914B71A7C778C3AD4F8E3E033026"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-01\\event-M0-broadcast-001.md",
+    "sha256": "7FAA15B7F1BCBF2EEF32F1AE6EB9EB69A2B35516DC019E7EF1EFDBCD4132DE70"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-01\\event-M0-first-001.md",
+    "sha256": "E1AFA00B50B18E16C61B56DA43AD60C25B030230E5724EC1A447B8A3A6A5A52A"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-01\\event-M0-interface-001.md",
+    "sha256": "8C3E3C1735A85CE40EFB8148693988BEE98BB30E95CF4A58736719A1D6006054"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-01\\event-M0-preprocess-001.md",
+    "sha256": "2FD4178B8B7114DF078C8A7DA1245D4EA3B03CC62B4C320A456BA034B197BE82"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-01\\session.md",
+    "sha256": "3BA77D5D50C0F3DBBCC1059C7C23A9C3EC39789CEA56BF1E730AC9E0BB188E99"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-01\\raw\\continue-001.txt",
+    "sha256": "7C9691192F1B73408BBE4C0CB6D00DB94375CA9D8FCE0A0D5985E7A5178F083F"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-01\\raw\\continue-002.txt",
+    "sha256": "7C9691192F1B73408BBE4C0CB6D00DB94375CA9D8FCE0A0D5985E7A5178F083F"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-01\\raw\\continue-003.txt",
+    "sha256": "8ED9C2B8BEE2A5C920744AA2BFDC5218DEFBF05CEBE525034CD773C8537267EF"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-01\\raw\\continue-004.txt",
+    "sha256": "DA8B61E82D69029A2778BDFFA543AE3ED90F24C2C0F3C3BE7A36B49694C19DB9"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-01\\raw\\entry-001.txt",
+    "sha256": "A8747F2C72B36BAACAEE6A77790A15FC44068C6341808904D2C97B49CEB5E059"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-01\\raw\\M0-broadcast-001-initial.txt",
+    "sha256": "DB65429737E29490515CEC373EDAF3BBA4A851F2BA5CC14EF5C5542710C90C71"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-01\\raw\\M0-first-001-initial.txt",
+    "sha256": "317168DFF07464098AE75DF2A630431B112A08BBADC52E14124ED4BCF9C302A1"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-01\\raw\\M0-interface-001-initial.txt",
+    "sha256": "37A37044A85A736EE11029CB04D7F3AAC6D8F2437FA0263497E879942A58752D"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-01\\raw\\M0-preprocess-001-initial.txt",
+    "sha256": "FC68C05F103FC7FBDF70F955CB21BE3C50A31DD29CE9C69D1C786D9CB737A806"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-02\\checkpoint.md",
+    "sha256": "788A87230F5DC8C6FD14D5CA2B47B263912459A8D71145A2A264F902BAE5A64A"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-02\\event-M0-video-interface-001.md",
+    "sha256": "39A87F1BB0B609D95F2388B8059E3EF54853F1472BF70160E3DB7BDD6982B0AD"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-02\\event-M0-video-interface-002.md",
+    "sha256": "F85846020212BF0231AA18A0A0D87337C3D194AFCC77E471A1AA648E82FC11DA"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-02\\session.md",
+    "sha256": "7EFF4F65EA6688D9C2D1D62CC077267D515DE569D305C71F7B1E08BA2CAC3539"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-02\\raw\\entry-001.txt",
+    "sha256": "0344C99A8B7045D9D520CB5B0D1F969DF02E69C47AB5016CF08EDEB19927F90B"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-02\\raw\\M0-video-interface-001-initial.txt",
+    "sha256": "F605BCB019F8A9C5DB21CCB461AD250FBDCCC09575BDC3EEEEE884D884000728"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-02\\raw\\M0-video-interface-002-initial.txt",
+    "sha256": "E53C41B5D2A5B6E902AC8FDE3260B9182A2AD2A428C1A6FA8A02BBA7D6316D22"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-02\\raw\\M0-video-interface-002-revision-001.txt",
+    "sha256": "8D745A116569F35E15F0E05912C26D10625015A9B7694EC82367FEF274086E6D"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-07-01\\checkpoint.md",
+    "sha256": "CF49FED4351309B57CA150644A62E800A702E03D0167AFA1E26108632BFE03AA"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-07-01\\event-M0-feature-sequence-001.md",
+    "sha256": "4BBFBBED95C5D095DE34A38003BC3D9EE04E7F025FE92C5EE89499DD285FF2D9"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-07-01\\session.md",
+    "sha256": "A0A5E67A11A11F71489BC7CC6120DF6249D887821EBC4339AB8D60968C6ADD63"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-07-01\\raw\\entry-001.txt",
+    "sha256": "891B4F4A859DFCD0E656B528C5784E56D15DA6EDC9AB5ED2EE9FB4CD080EDA21"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-07-01\\raw\\M0-feature-sequence-001-help-request.txt",
+    "sha256": "E6995724CA41E23712216425FFA606128888E2328A6FCAA5FA3F90E382634583"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-07-01\\raw\\M0-feature-sequence-001-initial.txt",
+    "sha256": "BF32C19FF4D7A5AF941EBEBDDDCF160389180B86F45609DCF8DA6C1856D18891"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-07-01\\raw\\M0-feature-sequence-001-revision-001.txt",
+    "sha256": "8FA48B411993895CB0936214774EB0C60E60750650E92FA0465CD442905AD9EA"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\goals\\course-goals-draft.md",
+    "sha256": "185A094CECEE09A9C36CBDB1B193D574726CF901DC04071098D33E7C90B63B97"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\goals\\M0-practice-001.md",
+    "sha256": "EF9DC37EA7EEA6F1E27E60EA91706F224F29D76472DCCB08DE6614C20DAA16CA"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\goals\\M0-shape-001.md",
+    "sha256": "0F90FC9B16B0D68F5CDC1C952641A04627774EDAEEDDEEE5C4F350ADE3973E81"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\goals\\M0-video-interface-first-20261006-02.md",
+    "sha256": "DD8E882A60FB63688133DCA8DD4BE04A38CD0D2A8F4A757D320611C01EF9D3B1"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\assessment\\M0-video-interface-closure-review-20261007.md",
+    "sha256": "30F8FBD6047262279E0816E4A10AB7E96345926F36581BB0C49AB0664DE0AE84"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\assessment\\README.md",
+    "sha256": "A49BB1229C9E0FD74AA544366CF2738D665FF3021431157DAD1749A190FCEFF2"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\plan\\current.md",
+    "sha256": "851102EDB24AABAFFBE0CFF20B0C04535B12F1E6827B4E58C80C60526BD9CBC0"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\plan\\needs.md",
+    "sha256": "010C5D2A59DF26656EE1BD8219B07A44D5F367A310C16C08DAF304FF778D5348"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\README.md",
+    "sha256": "BE2558963915216BB617DC2789E718DD7A69E6D6C3BA5C893B3CE0170EDA133C"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\backup\\M0-axis-labels-001-v1.md",
+    "sha256": "A14EC98386B4B4F8F6E7F43738BEDDA37226FD64BD97929BA1EF37B161D98867"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\backup\\M0-frame-encoding-order-20261008-v1.md",
+    "sha256": "4491C7236763792899131BE6814DD99ECD4C656472859D01C8A11E03B3F9964E"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\backup\\M0-frame-identity-plain-20261007-v1.md",
+    "sha256": "E5B01D0C326AF12984BC4E734057B0F9546E430794A0A81991AB630D93444630"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\backup\\M0-video-interface-20261006-02-v1.md",
+    "sha256": "5363DF76F7D4E0A5998C67D0339E1116BDAF4967A5C4029C905C1BC52F151A4E"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\backup\\M0-video-interface-identity-20261006-02-v1.md",
+    "sha256": "3BA68AA0B75B48687EAF78CDDB02F8A3B4F18D0AD4014339D5599B441765DB14"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\preparation-tests\\2026-10-08-01a11b49\\backup\\support.md",
+    "sha256": "2966A4F26F3758EE065CD69B4060F943A7483092AA289BB6B550DB86BDBF8A56"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\preparation-tests\\2026-10-08-01a11b49\\teacher-reference\\reference.md",
+    "sha256": "DD0ECF2B221291340E142FEA624EE91E7034C2E0E31CA51BF830652698DCABE8"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\preparation-tests\\2026-10-08-01a11b49\\visible\\first-reply.md",
+    "sha256": "9BA7A4E680D0AEA288620CFD656AC55E923AFFAD705A96DCD936C92FAD5BC27E"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\preparation-tests\\2026-10-08-01a11b49\\visible\\materials.md",
+    "sha256": "4B753D945F625B3C0BFACAFFE0831EF9B2C4A86C07D2B93F1C63916663801DAA"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\preparation-tests\\2026-10-08-01a11b49\\visible\\tasks.md",
+    "sha256": "2A77848D9238EB1A15F0B64DB71D51F932C88A1D509B9D55BA1154D887EB5535"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\teacher-reference\\M0-broadcast-20261006-v1.md",
+    "sha256": "6BFA07CC2598752EB2DA09A61511EE46EC2D2157D5B7B669A8A1A67B406E37DB"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\teacher-reference\\M0-first-20261006-001-v1.md",
+    "sha256": "91AF27CA7E2F830A586F569A6E391261C894B5CFDCA9CCFD5173481751940E03"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\teacher-reference\\M0-interface-20261006-001-v1.md",
+    "sha256": "C2379CF504AFBB85DBA0803729EEE45949C4520BA49448D4E15E78686BD1D42A"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\teacher-reference\\M0-matmul-20261006-v1.md",
+    "sha256": "06CB245E95B410CC1435BF414224988BE576DBE7DCF17577446776E774152AAF"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\teacher-reference\\M0-practice-001-v1.md",
+    "sha256": "AAA54CBEEE58C70C80B7D01B61FF166BA72E5F6B41F6C0965EC1F7C26CFF19D1"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\teacher-reference\\M0-preprocess-20261006-v1.md",
+    "sha256": "E9CD3A32E1D7D4D794EA48C76F733D7747A40075A77CB9CD4883E4A77818829D"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\teacher-reference\\M0-restart-001-v1.md",
+    "sha256": "DE562E1B18A161F151DE47002CEC8764162E5A575674BE2B0DCAC475AA62F1A9"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\teacher-reference\\M0-shape-001-v1.md",
+    "sha256": "0110991A0D74320F6080C6476862C2EB08EA4A0FB31DE973ED7753B65BA640B2"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\teacher-reference\\M0-video-feature-sequence-20261007-v1.md",
+    "sha256": "7CF75D4CBF24C81359F1D0F340DDFA7FAEAEE59214B8933AD613205C063D4F32"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\teacher-reference\\M0-video-interface-20261006-02-v1.md",
+    "sha256": "93D0716ADB9E573DF603F8C4D6323359B460531EF4B9F3E72902F8E51B913BCF"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-axis-001-v1.md",
+    "sha256": "C8B67F05D589C01915700F86695B2803AFFBCE96401B8514798B479F2E627310"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-axis-compare-001-v1.md",
+    "sha256": "3036561E566ACEEC278755591CAB4CE158530B346654800423008C29CE8A9573"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-axis-order-001-v1.md",
+    "sha256": "4711B37E2990EC4AD7CF47ED7937170B3C549BDD6CB10F1CDA62B5915B877D92"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-broadcast-20261006-v1.md",
+    "sha256": "4C74ACC866DC5E61A2B2DFF3BABF9F3DC1CA890458575F715C8D313BB1C00C95"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-first-20261006-001-v1.md",
+    "sha256": "319D7656626CEF444A59DD388890A143CB36EABE34B0D4DAABE51D294DC8CAEC"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-interface-20261006-001-v1.md",
+    "sha256": "D98803BEC593986651D3A4030851B98C51679E707C0661E717C8BADB4B72CB86"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-matmul-20261006-v1.md",
+    "sha256": "AC7CE64690A09AA5B319820D9C017BBD8D1A2F7D518D5B3EC32D89433017064F"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-practice-001-v1.md",
+    "sha256": "485C2235F2282E23E63618AEC50A4D321DDE6E3ADECFB542A33B469F575AEFD4"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-preprocess-20261006-v1.md",
+    "sha256": "175C2374305A48C80692D89CA8368B4B92A56BC39E4D69FEEB7D4E6EFF950F78"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-rank-001-v1.md",
+    "sha256": "781DE4C4FE82B8AEB5EB9FB54E7ACED953BE5867407A048DC27A6C0E3CF9C142"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-restart-001-v1.md",
+    "sha256": "66870ECDA4DFFCA7A672841D2C7892BF4C401B642AA886A5B0EBAF67F30D81F1"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-second-learning-20261007-001-v1.md",
+    "sha256": "72C68356C1EF51328484E66528F534C01B847710D30E501832EEBDB4D80E18BD"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-shape-001-v1.md",
+    "sha256": "A3FA972234281B64E038E5D4879B2FB5D82D13C7BC8D23A8A147796B6A69144E"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-video-feature-sequence-20261007-v1.md",
+    "sha256": "E9C246E376CF0A74F90418F2D4C7766DFA18E3A312B046D1BBE96384E0609593"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-video-interface-20261006-02-001-v1.md",
+    "sha256": "E44338CD620D83F9A29D0654B7AFA26F49532BAEFB2CC2A7A914FFA35B000278"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\M0-video-interface-20261006-02-002-v1.md",
+    "sha256": "139EB1358F34C4A6E7A6D6A2BDEA3A3455A70AC31EF59BDEADEDA7E14A23FC08"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\embodied-framework-v1.md",
+    "sha256": "1B95F2F9FA75BADF4FD7F9AC09C46F89E8E31AB62B2C3648BA52E6A6D528FEF1"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\M0-video-feature-sequence-20261007-sources.md",
+    "sha256": "D7CF7EEA15E0C96D2D0825C2196727B07E48FEB08747A4F2C97C01ADE8A95CC6"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\M0-video-interface-20261006-02-sources.md",
+    "sha256": "887148654FA6C961CCCD3C78C20D5D2660F144C554EAC8251D03552E77ED070F"
+  },
+  {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\sources.md",
+    "sha256": "B989992B59D9DC5EF0264C36EC18A4B04FD3F7A198215023D80088F0E6651ED9"
+  }
+]

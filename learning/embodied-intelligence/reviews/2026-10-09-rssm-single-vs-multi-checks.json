@@ -1,0 +1,699 @@
+{
+  "date": "2026-10-09",
+  "protection": {"status":"pass","protected_files":275,"changed":[],"framework_count":117,"framework_issues":[],"local_links":4,"broken":[]},
+  "scope": "retrospective_three_preparations",
+  "blind": false,
+  "own_subagents_started": false,
+  "new_candidate": {
+    "title": "设计 RSSM 测试学习备课方案",
+    "thread": "01a11fef-26b7-7bf1-9667-9f29091b461d",
+    "settings": [
+      {
+        "turn_id": "01a11fef-8307-77b2-a77b-80ad794fc459",
+        "model": "gpt-6.1-sol",
+        "effort": "xhigh"
+      }
+    ],
+    "spawn_calls": [],
+    "read_thread_subagents": 0
+  },
+  "comparators": [
+    {
+      "title": "备课动作条件 RSSM 测试课",
+      "id": "01a11f30-03fd-7852-a081-a298fca1e8de",
+      "model": "gpt-6.1-sol",
+      "effort": "xhigh",
+      "children": 5
+    },
+    {
+      "title": "备课动作条件 RSSM 教学方案",
+      "id": "01a11f0d-5cc0-7591-989c-00791b0d6772",
+      "model": "gpt-6.1-sol",
+      "effort": "ultra",
+      "children": 4
+    }
+  ],
+  "teacher_reruns": {
+    "semantic_anchor": {
+      "exit_code": 0,
+      "data": {
+        "status": "teacher_reference_executed_no_learner_event",
+        "model": {
+          "process_variance": 0.25,
+          "measurement_variance": 1,
+          "target": 2,
+          "horizon": 2,
+          "discount": 1
+        },
+        "filtering": {
+          "start0": {
+            "mean": 0,
+            "variance": 1
+          },
+          "action0": 1,
+          "observation1": 0,
+          "prior1": {
+            "mean": 1,
+            "variance": 1.25
+          },
+          "posterior1": {
+            "mean": 0.4444444444444444,
+            "variance": 0.5555555555555556
+          }
+        },
+        "planning1": [
+          {
+            "actions": [
+              1,
+              1
+            ],
+            "score": -2.567283950617284,
+            "trajectory": [
+              {
+                "action": 1,
+                "mean": 1.4444444444444444,
+                "variance": 0.8055555555555556,
+                "expected_reward": -1.2141975308641977
+              },
+              {
+                "action": 1,
+                "mean": 2.4444444444444446,
+                "variance": 1.0555555555555556,
+                "expected_reward": -1.3530864197530867
+              }
+            ]
+          },
+          {
+            "actions": [
+              1,
+              0
+            ],
+            "score": -2.5783950617283953,
+            "trajectory": [
+              {
+                "action": 1,
+                "mean": 1.4444444444444444,
+                "variance": 0.8055555555555556,
+                "expected_reward": -1.2141975308641977
+              },
+              {
+                "action": 0,
+                "mean": 1.4444444444444444,
+                "variance": 1.0555555555555556,
+                "expected_reward": -1.3641975308641976
+              }
+            ]
+          },
+          {
+            "actions": [
+              0,
+              1
+            ],
+            "score": -4.689506172839506,
+            "trajectory": [
+              {
+                "action": 0,
+                "mean": 0.4444444444444444,
+                "variance": 0.8055555555555556,
+                "expected_reward": -3.2253086419753085
+              },
+              {
+                "action": 1,
+                "mean": 1.4444444444444444,
+                "variance": 1.0555555555555556,
+                "expected_reward": -1.4641975308641977
+              }
+            ]
+          },
+          {
+            "actions": [
+              1,
+              -1
+            ],
+            "score": -4.7895061728395065,
+            "trajectory": [
+              {
+                "action": 1,
+                "mean": 1.4444444444444444,
+                "variance": 0.8055555555555556,
+                "expected_reward": -1.2141975308641977
+              },
+              {
+                "action": -1,
+                "mean": 0.4444444444444444,
+                "variance": 1.0555555555555556,
+                "expected_reward": -3.5753086419753086
+              }
+            ]
+          },
+          {
+            "actions": [
+              0,
+              0
+            ],
+            "score": -6.700617283950617,
+            "trajectory": [
+              {
+                "action": 0,
+                "mean": 0.4444444444444444,
+                "variance": 0.8055555555555556,
+                "expected_reward": -3.2253086419753085
+              },
+              {
+                "action": 0,
+                "mean": 0.4444444444444444,
+                "variance": 1.0555555555555556,
+                "expected_reward": -3.4753086419753085
+              }
+            ]
+          },
+          {
+            "actions": [
+              0,
+              -1
+            ],
+            "score": -10.911728395061726,
+            "trajectory": [
+              {
+                "action": 0,
+                "mean": 0.4444444444444444,
+                "variance": 0.8055555555555556,
+                "expected_reward": -3.2253086419753085
+              },
+              {
+                "action": -1,
+                "mean": -0.5555555555555556,
+                "variance": 1.0555555555555556,
+                "expected_reward": -7.686419753086418
+              }
+            ]
+          },
+          {
+            "actions": [
+              -1,
+              1
+            ],
+            "score": -11.011728395061727,
+            "trajectory": [
+              {
+                "action": -1,
+                "mean": -0.5555555555555556,
+                "variance": 0.8055555555555556,
+                "expected_reward": -7.436419753086418
+              },
+              {
+                "action": 1,
+                "mean": 0.4444444444444444,
+                "variance": 1.0555555555555556,
+                "expected_reward": -3.5753086419753086
+              }
+            ]
+          },
+          {
+            "actions": [
+              -1,
+              0
+            ],
+            "score": -15.022839506172836,
+            "trajectory": [
+              {
+                "action": -1,
+                "mean": -0.5555555555555556,
+                "variance": 0.8055555555555556,
+                "expected_reward": -7.436419753086418
+              },
+              {
+                "action": 0,
+                "mean": -0.5555555555555556,
+                "variance": 1.0555555555555556,
+                "expected_reward": -7.586419753086418
+              }
+            ]
+          },
+          {
+            "actions": [
+              -1,
+              -1
+            ],
+            "score": -21.23395061728395,
+            "trajectory": [
+              {
+                "action": -1,
+                "mean": -0.5555555555555556,
+                "variance": 0.8055555555555556,
+                "expected_reward": -7.436419753086418
+              },
+              {
+                "action": -1,
+                "mean": -1.5555555555555556,
+                "variance": 1.0555555555555556,
+                "expected_reward": -13.79753086419753
+              }
+            ]
+          }
+        ],
+        "new_observation": {
+          "executed_action1": 1,
+          "observation2": 2.5,
+          "prior2": {
+            "mean": 1.4444444444444444,
+            "variance": 0.8055555555555556
+          },
+          "posterior2": {
+            "mean": 1.9153846153846155,
+            "variance": 0.4461538461538462
+          }
+        },
+        "planning2": [
+          {
+            "actions": [
+              0,
+              0
+            ],
+            "score": -1.6566272189349112,
+            "trajectory": [
+              {
+                "action": 0,
+                "mean": 1.9153846153846155,
+                "variance": 0.6961538461538461,
+                "expected_reward": -0.7033136094674556
+              },
+              {
+                "action": 0,
+                "mean": 1.9153846153846155,
+                "variance": 0.9461538461538461,
+                "expected_reward": -0.9533136094674556
+              }
+            ]
+          },
+          {
+            "actions": [
+              0,
+              1
+            ],
+            "score": -2.587396449704143,
+            "trajectory": [
+              {
+                "action": 0,
+                "mean": 1.9153846153846155,
+                "variance": 0.6961538461538461,
+                "expected_reward": -0.7033136094674556
+              },
+              {
+                "action": 1,
+                "mean": 2.9153846153846157,
+                "variance": 0.9461538461538461,
+                "expected_reward": -1.8840828402366872
+              }
+            ]
+          },
+          {
+            "actions": [
+              1,
+              -1
+            ],
+            "score": -2.687396449704143,
+            "trajectory": [
+              {
+                "action": 1,
+                "mean": 2.9153846153846157,
+                "variance": 0.6961538461538461,
+                "expected_reward": -1.6340828402366872
+              },
+              {
+                "action": -1,
+                "mean": 1.9153846153846157,
+                "variance": 0.9461538461538461,
+                "expected_reward": -1.0533136094674556
+              }
+            ]
+          },
+          {
+            "actions": [
+              0,
+              -1
+            ],
+            "score": -2.92585798816568,
+            "trajectory": [
+              {
+                "action": 0,
+                "mean": 1.9153846153846155,
+                "variance": 0.6961538461538461,
+                "expected_reward": -0.7033136094674556
+              },
+              {
+                "action": -1,
+                "mean": 0.9153846153846155,
+                "variance": 0.9461538461538461,
+                "expected_reward": -2.2225443786982244
+              }
+            ]
+          },
+          {
+            "actions": [
+              -1,
+              1
+            ],
+            "score": -3.02585798816568,
+            "trajectory": [
+              {
+                "action": -1,
+                "mean": 0.9153846153846155,
+                "variance": 0.6961538461538461,
+                "expected_reward": -1.9725443786982246
+              },
+              {
+                "action": 1,
+                "mean": 1.9153846153846155,
+                "variance": 0.9461538461538461,
+                "expected_reward": -1.0533136094674556
+              }
+            ]
+          },
+          {
+            "actions": [
+              1,
+              0
+            ],
+            "score": -3.418165680473374,
+            "trajectory": [
+              {
+                "action": 1,
+                "mean": 2.9153846153846157,
+                "variance": 0.6961538461538461,
+                "expected_reward": -1.6340828402366872
+              },
+              {
+                "action": 0,
+                "mean": 2.9153846153846157,
+                "variance": 0.9461538461538461,
+                "expected_reward": -1.784082840236687
+              }
+            ]
+          },
+          {
+            "actions": [
+              -1,
+              0
+            ],
+            "score": -4.095088757396449,
+            "trajectory": [
+              {
+                "action": -1,
+                "mean": 0.9153846153846155,
+                "variance": 0.6961538461538461,
+                "expected_reward": -1.9725443786982246
+              },
+              {
+                "action": 0,
+                "mean": 0.9153846153846155,
+                "variance": 0.9461538461538461,
+                "expected_reward": -2.1225443786982243
+              }
+            ]
+          },
+          {
+            "actions": [
+              1,
+              1
+            ],
+            "score": -6.348934911242605,
+            "trajectory": [
+              {
+                "action": 1,
+                "mean": 2.9153846153846157,
+                "variance": 0.6961538461538461,
+                "expected_reward": -1.6340828402366872
+              },
+              {
+                "action": 1,
+                "mean": 3.9153846153846157,
+                "variance": 0.9461538461538461,
+                "expected_reward": -4.714852071005918
+              }
+            ]
+          },
+          {
+            "actions": [
+              -1,
+              -1
+            ],
+            "score": -7.3643195266272174,
+            "trajectory": [
+              {
+                "action": -1,
+                "mean": 0.9153846153846155,
+                "variance": 0.6961538461538461,
+                "expected_reward": -1.9725443786982246
+              },
+              {
+                "action": -1,
+                "mean": -0.08461538461538454,
+                "variance": 0.9461538461538461,
+                "expected_reward": -5.391775147928993
+              }
+            ]
+          }
+        ],
+        "changed_R9": {
+          "posterior1": {
+            "mean": 0.8780487804878049,
+            "variance": 1.0975609756097562
+          },
+          "candidates": [
+            {
+              "actions": [
+                1,
+                0
+              ],
+              "score": -3.0748661511005357,
+              "trajectory": [
+                {
+                  "action": 1,
+                  "mean": 1.8780487804878048,
+                  "variance": 1.3475609756097562,
+                  "expected_reward": -1.462433075550268
+                },
+                {
+                  "action": 0,
+                  "mean": 1.8780487804878048,
+                  "variance": 1.5975609756097562,
+                  "expected_reward": -1.6124330755502678
+                }
+              ]
+            },
+            {
+              "actions": [
+                1,
+                1
+              ],
+              "score": -3.930963712076145,
+              "trajectory": [
+                {
+                  "action": 1,
+                  "mean": 1.8780487804878048,
+                  "variance": 1.3475609756097562,
+                  "expected_reward": -1.462433075550268
+                },
+                {
+                  "action": 1,
+                  "mean": 2.8780487804878048,
+                  "variance": 1.5975609756097562,
+                  "expected_reward": -2.4685306365258772
+                }
+              ]
+            },
+            {
+              "actions": [
+                0,
+                1
+              ],
+              "score": -4.318768590124926,
+              "trajectory": [
+                {
+                  "action": 0,
+                  "mean": 0.8780487804878049,
+                  "variance": 1.3475609756097562,
+                  "expected_reward": -2.606335514574658
+                },
+                {
+                  "action": 1,
+                  "mean": 1.8780487804878048,
+                  "variance": 1.5975609756097562,
+                  "expected_reward": -1.712433075550268
+                }
+              ]
+            },
+            {
+              "actions": [
+                1,
+                -1
+              ],
+              "score": -4.418768590124926,
+              "trajectory": [
+                {
+                  "action": 1,
+                  "mean": 1.8780487804878048,
+                  "variance": 1.3475609756097562,
+                  "expected_reward": -1.462433075550268
+                },
+                {
+                  "action": -1,
+                  "mean": 0.8780487804878048,
+                  "variance": 1.5975609756097562,
+                  "expected_reward": -2.956335514574658
+                }
+              ]
+            },
+            {
+              "actions": [
+                0,
+                0
+              ],
+              "score": -5.462671029149316,
+              "trajectory": [
+                {
+                  "action": 0,
+                  "mean": 0.8780487804878049,
+                  "variance": 1.3475609756097562,
+                  "expected_reward": -2.606335514574658
+                },
+                {
+                  "action": 0,
+                  "mean": 0.8780487804878049,
+                  "variance": 1.5975609756097562,
+                  "expected_reward": -2.856335514574658
+                }
+              ]
+            },
+            {
+              "actions": [
+                0,
+                -1
+              ],
+              "score": -8.806573468173706,
+              "trajectory": [
+                {
+                  "action": 0,
+                  "mean": 0.8780487804878049,
+                  "variance": 1.3475609756097562,
+                  "expected_reward": -2.606335514574658
+                },
+                {
+                  "action": -1,
+                  "mean": -0.12195121951219512,
+                  "variance": 1.5975609756097562,
+                  "expected_reward": -6.200237953599048
+                }
+              ]
+            },
+            {
+              "actions": [
+                -1,
+                1
+              ],
+              "score": -8.906573468173706,
+              "trajectory": [
+                {
+                  "action": -1,
+                  "mean": -0.12195121951219512,
+                  "variance": 1.3475609756097562,
+                  "expected_reward": -5.950237953599048
+                },
+                {
+                  "action": 1,
+                  "mean": 0.8780487804878049,
+                  "variance": 1.5975609756097562,
+                  "expected_reward": -2.956335514574658
+                }
+              ]
+            },
+            {
+              "actions": [
+                -1,
+                0
+              ],
+              "score": -12.050475907198097,
+              "trajectory": [
+                {
+                  "action": -1,
+                  "mean": -0.12195121951219512,
+                  "variance": 1.3475609756097562,
+                  "expected_reward": -5.950237953599048
+                },
+                {
+                  "action": 0,
+                  "mean": -0.12195121951219512,
+                  "variance": 1.5975609756097562,
+                  "expected_reward": -6.1002379535990485
+                }
+              ]
+            },
+            {
+              "actions": [
+                -1,
+                -1
+              ],
+              "score": -17.39437834622249,
+              "trajectory": [
+                {
+                  "action": -1,
+                  "mean": -0.12195121951219512,
+                  "variance": 1.3475609756097562,
+                  "expected_reward": -5.950237953599048
+                },
+                {
+                  "action": -1,
+                  "mean": -1.1219512195121952,
+                  "variance": 1.5975609756097562,
+                  "expected_reward": -11.444140392623439
+                }
+              ]
+            }
+          ]
+        },
+        "local_ELBO": {
+          "posterior": {
+            "mean": 0.5,
+            "variance": 0.5
+          },
+          "expected_log_likelihood": -1.2939385332046727,
+          "kl_q_p": 0.2215735902799727,
+          "elbo": -1.5155121234846454,
+          "log_evidence": -1.5155121234846454
+        },
+        "checks": "analytic_equality_indexed_reward_free_rollout_and_replanning_passed"
+      }
+    },
+    "package_QA": {
+      "exit_code": 0,
+      "data": {
+        "exact_rational_numeric_checks": "passed",
+        "protocol_tag_information_flow": "passed",
+        "markdown_local_links_checked": 19,
+        "broken_local_links": [],
+        "scope": "teacher_material_QA_only_no_neural_training_or_learning_effect"
+      }
+    }
+  },
+  "additional_finite_checks": {
+    "status": "pass",
+    "initial_best": [
+      1,
+      1
+    ],
+    "new_observation_best": [
+      0,
+      0
+    ],
+    "changed_R9_best": [
+      1,
+      0
+    ],
+    "score_gap": 0.011111111111111112,
+    "reference_numeric_anchors_match": true
+  },
+  "learning_test_executed": false,
+  "neural_training_executed": false,
+  "stable_win_rate_estimated": false
+}

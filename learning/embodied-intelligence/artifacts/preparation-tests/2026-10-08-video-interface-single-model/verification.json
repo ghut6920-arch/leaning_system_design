@@ -1,0 +1,136 @@
+{
+  "revision": 1,
+  "date": "2026-10-08",
+  "timezone": "Asia/Shanghai",
+  "purpose": "candidate_material_verification",
+  "single_model_self_check": true,
+  "teacher_execution": true,
+  "learner_execution": "not_executed",
+  "formal_teaching": "not_executed",
+  "learning_effect": "not_verified",
+  "comparative_benefit": "not_verified",
+  "pytorch_execution": "not_executed",
+  "environment": {
+    "python": "3.12.3",
+    "implementation": "CPython",
+    "executable": "E:\\anaconda\\python.exe"
+  },
+  "data_sha256": "5692d077ba4f0066c134135bd9157c4189da68a5651c44516f020933320ebcc5",
+  "reference_sha256": "1ff4b5d5c24d2d7e20b6ba0e9b5cbc9e380c5b5c692c978787ff40ac93111ad8",
+  "checks": [
+    {
+      "name": "exact_input_shape",
+      "passed": true,
+      "scope": "Complete 2x4x2x2x3 teaching input"
+    },
+    {
+      "name": "all_video_pixel_coordinates",
+      "passed": true,
+      "scope": "All 96 positions; y[b,c,t,h,w]=x[b,t,h,w,c]"
+    },
+    {
+      "name": "all_frame_pixel_coordinates",
+      "passed": true,
+      "scope": "All 96 positions; z[b*T+t,c,h,w]=x[b,t,h,w,c]"
+    },
+    {
+      "name": "legal_alternative_routes",
+      "passed": true,
+      "scope": "Merge B/T before moving C, or move T before C from y then merge"
+    },
+    {
+      "name": "direct_y_reshape_counterexample",
+      "passed": true,
+      "scope": "Wrong logical reshape preserves count but fails specific identity"
+    },
+    {
+      "name": "specified_pixel_trace",
+      "passed": true,
+      "scope": "乙3 top-left blue through both input paths"
+    },
+    {
+      "name": "all_eight_feature_rows",
+      "passed": true,
+      "scope": "Specified selection e, no row reorder"
+    },
+    {
+      "name": "preserved_order_restore",
+      "passed": true,
+      "scope": "B/T and confirmed order suffice without explicit IDs"
+    },
+    {
+      "name": "feature_collision_and_distinct_images",
+      "passed": true,
+      "scope": "Different images/sources have same vector; no intrinsic unique source ID"
+    },
+    {
+      "name": "unselected_content_not_recoverable",
+      "passed": true,
+      "scope": "Blue and another pixel changed with identical output; exact image inversion impossible from f alone"
+    },
+    {
+      "name": "paired_metadata_restore",
+      "passed": true,
+      "scope": "Entire paired row permutation restores original sequence"
+    },
+    {
+      "name": "unknown_order_rejected",
+      "passed": true,
+      "scope": "Known B/T and shape alone do not supply row provenance"
+    },
+    {
+      "name": "duplicate_labels_rejected",
+      "passed": true,
+      "scope": "Every source slot must occur once"
+    },
+    {
+      "name": "missing_labels_rejected",
+      "passed": true,
+      "scope": "Complete fixed-length consumer requires complete metadata"
+    },
+    {
+      "name": "out_of_range_labels_rejected",
+      "passed": true,
+      "scope": "Trusted labels must match declared domain"
+    },
+    {
+      "name": "new_values_without_reorder",
+      "passed": true,
+      "scope": "Alternative per-frame function changes values, not ordering/provenance"
+    },
+    {
+      "name": "specified_order_sensitive_consumer",
+      "passed": true,
+      "scope": "Only specified toy G; no learned dynamics claim"
+    },
+    {
+      "name": "preexisting_workspace_files_unchanged",
+      "passed": true,
+      "scope": "All 166 baseline files; no real record/progress changes"
+    },
+    {
+      "name": "framework_manifest_matches",
+      "passed": true,
+      "scope": "All 117 registered files"
+    },
+    {
+      "name": "local_artifact_links_resolve",
+      "passed": true,
+      "scope": "All local Markdown link destinations in candidate package"
+    }
+  ],
+  "passed": 20,
+  "total": 20,
+  "changed_preexisting_files": [],
+  "framework_mismatches": [],
+  "broken_local_links": [],
+  "cost": {
+    "user_active_time": "not_executed",
+    "system_effort": "unknown",
+    "blocked_wait": "unknown"
+  },
+  "limitations": [
+    "Finite checks on explicit teaching data, not general proof",
+    "No learner response, independent review, PyTorch runtime, training or robot test"
+  ]
+}

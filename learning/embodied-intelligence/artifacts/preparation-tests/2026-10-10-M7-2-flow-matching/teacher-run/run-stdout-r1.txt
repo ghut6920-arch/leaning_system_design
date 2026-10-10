@@ -1,0 +1,72 @@
+{
+  "revision": "M7.2-teacher-cfm-r1-20261010",
+  "fit_rank": 68,
+  "fit_query": {
+    "x": [
+      [
+        0.0,
+        0.5
+      ]
+    ],
+    "t": 0.25,
+    "c": [
+      1
+    ],
+    "sample_target": [
+      [
+        4.0,
+        -2.0
+      ]
+    ],
+    "before": [
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "after": [
+      [
+        2.6155658361889462,
+        -0.5562565808105954
+      ]
+    ],
+    "oracle_for_evaluation": [
+      [
+        2.5945945945945947,
+        -0.5945945945945946
+      ]
+    ]
+  },
+  "heldout": {
+    "learned_cfm_coordinate_mse": 0.7841924747531227,
+    "learned_field_coordinate_mse": 0.0005578586976070426,
+    "oracle_cfm_coordinate_mse": 0.7836408287928087,
+    "population_irreducible_coordinate_cfm_risk": 0.7853981633974483,
+    "sample_mean_conditional_variance": 0.7815269998672663,
+    "finite_sample_cross_term": -6.212737293213935e-06,
+    "finite_sample_decomposition_residual": 1.4856110861893174e-16
+  },
+  "learned_reference": {
+    "steps": 2048,
+    "double_steps": 4096,
+    "N_vs_double_N": {
+      "coordinate_mse": 3.391486078622692e-08,
+      "coordinate_rmse": 0.0001841598783292032,
+      "norm_rms_2d": 0.0002604413975781382
+    },
+    "double_reference_vs_oracle_exact": {
+      "coordinate_mse": 4.0532116107842725e-05,
+      "coordinate_rmse": 0.006366483810380949,
+      "norm_rms_2d": 0.009003567749269479
+    },
+    "seconds": 1.7607374000072014,
+    "double_seconds": 3.661912699986715,
+    "warning": "finite Euler reference, not exact; small double-N change does not bound all remaining error"
+  },
+  "total_seconds": 8.220662199979415,
+  "read_back": {
+    "json": "ok",
+    "model_query": "ok",
+    "csv_rows": 10
+  }
+}

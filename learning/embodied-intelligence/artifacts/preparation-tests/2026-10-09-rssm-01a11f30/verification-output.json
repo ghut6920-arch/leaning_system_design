@@ -1,0 +1,79 @@
+{
+  "revision": 2,
+  "sequence_elbo": {
+    "evidence": 0.17800000000000002,
+    "log_evidence": -1.7259717286900518,
+    "elbo_path": -1.8310271174900177,
+    "elbo_reconstruction_minus_expected_kls": -1.8310271174900177,
+    "gap": 0.1050553887999659,
+    "kl_q_to_full_sequence_posterior": 0.1050553887999655,
+    "wrong_elbo_without_history_expectation": -1.7320721412164077,
+    "scope": "finite enumeration identity; not a general proof or trained RSSM"
+  },
+  "nonlinear_mean": {
+    "E_f_z": 1.0,
+    "f_E_z": 0.0,
+    "scope": "explicit counterexample to substituting means through nonlinear transitions"
+  },
+  "finite_bridge": {
+    "posterior_after_red": "4/5",
+    "first_candidate_table": {
+      "SS": {
+        "b1": "37/50",
+        "b2": "173/250",
+        "score": "179/125",
+        "decimal": 1.432
+      },
+      "SF": {
+        "b1": "37/50",
+        "b2": "77/250",
+        "score": "131/125",
+        "decimal": 1.048
+      },
+      "FS": {
+        "b1": "13/50",
+        "b2": "77/250",
+        "score": "71/125",
+        "decimal": 0.568
+      },
+      "FF": {
+        "b1": "13/50",
+        "b2": "173/250",
+        "score": "119/125",
+        "decimal": 0.952
+      }
+    },
+    "executed_action": "S",
+    "arrival_prior": "37/50",
+    "actual_arrival_observation": "B",
+    "posterior_after_blue": "37/89",
+    "replanned_candidate_table": {
+      "SS": {
+        "b1": "77/178",
+        "b2": "397/890",
+        "score": "391/445",
+        "decimal": 0.8786516853932584
+      },
+      "SF": {
+        "b1": "77/178",
+        "b2": "493/890",
+        "score": "439/445",
+        "decimal": 0.9865168539325843
+      },
+      "FS": {
+        "b1": "101/178",
+        "b2": "493/890",
+        "score": "499/445",
+        "decimal": 1.1213483146067416
+      },
+      "FF": {
+        "b1": "101/178",
+        "b2": "397/890",
+        "score": "451/445",
+        "decimal": 1.0134831460674156
+      }
+    },
+    "new_first_action": "F",
+    "scope": "exact constructed two-state bridge; utility is not observed reward; not neural RSSM or real control experiment"
+  }
+}

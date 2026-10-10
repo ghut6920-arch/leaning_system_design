@@ -1,0 +1,14 @@
+{
+  "client_date": "2026-10-08",
+  "status": "pass",
+  "existing_course_files_checked": 156,
+  "existing_course_records_unchanged": true,
+  "private_hash_list_written": false,
+  "teaching_state_changed": false,
+  "framework_changed": false,
+  "independent_review": false,
+  "learning_effect_verified": false,
+  "local_links_checked": 11,
+  "broken_local_links": [],
+  "call_metadata_consistent": true
+}

@@ -1,0 +1,1763 @@
+{
+  "protection": {"protected_files":260,"changed":[],"framework_entries":117,"framework_mismatches":[],"local_links":7,"broken_links":[],"status":"pass"},
+  "provenance": {
+    "date": "2026-10-09",
+    "scope": "retrospective_two_preparations",
+    "blind": false,
+    "own_subagents_started": false,
+    "candidates": [
+      {
+        "title": "备课动作条件 RSSM 教学方案",
+        "id": "01a11f0d-5cc0-7591-989c-00791b0d6772",
+        "model": "gpt-6.1-sol",
+        "effort": "ultra",
+        "turns": [
+          "01a11f10-780f-7c80-8d0f-e0ec6c90f873"
+        ],
+        "children": [
+          "01a11f11-484d-7fe3-be41-9931e7e317c0",
+          "01a11f11-84a9-7ef2-8b01-47dc0e4e69c8",
+          "01a11f12-16d0-7f23-9e0f-d6f8ca5cb9b9",
+          "01a11f17-31d4-7b50-8878-b4329c23ac76"
+        ],
+        "all_child_efforts": "ultra",
+        "fork": "mostly all",
+        "path": "../prep/rssm-test-20261009"
+      },
+      {
+        "title": "备课动作条件 RSSM 测试课",
+        "id": "01a11f30-03fd-7852-a081-a298fca1e8de",
+        "model": "gpt-6.1-sol",
+        "effort": "xhigh",
+        "turns": [
+          "01a11f30-6117-74b2-bb86-21510a0d482d",
+          "01a11f62-92a6-7b73-8d69-c85bd482d9e8"
+        ],
+        "children": [
+          "01a11f31-726c-7380-b65f-f7e4e2cd6f0c",
+          "01a11f31-ae61-70a0-b7f2-07d3fccaf645",
+          "01a11f63-b1f2-7bc2-b36d-e64d9df646d6",
+          "01a11f64-0e59-77f0-9bba-e0dce7668455",
+          "01a11f71-8aa8-7392-b7ec-b484c7681bbb"
+        ],
+        "all_child_efforts": "xhigh",
+        "fork": "none",
+        "interruption": "usage_limit",
+        "path": "../artifacts/preparation-tests/2026-10-09-rssm-01a11f30"
+      }
+    ],
+    "confounds": [
+      "different child counts",
+      "different context inheritance",
+      "different examples and scope elaboration",
+      "different file ownership",
+      "xhigh interrupted and resumed",
+      "historical state files read at root entry"
+    ],
+    "source": "Native turn_context and spawn metadata; no encrypted agent messages copied"
+  },
+  "teacher_reruns": {
+    "ultra": {
+      "exit_code": 0,
+      "data": {
+        "version": "teacher-toy-v1",
+        "observations": [
+          1,
+          1.5,
+          0.7
+        ],
+        "history_actions": [
+          0.5,
+          -0.5
+        ],
+        "representative_trace": [
+          {
+            "t": 1,
+            "h": 0,
+            "prior_mean": 0,
+            "prior_variance": 1,
+            "observation": 1,
+            "posterior_mean": 0.8,
+            "posterior_variance": 0.2
+          },
+          {
+            "t": 2,
+            "h": 0.9,
+            "prior_mean": 0.9,
+            "prior_variance": 1,
+            "observation": 1.5,
+            "posterior_mean": 1.3800000000000001,
+            "posterior_variance": 0.2
+          },
+          {
+            "t": 3,
+            "h": 0.6400000000000001,
+            "prior_mean": 0.6400000000000001,
+            "prior_variance": 1,
+            "observation": 0.7,
+            "posterior_mean": 0.688,
+            "posterior_variance": 0.2
+          }
+        ],
+        "exact_q_elbo": -3.684170926585333,
+        "exact_model_log_evidence": -3.6766345938409453,
+        "gap": 0.007536332744387586,
+        "elbo_expectation_rows": [
+          {
+            "t": 1,
+            "mean_h": 0,
+            "variance_h": 0,
+            "mean_z": 0.8,
+            "variance_z": 0.2,
+            "expected_log_observation": -0.7057913526447274,
+            "expected_kl": 0.7247189562170502
+          },
+          {
+            "t": 2,
+            "mean_h": 0.9,
+            "variance_h": 0.05,
+            "mean_z": 1.3800000000000001,
+            "variance_z": 0.202,
+            "expected_log_observation": -0.6585913526447273,
+            "expected_kl": 0.5359189562170501
+          },
+          {
+            "t": 3,
+            "mean_h": 0.6400000000000001,
+            "variance_h": 0.068,
+            "mean_z": 0.688,
+            "variance_z": 0.20272,
+            "expected_log_observation": -0.6315193526447275,
+            "expected_kl": 0.42763095621705016
+          }
+        ],
+        "first_candidate_table": [
+          {
+            "actions": [
+              0.5,
+              0
+            ],
+            "expected_cost": 2.428792,
+            "trajectory": [
+              {
+                "action": 0.5,
+                "mean_h": 1.1640000000000001,
+                "variance_h": 0.05,
+                "mean_z": 1.1640000000000001,
+                "variance_z": 1.05,
+                "expected_cost": 1.101896
+              },
+              {
+                "action": 0,
+                "mean_h": 1.1640000000000001,
+                "variance_h": 0.30000000000000004,
+                "mean_z": 1.1640000000000001,
+                "variance_z": 1.3,
+                "expected_cost": 1.326896
+              }
+            ]
+          },
+          {
+            "actions": [
+              0,
+              0.5
+            ],
+            "expected_cost": 2.514792,
+            "trajectory": [
+              {
+                "action": 0,
+                "mean_h": 0.664,
+                "variance_h": 0.05,
+                "mean_z": 0.664,
+                "variance_z": 1.05,
+                "expected_cost": 1.162896
+              },
+              {
+                "action": 0.5,
+                "mean_h": 1.1640000000000001,
+                "variance_h": 0.30000000000000004,
+                "mean_z": 1.1640000000000001,
+                "variance_z": 1.3,
+                "expected_cost": 1.351896
+              }
+            ]
+          },
+          {
+            "actions": [
+              0.5,
+              -0.5
+            ],
+            "expected_cost": 2.539792,
+            "trajectory": [
+              {
+                "action": 0.5,
+                "mean_h": 1.1640000000000001,
+                "variance_h": 0.05,
+                "mean_z": 1.1640000000000001,
+                "variance_z": 1.05,
+                "expected_cost": 1.101896
+              },
+              {
+                "action": -0.5,
+                "mean_h": 0.6640000000000001,
+                "variance_h": 0.30000000000000004,
+                "mean_z": 0.6640000000000001,
+                "variance_z": 1.3,
+                "expected_cost": 1.4378959999999998
+              }
+            ]
+          },
+          {
+            "actions": [
+              0,
+              0
+            ],
+            "expected_cost": 2.575792,
+            "trajectory": [
+              {
+                "action": 0,
+                "mean_h": 0.664,
+                "variance_h": 0.05,
+                "mean_z": 0.664,
+                "variance_z": 1.05,
+                "expected_cost": 1.162896
+              },
+              {
+                "action": 0,
+                "mean_h": 0.664,
+                "variance_h": 0.30000000000000004,
+                "mean_z": 0.664,
+                "variance_z": 1.3,
+                "expected_cost": 1.412896
+              }
+            ]
+          },
+          {
+            "actions": [
+              0.5,
+              0.5
+            ],
+            "expected_cost": 2.867792,
+            "trajectory": [
+              {
+                "action": 0.5,
+                "mean_h": 1.1640000000000001,
+                "variance_h": 0.05,
+                "mean_z": 1.1640000000000001,
+                "variance_z": 1.05,
+                "expected_cost": 1.101896
+              },
+              {
+                "action": 0.5,
+                "mean_h": 1.6640000000000001,
+                "variance_h": 0.30000000000000004,
+                "mean_z": 1.6640000000000001,
+                "variance_z": 1.3,
+                "expected_cost": 1.7658960000000001
+              }
+            ]
+          },
+          {
+            "actions": [
+              0,
+              -0.5
+            ],
+            "expected_cost": 3.186792,
+            "trajectory": [
+              {
+                "action": 0,
+                "mean_h": 0.664,
+                "variance_h": 0.05,
+                "mean_z": 0.664,
+                "variance_z": 1.05,
+                "expected_cost": 1.162896
+              },
+              {
+                "action": -0.5,
+                "mean_h": 0.16400000000000003,
+                "variance_h": 0.30000000000000004,
+                "mean_z": 0.16400000000000003,
+                "variance_z": 1.3,
+                "expected_cost": 2.023896
+              }
+            ]
+          },
+          {
+            "actions": [
+              -0.5,
+              0.5
+            ],
+            "expected_cost": 3.211792,
+            "trajectory": [
+              {
+                "action": -0.5,
+                "mean_h": 0.16400000000000003,
+                "variance_h": 0.05,
+                "mean_z": 0.16400000000000003,
+                "variance_z": 1.05,
+                "expected_cost": 1.773896
+              },
+              {
+                "action": 0.5,
+                "mean_h": 0.664,
+                "variance_h": 0.30000000000000004,
+                "mean_z": 0.664,
+                "variance_z": 1.3,
+                "expected_cost": 1.4378959999999998
+              }
+            ]
+          },
+          {
+            "actions": [
+              -0.5,
+              0
+            ],
+            "expected_cost": 3.772792,
+            "trajectory": [
+              {
+                "action": -0.5,
+                "mean_h": 0.16400000000000003,
+                "variance_h": 0.05,
+                "mean_z": 0.16400000000000003,
+                "variance_z": 1.05,
+                "expected_cost": 1.773896
+              },
+              {
+                "action": 0,
+                "mean_h": 0.16400000000000003,
+                "variance_h": 0.30000000000000004,
+                "mean_z": 0.16400000000000003,
+                "variance_z": 1.3,
+                "expected_cost": 1.998896
+              }
+            ]
+          },
+          {
+            "actions": [
+              -0.5,
+              -0.5
+            ],
+            "expected_cost": 4.883792,
+            "trajectory": [
+              {
+                "action": -0.5,
+                "mean_h": 0.16400000000000003,
+                "variance_h": 0.05,
+                "mean_z": 0.16400000000000003,
+                "variance_z": 1.05,
+                "expected_cost": 1.773896
+              },
+              {
+                "action": -0.5,
+                "mean_h": -0.33599999999999997,
+                "variance_h": 0.30000000000000004,
+                "mean_z": -0.33599999999999997,
+                "variance_z": 1.3,
+                "expected_cost": 3.1098959999999995
+              }
+            ]
+          }
+        ],
+        "new_observation": -0.5,
+        "h4": 1.1640000000000001,
+        "new_posterior_mean": -0.1672,
+        "replanned_candidate_table": [
+          {
+            "actions": [
+              0.5,
+              0
+            ],
+            "expected_cost": 2.37500512,
+            "trajectory": [
+              {
+                "action": 0.5,
+                "mean_h": 0.9984000000000001,
+                "variance_h": 0.05,
+                "mean_z": 0.9984000000000001,
+                "variance_z": 1.05,
+                "expected_cost": 1.07500256
+              },
+              {
+                "action": 0,
+                "mean_h": 0.9984000000000001,
+                "variance_h": 0.30000000000000004,
+                "mean_z": 0.9984000000000001,
+                "variance_z": 1.3,
+                "expected_cost": 1.30000256
+              }
+            ]
+          },
+          {
+            "actions": [
+              0,
+              0.5
+            ],
+            "expected_cost": 2.62660512,
+            "trajectory": [
+              {
+                "action": 0,
+                "mean_h": 0.49840000000000007,
+                "variance_h": 0.05,
+                "mean_z": 0.49840000000000007,
+                "variance_z": 1.05,
+                "expected_cost": 1.30160256
+              },
+              {
+                "action": 0.5,
+                "mean_h": 0.9984000000000001,
+                "variance_h": 0.30000000000000004,
+                "mean_z": 0.9984000000000001,
+                "variance_z": 1.3,
+                "expected_cost": 1.32500256
+              }
+            ]
+          },
+          {
+            "actions": [
+              0.5,
+              0.5
+            ],
+            "expected_cost": 2.64840512,
+            "trajectory": [
+              {
+                "action": 0.5,
+                "mean_h": 0.9984000000000001,
+                "variance_h": 0.05,
+                "mean_z": 0.9984000000000001,
+                "variance_z": 1.05,
+                "expected_cost": 1.07500256
+              },
+              {
+                "action": 0.5,
+                "mean_h": 1.4984000000000002,
+                "variance_h": 0.30000000000000004,
+                "mean_z": 1.4984000000000002,
+                "variance_z": 1.3,
+                "expected_cost": 1.5734025600000001
+              }
+            ]
+          },
+          {
+            "actions": [
+              0.5,
+              -0.5
+            ],
+            "expected_cost": 2.65160512,
+            "trajectory": [
+              {
+                "action": 0.5,
+                "mean_h": 0.9984000000000001,
+                "variance_h": 0.05,
+                "mean_z": 0.9984000000000001,
+                "variance_z": 1.05,
+                "expected_cost": 1.07500256
+              },
+              {
+                "action": -0.5,
+                "mean_h": 0.49840000000000007,
+                "variance_h": 0.30000000000000004,
+                "mean_z": 0.49840000000000007,
+                "variance_z": 1.3,
+                "expected_cost": 1.57660256
+              }
+            ]
+          },
+          {
+            "actions": [
+              0,
+              0
+            ],
+            "expected_cost": 2.85320512,
+            "trajectory": [
+              {
+                "action": 0,
+                "mean_h": 0.49840000000000007,
+                "variance_h": 0.05,
+                "mean_z": 0.49840000000000007,
+                "variance_z": 1.05,
+                "expected_cost": 1.30160256
+              },
+              {
+                "action": 0,
+                "mean_h": 0.49840000000000007,
+                "variance_h": 0.30000000000000004,
+                "mean_z": 0.49840000000000007,
+                "variance_z": 1.3,
+                "expected_cost": 1.55160256
+              }
+            ]
+          },
+          {
+            "actions": [
+              0,
+              -0.5
+            ],
+            "expected_cost": 3.62980512,
+            "trajectory": [
+              {
+                "action": 0,
+                "mean_h": 0.49840000000000007,
+                "variance_h": 0.05,
+                "mean_z": 0.49840000000000007,
+                "variance_z": 1.05,
+                "expected_cost": 1.30160256
+              },
+              {
+                "action": -0.5,
+                "mean_h": -0.0015999999999999348,
+                "variance_h": 0.30000000000000004,
+                "mean_z": -0.0015999999999999348,
+                "variance_z": 1.3,
+                "expected_cost": 2.32820256
+              }
+            ]
+          },
+          {
+            "actions": [
+              -0.5,
+              0.5
+            ],
+            "expected_cost": 3.65480512,
+            "trajectory": [
+              {
+                "action": -0.5,
+                "mean_h": -0.0015999999999999348,
+                "variance_h": 0.05,
+                "mean_z": -0.0015999999999999348,
+                "variance_z": 1.05,
+                "expected_cost": 2.07820256
+              },
+              {
+                "action": 0.5,
+                "mean_h": 0.49840000000000007,
+                "variance_h": 0.30000000000000004,
+                "mean_z": 0.49840000000000007,
+                "variance_z": 1.3,
+                "expected_cost": 1.57660256
+              }
+            ]
+          },
+          {
+            "actions": [
+              -0.5,
+              0
+            ],
+            "expected_cost": 4.38140512,
+            "trajectory": [
+              {
+                "action": -0.5,
+                "mean_h": -0.0015999999999999348,
+                "variance_h": 0.05,
+                "mean_z": -0.0015999999999999348,
+                "variance_z": 1.05,
+                "expected_cost": 2.07820256
+              },
+              {
+                "action": 0,
+                "mean_h": -0.0015999999999999348,
+                "variance_h": 0.30000000000000004,
+                "mean_z": -0.0015999999999999348,
+                "variance_z": 1.3,
+                "expected_cost": 2.30320256
+              }
+            ]
+          },
+          {
+            "actions": [
+              -0.5,
+              -0.5
+            ],
+            "expected_cost": 5.658005119999999,
+            "trajectory": [
+              {
+                "action": -0.5,
+                "mean_h": -0.0015999999999999348,
+                "variance_h": 0.05,
+                "mean_z": -0.0015999999999999348,
+                "variance_z": 1.05,
+                "expected_cost": 2.07820256
+              },
+              {
+                "action": -0.5,
+                "mean_h": -0.5015999999999999,
+                "variance_h": 0.30000000000000004,
+                "mean_z": -0.5015999999999999,
+                "variance_z": 1.3,
+                "expected_cost": 3.5798025599999996
+              }
+            ]
+          }
+        ],
+        "work_scenarios": {
+          "W1": {
+            "observations": [
+              0.5,
+              0,
+              -0.2
+            ],
+            "history_actions": [
+              0,
+              0.5
+            ],
+            "representative_trace": [
+              {
+                "t": 1,
+                "h": 0,
+                "prior_mean": 0,
+                "prior_variance": 1,
+                "observation": 0.5,
+                "posterior_mean": 0.4,
+                "posterior_variance": 0.2
+              },
+              {
+                "t": 2,
+                "h": 0.2,
+                "prior_mean": 0.2,
+                "prior_variance": 1,
+                "observation": 0,
+                "posterior_mean": 0.04000000000000001,
+                "posterior_variance": 0.2
+              },
+              {
+                "t": 3,
+                "h": 0.62,
+                "prior_mean": 0.62,
+                "prior_variance": 1,
+                "observation": -0.2,
+                "posterior_mean": -0.03600000000000003,
+                "posterior_variance": 0.2
+              }
+            ],
+            "exact_q_elbo": -3.5236909265853327,
+            "exact_model_log_evidence": -3.505101747125617,
+            "gap": 0.0185891794597155,
+            "elbo_expectation_rows": [
+              {
+                "t": 1,
+                "mean_h": 0,
+                "variance_h": 0,
+                "mean_z": 0.4,
+                "variance_z": 0.2,
+                "expected_log_observation": -0.6457913526447274,
+                "expected_kl": 0.4847189562170501
+              },
+              {
+                "t": 2,
+                "mean_h": 0.2,
+                "variance_h": 0.05,
+                "mean_z": 0.04000000000000001,
+                "variance_z": 0.202,
+                "expected_log_observation": -0.6329913526447274,
+                "expected_kl": 0.43351895621705017
+              },
+              {
+                "t": 3,
+                "mean_h": 0.62,
+                "variance_h": 0.068,
+                "mean_z": -0.03600000000000003,
+                "variance_z": 0.20272,
+                "expected_log_observation": -0.6850233526447275,
+                "expected_kl": 0.6416469562170501
+              }
+            ],
+            "first_candidate_table": [
+              {
+                "actions": [
+                  0.5,
+                  0
+                ],
+                "expected_cost": 2.461528,
+                "trajectory": [
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.792,
+                    "variance_h": 0.05,
+                    "mean_z": 0.792,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.118264
+                  },
+                  {
+                    "action": 0,
+                    "mean_h": 0.792,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.792,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.343264
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0.5,
+                  0.5
+                ],
+                "expected_cost": 2.5285279999999997,
+                "trajectory": [
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.792,
+                    "variance_h": 0.05,
+                    "mean_z": 0.792,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.118264
+                  },
+                  {
+                    "action": 0.5,
+                    "mean_h": 1.292,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 1.292,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.410264
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0,
+                  0.5
+                ],
+                "expected_cost": 2.9195279999999997,
+                "trajectory": [
+                  {
+                    "action": 0,
+                    "mean_h": 0.292,
+                    "variance_h": 0.05,
+                    "mean_z": 0.292,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.551264
+                  },
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.792,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.792,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.368264
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0.5,
+                  -0.5
+                ],
+                "expected_cost": 2.944528,
+                "trajectory": [
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.792,
+                    "variance_h": 0.05,
+                    "mean_z": 0.792,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.118264
+                  },
+                  {
+                    "action": -0.5,
+                    "mean_h": 0.29200000000000004,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.29200000000000004,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.8262639999999999
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0,
+                  0
+                ],
+                "expected_cost": 3.352528,
+                "trajectory": [
+                  {
+                    "action": 0,
+                    "mean_h": 0.292,
+                    "variance_h": 0.05,
+                    "mean_z": 0.292,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.551264
+                  },
+                  {
+                    "action": 0,
+                    "mean_h": 0.292,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.292,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.801264
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0,
+                  -0.5
+                ],
+                "expected_cost": 4.335528,
+                "trajectory": [
+                  {
+                    "action": 0,
+                    "mean_h": 0.292,
+                    "variance_h": 0.05,
+                    "mean_z": 0.292,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.551264
+                  },
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.20800000000000002,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": -0.20800000000000002,
+                    "variance_z": 1.3,
+                    "expected_cost": 2.784264
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  -0.5,
+                  0.5
+                ],
+                "expected_cost": 4.3605279999999995,
+                "trajectory": [
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.20800000000000002,
+                    "variance_h": 0.05,
+                    "mean_z": -0.20800000000000002,
+                    "variance_z": 1.05,
+                    "expected_cost": 2.534264
+                  },
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.292,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.292,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.8262639999999999
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  -0.5,
+                  0
+                ],
+                "expected_cost": 5.293528,
+                "trajectory": [
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.20800000000000002,
+                    "variance_h": 0.05,
+                    "mean_z": -0.20800000000000002,
+                    "variance_z": 1.05,
+                    "expected_cost": 2.534264
+                  },
+                  {
+                    "action": 0,
+                    "mean_h": -0.20800000000000002,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": -0.20800000000000002,
+                    "variance_z": 1.3,
+                    "expected_cost": 2.759264
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  -0.5,
+                  -0.5
+                ],
+                "expected_cost": 6.776528000000001,
+                "trajectory": [
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.20800000000000002,
+                    "variance_h": 0.05,
+                    "mean_z": -0.20800000000000002,
+                    "variance_z": 1.05,
+                    "expected_cost": 2.534264
+                  },
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.708,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": -0.708,
+                    "variance_z": 1.3,
+                    "expected_cost": 4.2422640000000005
+                  }
+                ]
+              }
+            ],
+            "new_observation": -1,
+            "next_h": 0.792,
+            "new_posterior_mean": -0.6416000000000001,
+            "replanned_candidate_table": [
+              {
+                "actions": [
+                  0.5,
+                  0.5
+                ],
+                "expected_cost": 2.58611008,
+                "trajectory": [
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.5751999999999999,
+                    "variance_h": 0.05,
+                    "mean_z": 0.5751999999999999,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.25545504
+                  },
+                  {
+                    "action": 0.5,
+                    "mean_h": 1.0752,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 1.0752,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.33065504
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0.5,
+                  0
+                ],
+                "expected_cost": 2.73591008,
+                "trajectory": [
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.5751999999999999,
+                    "variance_h": 0.05,
+                    "mean_z": 0.5751999999999999,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.25545504
+                  },
+                  {
+                    "action": 0,
+                    "mean_h": 0.5751999999999999,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.5751999999999999,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.48045504
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0,
+                  0.5
+                ],
+                "expected_cost": 3.4107100800000003,
+                "trajectory": [
+                  {
+                    "action": 0,
+                    "mean_h": 0.07519999999999999,
+                    "variance_h": 0.05,
+                    "mean_z": 0.07519999999999999,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.9052550400000001
+                  },
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.5751999999999999,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.5751999999999999,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.50545504
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0.5,
+                  -0.5
+                ],
+                "expected_cost": 3.4357100799999998,
+                "trajectory": [
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.5751999999999999,
+                    "variance_h": 0.05,
+                    "mean_z": 0.5751999999999999,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.25545504
+                  },
+                  {
+                    "action": -0.5,
+                    "mean_h": 0.07519999999999993,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.07519999999999993,
+                    "variance_z": 1.3,
+                    "expected_cost": 2.18025504
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0,
+                  0
+                ],
+                "expected_cost": 4.06051008,
+                "trajectory": [
+                  {
+                    "action": 0,
+                    "mean_h": 0.07519999999999999,
+                    "variance_h": 0.05,
+                    "mean_z": 0.07519999999999999,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.9052550400000001
+                  },
+                  {
+                    "action": 0,
+                    "mean_h": 0.07519999999999999,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.07519999999999999,
+                    "variance_z": 1.3,
+                    "expected_cost": 2.15525504
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0,
+                  -0.5
+                ],
+                "expected_cost": 5.26031008,
+                "trajectory": [
+                  {
+                    "action": 0,
+                    "mean_h": 0.07519999999999999,
+                    "variance_h": 0.05,
+                    "mean_z": 0.07519999999999999,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.9052550400000001
+                  },
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.4248,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": -0.4248,
+                    "variance_z": 1.3,
+                    "expected_cost": 3.3550550400000003
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  -0.5,
+                  0.5
+                ],
+                "expected_cost": 5.28531008,
+                "trajectory": [
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.4248,
+                    "variance_h": 0.05,
+                    "mean_z": -0.4248,
+                    "variance_z": 1.05,
+                    "expected_cost": 3.1050550400000003
+                  },
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.07519999999999999,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.07519999999999999,
+                    "variance_z": 1.3,
+                    "expected_cost": 2.18025504
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  -0.5,
+                  0
+                ],
+                "expected_cost": 6.435110080000001,
+                "trajectory": [
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.4248,
+                    "variance_h": 0.05,
+                    "mean_z": -0.4248,
+                    "variance_z": 1.05,
+                    "expected_cost": 3.1050550400000003
+                  },
+                  {
+                    "action": 0,
+                    "mean_h": -0.4248,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": -0.4248,
+                    "variance_z": 1.3,
+                    "expected_cost": 3.3300550400000004
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  -0.5,
+                  -0.5
+                ],
+                "expected_cost": 8.134910080000001,
+                "trajectory": [
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.4248,
+                    "variance_h": 0.05,
+                    "mean_z": -0.4248,
+                    "variance_z": 1.05,
+                    "expected_cost": 3.1050550400000003
+                  },
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.9248000000000001,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": -0.9248000000000001,
+                    "variance_z": 1.3,
+                    "expected_cost": 5.029855040000001
+                  }
+                ]
+              }
+            ]
+          },
+          "W3": {
+            "observations": [
+              0.2,
+              0.9,
+              -0.4
+            ],
+            "history_actions": [
+              -0.5,
+              0.5
+            ],
+            "representative_trace": [
+              {
+                "t": 1,
+                "h": 0,
+                "prior_mean": 0,
+                "prior_variance": 1,
+                "observation": 0.2,
+                "posterior_mean": 0.16000000000000003,
+                "posterior_variance": 0.2
+              },
+              {
+                "t": 2,
+                "h": -0.42,
+                "prior_mean": -0.42,
+                "prior_variance": 1,
+                "observation": 0.9,
+                "posterior_mean": 0.6360000000000001,
+                "posterior_variance": 0.2
+              },
+              {
+                "t": 3,
+                "h": 0.6080000000000001,
+                "prior_mean": 0.6080000000000001,
+                "prior_variance": 1,
+                "observation": -0.4,
+                "posterior_mean": -0.19840000000000002,
+                "posterior_variance": 0.2
+              }
+            ],
+            "exact_q_elbo": -4.258116526585333,
+            "exact_model_log_evidence": -4.232838973402989,
+            "gap": 0.025277553182343482,
+            "elbo_expectation_rows": [
+              {
+                "t": 1,
+                "mean_h": 0,
+                "variance_h": 0,
+                "mean_z": 0.16000000000000003,
+                "variance_z": 0.2,
+                "expected_log_observation": -0.6289913526447274,
+                "expected_kl": 0.41751895621705015
+              },
+              {
+                "t": 2,
+                "mean_h": -0.42,
+                "variance_h": 0.05,
+                "mean_z": 0.6360000000000001,
+                "variance_z": 0.202,
+                "expected_log_observation": -0.7691833526447273,
+                "expected_kl": 0.9782869562170502
+              },
+              {
+                "t": 3,
+                "mean_h": 0.6080000000000001,
+                "variance_h": 0.068,
+                "mean_z": -0.19840000000000002,
+                "variance_z": 0.20272,
+                "expected_log_observation": -0.7125164726447274,
+                "expected_kl": 0.7516194362170503
+              }
+            ],
+            "first_candidate_table": [
+              {
+                "actions": [
+                  0.5,
+                  0.5
+                ],
+                "expected_cost": 2.52908608,
+                "trajectory": [
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.7048000000000001,
+                    "variance_h": 0.05,
+                    "mean_z": 0.7048000000000001,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.16214304
+                  },
+                  {
+                    "action": 0.5,
+                    "mean_h": 1.2048,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 1.2048,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.36694304
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0.5,
+                  0
+                ],
+                "expected_cost": 2.54928608,
+                "trajectory": [
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.7048000000000001,
+                    "variance_h": 0.05,
+                    "mean_z": 0.7048000000000001,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.16214304
+                  },
+                  {
+                    "action": 0,
+                    "mean_h": 0.7048000000000001,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.7048000000000001,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.38714304
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0,
+                  0.5
+                ],
+                "expected_cost": 3.09448608,
+                "trajectory": [
+                  {
+                    "action": 0,
+                    "mean_h": 0.20480000000000004,
+                    "variance_h": 0.05,
+                    "mean_z": 0.20480000000000004,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.68234304
+                  },
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.7048000000000001,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.7048000000000001,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.41214304
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0.5,
+                  -0.5
+                ],
+                "expected_cost": 3.1194860799999997,
+                "trajectory": [
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.7048000000000001,
+                    "variance_h": 0.05,
+                    "mean_z": 0.7048000000000001,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.16214304
+                  },
+                  {
+                    "action": -0.5,
+                    "mean_h": 0.2048000000000001,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.2048000000000001,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.9573430399999998
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0,
+                  0
+                ],
+                "expected_cost": 3.61468608,
+                "trajectory": [
+                  {
+                    "action": 0,
+                    "mean_h": 0.20480000000000004,
+                    "variance_h": 0.05,
+                    "mean_z": 0.20480000000000004,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.68234304
+                  },
+                  {
+                    "action": 0,
+                    "mean_h": 0.20480000000000004,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.20480000000000004,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.93234304
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0,
+                  -0.5
+                ],
+                "expected_cost": 4.684886079999999,
+                "trajectory": [
+                  {
+                    "action": 0,
+                    "mean_h": 0.20480000000000004,
+                    "variance_h": 0.05,
+                    "mean_z": 0.20480000000000004,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.68234304
+                  },
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.29519999999999996,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": -0.29519999999999996,
+                    "variance_z": 1.3,
+                    "expected_cost": 3.0025430399999995
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  -0.5,
+                  0.5
+                ],
+                "expected_cost": 4.7098860799999995,
+                "trajectory": [
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.29519999999999996,
+                    "variance_h": 0.05,
+                    "mean_z": -0.29519999999999996,
+                    "variance_z": 1.05,
+                    "expected_cost": 2.7525430399999995
+                  },
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.20480000000000004,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.20480000000000004,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.9573430399999998
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  -0.5,
+                  0
+                ],
+                "expected_cost": 5.7300860799999995,
+                "trajectory": [
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.29519999999999996,
+                    "variance_h": 0.05,
+                    "mean_z": -0.29519999999999996,
+                    "variance_z": 1.05,
+                    "expected_cost": 2.7525430399999995
+                  },
+                  {
+                    "action": 0,
+                    "mean_h": -0.29519999999999996,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": -0.29519999999999996,
+                    "variance_z": 1.3,
+                    "expected_cost": 2.9775430399999996
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  -0.5,
+                  -0.5
+                ],
+                "expected_cost": 7.300286079999999,
+                "trajectory": [
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.29519999999999996,
+                    "variance_h": 0.05,
+                    "mean_z": -0.29519999999999996,
+                    "variance_z": 1.05,
+                    "expected_cost": 2.7525430399999995
+                  },
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.7951999999999999,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": -0.7951999999999999,
+                    "variance_z": 1.3,
+                    "expected_cost": 4.54774304
+                  }
+                ]
+              }
+            ],
+            "new_observation": -0.8,
+            "next_h": 0.7048000000000001,
+            "new_posterior_mean": -0.4990400000000001,
+            "replanned_candidate_table": [
+              {
+                "actions": [
+                  0.5,
+                  0.5
+                ],
+                "expected_cost": 2.5682885887999998,
+                "trajectory": [
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.60288,
+                    "variance_h": 0.05,
+                    "mean_z": 0.60288,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.2327042944
+                  },
+                  {
+                    "action": 0.5,
+                    "mean_h": 1.1028799999999999,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 1.1028799999999999,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.3355842943999998
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0.5,
+                  0
+                ],
+                "expected_cost": 2.6904085888,
+                "trajectory": [
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.60288,
+                    "variance_h": 0.05,
+                    "mean_z": 0.60288,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.2327042944
+                  },
+                  {
+                    "action": 0,
+                    "mean_h": 0.60288,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.60288,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.4577042944
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0,
+                  0.5
+                ],
+                "expected_cost": 3.3375285888,
+                "trajectory": [
+                  {
+                    "action": 0,
+                    "mean_h": 0.10288,
+                    "variance_h": 0.05,
+                    "mean_z": 0.10288,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.8548242944000002
+                  },
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.60288,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.60288,
+                    "variance_z": 1.3,
+                    "expected_cost": 1.4827042944
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0.5,
+                  -0.5
+                ],
+                "expected_cost": 3.3625285888,
+                "trajectory": [
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.60288,
+                    "variance_h": 0.05,
+                    "mean_z": 0.60288,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.2327042944
+                  },
+                  {
+                    "action": -0.5,
+                    "mean_h": 0.10287999999999997,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.10287999999999997,
+                    "variance_z": 1.3,
+                    "expected_cost": 2.1298242944
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0,
+                  0
+                ],
+                "expected_cost": 3.9596485888000004,
+                "trajectory": [
+                  {
+                    "action": 0,
+                    "mean_h": 0.10288,
+                    "variance_h": 0.05,
+                    "mean_z": 0.10288,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.8548242944000002
+                  },
+                  {
+                    "action": 0,
+                    "mean_h": 0.10288,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.10288,
+                    "variance_z": 1.3,
+                    "expected_cost": 2.1048242944
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  0,
+                  -0.5
+                ],
+                "expected_cost": 5.1317685888,
+                "trajectory": [
+                  {
+                    "action": 0,
+                    "mean_h": 0.10288,
+                    "variance_h": 0.05,
+                    "mean_z": 0.10288,
+                    "variance_z": 1.05,
+                    "expected_cost": 1.8548242944000002
+                  },
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.39712000000000003,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": -0.39712000000000003,
+                    "variance_z": 1.3,
+                    "expected_cost": 3.2769442944000002
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  -0.5,
+                  0.5
+                ],
+                "expected_cost": 5.1567685888,
+                "trajectory": [
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.39712000000000003,
+                    "variance_h": 0.05,
+                    "mean_z": -0.39712000000000003,
+                    "variance_z": 1.05,
+                    "expected_cost": 3.0269442944000002
+                  },
+                  {
+                    "action": 0.5,
+                    "mean_h": 0.10287999999999997,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": 0.10287999999999997,
+                    "variance_z": 1.3,
+                    "expected_cost": 2.1298242944
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  -0.5,
+                  0
+                ],
+                "expected_cost": 6.278888588800001,
+                "trajectory": [
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.39712000000000003,
+                    "variance_h": 0.05,
+                    "mean_z": -0.39712000000000003,
+                    "variance_z": 1.05,
+                    "expected_cost": 3.0269442944000002
+                  },
+                  {
+                    "action": 0,
+                    "mean_h": -0.39712000000000003,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": -0.39712000000000003,
+                    "variance_z": 1.3,
+                    "expected_cost": 3.2519442944000003
+                  }
+                ]
+              },
+              {
+                "actions": [
+                  -0.5,
+                  -0.5
+                ],
+                "expected_cost": 7.951008588800001,
+                "trajectory": [
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.39712000000000003,
+                    "variance_h": 0.05,
+                    "mean_z": -0.39712000000000003,
+                    "variance_z": 1.05,
+                    "expected_cost": 3.0269442944000002
+                  },
+                  {
+                    "action": -0.5,
+                    "mean_h": -0.89712,
+                    "variance_h": 0.30000000000000004,
+                    "mean_z": -0.89712,
+                    "variance_z": 1.3,
+                    "expected_cost": 4.924064294400001
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "checks": "lower-bound, KL nonnegativity, prior variance, changed MPC action"
+      }
+    },
+    "xhigh": {
+      "exit_code": 0,
+      "data": {
+        "revision": 2,
+        "sequence_elbo": {
+          "evidence": 0.17800000000000002,
+          "log_evidence": -1.7259717286900518,
+          "elbo_path": -1.8310271174900177,
+          "elbo_reconstruction_minus_expected_kls": -1.8310271174900177,
+          "gap": 0.1050553887999659,
+          "kl_q_to_full_sequence_posterior": 0.1050553887999655,
+          "wrong_elbo_without_history_expectation": -1.7320721412164077,
+          "scope": "finite enumeration identity; not a general proof or trained RSSM"
+        },
+        "nonlinear_mean": {
+          "E_f_z": 1,
+          "f_E_z": 0,
+          "scope": "explicit counterexample to substituting means through nonlinear transitions"
+        },
+        "finite_bridge": {
+          "posterior_after_red": "4/5",
+          "first_candidate_table": {
+            "SS": {
+              "b1": "37/50",
+              "b2": "173/250",
+              "score": "179/125",
+              "decimal": 1.432
+            },
+            "SF": {
+              "b1": "37/50",
+              "b2": "77/250",
+              "score": "131/125",
+              "decimal": 1.048
+            },
+            "FS": {
+              "b1": "13/50",
+              "b2": "77/250",
+              "score": "71/125",
+              "decimal": 0.568
+            },
+            "FF": {
+              "b1": "13/50",
+              "b2": "173/250",
+              "score": "119/125",
+              "decimal": 0.952
+            }
+          },
+          "executed_action": "S",
+          "arrival_prior": "37/50",
+          "actual_arrival_observation": "B",
+          "posterior_after_blue": "37/89",
+          "replanned_candidate_table": {
+            "SS": {
+              "b1": "77/178",
+              "b2": "397/890",
+              "score": "391/445",
+              "decimal": 0.8786516853932584
+            },
+            "SF": {
+              "b1": "77/178",
+              "b2": "493/890",
+              "score": "439/445",
+              "decimal": 0.9865168539325843
+            },
+            "FS": {
+              "b1": "101/178",
+              "b2": "493/890",
+              "score": "499/445",
+              "decimal": 1.1213483146067416
+            },
+            "FF": {
+              "b1": "101/178",
+              "b2": "397/890",
+              "score": "451/445",
+              "decimal": 1.0134831460674156
+            }
+          },
+          "new_first_action": "F",
+          "scope": "exact constructed two-state bridge; utility is not observed reward; not neural RSSM or real control experiment"
+        }
+      }
+    }
+  },
+  "additional_finite_checks": {
+    "status": "pass",
+    "beta": {
+      "log_evidence": -0.6931471805599453,
+      "base": -0.6931471805599453,
+      "beta_half": -0.5091150769756967,
+      "beta_two": -1.0612113877284424
+    },
+    "full_vs_conditional_root": {
+      "full_future_variances": [
+        1.07448,
+        1.32448
+      ],
+      "conditional": [
+        1.05,
+        1.3
+      ],
+      "cost_delta": 0.04896
+    },
+    "replan_same_action": {
+      "old_suffix": 0.5,
+      "new_first": 0.5
+    }
+  },
+  "true_learning_test_executed": false,
+  "neural_training_or_control_experiment_executed": false
+}

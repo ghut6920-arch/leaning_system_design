@@ -1,0 +1,183 @@
+{
+  "revision": 1,
+  "date": "2026-10-08",
+  "executor": "same_model_teacher",
+  "python_version": "3.12.3",
+  "torch": {
+    "status": "not_executed",
+    "reason": "torch not installed in teacher runtime"
+  },
+  "checks": [
+    {
+      "name": "all_96_video_coordinates",
+      "status": "passed"
+    },
+    {
+      "name": "all_96_frame_coordinates",
+      "status": "passed"
+    },
+    {
+      "name": "unique_coordinate_mapping",
+      "status": "passed"
+    },
+    {
+      "name": "equivalent_merge_first_route",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_camera_reshape_detected",
+      "status": "passed"
+    },
+    {
+      "name": "green_pixel_trace",
+      "status": "passed"
+    },
+    {
+      "name": "all_eight_encoded_rows",
+      "status": "passed"
+    },
+    {
+      "name": "same_features_different_sources",
+      "status": "passed"
+    },
+    {
+      "name": "trusted_tags_restore_whole_sequence",
+      "status": "passed"
+    },
+    {
+      "name": "same_shape_wrong_sequence",
+      "status": "passed"
+    },
+    {
+      "name": "ordered_consumer_result",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_order_changes_consumer",
+      "status": "passed"
+    },
+    {
+      "name": "missing_mapping_is_not_identifiable",
+      "status": "passed"
+    },
+    {
+      "name": "only_blue_changed",
+      "status": "passed"
+    },
+    {
+      "name": "blue_counterexample_same_full_features",
+      "status": "passed"
+    },
+    {
+      "name": "same_features_opposite_blue_answer",
+      "status": "passed"
+    },
+    {
+      "name": "duplicate_tag_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "missing_row_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_batch_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "out_of_domain_tag_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_feature_width_rejected",
+      "status": "passed"
+    }
+  ],
+  "passed": 21,
+  "failed": 0,
+  "correct_red_difference": [
+    30,
+    -10
+  ],
+  "wrong_red_difference": [
+    0,
+    0
+  ],
+  "packet_rows": [
+    [
+      11,
+      12
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      41,
+      42
+    ]
+  ],
+  "packet_tags": [
+    [
+      "batch-Q",
+      1,
+      1
+    ],
+    [
+      "batch-Q",
+      0,
+      2
+    ],
+    [
+      "batch-Q",
+      1,
+      3
+    ],
+    [
+      "batch-Q",
+      0,
+      0
+    ],
+    [
+      "batch-Q",
+      1,
+      2
+    ],
+    [
+      "batch-Q",
+      0,
+      1
+    ],
+    [
+      "batch-Q",
+      1,
+      0
+    ],
+    [
+      "batch-Q",
+      0,
+      3
+    ]
+  ],
+  "limits": "Finite teacher-reference checks; no learner run, learning-effect result or real robot/model evidence."
+}

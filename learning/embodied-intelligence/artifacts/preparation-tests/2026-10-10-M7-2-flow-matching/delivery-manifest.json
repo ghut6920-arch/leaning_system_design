@@ -1,0 +1,175 @@
+{
+  "format": "M7.2-preparation-delivery/1",
+  "date": "2026-10-10",
+  "timezone": "Asia/Shanghai",
+  "status": "prepared_for_review",
+  "root": "E:/文献资料/学习系统架构设计/learning/embodied-intelligence",
+  "file_count": 32,
+  "excluded": [
+    "runtime __pycache__ files",
+    "delivery-manifest.json itself"
+  ],
+  "boundary": "Prepared materials and teacher outputs only; no formal learner event or progress change.",
+  "entries": [
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/00-disciplinary-analysis.md",
+      "Bytes": 26609,
+      "SHA256": "a5dbcd30f041ce4ed0bccd3950106aa2764eb5f2845804a88075ab550cb1c2bf"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/00-source-audit.md",
+      "Bytes": 6968,
+      "SHA256": "052118825ece7d519a1b222795fb6f41821302e3a246141fe907fa6065375018"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/01-cognitive-design.md",
+      "Bytes": 24268,
+      "SHA256": "361f5ec75c679d66fa90e7014ced3f89829184ec228b33554bf29d89522e6499"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/02-method-config.md",
+      "Bytes": 12766,
+      "SHA256": "185d778f4d18843ec5dc52dc1bbb468c696368976536a865ff0077442b58985f"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/07-code-and-run-review.md",
+      "Bytes": 14083,
+      "SHA256": "5fe118cacba733171b6a3872363d46944a37c442b528c745b9598800d25db95a"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/08-content-review.md",
+      "Bytes": 14441,
+      "SHA256": "12fa3e266f1dac0a551cf2af927a03d59b292512e26e7782f191eb1e2c01cd81"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/09-progress-integrity.json",
+      "Bytes": 467,
+      "SHA256": "56bb9f8f31ee9a2f3bc7fa113fc579af688b3cd9d95597d0fa565d1f70a6e9e9"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/10-delivery-checks.json",
+      "Bytes": 2082,
+      "SHA256": "79ae501440413d2d026b20be7b0622d5422fbdc1b73d9821f17ffb45329d11d2"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/99-workflow-log.md",
+      "Bytes": 6173,
+      "SHA256": "b5bdc6dcc84a5cda310e5ae0072565da16c349946975a9f1fbc5c05a85cb066a"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/figures/01-trajectories.png",
+      "Bytes": 141668,
+      "SHA256": "b6e6ff629be4725d10b1ff6ecc41c1c852458eb66eda6ccc29c2d93205cf71b4"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/figures/01-trajectories.svg",
+      "Bytes": 13060,
+      "SHA256": "13c0354f7d78d19cb11d641ceaf36276e21c8f2f482a5d6fdb8fc369f6a2a756"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/figures/02-sampling-comparison.png",
+      "Bytes": 345669,
+      "SHA256": "6aa3b159dce816ad0afc86be365e8843063f52fd624bbc75365ddb174c7f5bc7"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/figures/02-sampling-comparison.svg",
+      "Bytes": 88540,
+      "SHA256": "529ac414a14d376b7683decc980b81e080e9e1c99c980e909a20b0ce90e29bc1"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/README.md",
+      "Bytes": 6129,
+      "SHA256": "a4a1c616679a936ba4ac91eb0fbe45d26460dbc65c182754b84c1148aab849e3"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/teacher-run/heldout-inputs-r1.npz",
+      "Bytes": 1740443,
+      "SHA256": "cda1d8cfae06dd4c506c3d956e62f2d8918290e2d9c5ade6b5b9601024aaeff8"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/teacher-run/mathematical-checks-r1.json",
+      "Bytes": 3486,
+      "SHA256": "d3a6f512318cff7fc9fc477a8c94af7ed191fe99c283d8f1bac2ad62bd893558"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/teacher-run/metrics-r1.csv",
+      "Bytes": 2865,
+      "SHA256": "562c5d69febff1cb830f86823f2aaada377ad6cfbd1541ec89e2362cea8dc9f3"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/teacher-run/model-r1.npz",
+      "Bytes": 1302,
+      "SHA256": "fa495238b3a04e1d0c1b9d80353167d225ff0cac0103f6077bf8ab56e156dd23"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/teacher-run/paired-generation-r1.npz",
+      "Bytes": 1652325,
+      "SHA256": "a8be7f0bed5fbbe2ce41594e12dbfef60793f0b246f49e41d035e8a924baecb9"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/teacher-run/run-stdout-r1.txt",
+      "Bytes": 1775,
+      "SHA256": "abbceef953e623e89a00273cefb0b4a56c517dcb70b593022c91b0005672a6b5"
+    },
+    {
+      "Path": "artifacts/preparation-tests/2026-10-10-M7-2-flow-matching/teacher-run/summary-r1.json",
+      "Bytes": 18969,
+      "SHA256": "ba855a5fd7b5b7a70b626a2e9531aa1fcf975fdcf98dd422b44269428b482968"
+    },
+    {
+      "Path": "code/M7/flow-matching-prep-20261010/learner_sampler.py",
+      "Bytes": 555,
+      "SHA256": "30d2b0e865a5e65d0edf423ff265a446b87caec924bfe6e5273d6d09c50fd0c2"
+    },
+    {
+      "Path": "code/M7/flow-matching-prep-20261010/make_figures.py",
+      "Bytes": 7095,
+      "SHA256": "a66f60e2cc0a648140e17d8cd74a839ed0ce1d5449e2b9c25c9d7bb453de0df2"
+    },
+    {
+      "Path": "code/M7/flow-matching-prep-20261010/mathematical_checks.py",
+      "Bytes": 8760,
+      "SHA256": "b59f1a5022349ca9a19fac8cca70db95c8ef72974b1d2c49ab8328c3f523178b"
+    },
+    {
+      "Path": "code/M7/flow-matching-prep-20261010/provenance-r1.json",
+      "Bytes": 2440,
+      "SHA256": "d38df06030c7ec19a7f7604e88f8927b6f3e25eb1c5453b6820cde9adc98d4b0"
+    },
+    {
+      "Path": "code/M7/flow-matching-prep-20261010/README.md",
+      "Bytes": 3490,
+      "SHA256": "6c6f564c645026ce888711d3c37e246498ea6733931a5384d8fbe3c80567fdbb"
+    },
+    {
+      "Path": "code/M7/flow-matching-prep-20261010/SAMPLER_SPEC.md",
+      "Bytes": 1783,
+      "SHA256": "5c397ec2e1594f8a1bfd1d46459084bd91688ce764ef2542c5a47657bece7c0e"
+    },
+    {
+      "Path": "code/M7/flow-matching-prep-20261010/teacher_cfm.py",
+      "Bytes": 18395,
+      "SHA256": "0883d9bb81bb9f6f3c96a6c83f06982048f7b2fe7c6eef264205670667a45851"
+    },
+    {
+      "Path": "questions/preparation-tests/M7-2-flow-matching-20261010/backup/06-support-branches.md",
+      "Bytes": 12534,
+      "SHA256": "f1dfc3ba134e5b6c09d908b322df36b2e46a19791755ec7d83c01ea6fcb4845f"
+    },
+    {
+      "Path": "questions/preparation-tests/M7-2-flow-matching-20261010/teacher-reference/05-teacher-reference.md",
+      "Bytes": 15324,
+      "SHA256": "bc79f60cb42df4d8783c90ed21df7e20631e57bd795ca4e7eca381a8b69656ae"
+    },
+    {
+      "Path": "questions/preparation-tests/M7-2-flow-matching-20261010/visible/03-learner-material.md",
+      "Bytes": 19940,
+      "SHA256": "f7c4fb7b15c95ad83517a59a25ea22be86f214841993442dd156317a00797de3"
+    },
+    {
+      "Path": "questions/preparation-tests/M7-2-flow-matching-20261010/visible/04-main-work.md",
+      "Bytes": 8158,
+      "SHA256": "a5d4de0beee8cb45b2482698d717f5403b7bd3b259fafe636f5fcb2fba3aa44c"
+    }
+  ]
+}

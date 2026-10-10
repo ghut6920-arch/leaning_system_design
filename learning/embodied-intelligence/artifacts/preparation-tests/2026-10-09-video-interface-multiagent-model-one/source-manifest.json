@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-09",
+  "mode": "same-model multi-agent preparation, manual files",
+  "read_scope_note": "Purpose-specific framework and research reading; full selected strategy bundles were read by cognitive_design. Research/design sections and actual borrowing are specified in 00 and 03. Hash identifies source version, not correctness or learning.",
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "01100f12aa2c58bc54329bb59169594491e6ab623cb9ecb70df00b3d94134d51"
+    },
+    {
+      "path": "MODEL_ENTRY.md",
+      "sha256": "cd934d17d932eedfe8d7ca5eb9334770bca9036345002bcfd0063d3e111d41cb"
+    },
+    {
+      "path": "FRAMEWORK.md",
+      "sha256": "185126dc92263b321c94139c852cc2d900cdeac0448cd172d7a9eb2cbc315f95"
+    },
+    {
+      "path": "INTERACTION.md",
+      "sha256": "31c334e7a14965c1825cf0d9cfc5802219f7dddbba1a20a211b6ef098d398cca"
+    },
+    {
+      "path": "../../personal-learning-suite/contracts/shared-contracts.md",
+      "sha256": "7a83601a8e4d0741b41322fc8883c161b44135c4e56c421eb4f3f408fac8d77e"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/personal-learning/SKILL.md",
+      "sha256": "93c0d219f7129abb860fe44bbd8a21881c6f211e4c684fbb211a1b86eb463937"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/personal-learning/references/session-entry.md",
+      "sha256": "b1abd1a40118add5d1febd0a1a5f3016728b43b8c22b9eac7d606e6e8c6ebeed"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/personal-learning/references/verification.md",
+      "sha256": "9868607fc327f8cd8ac34c6a969f64caf80cf108daa65ad901d96448686dbc19"
+    },
+    {
+      "path": "../../personal-learning-suite/src/agents/AG0-coach.md",
+      "sha256": "982ed8a811dc539a5a42abe416e90243fd6bd399693a43580db3e4af51f2f18c"
+    },
+    {
+      "path": "../../personal-learning-suite/src/agents/AG1-design-planning.md",
+      "sha256": "3a2e6fcfe09faac4964cbf007367e88c1c25f092f61828ed4b2c4a0870903bee"
+    },
+    {
+      "path": "../../personal-learning-suite/src/agents/AG2-materials.md",
+      "sha256": "c34da0a8212c69c3509c0abb6ff0518ff8e485aeec23464750fd4f697b7b0801"
+    },
+    {
+      "path": "../../personal-learning-suite/src/agents/AG3-assessment.md",
+      "sha256": "c1cc16c0d733da9dbd04fcbd34e82bd8ca22b437fd0026e228b97c81fd047fec"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+      "sha256": "606124be68a585afa27d3ae8fbaa70e551c5f0133e82aa065dd5c5d5f2615d92"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
+      "sha256": "0a177d2c59fca8427875a473234fae1fdb795ed0a5a4e1ec052385c2513085e1"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md",
+      "sha256": "6284082d0b294171fd91d1c35b614ceae664ac5704f56cfef0c91b30c64bc596"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-strategies/references/selection-adaptation.md",
+      "sha256": "18066b1623b5f2f5bea1b68dbb61cc90975faef2637631f3742cec82a4c1bb8e"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/common-constraints.json",
+      "sha256": "e217a01ac8e71eae367cd4132cbc084c5c25d1f2a866341b05cacba6d15f3026"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/S05.json",
+      "sha256": "75be952e8bc57ae87fe6d228cf1097f7dcf8db591987794578324c757fbeca36"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/encoding/S09.json",
+      "sha256": "f844542d840596a094784e21c26cf92c03fefbe0601aaa3816d775c469dea0e3"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/post/retrieve-relation.json",
+      "sha256": "9a40c98a6eddedc06cab02155aed54480c242f3f7bd2bbf70e116a0c87ec2dbc"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/post/select-method.json",
+      "sha256": "b33844944758174619f882a3131a60f3367782fcf88a94e3f2cb00eab2d022b8"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/post/conditional-update.json",
+      "sha256": "dd9ff6021b01147af7e8d51d610f1e5ba3174ccf7d0061903462f4ec2f4e9874"
+    },
+    {
+      "path": "../../docs/research/01_Encoding研究报告.md",
+      "sha256": "12b7671df7726b75df71708a0fc0ec8bfbc3e4e6e79b06ac9c6937d9113bb8b1"
+    },
+    {
+      "path": "../../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+      "sha256": "b9a6c07343dab159a25c37ff054f04bd44751b9c7ffd3242b1dff86d36b598f9"
+    },
+    {
+      "path": "../../docs/designs/AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+      "sha256": "0422df3448789b77511b0ab7c74f7f2c92ba7f1919ceb44f28b683239a650b62"
+    },
+    {
+      "path": "../../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "sha256": "c0a266c68aad62d6390ae1e53b3b3e66343d9e8a48865c953b2998cc387f3bca"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-goals/SKILL.md",
+      "sha256": "145dc58e2e68a012d38fb6346cf49766c96bcac983da0dc518f5450e5c8c3540"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-materials/SKILL.md",
+      "sha256": "0047245a8993bd81d4944a955c38d313fcad89aef32c724a936198d9430161f8"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-materials/references/materials-workflow.md",
+      "sha256": "72469e3bbf1d999de66cc6e470df32eb315a19b9ed2110cfad27cc505daeb1b3"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-materials/references/domain-checks.md",
+      "sha256": "805b96f93734c12d19a0f7f61de369e6afef20d0dd61cb3b53ae4cabf6fd8873"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-assessment/references/evidence-rules.md",
+      "sha256": "a781d899c8f901e9bf1595957997eb964ba0b0cd1276021bd40f9a5789e59da2"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-assessment/references/product-review.md",
+      "sha256": "277acead194b585c2e3e9db76b07b06ad021861c275eda1f3e8492bc1939a8c2"
+    }
+  ],
+  "real_basis": [
+    "goals/M0-video-interface-first-20261006-02.md revision1",
+    "state/control.md revision11",
+    "state/current.md revision22",
+    "sessions/2026-10-06-02/checkpoint.md revision5",
+    "sessions/2026-10-07-01/checkpoint.md revision4",
+    "sessions/2026-10-06-02/raw/M0-video-interface-001-initial.txt revision1",
+    "sessions/2026-10-06-02/raw/M0-video-interface-002-initial.txt revision1",
+    "sessions/2026-10-06-02/raw/M0-video-interface-002-revision-001.txt revision1",
+    "sessions/2026-10-07-01/raw/M0-feature-sequence-001-initial.txt revision1",
+    "sessions/2026-10-07-01/raw/M0-feature-sequence-001-help-request.txt revision1",
+    "sessions/2026-10-07-01/raw/M0-feature-sequence-001-revision-001.txt revision1"
+  ],
+  "exclusions": "Other preparation-tests and other conversations were not read. No real learning event written.",
+  "final_artifacts": [
+    {
+      "path": "00-learning-basis.md",
+      "sha256": "3cc184b70491aa0130fa2c99d0754720bb0261b09a5464c37a95a9f41a89c4e2"
+    },
+    {
+      "path": "01-cognitive-plan.md",
+      "sha256": "974886feb1102bbc8b4082c6118b061bc9313f27d238735f2bdd99f704c7dd9f"
+    },
+    {
+      "path": "02-materials-demo.md",
+      "sha256": "cab5fc04c34db50ba0f9245d2731a643962481c59135b767823f5c31481e5426"
+    },
+    {
+      "path": "03-encoding-post.md",
+      "sha256": "f3ce2bc80cb2e050685418ab7bfad7e8b51f49babc14586ff59a7e1301a518d8"
+    },
+    {
+      "path": "04-work-and-reference.md",
+      "sha256": "010e255fc231e2c46712b8c1e7af7e31ff71f8d49a68549dbef1a8b43dfe872b"
+    },
+    {
+      "path": "05-support.md",
+      "sha256": "e51a5b03cec79638ac681286932fb36657a4065562d225c9377dfe7d046eed8a"
+    },
+    {
+      "path": "06-first-teaching-reply.md",
+      "sha256": "829199a007cfd8b0e4086e5294323f2695c45726afaadbf4b79dafce152de205"
+    },
+    {
+      "path": "07-audit.md",
+      "sha256": "dd6f3472aa58144a39fafa28afdd6b0365713d6c5327bfb4be5f5ff6e6b376e4"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c7bf48294495bd1f64d24e40c1ae26793ff70b9d29f8252e4cba10e8d47d9107"
+    },
+    {
+      "path": "完整备课.md",
+      "sha256": "195b5813b0498901800e2d5c93f22da1143f1f4a048e1350fd05ede2c1b0971c"
+    },
+    {
+      "path": "materials-check.json",
+      "sha256": "5f01db3439f4951968355728001c7378d644b1253740a6c98b08ce5f1db69bab"
+    },
+    {
+      "path": "teacher-check-root.json",
+      "sha256": "5f01db3439f4951968355728001c7378d644b1253740a6c98b08ce5f1db69bab"
+    },
+    {
+      "path": "verification.json",
+      "sha256": "da19615cabae461577b0c3bf7985cf81ba432b004c199c31fe221472e0643e7f"
+    }
+  ],
+  "external_content_sources": [
+    {
+      "checked_date": "2026-10-09",
+      "checker": "materials_demo, same inherited model",
+      "urls": [
+        "https://docs.pytorch.org/docs/2.14/generated/torch.permute.html",
+        "https://docs.pytorch.org/docs/2.14/generated/torch.reshape.html",
+        "https://docs.pytorch.org/docs/2.14/generated/torch.Tensor.view.html"
+      ],
+      "scope": "Related official API text; no PyTorch runtime executed"
+    }
+  ]
+}

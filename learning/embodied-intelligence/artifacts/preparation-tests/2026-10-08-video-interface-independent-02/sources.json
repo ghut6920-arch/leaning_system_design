@@ -1,0 +1,329 @@
+{
+  "date": "2026-10-08",
+  "revision": 1,
+  "mode": "single_model_preparation_only",
+  "comparison_preparation_read": false,
+  "sources": [
+    {
+      "path_from_learning_root": "AGENTS.md",
+      "read_scope": "全部入口规则",
+      "sha256": "01100f12aa2c58bc54329bb59169594491e6ab623cb9ecb70df00b3d94134d51"
+    },
+    {
+      "path_from_learning_root": "MODEL_ENTRY.md",
+      "read_scope": "全部人工文件／接任规则",
+      "sha256": "cd934d17d932eedfe8d7ca5eb9334770bca9036345002bcfd0063d3e111d41cb"
+    },
+    {
+      "path_from_learning_root": "FRAMEWORK.md",
+      "read_scope": "全部路由",
+      "sha256": "185126dc92263b321c94139c852cc2d900cdeac0448cd172d7a9eb2cbc315f95"
+    },
+    {
+      "path_from_learning_root": "INTERACTION.md",
+      "read_scope": "全部节奏与等待规则",
+      "sha256": "31c334e7a14965c1825cf0d9cfc5802219f7dddbba1a20a211b6ef098d398cca"
+    },
+    {
+      "path_from_learning_root": "framework-manifest.json",
+      "read_scope": "117个登记指纹核对",
+      "sha256": "25ed2397a116b1b09955ba18a32f4e8e94bb96ce203d87365f257730ed4a6bdc"
+    },
+    {
+      "path_from_learning_root": "state/control.md",
+      "read_scope": "当前revision11及范围；历史条目保留",
+      "sha256": "d7ba0aa3bf5c84b0a6888bbcccb48da66ddb7c3dbdc623daf31ff99b44692d87"
+    },
+    {
+      "path_from_learning_root": "state/current.md",
+      "read_scope": "最新revision22，近期历史断点；更早旧进度不纳入",
+      "sha256": "0cdb6c945d41f929f66c9d1752403bb47b516e10ddd6fb763e160f84e3719977"
+    },
+    {
+      "path_from_learning_root": "goals/M0-video-interface-first-20261006-02.md",
+      "read_scope": "revision1全部R1/R2/R3与允许资源",
+      "sha256": "dd8e882a60fb63688133dca8dd4be04a38cd0d2a8f4a757d320611c01ef9d3b1"
+    },
+    {
+      "path_from_learning_root": "modules/M0/README.md",
+      "read_scope": "M0.2范围与候选性质",
+      "sha256": "02460501eb9c04b9c146211c1c53500f37e8e05c18f3da6925d40c88a7b93d47"
+    },
+    {
+      "path_from_learning_root": "course/course-map.md",
+      "read_scope": "当前方向、M0用途与候选排期边界",
+      "sha256": "62cb108545c4992ccb250217a09343776d6bf76ca2a1ced7a64a995711bac145"
+    },
+    {
+      "path_from_learning_root": "plan/needs.md",
+      "read_scope": "唯一R3主线承接区段",
+      "sha256": "010c5d2a59df26656ee1bd8219b07a44d5f367a310c16c08daf304ff778d5348"
+    },
+    {
+      "path_from_learning_root": "sessions/2026-10-07-01/raw/M0-feature-sequence-001-initial.txt",
+      "read_scope": "全部真实原答",
+      "sha256": "bf32c19ff4d7a5af941ebebdddcf160389180b86f45609dcf8da6c1856d18891"
+    },
+    {
+      "path_from_learning_root": "sessions/2026-10-07-01/raw/M0-feature-sequence-001-help-request.txt",
+      "read_scope": "全部真实求助",
+      "sha256": "e6995724ca41e23712216425ffa606128888e2328a6fcaa5fa3f90e382634583"
+    },
+    {
+      "path_from_learning_root": "sessions/2026-10-07-01/raw/M0-feature-sequence-001-revision-001.txt",
+      "read_scope": "全部最近真实修订",
+      "sha256": "8fa48b411993895cb0936214774eb0c60e60750650e92fa0465cd442905ad9ea"
+    },
+    {
+      "path_from_learning_root": "sessions/2026-10-07-01/event-M0-feature-sequence-001.md",
+      "read_scope": "revision3全部帮助顺序与判断边界",
+      "sha256": "4bbfbbed95c5d095de34a38003bc3d9ee04e7f025fe92c5ee89499dd285ff2d9"
+    },
+    {
+      "path_from_learning_root": "sessions/2026-10-07-01/checkpoint.md",
+      "read_scope": "revision4完整断点",
+      "sha256": "cf49fed4351309b57ca150644a62e800a702e03d0167afa1e26108632bfe03aa"
+    },
+    {
+      "path_from_learning_root": "sessions/2026-10-06-02/raw/M0-video-interface-001-initial.txt",
+      "read_scope": "全部真实初答",
+      "sha256": "f605bcb019f8a9c5db21ccb461ad250fbdccc09575bdc3eeeee884d884000728"
+    },
+    {
+      "path_from_learning_root": "sessions/2026-10-06-02/raw/M0-video-interface-002-initial.txt",
+      "read_scope": "全部真实整体初答",
+      "sha256": "e53c41b5d2a5b6e902ac8fde3260b9182a2ad2a428c1a6fa8a02bba7d6316d22"
+    },
+    {
+      "path_from_learning_root": "sessions/2026-10-06-02/raw/M0-video-interface-002-revision-001.txt",
+      "read_scope": "全部真实修订",
+      "sha256": "8d745a116569f35e15f0e05912c26d10625015a9b7694ec82367fef274086e6d"
+    },
+    {
+      "path_from_learning_root": "questions/visible/M0-second-learning-20261007-001-v1.md",
+      "read_scope": "已实际使用题面全文",
+      "sha256": "72c68356c1ef51328484e66528f534c01b847710d30e501832eebdb4d80e18bd"
+    },
+    {
+      "path_from_learning_root": "questions/backup/M0-frame-identity-plain-20261007-v1.md",
+      "read_scope": "照片帮助全文，展示事实据事件",
+      "sha256": "e5b01d0c326af12984bc4e734057b0f9546e430794a0a81991ab630d93444630"
+    },
+    {
+      "path_from_learning_root": "questions/backup/M0-frame-encoding-order-20261008-v1.md",
+      "read_scope": "已备帮助全文，保持prepared事实",
+      "sha256": "4491c7236763792899131be6814dd99ecd4c656472859d01c8a11e03b3f9964e"
+    },
+    {
+      "path_from_learning_root": "materials/M0-video-interface-20261006-02-sources.md",
+      "read_scope": "原材料规格与核验范围全文",
+      "sha256": "887148654fa6c961cccd3c78c20d5d2660f144c554eac8251d03552e77ed070f"
+    },
+    {
+      "path_from_learning_root": "materials/M0-video-feature-sequence-20261007-sources.md",
+      "read_scope": "后续特征规格与原教师运行边界全文",
+      "sha256": "d7cf7eea15e0c96d2d0825c2196727b07e48feb08747a4f2c97c01ade8a95cc6"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/contracts/shared-contracts.md",
+      "read_scope": "共同人工对象／证据／职责语义",
+      "sha256": "7a83601a8e4d0741b41322fc8883c161b44135c4e56c421eb4f3f408fac8d77e"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/agents/AG0-coach.md",
+      "read_scope": "完整会话入口职责",
+      "sha256": "982ed8a811dc539a5a42abe416e90243fd6bd399693a43580db3e4af51f2f18c"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/agents/AG1-design-planning.md",
+      "read_scope": "完整设计职责",
+      "sha256": "3a2e6fcfe09faac4964cbf007367e88c1c25f092f61828ed4b2c4a0870903bee"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/agents/AG2-materials.md",
+      "read_scope": "完整材料职责",
+      "sha256": "c34da0a8212c69c3509c0abb6ff0518ff8e485aeec23464750fd4f697b7b0801"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/agents/AG3-assessment.md",
+      "read_scope": "整体评审及同模型边界",
+      "sha256": "c1cc16c0d733da9dbd04fcbd34e82bd8ca22b437fd0026e228b97c81fd047fec"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/personal-learning/SKILL.md",
+      "read_scope": "完整SK00入口",
+      "sha256": "93c0d219f7129abb860fe44bbd8a21881c6f211e4c684fbb211a1b86eb463937"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/personal-learning/references/session-entry.md",
+      "read_scope": "完整开始、恢复与控制",
+      "sha256": "b1abd1a40118add5d1febd0a1a5f3016728b43b8c22b9eac7d606e6e8c6ebeed"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/personal-learning/references/verification.md",
+      "read_scope": "完整V1–V4边界",
+      "sha256": "9868607fc327f8cd8ac34c6a969f64caf80cf108daa65ad901d96448686dbc19"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-goals/SKILL.md",
+      "read_scope": "完整SK01",
+      "sha256": "145dc58e2e68a012d38fb6346cf49766c96bcac983da0dc518f5450e5c8c3540"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-goals/references/goal-design.md",
+      "read_scope": "完整目标规则",
+      "sha256": "914560121ce958255e3d84441d3749a83fa64ac0d8c64eba8b820430164ff9da"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-materials/SKILL.md",
+      "read_scope": "完整SK02",
+      "sha256": "0047245a8993bd81d4944a955c38d313fcad89aef32c724a936198d9430161f8"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-materials/references/materials-workflow.md",
+      "read_scope": "完整材料功能与核验",
+      "sha256": "72469e3bbf1d999de66cc6e470df32eb315a19b9ed2110cfad27cc505daeb1b3"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-materials/references/domain-checks.md",
+      "read_scope": "完整领域核验规则",
+      "sha256": "805b96f93734c12d19a0f7f61de369e6afef20d0dd61cb3b53ae4cabf6fd8873"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-teaching/SKILL.md",
+      "read_scope": "完整SK03",
+      "sha256": "abd30a269b6ce08738140d446c96002e95d8b1cdf2556c9a28da1dde0763c1e0"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+      "read_scope": "完整认知主线与整体准备",
+      "sha256": "606124be68a585afa27d3ae8fbaa70e551c5f0133e82aa065dd5c5d5f2615d92"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-teaching/references/c0.md",
+      "read_scope": "完整C0",
+      "sha256": "84ace1c84b51190796678db8853cdddcc157d6ed885ec81333a123b16f9fd67e"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
+      "read_scope": "完整Encoding",
+      "sha256": "0a177d2c59fca8427875a473234fae1fdb795ed0a5a4e1ec052385c2513085e1"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md",
+      "read_scope": "完整Post功能入口",
+      "sha256": "6284082d0b294171fd91d1c35b614ceae664ac5704f56cfef0c91b30c64bc596"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-assessment/references/product-review.md",
+      "read_scope": "完整整体评审规则；未作新学习评价",
+      "sha256": "277acead194b585c2e3e9db76b07b06ad021861c275eda1f3e8492bc1939a8c2"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-planning/SKILL.md",
+      "read_scope": "完整SK05；本次不改实际承诺",
+      "sha256": "5617b5826c2b4ce5a0509f6ef6bd99af576f5418b5cb3bf4fdfcc2be0007193e"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-strategies/SKILL.md",
+      "read_scope": "完整SK06",
+      "sha256": "60c61e24f057b942ae9f20dbaf3707e6d60b4d256250544aaf1dac720ddcdbdb"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-strategies/references/selection-adaptation.md",
+      "read_scope": "完整选法适配",
+      "sha256": "18066b1623b5f2f5bea1b68dbb61cc90975faef2637631f3742cec82a4c1bb8e"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/strategy-index.json",
+      "read_scope": "选中S05/S07/D02及三个Post条目",
+      "sha256": "59a70c5da52e89f0da3e52c8e42267881168b99f4c864f5e86d11030be33685d"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/common-constraints.json",
+      "read_scope": "共用约束全文；相同内容按指纹跨包复用",
+      "sha256": "e217a01ac8e71eae367cd4132cbc084c5c25d1f2a866341b05cacba6d15f3026"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/encoding/S05.json",
+      "read_scope": "完整包，两载体、研究摘录与所有必要约束",
+      "sha256": "75be952e8bc57ae87fe6d228cf1097f7dcf8db591987794578324c757fbeca36"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/encoding/S07.json",
+      "read_scope": "完整必要正文与两载体；共用约束核相同后复用",
+      "sha256": "fc98b08fd23ff72e1069055c2bec072bfcb06fd2467761ff39cf24041459e437"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/encoding/D02.json",
+      "read_scope": "完整必要正文与两载体；共用约束核相同后复用",
+      "sha256": "1b64fd3c927f8ac9823faba37621f55bf6eebf7c16c7737a4e24dcad525c9c47"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/post/retrieve-relation.json",
+      "read_scope": "完整包，11段源正文、证据条目与条件",
+      "sha256": "9a40c98a6eddedc06cab02155aed54480c242f3f7bd2bbf70e116a0c87ec2dbc"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/post/select-method.json",
+      "read_scope": "完整必要正文及全部源段落；同指纹共享段复用",
+      "sha256": "b33844944758174619f882a3131a60f3367782fcf88a94e3f2cb00eab2d022b8"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/post/conditional-update.json",
+      "read_scope": "完整必要正文及全部源段落；同指纹共享段复用",
+      "sha256": "dd9ff6021b01147af7e8d51d610f1e5ba3174ccf7d0061903462f4ec2f4e9874"
+    },
+    {
+      "path_from_learning_root": "../../docs/research/01_Encoding研究报告.md",
+      "read_scope": "§5–10相关结构属性、多维深度、接口、顺序、支架；所选包中的相关证据条目",
+      "sha256": "12b7671df7726b75df71708a0fc0ec8bfbc3e4e6e79b06ac9c6937d9113bb8b1"
+    },
+    {
+      "path_from_learning_root": "../../docs/designs/AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+      "read_scope": "§4–5正文；其余所需相关内容按当前专业规则取得",
+      "sha256": "0422df3448789b77511b0ab7c74f7f2c92ba7f1919ceb44f28b683239a650b62"
+    },
+    {
+      "path_from_learning_root": "../../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "read_scope": "通过所选完整Post包读取恢复、关系、选用、更新、返回、时间与证据原段落",
+      "sha256": "c0a266c68aad62d6390ae1e53b3b3e66343d9e8a48865c953b2998cc387f3bca"
+    },
+    {
+      "path_from_learning_root": "../../docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+      "read_scope": "通过完整Post包读取§5–6，及SK06当前适配规则",
+      "sha256": "23128e532dc02680c4fcd4bab0e1cb19553db8769ba8f4396a617612d1a00138"
+    },
+    {
+      "path_from_learning_root": "../../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+      "read_scope": "通过完整Post包读取§5.3/5.5/7.3/8.1/9.4/10.3/13.1；不声称重读全部研究",
+      "sha256": "b9a6c07343dab159a25c37ff054f04bd44751b9c7ffd3242b1dff86d36b598f9"
+    },
+    {
+      "path_from_learning_root": "../../docs/research/Retrieval-Integration-快速矩阵.md",
+      "read_scope": "通过Post包读取结果到操作、组合与边界原段落",
+      "sha256": "f06a7d3889191f5fd6d49c6cd89ec3cac0df5402439ea586d6c5cef101ae519f"
+    },
+    {
+      "path_from_learning_root": "../../docs/research/post-encoding证据台账与参考文献.md",
+      "read_scope": "所选包内E18/E35/E11–13/E15/E25/E38/E49原条目；未重新核外部研究",
+      "sha256": "e36977d61df248a2176be8eb94387fa2e0323251eaf90eb147768b67d4381d49"
+    }
+  ],
+  "web": [
+    {
+      "url": "https://docs.pytorch.org/docs/2.14/generated/torch.permute.html",
+      "scope": "实际2026-10-08核对定义与dims；stable入口重定向此版本"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.14/generated/torch.reshape.html",
+      "scope": "实际2026-10-08核对同元素数、指定形状与view/copy边界"
+    }
+  ],
+  "not_claimed": [
+    "研究全文和全部外部引文重核",
+    "全部课程已核",
+    "独立复核",
+    "新原答或教学进度"
+  ]
+}

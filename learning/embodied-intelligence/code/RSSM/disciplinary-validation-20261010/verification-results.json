@@ -1,0 +1,296 @@
+{
+  "version": "1.0",
+  "date": "2026-10-10",
+  "scope": "teacher_model_mechanism_only",
+  "teaching": "not_executed",
+  "neural_training": "not_executed",
+  "learner_results": "none",
+  "check_count": 22,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "o=0: analytic gradient",
+      "passed": true,
+      "detail": 8.0
+    },
+    {
+      "name": "o=0: fixed-q finite difference",
+      "passed": true,
+      "detail": 7.999999999785956
+    },
+    {
+      "name": "o=0: parameter step",
+      "passed": true,
+      "detail": 0.8
+    },
+    {
+      "name": "o=0: fixed-block nonincrease",
+      "passed": true,
+      "detail": {
+        "before": 2.0965735902799727,
+        "after": 0.8165735902799729
+      }
+    },
+    {
+      "name": "o=2: analytic gradient",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "o=2: fixed-q finite difference",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "o=2: parameter step",
+      "passed": true,
+      "detail": 1.0
+    },
+    {
+      "name": "o=2: fixed-block nonincrease",
+      "passed": true,
+      "detail": {
+        "before": 0.0965735902799727,
+        "after": 0.0965735902799727
+      }
+    },
+    {
+      "name": "o=-1: analytic gradient",
+      "passed": true,
+      "detail": 12.0
+    },
+    {
+      "name": "o=-1: fixed-q finite difference",
+      "passed": true,
+      "detail": 11.99999999945689
+    },
+    {
+      "name": "o=-1: parameter step",
+      "passed": true,
+      "detail": 0.7
+    },
+    {
+      "name": "o=-1: fixed-block nonincrease",
+      "passed": true,
+      "detail": {
+        "before": 4.596573590279973,
+        "after": 1.7165735902799724
+      }
+    },
+    {
+      "name": "o=2: zero mean gradient does not imply zero KL",
+      "passed": true,
+      "detail": 0.0965735902799727
+    },
+    {
+      "name": "E main-chain future mean preserved",
+      "passed": true,
+      "detail": 1.12
+    },
+    {
+      "name": "o=-1: posterior recomputation",
+      "passed": true,
+      "detail": 0.19999999999999996
+    },
+    {
+      "name": "o=-1: optimized future marginal",
+      "passed": true,
+      "detail": 0.77
+    },
+    {
+      "name": "o=-1: filtering without parameter learning",
+      "passed": true,
+      "detail": 1.25
+    },
+    {
+      "name": "M1 coherent pairs satisfy dynamics",
+      "passed": true,
+      "detail": [
+        [
+          -1,
+          -2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "M1 independent heads have same one-time marginals",
+      "passed": true,
+      "detail": [
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "M1 independent illegal probability",
+      "passed": true,
+      "detail": [
+        [
+          -1,
+          2
+        ],
+        [
+          1,
+          -2
+        ]
+      ]
+    },
+    {
+      "name": "M1 same marginals can preserve additive expected cost",
+      "passed": true,
+      "detail": {
+        "coherent": 5.0,
+        "independent": 5.0
+      }
+    },
+    {
+      "name": "original delivery and protected files unchanged",
+      "passed": true,
+      "detail": 19
+    }
+  ],
+  "observation_cases": [
+    {
+      "observation": 0,
+      "q_old_mean": 1.0,
+      "gradient": 8.0,
+      "alpha_new": 0.8,
+      "same_h_prior_mean": 1.6,
+      "q_new_mean": 0.8,
+      "future_marginal_mean": 1.1199999999999999,
+      "fixed_old_q_kl_before": 2.0965735902799727,
+      "fixed_old_q_kl_after": 0.8165735902799729
+    },
+    {
+      "observation": 2,
+      "q_old_mean": 2.0,
+      "gradient": 0.0,
+      "alpha_new": 1.0,
+      "same_h_prior_mean": 2.0,
+      "q_new_mean": 2.0,
+      "future_marginal_mean": 2.0,
+      "fixed_old_q_kl_before": 0.0965735902799727,
+      "fixed_old_q_kl_after": 0.0965735902799727
+    },
+    {
+      "observation": -1,
+      "q_old_mean": 0.5,
+      "gradient": 12.0,
+      "alpha_new": 0.7,
+      "same_h_prior_mean": 1.4,
+      "q_new_mean": 0.19999999999999996,
+      "future_marginal_mean": 0.77,
+      "fixed_old_q_kl_before": 4.596573590279973,
+      "fixed_old_q_kl_after": 1.7165735902799724
+    }
+  ],
+  "protected_files": [
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\01-cognitive-design.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\02-sources.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\03-learner-materials.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\04-tasks.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\05-teacher-reference.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\06-first-reply.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\07-audit.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\09-production-notes.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\10-model-spec.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\README.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\RSSM\\review-20261010\\check_information_flow.cjs",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\RSSM\\review-20261010\\information-flow-checks.json",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\RSSM\\review-20261010\\information-flow.html",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\RSSM\\review-20261010\\README.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\RSSM\\review-20261010\\verification-results.json",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\RSSM\\review-20261010\\verify_demo.py",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\state\\control.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\state\\current.md",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\framework-manifest.json",
+      "unchanged": true
+    }
+  ],
+  "basis_files": [
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\03-learner-materials.md",
+      "sha256": "f3f43a1cdb31ee92f3822b8a07da7f98020f63a69cdc164f53eb4d4fd7a49c07"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\docs\\research\\2026-10-10-disciplinary-analysis\\研究报告.md",
+      "sha256": "68b414983613b8da5c97e3d0802b99278949c85a53a2457e7a3d5fdf0d145648"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\docs\\research\\2026-10-10-disciplinary-analysis\\单元学科分析工作底稿.md",
+      "sha256": "ab3e2ebf466468a4c7b64b13b8e32be1bdee1379f14cae281f1fc957a62dfcd3"
+    }
+  ]
+}

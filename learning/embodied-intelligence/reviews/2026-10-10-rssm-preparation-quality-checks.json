@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-10",
+  "thread_id": "01a121ab-ab17-78c3-a5d3-73eb99693324",
+  "author_checks_rerun": {
+    "checks": 51,
+    "passed": true
+  },
+  "direct_formula_review_checks": [
+    {
+      "name": "E initial",
+      "passed": true,
+      "details": {
+        "best_actions": [
+          -1,
+          0
+        ],
+        "best_cost": 0.861544
+      }
+    },
+    {
+      "name": "E action-dependent noise",
+      "passed": true,
+      "details": {
+        "best_actions": [
+          0,
+          0
+        ],
+        "best_cost": 2.846664
+      }
+    },
+    {
+      "name": "E replan",
+      "passed": true,
+      "details": {
+        "best_actions": [
+          0,
+          0
+        ],
+        "best_cost": 0.60403056
+      }
+    },
+    {
+      "name": "W initial",
+      "passed": true,
+      "details": {
+        "best_actions": [
+          1,
+          0
+        ],
+        "best_cost": 0.7486
+      }
+    },
+    {
+      "name": "W replan",
+      "passed": true,
+      "details": {
+        "best_actions": [
+          -1,
+          0
+        ],
+        "best_cost": 0.722536
+      }
+    },
+    {
+      "name": "W parameter block",
+      "passed": true,
+      "details": {
+        "gradient": 1.2,
+        "new_alpha": 0.74
+      }
+    },
+    {
+      "name": "W missing-step marginal",
+      "passed": true,
+      "details": {
+        "d3_mean": 0.625,
+        "d3_variance": 0.0878125,
+        "z3_mean": 0.15,
+        "z3_variance": 0.13905
+      }
+    },
+    {
+      "name": "W missing-step ELBO",
+      "passed": true,
+      "details": {
+        "ELBO": -2.0509298858494,
+        "KL1": 0.27657359027997264,
+        "expected_KL3": 0.3696735902799727
+      }
+    },
+    {
+      "name": "W lower bound vs exact model evidence",
+      "passed": true,
+      "details": {
+        "ELBO": -2.0509298858494,
+        "exact_model_log_evidence": -1.998478840260279,
+        "gap": 0.05245104558912095
+      }
+    },
+    {
+      "name": "nonlinear mean counterexample",
+      "passed": true,
+      "details": {
+        "E_Z_squared": 1,
+        "squared_E_Z": 0,
+        "role": "review improvement example only"
+      }
+    }
+  ],
+  "delivery_fingerprints_checked": 16,
+  "protected_fingerprints_checked": 3,
+  "manifest_errors": [],
+  "originals_changed_during_review": [],
+  "local_links_checked": 33,
+  "broken_links": [],
+  "limits": [
+    "No real teaching, learner outputs, neural training or environment rollout",
+    "Reviewer's direct derivation is not an independent model or blind review",
+    "Finite mathematical checks do not establish teaching effects",
+    "No browser rendering check performed"
+  ],
+  "status": "pass"
+}

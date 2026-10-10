@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-09",
+  "status": "prepared_for_review",
+  "protected_file_count": 104,
+  "protected_changes": [],
+  "protected_added_files": [],
+  "framework_fingerprint_count": 117,
+  "framework_differences": [],
+  "all_required_components_present": true,
+  "review": "07-semantic-review.md: no unresolved P1/P2 blockers",
+  "primary_final_check": "Read support and first-reply drafts; final symbol definitions clarified and read back. No mapping changed.",
+  "formal_teaching_executed": false,
+  "new_learner_events": 0,
+  "new_user_code_execution": false,
+  "new_teacher_program_execution": false,
+  "other_comparison_outputs_read": false,
+  "other_comparison_chats_read": false,
+  "model_setting": "Inherited current chat, no subagent overrides",
+  "contributions": [
+    "cognitive_design",
+    "evidence_basis",
+    "materials_production",
+    "semantic_review"
+  ],
+  "outputs": [
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\preparation-tests\\2026-10-09-01a11e84-multiagent\\01-cognitive-design.md",
+      "bytes": 19774,
+      "sha256": "1E1BC9374BD9E903A35C405448415E46D58BDB72C56B8CB2E1C7591B9396ACB3"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\preparation-tests\\2026-10-09-01a11e84-multiagent\\02-materials.md",
+      "bytes": 10976,
+      "sha256": "D244B140D947826E5CB6D9CD629BCA36589A3297CBAA90DE1275ECEFA7C0F7AA"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\preparation-tests\\2026-10-09-01a11e84-multiagent\\03-tasks-and-post.md",
+      "bytes": 8923,
+      "sha256": "6903D351BC968E7A6B4A9538FEC4F0F5F80BEDB025C85B6589C31E4108464053"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\preparation-tests\\2026-10-09-01a11e84-multiagent\\04-teacher-reference.md",
+      "bytes": 11947,
+      "sha256": "B462FB200E657C3A79735F4C5273998004D7466EA97E0BFC0B668034300BE122"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\preparation-tests\\2026-10-09-01a11e84-multiagent\\05-support-branches.md",
+      "bytes": 7579,
+      "sha256": "F4B33AF51AB9060D37CF3B1A6CF4555746C0E5A322E39FCAF0AFDDD6866138C5"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\preparation-tests\\2026-10-09-01a11e84-multiagent\\06-first-teaching-reply.md",
+      "bytes": 5355,
+      "sha256": "39C334EF80C41416DC0B521FBCB83E70255AD397A6E0271DA261BA5C15F4FBDE"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\preparation-tests\\2026-10-09-01a11e84-multiagent\\07-semantic-review.md",
+      "bytes": 11630,
+      "sha256": "04D4BA27F5C337EB2388E6D3CA5EDB59B438F2F9DC6A190A13C7B4106A709070"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\preparation-tests\\2026-10-09-01a11e84-multiagent\\00-evidence-basis.md",
+      "bytes": 15202,
+      "sha256": "C438D6C2000038AC69EC174C0384FF11E45D704057D09E62A043F03F7C1B8F30"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\preparation-tests\\2026-10-09-01a11e84-multiagent\\README.md",
+      "bytes": 3366,
+      "sha256": "66E1D5B011D4E9402614F5010264F85825128A8BFAEF71EE721E6AC8DD220D33"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\preparation-tests\\2026-10-09-01a11e84-multiagent\\完整备课.md",
+      "bytes": 92379,
+      "sha256": "8D00A6F44716D0E85B3C0EDAA65D3C2C413C41BF9D1B503146F10A7DF685790F"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\preparation-tests\\2026-10-09-01a11e84-multiagent\\source-manifest.json",
+      "bytes": 9848,
+      "sha256": "9178564C05AE3542B7F027E1F138DC4C76F924831F30012E7F72574197FDA1E6"
+    }
+  ],
+  "limits": [
+    "Same-model division of work; not blind review",
+    "No actual teaching effectiveness or cognitive load measurement",
+    "Hash checks cover listed protected directories; no technical cross-chat isolation claim"
+  ],
+  "local_links_checked": 47,
+  "broken_local_links": []
+}

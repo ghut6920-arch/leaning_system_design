@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-10",
+  "thread_id": "01a1254d-06da-7ad3-818c-da728be768a6",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "old/new sample calculations and label-versus-field",
+      "status": "passed",
+      "detail": {
+        "label": [
+          4.0,
+          -2.0
+        ],
+        "updated": [
+          2.2,
+          -0.2
+        ]
+      }
+    },
+    {
+      "name": "Gaussian covariance conditioning, exact ODE and irreducible risk",
+      "status": "passed",
+      "detail": {
+        "trajectory": [
+          {
+            "t": 0,
+            "y": [
+              -1.0,
+              1.0
+            ]
+          },
+          {
+            "t": 0.25,
+            "y": [
+              -0.2603453162872774,
+              0.7603453162872774
+            ]
+          },
+          {
+            "t": 0.5,
+            "y": [
+              0.44098300562505255,
+              0.5590169943749475
+            ]
+          },
+          {
+            "t": 0.75,
+            "y": [
+              1.0493060905670013,
+              0.45069390943299864
+            ]
+          },
+          {
+            "t": 1,
+            "y": [
+              1.5,
+              0.5
+            ]
+          }
+        ],
+        "risk_floor": 0.78539816339224
+      }
+    },
+    {
+      "name": "saved held-out data and risk decomposition",
+      "status": "passed",
+      "detail": {
+        "cfm": 0.7841924747531227,
+        "field": 0.0005578586976070427,
+        "oracle_label_risk": 0.7836408287928087,
+        "cross": -6.212737293214981e-06
+      }
+    },
+    {
+      "name": "training seed, features and shared W refit",
+      "status": "passed",
+      "detail": {
+        "rank": 68,
+        "maximum_weight_difference": 0.0,
+        "fitted_risk": 0.7882149208298074
+      }
+    },
+    {
+      "name": "sampler via independent affine-map composition and per-class CSV",
+      "status": "passed",
+      "detail": {
+        "comparisons": [
+          {
+            "N": 1,
+            "maximum_saved_endpoint_difference": 1.1102230246251565e-15
+          },
+          {
+            "N": 4,
+            "maximum_saved_endpoint_difference": 9.992007221626409e-16
+          },
+          {
+            "N": 16,
+            "maximum_saved_endpoint_difference": 1.3322676295501878e-15
+          },
+          {
+            "N": 64,
+            "maximum_saved_endpoint_difference": 3.9968028886505635e-15
+          },
+          {
+            "N": 128,
+            "maximum_saved_endpoint_difference": 6.217248937900877e-15
+          },
+          {
+            "N": 2048,
+            "maximum_saved_endpoint_difference": 1.865174681370263e-14
+          },
+          {
+            "N": 4096,
+            "maximum_saved_endpoint_difference": 2.930988785010413e-14
+          }
+        ],
+        "csv_rows": 10
+      }
+    },
+    {
+      "name": "same-c mixture and legal coupling contrast",
+      "status": "passed",
+      "detail": {
+        "positions": [
+          -0.5,
+          0.0,
+          0.5
+        ],
+        "local_velocity": [
+          -2.3493393741007083,
+          0.0,
+          2.3493393741007083
+        ],
+        "extra_review_calculation_center_derivative": 9.040000000000003,
+        "qualification": "analytic contrast; no nonlinear-model training or new teaching material"
+      }
+    },
+    {
+      "name": "original files unchanged",
+      "status": "passed",
+      "detail": {
+        "baseline_files": 173,
+        "changed": [],
+        "teacher_source_sha256": "0883d9bb81bb9f6f3c96a6c83f06982048f7b2fe7c6eef264205670667a45851"
+      }
+    }
+  ],
+  "environment": {
+    "python": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+    "numpy": "1.26.4"
+  },
+  "scope": "read-only reviewer mathematics, saved outputs, seed reproduction and original-byte preservation; no learner evidence or general learning-effect validation"
+}

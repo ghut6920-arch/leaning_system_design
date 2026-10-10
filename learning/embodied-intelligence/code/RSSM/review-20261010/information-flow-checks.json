@@ -1,0 +1,46 @@
+{
+  "version": "v1",
+  "cases": [
+    {
+      "mode": "filter",
+      "scope": "当前时刻 t：观测已经到达",
+      "sample": "zₜ ∼ qφ(zₜ | hₜ, oₜ)",
+      "update": "更新模型内部状态 / 近似过滤表示。",
+      "passed": true
+    },
+    {
+      "mode": "train",
+      "scope": "训练片段：因子逐步保持过滤的信息集",
+      "sample": "zₜ ∼ qφ；训练时可重参数化",
+      "update": "优化器依据负 ELBO 的梯度更新 θ、φ。",
+      "passed": true
+    },
+    {
+      "mode": "imagine",
+      "scope": "候选未来时刻 t：实际观测还未发生",
+      "sample": "zₜ ∼ pθ(zₜ | hₜ)",
+      "update": "展开预测状态，内层搜索可更新候选动作分布。",
+      "passed": true
+    },
+    {
+      "mode": "replan",
+      "scope": "首动作已执行：新的实际观测到达",
+      "sample": "zₜ ∼ 新 qφ(zₜ | hₜ, oₜ)",
+      "update": "更新近似过滤状态，并重新搜索候选动作。",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "checked": [
+    "JS execution against a small DOM stub",
+    "Information-source switching",
+    "Update-object text",
+    "No external scripts",
+    "Static fallback exists"
+  ],
+  "ui_rendering": "not_executed: localhost preview timed out; file URL blocked by browser policy",
+  "limits": [
+    "No screenshot or actual layout inspection",
+    "Stub checks do not verify real browser layout, accessibility, or event dispatch"
+  ]
+}

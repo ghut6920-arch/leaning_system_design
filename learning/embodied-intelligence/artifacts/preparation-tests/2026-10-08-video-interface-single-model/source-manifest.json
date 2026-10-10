@@ -1,0 +1,80 @@
+{
+  "revision": 1,
+  "date": "2026-10-08",
+  "mode": "single_model_preparation_review",
+  "entries": [
+    {
+      "path_from_learning_root": "../../personal-learning-suite/contracts/shared-contracts.md",
+      "sha256": "7a83601a8e4d0741b41322fc8883c161b44135c4e56c421eb4f3f408fac8d77e"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+      "sha256": "606124be68a585afa27d3ae8fbaa70e551c5f0133e82aa065dd5c5d5f2615d92"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
+      "sha256": "0a177d2c59fca8427875a473234fae1fdb795ed0a5a4e1ec052385c2513085e1"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md",
+      "sha256": "6284082d0b294171fd91d1c35b614ceae664ac5704f56cfef0c91b30c64bc596"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/src/skills/learning-strategies/references/selection-adaptation.md",
+      "sha256": "18066b1623b5f2f5bea1b68dbb61cc90975faef2637631f3742cec82a4c1bb8e"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/common-constraints.json",
+      "sha256": "e217a01ac8e71eae367cd4132cbc084c5c25d1f2a866341b05cacba6d15f3026"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/encoding/S05.json",
+      "sha256": "75be952e8bc57ae87fe6d228cf1097f7dcf8db591987794578324c757fbeca36"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/encoding/S07.json",
+      "sha256": "fc98b08fd23ff72e1069055c2bec072bfcb06fd2467761ff39cf24041459e437"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/encoding/S09.json",
+      "sha256": "f844542d840596a094784e21c26cf92c03fefbe0601aaa3816d775c469dea0e3"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/encoding/D02.json",
+      "sha256": "1b64fd3c927f8ac9823faba37621f55bf6eebf7c16c7737a4e24dcad525c9c47"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/post/retrieve-relation.json",
+      "sha256": "9a40c98a6eddedc06cab02155aed54480c242f3f7bd2bbf70e116a0c87ec2dbc"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/post/select-method.json",
+      "sha256": "b33844944758174619f882a3131a60f3367782fcf88a94e3f2cb00eab2d022b8"
+    },
+    {
+      "path_from_learning_root": "../../personal-learning-suite/resources/strategies/post/conditional-update.json",
+      "sha256": "dd9ff6021b01147af7e8d51d610f1e5ba3174ccf7d0061903462f4ec2f4e9874"
+    },
+    {
+      "path_from_learning_root": "../../docs/research/01_Encoding研究报告.md",
+      "sha256": "12b7671df7726b75df71708a0fc0ec8bfbc3e4e6e79b06ac9c6937d9113bb8b1"
+    },
+    {
+      "path_from_learning_root": "../../docs/research/Retrieval-Integration-快速矩阵.md",
+      "sha256": "f06a7d3889191f5fd6d49c6cd89ec3cac0df5402439ea586d6c5cef101ae519f"
+    },
+    {
+      "path_from_learning_root": "../../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+      "sha256": "b9a6c07343dab159a25c37ff054f04bd44751b9c7ffd3242b1dff86d36b598f9"
+    },
+    {
+      "path_from_learning_root": "../../docs/designs/AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+      "sha256": "0422df3448789b77511b0ab7c74f7f2c92ba7f1919ceb44f28b683239a650b62"
+    },
+    {
+      "path_from_learning_root": "../../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "sha256": "c0a266c68aad62d6390ae1e53b3b3e66343d9e8a48865c953b2998cc387f3bca"
+    }
+  ],
+  "note": "Fingerprint identifies source revision; reading scope and actual borrowing are in 07-basis-and-review.md. Not scientific validation."
+}

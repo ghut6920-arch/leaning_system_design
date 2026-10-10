@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-10",
+  "timezone": "Asia/Shanghai",
+  "status": "prepared_for_review",
+  "scope": "M7.2 preparation only; no formal teaching, progress or learner performance",
+  "local_link_review": {
+    "Documents": 14,
+    "LocalLinks": 59,
+    "MissingCount": 0,
+    "Missing": [],
+    "TeacherSourceMatchesRun": true
+  },
+  "framework_fingerprints": {
+    "checked_entries": 118,
+    "mismatches": 0
+  },
+  "protected_learning_files": {
+    "checked_date": "2026-10-10",
+    "timezone": "Asia/Shanghai",
+    "purpose": "Preparation-only protected learning files byte comparison",
+    "scope": [
+      "state",
+      "goals",
+      "plan",
+      "assessment",
+      "sessions",
+      "course",
+      "modules"
+    ],
+    "before_count": 75,
+    "after_count": 75,
+    "changed": [],
+    "added": [],
+    "missing": [],
+    "status": "unchanged",
+    "boundary": "Hashes confirm compared files only; not a learning or capability judgment."
+  },
+  "teacher_run": {
+    "revision": "M7.2-teacher-cfm-r1-20261010",
+    "source_matches_run": true,
+    "mathematical_interface_groups": 8,
+    "passed_groups": 8,
+    "train_records": 100000,
+    "heldout_records": 25000,
+    "generation_records": 8192,
+    "heldout_cfm_coordinate_mse": 0.7841924747531227,
+    "heldout_field_coordinate_mse": 0.0005578586976070426
+  },
+  "visual_review": {
+    "png_count": 2,
+    "reviewers": [
+      "teacher_code agent",
+      "root"
+    ],
+    "method": "actual view_image with formula/result comparison",
+    "scope": "coordinate labels, time direction, source/field distinctions, sample counts, legends and clipping"
+  },
+  "content_review": "08-content-review.md revision 2: actual materials/task/reference/support reviewed; initial observations and corrections retained",
+  "limits": [
+    "Shared-context review, not blind or proven independent review",
+    "No learner implementation, answer or run",
+    "Affine Gaussian main fit, not same-c multimodal training",
+    "No neural-network or robot training",
+    "No observed learning benefit or causal collaboration comparison"
+  ]
+}

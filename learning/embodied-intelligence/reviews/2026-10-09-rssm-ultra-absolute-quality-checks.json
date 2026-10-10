@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-09",
+  "type": "absolute content and teachability retrospective review",
+  "candidate": "rssm-test-20261009 ultra multiagent preparation",
+  "overall": "ready for bounded teaching trial under assumed prerequisites; not yet established as adapted or mature learning system",
+  "original_scope_defect_vs_extended_scope_distinguished": true,
+  "new_model_runs": 0,
+  "reviewer_child_agents": 0,
+  "learning_effect_measured": false,
+  "main_numeric_script_rerun": false,
+  "proposed_examples": {
+    "uncertainty_decision": {
+      "new_model": true,
+      "equal_action_cost": true,
+      "goal": 1,
+      "future_distributions": [
+        {
+          "mean": 1,
+          "variance": 4
+        },
+        {
+          "mean": 0.5,
+          "variance": 0.01
+        }
+      ],
+      "mean_point_costs": [
+        0,
+        0.25
+      ],
+      "expected_costs": [
+        4,
+        0.26
+      ],
+      "fraction_check_passed": true
+    },
+    "local_training_bridge": {
+      "prior_mean": "alpha*h",
+      "prior_variance": 1,
+      "q_fixed": true,
+      "h_fixed": true,
+      "partial_KL_derivative": "(alpha*h-m)*h",
+      "numeric_conditions": {
+        "alpha": 1,
+        "h": 0.9,
+        "m": 1.38
+      },
+      "partial_derivative": -0.432,
+      "fraction_check_passed": true,
+      "not_full_neural_gradient": true,
+      "training_run": false
+    }
+  },
+  "protected_course_files": {
+    "before": 275,
+    "after": 275,
+    "changed": [],
+    "added": []
+  },
+  "local_links": {
+    "checked": 12,
+    "missing": []
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "00-review-entry.md": {
+    "unexpected_controls": [],
+    "missing_link_targets": [],
+    "display_math_blocks": [
+      0,
+      0
+    ],
+    "inline_math_pairs": [
+      0,
+      0
+    ]
+  },
+  "01-cognitive-design.md": {
+    "unexpected_controls": [],
+    "missing_link_targets": [],
+    "display_math_blocks": [
+      7,
+      7
+    ],
+    "inline_math_pairs": [
+      0,
+      0
+    ]
+  },
+  "02-source-verification.md": {
+    "unexpected_controls": [],
+    "missing_link_targets": [],
+    "display_math_blocks": [
+      8,
+      8
+    ],
+    "inline_math_pairs": [
+      0,
+      0
+    ]
+  },
+  "03-materials-and-demo.md": {
+    "unexpected_controls": [],
+    "missing_link_targets": [],
+    "display_math_blocks": [
+      17,
+      17
+    ],
+    "inline_math_pairs": [
+      204,
+      204
+    ]
+  },
+  "04-task-workbook.md": {
+    "unexpected_controls": [],
+    "missing_link_targets": [],
+    "display_math_blocks": [
+      5,
+      5
+    ],
+    "inline_math_pairs": [
+      0,
+      0
+    ]
+  },
+  "05-teacher-reference.md": {
+    "unexpected_controls": [],
+    "missing_link_targets": [],
+    "display_math_blocks": [
+      8,
+      8
+    ],
+    "inline_math_pairs": [
+      0,
+      0
+    ]
+  },
+  "06-support-branches.md": {
+    "unexpected_controls": [],
+    "missing_link_targets": [],
+    "display_math_blocks": [
+      0,
+      0
+    ],
+    "inline_math_pairs": [
+      0,
+      0
+    ]
+  },
+  "07-first-teaching-reply.md": {
+    "unexpected_controls": [],
+    "missing_link_targets": [],
+    "display_math_blocks": [
+      2,
+      2
+    ],
+    "inline_math_pairs": [
+      5,
+      5
+    ]
+  },
+  "08-audit.md": {
+    "unexpected_controls": [],
+    "missing_link_targets": [],
+    "display_math_blocks": [
+      2,
+      2
+    ],
+    "inline_math_pairs": [
+      37,
+      37
+    ]
+  },
+  "09-integration-check.md": {
+    "unexpected_controls": [],
+    "missing_link_targets": [],
+    "display_math_blocks": [
+      0,
+      0
+    ],
+    "inline_math_pairs": [
+      0,
+      0
+    ]
+  },
+  "10-review-brief.md": {
+    "unexpected_controls": [],
+    "missing_link_targets": [],
+    "display_math_blocks": [
+      0,
+      0
+    ],
+    "inline_math_pairs": [
+      0,
+      0
+    ]
+  }
+}

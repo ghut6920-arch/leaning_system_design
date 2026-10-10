@@ -1,0 +1,114 @@
+{
+  "status": "passed",
+  "scope": "reviewer derivations; these comparisons are not present as learner work in the original preparation",
+  "coupled_same_endpoints": {
+    "path": [
+      {
+        "t": 0.0,
+        "coupled_path_state": [
+          -1.0,
+          1.0
+        ],
+        "velocity": [
+          2.5,
+          -0.5
+        ],
+        "variance_per_coordinate": 1.0
+      },
+      {
+        "t": 0.25,
+        "coupled_path_state": [
+          -0.375,
+          0.875
+        ],
+        "velocity": [
+          2.5,
+          -0.5
+        ],
+        "variance_per_coordinate": 0.765625
+      },
+      {
+        "t": 0.5,
+        "coupled_path_state": [
+          0.25,
+          0.75
+        ],
+        "velocity": [
+          2.5,
+          -0.5
+        ],
+        "variance_per_coordinate": 0.5625
+      },
+      {
+        "t": 0.75,
+        "coupled_path_state": [
+          0.875,
+          0.625
+        ],
+        "velocity": [
+          2.5,
+          -0.5
+        ],
+        "variance_per_coordinate": 0.390625
+      },
+      {
+        "t": 1.0,
+        "coupled_path_state": [
+          1.5,
+          0.5
+        ],
+        "velocity": [
+          2.5,
+          -0.5
+        ],
+        "variance_per_coordinate": 0.25
+      }
+    ],
+    "conditional_label_variance": 0,
+    "euler_exact_for_tested_steps": [
+      1,
+      2,
+      4,
+      16
+    ],
+    "qualification": "affine Gaussian special case; no claim that every changed coupling is easier or one-step exact"
+  },
+  "rotated_noise": {
+    "endpoint_covariance_both": [
+      [
+        0.25,
+        0.0
+      ],
+      [
+        0.0,
+        0.25
+      ]
+    ],
+    "expected_paired_coordinate_mse": 0.5,
+    "qualification": "same Gaussian output law, different mapping of a shared noise sample; paired error is not a distribution metric"
+  },
+  "condition_specific_variance": {
+    "sigma": [
+      0.5,
+      1.0
+    ],
+    "required_slopes_at_t_half": [
+      -1.2,
+      0.0
+    ],
+    "qualification": "original affine model has a common x coefficient for both c values, so cannot exactly represent both fields"
+  },
+  "loss_contrast": {
+    "squared_loss_minimizer": [
+      2.0,
+      -1.0
+    ],
+    "coordinate_L1_minimizer": [
+      3.0,
+      -2.0
+    ],
+    "L1_at_mean": 3.0,
+    "L1_at_median": 2.0,
+    "qualification": "local finite regression example only; mean-to-transport argument cannot automatically be reused for a median"
+  }
+}

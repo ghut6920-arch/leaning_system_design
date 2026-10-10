@@ -1,0 +1,35 @@
+AI-authored non-executable workflow specifications, v2, 2026-10-09.
+Canonical pseudocode for review packet 04-learner-work.md, Materials A.
+Purpose: compare information availability and planning interfaces.
+These are not a learner implementation or an executed robot controller.
+
+Workflow A
+state = fold_observe(o[1:3], executed_a[1:2])
+root = make_conditional_root(state.h, state.q_z)
+for u in nine_two_step_sequences:
+    futures = rollout_prior(root, u)
+    score[u] = average_specified_cost(futures, u)
+chosen = argmin(score)
+executed_action = chosen.first_action
+execute(executed_action)
+new_o = read_observation_from_environment()
+state = observe_step(state.representative_state, executed_action, new_o)
+root = make_conditional_root(state.h, state.q_z)
+repeat candidate scoring from the updated root
+
+Workflow B
+prefix = fold_observe(o[1:3], executed_a[1:2])
+for u in nine_two_step_sequences:
+    h4 = transition(prefix, u[0])
+    z4 = sample(q(z4 | h4, archive_o[4]))
+    h5 = transition(h4, z4, u[1])
+    z5 = sample(q(z5 | h5, archive_o[5]))
+    score[u] = average_specified_cost(z4, z5, u)
+execute(argmin(score).first_action)
+
+Workflow C
+root3 = offline_smoother(o[1:6], executed_archive_a[1:5]).state_at(3)
+for u in nine_two_step_sequences:
+    futures = rollout_prior(root3, u)
+    score[u] = average_specified_cost(futures, u)
+save retrospective_score_and_state_estimates()

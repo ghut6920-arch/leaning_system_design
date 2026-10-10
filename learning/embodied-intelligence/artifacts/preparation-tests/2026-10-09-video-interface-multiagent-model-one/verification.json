@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-09",
+  "status": "prepared_for_review",
+  "model_mode": "one inherited model with three subagents and one presentation entry",
+  "components": 8,
+  "framework_checked": 117,
+  "framework_changed": [],
+  "protected_checked": 113,
+  "protected_changed": [],
+  "protected_added": [],
+  "markdown_link_errors": [],
+  "teacher_check_count": 16,
+  "teacher_failures": [],
+  "teacher_code_hash": "8af1ed85307040e3242afe0078ee21dc9b78f2f4c7f830be046388e818ac4bde",
+  "teacher_result_matches_code": true,
+  "final_component_hashes": [
+    {
+      "file": "01-cognitive-plan.md",
+      "sha256": "974886feb1102bbc8b4082c6118b061bc9313f27d238735f2bdd99f704c7dd9f"
+    },
+    {
+      "file": "02-materials-demo.md",
+      "sha256": "cab5fc04c34db50ba0f9245d2731a643962481c59135b767823f5c31481e5426"
+    },
+    {
+      "file": "03-encoding-post.md",
+      "sha256": "f3ce2bc80cb2e050685418ab7bfad7e8b51f49babc14586ff59a7e1301a518d8"
+    },
+    {
+      "file": "04-work-and-reference.md",
+      "sha256": "010e255fc231e2c46712b8c1e7af7e31ff71f8d49a68549dbef1a8b43dfe872b"
+    },
+    {
+      "file": "05-support.md",
+      "sha256": "e51a5b03cec79638ac681286932fb36657a4065562d225c9377dfe7d046eed8a"
+    },
+    {
+      "file": "06-first-teaching-reply.md",
+      "sha256": "829199a007cfd8b0e4086e5294323f2695c45726afaadbf4b79dafce152de205"
+    }
+  ],
+  "formal_teaching": "not_executed",
+  "learner_response": "not_executed",
+  "learner_code_execution": "not_executed",
+  "learning_progress_changes": "none",
+  "pytorch_runtime": "not_executed",
+  "other_comparison_preparations": "not_read",
+  "multiagent_benefit": "not_verified",
+  "real_learning_effect": "not_verified",
+  "delivery_checks_passed": true
+}

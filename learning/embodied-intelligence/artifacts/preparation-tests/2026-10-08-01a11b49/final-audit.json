@@ -1,0 +1,118 @@
+{
+  "progress_files": [
+    {
+      "path": "plan/current.md",
+      "unchanged": true
+    },
+    {
+      "path": "state/current.md",
+      "unchanged": true
+    },
+    {
+      "path": "sessions/2026-10-07-01/checkpoint.md",
+      "unchanged": true
+    },
+    {
+      "path": "plan/needs.md",
+      "unchanged": true
+    },
+    {
+      "path": "sessions/2026-10-07-01/event-M0-feature-sequence-001.md",
+      "unchanged": true
+    },
+    {
+      "path": "state/control.md",
+      "unchanged": true
+    },
+    {
+      "path": "goals/M0-video-interface-first-20261006-02.md",
+      "unchanged": true
+    }
+  ],
+  "local_links_checked": 28,
+  "bad_links": [],
+  "resource_sha256": {
+    "post/retrieve-relation.json": "9a40c98a6eddedc06cab02155aed54480c242f3f7bd2bbf70e116a0c87ec2dbc",
+    "post/select-method.json": "b33844944758174619f882a3131a60f3367782fcf88a94e3f2cb00eab2d022b8",
+    "encoding/D04.json": "c8757b56e85a06e45d62e6c70e9acbf7393756364eca737cfd7470d899ffd832",
+    "common-constraints.json": "e217a01ac8e71eae367cd4132cbc084c5c25d1f2a866341b05cacba6d15f3026",
+    "encoding/S05.json": "75be952e8bc57ae87fe6d228cf1097f7dcf8db591987794578324c757fbeca36"
+  },
+  "verification": {
+    "artifact_revision": 1,
+    "status": "teacher_reference_checked",
+    "executor": "single_model_teacher",
+    "independent_review": false,
+    "python_version": "3.12.3",
+    "checks_passed": 13,
+    "checks": [
+      "all_96_pixel_correspondences_and_equivalent_routes",
+      "shape_legal_direct_reshape_violates_color_correspondence",
+      "worked_pixel_trace_72",
+      "eight_feature_rows_and_96_to_16_only_at_encoder",
+      "different_blue_same_features_noninjective_example",
+      "ordered_recovery_without_labels",
+      "two_row_swap_changes_order_not_feature_content",
+      "row_swap_without_encoding_preserves_all_image_components",
+      "record_B_all_eight_rows_and_teacher_row_orders",
+      "record_B_direct_reshape_is_not_correct_source_order",
+      "duplicate_out_of_range_and_missing_labels_rejected",
+      "unknown_order_not_assumed_correct_or_incorrect",
+      "same_visible_values_two_possible_row_origins_numeric_result_can_match"
+    ],
+    "permuted_rows": [
+      [
+        61,
+        62
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        81,
+        82
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        71,
+        72
+      ],
+      [
+        41,
+        42
+      ],
+      [
+        21,
+        22
+      ],
+      [
+        51,
+        52
+      ]
+    ],
+    "target_row_orders": [
+      [
+        3,
+        6,
+        1,
+        5
+      ],
+      [
+        7,
+        0,
+        4,
+        2
+      ]
+    ],
+    "limitations": [
+      "finite explicit toy contract only",
+      "PyTorch runtime not executed",
+      "no learner execution or ability judgment",
+      "no real model or robot experiment"
+    ]
+  }
+}

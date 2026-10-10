@@ -1,0 +1,1454 @@
+{
+  "version": "v1",
+  "role": "AI teacher checks",
+  "checks": [
+    {
+      "check": "local prior gradient vs finite difference",
+      "actual": 7.999999999785956,
+      "expected": 8.0,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "alpha update",
+      "actual": 0.8,
+      "expected": 0.8,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "old KL",
+      "actual": 2.0965735902799727,
+      "expected": 2.0965735902799727,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "new frozen-q KL",
+      "actual": 0.8165735902799729,
+      "expected": 0.816573590279973,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "scalar evidence minus ELBO = KL(q || posterior)",
+      "actual": 0.1599999999999997,
+      "expected": 0.15999999999999992,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "frozen-q bound improvement",
+      "actual": 1.2800000000000002,
+      "expected": 1.28,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "recognition after parameter update mean",
+      "actual": 0.8,
+      "expected": 0.8,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "recognition after parameter update variance",
+      "actual": 0.125,
+      "expected": 0.125,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "base best cost",
+      "actual": 0.861544,
+      "expected": 0.861544,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "action-dependent noise best cost",
+      "actual": 2.8466639999999996,
+      "expected": 2.846664,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "constant variance offset (-1, 0)",
+      "actual": 0.5762,
+      "expected": 0.5762,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "noise contribution (-1, 0)",
+      "actual": 2.3200000000000003,
+      "expected": 2.32,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "constant variance offset (-1, -1)",
+      "actual": 0.5762,
+      "expected": 0.5762,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "noise contribution (-1, -1)",
+      "actual": 4.32,
+      "expected": 4.32,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "constant variance offset (0, -1)",
+      "actual": 0.5762,
+      "expected": 0.5762,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "noise contribution (0, -1)",
+      "actual": 1.9999999999999996,
+      "expected": 2.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "constant variance offset (-1, 1)",
+      "actual": 0.5762000000000003,
+      "expected": 0.5762,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "noise contribution (-1, 1)",
+      "actual": 4.32,
+      "expected": 4.32,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "constant variance offset (0, 0)",
+      "actual": 0.5762,
+      "expected": 0.5762,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "noise contribution (0, 0)",
+      "actual": 0.0,
+      "expected": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "constant variance offset (0, 1)",
+      "actual": 0.5762,
+      "expected": 0.5762,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "noise contribution (0, 1)",
+      "actual": 2.0,
+      "expected": 2.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "constant variance offset (1, -1)",
+      "actual": 0.5762,
+      "expected": 0.5762,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "noise contribution (1, -1)",
+      "actual": 4.319999999999999,
+      "expected": 4.32,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "constant variance offset (1, 0)",
+      "actual": 0.5762,
+      "expected": 0.5762,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "noise contribution (1, 0)",
+      "actual": 2.3200000000000003,
+      "expected": 2.32,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "constant variance offset (1, 1)",
+      "actual": 0.5762,
+      "expected": 0.5762,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "noise contribution (1, 1)",
+      "actual": 4.32,
+      "expected": 4.32,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "first prior variance",
+      "actual": 0.27,
+      "expected": 0.27,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "first d-z covariance",
+      "actual": 0.025,
+      "expected": 0.025,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "second d variance",
+      "actual": 0.0878125,
+      "expected": 0.0878125,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "second prior variance",
+      "actual": 0.3062,
+      "expected": 0.3062,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "variance lost when covariance omitted",
+      "actual": 0.008000000000000007,
+      "expected": 0.008,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "conditional internal path d next",
+      "actual": 0.3999999999999999,
+      "expected": 0.4,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "new observation filter mean",
+      "actual": -0.09000000000000002,
+      "expected": -0.09,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "new observation filter variance",
+      "actual": 0.125,
+      "expected": 0.125,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "replan best cost",
+      "actual": 0.60403056,
+      "expected": 0.60403056,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "missing observation uses prior mean",
+      "actual": 0.32000000000000006,
+      "expected": 0.32,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "missing observation uses prior variance",
+      "actual": 0.25,
+      "expected": 0.25,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "W local block gradient",
+      "actual": 1.2000000000000002,
+      "expected": 1.2,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "W local alpha update",
+      "actual": 0.74,
+      "expected": 0.74,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "W old frozen-q KL",
+      "actual": 0.27657359027997264,
+      "expected": 0.27657359027997264,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "W new frozen-q KL",
+      "actual": 0.21177359027997267,
+      "expected": 0.21177359027997267,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "W first plan cost",
+      "actual": 0.7486,
+      "expected": 0.7486,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "W new internal d",
+      "actual": 0.25,
+      "expected": 0.25,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "W new conditional filter mean",
+      "actual": 1.35,
+      "expected": 1.35,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "W second plan cost",
+      "actual": 0.722536,
+      "expected": 0.722536,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "Monte Carlo step 1 mean",
+      "actual": 0.3185026479901694,
+      "expected": 0.31999999999999995,
+      "tolerance": 0.007,
+      "passed": true
+    },
+    {
+      "check": "Monte Carlo step 1 variance",
+      "actual": 0.2679841063375784,
+      "expected": 0.27,
+      "tolerance": 0.007,
+      "passed": true
+    },
+    {
+      "check": "Monte Carlo step 2 mean",
+      "actual": 0.2859015793364732,
+      "expected": 0.288,
+      "tolerance": 0.007,
+      "passed": true
+    },
+    {
+      "check": "Monte Carlo step 2 variance",
+      "actual": 0.30947144527796405,
+      "expected": 0.3062,
+      "tolerance": 0.007,
+      "passed": true
+    }
+  ],
+  "check_count": 51,
+  "all_passed": true,
+  "assertions": {
+    "base_actions": [
+      -1,
+      0
+    ],
+    "mean_actions": [
+      -1,
+      0
+    ],
+    "noisy_actions": [
+      0,
+      0
+    ],
+    "replan_actions": [
+      0,
+      0
+    ]
+  },
+  "local_gradient": {
+    "old_kl": 2.0965735902799727,
+    "new_kl": 0.8165735902799729,
+    "elbo_gap": 0.15999999999999992,
+    "gradient": 8.0
+  },
+  "base_candidates": [
+    {
+      "actions": [
+        -1,
+        0
+      ],
+      "cost": 0.861544,
+      "steps": [
+        {
+          "d_mean": 0.3999999999999999,
+          "d_variance": 0.03125,
+          "z_mean": 0.31999999999999995,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 0.35999999999999993,
+          "d_variance": 0.0878125,
+          "z_mean": 0.288,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        -1,
+        -1
+      ],
+      "cost": 1.1407440000000002,
+      "steps": [
+        {
+          "d_mean": 0.3999999999999999,
+          "d_variance": 0.03125,
+          "z_mean": 0.31999999999999995,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": -0.6400000000000001,
+          "d_variance": 0.0878125,
+          "z_mean": -0.5120000000000001,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        0,
+        -1
+      ],
+      "cost": 1.9738639999999998,
+      "steps": [
+        {
+          "d_mean": 1.4,
+          "d_variance": 0.03125,
+          "z_mean": 1.1199999999999999,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 0.2599999999999998,
+          "d_variance": 0.0878125,
+          "z_mean": 0.20799999999999985,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        -1,
+        1
+      ],
+      "cost": 2.062344,
+      "steps": [
+        {
+          "d_mean": 0.3999999999999999,
+          "d_variance": 0.03125,
+          "z_mean": 0.31999999999999995,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 1.3599999999999999,
+          "d_variance": 0.0878125,
+          "z_mean": 1.0879999999999999,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        0,
+        0
+      ],
+      "cost": 2.8466639999999996,
+      "steps": [
+        {
+          "d_mean": 1.4,
+          "d_variance": 0.03125,
+          "z_mean": 1.1199999999999999,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 1.2599999999999998,
+          "d_variance": 0.0878125,
+          "z_mean": 1.0079999999999998,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        0,
+        1
+      ],
+      "cost": 5.199463999999999,
+      "steps": [
+        {
+          "d_mean": 1.4,
+          "d_variance": 0.03125,
+          "z_mean": 1.1199999999999999,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 2.26,
+          "d_variance": 0.0878125,
+          "z_mean": 1.8079999999999998,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        1,
+        -1
+      ],
+      "cost": 5.323784000000001,
+      "steps": [
+        {
+          "d_mean": 2.4,
+          "d_variance": 0.03125,
+          "z_mean": 1.92,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 1.1600000000000001,
+          "d_variance": 0.0878125,
+          "z_mean": 0.9280000000000002,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        1,
+        0
+      ],
+      "cost": 7.348584000000001,
+      "steps": [
+        {
+          "d_mean": 2.4,
+          "d_variance": 0.03125,
+          "z_mean": 1.92,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 2.16,
+          "d_variance": 0.0878125,
+          "z_mean": 1.7280000000000002,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        1,
+        1
+      ],
+      "cost": 10.853384000000002,
+      "steps": [
+        {
+          "d_mean": 2.4,
+          "d_variance": 0.03125,
+          "z_mean": 1.92,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 3.16,
+          "d_variance": 0.0878125,
+          "z_mean": 2.5280000000000005,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    }
+  ],
+  "noise_candidates": [
+    {
+      "actions": [
+        0,
+        0
+      ],
+      "cost": 2.8466639999999996,
+      "steps": [
+        {
+          "d_mean": 1.4,
+          "d_variance": 0.03125,
+          "z_mean": 1.1199999999999999,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 1.2599999999999998,
+          "d_variance": 0.0878125,
+          "z_mean": 1.0079999999999998,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        -1,
+        0
+      ],
+      "cost": 3.181544,
+      "steps": [
+        {
+          "d_mean": 0.3999999999999999,
+          "d_variance": 0.03125,
+          "z_mean": 0.31999999999999995,
+          "z_variance": 2.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 0.35999999999999993,
+          "d_variance": 0.5878125,
+          "z_mean": 0.288,
+          "z_variance": 0.6262000000000001,
+          "covariance": 0.47025
+        }
+      ]
+    },
+    {
+      "actions": [
+        0,
+        -1
+      ],
+      "cost": 3.9738639999999994,
+      "steps": [
+        {
+          "d_mean": 1.4,
+          "d_variance": 0.03125,
+          "z_mean": 1.1199999999999999,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 0.2599999999999998,
+          "d_variance": 0.0878125,
+          "z_mean": 0.20799999999999985,
+          "z_variance": 2.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        -1,
+        -1
+      ],
+      "cost": 5.460744,
+      "steps": [
+        {
+          "d_mean": 0.3999999999999999,
+          "d_variance": 0.03125,
+          "z_mean": 0.31999999999999995,
+          "z_variance": 2.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": -0.6400000000000001,
+          "d_variance": 0.5878125,
+          "z_mean": -0.5120000000000001,
+          "z_variance": 2.6262,
+          "covariance": 0.47025
+        }
+      ]
+    },
+    {
+      "actions": [
+        -1,
+        1
+      ],
+      "cost": 6.382344,
+      "steps": [
+        {
+          "d_mean": 0.3999999999999999,
+          "d_variance": 0.03125,
+          "z_mean": 0.31999999999999995,
+          "z_variance": 2.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 1.3599999999999999,
+          "d_variance": 0.5878125,
+          "z_mean": 1.0879999999999999,
+          "z_variance": 2.6262,
+          "covariance": 0.47025
+        }
+      ]
+    },
+    {
+      "actions": [
+        0,
+        1
+      ],
+      "cost": 7.199463999999999,
+      "steps": [
+        {
+          "d_mean": 1.4,
+          "d_variance": 0.03125,
+          "z_mean": 1.1199999999999999,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 2.26,
+          "d_variance": 0.0878125,
+          "z_mean": 1.8079999999999998,
+          "z_variance": 2.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        1,
+        -1
+      ],
+      "cost": 9.643784,
+      "steps": [
+        {
+          "d_mean": 2.4,
+          "d_variance": 0.03125,
+          "z_mean": 1.92,
+          "z_variance": 2.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 1.1600000000000001,
+          "d_variance": 0.5878125,
+          "z_mean": 0.9280000000000002,
+          "z_variance": 2.6262,
+          "covariance": 0.47025
+        }
+      ]
+    },
+    {
+      "actions": [
+        1,
+        0
+      ],
+      "cost": 9.668584000000001,
+      "steps": [
+        {
+          "d_mean": 2.4,
+          "d_variance": 0.03125,
+          "z_mean": 1.92,
+          "z_variance": 2.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 2.16,
+          "d_variance": 0.5878125,
+          "z_mean": 1.7280000000000002,
+          "z_variance": 0.6262000000000001,
+          "covariance": 0.47025
+        }
+      ]
+    },
+    {
+      "actions": [
+        1,
+        1
+      ],
+      "cost": 15.173384000000002,
+      "steps": [
+        {
+          "d_mean": 2.4,
+          "d_variance": 0.03125,
+          "z_mean": 1.92,
+          "z_variance": 2.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 3.16,
+          "d_variance": 0.5878125,
+          "z_mean": 2.5280000000000005,
+          "z_variance": 2.6262,
+          "covariance": 0.47025
+        }
+      ]
+    }
+  ],
+  "replan_candidates": [
+    {
+      "actions": [
+        0,
+        0
+      ],
+      "cost": 0.60403056,
+      "steps": [
+        {
+          "d_mean": 0.15499999999999994,
+          "d_variance": 0.03125,
+          "z_mean": 0.12399999999999996,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 0.13949999999999996,
+          "d_variance": 0.0878125,
+          "z_mean": 0.11159999999999998,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        0,
+        -1
+      ],
+      "cost": 1.1654705600000004,
+      "steps": [
+        {
+          "d_mean": 0.15499999999999994,
+          "d_variance": 0.03125,
+          "z_mean": 0.12399999999999996,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": -0.8605,
+          "d_variance": 0.0878125,
+          "z_mean": -0.6884000000000001,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        -1,
+        1
+      ],
+      "cost": 1.2698865600000002,
+      "steps": [
+        {
+          "d_mean": -0.8450000000000001,
+          "d_variance": 0.03125,
+          "z_mean": -0.6760000000000002,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 0.23949999999999982,
+          "d_variance": 0.0878125,
+          "z_mean": 0.19159999999999988,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        -1,
+        0
+      ],
+      "cost": 1.5033265600000005,
+      "steps": [
+        {
+          "d_mean": -0.8450000000000001,
+          "d_variance": 0.03125,
+          "z_mean": -0.6760000000000002,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": -0.7605000000000002,
+          "d_variance": 0.0878125,
+          "z_mean": -0.6084000000000002,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        0,
+        1
+      ],
+      "cost": 1.52259056,
+      "steps": [
+        {
+          "d_mean": 0.15499999999999994,
+          "d_variance": 0.03125,
+          "z_mean": 0.12399999999999996,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 1.1395,
+          "d_variance": 0.0878125,
+          "z_mean": 0.9116,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        1,
+        -1
+      ],
+      "cost": 1.63097456,
+      "steps": [
+        {
+          "d_mean": 1.155,
+          "d_variance": 0.03125,
+          "z_mean": 0.924,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 0.03950000000000009,
+          "d_variance": 0.0878125,
+          "z_mean": 0.03160000000000007,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        1,
+        0
+      ],
+      "cost": 2.2215345600000003,
+      "steps": [
+        {
+          "d_mean": 1.155,
+          "d_variance": 0.03125,
+          "z_mean": 0.924,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 1.0395,
+          "d_variance": 0.0878125,
+          "z_mean": 0.8316000000000001,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        -1,
+        -1
+      ],
+      "cost": 3.2167665600000017,
+      "steps": [
+        {
+          "d_mean": -0.8450000000000001,
+          "d_variance": 0.03125,
+          "z_mean": -0.6760000000000002,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": -1.7605000000000002,
+          "d_variance": 0.0878125,
+          "z_mean": -1.4084000000000003,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        1,
+        1
+      ],
+      "cost": 4.292094560000002,
+      "steps": [
+        {
+          "d_mean": 1.155,
+          "d_variance": 0.03125,
+          "z_mean": 0.924,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 2.0395000000000003,
+          "d_variance": 0.0878125,
+          "z_mean": 1.6316000000000004,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    }
+  ],
+  "simulation": [
+    {
+      "step": 1,
+      "mean": 0.3185026479901694,
+      "variance": 0.2679841063375784,
+      "n": 60000
+    },
+    {
+      "step": 2,
+      "mean": 0.2859015793364732,
+      "variance": 0.30947144527796405,
+      "n": 60000
+    }
+  ],
+  "w_candidates": [
+    {
+      "actions": [
+        1,
+        0
+      ],
+      "cost": 0.7486,
+      "steps": [
+        {
+          "d_mean": 0.25,
+          "d_variance": 0.03125,
+          "z_mean": 0.2,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 0.225,
+          "d_variance": 0.0878125,
+          "z_mean": 0.18000000000000002,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        0,
+        1
+      ],
+      "cost": 1.1038000000000001,
+      "steps": [
+        {
+          "d_mean": -0.75,
+          "d_variance": 0.03125,
+          "z_mean": -0.6000000000000001,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 0.32499999999999996,
+          "d_variance": 0.0878125,
+          "z_mean": 0.25999999999999995,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        1,
+        -1
+      ],
+      "cost": 1.2006000000000001,
+      "steps": [
+        {
+          "d_mean": 0.25,
+          "d_variance": 0.03125,
+          "z_mean": 0.2,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": -0.775,
+          "d_variance": 0.0878125,
+          "z_mean": -0.6200000000000001,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        0,
+        0
+      ],
+      "cost": 1.2278000000000002,
+      "steps": [
+        {
+          "d_mean": -0.75,
+          "d_variance": 0.03125,
+          "z_mean": -0.6000000000000001,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": -0.675,
+          "d_variance": 0.0878125,
+          "z_mean": -0.54,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        1,
+        1
+      ],
+      "cost": 1.7766000000000002,
+      "steps": [
+        {
+          "d_mean": 0.25,
+          "d_variance": 0.03125,
+          "z_mean": 0.2,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 1.225,
+          "d_variance": 0.0878125,
+          "z_mean": 0.9800000000000001,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        0,
+        -1
+      ],
+      "cost": 2.8318000000000008,
+      "steps": [
+        {
+          "d_mean": -0.75,
+          "d_variance": 0.03125,
+          "z_mean": -0.6000000000000001,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": -1.675,
+          "d_variance": 0.0878125,
+          "z_mean": -1.34,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        -1,
+        1
+      ],
+      "cost": 2.947800000000001,
+      "steps": [
+        {
+          "d_mean": -1.75,
+          "d_variance": 0.03125,
+          "z_mean": -1.4000000000000001,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": -0.5750000000000002,
+          "d_variance": 0.0878125,
+          "z_mean": -0.4600000000000002,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        -1,
+        0
+      ],
+      "cost": 4.223800000000001,
+      "steps": [
+        {
+          "d_mean": -1.75,
+          "d_variance": 0.03125,
+          "z_mean": -1.4000000000000001,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": -1.5750000000000002,
+          "d_variance": 0.0878125,
+          "z_mean": -1.2600000000000002,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        -1,
+        -1
+      ],
+      "cost": 6.9798,
+      "steps": [
+        {
+          "d_mean": -1.75,
+          "d_variance": 0.03125,
+          "z_mean": -1.4000000000000001,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": -2.575,
+          "d_variance": 0.0878125,
+          "z_mean": -2.06,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    }
+  ],
+  "w_replan_candidates": [
+    {
+      "actions": [
+        -1,
+        0
+      ],
+      "cost": 0.722536,
+      "steps": [
+        {
+          "d_mean": -0.19999999999999996,
+          "d_variance": 0.03125,
+          "z_mean": -0.15999999999999998,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": -0.17999999999999997,
+          "d_variance": 0.0878125,
+          "z_mean": -0.144,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        0,
+        -1
+      ],
+      "cost": 1.1359760000000003,
+      "steps": [
+        {
+          "d_mean": 0.8,
+          "d_variance": 0.03125,
+          "z_mean": 0.6400000000000001,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": -0.2799999999999999,
+          "d_variance": 0.0878125,
+          "z_mean": -0.22399999999999995,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        -1,
+        1
+      ],
+      "cost": 1.2321360000000001,
+      "steps": [
+        {
+          "d_mean": -0.19999999999999996,
+          "d_variance": 0.03125,
+          "z_mean": -0.15999999999999998,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 0.8200000000000001,
+          "d_variance": 0.0878125,
+          "z_mean": 0.6560000000000001,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        0,
+        0
+      ],
+      "cost": 1.3175760000000003,
+      "steps": [
+        {
+          "d_mean": 0.8,
+          "d_variance": 0.03125,
+          "z_mean": 0.6400000000000001,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 0.7200000000000001,
+          "d_variance": 0.0878125,
+          "z_mean": 0.5760000000000001,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        -1,
+        -1
+      ],
+      "cost": 1.692936,
+      "steps": [
+        {
+          "d_mean": -0.19999999999999996,
+          "d_variance": 0.03125,
+          "z_mean": -0.15999999999999998,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": -1.18,
+          "d_variance": 0.0878125,
+          "z_mean": -0.944,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        0,
+        1
+      ],
+      "cost": 2.979176000000001,
+      "steps": [
+        {
+          "d_mean": 0.8,
+          "d_variance": 0.03125,
+          "z_mean": 0.6400000000000001,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 1.7200000000000002,
+          "d_variance": 0.0878125,
+          "z_mean": 1.3760000000000003,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        1,
+        -1
+      ],
+      "cost": 3.0958160000000006,
+      "steps": [
+        {
+          "d_mean": 1.8,
+          "d_variance": 0.03125,
+          "z_mean": 1.4400000000000002,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 0.6200000000000001,
+          "d_variance": 0.0878125,
+          "z_mean": 0.4960000000000001,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        1,
+        0
+      ],
+      "cost": 4.429416000000001,
+      "steps": [
+        {
+          "d_mean": 1.8,
+          "d_variance": 0.03125,
+          "z_mean": 1.4400000000000002,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 1.62,
+          "d_variance": 0.0878125,
+          "z_mean": 1.2960000000000003,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    },
+    {
+      "actions": [
+        1,
+        1
+      ],
+      "cost": 7.243016000000002,
+      "steps": [
+        {
+          "d_mean": 1.8,
+          "d_variance": 0.03125,
+          "z_mean": 1.4400000000000002,
+          "z_variance": 0.27,
+          "covariance": 0.025
+        },
+        {
+          "d_mean": 2.62,
+          "d_variance": 0.0878125,
+          "z_mean": 2.096,
+          "z_variance": 0.3062,
+          "covariance": 0.07025
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "No neural RSSM training",
+    "No environment closed-loop experiment",
+    "Monte Carlo is a finite numerical check, not a general proof",
+    "Specified internal epsilon=0 path is conditional, not an exact history mixture"
+  ]
+}

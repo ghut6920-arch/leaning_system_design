@@ -1,0 +1,162 @@
+{
+  "revision": "M7.2-math-checks-r1-20261010",
+  "status": "passed",
+  "count": 8,
+  "seconds": 0.6139474000083283,
+  "checks": [
+    {
+      "name": "single-record derivative/loss/gradient/update",
+      "status": "passed",
+      "detail": {
+        "xt": [
+          0.0,
+          0.5
+        ],
+        "u": [
+          4.0,
+          -2.0
+        ],
+        "old_loss": 4.0,
+        "gradient": [
+          -2.0,
+          2.0
+        ],
+        "updated_b": [
+          2.2,
+          -0.2
+        ],
+        "new_loss": 3.2399999999999998
+      }
+    },
+    {
+      "name": "hat partition/endpoint/query active block",
+      "status": "passed",
+      "detail": {
+        "sum_range": [
+          1.0,
+          1.0
+        ],
+        "max_active_hats": 2,
+        "query_block_j4": [
+          1.0,
+          0.0,
+          0.5,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "W gradient central finite-difference and fast evaluation",
+      "status": "passed",
+      "detail": {
+        "entries": [
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            17,
+            0
+          ],
+          [
+            32,
+            1
+          ],
+          [
+            44,
+            0
+          ],
+          [
+            63,
+            1
+          ],
+          [
+            67,
+            0
+          ]
+        ],
+        "epsilon": 1e-06,
+        "max_abs_gradient_error": 4.616007576174752e-11
+      }
+    },
+    {
+      "name": "Gaussian exact derivative/initial/endpoints and risk floor",
+      "status": "passed",
+      "detail": {
+        "max_derivative_abs_error": 2.177911184730874e-10,
+        "query_oracle": [
+          2.5945945945945947,
+          -0.5945945945945946
+        ],
+        "risk_floor_quadrature": 0.7853981633922399,
+        "risk_floor_analytic": 0.7853981633974483
+      }
+    },
+    {
+      "name": "oracle Euler variance and analytic recurrence",
+      "status": "passed",
+      "detail": {
+        "1": 0.0,
+        "4": 0.1159678597516435,
+        "16": 0.20764708160296838,
+        "64": 0.2386862759670217
+      }
+    },
+    {
+      "name": "Euler count/time/current-state/no input mutation",
+      "status": "passed",
+      "detail": {
+        "queries": [
+          0.0,
+          0.25,
+          0.5,
+          0.75
+        ],
+        "last_query": 0.75,
+        "updates_to_final_time": 4
+      }
+    },
+    {
+      "name": "illegal N/state/condition/field output",
+      "status": "passed",
+      "detail": {
+        "rejected_cases": 12
+      }
+    },
+    {
+      "name": "same-c mixture local posterior and OT counterexample",
+      "status": "passed",
+      "detail": {
+        "component_weights_minus_plus": [
+          0.039165722796764356,
+          0.9608342772032357
+        ],
+        "velocities": [
+          [
+            -3.8,
+            0.0
+          ],
+          [
+            2.6,
+            0.0
+          ]
+        ],
+        "local_velocity": [
+          2.3493393741007083,
+          0.0
+        ],
+        "global_terminal_mean": [
+          0,
+          0
+        ],
+        "independent_cost": 6.5,
+        "legal_coupling_cost": 4.5
+      }
+    }
+  ],
+  "scope": "teacher mathematics and interface; no learner evidence; not a proof for arbitrary fields"
+}

@@ -1,0 +1,88 @@
+{
+  "package": "rssm-review-20261010",
+  "version": "1.0",
+  "date": "2026-10-10",
+  "purpose": "preparation_review_only",
+  "learner_events": "not_executed",
+  "teaching": "not_executed",
+  "files": [
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\01-cognitive-design.md",
+      "sha256": "cf134975748686cf8489e64b5064860ec9592abcdb768901d5ae9a3269f313ef"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\02-sources.md",
+      "sha256": "6335cda7301c62470515d6d6c0f7ac55b95dc57f0541a97b598c2657939f38cc"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\03-learner-materials.md",
+      "sha256": "f3f43a1cdb31ee92f3822b8a07da7f98020f63a69cdc164f53eb4d4fd7a49c07"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\04-tasks.md",
+      "sha256": "844b850d3b850e3d2caa05e1ec5c02b41f2356fee5a2302868280f0306106f7c"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\05-teacher-reference.md",
+      "sha256": "4738bb13828896fc3d1c556635b306c19370704ebbb9957a38d687d945feb994"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\06-first-reply.md",
+      "sha256": "506d792e7208283de01ebe3e6678b1e678bb6573db7c597be8c79c0fe7dff461"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\07-audit.md",
+      "sha256": "26cefa540d714e64d9b2ce7a4de4c00d00681fcb94a5da3f27a380f3526e8f6e"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\09-production-notes.md",
+      "sha256": "42681cca09a3c1ddd9fff8cefc0a66b131c49ac3c54c7088fd424bf7b8ffcdfa"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\10-model-spec.md",
+      "sha256": "98570a3b7884928ad7261d42fa757ed8a29eb9059dbc3ac47638db00b7ae2ab8"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\prep\\rssm-review-20261010\\README.md",
+      "sha256": "77852b8c2552fd4645c776fec3ad528f83cc9faccf9647ebdb7113b98c080aa0"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\RSSM\\review-20261010\\check_information_flow.cjs",
+      "sha256": "15a7a7e04a8a42d29a0689d3aad39834a331e409d9845ee9320042692586575f"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\RSSM\\review-20261010\\information-flow-checks.json",
+      "sha256": "0ec1ce3db3ad3b60cf257bd86963a14f03306704b82ad942c5d563ea0ffd77f0"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\RSSM\\review-20261010\\information-flow.html",
+      "sha256": "e153e57fffd433119ce917554e76d1ba43d64745a92f685e8b71c87711e73224"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\RSSM\\review-20261010\\README.md",
+      "sha256": "338516ec7d8514e0e530ae9185135f09fdcc4c739c5215af6651174dce699798"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\RSSM\\review-20261010\\verification-results.json",
+      "sha256": "ab8cdd97a22d78dc0a9b2506ade2d0319d69183a1a7bf7737f942299dc9f4b33"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\RSSM\\review-20261010\\verify_demo.py",
+      "sha256": "8a2e5b224c747720fcfe89a85fd9e6263547141efc65e53f4d0480413ad4b6de"
+    }
+  ],
+  "protected_files": [
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\state\\control.md",
+      "hash": "D7BA0AA3BF5C84B0A6888BBCCCB48DA66DDB7C3DBDC623DAF31FF99B44692D87"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\state\\current.md",
+      "hash": "0CDB6C945D41F929F66C9D1752403BB47B516E10DDD6FB763E160F84E3719977"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\framework-manifest.json",
+      "hash": "427226BC583FFA0F93DD93AEF12A39665CEFADEBBBE0CB66D0733647912835A7"
+    }
+  ]
+}

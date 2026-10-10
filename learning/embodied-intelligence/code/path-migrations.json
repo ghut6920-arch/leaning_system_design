@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-04",
+  "reason": "User requested unified code directory",
+  "mappings": [
+    {
+      "sha256": "a00af2d2fd8f35f5ee68b978a6aab0e2e5101ffa4d5f990b9b3290cc783ce405",
+      "content_unchanged": true,
+      "revision": 1,
+      "old_path": "artifacts/m0_shape_demo.py",
+      "new_path": "code/M0/m0_shape_demo.py"
+    }
+  ],
+  "historical_reference_policy": "Resolve historical references through this mapping; preserve original records"
+}

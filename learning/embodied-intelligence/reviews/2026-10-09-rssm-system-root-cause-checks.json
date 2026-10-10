@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-09",
+  "type": "research-design-skill-execution root cause trace",
+  "scope": "analysis_only",
+  "candidate_thread": "01a11f0d-5cc0-7591-989c-00791b0d6772",
+  "framework_changed": false,
+  "research_and_design_originals_changed": false,
+  "candidate_materials_changed": false,
+  "real_learning_progress_changed": false,
+  "new_model_runs": 0,
+  "reviewer_child_agents": 0,
+  "learning_effect_measured": false,
+  "causal_contribution_percentages_estimated": false,
+  "original_scope_vs_quality_extension_distinguished": true,
+  "local_links": {
+    "checked": 22,
+    "missing": []
+  },
+  "report_lines": 181,
+  "classification_check": {
+    "confirmed_observations_separated_from_causal_inferences": true,
+    "self_selected_goals_not_treated_as_adopted_user_requirements": true,
+    "existing_strategy_calls_not_misreported_as_missing": true,
+    "audit_A03_recognition_preserved": true,
+    "teaching_adaptation_risk_not_claimed_as_observed_failure": true
+  },
+  "protected_files": {
+    "before": 450,
+    "after": 450,
+    "changed": [],
+    "added": [],
+    "scope": "Research/design originals, framework src/resources/contracts, course files outside reviews and __pycache__"
+  }
+}

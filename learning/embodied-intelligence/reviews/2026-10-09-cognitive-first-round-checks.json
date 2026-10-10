@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-09",
+  "status": "pass",
+  "protected_existing_files": 230,
+  "existing_files_unchanged": true,
+  "framework_or_progress_changed": false,
+  "private_hash_list_saved": false,
+  "local_links_checked": 8,
+  "broken_links": [],
+  "candidate_hashes_checked": 11,
+  "candidate_hash_mismatches": [],
+  "framework_entries_checked": 117,
+  "framework_mismatches": [],
+  "new_teacher_or_learner_program_executed": false,
+  "real_learning_effect_verified": false,
+  "blind_review": false,
+  "flow_evidence": {
+    "materials_first_plan_read_exit_code": 1,
+    "materials_second_plan_read_exit_code": 0,
+    "second_read_version": 1,
+    "final_plan_version": 2
+  }
+}

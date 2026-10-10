@@ -1,0 +1,21 @@
+{
+  "checked_date": "2026-10-10",
+  "timezone": "Asia/Shanghai",
+  "purpose": "Preparation-only protected learning files byte comparison",
+  "scope": [
+    "state",
+    "goals",
+    "plan",
+    "assessment",
+    "sessions",
+    "course",
+    "modules"
+  ],
+  "before_count": 75,
+  "after_count": 75,
+  "changed": [],
+  "added": [],
+  "missing": [],
+  "status": "unchanged",
+  "boundary": "Hashes confirm compared files only; not a learning or capability judgment."
+}

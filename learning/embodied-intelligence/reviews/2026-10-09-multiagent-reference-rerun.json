@@ -1,0 +1,96 @@
+{
+  "client_date": "2026-10-09",
+  "maintenance_rerun": true,
+  "independent_implementation": false,
+  "command": "python -B -X utf8 code/M0/preparation-tests/2026-10-09-multiagent/model_demo.py --json",
+  "check_output_flag_used": false,
+  "original_report_overwritten": false,
+  "passed": 16,
+  "code_sha256": "8af1ed85307040e3242afe0078ee21dc9b78f2f4c7f830be046388e818ac4bde",
+  "teacher_review_only": true,
+  "pytorch_executed": false,
+  "learner_execution": false,
+  "learning_effect_verified": false,
+  "checks": [
+    {
+      "name": "source_full_spec",
+      "passed": true,
+      "detail": "96 RGB scalars; 8 feature rows, D=2"
+    },
+    {
+      "name": "video_all_pixel_mappings",
+      "passed": true,
+      "detail": "all 96 index/value equalities"
+    },
+    {
+      "name": "frame_all_pixel_mappings",
+      "passed": true,
+      "detail": "all 96 equalities, n=4*b+t"
+    },
+    {
+      "name": "video_inverse",
+      "passed": true,
+      "detail": "inverse axes (0,2,3,4,1)"
+    },
+    {
+      "name": "frame_inverse_with_metadata",
+      "passed": true,
+      "detail": "requires B=2,T=4 and n=4*b+t"
+    },
+    {
+      "name": "reshape_shape_is_not_semantics",
+      "passed": true,
+      "detail": "same (2,3,4,2,2) shape; expected green=20, incorrect reshape gives 70"
+    },
+    {
+      "name": "all_rg_feature_mappings",
+      "passed": true,
+      "detail": "all 16 retained upper-left R/G equalities; d=0:R00, d=1:G00"
+    },
+    {
+      "name": "ordered_feature_sequence",
+      "passed": true,
+      "detail": "Z[b,t,d]=E[4*b+t,d], same as trusted-label recovery"
+    },
+    {
+      "name": "shuffled_reshape_fails",
+      "passed": true,
+      "detail": "blind grouping puts 乙2 into 甲0 slot"
+    },
+    {
+      "name": "same_content_not_source_id",
+      "passed": true,
+      "detail": "甲2/乙2 and 甲0/乙3 have equal feature values but different source identities"
+    },
+    {
+      "name": "other_pixels_not_retained",
+      "passed": true,
+      "detail": "甲0/甲1 differ outside upper-left pixel but have the same f output"
+    },
+    {
+      "name": "blue_collision_noninjective",
+      "passed": true,
+      "detail": "different source RGB arrays (one upper-left blue value 10 vs 11), exactly equal A; f cannot uniquely restore RGB on this allowed domain"
+    },
+    {
+      "name": "missing_label_rejected",
+      "passed": true,
+      "detail": "ValueError raised before restoration"
+    },
+    {
+      "name": "duplicate_label_rejected",
+      "passed": true,
+      "detail": "ValueError raised before restoration"
+    },
+    {
+      "name": "out_of_range_label_rejected",
+      "passed": true,
+      "detail": "ValueError raised before restoration"
+    },
+    {
+      "name": "label_coverage_does_not_prove_truth",
+      "passed": true,
+      "detail": "swapped source labels pass coverage validation but restore incorrectly; trusted lineage is an external precondition"
+    }
+  ]
+}

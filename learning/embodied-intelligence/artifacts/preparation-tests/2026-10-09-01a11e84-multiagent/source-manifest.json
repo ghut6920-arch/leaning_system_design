@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-09",
+  "purpose": "Preparation only; exact read scopes are in 00 and 01",
+  "framework_check": {
+    "registered_count": 117,
+    "differences": [],
+    "scope": "Fingerprint matching does not prove subject correctness"
+  },
+  "source_records": [
+    {
+      "relative_path": "AGENTS.md",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\AGENTS.md",
+      "sha256": "01100F12AA2C58BC54329BB59169594491E6AB623CB9ECB70DF00B3D94134D51"
+    },
+    {
+      "relative_path": "FRAMEWORK.md",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\FRAMEWORK.md",
+      "sha256": "185126DC92263B321C94139C852CC2D900CDEAC0448CD172D7A9EB2CBC315F95"
+    },
+    {
+      "relative_path": "MODEL_ENTRY.md",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\MODEL_ENTRY.md",
+      "sha256": "CD934D17D932EEDFE8D7CA5EB9334770BCA9036345002BCFD0063D3E111D41CB"
+    },
+    {
+      "relative_path": "INTERACTION.md",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\INTERACTION.md",
+      "sha256": "31C334E7A14965C1825CF0D9CFC5802219F7DDDBBA1A20A211B6EF098D398CCA"
+    },
+    {
+      "relative_path": "framework-manifest.json",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\framework-manifest.json",
+      "sha256": "25ED2397A116B1B09955BA18A32F4E8E94BB96CE203D87365F257730ED4A6BDC"
+    },
+    {
+      "relative_path": "state/control.md",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\state\\control.md",
+      "sha256": "D7BA0AA3BF5C84B0A6888BBCCCB48DA66DDB7C3DBDC623DAF31FF99B44692D87"
+    },
+    {
+      "relative_path": "state/current.md",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\state\\current.md",
+      "sha256": "0CDB6C945D41F929F66C9D1752403BB47B516E10DDD6FB763E160F84E3719977"
+    },
+    {
+      "relative_path": "goals/M0-video-interface-first-20261006-02.md",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\goals\\M0-video-interface-first-20261006-02.md",
+      "sha256": "DD8E882A60FB63688133DCA8DD4BE04A38CD0D2A8F4A757D320611C01EF9D3B1"
+    },
+    {
+      "relative_path": "sessions/2026-10-07-01/checkpoint.md",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-07-01\\checkpoint.md",
+      "sha256": "CF49FED4351309B57CA150644A62E800A702E03D0167AFA1E26108632BFE03AA"
+    },
+    {
+      "relative_path": "sessions/2026-10-07-01/event-M0-feature-sequence-001.md",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-07-01\\event-M0-feature-sequence-001.md",
+      "sha256": "4BBFBBED95C5D095DE34A38003BC3D9EE04E7F025FE92C5EE89499DD285FF2D9"
+    },
+    {
+      "relative_path": "sessions/2026-10-06-02/raw/M0-video-interface-001-initial.txt",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-02\\raw\\M0-video-interface-001-initial.txt",
+      "sha256": "F605BCB019F8A9C5DB21CCB461AD250FBDCCC09575BDC3EEEEE884D884000728"
+    },
+    {
+      "relative_path": "sessions/2026-10-06-02/raw/M0-video-interface-002-initial.txt",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-02\\raw\\M0-video-interface-002-initial.txt",
+      "sha256": "E53C41B5D2A5B6E902AC8FDE3260B9182A2AD2A428C1A6FA8A02BBA7D6316D22"
+    },
+    {
+      "relative_path": "sessions/2026-10-06-02/raw/M0-video-interface-002-revision-001.txt",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-06-02\\raw\\M0-video-interface-002-revision-001.txt",
+      "sha256": "8D745A116569F35E15F0E05912C26D10625015A9B7694EC82367FEF274086E6D"
+    },
+    {
+      "relative_path": "sessions/2026-10-07-01/raw/M0-feature-sequence-001-initial.txt",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-07-01\\raw\\M0-feature-sequence-001-initial.txt",
+      "sha256": "BF32C19FF4D7A5AF941EBEBDDDCF160389180B86F45609DCF8DA6C1856D18891"
+    },
+    {
+      "relative_path": "sessions/2026-10-07-01/raw/M0-feature-sequence-001-help-request.txt",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-07-01\\raw\\M0-feature-sequence-001-help-request.txt",
+      "sha256": "E6995724CA41E23712216425FFA606128888E2328A6FCAA5FA3F90E382634583"
+    },
+    {
+      "relative_path": "sessions/2026-10-07-01/raw/M0-feature-sequence-001-revision-001.txt",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\sessions\\2026-10-07-01\\raw\\M0-feature-sequence-001-revision-001.txt",
+      "sha256": "8FA48B411993895CB0936214774EB0C60E60750650E92FA0465CD442905AD9EA"
+    },
+    {
+      "relative_path": "../../personal-learning-suite/contracts/shared-contracts.md",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\contracts\\shared-contracts.md",
+      "sha256": "7A83601A8E4D0741B41322FC8883C161B44135C4E56C421EB4F3F408FAC8D77E"
+    },
+    {
+      "relative_path": "../../personal-learning-suite/resources/strategies/common-constraints.json",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\resources\\strategies\\common-constraints.json",
+      "sha256": "E217A01AC8E71EAE367CD4132CBC084C5C25D1F2A866341B05CACBA6D15F3026"
+    },
+    {
+      "relative_path": "../../personal-learning-suite/resources/strategies/encoding/S05.json",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\resources\\strategies\\encoding\\S05.json",
+      "sha256": "75BE952E8BC57AE87FE6D228CF1097F7DCF8DB591987794578324C757FBECA36"
+    },
+    {
+      "relative_path": "../../personal-learning-suite/resources/strategies/encoding/S08.json",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\resources\\strategies\\encoding\\S08.json",
+      "sha256": "9E4B899AC7AC0D3C5ED0ECD8C00CF17F344A5D5D88E9ECF8920B2E2806D20910"
+    },
+    {
+      "relative_path": "../../personal-learning-suite/resources/strategies/encoding/S09.json",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\resources\\strategies\\encoding\\S09.json",
+      "sha256": "F844542D840596A094784E21C26CF92C03FEFBE0601AAA3816D775C469DEA0E3"
+    },
+    {
+      "relative_path": "../../personal-learning-suite/resources/strategies/encoding/R04.json",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\resources\\strategies\\encoding\\R04.json",
+      "sha256": "24606C5326153AFB271A0280CD4FE1439DAE34796AF44D1C8EB667DD027FDDE9"
+    },
+    {
+      "relative_path": "../../personal-learning-suite/resources/strategies/post/retrieve-relation.json",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\resources\\strategies\\post\\retrieve-relation.json",
+      "sha256": "9A40C98A6EDDEDC06CAB02155AED54480C242F3F7BD2BBF70E116A0C87EC2DBC"
+    },
+    {
+      "relative_path": "../../personal-learning-suite/resources/strategies/post/select-method.json",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\resources\\strategies\\post\\select-method.json",
+      "sha256": "B33844944758174619F882A3131A60F3367782FCF88A94E3F2CB00EAB2D022B8"
+    },
+    {
+      "relative_path": "../../personal-learning-suite/resources/strategies/post/conditional-update.json",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\personal-learning-suite\\resources\\strategies\\post\\conditional-update.json",
+      "sha256": "DD9FF6021B01147AF7E8D51D610F1E5BA3174CCF7D0061903462F4EC2F4E9874"
+    },
+    {
+      "relative_path": "../../docs/research/01_Encoding研究报告.md",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\docs\\research\\01_Encoding研究报告.md",
+      "sha256": "12B7671DF7726B75DF71708A0FC0EC8BFBC3E4E6E79B06AC9C6937D9113BB8B1"
+    },
+    {
+      "relative_path": "../../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\docs\\research\\Post-Encoding-Dynamics-深度增量研究.md",
+      "sha256": "B9A6C07343DAB159A25C37FF054F04BD44751B9C7FFD3242B1DFF86D36B598F9"
+    },
+    {
+      "relative_path": "../../docs/designs/AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\docs\\designs\\AI个人学习系统_工作包5_Encoding_设计方案_v0.md",
+      "sha256": "0422DF3448789B77511B0AB7C74F7F2C92BA7F1919CEB44F28B683239A650B62"
+    },
+    {
+      "relative_path": "../../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "absolute_path": "E:\\文献资料\\学习系统架构设计\\docs\\designs\\AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+      "sha256": "C0A266C68AAD62D6390AE1E53B3B3E66343D9E8A48865C953B2998CC387F3BCA"
+    }
+  ],
+  "other_preparation_outputs_read": false,
+  "other_comparison_chats_read": false,
+  "strategy_read_scope": "Selected complete resources read by cognitive_design; fingerprints alone are not invocation evidence"
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-09",
+  "evaluation": "RSSM quality and depth retrospective comparison",
+  "basis": "Existing candidate materials, tasks, support and formal research/design",
+  "dimensions": [
+    "relationship precision",
+    "explanatory mechanism",
+    "formal reasoning",
+    "condition discrimination",
+    "perturbation and updating",
+    "cross-representation integration",
+    "learner whole-task contribution"
+  ],
+  "unified_score_used": false,
+  "learning_effect_measured": false,
+  "blinded": false,
+  "new_model_runs": 0,
+  "reviewer_child_agents": 0,
+  "numeric_scripts_rerun_this_turn": false,
+  "previous_numeric_checks": [
+    "2026-10-09-rssm-single-vs-multi-checks.json",
+    "2026-10-09-rssm-ultra-xhigh-checks.json"
+  ],
+  "conclusions": {
+    "strongest_same_model_mainline": "ultra multiagent candidate",
+    "conditional_discrimination": "prior xhigh multiagent stronger than new single xhigh Q4",
+    "interface_mapping": "new single xhigh has concrete advantages",
+    "architecture_causal_claim_supported": false
+  },
+  "protected_course_files": {
+    "before": 275,
+    "after": 275,
+    "changed": [],
+    "added": []
+  },
+  "local_links": {
+    "checked": 22,
+    "missing": []
+  }
+}
