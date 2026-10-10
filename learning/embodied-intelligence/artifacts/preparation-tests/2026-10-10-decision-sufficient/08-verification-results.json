@@ -1,0 +1,621 @@
+{
+  "preparation_id": "DS-LWM-20261010",
+  "revision": 1,
+  "origin": "AI-authored teacher verification",
+  "learner_execution": "not_executed",
+  "runtime": {
+    "python": "3.12.3",
+    "executable": "E:\\anaconda\\python.exe"
+  },
+  "summary": {
+    "checks": 47,
+    "passed": 47,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "base_good_returns",
+      "actual": {
+        "shortcut": {
+          "exact": "9",
+          "decimal": 9.0
+        },
+        "safe": {
+          "exact": "4",
+          "decimal": 4.0
+        }
+      },
+      "expected": {
+        "shortcut": {
+          "exact": "9",
+          "decimal": 9.0
+        },
+        "safe": {
+          "exact": "4",
+          "decimal": 4.0
+        }
+      },
+      "passed": true
+    },
+    {
+      "name": "base_bad_returns",
+      "actual": {
+        "shortcut": {
+          "exact": "-27/5",
+          "decimal": -5.4
+        },
+        "safe": {
+          "exact": "4",
+          "decimal": 4.0
+        }
+      },
+      "expected": {
+        "shortcut": {
+          "exact": "-27/5",
+          "decimal": -5.4
+        },
+        "safe": {
+          "exact": "4",
+          "decimal": 4.0
+        }
+      },
+      "passed": true
+    },
+    {
+      "name": "base_good_choice",
+      "actual": [
+        "shortcut"
+      ],
+      "expected": [
+        "shortcut"
+      ],
+      "passed": true
+    },
+    {
+      "name": "base_bad_choice",
+      "actual": [
+        "safe"
+      ],
+      "expected": [
+        "safe"
+      ],
+      "passed": true
+    },
+    {
+      "name": "diagnostic_pixel_mse_A",
+      "actual": {
+        "exact": "1/100",
+        "decimal": 0.01
+      },
+      "expected": {
+        "exact": "1/100",
+        "decimal": 0.01
+      },
+      "passed": true
+    },
+    {
+      "name": "diagnostic_pixel_mse_B",
+      "actual": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "expected": {
+        "exact": "99/100",
+        "decimal": 0.99
+      },
+      "passed": true
+    },
+    {
+      "name": "model_A_bad_route_regret",
+      "actual": {
+        "exact": "47/5",
+        "decimal": 9.4
+      },
+      "expected": {
+        "exact": "47/5",
+        "decimal": 9.4
+      },
+      "passed": true
+    },
+    {
+      "name": "model_B_bad_route_regret",
+      "actual": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "passed": true
+    },
+    {
+      "name": "merged_start_mixture_return",
+      "actual": {
+        "exact": "9/5",
+        "decimal": 1.8
+      },
+      "expected": {
+        "exact": "9/5",
+        "decimal": 1.8
+      },
+      "passed": true
+    },
+    {
+      "name": "merged_start_good_regret",
+      "actual": {
+        "exact": "5",
+        "decimal": 5.0
+      },
+      "expected": {
+        "exact": "5",
+        "decimal": 5.0
+      },
+      "passed": true
+    },
+    {
+      "name": "H1_without_tail",
+      "actual": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "passed": true
+    },
+    {
+      "name": "H1_correct_good_tail",
+      "actual": {
+        "exact": "9",
+        "decimal": 9.0
+      },
+      "expected": {
+        "exact": "9",
+        "decimal": 9.0
+      },
+      "passed": true
+    },
+    {
+      "name": "H1_correct_bad_tail",
+      "actual": {
+        "exact": "-27/5",
+        "decimal": -5.4
+      },
+      "expected": {
+        "exact": "-27/5",
+        "decimal": -5.4
+      },
+      "passed": true
+    },
+    {
+      "name": "H1_incorrect_good_tail",
+      "actual": {
+        "exact": "27/10",
+        "decimal": 2.7
+      },
+      "expected": {
+        "exact": "27/10",
+        "decimal": 2.7
+      },
+      "passed": true
+    },
+    {
+      "name": "no_tail_after_true_terminal",
+      "actual": {
+        "exact": "4",
+        "decimal": 4.0
+      },
+      "expected": {
+        "exact": "4",
+        "decimal": 4.0
+      },
+      "passed": true
+    },
+    {
+      "name": "discount_change",
+      "actual": {
+        "exact": "3",
+        "decimal": 3.0
+      },
+      "expected": {
+        "exact": "3",
+        "decimal": 3.0
+      },
+      "passed": true
+    },
+    {
+      "name": "finite_horizon_gamma_1",
+      "actual": {
+        "exact": "10",
+        "decimal": 10.0
+      },
+      "expected": {
+        "exact": "10",
+        "decimal": 10.0
+      },
+      "passed": true
+    },
+    {
+      "name": "discount_zero",
+      "actual": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "passed": true
+    },
+    {
+      "name": "belief_p_0_8",
+      "actual": {
+        "exact": "153/25",
+        "decimal": 6.12
+      },
+      "expected": {
+        "exact": "153/25",
+        "decimal": 6.12
+      },
+      "passed": true
+    },
+    {
+      "name": "belief_p_0_2",
+      "actual": {
+        "exact": "-63/25",
+        "decimal": -2.52
+      },
+      "expected": {
+        "exact": "-63/25",
+        "decimal": -2.52
+      },
+      "passed": true
+    },
+    {
+      "name": "belief_threshold_tie",
+      "actual": {
+        "exact": "4",
+        "decimal": 4.0
+      },
+      "expected": {
+        "exact": "4",
+        "decimal": 4.0
+      },
+      "passed": true
+    },
+    {
+      "name": "belief_MAP_good_can_still_prefer_safe",
+      "actual": [
+        "safe"
+      ],
+      "expected": [
+        "safe"
+      ],
+      "passed": true
+    },
+    {
+      "name": "inspection_feedback",
+      "actual": {
+        "exact": "107/20",
+        "decimal": 5.35
+      },
+      "expected": {
+        "exact": "107/20",
+        "decimal": 5.35
+      },
+      "passed": true
+    },
+    {
+      "name": "inspection_fixed_safe",
+      "actual": {
+        "exact": "31/10",
+        "decimal": 3.1
+      },
+      "expected": {
+        "exact": "31/10",
+        "decimal": 3.1
+      },
+      "passed": true
+    },
+    {
+      "name": "inspection_fixed_shortcut",
+      "actual": {
+        "exact": "28/25",
+        "decimal": 1.12
+      },
+      "expected": {
+        "exact": "28/25",
+        "decimal": 1.12
+      },
+      "passed": true
+    },
+    {
+      "name": "new_background_reward_bad_bg1",
+      "actual": {
+        "exact": "63/5",
+        "decimal": 12.6
+      },
+      "expected": {
+        "exact": "63/5",
+        "decimal": 12.6
+      },
+      "passed": true
+    },
+    {
+      "name": "new_background_reward_bad_bg0",
+      "actual": {
+        "exact": "-27/5",
+        "decimal": -5.4
+      },
+      "expected": {
+        "exact": "-27/5",
+        "decimal": -5.4
+      },
+      "passed": true
+    },
+    {
+      "name": "background_preserved_through_transition",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "risk_constraint_rejects_p_0_8_shortcut",
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "name": "candidate_only_safe_gap",
+      "actual": {
+        "exact": "5",
+        "decimal": 5.0
+      },
+      "expected": {
+        "exact": "5",
+        "decimal": 5.0
+      },
+      "passed": true
+    },
+    {
+      "name": "biased_scores_preserve_current_ranking",
+      "actual": [
+        "shortcut"
+      ],
+      "expected": [
+        "shortcut"
+      ],
+      "passed": true
+    },
+    {
+      "name": "biased_scores_absolute_error",
+      "actual": {
+        "exact": "100",
+        "decimal": 100.0
+      },
+      "expected": {
+        "exact": "100",
+        "decimal": 100.0
+      },
+      "passed": true
+    },
+    {
+      "name": "theta_gradient_at_0",
+      "actual": {
+        "exact": "-2",
+        "decimal": -2.0
+      },
+      "expected": {
+        "exact": "-2",
+        "decimal": -2.0
+      },
+      "passed": true
+    },
+    {
+      "name": "theta_update",
+      "actual": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "expected": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "passed": true
+    },
+    {
+      "name": "theta_loss_before",
+      "actual": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "expected": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "passed": true
+    },
+    {
+      "name": "theta_loss_after",
+      "actual": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "passed": true
+    },
+    {
+      "name": "theta0_good_return",
+      "actual": {
+        "exact": "9/5",
+        "decimal": 1.8
+      },
+      "expected": {
+        "exact": "9/5",
+        "decimal": 1.8
+      },
+      "passed": true
+    },
+    {
+      "name": "theta0_bad_return",
+      "actual": {
+        "exact": "9/5",
+        "decimal": 1.8
+      },
+      "expected": {
+        "exact": "9/5",
+        "decimal": 1.8
+      },
+      "passed": true
+    },
+    {
+      "name": "theta1_good_return",
+      "actual": {
+        "exact": "9",
+        "decimal": 9.0
+      },
+      "expected": {
+        "exact": "9",
+        "decimal": 9.0
+      },
+      "passed": true
+    },
+    {
+      "name": "theta1_bad_return",
+      "actual": {
+        "exact": "-27/5",
+        "decimal": -5.4
+      },
+      "expected": {
+        "exact": "-27/5",
+        "decimal": -5.4
+      },
+      "passed": true
+    },
+    {
+      "name": "merged_input_deterministic_best_MSE",
+      "actual": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "expected": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "passed": true
+    },
+    {
+      "name": "merged_input_theta_gradient",
+      "actual": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "expected": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "passed": true
+    },
+    {
+      "name": "same_latent_means",
+      "actual": [
+        {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "expected": [
+        {
+          "exact": "0",
+          "decimal": 0.0
+        },
+        {
+          "exact": "0",
+          "decimal": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "nonlinear_tail_values",
+      "actual": [
+        {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        {
+          "exact": "4",
+          "decimal": 4.0
+        }
+      ],
+      "expected": [
+        {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        {
+          "exact": "4",
+          "decimal": 4.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "affine_tail_same_expectation",
+      "actual": [
+        {
+          "exact": "2",
+          "decimal": 2.0
+        },
+        {
+          "exact": "2",
+          "decimal": 2.0
+        }
+      ],
+      "expected": [
+        {
+          "exact": "2",
+          "decimal": 2.0
+        },
+        {
+          "exact": "2",
+          "decimal": 2.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "certificate_epsilon_eta_bound",
+      "actual": {
+        "exact": "11/10",
+        "decimal": 1.1
+      },
+      "expected": {
+        "exact": "11/10",
+        "decimal": 1.1
+      },
+      "passed": true
+    },
+    {
+      "name": "candidate_bound_finite_boundary_cases",
+      "cases": 172,
+      "passed": true,
+      "scope": "finite arithmetic supplement, not a universal proof"
+    }
+  ],
+  "limitations": [
+    "Not a neural-model training experiment",
+    "Not a robotics or deployment result",
+    "Not a learner response or capability assessment",
+    "Finite numerical checks do not replace the written general proofs"
+  ]
+}

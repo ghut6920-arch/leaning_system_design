@@ -1,5 +1,7 @@
 # personal-learning-suite：B0—B7 开发基线
 
+当前协作修订（2026-10-11）：[学科研究与教学转换](src/skills/learning-teaching/references/disciplinary-to-teaching.md)按AG2先研究→AG1／SK03认知设计与师生分工→具体资料、必要可视化与问题→AG3反向审查推进，认知分析可反馈学科研究，充分内容保留。依据、WM两次实践及验证见 [实施记录](../docs/implementation/AI个人学习系统_学科研究与教学转换协作修订_2026-10-11.md)。
+
 当前学习使用：[SK00 总入口](src/skills/personal-learning/SKILL.md)及 [开始／恢复](src/skills/personal-learning/references/session-entry.md)，真实具身智能文件模式见 [MODEL_ENTRY](../learning/embodied-intelligence/MODEL_ENTRY.md)。自然学习请求直接进入所需教学工作；四角色可顺序兼任，文件模式不要求虚构 CLI 初始化。全套来源比较、新上下文实际首回合及当前边界见 [原意复审](../docs/audits/AI个人学习系统_全套Skill与Agent原意复审_2026-10-05.md)，六阶段当时的修订保留在 [历史记录](../docs/implementation/AI个人学习系统_教学内容重构_第六阶段实施与验证_2026-10-05.md)。维护或明确试用时才用 [有限验证](src/skills/personal-learning/references/verification.md)。以下 B0—B7 内容描述程序开发历史与技术范围，不作为人工学习的教学禁令。
 
 共用协议 `pl-contracts/0.1.0`；B0 创建于 2026-10-02，B1—B6 更新于 2026-10-03，B7 第一切片开始于 2026-10-04。SQLite 共享记录和六个专业能力经 B5 串接；B6 增加本地串行宿主、四角色能力对象、工作单接责／采用及执行接管。B7 增加只读的试用配置及 V1—V4 验证引用检查。专业内容、评分、采用和成本仍由调用方提供。B1—B6 执行器仍只支持虚构开发输入；B7 不写个人记录或启动真实教学，七个 Skill 未安装，真实模型、课程和个人记录未绑定。下文各批保留程序历史范围；公开教学指令的当前核查以首段的原意复审及其验证范围为准。

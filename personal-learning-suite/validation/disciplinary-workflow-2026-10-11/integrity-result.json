@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-11",
+  "status": "pass",
+  "protected_files_checked": 1060,
+  "protected_files_changed": [],
+  "markdown_files_checked": 64,
+  "links_checked": 666,
+  "broken_links": [],
+  "missing_documents": [],
+  "manifest_entries": 119,
+  "manifest_errors": [],
+  "limits": [
+    "Checks integrity and discoverability, not discipline correctness or learning outcomes",
+    "Originals include already-present user edits and untracked WM preparation files",
+    "Runtime APIs and real learning sessions were not executed"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "format": "preparation-file-manifest/1",
+  "date": "2026-10-11",
+  "revision": 1,
+  "status": "prepared_for_review",
+  "learning_progress_changed": false,
+  "entries": [
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-decision-sufficient-r1\\00-scope-and-provenance.md",
+      "sha256": "5ac8165504646d132911f9d2ee8d392973322c4fe45253b9987f1ea6e8320394",
+      "bytes": 3562,
+      "origin": "generated_material"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-decision-sufficient-r1\\01-disciplinary-analysis.md",
+      "sha256": "437a0a25b29d1b86938ad8402fb5241a219d71545df21fa944d821e1e3197035",
+      "bytes": 27766,
+      "origin": "generated_material"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-decision-sufficient-r1\\02-source-register.md",
+      "sha256": "4778814cf2eb89d1de06dfea29f7a04f0ab29b5da3b86c0a8f0b95ff0e3539df",
+      "bytes": 8179,
+      "origin": "generated_material"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-decision-sufficient-r1\\03-cognitive-design.md",
+      "sha256": "1e7bbb4e72672b0ae28cba420bc4675472963654355f4cb0dd6e9794045e2e22",
+      "bytes": 24580,
+      "origin": "generated_material"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-decision-sufficient-r1\\07-reverse-review.md",
+      "sha256": "c04b4d9594d4a27d5457722a774e8a0d76b1b0584724f515de118bbd6ef8fbb3",
+      "bytes": 13622,
+      "origin": "generated_material"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-decision-sufficient-r1\\08-delivery-verification.md",
+      "sha256": "77ef87aebbdb138b20222924584dae382207180e3b4444d7deb16a6bba8c71aa",
+      "bytes": 2808,
+      "origin": "generated_material"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-decision-sufficient-r1\\README.md",
+      "sha256": "14ad3d5cb07d08a671c27184b6cbc6247962101ff8347547afc232c5147fd624",
+      "bytes": 6098,
+      "origin": "generated_material"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\decision-sufficient-preparation-r1\\materials.md",
+      "sha256": "6557ff33b6572b1f4c34eb9667b1e374f0f6cca9ad15945e17649b03f6fc13f7",
+      "bytes": 15111,
+      "origin": "generated_material"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\decision-sufficient-preparation-r1\\tasks.md",
+      "sha256": "2757c05245eacf9c228125f6c263886b3537e870a735070b8affb0375883db63",
+      "bytes": 4904,
+      "origin": "generated_material"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\backup\\decision-sufficient-preparation-r1\\support.md",
+      "sha256": "d7515f07ab9024a06fea4fc5dc86fcbd97fbb4a4d0f1c3dacab4eb773e603b13",
+      "bytes": 6315,
+      "origin": "generated_material"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\teacher-reference\\decision-sufficient-preparation-r1\\reference.md",
+      "sha256": "6ca9d674bce5457bb5bab96df07c0659bb43dd0e198f7634a9d9bfb239d7f96e",
+      "bytes": 22119,
+      "origin": "generated_material"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\decision-sufficient\\preparation-r1\\numerical-verification.md",
+      "sha256": "eeba22b16c82a4f313e0b960dcfc5134335a04d238a58562692745635c0ca19e",
+      "bytes": 3040,
+      "origin": "generated_material"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\decision-sufficient\\preparation-r1\\verify_examples.py",
+      "sha256": "112ab1a1168cdad5c88b17d323d260d1e007afc02f0e737d26adf67646a21e94",
+      "bytes": 6731,
+      "origin": "generated_material"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # SK03 learning-teaching：B0 短任务单
 
+当前指导更新（2026-10-11）：SK03承担专业知识教学转换，先取得AG2学科研究，再设计认知操作和教师／学习者分工，落实实际解释、案例、必要可视化与问题；认知分析可回问学科研究，成品由AG3反向专业审查，充分内容保留。现行流程见 [学科研究与教学转换](../../src/skills/learning-teaching/references/disciplinary-to-teaching.md)。以下开发分期与接口沿原范围，不以本次指导修订宣称安装、真实教学或学习效果。
+
 B4 更新（2026-10-03）：Encoding／Post 与 AG1 关键设计的开发切片已实现，当前以 [B4 教学接口](../../contracts/teaching-b4.md) 和 [B4 验收](../b4-teaching-acceptance.md) 为准。下文 B0/B3b 阶段文字保留历史范围，不代表当前能力；Skill 未安装，真实课程与 B5/B6 仍待后续。
 
 状态：B0 规格草案；尚未创建可安装 Skill、安装或运行。规格修订：0.1.0；共享协议：`pl-contracts/0.1.0`。

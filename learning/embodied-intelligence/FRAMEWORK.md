@@ -11,7 +11,7 @@
 | 当前情境 | 读取与工作 |
 |---|---|
 | 开始／继续 | 尚未取得的 AGENTS、当前控制／状态、MODEL_ENTRY → 共享契约、SK00 session-entry、AG0 → 当前引用与必要专业规则；同次已读不循环加载 |
-| 新单元没备好 | SK03内容准备、Encoding、Post功能与SK06选法；SK01明确认知目标，SK02核材料，SK05接近期整体；实际读所选完整策略，备主要路径后展示，旧范例／一题不算已备单元 |
+| 新单元没备好 | 先按SK03的 [学科研究与教学转换](../../personal-learning-suite/src/skills/learning-teaching/references/disciplinary-to-teaching.md)取得或复用AG2学科依据，再由AG1／SK03设计认知操作和师生分工，落实具体资料／可视化／问题并由AG3反向审查；按需Encoding、Post与SK06，SK05接近期整体；实际读所选完整策略，备主要路径后展示，旧范例／一题不算已备单元 |
 | 活动已适用／作品已存在 | 直接 SK03 执行，或 SK04 按原件与条件检查；不遍历全部角色 |
 | 复习／应用 | Post 功能分流；必要局部 Encoding 后回父任务，选法有差异才 SK06 |
 | 单元整体收束／重要跳过／关键未完成取舍 | AG3职责与SK04整体评审，按原答和帮助分项核对；AG1接同一作品的下一可执行工作，AG0呈现，允许同模型兼任，不要求四独立Agent |
@@ -25,8 +25,8 @@
 |---|---|---|
 | AG0 | [AG0-coach.md](../../personal-learning-suite/src/agents/AG0-coach.md) | 会话执行、真实过程与恢复 |
 | AG1 | [AG1-design-planning.md](../../personal-learning-suite/src/agents/AG1-design-planning.md) | 目标、设计与计划 |
-| AG2 | [AG2-materials.md](../../personal-learning-suite/src/agents/AG2-materials.md) | 内容与材料核验 |
-| AG3 | [AG3-assessment.md](../../personal-learning-suite/src/agents/AG3-assessment.md) | 证据评价与复核 |
+| AG2 | [AG2-materials.md](../../personal-learning-suite/src/agents/AG2-materials.md) | 学科实质研究、内容与材料核验 |
+| AG3 | [AG3-assessment.md](../../personal-learning-suite/src/agents/AG3-assessment.md) | 反向专业审查、证据评价与复核 |
 
 ## 七 Skill
 
@@ -35,7 +35,7 @@
 | SK00 | [personal-learning](../../personal-learning-suite/src/skills/personal-learning/SKILL.md) | 自然开始、恢复、求助、作品入口和控制；开发命令按需 |
 | SK01 | [learning-goals](../../personal-learning-suite/src/skills/learning-goals/SKILL.md) | 目标与判据 |
 | SK02 | [learning-materials](../../personal-learning-suite/src/skills/learning-materials/SKILL.md) | 来源、材料与参考 |
-| SK03 | [learning-teaching](../../personal-learning-suite/src/skills/learning-teaching/SKILL.md) | Encoding/Post 教学 |
+| SK03 | [learning-teaching](../../personal-learning-suite/src/skills/learning-teaching/SKILL.md) | 专业知识教学转换与 Encoding/Post 教学 |
 | SK04 | [learning-assessment](../../personal-learning-suite/src/skills/learning-assessment/SKILL.md) | 条件化评价 |
 | SK05 | [learning-planning](../../personal-learning-suite/src/skills/learning-planning/SKILL.md) | 需求安排与连续性 |
 | SK06 | [learning-strategies](../../personal-learning-suite/src/skills/learning-strategies/SKILL.md) | 按需选择教学方法 |
@@ -47,7 +47,7 @@
 - 复杂正文、深度或当前展开不清：[目标实例与现有对象的短视图](../../personal-learning-suite/src/skills/learning-goals/references/goal-worked-design.md)，按实际用途推出判据，不自动加最小性／延迟要求。
 - 资料进入与核验：[材料工作流](../../personal-learning-suite/src/skills/learning-materials/references/materials-workflow.md)、[领域核验](../../personal-learning-suite/src/skills/learning-materials/references/domain-checks.md)。
 - 需要落实框架／例题／图／规格：[材料实例](../../personal-learning-suite/src/skills/learning-materials/references/materials-examples.md)，从实际功能接学习者操作；实例图仅在相应用途下加载。
-- 陌生单元／尚无可执行活动：先读 SK03 的 [内容准备](../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md)，按内容加载 Encoding；首次实例化可参考 [正常教学实例](../../personal-learning-suite/src/skills/learning-teaching/references/teaching-examples.md)，不把例子固定为每次课程。
+- 陌生单元／尚无可执行活动：先读 [学科研究与教学转换](../../personal-learning-suite/src/skills/learning-teaching/references/disciplinary-to-teaching.md)，按研究→认知设计→成品→反向审查推进并允许认知反馈学科；每环节只在影响当前目标时深入，充分内容保留。再读 SK03 的 [内容准备](../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md)，按内容加载 Encoding；首次实例化可参考 [正常教学实例](../../personal-learning-suite/src/skills/learning-teaching/references/teaching-examples.md)，不把例子固定为每次课程。
 - 当前教学：[C0](../../personal-learning-suite/src/skills/learning-teaching/references/c0.md)，按需要加载 [Encoding](../../personal-learning-suite/src/skills/learning-teaching/references/encoding.md) 或 [Post-Encoding](../../personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md)。
 - 复杂证明/完整代码：[整体设计与核验](../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md)。
 - 评价：[证据规则](../../personal-learning-suite/src/skills/learning-assessment/references/evidence-rules.md)；争议与重要结论加载 [诊断与复核](../../personal-learning-suite/src/skills/learning-assessment/references/diagnosis-review.md)。

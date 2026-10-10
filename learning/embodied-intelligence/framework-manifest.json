@@ -1,6 +1,6 @@
 {
   "format": "file-learning-framework-links/0.1",
-  "generated_at": "2026-10-10",
+  "generated_at": "2026-10-11",
   "mode": "manual_files",
   "shared_schema_reference": "pl-contracts/0.1.0",
   "native_skill_installation": false,
@@ -9,11 +9,11 @@
   "entries": [
     {
       "path": "AGENTS.md",
-      "sha256": "01100f12aa2c58bc54329bb59169594491e6ab623cb9ecb70df00b3d94134d51"
+      "sha256": "9c2a04e035ddd7e6b89b409b12e8079e96484a039c817e2c65be6804043d4165"
     },
     {
       "path": "FRAMEWORK.md",
-      "sha256": "185126dc92263b321c94139c852cc2d900cdeac0448cd172d7a9eb2cbc315f95"
+      "sha256": "4f10be89006dda56895daa33c5d3e19005e8fe3269f713c29855db650f46fc23"
     },
     {
       "path": "INTERACTION.md",
@@ -21,7 +21,7 @@
     },
     {
       "path": "MODEL_ENTRY.md",
-      "sha256": "cd934d17d932eedfe8d7ca5eb9334770bca9036345002bcfd0063d3e111d41cb"
+      "sha256": "0da8a064b44b92858c4ba944f3fbe27860a6994c7bb86be5de0d4997177d608b"
     },
     {
       "path": "START_PROMPT.md",
@@ -305,19 +305,19 @@
     },
     {
       "path": "../../personal-learning-suite/src/agents/AG0-coach.md",
-      "sha256": "e70210c2fe815786ed5dd79ca4001464c2360d536682d63eea67026f8a9c6a12"
+      "sha256": "68a070c152405c1590c88bf24972ac07802f9ca5e3b12d416423dceef59ebc93"
     },
     {
       "path": "../../personal-learning-suite/src/agents/AG1-design-planning.md",
-      "sha256": "af649aa7c76ab29a4c07e47384ed7b41d45ccc9d05b84ec6a45bc32c9e39a732"
+      "sha256": "8284b0b984273d6650c29d5810f23578a6883ae67cb5b9415cdaa389e5a13522"
     },
     {
       "path": "../../personal-learning-suite/src/agents/AG2-materials.md",
-      "sha256": "0433b53d542fd4e3ec9984b3cbc67f643dc9693b17db6d2f0bf237ae25123090"
+      "sha256": "93fbe8f3f6a1bce7979a3587211218de7fd910b4d14567e94e4b0b08b84efeca"
     },
     {
       "path": "../../personal-learning-suite/src/agents/AG3-assessment.md",
-      "sha256": "1d8925500630f6454cc7e7ee1ee2e97783001e13ec88002151895e24ba9f8877"
+      "sha256": "fd8ee8aa423c0e09a8dfe9f268198e7b0e40e393d33289be94b622ac0c14bfe1"
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-assessment/references/diagnosis-review.md",
@@ -329,7 +329,7 @@
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-assessment/references/product-review.md",
-      "sha256": "1cf97fb14c8d11b8de8c8989da754b619ce506c88f37e60799f909958b9ac025"
+      "sha256": "0e46ba56701aab439b95de7d9da70119f964e4964f51e44b8025b7b85ff8a60a"
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-assessment/references/runtime.md",
@@ -337,7 +337,7 @@
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-assessment/SKILL.md",
-      "sha256": "50a5337f7e11422b5aaa6f413ed69bf7796c4bb0517c64b69fb473688f2144fe"
+      "sha256": "791cfc8cd9092f034dfb93a1a49b57116222c71a4244ae8217fcdb1e27efff16"
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-goals/references/goal-design.md",
@@ -365,7 +365,7 @@
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-materials/references/domain-checks.md",
-      "sha256": "dc19f2ec5d619ad4085ccb9f5ca1c0f7569f623e6ec9a84c21ddae2465f54a31"
+      "sha256": "102f8689a8eb1c7bc3922c9b5ad9a7d1d32898e84a71d98529c72608cb19e367"
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-materials/references/materials-examples.md",
@@ -381,7 +381,7 @@
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-materials/SKILL.md",
-      "sha256": "cd3796069628bfeb0fbf26fc8ea8fb3b70105448996d0968b107f92d0a96daa9"
+      "sha256": "7119658c228f2914a2ef315f3437d8784c1b4e06de2e3fc32b66b0bdf3bfd0f7"
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-planning/references/multi-scale-plan.md",
@@ -425,7 +425,7 @@
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
-      "sha256": "fff7698124d92de0edd03f40545014fa050c733ebef66f8a1d85598a38d57d65"
+      "sha256": "d15c199236a8f01b3bc45da9e0650513ad2beb341ff53fead9ec49f3d6120a09"
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
@@ -449,7 +449,7 @@
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-teaching/SKILL.md",
-      "sha256": "0054623aec6d48d259301e861a9d0882278aa052caa97ee70e000b382ff0b594"
+      "sha256": "2b2aeab6ebb8b0ac22e905b44b542435310e4cd15be54a9f59dbdf8806c29267"
     },
     {
       "path": "../../personal-learning-suite/src/skills/personal-learning/references/entry-controls.md",
@@ -461,7 +461,7 @@
     },
     {
       "path": "../../personal-learning-suite/src/skills/personal-learning/references/session-entry.md",
-      "sha256": "dabc80178f30b30be79039352c13d44c80b16d535de1c7585b04e498bf30ef31"
+      "sha256": "bdcb30342b10254fc040e1b4760bdfadeb0dde67d13d7629e8b80276ba837a16"
     },
     {
       "path": "../../personal-learning-suite/src/skills/personal-learning/references/verification.md",
@@ -473,11 +473,15 @@
     },
     {
       "path": "../../personal-learning-suite/src/skills/personal-learning/SKILL.md",
-      "sha256": "93c0d219f7129abb860fe44bbd8a21881c6f211e4c684fbb211a1b86eb463937"
+      "sha256": "dfcb1808d34d7c61a6402f481734101a82c12c7ef7b13b302b9e4f4f8d042275"
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-teaching/references/preparation-quality-examples.md",
       "sha256": "3e195cfbdee0d4f8671b657604337d03a69d859504c8f4de8ac710ac7a989be9"
+    },
+    {
+      "path": "../../personal-learning-suite/src/skills/learning-teaching/references/disciplinary-to-teaching.md",
+      "sha256": "6d3983ce05a58d26ad83ec7f2e6f61039942a1e662082b438e3b6288588edbbd"
     }
   ]
 }
