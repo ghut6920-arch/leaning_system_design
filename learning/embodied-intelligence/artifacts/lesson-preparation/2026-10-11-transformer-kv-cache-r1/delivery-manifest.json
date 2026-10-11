@@ -1,0 +1,152 @@
+{
+  "revision": 1,
+  "generated_for": "preparation_review",
+  "files": [
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\00-scope-and-framework.md",
+      "bytes": 3708,
+      "sha256": "775430ff918e3248323d1b8cfd5d99ed068e29bff57a06112a7539aaeb79d9cf"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\01-disciplinary-analysis.md",
+      "bytes": 16520,
+      "sha256": "eeed79bb75422c06c6ccebd75e6586df48c6ce930075af8dff5e7816f03076da"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\02-source-register.md",
+      "bytes": 11049,
+      "sha256": "f68c5384443ec429539faf5252bb9f32ff2c8def28274823ab0d5ce31c70a1db"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\03-cognitive-design.md",
+      "bytes": 7434,
+      "sha256": "0879a91885d3d7f8b96ebb6986176238b86f961532e09a0fc47cd206fdb8e6a0"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\07-reverse-review.md",
+      "bytes": 17687,
+      "sha256": "5f5eb11ef8f3b5e0514c48afcf38a8cc5e25193f6de3525547ce2dd13d03aa06"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\09-delivery-verification.md",
+      "bytes": 3510,
+      "sha256": "b672b4b13a059a6e0f02c9f5733ce70d254491e690ce916b833f51d588b29421"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\完整备课.md",
+      "bytes": 98514,
+      "sha256": "5021ef366e865b5ed7d630bfd87a06536dbb86de95237edf3a00a59012afab5d"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\figures\\cache-timeline.png",
+      "bytes": 139273,
+      "sha256": "f404eebd452f522a054c3306c97547fdcc0c74650d7bf5d2ee78385327d8748b"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\figures\\cache-timeline.svg",
+      "bytes": 3156,
+      "sha256": "6b770b8e84fa18d8704f12c39660cf815d8fae812f1f8905c0a3abdf60599ee5"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\figures\\kv-capacity.png",
+      "bytes": 91471,
+      "sha256": "1c3f53744b4443c2e84dd9be332364390fbf45b8d0df5a5b8642e446bada3b7f"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\figures\\kv-capacity.svg",
+      "bytes": 1673,
+      "sha256": "637e49b6218f218e2c9ed60a7761dae4ff9eb1e8f930ede81ed248b7946c1e00"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\figures\\render-info.json",
+      "bytes": 2751,
+      "sha256": "d52b238ae1b67d7ba71c2abfccebdb8737827732518693f23295bb802c5452ca"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\figures\\two-layer-dependency.png",
+      "bytes": 139485,
+      "sha256": "c6d7af7b6e83dccb7971067de27d9790d26ff7b688588e53b42b0563809cdcce"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\figures\\two-layer-dependency.svg",
+      "bytes": 4792,
+      "sha256": "417ce967bfc3a59b4d551b9b72cdab501ea89614e7432b896d94cf95d09ee5b4"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\method-source-fingerprints.json",
+      "bytes": 1974,
+      "sha256": "04a2b3b742b07349ef0565a49cbda9a94e7c04a7a64951a67ffeb794c0283cc9"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\protected-baseline.json",
+      "bytes": 14706,
+      "sha256": "221261eb827b865f67b88f6f07c1733ce834b234d7a754ef80672466d308329c"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\README.md",
+      "bytes": 3132,
+      "sha256": "d34422b3e857c0fb0e79706ba81af925a98d50f23145971290f787ca642f3b37"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\teacher-run\\checks.json",
+      "bytes": 6106,
+      "sha256": "e6a04162e798f1e6753630bae31d35234ce0416b4b6d705572916f25af13a129"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\teacher-run\\numerical-walkthrough.md",
+      "bytes": 7322,
+      "sha256": "cfc18334de607f73790cdf7142fe07280bbeb35fd822d6412ee6d671acc182cf"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\teacher-run\\stdout.txt",
+      "bytes": 2211,
+      "sha256": "629ddc9acb05ad914010c892f50312b2024caccd982d61051393486866a6867d"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\teacher-run\\trace.csv",
+      "bytes": 228,
+      "sha256": "5b26b23c90da2fea15f398042081ed88ea36cb1671b1968a249480a3d4b19775"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\transformer-kv-cache\\preparation-r1\\build-delivery.ps1",
+      "bytes": 6105,
+      "sha256": "90b654e91bca133517e3916dacaafdae21e4a2d9b381a865ad933828b61f8f3f"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\transformer-kv-cache\\preparation-r1\\kv_cache_demo.py",
+      "bytes": 24173,
+      "sha256": "5f977f5eac4dbdd1e4e75f99cf165016b01fc14942079571363346f80832a24f"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\transformer-kv-cache\\preparation-r1\\README.md",
+      "bytes": 6188,
+      "sha256": "1398cef97fe3e209c274be8e5905fca4d56eddf6e965f0977ee0e09bf7778b6d"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\transformer-kv-cache\\preparation-r1\\render-figures.cjs",
+      "bytes": 3125,
+      "sha256": "a70e2090fa0fba58536830d567909b41cad6120520a9e148bfba76fc38e44dab"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\preparation-tests\\transformer-kv-cache-20261011\\backup\\08-support.md",
+      "bytes": 4231,
+      "sha256": "b8172cfb056b65d6b9b83ce9a501b8b8f0a1c5ffdc336d4358e449f4996af064"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\preparation-tests\\transformer-kv-cache-20261011\\teacher-reference\\06-reference.md",
+      "bytes": 11333,
+      "sha256": "c34f04c31c90d483a264ee335d95c0624f5fe22a7d260dbc49bca1c93d4f5721"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\preparation-tests\\transformer-kv-cache-20261011\\visible\\04-materials.md",
+      "bytes": 16211,
+      "sha256": "7e5ed7ff174f5f52789d7ddb664950f03933e54d8f0bce51d4a38b10ce2ca9e6"
+    },
+    {
+      "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\preparation-tests\\transformer-kv-cache-20261011\\visible\\05-continuous-work.md",
+      "bytes": 6281,
+      "sha256": "1984d80676449f16f2ac35529d60535c84c908f6a2ede44920286048391b5bc9"
+    }
+  ],
+  "integrity_report": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\artifacts\\lesson-preparation\\2026-10-11-transformer-kv-cache-r1\\delivery-checks.json"
+}

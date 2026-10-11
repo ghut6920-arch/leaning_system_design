@@ -1,0 +1,20 @@
+{
+  "revision": 1,
+  "purpose": "preparation_review_only",
+  "protected_files": 63,
+  "protected_content_changes": [],
+  "protected_file_set_changes": [],
+  "framework_entries_checked": 119,
+  "framework_mismatches": [],
+  "local_markdown_links_broken": [],
+  "teacher_numeric_tolerance": 1E-12,
+  "learner_events_created": false,
+  "learner_execution": false,
+  "master_read_back": true,
+  "raster_record_read": true,
+  "raster_visual_review": "performed by root via view_image; see 09",
+  "limitations": [
+    "No formal teaching or learner evidence",
+    "No production GPU/HF performance or long-context quality test"
+  ]
+}

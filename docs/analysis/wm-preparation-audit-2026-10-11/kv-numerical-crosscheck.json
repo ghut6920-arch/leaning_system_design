@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-11",
+  "kind": "reviewer_teacher_code_probe",
+  "learner_evidence": false,
+  "scope": "Existing fixed-parameter toy, random input sequences and chunk segmentation; no trained model or GPU benchmark",
+  "source": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\transformer-kv-cache\\preparation-r1\\kv_cache_demo.py",
+  "source_sha256": "5f977f5eac4dbdd1e4e75f99cf165016b01fc14942079571363346f80832a24f",
+  "source_unchanged": true,
+  "cases": [
+    {
+      "case": 0,
+      "token_count": 7,
+      "passed": true
+    },
+    {
+      "case": 1,
+      "token_count": 4,
+      "passed": true
+    },
+    {
+      "case": 2,
+      "token_count": 11,
+      "passed": true
+    },
+    {
+      "case": 3,
+      "token_count": 9,
+      "passed": true
+    },
+    {
+      "case": 4,
+      "token_count": 6,
+      "passed": true
+    },
+    {
+      "case": 5,
+      "token_count": 2,
+      "passed": true
+    },
+    {
+      "case": 6,
+      "token_count": 4,
+      "passed": true
+    },
+    {
+      "case": 7,
+      "token_count": 10,
+      "passed": true
+    },
+    {
+      "case": 8,
+      "token_count": 9,
+      "passed": true
+    },
+    {
+      "case": 9,
+      "token_count": 6,
+      "passed": true
+    },
+    {
+      "case": 10,
+      "token_count": 10,
+      "passed": true
+    },
+    {
+      "case": 11,
+      "token_count": 9,
+      "passed": true
+    },
+    {
+      "case": 12,
+      "token_count": 7,
+      "passed": true
+    },
+    {
+      "case": 13,
+      "token_count": 13,
+      "passed": true
+    },
+    {
+      "case": 14,
+      "token_count": 11,
+      "passed": true
+    },
+    {
+      "case": 15,
+      "token_count": 6,
+      "passed": true
+    },
+    {
+      "case": 16,
+      "token_count": 8,
+      "passed": true
+    },
+    {
+      "case": 17,
+      "token_count": 11,
+      "passed": true
+    },
+    {
+      "case": 18,
+      "token_count": 12,
+      "passed": true
+    },
+    {
+      "case": 19,
+      "token_count": 13,
+      "passed": true
+    },
+    {
+      "case": 20,
+      "token_count": 2,
+      "passed": true
+    },
+    {
+      "case": 21,
+      "token_count": 5,
+      "passed": true
+    },
+    {
+      "case": 22,
+      "token_count": 13,
+      "passed": true
+    },
+    {
+      "case": 23,
+      "token_count": 12,
+      "passed": true
+    }
+  ],
+  "maximum_logit_difference": 0.0,
+  "scalar_attention_passed": true,
+  "capacity_per_request_GiB": 8,
+  "capacity_two_requests_shared_prefix_GiB": 15,
+  "limitation": "Full and incremental paths share arithmetic operators. These checks validate cache/segmentation consistency, not independent certification of the whole implementation or learning effectiveness."
+}

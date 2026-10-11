@@ -1,0 +1,232 @@
+{
+  "revision": "preparation-r1",
+  "status": "teacher_preparation_only",
+  "learner_execution": false,
+  "trained_model": false,
+  "environment": {
+    "python": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "E:\\anaconda\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "dependencies": "Python standard library only",
+    "numeric_type": "Python float (binary64 on this runtime)",
+    "float_radix": 2,
+    "float_mantissa_bits": 53
+  },
+  "configuration": {
+    "layers": 2,
+    "d_model": 4,
+    "Hq": 2,
+    "Hkv": 2,
+    "head_dim": 2,
+    "vocab": 7,
+    "seed": 20261011,
+    "normalization": "per-token pre-LayerNorm + final LayerNorm",
+    "position": "absolute sinusoidal; positions start at 0",
+    "dropout": false
+  },
+  "prompt": [
+    1,
+    4,
+    2
+  ],
+  "forced_continuation": [
+    5,
+    0,
+    6,
+    3
+  ],
+  "tolerance": 1e-12,
+  "incremental_steps": [
+    {
+      "phase": "prefill",
+      "processed_positions": [
+        0,
+        1,
+        2
+      ],
+      "cache_lengths": [
+        3,
+        3
+      ],
+      "last_logits_predict_position": 3,
+      "pending_forced_token": 5,
+      "pending_position_in_cache": false,
+      "max_logit_difference": 0.0,
+      "old_KV_invariant": true
+    },
+    {
+      "phase": "decode",
+      "input_token": 5,
+      "processed_position": 3,
+      "cache_lengths": [
+        4,
+        4
+      ],
+      "last_logits_predict_position": 4,
+      "max_logit_difference": 0.0,
+      "max_full_cache_difference": 0.0,
+      "old_KV_invariant": true,
+      "last_logits": [
+        -0.9650781806393911,
+        -1.3369802383050673,
+        -0.7163595991530791,
+        -0.7598761744900023,
+        -0.0012389483617882835,
+        1.0460579853753997,
+        -1.175378702847572
+      ]
+    },
+    {
+      "phase": "decode",
+      "input_token": 0,
+      "processed_position": 4,
+      "cache_lengths": [
+        5,
+        5
+      ],
+      "last_logits_predict_position": 5,
+      "max_logit_difference": 0.0,
+      "max_full_cache_difference": 0.0,
+      "old_KV_invariant": true,
+      "last_logits": [
+        -0.08271866240036943,
+        -0.8871789895772116,
+        -0.44649498095668627,
+        -0.6034810988503259,
+        0.28335551983653573,
+        0.18230346136826908,
+        -0.24680929173173943
+      ]
+    },
+    {
+      "phase": "decode",
+      "input_token": 6,
+      "processed_position": 5,
+      "cache_lengths": [
+        6,
+        6
+      ],
+      "last_logits_predict_position": 6,
+      "max_logit_difference": 0.0,
+      "max_full_cache_difference": 0.0,
+      "old_KV_invariant": true,
+      "last_logits": [
+        0.3341677770035738,
+        -0.5710484489652095,
+        -0.323421344111807,
+        -0.34659758150645537,
+        0.3804479127534314,
+        -0.14845216290942517,
+        0.09568954074509611
+      ]
+    },
+    {
+      "phase": "decode",
+      "input_token": 3,
+      "processed_position": 6,
+      "cache_lengths": [
+        7,
+        7
+      ],
+      "last_logits_predict_position": 7,
+      "max_logit_difference": 0.0,
+      "max_full_cache_difference": 0.0,
+      "old_KV_invariant": true,
+      "last_logits": [
+        0.04201798080873453,
+        -0.7931701221593742,
+        -0.40274460221483327,
+        -0.5412785347223844,
+        0.3125363552353461,
+        0.07185799710867004,
+        -0.12953930011540646
+      ]
+    }
+  ],
+  "chunked_append": {
+    "old_cache_len": 3,
+    "query_len": 2,
+    "key_len": 5,
+    "absolute_positions": [
+      3,
+      4
+    ],
+    "mask": [
+      [
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ],
+    "max_logit_difference": 0.0,
+    "old_KV_invariant": true
+  },
+  "logical_counts": {
+    "definition": "Five forward observations: lengths 3,4,5,6,7; counts aggregated across two layers and two query heads; not elapsed time, FLOPs, physical bytes, or kernel benchmark.",
+    "projected_rows_per_Q_K_V_note": "Sum over layers; each Q/K/V separately has this many token rows.",
+    "full_prefix_recompute": {
+      "projected_rows_per_Q_K_V": 50,
+      "Q_K_V_rows_total": 150,
+      "dense_scores": 540,
+      "valid_causal_scores": 320
+    },
+    "incremental_cache": {
+      "projected_rows_per_Q_K_V": 14,
+      "Q_K_V_rows_total": 42,
+      "dense_scores": 124,
+      "valid_causal_scores": 112
+    }
+  },
+  "negative_examples": {
+    "edited_prefix_with_stale_cache_max_logit_diff": 0.023334534953964425,
+    "edited_prefix_rebuilt_cache_max_logit_diff": 0.0,
+    "position_2_layer_1_KV_diff_after_editing_position_1": 0.0,
+    "position_2_layer_2_KV_diff_after_editing_position_1": 0.02410763630481827,
+    "wrong_PE_0_instead_of_3_with_correct_causal_positions_max_logit_diff": 1.2167654985176246,
+    "drop_position_0_KV_retain_absolute_positions_max_logit_diff": 0.02713883507148207,
+    "chunk_wrong_local_square_mask_max_logit_diff": 0.07359257574200351,
+    "interpretation": "Counterexamples for these fixed inputs only; no claim every edit/drop must change every model output."
+  },
+  "scalar_attention_example": {
+    "scope": "local one-head attention, head_dim=1; separate parameters from decoder",
+    "q": 0.6931471805599453,
+    "K": [
+      1,
+      0,
+      1
+    ],
+    "V": [
+      2,
+      6,
+      10
+    ],
+    "all_weights": [
+      0.4,
+      0.2,
+      0.4
+    ],
+    "all_output": 6.0,
+    "old_two_weights": [
+      0.6666666666666666,
+      0.3333333333333333
+    ],
+    "old_two_output": 3.333333333333333
+  },
+  "capacity_formula": "2 * L * B * T * Hkv * dh * bytes_per_element",
+  "capacities": {
+    "MHA_Hkv32_B1_T32768_GiB": 16.0,
+    "GQA_Hkv8_B1_T32768_GiB": 4.0,
+    "MQA_Hkv1_B1_T32768_GiB": 0.5,
+    "GQA_Hkv8_B2_T65536_GiB": 16.0
+  },
+  "all_checks_passed": true
+}

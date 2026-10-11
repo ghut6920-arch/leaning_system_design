@@ -1,0 +1,768 @@
+{
+  "artifact_kind": "teacher_preparation_finite_numerical_verification",
+  "revision": 1,
+  "author_contribution": "AI wrote and ran the entire demonstration; no learner implementation or run",
+  "environment": {
+    "python_version": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+    "python_executable": "E:\\anaconda\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "standard_library_only": true
+  },
+  "code": {
+    "path": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\code\\attention-kv-preptest-20261011\\kv_cache_demo.py",
+    "sha256": "de7fb5181ceef1b348507cc948c31daafd883e2c5283019701eea4ff5b14b38e"
+  },
+  "source": {
+    "attention_and_causal_mask": "https://arxiv.org/abs/1706.03762, sections 3.1 and 3.2.1",
+    "cache_reasoning": "derived from fixed-parameter causal dependency invariance; paper is not cited as a KV-cache implementation"
+  },
+  "specification": {
+    "layers": 2,
+    "heads": 1,
+    "d": 2,
+    "causal": true,
+    "position_encoding": "none",
+    "layer_output": "x + softmax(q K^T / sqrt(2)) V W_O",
+    "layer_kv": "K,V projected from this layer's input",
+    "tokens": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ],
+      [
+        -0.5,
+        0.8
+      ],
+      [
+        0.3,
+        -0.6
+      ]
+    ],
+    "parameters": [
+      {
+        "wq": [
+          [
+            0.7,
+            -0.2
+          ],
+          [
+            0.3,
+            0.8
+          ]
+        ],
+        "wk": [
+          [
+            0.5,
+            0.4
+          ],
+          [
+            -0.3,
+            0.9
+          ]
+        ],
+        "wv": [
+          [
+            0.6,
+            -0.1
+          ],
+          [
+            0.2,
+            0.7
+          ]
+        ],
+        "wo": [
+          [
+            0.8,
+            0.1
+          ],
+          [
+            -0.2,
+            0.5
+          ]
+        ]
+      },
+      {
+        "wq": [
+          [
+            0.6,
+            0.2
+          ],
+          [
+            -0.4,
+            0.7
+          ]
+        ],
+        "wk": [
+          [
+            0.8,
+            -0.1
+          ],
+          [
+            0.2,
+            0.6
+          ]
+        ],
+        "wv": [
+          [
+            0.4,
+            0.3
+          ],
+          [
+            -0.1,
+            0.8
+          ]
+        ],
+        "wo": [
+          [
+            0.7,
+            -0.2
+          ],
+          [
+            0.3,
+            0.6
+          ]
+        ]
+      }
+    ],
+    "omitted": [
+      "training",
+      "real token semantics",
+      "FFN",
+      "LayerNorm",
+      "dropout",
+      "language head"
+    ]
+  },
+  "checks": {
+    "causal_cached_vs_recomputed": {
+      "passed": true,
+      "tolerance": 1e-12,
+      "prefixes": [
+        {
+          "tokens": 1,
+          "output_max_abs_error": 0.0,
+          "kv_max_abs_error": 0.0,
+          "cached_new_output": [
+            2.0567,
+            0.16499999999999998
+          ],
+          "recomputed_new_output": [
+            2.0567,
+            0.16499999999999998
+          ],
+          "appended_layer_traces": [
+            {
+              "input": [
+                1.0,
+                0.0
+              ],
+              "query": [
+                0.7,
+                -0.2
+              ],
+              "appended_key": [
+                0.5,
+                0.4
+              ],
+              "appended_value": [
+                0.6,
+                -0.1
+              ],
+              "weights": [
+                1.0
+              ],
+              "output": [
+                1.5,
+                0.009999999999999995
+              ]
+            },
+            {
+              "input": [
+                1.5,
+                0.009999999999999995
+              ],
+              "query": [
+                0.8959999999999999,
+                0.30700000000000005
+              ],
+              "appended_key": [
+                1.2020000000000002,
+                -0.14400000000000002
+              ],
+              "appended_value": [
+                0.5990000000000001,
+                0.45799999999999996
+              ],
+              "weights": [
+                1.0
+              ],
+              "output": [
+                2.0567,
+                0.16499999999999998
+              ]
+            }
+          ]
+        },
+        {
+          "tokens": 2,
+          "output_max_abs_error": 0.0,
+          "kv_max_abs_error": 0.0,
+          "cached_new_output": [
+            0.627974362224786,
+            1.6698295096031786
+          ],
+          "recomputed_new_output": [
+            0.627974362224786,
+            1.6698295096031786
+          ],
+          "appended_layer_traces": [
+            {
+              "input": [
+                0.0,
+                1.0
+              ],
+              "query": [
+                0.3,
+                0.8
+              ],
+              "appended_key": [
+                -0.3,
+                0.9
+              ],
+              "appended_value": [
+                0.2,
+                0.7
+              ],
+              "weights": [
+                0.4717458600743644,
+                0.5282541399256355
+              ],
+              "output": [
+                0.24643801283569494,
+                1.2001714903732288
+              ]
+            },
+            {
+              "input": [
+                0.24643801283569494,
+                1.2001714903732288
+              ],
+              "query": [
+                -0.3322057884478746,
+                0.889407645828399
+              ],
+              "appended_key": [
+                0.4371847083432017,
+                0.6954590929403678
+              ],
+              "appended_value": [
+                -0.021441943903044908,
+                1.0340685961492915
+              ],
+              "weights": [
+                0.330129387017551,
+                0.669870612982449
+              ],
+              "output": [
+                0.627974362224786,
+                1.6698295096031786
+              ]
+            }
+          ]
+        },
+        {
+          "tokens": 3,
+          "output_max_abs_error": 0.0,
+          "kv_max_abs_error": 0.0,
+          "cached_new_output": [
+            1.9252801861670117,
+            1.82991587841852
+          ],
+          "recomputed_new_output": [
+            1.9252801861670117,
+            1.82991587841852
+          ],
+          "appended_layer_traces": [
+            {
+              "input": [
+                1.0,
+                1.0
+              ],
+              "query": [
+                1.0,
+                0.6000000000000001
+              ],
+              "appended_key": [
+                0.2,
+                1.3
+              ],
+              "appended_value": [
+                0.8,
+                0.6
+              ],
+              "weights": [
+                0.3463629915121265,
+                0.24321210992488404,
+                0.41042489856298947
+              ],
+              "output": [
+                1.3914666852073156,
+                1.2494135720412642
+              ]
+            },
+            {
+              "input": [
+                1.3914666852073156,
+                1.2494135720412642
+              ],
+              "query": [
+                0.33511458230788366,
+                1.1528828374703481
+              ],
+              "appended_key": [
+                1.3630560625741055,
+                0.6105014747040269
+              ],
+              "appended_value": [
+                0.43164531687879987,
+                1.416970863195206
+              ],
+              "weights": [
+                0.21855013072359572,
+                0.3614486307907054,
+                0.4200012384856989
+              ],
+              "output": [
+                1.9252801861670117,
+                1.82991587841852
+              ]
+            }
+          ]
+        },
+        {
+          "tokens": 4,
+          "output_max_abs_error": 0.0,
+          "kv_max_abs_error": 0.0,
+          "cached_new_output": [
+            0.053054375900060013,
+            1.6306922863560833
+          ],
+          "recomputed_new_output": [
+            0.053054375900060013,
+            1.6306922863560833
+          ],
+          "appended_layer_traces": [
+            {
+              "input": [
+                -0.5,
+                0.8
+              ],
+              "query": [
+                -0.10999999999999999,
+                0.7400000000000001
+              ],
+              "appended_key": [
+                -0.49,
+                0.52
+              ],
+              "appended_value": [
+                -0.13999999999999996,
+                0.61
+              ],
+              "weights": [
+                0.1933569519746527,
+                0.2673056816382844,
+                0.3169695184187739,
+                0.22236784796828907
+              ],
+              "output": [
+                -0.2851853372267251,
+                1.085994132483818
+              ]
+            },
+            {
+              "input": [
+                -0.2851853372267251,
+                1.085994132483818
+              ],
+              "query": [
+                -0.6055088553295623,
+                0.7031588252933276
+              ],
+              "appended_key": [
+                -0.0109494432846165,
+                0.6801150132129633
+              ],
+              "appended_value": [
+                -0.22267354813907186,
+                0.7832397048190369
+              ],
+              "weights": [
+                0.14292718294377588,
+                0.3010222705666996,
+                0.194128841787368,
+                0.36192170470215657
+              ],
+              "output": [
+                0.053054375900060013,
+                1.6306922863560833
+              ]
+            }
+          ]
+        },
+        {
+          "tokens": 5,
+          "output_max_abs_error": 0.0,
+          "kv_max_abs_error": 0.0,
+          "cached_new_output": [
+            0.8703077550932135,
+            -0.12166273954329998
+          ],
+          "recomputed_new_output": [
+            0.8703077550932135,
+            -0.12166273954329998
+          ],
+          "appended_layer_traces": [
+            {
+              "input": [
+                0.3,
+                -0.6
+              ],
+              "query": [
+                0.03,
+                -0.54
+              ],
+              "appended_key": [
+                0.32999999999999996,
+                -0.42000000000000004
+              ],
+              "appended_value": [
+                0.06,
+                -0.44999999999999996
+              ],
+              "weights": [
+                0.20768091720689233,
+                0.16869856044319848,
+                0.14634765550989526,
+                0.19425685129484357,
+                0.28301601554517036
+              ],
+              "output": [
+                0.4769153176196958,
+                -0.48534437804778024
+              ]
+            },
+            {
+              "input": [
+                0.4769153176196958,
+                -0.48534437804778024
+              ],
+              "query": [
+                0.48028694179092957,
+                -0.244358001109507
+              ],
+              "appended_key": [
+                0.28446337848620057,
+                -0.33889815859063777
+              ],
+              "appended_value": [
+                0.23930056485265636,
+                -0.2452009071523155
+              ],
+              "weights": [
+                0.25470944544747265,
+                0.16992099304112046,
+                0.2361464556466525,
+                0.14631943493514546,
+                0.19290367092960892
+              ],
+              "output": [
+                0.8703077550932135,
+                -0.12166273954329998
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "new_query_same_old_kv": {
+      "passed": true,
+      "scope": "attention readout over the old prefix only; current token KV excluded to isolate Q",
+      "old_keys": [
+        [
+          0.5,
+          0.4
+        ],
+        [
+          -0.3,
+          0.9
+        ],
+        [
+          0.2,
+          1.3
+        ]
+      ],
+      "old_values": [
+        [
+          0.6,
+          -0.1
+        ],
+        [
+          0.2,
+          0.7
+        ],
+        [
+          0.8,
+          0.6
+        ]
+      ],
+      "query_a": [
+        0.03,
+        -0.54
+      ],
+      "query_b": [
+        -0.49999999999999994,
+        0.32000000000000006
+      ],
+      "weights_a": [
+        0.39730273030102964,
+        0.3227277670156191,
+        0.2799695026833513
+      ],
+      "weights_b": [
+        0.2598163249497823,
+        0.3860453062690444,
+        0.35413836878117333
+      ],
+      "readout_a": [
+        0.5269027937304227,
+        0.3541608654908412
+      ],
+      "readout_b": [
+        0.5164095512486169,
+        0.45673310316205684
+      ],
+      "readout_max_abs_difference": 0.10257223767121565,
+      "old_kv_unchanged": true
+    },
+    "delete_old_kv": {
+      "passed": true,
+      "removed_original_position": 0,
+      "query": [
+        0.03,
+        -0.54
+      ],
+      "full_readout": [
+        0.5269027937304227,
+        0.3541608654908412
+      ],
+      "deleted_readout": [
+        0.4787165465241161,
+        0.6535472422459807
+      ],
+      "weights_before": [
+        0.39730273030102964,
+        0.3227277670156191,
+        0.2799695026833513
+      ],
+      "weights_after": [
+        0.5354724224598066,
+        0.4645275775401934
+      ],
+      "readout_max_abs_difference": 0.2993863767551395
+    },
+    "early_edit_invalidation": {
+      "passed": true,
+      "edited_position": 0,
+      "old_token": [
+        1.0,
+        0.0
+      ],
+      "new_token": [
+        1.3,
+        -0.4
+      ],
+      "unedited_positions": [
+        1,
+        2
+      ],
+      "first_layer_unedited_key_errors": [
+        0.0,
+        0.0
+      ],
+      "second_layer_unedited_key_differences": [
+        0.04061698576638295,
+        0.04195091273955287
+      ],
+      "first_layer_inputs_before": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "first_layer_inputs_after": [
+        [
+          1.3,
+          -0.4
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "second_layer_inputs_before": [
+        [
+          1.5,
+          0.009999999999999995
+        ],
+        [
+          0.24643801283569494,
+          1.2001714903732288
+        ],
+        [
+          1.3914666852073156,
+          1.2494135720412642
+        ]
+      ],
+      "second_layer_inputs_after": [
+        [
+          1.942,
+          -0.535
+        ],
+        [
+          0.3012930157113403,
+          1.141619014575198
+        ],
+        [
+          1.4469457683179439,
+          1.188741897993781
+        ]
+      ],
+      "second_layer_keys_before": [
+        [
+          1.2020000000000002,
+          -0.14400000000000002
+        ],
+        [
+          0.4371847083432017,
+          0.6954590929403678
+        ],
+        [
+          1.3630560625741055,
+          0.6105014747040269
+        ]
+      ],
+      "second_layer_keys_after": [
+        [
+          1.4466,
+          -0.5152
+        ],
+        [
+          0.4693582154841119,
+          0.6548421071739848
+        ],
+        [
+          1.3953049942531115,
+          0.5685505619644741
+        ]
+      ],
+      "next_output_with_stale_cache": [
+        0.053054375900060013,
+        1.6306922863560833
+      ],
+      "next_output_after_prefix_rebuild": [
+        0.07668555678678357,
+        1.584284551275624
+      ],
+      "next_output_full_recompute": [
+        0.07668555678678357,
+        1.584284551275624
+      ],
+      "stale_max_abs_error": 0.046407735080459256,
+      "repaired_max_abs_error": 0.0
+    },
+    "bidirectional_append_counterexample": {
+      "passed": true,
+      "old_position": 0,
+      "old_output_before_append": [
+        1.947422562744645,
+        0.8033887356038037
+      ],
+      "old_output_after_append": [
+        1.6996267359535566,
+        0.7990168539681367
+      ],
+      "old_output_max_abs_difference": 0.24779582679108847,
+      "layer_2_old_key_max_abs_difference": 0.09626647200973859
+    },
+    "capacity_arithmetic": {
+      "passed": true,
+      "formula": "2 * L * sum(T_i) * n_kv * d_h * bytes_per_element",
+      "layers": 32,
+      "query_heads": 32,
+      "kv_heads": 8,
+      "head_dim": 128,
+      "bf16_bytes_per_element": 2,
+      "GiB_divisor": 1073741824,
+      "bytes_per_token": 131072,
+      "rows": [
+        {
+          "cached_tokens_per_sequence": 16384,
+          "bf16_batch1_bytes": 2147483648,
+          "bf16_batch1_GiB": 2.0,
+          "bf16_batch4_GiB": 8.0,
+          "ideal_int8_batch1_GiB": 1.0
+        },
+        {
+          "cached_tokens_per_sequence": 32768,
+          "bf16_batch1_bytes": 4294967296,
+          "bf16_batch1_GiB": 4.0,
+          "bf16_batch4_GiB": 16.0,
+          "ideal_int8_batch1_GiB": 2.0
+        },
+        {
+          "cached_tokens_per_sequence": 65536,
+          "bf16_batch1_bytes": 8589934592,
+          "bf16_batch1_GiB": 8.0,
+          "bf16_batch4_GiB": 32.0,
+          "ideal_int8_batch1_GiB": 4.0
+        }
+      ],
+      "ragged_lengths": [
+        16384,
+        32768
+      ],
+      "ragged_payload_GiB": 6.0,
+      "padded_payload_GiB": 8.0,
+      "mha_32_kv_heads_at_65536_GiB": 32.0,
+      "scope": "logical payload only, no quantization metadata, padding unless specified, fragmentation, weights, activations, workspace, or physical prefix sharing"
+    }
+  },
+  "stdout": "Teacher toy, revision 1: 2 layers, 1 head, d=2, fixed parameters, no position encoding.\nNo training, model quality test, benchmark, GPU measurement, or learner performance record.\n[PASS] prefix 1: all outputs max error=0.000e+00, all layer KV max error=0.000e+00\n[PASS] prefix 2: all outputs max error=0.000e+00, all layer KV max error=0.000e+00\n[PASS] prefix 3: all outputs max error=0.000e+00, all layer KV max error=0.000e+00\n[PASS] prefix 4: all outputs max error=0.000e+00, all layer KV max error=0.000e+00\n[PASS] prefix 5: all outputs max error=0.000e+00, all layer KV max error=0.000e+00\n[PASS] new Q / same old KV: readout difference=0.102572; old KV unchanged\n[PASS] delete old KV pair at position 0: readout difference=0.299386\n[PASS] early edit: unedited layer 1 K differences=[0.0, 0.0]\n[PASS] early edit: unedited downstream layer 2 K differences=0.040617, 0.041951\n[PASS] stale cache error=0.046408; rebuilt cache error=0.000e+00\n[PASS] bidirectional append: old output difference=0.247796, layer 2 old K difference=0.096266\n[PASS] KV payload T=16384: BF16 B=1 2 GiB, B=4 8 GiB; ideal INT8 B=1 1 GiB\n[PASS] KV payload T=32768: BF16 B=1 4 GiB, B=4 16 GiB; ideal INT8 B=1 2 GiB\n[PASS] KV payload T=65536: BF16 B=1 8 GiB, B=4 32 GiB; ideal INT8 B=1 4 GiB\n[PASS] ragged [16384,32768]: 6 GiB; padded [32768,32768]: 8 GiB; 32-KV-head MHA at T=65536: 32 GiB\nAll 6 finite checks passed; tolerance=1e-12.\n",
+  "limits": [
+    "finite arithmetic checks do not prove equality for every possible model or input",
+    "the causal invariant additionally requires unchanged prefix, weights, positions, visibility rules, and deterministic prefix-local computation",
+    "no latency, GPU throughput, long-context quality, or real-model INT8 accuracy measured",
+    "this run is teacher preparation, not actual teaching or a learner performance event"
+  ]
+}

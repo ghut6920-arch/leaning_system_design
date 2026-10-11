@@ -1,0 +1,13 @@
+Transformer KV Cache teacher preparation r1; standard library; two-layer fixed toy.
+Prefill length 3: final logits predict position 3; forced token 5 at position 3 is not yet cached.
+prefill: cache_lengths=[3, 3], logits_diff=0.000e+00, old_KV_invariant=True
+decode: cache_lengths=[4, 4], logits_diff=0.000e+00, old_KV_invariant=True
+decode: cache_lengths=[5, 5], logits_diff=0.000e+00, old_KV_invariant=True
+decode: cache_lengths=[6, 6], logits_diff=0.000e+00, old_KV_invariant=True
+decode: cache_lengths=[7, 7], logits_diff=0.000e+00, old_KV_invariant=True
+Chunk q_len=2, old_cache=3: mask=[[True, True, True, True, False], [True, True, True, True, True]], logits_diff=0.000e+00.
+Logical counts: {"definition": "Five forward observations: lengths 3,4,5,6,7; counts aggregated across two layers and two query heads; not elapsed time, FLOPs, physical bytes, or kernel benchmark.", "projected_rows_per_Q_K_V_note": "Sum over layers; each Q/K/V separately has this many token rows.", "full_prefix_recompute": {"projected_rows_per_Q_K_V": 50, "Q_K_V_rows_total": 150, "dense_scores": 540, "valid_causal_scores": 320}, "incremental_cache": {"projected_rows_per_Q_K_V": 14, "Q_K_V_rows_total": 42, "dense_scores": 124, "valid_causal_scores": 112}}
+Fixed-input negative examples: {"edited_prefix_with_stale_cache_max_logit_diff": 0.023334534953964425, "edited_prefix_rebuilt_cache_max_logit_diff": 0.0, "position_2_layer_1_KV_diff_after_editing_position_1": 0.0, "position_2_layer_2_KV_diff_after_editing_position_1": 0.02410763630481827, "wrong_PE_0_instead_of_3_with_correct_causal_positions_max_logit_diff": 1.2167654985176246, "drop_position_0_KV_retain_absolute_positions_max_logit_diff": 0.02713883507148207, "chunk_wrong_local_square_mask_max_logit_diff": 0.07359257574200351, "interpretation": "Counterexamples for these fixed inputs only; no claim every edit/drop must change every model output."}
+Scalar example: weights=[0.4, 0.2, 0.4], output=6.0; old-only output=3.333333333333333.
+Capacity GiB: {"MHA_Hkv32_B1_T32768_GiB": 16.0, "GQA_Hkv8_B1_T32768_GiB": 4.0, "MQA_Hkv1_B1_T32768_GiB": 0.5, "GQA_Hkv8_B2_T65536_GiB": 16.0}
+All checks passed. Teacher run only; no learning progress changed.

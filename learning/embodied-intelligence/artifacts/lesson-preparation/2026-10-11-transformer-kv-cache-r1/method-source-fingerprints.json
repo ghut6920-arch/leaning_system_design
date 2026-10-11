@@ -1,0 +1,42 @@
+[
+  {
+    "resource_path": "..\\..\\personal-learning-suite\\resources\\strategies\\strategy-index.json",
+    "sha256": "59a70c5da52e89f0da3e52c8e42267881168b99f4c864f5e86d11030be33685d",
+    "resource_revision": "pl-strategies/0.1.0"
+  },
+  {
+    "resource_path": "..\\..\\personal-learning-suite\\resources\\strategies\\common-constraints.json",
+    "sha256": "e217a01ac8e71eae367cd4132cbc084c5c25d1f2a866341b05cacba6d15f3026",
+    "resource_revision": "pl-strategies/0.1.0"
+  },
+  {
+    "resource_path": "..\\..\\personal-learning-suite\\resources\\strategies\\encoding\\S05.json",
+    "sha256": "75be952e8bc57ae87fe6d228cf1097f7dcf8db591987794578324c757fbeca36",
+    "resource_revision": "pl-strategies/0.1.0"
+  },
+  {
+    "resource_path": "..\\..\\personal-learning-suite\\resources\\strategies\\encoding\\R04.json",
+    "sha256": "24606c5326153afb271a0280cd4fe1439dae34796af44d1c8eb667dd027fdde9",
+    "resource_revision": "pl-strategies/0.1.0"
+  },
+  {
+    "resource_path": "..\\..\\personal-learning-suite\\resources\\strategies\\encoding\\S09.json",
+    "sha256": "f844542d840596a094784e21c26cf92c03fefbe0601aaa3816d775c469dea0e3",
+    "resource_revision": "pl-strategies/0.1.0"
+  },
+  {
+    "resource_path": "..\\..\\personal-learning-suite\\resources\\strategies\\post\\retrieve-relation.json",
+    "sha256": "9a40c98a6eddedc06cab02155aed54480c242f3f7bd2bbf70e116a0c87ec2dbc",
+    "resource_revision": "pl-strategies/0.1.0"
+  },
+  {
+    "resource_path": "..\\..\\personal-learning-suite\\resources\\strategies\\post\\select-method.json",
+    "sha256": "b33844944758174619f882a3131a60f3367782fcf88a94e3f2cb00eab2d022b8",
+    "resource_revision": "pl-strategies/0.1.0"
+  },
+  {
+    "resource_path": "..\\..\\personal-learning-suite\\resources\\strategies\\post\\conditional-update.json",
+    "sha256": "dd9ff6021b01147af7e8d51d610f1e5ba3174ccf7d0061903462f4ec2f4e9874",
+    "resource_revision": "pl-strategies/0.1.0"
+  }
+]

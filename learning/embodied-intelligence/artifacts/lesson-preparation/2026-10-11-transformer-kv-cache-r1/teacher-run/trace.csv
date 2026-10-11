@@ -1,0 +1,6 @@
+phase,cache_lengths,max_logit_difference,old_KV_invariant,next_predict_position
+prefill,"[3, 3]",0.0,True,3
+decode,"[4, 4]",0.0,True,4
+decode,"[5, 5]",0.0,True,5
+decode,"[6, 6]",0.0,True,6
+decode,"[7, 7]",0.0,True,7

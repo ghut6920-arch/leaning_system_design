@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-11",
+  "status": "pass",
+  "protected_files_checked": 694,
+  "protected_files_changed": [],
+  "markdown_files_checked": 53,
+  "links_checked": 498,
+  "broken_links": [],
+  "missing_documents": [],
+  "manifest_entries": 119,
+  "manifest_errors": [],
+  "limits": [
+    "Integrity and discoverability only; no semantic or learning-outcome score",
+    "No runtime APIs or real learning sessions executed"
+  ]
+}

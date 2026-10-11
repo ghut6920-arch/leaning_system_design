@@ -1,0 +1,171 @@
+{
+  "artifact_kind": "AI_test_preparation_delivery_static_check",
+  "checked_at_utc": "2026-10-11T00:31:38.0433859Z",
+  "scope": [
+    "artifacts/test-prep/kv-cache-20261011-independent-b",
+    "questions/test-prep/kv-cache-20261011-independent-b",
+    "materials/test-prep/kv-cache-20261011-independent-b",
+    "code/kv-cache/test-prep-20261011-b"
+  ],
+  "formal_teaching_performed": false,
+  "learner_performance_evidence": false,
+  "same_unit_prior_preparation_read": false,
+  "no_old_preparation_scope_note": "Only the four explicitly named new preparation directories were enumerated for this delivery check; prior same-unit files were not read. This is a process record, not an automatic audit of every earlier tool action.",
+  "framework_fingerprint_previously_checked": {
+    "manifest_entries": 119,
+    "matched": 119,
+    "missing_or_mismatched": 0,
+    "repeated_without_change": false
+  },
+  "local_links": {
+    "checked": 12,
+    "broken": 0,
+    "details": [
+      {
+        "source": "artifacts/test-prep/kv-cache-20261011-independent-b/备课成品.md",
+        "target": "../../../questions/test-prep/kv-cache-20261011-independent-b/visible-input.md",
+        "exists": true
+      },
+      {
+        "source": "artifacts/test-prep/kv-cache-20261011-independent-b/备课成品.md",
+        "target": "../../../questions/test-prep/kv-cache-20261011-independent-b/questions.md",
+        "exists": true
+      },
+      {
+        "source": "artifacts/test-prep/kv-cache-20261011-independent-b/备课成品.md",
+        "target": "../../../questions/test-prep/kv-cache-20261011-independent-b/teacher-reference.md",
+        "exists": true
+      },
+      {
+        "source": "artifacts/test-prep/kv-cache-20261011-independent-b/备课成品.md",
+        "target": "../../../questions/test-prep/kv-cache-20261011-independent-b/support.md",
+        "exists": true
+      },
+      {
+        "source": "artifacts/test-prep/kv-cache-20261011-independent-b/备课成品.md",
+        "target": "../../../materials/test-prep/kv-cache-20261011-independent-b/disciplinary-sources.md",
+        "exists": true
+      },
+      {
+        "source": "artifacts/test-prep/kv-cache-20261011-independent-b/备课成品.md",
+        "target": "../../../materials/test-prep/kv-cache-20261011-independent-b/mechanism-analysis.md",
+        "exists": true
+      },
+      {
+        "source": "artifacts/test-prep/kv-cache-20261011-independent-b/备课成品.md",
+        "target": "framework-use.md",
+        "exists": true
+      },
+      {
+        "source": "artifacts/test-prep/kv-cache-20261011-independent-b/备课成品.md",
+        "target": "../../../code/kv-cache/test-prep-20261011-b/README.md",
+        "exists": true
+      },
+      {
+        "source": "artifacts/test-prep/kv-cache-20261011-independent-b/备课成品.md",
+        "target": "teacher-check-output.json",
+        "exists": true
+      },
+      {
+        "source": "artifacts/test-prep/kv-cache-20261011-independent-b/备课成品.md",
+        "target": "review.md",
+        "exists": true
+      },
+      {
+        "source": "artifacts/test-prep/kv-cache-20261011-independent-b/备课成品.md",
+        "target": "verification.json",
+        "exists": true
+      },
+      {
+        "source": "questions/test-prep/kv-cache-20261011-independent-b/visible-input.md",
+        "target": "../../../code/kv-cache/test-prep-20261011-b/demo.py",
+        "exists": true
+      }
+    ]
+  },
+  "real_state_readback": [
+    {
+      "path": "state/control.md",
+      "baseline_sha256": "d7ba0aa3bf5c84b0a6888bbcccb48da66ddb7c3dbdc623daf31ff99b44692d87",
+      "current_sha256": "d7ba0aa3bf5c84b0a6888bbcccb48da66ddb7c3dbdc623daf31ff99b44692d87",
+      "unchanged": true
+    },
+    {
+      "path": "state/current.md",
+      "baseline_sha256": "0cdb6c945d41f929f66c9d1752403bb47b516e10ddd6fb763e160f84e3719977",
+      "current_sha256": "0cdb6c945d41f929f66c9d1752403bb47b516e10ddd6fb763e160f84e3719977",
+      "unchanged": true
+    }
+  ],
+  "teacher_execution_record": {
+    "code_sha256": "d5e3cb6c71ee9498685cd7bfe843c3c0ffdca69fbf48b1f7dd45ba8b0e111b93",
+    "output_source_sha256": "d5e3cb6c71ee9498685cd7bfe843c3c0ffdca69fbf48b1f7dd45ba8b0e111b93",
+    "source_matches_output": true,
+    "executed_at_utc": "2026-10-11T08:20:15.819686+08:00",
+    "prefixes": 6,
+    "all_prefixes_passed": true,
+    "negative_examples": 3,
+    "negative_example_divergences": [
+      true,
+      true,
+      true
+    ],
+    "rerun_for_delivery": false,
+    "scope_note": "Read back the actual unchanged teacher execution record and hash. No GPU service measurement or new learning evidence."
+  },
+  "artifact_sha256": [
+    {
+      "path": "artifacts/test-prep/kv-cache-20261011-independent-b/备课成品.md",
+      "sha256": "80569a85ebfb27f73792a3a6efcb5d1538f75b2eb82bafcf3355a416afbfa9ba"
+    },
+    {
+      "path": "artifacts/test-prep/kv-cache-20261011-independent-b/framework-use.md",
+      "sha256": "8020b8519be8a797317486dbbae6e820ae70382c3c4428dd3ea094ed5de21030"
+    },
+    {
+      "path": "artifacts/test-prep/kv-cache-20261011-independent-b/review-questions.md",
+      "sha256": "b50c6021a91ec3df6d742a7805beb1cdb9d8911744978487b5c03f11f25ece89"
+    },
+    {
+      "path": "artifacts/test-prep/kv-cache-20261011-independent-b/review.md",
+      "sha256": "d14ea735ffb85eb5ab8bbd636cbd292c7ae4b06ab3567c1a357ceb48a92061ce"
+    },
+    {
+      "path": "artifacts/test-prep/kv-cache-20261011-independent-b/teacher-check-output.json",
+      "sha256": "6dc2cd127c21e697842ff0f8ec9bdbb0c69e053fe4d6f81ac46d54d5ea108357"
+    },
+    {
+      "path": "code/kv-cache/test-prep-20261011-b/demo.py",
+      "sha256": "d5e3cb6c71ee9498685cd7bfe843c3c0ffdca69fbf48b1f7dd45ba8b0e111b93"
+    },
+    {
+      "path": "code/kv-cache/test-prep-20261011-b/README.md",
+      "sha256": "548de08733662acdbfc639829e50d50d0049de837bd90a93b13c98b08ad2ae33"
+    },
+    {
+      "path": "materials/test-prep/kv-cache-20261011-independent-b/disciplinary-sources.md",
+      "sha256": "52ca2fd2897df91c9866f31c307f47075874d840e00603a37fc7899732c651fd"
+    },
+    {
+      "path": "materials/test-prep/kv-cache-20261011-independent-b/mechanism-analysis.md",
+      "sha256": "93f418366bbc7db793a153c41cb8b2879b6938e0d957c52e7ec70d2bdba60eef"
+    },
+    {
+      "path": "questions/test-prep/kv-cache-20261011-independent-b/questions.md",
+      "sha256": "b7a5b218511495c998cb605b94f73eba40b276130f3c0a51d1c53d8020ec7111"
+    },
+    {
+      "path": "questions/test-prep/kv-cache-20261011-independent-b/support.md",
+      "sha256": "f9262149e454af8afc1490acb86fb7534a940d59f35324a04e857472b38a0dde"
+    },
+    {
+      "path": "questions/test-prep/kv-cache-20261011-independent-b/teacher-reference.md",
+      "sha256": "fdd6808f5cd64cb40a9461847d902ebaeecebf300256f741bf76ddbd6d95a3d9"
+    },
+    {
+      "path": "questions/test-prep/kv-cache-20261011-independent-b/visible-input.md",
+      "sha256": "9719ba7cbc1fdf9f626e3e4b4c282a87335fe25e344e41ead7027c34faff98db"
+    }
+  ],
+  "all_required_static_checks_passed": true
+}

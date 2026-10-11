@@ -1,0 +1,216 @@
+{
+  "artifact_kind": "AI_teacher_reference_execution",
+  "author": "AI mechanism_audit subagent",
+  "version": "1.0.0",
+  "source_sha256": "d5e3cb6c71ee9498685cd7bfe843c3c0ffdca69fbf48b1f7dd45ba8b0e111b93",
+  "executed_at_utc": "2026-10-11T00:20:15.819686+00:00",
+  "python_version": "3.12.3",
+  "specification": {
+    "layers": 2,
+    "attention_heads": 1,
+    "head_dimension": 4,
+    "causal": true,
+    "rope_base": 10000,
+    "positionwise_operation": "tanh(hidden + attention)",
+    "trained_language_model": false
+  },
+  "numeric_checks": {
+    "comparison_tolerance": 1e-10,
+    "all_prefixes_passed": true,
+    "prefix_comparisons": [
+      {
+        "prefix_length": 1,
+        "logical_positions": [
+          0
+        ],
+        "last_hidden": [
+          0.5711901003220188,
+          0.8907736443428603,
+          -0.44753617445146493,
+          0.7033308101648272
+        ],
+        "hidden_max_abs_error": 0.0,
+        "all_layers_kv_max_abs_error": 0.0
+      },
+      {
+        "prefix_length": 2,
+        "logical_positions": [
+          0,
+          1
+        ],
+        "last_hidden": [
+          0.7822105934719029,
+          0.3236994734581636,
+          0.6350187734337742,
+          0.8718422773443189
+        ],
+        "hidden_max_abs_error": 0.0,
+        "all_layers_kv_max_abs_error": 0.0
+      },
+      {
+        "prefix_length": 3,
+        "logical_positions": [
+          0,
+          1,
+          2
+        ],
+        "last_hidden": [
+          -0.080821448101034,
+          0.7549197543726982,
+          0.79951930956499,
+          0.4847973959507931
+        ],
+        "hidden_max_abs_error": 0.0,
+        "all_layers_kv_max_abs_error": 0.0
+      },
+      {
+        "prefix_length": 4,
+        "logical_positions": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "last_hidden": [
+          0.7970522127833238,
+          0.6963040401894254,
+          0.27785857216981363,
+          0.7759180863623497
+        ],
+        "hidden_max_abs_error": 0.0,
+        "all_layers_kv_max_abs_error": 0.0
+      },
+      {
+        "prefix_length": 5,
+        "logical_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "last_hidden": [
+          0.32871559527013183,
+          0.8221449317378864,
+          0.6709671974827703,
+          0.8100826459674777
+        ],
+        "hidden_max_abs_error": 0.0,
+        "all_layers_kv_max_abs_error": 0.0
+      },
+      {
+        "prefix_length": 6,
+        "logical_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "last_hidden": [
+          0.7021398472974045,
+          0.1322458535410867,
+          0.8203424654368587,
+          0.6969798074695317
+        ],
+        "hidden_max_abs_error": 0.0,
+        "all_layers_kv_max_abs_error": 0.0
+      }
+    ],
+    "negative_examples": [
+      {
+        "case": "edited_old_prefix_with_stale_cache",
+        "reference_last_hidden": [
+          0.4804751188262515,
+          0.8287882567592465,
+          0.6829042100906042,
+          0.8209451504236676
+        ],
+        "changed_last_hidden": [
+          0.32871559527013183,
+          0.8221449317378864,
+          0.6709671974827703,
+          0.8100826459674777
+        ],
+        "max_abs_error": 0.15175952355611966,
+        "condition_broken": "Token 0 changed but old per-layer KV was reused.",
+        "divergence_observed": true
+      },
+      {
+        "case": "reset_new_logical_position_to_zero",
+        "reference_last_hidden": [
+          0.32871559527013183,
+          0.8221449317378864,
+          0.6709671974827703,
+          0.8100826459674777
+        ],
+        "changed_last_hidden": [
+          0.33960807894416634,
+          0.821254429743302,
+          0.6643841833674232,
+          0.8129536163384363
+        ],
+        "max_abs_error": 0.010892483674034503,
+        "condition_broken": "Cached keys retain positions 0..3, while new query/key use 0 instead of 4.",
+        "divergence_observed": true
+      },
+      {
+        "case": "truncate_global_attention_cache",
+        "reference_last_hidden": [
+          0.32871559527013183,
+          0.8221449317378864,
+          0.6709671974827703,
+          0.8100826459674777
+        ],
+        "changed_last_hidden": [
+          0.21934455043305615,
+          0.8391025032348969,
+          0.7147325791853634,
+          0.7816317867157236
+        ],
+        "max_abs_error": 0.10937104483707569,
+        "condition_broken": "Deleted positions 0..1 from both layer caches without changing the global-attention reference model.",
+        "divergence_observed": true
+      }
+    ],
+    "maximum_hidden_error": 0.0,
+    "maximum_all_layers_kv_error": 0.0
+  },
+  "capacity_checks": {
+    "model_for_capacity_only": {
+      "layers": 32,
+      "kv_heads": 8,
+      "head_dimension": 128,
+      "query_heads": 32,
+      "max_cached_length": 32768,
+      "target_active_concurrency": 4
+    },
+    "bf16_bytes_per_token": 131072,
+    "bf16_KiB_per_token": 128.0,
+    "bf16_single_request_GiB": 4.0,
+    "bf16_four_requests_GiB": 16.0,
+    "fp8_four_requests_payload_only_GiB": 8.0,
+    "snapshot_lengths": [
+      4096,
+      8192,
+      16384,
+      32768
+    ],
+    "snapshot_bf16_GiB": 7.5,
+    "cache_system_budget_GiB": 12,
+    "reserved_overhead_GiB": 1,
+    "raw_payload_budget_GiB": 11,
+    "bf16_floor_cap": 2,
+    "fp8_payload_only_floor_cap": 5,
+    "page_tokens": 16,
+    "bf16_page_MiB": 2.0,
+    "limits": [
+      "Capacity arithmetic does not simulate a 32-layer trained model.",
+      "FP8 is payload arithmetic, not implemented quantization or measured quality.",
+      "Floor caps require the assumed 1 GiB overhead allowance to be sufficient; verify real peak memory.",
+      "No timing, hardware, bandwidth, throughput, or service-latency measurement was performed."
+    ]
+  },
+  "learner_performance_evidence": false
+}

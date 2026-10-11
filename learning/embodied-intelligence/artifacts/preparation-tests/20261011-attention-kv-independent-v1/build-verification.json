@@ -1,0 +1,23 @@
+{
+  "artifact_kind": "teacher_preparation_package_verification",
+  "date": "2026-10-11",
+  "teacher_report_hash_matches": true,
+  "finite_checks": 6,
+  "problem_arithmetic_checked": true,
+  "state_hashes_unchanged": {
+    "control.md": "d7ba0aa3bf5c84b0a6888bbcccb48da66ddb7c3dbdc623daf31ff99b44692d87",
+    "current.md": "0cdb6c945d41f929f66c9d1752403bb47b516e10ddd6fb763e160f84e3719977"
+  },
+  "resource_file_sha256": {
+    "encoding/S05": "75be952e8bc57ae87fe6d228cf1097f7dcf8db591987794578324c757fbeca36",
+    "encoding/R06": "bf99f2ad28c2871ea3ea20d63fc9adb41f85ccef326488da9ac405d3a645b1bf",
+    "encoding/D04": "c8757b56e85a06e45d62e6c70e9acbf7393756364eca737cfd7470d899ffd832",
+    "encoding/R10": "16612c0a90f4a9fafe9f8e2e1da6f27d055ce0feed55cd56155433c4a147e597",
+    "post/retrieve-relation": "9a40c98a6eddedc06cab02155aed54480c242f3f7bd2bbf70e116a0c87ec2dbc",
+    "post/select-method": "b33844944758174619f882a3131a60f3367782fcf88a94e3f2cb00eab2d022b8",
+    "post/conditional-update": "dd9ff6021b01147af7e8d51d610f1e5ba3174ccf7d0061903462f4ec2f4e9874"
+  },
+  "builder_sha256": "bd50f85e305abbbade5cc1ad5cade65193146cbcb2d7332980d5c2b1f86c7464",
+  "scope": "new preparation artifacts and selected rules only; no real model benchmark or learner performance",
+  "local_links_checked": 35
+}
