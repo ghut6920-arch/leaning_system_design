@@ -1,0 +1,14 @@
+[
+  {
+    "order": 14,
+    "target": "/root/ag3_review",
+    "mode": "send_message",
+    "message": "AG2最终返回用途文件为 material-uses-v3.md（v1/v2保留；仅澄清责任方确认、历史研究时点与概述措辞），其余被审成品版本不变。你此前收到/读取的v1已归档，请核这一个summary的实际v3或版本差异，记录实际读取与相容性即可。补查网络失败及其复核边界如实保留，不冒称原文已读，不把这件事改写为作者材料缺失。正常判断可依据实际取得的可核内容范围完成。"
+  },
+  {
+    "order": 15,
+    "target": "/root/ag1_design",
+    "mode": "send_message",
+    "message": "AG2最终用途交付为material-uses-v3（v1/v2保留，仅澄清责任方确认、历史研究时点与概述措辞），其余最终成品版本不变。请在当前materialization-check-v2保存前确认这一实际用途版本/相容性；若v2已保存则另存新增说明版本，不覆盖已观察稿。父入口已开始AG3审查，最终采用仍pending。"
+  }
+]

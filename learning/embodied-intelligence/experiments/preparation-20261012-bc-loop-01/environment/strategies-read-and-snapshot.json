@@ -1,0 +1,32 @@
+[
+  {
+    "source": "..\\..\\personal-learning-suite\\resources\\strategies\\strategy-index.json",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\resources\\strategies\\strategy-index.json",
+    "sha256": "59a70c5da52e89f0da3e52c8e42267881168b99f4c864f5e86d11030be33685d",
+    "read_by": "AG1 cognitive-design-v1 §§5–6 receipt"
+  },
+  {
+    "source": "..\\..\\personal-learning-suite\\resources\\strategies\\common-constraints.json",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\resources\\strategies\\common-constraints.json",
+    "sha256": "e217a01ac8e71eae367cd4132cbc084c5c25d1f2a866341b05cacba6d15f3026",
+    "read_by": "AG1 cognitive-design-v1 §§5–6 receipt"
+  },
+  {
+    "source": "..\\..\\personal-learning-suite\\resources\\strategies\\encoding\\R07.json",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\resources\\strategies\\encoding\\R07.json",
+    "sha256": "20afeaab3c7ff49d5169fa505b3dfdc7330783b0fed7adda0b17db2453ec0d6c",
+    "read_by": "AG1 cognitive-design-v1 §§5–6 receipt"
+  },
+  {
+    "source": "..\\..\\personal-learning-suite\\resources\\strategies\\post\\retrieve-relation.json",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\resources\\strategies\\post\\retrieve-relation.json",
+    "sha256": "9a40c98a6eddedc06cab02155aed54480c242f3f7bd2bbf70e116a0c87ec2dbc",
+    "read_by": "AG1 cognitive-design-v1 §§5–6 receipt"
+  },
+  {
+    "source": "..\\..\\personal-learning-suite\\resources\\strategies\\post\\select-method.json",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\resources\\strategies\\post\\select-method.json",
+    "sha256": "b33844944758174619f882a3131a60f3367782fcf88a94e3f2cb00eab2d022b8",
+    "read_by": "AG1 cognitive-design-v1 §§5–6 receipt"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "source": "../../personal-learning-suite/contracts/shared-contracts.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\contracts\\shared-contracts.md",
+    "sha256": "7a83601a8e4d0741b41322fc8883c161b44135c4e56c421eb4f3f408fac8d77e"
+  },
+  {
+    "source": "../../personal-learning-suite/src/agents/AG0-coach.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\agents\\AG0-coach.md",
+    "sha256": "fd2fab691e8089a9e2df4ecf4748711e5445fee6adda4680e2bef2fff418fe5f"
+  },
+  {
+    "source": "../../personal-learning-suite/src/agents/AG1-design-planning.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\agents\\AG1-design-planning.md",
+    "sha256": "612786c22ac09cbe5fcfca4f711b74c6d6a5a438b8a7ed754aadd3cabd5ba946"
+  },
+  {
+    "source": "../../personal-learning-suite/src/agents/AG2-materials.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\agents\\AG2-materials.md",
+    "sha256": "02a0ae21c9dd407ec5a5ea705ddad63bab09b1d4ffa73ad035049b3a20a3f23e"
+  },
+  {
+    "source": "../../personal-learning-suite/src/agents/AG3-assessment.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\agents\\AG3-assessment.md",
+    "sha256": "ed4a300883403ac145dbe247418b385894f678c82f439e65997ab99cf95705ff"
+  },
+  {
+    "source": "../../personal-learning-suite/src/skills/personal-learning/SKILL.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\skills\\personal-learning\\SKILL.md",
+    "sha256": "dfcb1808d34d7c61a6402f481734101a82c12c7ef7b13b302b9e4f4f8d042275"
+  },
+  {
+    "source": "../../personal-learning-suite/src/skills/personal-learning/references/session-entry.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\skills\\personal-learning\\references\\session-entry.md",
+    "sha256": "bdcb30342b10254fc040e1b4760bdfadeb0dde67d13d7629e8b80276ba837a16"
+  },
+  {
+    "source": "../../personal-learning-suite/src/skills/learning-teaching/SKILL.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\skills\\learning-teaching\\SKILL.md",
+    "sha256": "1e7a338659063bf945e0ff5c0a508e65c3c0eb66f0c674fa1ed473674cc02694"
+  },
+  {
+    "source": "../../personal-learning-suite/src/skills/learning-teaching/references/disciplinary-to-teaching.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\skills\\learning-teaching\\references\\disciplinary-to-teaching.md",
+    "sha256": "ff4df1e86585c97ac3d3ae1b13dd63c6d10a4584e68e65604220cdaf399e04e8"
+  },
+  {
+    "source": "../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\skills\\learning-teaching\\references\\design-whole.md",
+    "sha256": "75439d5bc92e67925c3489d3480730064f7ae11664ed1cc75e3c2ee46e8f2c82"
+  },
+  {
+    "source": "../../personal-learning-suite/src/skills/learning-teaching/references/c0.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\skills\\learning-teaching\\references\\c0.md",
+    "sha256": "7faf4dc0874f8093c2932ad55ca911002c817e6379208315802a8bb0c4f29a90"
+  }
+]

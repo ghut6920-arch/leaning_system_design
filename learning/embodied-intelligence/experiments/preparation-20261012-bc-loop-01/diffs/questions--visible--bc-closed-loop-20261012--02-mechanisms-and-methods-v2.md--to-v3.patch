@@ -1,0 +1,18 @@
+diff --git "a/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\bc-closed-loop-20261012\\02-mechanisms-and-methods-v2.md" "b/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\bc-closed-loop-20261012\\02-mechanisms-and-methods-v3.md"
+index 674becb..6cecbf6 100644
+--- "a/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\bc-closed-loop-20261012\\02-mechanisms-and-methods-v2.md"
++++ "b/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\bc-closed-loop-20261012\\02-mechanisms-and-methods-v3.md"
+@@ -1,4 +1,4 @@
+-<!-- revision 2：仅更新下一份导航，正文专业内容与v1相同；保留v1。 -->
++<!-- revision 3：沿v2导航，只更正Diffusion Policy时域来源章节II-C；保留旧版本。 -->
+ # 不同失败机制，需要不同条件
+ 
+ 以下都是教学假设与限定模型，用来区分解释。它们不是已观察到的个人误解，也不要求逐项答题。
+@@ -60,6 +60,6 @@ MSE在 a=0 最小，0却不在合法集内；选择-1或+1都有更高标签MSE
+ | 新信息进入太晚或执行语义不一致 | 核还原/坐标/命令含义、时序与低层跟踪 | 修接口收益不证明其他机制已消失 |
+ | 段内一致性与反应机会需权衡 | 比较预测/执行长度及必要同刻融合 | 需实际时间预算；不能仅说“增大块、加平滑” |
+ 
+-历史依赖、动作块和生成式动作表示是候选结构，各自改变不同关系。当前只需理解这些条件，不需安装或训练它们。相关限定来源：[robomimic](https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf)、[ACT §IV-A](https://arxiv.org/pdf/2304.13705v1)、[Diffusion Policy §III-C/IV/VIII](https://arxiv.org/pdf/2303.04137v3)。完整学科依据见学科稿v1 §3.2–5。
++历史依赖、动作块和生成式动作表示是候选结构，各自改变不同关系。当前只需理解这些条件，不需安装或训练它们。相关限定来源：[robomimic](https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf)、[ACT §IV-A](https://arxiv.org/pdf/2304.13705v1)、[Diffusion Policy §II-C/IV/VIII](https://arxiv.org/pdf/2303.04137v3)。完整学科依据见学科稿v1 §3.2–5。
+ 
+ 下一份：[完整实验判断示范](E:/文献资料/学习系统架构设计/learning/embodied-intelligence/questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md)。

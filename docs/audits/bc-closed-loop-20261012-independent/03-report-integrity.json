@@ -1,0 +1,33 @@
+{
+  "first_pass_unchanged": true,
+  "first_pass_judgment_preserved_verbatim": true,
+  "required_sections": [
+    {
+      "section": "## A.",
+      "present": true
+    },
+    {
+      "section": "## B.",
+      "present": true
+    },
+    {
+      "section": "## C.",
+      "present": true
+    },
+    {
+      "section": "## D.",
+      "present": true
+    },
+    {
+      "section": "## E.",
+      "present": true
+    },
+    {
+      "section": "## F.",
+      "present": true
+    }
+  ],
+  "report_missing_file_links": [],
+  "report_utf8_bytes": 45433,
+  "report_sha256": "9b879f7f41092f25704f72dfd972530f8c9ba31feab76178e36e7d3bb714f8bb"
+}

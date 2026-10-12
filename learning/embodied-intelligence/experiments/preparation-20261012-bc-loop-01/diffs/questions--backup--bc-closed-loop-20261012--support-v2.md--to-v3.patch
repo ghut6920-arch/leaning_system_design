@@ -1,0 +1,13 @@
+diff --git "a/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\backup\\bc-closed-loop-20261012\\support-v2.md" "b/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\backup\\bc-closed-loop-20261012\\support-v3.md"
+index 132a1ca..9a4e55a 100644
+--- "a/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\backup\\bc-closed-loop-20261012\\support-v2.md"
++++ "b/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\backup\\bc-closed-loop-20261012\\support-v3.md"
+@@ -1,6 +1,6 @@
+-# 同一分析说明的备用支持 v2
++# 同一分析说明的备用支持 v3
+ 
+-后台调用文件，非自动整份展示。依赖 Goal/认知设计v1与四份当前可见正文v2（01/02/03为导航修订，04明确速度初始化；图仍v1），来源仍为专业稿v1。下列信号是预备条件，不是已观察到的学习者问题。AG0按原答/请求选择必要片段；记录实际展示及代做，再回同一分析说明，不另建题目或能力结论。预算未知不设置额外作业。
++后台调用文件，非自动整份展示。依赖 Goal/认知设计v1与当前可见正文01-v3、02-v3、03-v2、04-v2（定位/导航及速度初始化澄清，图仍v1），来源为专业稿/来源稿v2（仅来源定位修订）。下列信号是预备条件，不是已观察到的学习者问题。AG0按原答/请求选择必要片段；记录实际展示及代做，再回同一分析说明，不另建题目或能力结论。预算未知不设置额外作业。
+ 
+ ## B1 对象混称：回机制段
+ 

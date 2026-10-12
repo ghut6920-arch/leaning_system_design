@@ -1,0 +1,23 @@
+{
+  "time_note": "逐项发生时间未可靠观测；order 为实际发送顺序。此文件在发送后从可观察工具参数归档。",
+  "tasks": [
+    {
+      "order": 1,
+      "target": "/root/ag2_disciplinary",
+      "mode": "spawn_agent fork_turns=none",
+      "message": "你执行现有学习系统 AG2 学科实质研究职责，不是新增教学角色。工作目录 E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence。主入口 AG0 在父会话，你不向学习者教学。你负责只写 materials/bc-closed-loop-20261012/ 下的专业研究与来源版本文件；你不是独自在目录工作，不要回滚或修改他人文件。先读取 ../../personal-learning-suite/src/agents/AG2-materials.md、共享契约、SK02 及其当前用途必需 references、SK03 disciplinary-to-teaching.md，并按实际需要读学习入口规则（AGENTS/MODEL_ENTRY/当前控制头部）。原始输入已保存且父入口读回：sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt。当前授权为第一阶段备课，不实际授课、不记录学习者表现，预算/设备未知，不安装、不付费、不外部发布，不修改规则/架构。不读取以往教学转换/学习深度损失/Agent 质量专题审计报告或其诊断；规则指向的审计/研究历史也不需加载。不要读取 experiments/preparation-20261012-bc-loop-01，额外归档不作为专业输入。请依正常 AG2 从原用途开展有限研究，独立选择有价值的机制、条件、代表对照、边界和第一阶段范围候选，先交有内容的学科依据而非先设计题目。核验需要的主张应浏览原始论文/官方资料，保留实际读取范围、来源定位与限制。将完整可观察研究成果及来源稿保存为不可覆盖 v1 文件，供 AG1 认知设计接收；需要后续材料落实时父入口再交认知稿。完成后返回文件路径、交付概要、真实已读主要规则/外部来源列表与未读取范围（执行事实回执，不改变正常决策方法）。如果还需回问，直接说明具体缺口。"
+    },
+    {
+      "order": 2,
+      "target": "/root/ag3_review",
+      "mode": "spawn_agent fork_turns=none",
+      "message": "你执行当前框架 AG3 反向专业审查职责（现有角色，不新增审查标准）。目录 E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence。你只负责 assessment/bc-closed-loop-20261012/ 下审查文件；你不是独自在目录工作，不回滚他人编辑。请先读 ../../personal-learning-suite/src/agents/AG3-assessment.md、共享契约、SK04 所需入口及 product-review.md、SK03 disciplinary-to-teaching.md、学习入口当前必要控制。原始学习用途见 sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt。当前只备课，尚无学习者原答，预算/设备未知，不安装/付费/发布，不修改规则/架构。不读取旧教学转换、深度损失、Agent 质量审计及其诊断，不读取实验归档 experiments/preparation-20261012-bc-loop-01。当前第一步请仅基于原始用途和必要专业条件，依正常AG3先提出应审查的关键判断/变化，保存 review-questions-v1.md（完整可观察审查问题及所据条件），暂不要读本次作者专业稿或设计稿，也不要看 materials/bc-closed-loop-20261012/。完成首步返回文件与实际已读主要规则清单，然后等待父入口随后交付成品，再按原问题实质审查；这些审查问题不自动成为学习者新增任务，不为归档改变审查决策方法。"
+    },
+    {
+      "order": 3,
+      "target": "/root/ag1_design",
+      "mode": "spawn_agent fork_turns=none",
+      "message": "你承担当前学习系统既有 AG1 设计/计划与 SK03 教学转换职责，不新增角色。目录 E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence。你拥有 goals/bc-closed-loop-20261012/、plan/bc-closed-loop-20261012/、artifacts/bc-closed-loop-20261012/ 下认知设计和安排文件；教学材料后由AG2配合落实。你不是独自在目录工作，不回滚或修改他人文件。此条先只准备规则上下文：读 ../../personal-learning-suite/src/agents/AG1-design-planning.md、共享契约、SK01目标规则、SK03及 disciplinary-to-teaching/design-whole/Encoding/Post必需正文、SK05近期安排规则、SK06选法规则。按必要读取学习入口 AGENTS/MODEL_ENTRY/状态与控制头部。不读取旧教学转换、学习深度损失、Agent质量审计和诊断，不读取 experiments/preparation-20261012-bc-loop-01。原始用途见 sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt。授权仅第一阶段备课，预算/设备未知，无学习者作答、不安装/付费/发布、不修改正式规则与架构。当前AG2正从原用途开展学科研究；尚未交付，所以本步不要先定目标/题目或设计认知活动。完成必要规则加载后返回实际已读文件清单；父入口取得AG2交接后另发材料定位，你再依正常流程自主决定近期范围、认知操作、师生分工、策略实际正文和所需Post，保存不可覆盖的 v1 初稿，并将具体材料需求交AG2。不要为记录而改变正常决策方法。"
+    }
+  ]
+}

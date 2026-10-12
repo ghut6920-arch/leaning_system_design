@@ -1,0 +1,1202 @@
+[
+  {
+    "path": "deliverables-manifest.json",
+    "bytes": 7832,
+    "sha256": "8e9587844439818b30f5b7d5d233e88201e44f1a7143e83525f99b0adc751026"
+  },
+  {
+    "path": "diffs/artifacts--bc-closed-loop-20261012--materialization-check-v1.md--to-v2.patch",
+    "bytes": 16130,
+    "sha256": "cb90866664d16c7394b217a1a8950abdcf233718649c2d688c320b9f168ac5da"
+  },
+  {
+    "path": "diffs/artifacts--bc-closed-loop-20261012--materialization-check-v2.md--to-v3.patch",
+    "bytes": 12391,
+    "sha256": "df3523051cb7fb031a1597bcdc042ed05d3274c9da8c89679c2d5ddbf5bbfb34"
+  },
+  {
+    "path": "diffs/assessment--bc-closed-loop-20261012--review-v1.md--to-v2.patch",
+    "bytes": 19761,
+    "sha256": "a98ce280cbe405a3e4f456b7276dd86246d731a0fe43efb2c239b264e5ff6747"
+  },
+  {
+    "path": "diffs/index.json",
+    "bytes": 5523,
+    "sha256": "c876071260abe6f0a379dce8dfd7d1711dc1c6e749b9f7cf73c5a3026c739f36"
+  },
+  {
+    "path": "diffs/materials--bc-closed-loop-20261012--disciplinary-research-v1.md--to-v2.patch",
+    "bytes": 4183,
+    "sha256": "e1f0c958479716ff1db614ffb36a8dbdca5f549e86e57024dcae39a63f003590"
+  },
+  {
+    "path": "diffs/materials--bc-closed-loop-20261012--material-uses-v1.md--to-v2.patch",
+    "bytes": 4861,
+    "sha256": "fce41cfb05b274664a9a6c91010801d4cc14e287e3dd396e826d5621a2e6af3b"
+  },
+  {
+    "path": "diffs/materials--bc-closed-loop-20261012--material-uses-v2.md--to-v3.patch",
+    "bytes": 4037,
+    "sha256": "454787b980078ba98fbcca35a67793a5dcc1f00dc63ffcf707988095d026d4bc"
+  },
+  {
+    "path": "diffs/materials--bc-closed-loop-20261012--source-notes-v1.md--to-v2.patch",
+    "bytes": 4732,
+    "sha256": "9374f35efaeb08ed22971b164701eca24c85e57f9ba4c6dba2d8443afcaf9526"
+  },
+  {
+    "path": "diffs/plan--bc-closed-loop-20261012--first-stage-plan-v1.md--to-v2.patch",
+    "bytes": 14517,
+    "sha256": "8a5af0c6fc3db62bcd51485807fa5becd8fa8735366a71f8eac67ea9b4afc9eb"
+  },
+  {
+    "path": "diffs/questions--backup--bc-closed-loop-20261012--support-v1.md--to-v2.patch",
+    "bytes": 1547,
+    "sha256": "b5e75098e404e410f4f870977d387f8d08a01aa2d32b523fd271442f08a1c433"
+  },
+  {
+    "path": "diffs/questions--backup--bc-closed-loop-20261012--support-v2.md--to-v3.patch",
+    "bytes": 1662,
+    "sha256": "5ba533e737476419f8a52396ddc5548ea38977b039b7341357115e4b69db1632"
+  },
+  {
+    "path": "diffs/questions--teacher-reference--bc-closed-loop-20261012--reference-v1.md--to-v2.patch",
+    "bytes": 2905,
+    "sha256": "f3f3920af03b4da11b483e729c18b3ee3588d226e0bead115a8d55b816270a94"
+  },
+  {
+    "path": "diffs/questions--teacher-reference--bc-closed-loop-20261012--reference-v2.md--to-v3.patch",
+    "bytes": 3072,
+    "sha256": "b17ca1508669c318f9ed80dabd60c6706d0b443c3ce0fa7654433556e5e139f6"
+  },
+  {
+    "path": "diffs/questions--visible--bc-closed-loop-20261012--01-model-and-feedback-v1.md--to-v2.patch",
+    "bytes": 2194,
+    "sha256": "3e23f6fb34b41283c129a065d28442a666cf8f4f67ff0a552b91aee46c080fd9"
+  },
+  {
+    "path": "diffs/questions--visible--bc-closed-loop-20261012--01-model-and-feedback-v2.md--to-v3.patch",
+    "bytes": 2292,
+    "sha256": "e2c60a045c6a19eb583f1812524a5412e6ac6392891cd63cf53bb0caf02d4e3b"
+  },
+  {
+    "path": "diffs/questions--visible--bc-closed-loop-20261012--02-mechanisms-and-methods-v1.md--to-v2.patch",
+    "bytes": 1887,
+    "sha256": "0e56bae81e74049f9b1f09719a03aca61c560d29f3f92a09be0c41f9cb5c8e95"
+  },
+  {
+    "path": "diffs/questions--visible--bc-closed-loop-20261012--02-mechanisms-and-methods-v2.md--to-v3.patch",
+    "bytes": 2552,
+    "sha256": "1d1487b07de8becffafc5c26aad7062383577424a885eb3e858489d703b21895"
+  },
+  {
+    "path": "diffs/questions--visible--bc-closed-loop-20261012--03-experiment-example-v1.md--to-v2.patch",
+    "bytes": 1794,
+    "sha256": "14c1ba1c7456443a4acf845029d324c3e47407daa8b52a573dd7cacc82b68979"
+  },
+  {
+    "path": "diffs/questions--visible--bc-closed-loop-20261012--04-case-and-task-v1.md--to-v2.patch",
+    "bytes": 2748,
+    "sha256": "794ea279d4b614e0e613659d3ad8d95f8e5d4808251d55096d520bfedc62fcaf"
+  },
+  {
+    "path": "environment/ag1-rules-read-and-snapshot.json",
+    "bytes": 3603,
+    "sha256": "3fcb39f663a2e9d94f9ad0f0c818ca46b867a11c5f1118e04427eb31e273964f"
+  },
+  {
+    "path": "environment/ag2-material-rule-read-and-snapshot.json",
+    "bytes": 239,
+    "sha256": "42cd2ca7454ac0ad142b0ecf545d61e55b3fedfbbb76855ff835d9655afe63b6"
+  },
+  {
+    "path": "environment/ag2-rules-read-and-snapshot.json",
+    "bytes": 1202,
+    "sha256": "38a53d6da095be05e61af70114b89b84ff7b4b41c1cbb41ec3d91ba350e621fa"
+  },
+  {
+    "path": "environment/ag3-rules-read-and-snapshot.json",
+    "bytes": 389,
+    "sha256": "87ceeca87eea8fca7881e21d40183800162b3d6a0e44df11f645ccb151f89b95"
+  },
+  {
+    "path": "environment/archive-seal-result.json",
+    "bytes": 475,
+    "sha256": "a629948332205beeb9f17325a22012212bcd125794136ba76a20f4c6f84b5236"
+  },
+  {
+    "path": "environment/entry-snapshot/AGENTS.md",
+    "bytes": 2288,
+    "sha256": "9c2a04e035ddd7e6b89b409b12e8079e96484a039c817e2c65be6804043d4165"
+  },
+  {
+    "path": "environment/entry-snapshot/framework-manifest.json",
+    "bytes": 22777,
+    "sha256": "3628441bb43218a7b2760731a4215bf6ac143474d263d92236c53df4c4b4b70e"
+  },
+  {
+    "path": "environment/entry-snapshot/FRAMEWORK.md",
+    "bytes": 9534,
+    "sha256": "662efdc59997fe56f3bfdcf8c414d05b06c44e5a572645885ca9cb641b53b4db"
+  },
+  {
+    "path": "environment/entry-snapshot/INTERACTION.md",
+    "bytes": 3170,
+    "sha256": "31c334e7a14965c1825cf0d9cfc5802219f7dddbba1a20a211b6ef098d398cca"
+  },
+  {
+    "path": "environment/entry-snapshot/MODEL_ENTRY.md",
+    "bytes": 11327,
+    "sha256": "4cb85dc05c3bdc9ba35a401eec14586b2f82c03bcf580e553cf9be85dce9913e"
+  },
+  {
+    "path": "environment/entry-snapshot/state/control.md",
+    "bytes": 12216,
+    "sha256": "d7ba0aa3bf5c84b0a6888bbcccb48da66ddb7c3dbdc623daf31ff99b44692d87"
+  },
+  {
+    "path": "environment/entry-snapshot/state/current.md",
+    "bytes": 25575,
+    "sha256": "0cdb6c945d41f929f66c9d1752403bb47b516e10ddd6fb763e160f84e3719977"
+  },
+  {
+    "path": "environment/existing-files-baseline.json",
+    "bytes": 879,
+    "sha256": "371d3882c16fe119c72e5c4b1a205ed052f6709f0767a558452f8b953c2d0d0c"
+  },
+  {
+    "path": "environment/existing-files-end-comparison.json",
+    "bytes": 1621,
+    "sha256": "6a70f1a3a2ae23bea15dd942269009c8ba31fc7ab7ff4f96992416d0262995e0"
+  },
+  {
+    "path": "environment/final-verification.json",
+    "bytes": 419,
+    "sha256": "585cd853c03ed36c71e069c2c7910fabcbd7c97522543fa6b3a2e56c2e31ee29"
+  },
+  {
+    "path": "environment/framework-fingerprint-check.json",
+    "bytes": 34262,
+    "sha256": "d5a88a2ea9805604b3775202528912e64a0a257270d91f7eab4cb49f3a658ea1"
+  },
+  {
+    "path": "environment/framework-fingerprint-end.json",
+    "bytes": 34262,
+    "sha256": "d5a88a2ea9805604b3775202528912e64a0a257270d91f7eab4cb49f3a658ea1"
+  },
+  {
+    "path": "environment/git-head-before.txt",
+    "bytes": 42,
+    "sha256": "57e9c8433b7c2bcc47de307a87b32cc5b62c1147d46ccdc9153a2ddf856c9b9a"
+  },
+  {
+    "path": "environment/git-head-end.txt",
+    "bytes": 42,
+    "sha256": "57e9c8433b7c2bcc47de307a87b32cc5b62c1147d46ccdc9153a2ddf856c9b9a"
+  },
+  {
+    "path": "environment/git-status-before.txt",
+    "bytes": 170,
+    "sha256": "225876e9d5efb35607bb5878e493ef1058fbae5ea289307b0e5c69228ed5a77b"
+  },
+  {
+    "path": "environment/git-status-end.txt",
+    "bytes": 31203,
+    "sha256": "4893df09175b9e24a6e875c16f94fddb6c2285afef8732c3981f761f02b06bfe"
+  },
+  {
+    "path": "environment/local-link-check.json",
+    "bytes": 18036,
+    "sha256": "7621168e8a60423985839cbc7e3f74af867b6cba37622044fa828fc611342003"
+  },
+  {
+    "path": "environment/root-rules-read-and-snapshot.json",
+    "bytes": 3517,
+    "sha256": "bf5a3d1dfffbe8cb56925baea4cee881f01173b039f4d06be61635e0278b0dc4"
+  },
+  {
+    "path": "environment/rules-snapshot/contracts/shared-contracts.md",
+    "bytes": 25893,
+    "sha256": "7a83601a8e4d0741b41322fc8883c161b44135c4e56c421eb4f3f408fac8d77e"
+  },
+  {
+    "path": "environment/rules-snapshot/resources/strategies/common-constraints.json",
+    "bytes": 5963,
+    "sha256": "e217a01ac8e71eae367cd4132cbc084c5c25d1f2a866341b05cacba6d15f3026"
+  },
+  {
+    "path": "environment/rules-snapshot/resources/strategies/encoding/R07.json",
+    "bytes": 25690,
+    "sha256": "20afeaab3c7ff49d5169fa505b3dfdc7330783b0fed7adda0b17db2453ec0d6c"
+  },
+  {
+    "path": "environment/rules-snapshot/resources/strategies/post/retrieve-relation.json",
+    "bytes": 52554,
+    "sha256": "9a40c98a6eddedc06cab02155aed54480c242f3f7bd2bbf70e116a0c87ec2dbc"
+  },
+  {
+    "path": "environment/rules-snapshot/resources/strategies/post/select-method.json",
+    "bytes": 54042,
+    "sha256": "b33844944758174619f882a3131a60f3367782fcf88a94e3f2cb00eab2d022b8"
+  },
+  {
+    "path": "environment/rules-snapshot/resources/strategies/strategy-index.json",
+    "bytes": 171786,
+    "sha256": "59a70c5da52e89f0da3e52c8e42267881168b99f4c864f5e86d11030be33685d"
+  },
+  {
+    "path": "environment/rules-snapshot/src/agents/AG0-coach.md",
+    "bytes": 6960,
+    "sha256": "fd2fab691e8089a9e2df4ecf4748711e5445fee6adda4680e2bef2fff418fe5f"
+  },
+  {
+    "path": "environment/rules-snapshot/src/agents/AG1-design-planning.md",
+    "bytes": 8000,
+    "sha256": "612786c22ac09cbe5fcfca4f711b74c6d6a5a438b8a7ed754aadd3cabd5ba946"
+  },
+  {
+    "path": "environment/rules-snapshot/src/agents/AG2-materials.md",
+    "bytes": 8624,
+    "sha256": "02a0ae21c9dd407ec5a5ea705ddad63bab09b1d4ffa73ad035049b3a20a3f23e"
+  },
+  {
+    "path": "environment/rules-snapshot/src/agents/AG3-assessment.md",
+    "bytes": 8662,
+    "sha256": "ed4a300883403ac145dbe247418b385894f678c82f439e65997ab99cf95705ff"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-assessment/references/product-review.md",
+    "bytes": 10756,
+    "sha256": "2d825aee4c549ca28b6171711a1232c008a1b851870daf79a284ec48236b8829"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-assessment/SKILL.md",
+    "bytes": 6727,
+    "sha256": "791cfc8cd9092f034dfb93a1a49b57116222c71a4244ae8217fcdb1e27efff16"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-goals/references/goal-design.md",
+    "bytes": 8253,
+    "sha256": "cc05c9f37aea08ce9b4de8a06093a905718da6d78c3ee161188620b630ee17fb"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-goals/SKILL.md",
+    "bytes": 3895,
+    "sha256": "267ffad6e6b6c569d64c5d09d5947cd74d38370ee3a86c77d7a82841ad32e2b4"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-materials/references/domain-checks.md",
+    "bytes": 11234,
+    "sha256": "2675ff5d26cce159b89b03d2de076c8a6c33eff19880c8589324dd084050da22"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-materials/references/materials-examples.md",
+    "bytes": 6189,
+    "sha256": "7cc3fc301195126b5b7acb4bfa76c7f36ef9e2d8babc894f450cfc997b588cc4"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-materials/references/materials-workflow.md",
+    "bytes": 14678,
+    "sha256": "72469e3bbf1d999de66cc6e470df32eb315a19b9ed2110cfad27cc505daeb1b3"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-materials/SKILL.md",
+    "bytes": 6049,
+    "sha256": "7119658c228f2914a2ef315f3437d8784c1b4e06de2e3fc32b66b0bdf3bfd0f7"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-planning/references/multi-scale-plan.md",
+    "bytes": 10509,
+    "sha256": "4e36c03a26c27adcf45d92a41ccf7387f31f93609815ab830a6fc96783749e3e"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-planning/references/planning.md",
+    "bytes": 2994,
+    "sha256": "72beb50667895537040ec5355d36496d3c3a0cfe0d38ce8fa9a7c2fddc02fa33"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-planning/SKILL.md",
+    "bytes": 4410,
+    "sha256": "5617b5826c2b4ce5a0509f6ef6bd99af576f5418b5cb3bf4fdfcc2be0007193e"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-strategies/references/selection-adaptation.md",
+    "bytes": 15680,
+    "sha256": "43e6f0c2113b2aea3b453e5d64355799d36b92568b87446955b9558f6bffd799"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-strategies/SKILL.md",
+    "bytes": 4839,
+    "sha256": "60c61e24f057b942ae9f20dbaf3707e6d60b4d256250544aaf1dac720ddcdbdb"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-teaching/references/c0.md",
+    "bytes": 11633,
+    "sha256": "7faf4dc0874f8093c2932ad55ca911002c817e6379208315802a8bb0c4f29a90"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-teaching/references/design-whole.md",
+    "bytes": 19681,
+    "sha256": "75439d5bc92e67925c3489d3480730064f7ae11664ed1cc75e3c2ee46e8f2c82"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-teaching/references/disciplinary-to-teaching.md",
+    "bytes": 8658,
+    "sha256": "ff4df1e86585c97ac3d3ae1b13dd63c6d10a4584e68e65604220cdaf399e04e8"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-teaching/references/encoding.md",
+    "bytes": 11631,
+    "sha256": "3714590ae024bd2993a62ad8e7d3056de5bc8c657e6780dab3f23b35daec01c7"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-teaching/references/post-encoding.md",
+    "bytes": 13421,
+    "sha256": "81c5f80f002910255ac27d4b6c77f16424c7344c1a48424fd2746b8c6de7c7dc"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/learning-teaching/SKILL.md",
+    "bytes": 7330,
+    "sha256": "1e7a338659063bf945e0ff5c0a508e65c3c0eb66f0c674fa1ed473674cc02694"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/personal-learning/references/session-entry.md",
+    "bytes": 10643,
+    "sha256": "bdcb30342b10254fc040e1b4760bdfadeb0dde67d13d7629e8b80276ba837a16"
+  },
+  {
+    "path": "environment/rules-snapshot/src/skills/personal-learning/SKILL.md",
+    "bytes": 6065,
+    "sha256": "dfcb1808d34d7c61a6402f481734101a82c12c7ef7b13b302b9e4f4f8d042275"
+  },
+  {
+    "path": "environment/runtime.json",
+    "bytes": 220,
+    "sha256": "df15f08a8886bbd3ee08de7c846cdcfcb83fce54c234241b732be7e3841bafdf"
+  },
+  {
+    "path": "environment/stage-snapshot-integrity.json",
+    "bytes": 26092,
+    "sha256": "dfdc8375395e7010a7a947340697cd879c4dd6ecbd12f12a9d0ff56c75740ef1"
+  },
+  {
+    "path": "environment/strategies-read-and-snapshot.json",
+    "bytes": 1964,
+    "sha256": "fedcc82f918bb886fb4a7ede0dc5a5284f8da03e50cf6d7b0fc11a5b4d25a7d9"
+  },
+  {
+    "path": "environment/task-created-files.json",
+    "bytes": 31600,
+    "sha256": "65b549c717a25ff3737366128310b198dc98db3e66ff2ca91db47ce04471e009"
+  },
+  {
+    "path": "file-changes.md",
+    "bytes": 3272,
+    "sha256": "f406c770071e5dc130c316e841fbf1fbfea02b9908842a28f32aa64bef7dcd1a"
+  },
+  {
+    "path": "handoffs/04-research-progress-message.json",
+    "bytes": 413,
+    "sha256": "b6cfc766bc1cf95def1f49760f02abfbcb0c71b9cb3e003aa22562132f4f3af2"
+  },
+  {
+    "path": "handoffs/05-ag2-to-ag1.json",
+    "bytes": 1288,
+    "sha256": "9caeefcea824e017ed3c9734281d9234d35e951afa341372731a1bd1b706075e"
+  },
+  {
+    "path": "handoffs/06-design-progress-message.json",
+    "bytes": 397,
+    "sha256": "2ba204ebb5a9d9b5804a905bde2bf394df813b60db127cfe632a8204fbd57ea3"
+  },
+  {
+    "path": "handoffs/07-material-rule-preload.json",
+    "bytes": 698,
+    "sha256": "31af49cc780940658ff988846cfc9764d6d05bd9d25dd753ba609a5e9bcee3be"
+  },
+  {
+    "path": "handoffs/08-ag1-to-ag2-materials.json",
+    "bytes": 1370,
+    "sha256": "f24a95e816c69a18dbc6c858c195e2e3264690864773773edcb5f881db58979b"
+  },
+  {
+    "path": "handoffs/09-materials-to-ag1-functional-read.json",
+    "bytes": 984,
+    "sha256": "cdfcef3b3a99d93627d6db357e2e7738f22c478b3f67d63cc041d7948778f03e"
+  },
+  {
+    "path": "handoffs/10-functional-feedback-to-ag2.json",
+    "bytes": 440,
+    "sha256": "0cd5ff7d19b63076f2c611dedf052244043deb7f546904cd01f15b912c340062"
+  },
+  {
+    "path": "handoffs/11-navigation-version-check-to-ag2.json",
+    "bytes": 458,
+    "sha256": "6bff5ba572f4abee367dd57e937c953ff1444335859e7f79b47cf9f3e7e02889"
+  },
+  {
+    "path": "handoffs/12-ag3-review-candidate.json",
+    "bytes": 1589,
+    "sha256": "f8441ec8c94d90caa0d6450a6af7dd2a9eaa4a55f73a260590899e44d69b4c81"
+  },
+  {
+    "path": "handoffs/13-ag1-final-functional-read.json",
+    "bytes": 891,
+    "sha256": "378604a0bb445f8f0bc997008d489f3cb2de7215a34bdba2fb9c849d8803bb5c"
+  },
+  {
+    "path": "handoffs/14-15-final-use-version-notices.json",
+    "bytes": 1060,
+    "sha256": "d70798e79212706a9520cfcaeab7955f5d0dec76000c8dd864f34a37d57dca02"
+  },
+  {
+    "path": "handoffs/16-final-preparation-adoption-to-ag1.json",
+    "bytes": 1182,
+    "sha256": "76723cfc07766e5781a3613c89e8f6f478eb4e1684f01df319bb8cfba76c49df"
+  },
+  {
+    "path": "handoffs/direct-notification-boundary.md",
+    "bytes": 798,
+    "sha256": "98c31ac0710083dc94664e9b353ddef54249f0a19ff912ed69456e6015472e4e"
+  },
+  {
+    "path": "handoffs/initial-dispatches.json",
+    "bytes": 5321,
+    "sha256": "a8cb11086f2f5099db02c22367b4789464fb00caf272e48365b4b0feb638aa7c"
+  },
+  {
+    "path": "input/user-request.md",
+    "bytes": 4078,
+    "sha256": "8bedab028f0844813166d1a563af5aa55bd1294f26481b6c45cfcf8b655abe40"
+  },
+  {
+    "path": "observation-boundaries.md",
+    "bytes": 2265,
+    "sha256": "8bc3300feff24c0c53bedc79c48beb1df777adc2778f0e0bcaee7a56007afd10"
+  },
+  {
+    "path": "observations/archive-seal-command.ps1.txt",
+    "bytes": 4726,
+    "sha256": "f49b8774171658d0973ce5ed50196824b1059c72d69b4433e33e7543e7a08025"
+  },
+  {
+    "path": "observations/messages-01.json",
+    "bytes": 3605,
+    "sha256": "613ac08bc70559fc1649c04dde475b54da942281556c77a042a650d4f20a6046"
+  },
+  {
+    "path": "observations/messages-02.json",
+    "bytes": 1768,
+    "sha256": "ff4504e7bf46318ad29a5045b229d270ad3b4e74d67c6587ecd86ac23d4bd4be"
+  },
+  {
+    "path": "observations/messages-03.json",
+    "bytes": 1733,
+    "sha256": "71ce670db6736a302314b5f743b2c9f44cdcc5d5e0c4bf8128a5918b6a0c7810"
+  },
+  {
+    "path": "observations/messages-04.json",
+    "bytes": 3136,
+    "sha256": "6c1b7fadaf0afac21f884caf72eb43ff4b8e13501a049bb0c8b1ba0f2c5f2153"
+  },
+  {
+    "path": "observations/messages-05.json",
+    "bytes": 570,
+    "sha256": "d491adb9e10db805888686a4d2afddc2c7e7ef0120b2c5988e5524e680ad6016"
+  },
+  {
+    "path": "observations/root-tools-01.json",
+    "bytes": 136497,
+    "sha256": "a9f0e9821aa105fd74c7fd069881ca538573b6b703f8bae374b89f825cc6f06d"
+  },
+  {
+    "path": "observations/root-tools-02.json",
+    "bytes": 54364,
+    "sha256": "83207ad5866bbedbf1f83f33a0bbd45f1f6764295ded6501cafd37dcd4d0ad98"
+  },
+  {
+    "path": "observations/root-tools-03.json",
+    "bytes": 35999,
+    "sha256": "dcb2bd39af8a83c37a0c774fadd58da262b189453c4a1559db2a7734a2e4fde2"
+  },
+  {
+    "path": "observations/root-tools-04.json",
+    "bytes": 35817,
+    "sha256": "a6cbcd747a2a3206cb863120e9f67f450692845fab0887b48d6cb140bd0b8a2c"
+  },
+  {
+    "path": "observations/root-tools-05.json",
+    "bytes": 41360,
+    "sha256": "6619f96886f88c4bd386c841c70a6471bed82b821c8b06ac9c95d6778cf1ac0f"
+  },
+  {
+    "path": "observations/root-tools-06.json",
+    "bytes": 147653,
+    "sha256": "b6346fda329b24935306c77eaf952a2291db542f6a4215d4b42464630594ef20"
+  },
+  {
+    "path": "observations/root-tools-07.json",
+    "bytes": 9328,
+    "sha256": "4ed0b8d6169ebbde6094fbc007e874628dd794a4f480f9c6caf9e3190412577e"
+  },
+  {
+    "path": "process-record.md",
+    "bytes": 11066,
+    "sha256": "f8e8eeac001c76d9dd0a2237a2a4248a89f401c4beeb84a10b28c197afa20a7c"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3020,
+    "sha256": "d72430bea0a9754c1b7d5ba735cc65c9f4c218e6d1a63922fc69ca61aa9f5c0e"
+  },
+  {
+    "path": "receipts/ag1-design-return-verbatim.md",
+    "bytes": 1268,
+    "sha256": "439f80e42efe7517243b2d476c04b38bf5f0d2782db70e5212e945aa08b6976c"
+  },
+  {
+    "path": "receipts/ag1-final-functional-return-verbatim.md",
+    "bytes": 606,
+    "sha256": "866c57985416618697d2826947d29162c0db7bb20906ade35a04bccf75d1ce41"
+  },
+  {
+    "path": "receipts/ag1-functional-check-return-verbatim.md",
+    "bytes": 707,
+    "sha256": "b3efec5230863c921c18dbbfa5d52c3fa849059d14572bb54b36e1613bf99d6a"
+  },
+  {
+    "path": "receipts/ag1-plan-closeout-return-verbatim.md",
+    "bytes": 611,
+    "sha256": "8f03082b1d34495e56f48c16498ca1f985e0056c2b2cfc06f393d24d748114a3"
+  },
+  {
+    "path": "receipts/ag1-rule-loading.md",
+    "bytes": 1256,
+    "sha256": "328d8c847ffb4facdc4d6a6582c9fc2d464ca37941cdb3d552b559527f90f7a7"
+  },
+  {
+    "path": "receipts/ag2-material-return-verbatim.md",
+    "bytes": 3481,
+    "sha256": "e98577a45e8dfa3819b7a55986978b8cf88798ad72b4bf7cc54c36256ddd0e0d"
+  },
+  {
+    "path": "receipts/ag2-material-rules-return-verbatim.md",
+    "bytes": 273,
+    "sha256": "4ec898f5c56612b2b99195b1b4aae3730efc51c2eac1f757d86a5554f7c309e3"
+  },
+  {
+    "path": "receipts/ag2-research-return-verbatim.md",
+    "bytes": 1354,
+    "sha256": "5759062ac3bcc4d70bdcf9ac5a35c7bd514e616ab86a0fc8ce71fc971f9263b8"
+  },
+  {
+    "path": "receipts/ag2-research-return.md",
+    "bytes": 1214,
+    "sha256": "b31e3150ee9c989bf6c7f988a15300571634aedf43079979e66a1f242c7f13cd"
+  },
+  {
+    "path": "receipts/ag3-purpose-questions-return-verbatim.md",
+    "bytes": 774,
+    "sha256": "a79eecf077e9668cbcabd842ada4d4f0cdd7763219653dd66ccad40c8415aa29"
+  },
+  {
+    "path": "receipts/ag3-purpose-questions-return.md",
+    "bytes": 676,
+    "sha256": "3cfe552da8be9c8c50083465ada9d4995878f17da6dc2c14696ba3e712d05fe7"
+  },
+  {
+    "path": "receipts/ag3-review-return-verbatim.md",
+    "bytes": 836,
+    "sha256": "de7033f3095d328efa4e08b15bf391bfe9fecd52498a26ff0f4d0758f0444d93"
+  },
+  {
+    "path": "stages/01-ag3-purpose-questions/assessment/bc-closed-loop-20261012/review-questions-v1.md",
+    "bytes": 16229,
+    "sha256": "ffac2f9cc0883e7e68ebc848b8e7508d50e59e5ae4fd4f58058ae094959a6bbc"
+  },
+  {
+    "path": "stages/02-ag2-research/materials/bc-closed-loop-20261012/disciplinary-research-v1.md",
+    "bytes": 18572,
+    "sha256": "4c7548047aa02d61cf9401b1bc0130502239cd440fed14195c9cd0bf34f99c10"
+  },
+  {
+    "path": "stages/02-ag2-research/materials/bc-closed-loop-20261012/source-notes-v1.md",
+    "bytes": 9665,
+    "sha256": "7db3587f8659de1ecca44f395da571f523e1a8205f85ae9beb3c7c6c25190244"
+  },
+  {
+    "path": "stages/03-ag1-design/artifacts/bc-closed-loop-20261012/cognitive-design-v1.md",
+    "bytes": 18675,
+    "sha256": "f18c5641d2d06258c2af6abaa2aab8ea7949cc79dfe590d0730d5f5bbfa8e035"
+  },
+  {
+    "path": "stages/03-ag1-design/goals/bc-closed-loop-20261012/goal-v1.md",
+    "bytes": 6545,
+    "sha256": "5f4fe9f8a9dbc7e1985be51f46aff920dbcbca27303b600413c457f6cb873490"
+  },
+  {
+    "path": "stages/03-ag1-design/plan/bc-closed-loop-20261012/first-stage-plan-v1.md",
+    "bytes": 4486,
+    "sha256": "0771a34a0c3c531ce430d93b9c3046d399790f9f511d58c3334c17679c38eba9"
+  },
+  {
+    "path": "stages/04-ag2-materials-visible-v1/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v1.md",
+    "bytes": 5054,
+    "sha256": "ba59266c7b3363aa14708532cf20d299b83d58b9c1be438f99ca4f990b050022"
+  },
+  {
+    "path": "stages/04-ag2-materials-visible-v1/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v1.md",
+    "bytes": 6501,
+    "sha256": "6d5eddb49f67b8c8d8b7365ec3bfae7e524a096ee839819767ce66763fca3215"
+  },
+  {
+    "path": "stages/04-ag2-materials-visible-v1/questions/visible/bc-closed-loop-20261012/03-experiment-example-v1.md",
+    "bytes": 3458,
+    "sha256": "2574df1c19f45acd6cf9d80842d81bfcf0f21f98ee67690a2411ac3edccd2e36"
+  },
+  {
+    "path": "stages/04-ag2-materials-visible-v1/questions/visible/bc-closed-loop-20261012/04-case-and-task-v1.md",
+    "bytes": 4483,
+    "sha256": "092d01a9c8f9f92beedf54232a8d4443294b3954cf8d372c2aac8b259117bf1d"
+  },
+  {
+    "path": "stages/04-ag2-materials-visible-v1/questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "bytes": 80788,
+    "sha256": "67e3fab5ca1e3287a7a9c030976d9d9d279073360daa0f7e28e6a5558cf6c4a9"
+  },
+  {
+    "path": "stages/04-ag2-materials-visible-v1/questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "bytes": 2797,
+    "sha256": "e83d8cf34895fa986db5be57431c45b8ce0bde47912ddbb8bd716fd350ecdbd9"
+  },
+  {
+    "path": "stages/05-ag1-functional-check/artifacts/bc-closed-loop-20261012/materialization-check-v1.md",
+    "bytes": 7213,
+    "sha256": "d2c82bb61db7dde74e74d22ff19fe8846be027786397faaf4e4990f475e2df19"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/materials/bc-closed-loop-20261012/disciplinary-research-v1.md",
+    "bytes": 18572,
+    "sha256": "4c7548047aa02d61cf9401b1bc0130502239cd440fed14195c9cd0bf34f99c10"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+    "bytes": 18781,
+    "sha256": "fa43f10cf4daa94c4869d3275026cee36802453525d8dab3830437485ef91fb2"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/materials/bc-closed-loop-20261012/source-notes-v1.md",
+    "bytes": 9665,
+    "sha256": "7db3587f8659de1ecca44f395da571f523e1a8205f85ae9beb3c7c6c25190244"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/materials/bc-closed-loop-20261012/source-notes-v2.md",
+    "bytes": 10350,
+    "sha256": "7b04ba3a4ab99ee08f948a4ffe5737645c948428a1a0386058e62b795fcba0dc"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/backup/bc-closed-loop-20261012/support-v1.md",
+    "bytes": 4947,
+    "sha256": "6660a37d98e09070d627b8182ff63cce5a764450ac53e47feb56727178b6b9ca"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/backup/bc-closed-loop-20261012/support-v2.md",
+    "bytes": 5019,
+    "sha256": "e7c104bf029454eee95bf6e8e4feafe314c74cb31f7911caf5047b9792e2e34c"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/backup/bc-closed-loop-20261012/support-v3.md",
+    "bytes": 5062,
+    "sha256": "d27960fbb07a9c054a53a42e02280af3bc8713375ca73c89f73f4b4e708b7b1f"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/teacher-reference/bc-closed-loop-20261012/reference-v1.md",
+    "bytes": 11263,
+    "sha256": "30e610a995a8fa4b1b952c5054ca7262a28989028746a31a8a0f1c698a7b35b8"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/teacher-reference/bc-closed-loop-20261012/reference-v2.md",
+    "bytes": 11379,
+    "sha256": "f304912e5ed685e9f448c72c0c52c40fcb780de76d4f65518c3215b7487347ad"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+    "bytes": 11430,
+    "sha256": "3555a1cf5b21612a6aa73784aa4189b0cb854539d2a14e9ca2c02881a34685cb"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v1.md",
+    "bytes": 5054,
+    "sha256": "ba59266c7b3363aa14708532cf20d299b83d58b9c1be438f99ca4f990b050022"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v2.md",
+    "bytes": 5148,
+    "sha256": "dca7dca3a49a69cad8fdec22a43e1cff752e1e33826b32e2a41c4a8cbc8e1e7f"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "bytes": 5151,
+    "sha256": "78ab65a6dd1403684aa3a9df652fe22d8055269218a960fe1dcbc93d4a633d93"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v1.md",
+    "bytes": 6501,
+    "sha256": "6d5eddb49f67b8c8d8b7365ec3bfae7e524a096ee839819767ce66763fca3215"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v2.md",
+    "bytes": 6595,
+    "sha256": "e7dc8e57aae92638a8f03cbe334f0b77189a0ce008ed725ab7f1d295c77c6e4a"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "bytes": 6606,
+    "sha256": "32c5b5ae4df136245bd306df61e60b8827b1c8a40841300cf2a1266dca509dc9"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/03-experiment-example-v1.md",
+    "bytes": 3458,
+    "sha256": "2574df1c19f45acd6cf9d80842d81bfcf0f21f98ee67690a2411ac3edccd2e36"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "bytes": 3552,
+    "sha256": "13ddcfa00890f9f0731f67530e42e8c21ffd23eb1d19e3563f74b1b1580eef9c"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/04-case-and-task-v1.md",
+    "bytes": 4483,
+    "sha256": "092d01a9c8f9f92beedf54232a8d4443294b3954cf8d372c2aac8b259117bf1d"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+    "bytes": 4716,
+    "sha256": "9a4fcb235c77a0941e0fd15831dbe5ac0df2f13eb9d4359e29dbfbc1be1544b1"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "bytes": 80788,
+    "sha256": "67e3fab5ca1e3287a7a9c030976d9d9d279073360daa0f7e28e6a5558cf6c4a9"
+  },
+  {
+    "path": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "bytes": 2797,
+    "sha256": "e83d8cf34895fa986db5be57431c45b8ce0bde47912ddbb8bd716fd350ecdbd9"
+  },
+  {
+    "path": "stages/07-reviewed-candidate-manifest.json",
+    "bytes": 5257,
+    "sha256": "847fa0662c498a0d1dd53bc671f30e5daecf88372c1fcc11547103528de3bca1"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/artifacts/bc-closed-loop-20261012/cognitive-design-v1.md",
+    "bytes": 18675,
+    "sha256": "f18c5641d2d06258c2af6abaa2aab8ea7949cc79dfe590d0730d5f5bbfa8e035"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/artifacts/bc-closed-loop-20261012/materialization-check-v1.md",
+    "bytes": 7213,
+    "sha256": "d2c82bb61db7dde74e74d22ff19fe8846be027786397faaf4e4990f475e2df19"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/goals/bc-closed-loop-20261012/goal-v1.md",
+    "bytes": 6545,
+    "sha256": "5f4fe9f8a9dbc7e1985be51f46aff920dbcbca27303b600413c457f6cb873490"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/materials/bc-closed-loop-20261012/disciplinary-research-v1.md",
+    "bytes": 18572,
+    "sha256": "4c7548047aa02d61cf9401b1bc0130502239cd440fed14195c9cd0bf34f99c10"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+    "bytes": 18781,
+    "sha256": "fa43f10cf4daa94c4869d3275026cee36802453525d8dab3830437485ef91fb2"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/materials/bc-closed-loop-20261012/material-uses-v1.md",
+    "bytes": 9991,
+    "sha256": "5d45b126a17d421fedef6f87c626ef56657c8a925bf428b6836db74c20e96f83"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/materials/bc-closed-loop-20261012/source-notes-v1.md",
+    "bytes": 9665,
+    "sha256": "7db3587f8659de1ecca44f395da571f523e1a8205f85ae9beb3c7c6c25190244"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/materials/bc-closed-loop-20261012/source-notes-v2.md",
+    "bytes": 10350,
+    "sha256": "7b04ba3a4ab99ee08f948a4ffe5737645c948428a1a0386058e62b795fcba0dc"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/plan/bc-closed-loop-20261012/first-stage-plan-v1.md",
+    "bytes": 4486,
+    "sha256": "0771a34a0c3c531ce430d93b9c3046d399790f9f511d58c3334c17679c38eba9"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/backup/bc-closed-loop-20261012/support-v1.md",
+    "bytes": 4947,
+    "sha256": "6660a37d98e09070d627b8182ff63cce5a764450ac53e47feb56727178b6b9ca"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/backup/bc-closed-loop-20261012/support-v2.md",
+    "bytes": 5019,
+    "sha256": "e7c104bf029454eee95bf6e8e4feafe314c74cb31f7911caf5047b9792e2e34c"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/backup/bc-closed-loop-20261012/support-v3.md",
+    "bytes": 5062,
+    "sha256": "d27960fbb07a9c054a53a42e02280af3bc8713375ca73c89f73f4b4e708b7b1f"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/teacher-reference/bc-closed-loop-20261012/reference-v1.md",
+    "bytes": 11263,
+    "sha256": "30e610a995a8fa4b1b952c5054ca7262a28989028746a31a8a0f1c698a7b35b8"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/teacher-reference/bc-closed-loop-20261012/reference-v2.md",
+    "bytes": 11379,
+    "sha256": "f304912e5ed685e9f448c72c0c52c40fcb780de76d4f65518c3215b7487347ad"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+    "bytes": 11430,
+    "sha256": "3555a1cf5b21612a6aa73784aa4189b0cb854539d2a14e9ca2c02881a34685cb"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v1.md",
+    "bytes": 5054,
+    "sha256": "ba59266c7b3363aa14708532cf20d299b83d58b9c1be438f99ca4f990b050022"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v2.md",
+    "bytes": 5148,
+    "sha256": "dca7dca3a49a69cad8fdec22a43e1cff752e1e33826b32e2a41c4a8cbc8e1e7f"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "bytes": 5151,
+    "sha256": "78ab65a6dd1403684aa3a9df652fe22d8055269218a960fe1dcbc93d4a633d93"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v1.md",
+    "bytes": 6501,
+    "sha256": "6d5eddb49f67b8c8d8b7365ec3bfae7e524a096ee839819767ce66763fca3215"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v2.md",
+    "bytes": 6595,
+    "sha256": "e7dc8e57aae92638a8f03cbe334f0b77189a0ce008ed725ab7f1d295c77c6e4a"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "bytes": 6606,
+    "sha256": "32c5b5ae4df136245bd306df61e60b8827b1c8a40841300cf2a1266dca509dc9"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/03-experiment-example-v1.md",
+    "bytes": 3458,
+    "sha256": "2574df1c19f45acd6cf9d80842d81bfcf0f21f98ee67690a2411ac3edccd2e36"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "bytes": 3552,
+    "sha256": "13ddcfa00890f9f0731f67530e42e8c21ffd23eb1d19e3563f74b1b1580eef9c"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/04-case-and-task-v1.md",
+    "bytes": 4483,
+    "sha256": "092d01a9c8f9f92beedf54232a8d4443294b3954cf8d372c2aac8b259117bf1d"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+    "bytes": 4716,
+    "sha256": "9a4fcb235c77a0941e0fd15831dbe5ac0df2f13eb9d4359e29dbfbc1be1544b1"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "bytes": 80788,
+    "sha256": "67e3fab5ca1e3287a7a9c030976d9d9d279073360daa0f7e28e6a5558cf6c4a9"
+  },
+  {
+    "path": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "bytes": 2797,
+    "sha256": "e83d8cf34895fa986db5be57431c45b8ce0bde47912ddbb8bd716fd350ecdbd9"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/materials/bc-closed-loop-20261012/disciplinary-research-v1.md",
+    "bytes": 18572,
+    "sha256": "4c7548047aa02d61cf9401b1bc0130502239cd440fed14195c9cd0bf34f99c10"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+    "bytes": 18781,
+    "sha256": "fa43f10cf4daa94c4869d3275026cee36802453525d8dab3830437485ef91fb2"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/materials/bc-closed-loop-20261012/material-uses-v1.md",
+    "bytes": 9991,
+    "sha256": "5d45b126a17d421fedef6f87c626ef56657c8a925bf428b6836db74c20e96f83"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/materials/bc-closed-loop-20261012/material-uses-v2.md",
+    "bytes": 10496,
+    "sha256": "d4d7bb6014dba8e164b6621d202e5d7c9ffceb2779427431303cd6221bc1d43b"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/materials/bc-closed-loop-20261012/material-uses-v3.md",
+    "bytes": 10725,
+    "sha256": "22a25d152f1861eb34bfed11b0581135838a74a92de5fdd16c30dcdbe57d6cc1"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/materials/bc-closed-loop-20261012/source-notes-v1.md",
+    "bytes": 9665,
+    "sha256": "7db3587f8659de1ecca44f395da571f523e1a8205f85ae9beb3c7c6c25190244"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/materials/bc-closed-loop-20261012/source-notes-v2.md",
+    "bytes": 10350,
+    "sha256": "7b04ba3a4ab99ee08f948a4ffe5737645c948428a1a0386058e62b795fcba0dc"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/backup/bc-closed-loop-20261012/support-v1.md",
+    "bytes": 4947,
+    "sha256": "6660a37d98e09070d627b8182ff63cce5a764450ac53e47feb56727178b6b9ca"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/backup/bc-closed-loop-20261012/support-v2.md",
+    "bytes": 5019,
+    "sha256": "e7c104bf029454eee95bf6e8e4feafe314c74cb31f7911caf5047b9792e2e34c"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/backup/bc-closed-loop-20261012/support-v3.md",
+    "bytes": 5062,
+    "sha256": "d27960fbb07a9c054a53a42e02280af3bc8713375ca73c89f73f4b4e708b7b1f"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/teacher-reference/bc-closed-loop-20261012/reference-v1.md",
+    "bytes": 11263,
+    "sha256": "30e610a995a8fa4b1b952c5054ca7262a28989028746a31a8a0f1c698a7b35b8"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/teacher-reference/bc-closed-loop-20261012/reference-v2.md",
+    "bytes": 11379,
+    "sha256": "f304912e5ed685e9f448c72c0c52c40fcb780de76d4f65518c3215b7487347ad"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+    "bytes": 11430,
+    "sha256": "3555a1cf5b21612a6aa73784aa4189b0cb854539d2a14e9ca2c02881a34685cb"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v1.md",
+    "bytes": 5054,
+    "sha256": "ba59266c7b3363aa14708532cf20d299b83d58b9c1be438f99ca4f990b050022"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v2.md",
+    "bytes": 5148,
+    "sha256": "dca7dca3a49a69cad8fdec22a43e1cff752e1e33826b32e2a41c4a8cbc8e1e7f"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "bytes": 5151,
+    "sha256": "78ab65a6dd1403684aa3a9df652fe22d8055269218a960fe1dcbc93d4a633d93"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v1.md",
+    "bytes": 6501,
+    "sha256": "6d5eddb49f67b8c8d8b7365ec3bfae7e524a096ee839819767ce66763fca3215"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v2.md",
+    "bytes": 6595,
+    "sha256": "e7dc8e57aae92638a8f03cbe334f0b77189a0ce008ed725ab7f1d295c77c6e4a"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "bytes": 6606,
+    "sha256": "32c5b5ae4df136245bd306df61e60b8827b1c8a40841300cf2a1266dca509dc9"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/03-experiment-example-v1.md",
+    "bytes": 3458,
+    "sha256": "2574df1c19f45acd6cf9d80842d81bfcf0f21f98ee67690a2411ac3edccd2e36"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "bytes": 3552,
+    "sha256": "13ddcfa00890f9f0731f67530e42e8c21ffd23eb1d19e3563f74b1b1580eef9c"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/04-case-and-task-v1.md",
+    "bytes": 4483,
+    "sha256": "092d01a9c8f9f92beedf54232a8d4443294b3954cf8d372c2aac8b259117bf1d"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+    "bytes": 4716,
+    "sha256": "9a4fcb235c77a0941e0fd15831dbe5ac0df2f13eb9d4359e29dbfbc1be1544b1"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "bytes": 80788,
+    "sha256": "67e3fab5ca1e3287a7a9c030976d9d9d279073360daa0f7e28e6a5558cf6c4a9"
+  },
+  {
+    "path": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "bytes": 2797,
+    "sha256": "e83d8cf34895fa986db5be57431c45b8ce0bde47912ddbb8bd716fd350ecdbd9"
+  },
+  {
+    "path": "stages/09-ag1-final-functional-read/artifacts/bc-closed-loop-20261012/materialization-check-v1.md",
+    "bytes": 7213,
+    "sha256": "d2c82bb61db7dde74e74d22ff19fe8846be027786397faaf4e4990f475e2df19"
+  },
+  {
+    "path": "stages/09-ag1-final-functional-read/artifacts/bc-closed-loop-20261012/materialization-check-v2.md",
+    "bytes": 8121,
+    "sha256": "366f2ca9cf46dc2360349e20237e4a043b0c16180f2578e9a00e5a843c76c11d"
+  },
+  {
+    "path": "stages/09-ag1-final-functional-read/artifacts/bc-closed-loop-20261012/materialization-check-v3.md",
+    "bytes": 3485,
+    "sha256": "04ef8fe29a06e1a21c752e2d17977f5deac77ba0ef103ec9e7efd5568eb4ee55"
+  },
+  {
+    "path": "stages/10-ag3-review/assessment/bc-closed-loop-20261012/review-questions-v1.md",
+    "bytes": 16229,
+    "sha256": "ffac2f9cc0883e7e68ebc848b8e7508d50e59e5ae4fd4f58058ae094959a6bbc"
+  },
+  {
+    "path": "stages/10-ag3-review/assessment/bc-closed-loop-20261012/review-v1.md",
+    "bytes": 15911,
+    "sha256": "dbed32e68d3a1340e6eae06ed2abc3304ac59d2e1f23f012c7a5fb4eae3633c4"
+  },
+  {
+    "path": "stages/10-ag3-review/assessment/bc-closed-loop-20261012/review-v2.md",
+    "bytes": 3012,
+    "sha256": "6f50a479ca8e2fc96b82db593a6edcb7b7f46d9f00cd5ee690328595a71aa344"
+  },
+  {
+    "path": "stages/11-ag1-plan-closeout/plan/bc-closed-loop-20261012/first-stage-plan-v1.md",
+    "bytes": 4486,
+    "sha256": "0771a34a0c3c531ce430d93b9c3046d399790f9f511d58c3334c17679c38eba9"
+  },
+  {
+    "path": "stages/11-ag1-plan-closeout/plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "bytes": 9283,
+    "sha256": "af130a4fc534bcdd413d8a128aebab4d91154546080a7db3e41830fe162f7499"
+  },
+  {
+    "path": "stages/12-final-delivery/artifacts/bc-closed-loop-20261012/cognitive-design-v1.md",
+    "bytes": 18675,
+    "sha256": "f18c5641d2d06258c2af6abaa2aab8ea7949cc79dfe590d0730d5f5bbfa8e035"
+  },
+  {
+    "path": "stages/12-final-delivery/artifacts/bc-closed-loop-20261012/materialization-check-v2.md",
+    "bytes": 8121,
+    "sha256": "366f2ca9cf46dc2360349e20237e4a043b0c16180f2578e9a00e5a843c76c11d"
+  },
+  {
+    "path": "stages/12-final-delivery/artifacts/bc-closed-loop-20261012/materialization-check-v3.md",
+    "bytes": 3485,
+    "sha256": "04ef8fe29a06e1a21c752e2d17977f5deac77ba0ef103ec9e7efd5568eb4ee55"
+  },
+  {
+    "path": "stages/12-final-delivery/assessment/bc-closed-loop-20261012/review-questions-v1.md",
+    "bytes": 16229,
+    "sha256": "ffac2f9cc0883e7e68ebc848b8e7508d50e59e5ae4fd4f58058ae094959a6bbc"
+  },
+  {
+    "path": "stages/12-final-delivery/assessment/bc-closed-loop-20261012/review-v1.md",
+    "bytes": 15911,
+    "sha256": "dbed32e68d3a1340e6eae06ed2abc3304ac59d2e1f23f012c7a5fb4eae3633c4"
+  },
+  {
+    "path": "stages/12-final-delivery/assessment/bc-closed-loop-20261012/review-v2.md",
+    "bytes": 3012,
+    "sha256": "6f50a479ca8e2fc96b82db593a6edcb7b7f46d9f00cd5ee690328595a71aa344"
+  },
+  {
+    "path": "stages/12-final-delivery/goals/bc-closed-loop-20261012/goal-v1.md",
+    "bytes": 6545,
+    "sha256": "5f4fe9f8a9dbc7e1985be51f46aff920dbcbca27303b600413c457f6cb873490"
+  },
+  {
+    "path": "stages/12-final-delivery/materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+    "bytes": 18781,
+    "sha256": "fa43f10cf4daa94c4869d3275026cee36802453525d8dab3830437485ef91fb2"
+  },
+  {
+    "path": "stages/12-final-delivery/materials/bc-closed-loop-20261012/material-uses-v3.md",
+    "bytes": 10725,
+    "sha256": "22a25d152f1861eb34bfed11b0581135838a74a92de5fdd16c30dcdbe57d6cc1"
+  },
+  {
+    "path": "stages/12-final-delivery/materials/bc-closed-loop-20261012/source-notes-v2.md",
+    "bytes": 10350,
+    "sha256": "7b04ba3a4ab99ee08f948a4ffe5737645c948428a1a0386058e62b795fcba0dc"
+  },
+  {
+    "path": "stages/12-final-delivery/plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "bytes": 9283,
+    "sha256": "af130a4fc534bcdd413d8a128aebab4d91154546080a7db3e41830fe162f7499"
+  },
+  {
+    "path": "stages/12-final-delivery/questions/backup/bc-closed-loop-20261012/support-v3.md",
+    "bytes": 5062,
+    "sha256": "d27960fbb07a9c054a53a42e02280af3bc8713375ca73c89f73f4b4e708b7b1f"
+  },
+  {
+    "path": "stages/12-final-delivery/questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+    "bytes": 11430,
+    "sha256": "3555a1cf5b21612a6aa73784aa4189b0cb854539d2a14e9ca2c02881a34685cb"
+  },
+  {
+    "path": "stages/12-final-delivery/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "bytes": 5151,
+    "sha256": "78ab65a6dd1403684aa3a9df652fe22d8055269218a960fe1dcbc93d4a633d93"
+  },
+  {
+    "path": "stages/12-final-delivery/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "bytes": 6606,
+    "sha256": "32c5b5ae4df136245bd306df61e60b8827b1c8a40841300cf2a1266dca509dc9"
+  },
+  {
+    "path": "stages/12-final-delivery/questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "bytes": 3552,
+    "sha256": "13ddcfa00890f9f0731f67530e42e8c21ffd23eb1d19e3563f74b1b1580eef9c"
+  },
+  {
+    "path": "stages/12-final-delivery/questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+    "bytes": 4716,
+    "sha256": "9a4fcb235c77a0941e0fd15831dbe5ac0df2f13eb9d4359e29dbfbc1be1544b1"
+  },
+  {
+    "path": "stages/12-final-delivery/questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "bytes": 80788,
+    "sha256": "67e3fab5ca1e3287a7a9c030976d9d9d279073360daa0f7e28e6a5558cf6c4a9"
+  },
+  {
+    "path": "stages/12-final-delivery/questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "bytes": 2797,
+    "sha256": "e83d8cf34895fa986db5be57431c45b8ce0bde47912ddbb8bd716fd350ecdbd9"
+  },
+  {
+    "path": "stages/12-final-delivery/sessions/2026-10-12-bc-preparation-01/preparation-result.md",
+    "bytes": 1664,
+    "sha256": "49de7284d4e51aa790102dc387aefa6da6c6923be048a39b6bdd97bf3a757163"
+  },
+  {
+    "path": "stages/12-final-delivery/sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt",
+    "bytes": 822,
+    "sha256": "73ded7e2a0d824d994e03af59014e856ba692dc2f67c6585cde3fd604ca6fad9"
+  },
+  {
+    "path": "version-map.md",
+    "bytes": 4862,
+    "sha256": "2fb2dbcd21ddbdd26b11ea5795fee628ad16a45ccffd7cf4ab8e2c88c6f949a3"
+  }
+]

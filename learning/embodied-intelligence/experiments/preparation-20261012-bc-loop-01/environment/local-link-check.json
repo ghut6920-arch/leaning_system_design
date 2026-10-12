@@ -1,0 +1,497 @@
+[
+  {
+    "document": "assessment/bc-closed-loop-20261012/review-questions-v1.md",
+    "target": "../../sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt",
+    "exists": true
+  },
+  {
+    "document": "assessment/bc-closed-loop-20261012/review-v1.md",
+    "target": "review-questions-v1.md",
+    "exists": true
+  },
+  {
+    "document": "assessment/bc-closed-loop-20261012/review-v1.md",
+    "target": "../../sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt",
+    "exists": true
+  },
+  {
+    "document": "assessment/bc-closed-loop-20261012/review-v2.md",
+    "target": "review-v1.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../goals/bc-closed-loop-20261012/goal-v1.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../artifacts/bc-closed-loop-20261012/cognitive-design-v1.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../materials/bc-closed-loop-20261012/source-notes-v2.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../materials/bc-closed-loop-20261012/material-uses-v3.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../questions/backup/bc-closed-loop-20261012/support-v3.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../artifacts/bc-closed-loop-20261012/materialization-check-v1.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../artifacts/bc-closed-loop-20261012/materialization-check-v2.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../artifacts/bc-closed-loop-20261012/materialization-check-v3.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../assessment/bc-closed-loop-20261012/review-v1.md",
+    "exists": true
+  },
+  {
+    "document": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "target": "../../assessment/bc-closed-loop-20261012/review-v2.md",
+    "exists": true
+  },
+  {
+    "document": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "target": "E:/文献资料/学习系统架构设计/learning/embodied-intelligence/questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "exists": true
+  },
+  {
+    "document": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "target": "E:/文献资料/学习系统架构设计/learning/embodied-intelligence/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "exists": true
+  },
+  {
+    "document": "questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "target": "E:/文献资料/学习系统架构设计/learning/embodied-intelligence/questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "exists": true
+  },
+  {
+    "document": "questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "target": "E:/文献资料/学习系统架构设计/learning/embodied-intelligence/questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+    "exists": true
+  },
+  {
+    "document": "sessions/2026-10-12-bc-preparation-01/preparation-result.md",
+    "target": "raw/learning-request.txt",
+    "exists": true
+  },
+  {
+    "document": "sessions/2026-10-12-bc-preparation-01/preparation-result.md",
+    "target": "../../plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "exists": true
+  },
+  {
+    "document": "sessions/2026-10-12-bc-preparation-01/preparation-result.md",
+    "target": "../../assessment/bc-closed-loop-20261012/review-v1.md",
+    "exists": true
+  },
+  {
+    "document": "sessions/2026-10-12-bc-preparation-01/preparation-result.md",
+    "target": "../../assessment/bc-closed-loop-20261012/review-v2.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/README.md",
+    "target": "../../plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/README.md",
+    "target": "../../sessions/2026-10-12-bc-preparation-01/preparation-result.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/README.md",
+    "target": "input/user-request.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/README.md",
+    "target": "../../sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/README.md",
+    "target": "process-record.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/README.md",
+    "target": "version-map.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/README.md",
+    "target": "diffs/index.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/README.md",
+    "target": "file-changes.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/README.md",
+    "target": "deliverables-manifest.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/README.md",
+    "target": "archive-inventory.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/README.md",
+    "target": "observation-boundaries.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "input/user-request.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "../../sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "handoffs/initial-dispatches.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "stages/02-ag2-research/materials/bc-closed-loop-20261012/source-notes-v1.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "receipts/ag2-research-return-verbatim.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "handoffs/05-ag2-to-ag1.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "stages/01-ag3-purpose-questions/assessment/bc-closed-loop-20261012/review-questions-v1.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "receipts/ag3-purpose-questions-return-verbatim.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "receipts/ag1-rule-loading.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "receipts/ag1-design-return-verbatim.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "handoffs/direct-notification-boundary.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "handoffs/08-ag1-to-ag2-materials.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "handoffs/07-material-rule-preload.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "receipts/ag2-material-rules-return-verbatim.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "handoffs/09-materials-to-ag1-functional-read.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "receipts/ag1-functional-check-return-verbatim.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "handoffs/10-functional-feedback-to-ag2.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "handoffs/11-navigation-version-check-to-ag2.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "receipts/ag2-material-return-verbatim.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "handoffs/12-ag3-review-candidate.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "handoffs/13-ag1-final-functional-read.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "handoffs/14-15-final-use-version-notices.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "receipts/ag1-final-functional-return-verbatim.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "stages/10-ag3-review/assessment/bc-closed-loop-20261012/review-v1.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "stages/10-ag3-review/assessment/bc-closed-loop-20261012/review-v2.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "receipts/ag3-review-return-verbatim.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "handoffs/16-final-preparation-adoption-to-ag1.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "receipts/ag1-plan-closeout-return-verbatim.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/process-record.md",
+    "target": "observation-boundaries.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "diffs/index.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../goals/bc-closed-loop-20261012/goal-v1.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../artifacts/bc-closed-loop-20261012/cognitive-design-v1.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../materials/bc-closed-loop-20261012/source-notes-v2.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../questions/backup/bc-closed-loop-20261012/support-v3.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../materials/bc-closed-loop-20261012/material-uses-v3.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../artifacts/bc-closed-loop-20261012/materialization-check-v2.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../artifacts/bc-closed-loop-20261012/materialization-check-v3.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../assessment/bc-closed-loop-20261012/review-questions-v1.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../assessment/bc-closed-loop-20261012/review-v1.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../assessment/bc-closed-loop-20261012/review-v2.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/version-map.md",
+    "target": "../../sessions/2026-10-12-bc-preparation-01/preparation-result.md",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/file-changes.md",
+    "target": "deliverables-manifest.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/file-changes.md",
+    "target": "diffs/index.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/file-changes.md",
+    "target": "environment/existing-files-end-comparison.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/file-changes.md",
+    "target": "environment/framework-fingerprint-end.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/file-changes.md",
+    "target": "environment/final-verification.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/file-changes.md",
+    "target": "archive-inventory.json",
+    "exists": true
+  },
+  {
+    "document": "experiments/preparation-20261012-bc-loop-01/file-changes.md",
+    "target": "environment/task-created-files.json",
+    "exists": true
+  }
+]

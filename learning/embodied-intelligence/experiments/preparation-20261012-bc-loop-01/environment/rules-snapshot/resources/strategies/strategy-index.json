@@ -1,0 +1,4664 @@
+{
+  "compiled_encoding_card_count": 60,
+  "encoding_card_count": 60,
+  "entries": [
+    {
+      "bundle_path": "encoding/O01.json",
+      "category": "Orient / 定向",
+      "compiled": true,
+      "evidence_ids": [
+        "OS01",
+        "OS02",
+        "OS03"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "把注意定向到必须记住的事实；短文、标签、术语，先验不足也可低风险尝试",
+      "name": "目标事实缺口",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "O01",
+      "resource_key": "encoding/O01",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 25,
+            "heading": "### O01 目标事实缺口",
+            "kind": "markdown_heading",
+            "start_line": 16
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/0",
+            "select_field": "id",
+            "select_value": "O01"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Orient / 定向"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/O02.json",
+      "category": "Orient / 定向",
+      "compiled": true,
+      "evidence_ids": [
+        "OS04"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "调用已有变量关系；有最小领域熟悉度，结果可验证",
+      "name": "定向趋势预测",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "O02",
+      "resource_key": "encoding/O02",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 35,
+            "heading": "### O02 定向趋势预测",
+            "kind": "markdown_heading",
+            "start_line": 26
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/1",
+            "select_field": "id",
+            "select_value": "O02"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Orient / 定向"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/O03.json",
+      "category": "Orient / 定向",
+      "compiled": true,
+      "evidence_ids": [
+        "OS01",
+        "OS04",
+        "OS06"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "把后续学习定位为寻找中介过程；已有组件知识、有可核查机制",
+      "name": "机制候选预测",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "O03",
+      "resource_key": "encoding/O03",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 45,
+            "heading": "### O03 机制候选预测",
+            "kind": "markdown_heading",
+            "start_line": 36
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/2",
+            "select_field": "id",
+            "select_value": "O03"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Orient / 定向"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/O04.json",
+      "category": "Orient / 定向",
+      "compiled": true,
+      "evidence_ids": [
+        "OS05",
+        "OS06"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "暴露关系缺口而非画装饰图；部分先验、3–5个已知组件的局部系统",
+      "name": "局部模型草图",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "O04",
+      "resource_key": "encoding/O04",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 55,
+            "heading": "### O04 局部模型草图",
+            "kind": "markdown_heading",
+            "start_line": 46
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/3",
+            "select_field": "id",
+            "select_value": "O04"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Orient / 定向"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/O05.json",
+      "category": "Orient / 定向",
+      "compiled": true,
+      "evidence_ids": [
+        "OS06",
+        "OS11"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "让后续证据有鉴别目标；两个可理解候选，或学习者已有稳定误解",
+      "name": "竞争模型分叉",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "O05",
+      "resource_key": "encoding/O05",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 65,
+            "heading": "### O05 竞争模型分叉",
+            "kind": "markdown_heading",
+            "start_line": 56
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/4",
+            "select_field": "id",
+            "select_value": "O05"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Orient / 定向"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/O06.json",
+      "category": "Orient / 定向",
+      "compiled": true,
+      "evidence_ids": [
+        "OS01",
+        "OS06"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "区别已有知识和缺少的连接；先备知识可调用、学习材料明确",
+      "name": "知识缺口定位",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "O06",
+      "resource_key": "encoding/O06",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 75,
+            "heading": "### O06 知识缺口定位",
+            "kind": "markdown_heading",
+            "start_line": 66
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/5",
+            "select_field": "id",
+            "select_value": "O06"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Orient / 定向"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/O07.json",
+      "category": "Orient / 定向",
+      "compiled": true,
+      "evidence_ids": [
+        "OS08",
+        "OS12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "先获得少量组织槽位；章节有明确机制/流程/层级，宜提供骨架",
+      "name": "结构预览与位置预测",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "O07",
+      "resource_key": "encoding/O07",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 85,
+            "heading": "### O07 结构预览与位置预测",
+            "kind": "markdown_heading",
+            "start_line": 76
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/6",
+            "select_field": "id",
+            "select_value": "O07"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Orient / 定向"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/O08.json",
+      "category": "Orient / 定向",
+      "compiled": true,
+      "evidence_ids": [
+        "OS04",
+        "OS11"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "形成与目标机制有关的好奇缺口；两事实均真实、矛盾可在当前单元解除",
+      "name": "可解决的解释矛盾",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "O08",
+      "resource_key": "encoding/O08",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 95,
+            "heading": "### O08 可解决的解释矛盾",
+            "kind": "markdown_heading",
+            "start_line": 86
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/7",
+            "select_field": "id",
+            "select_value": "O08"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Orient / 定向"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/O09.json",
+      "category": "Orient / 定向",
+      "compiled": true,
+      "evidence_ids": [
+        "OS04",
+        "OS11"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "使预测可修订，便于 tutor 区分未知与误解；适合已有信念的关键问题",
+      "name": "信心与可反驳条件",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "O09",
+      "resource_key": "encoding/O09",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 105,
+            "heading": "### O09 信心与可反驳条件",
+            "kind": "markdown_heading",
+            "start_line": 96
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/8",
+            "select_field": "id",
+            "select_value": "O09"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Orient / 定向"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/O10.json",
+      "category": "Orient / 定向",
+      "compiled": true,
+      "evidence_ids": [
+        "OS06"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "为形式化概念生成需求；有相关直觉、目标概念尚未正式学、能保证比较整合讲解",
+      "name": "有界发明 / 准备性失败",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "O10",
+      "resource_key": "encoding/O10",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 115,
+            "heading": "### O10 有界发明 / 准备性失败",
+            "kind": "markdown_heading",
+            "start_line": 106
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/9",
+            "select_field": "id",
+            "select_value": "O10"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Orient / 定向"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/S01.json",
+      "category": "Scaffold / 支架",
+      "compiled": true,
+      "evidence_ids": [
+        "OS08",
+        "OS12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "复杂关系之前确认节点含义；术语、变量、操作尚不熟",
+      "name": "先备组件点检/补齐",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "S01",
+      "resource_key": "encoding/S01",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 127,
+            "heading": "### S01 先备组件点检/补齐",
+            "kind": "markdown_heading",
+            "start_line": 118
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/10",
+            "select_field": "id",
+            "select_value": "S01"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Scaffold / 支架"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/S02.json",
+      "category": "Scaffold / 支架",
+      "compiled": true,
+      "evidence_ids": [
+        "OS08",
+        "OS12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "减少图文/公式来回搜索；两个来源必须同时加工",
+      "name": "整合呈现对应信息",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "S02",
+      "resource_key": "encoding/S02",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 137,
+            "heading": "### S02 整合呈现对应信息",
+            "kind": "markdown_heading",
+            "start_line": 128
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/11",
+            "select_field": "id",
+            "select_value": "S02"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Scaffold / 支架"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/S03.json",
+      "category": "Scaffold / 支架",
+      "compiled": true,
+      "evidence_ids": [
+        "OS09"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "控制瞬时信息；动态机制、视频、多步流程",
+      "name": "语义分段与暂停",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "S03",
+      "resource_key": "encoding/S03",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 147,
+            "heading": "### S03 语义分段与暂停",
+            "kind": "markdown_heading",
+            "start_line": 138
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/12",
+            "select_field": "id",
+            "select_value": "S03"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Scaffold / 支架"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/S04.json",
+      "category": "Scaffold / 支架",
+      "compiled": true,
+      "evidence_ids": [
+        "OS12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "避免死背长步骤链；程序/推导，能按目标拆解",
+      "name": "子目标命名组块",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "S04",
+      "resource_key": "encoding/S04",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 157,
+            "heading": "### S04 子目标命名组块",
+            "kind": "markdown_heading",
+            "start_line": 148
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/13",
+            "select_field": "id",
+            "select_value": "S04"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Scaffold / 支架"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/S05.json",
+      "category": "Scaffold / 支架",
+      "compiled": true,
+      "evidence_ids": [
+        "OS07",
+        "OS08",
+        "OS12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "提供可模仿又可理解的标准路线；新手、元素交互高",
+      "name": "正确范例追踪",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "S05",
+      "resource_key": "encoding/S05",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 167,
+            "heading": "### S05 正确范例追踪",
+            "kind": "markdown_heading",
+            "start_line": 158
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/14",
+            "select_field": "id",
+            "select_value": "S05"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Scaffold / 支架"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/S06.json",
+      "category": "Scaffold / 支架",
+      "compiled": true,
+      "evidence_ids": [
+        "OS07",
+        "OS12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "把观察指向关键规则；已有规则词汇，非每步全解释",
+      "name": "原则定向的单步解释",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "S06",
+      "resource_key": "encoding/S06",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 177,
+            "heading": "### S06 原则定向的单步解释",
+            "kind": "markdown_heading",
+            "start_line": 168
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/15",
+            "select_field": "id",
+            "select_value": "S06"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Scaffold / 支架"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/S07.json",
+      "category": "Scaffold / 支架",
+      "compiled": true,
+      "evidence_ids": [
+        "OS10",
+        "OS12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "可靠范例后局部补全关键步骤，降低程序执行/步骤搜索负担。",
+      "name": "局部补全",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "S07",
+      "resource_key": "encoding/S07",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 187,
+            "heading": "### S07 局部补全",
+            "kind": "markdown_heading",
+            "start_line": 178
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/16",
+            "select_field": "id",
+            "select_value": "S07"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Scaffold / 支架"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/S08.json",
+      "category": "Scaffold / 支架",
+      "compiled": true,
+      "evidence_ids": [
+        "OS08",
+        "OS10",
+        "OS12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "将责任转交给学习者；同一原则已可独立说明/执行",
+      "name": "按知识组件渐隐",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "S08",
+      "resource_key": "encoding/S08",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 197,
+            "heading": "### S08 按知识组件渐隐",
+            "kind": "markdown_heading",
+            "start_line": 188
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/17",
+            "select_field": "id",
+            "select_value": "S08"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Scaffold / 支架"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/S09.json",
+      "category": "Scaffold / 支架",
+      "compiled": true,
+      "evidence_ids": [
+        "OS08",
+        "OS09"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "控制高交互系统；需要多个相互依赖子机制",
+      "name": "局部关系到全局组装",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "S09",
+      "resource_key": "encoding/S09",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 207,
+            "heading": "### S09 局部关系到全局组装",
+            "kind": "markdown_heading",
+            "start_line": 198
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/18",
+            "select_field": "id",
+            "select_value": "S09"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Scaffold / 支架"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/S10.json",
+      "category": "Scaffold / 支架",
+      "compiled": true,
+      "evidence_ids": [
+        "OS10"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "给刚好足够的帮助；卡在特定状态/条件，可观察错误",
+      "name": "定位提示阶梯与回退",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "S10",
+      "resource_key": "encoding/S10",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 217,
+            "heading": "### S10 定位提示阶梯与回退",
+            "kind": "markdown_heading",
+            "start_line": 208
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/19",
+            "select_field": "id",
+            "select_value": "S10"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Scaffold / 支架"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/R01.json",
+      "category": "Relate / 关系化",
+      "compiled": true,
+      "evidence_ids": [
+        "RR02"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "新概念混杂，已有一些术语但无法组织时；区分 is-a、part-of、depends-on、causes，建立可检验的边。",
+      "name": "关系定型与层级定位",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "R01",
+      "resource_key": "encoding/R01",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 231,
+            "heading": "### R01 关系定型与层级定位",
+            "kind": "markdown_heading",
+            "start_line": 220
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/20",
+            "select_field": "id",
+            "select_value": "R01"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Relate / 关系化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/R02.json",
+      "category": "Relate / 关系化",
+      "compiled": true,
+      "evidence_ids": [
+        "RR01"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "新旧知识确有共享原则，学习者能准确表述旧schema时。",
+      "name": "跨知识连接的桥梁推断",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "R02",
+      "resource_key": "encoding/R02",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 243,
+            "heading": "### R02 跨知识连接的桥梁推断",
+            "kind": "markdown_heading",
+            "start_line": 232
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/21",
+            "select_field": "id",
+            "select_value": "R02"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Relate / 关系化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/R03.json",
+      "category": "Relate / 关系化",
+      "compiled": true,
+      "evidence_ids": [
+        "RR01",
+        "RR10",
+        "RR11"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "已知A与B关系，但不能解释中间过程；只展开对当前预测必要的黑箱。",
+      "name": "机制黑箱展开",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "R03",
+      "resource_key": "encoding/R03",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 255,
+            "heading": "### R03 机制黑箱展开",
+            "kind": "markdown_heading",
+            "start_line": 244
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/22",
+            "select_field": "id",
+            "select_value": "R03"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Relate / 关系化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/R04.json",
+      "category": "Relate / 关系化",
+      "compiled": true,
+      "evidence_ids": [
+        "RR09"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "规则常被过度概括，存在联合条件或替代路径。",
+      "name": "必要、充分、促成、背景条件分离",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "R04",
+      "resource_key": "encoding/R04",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 267,
+            "heading": "### R04 必要、充分、促成、背景条件分离",
+            "kind": "markdown_heading",
+            "start_line": 256
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/23",
+            "select_field": "id",
+            "select_value": "R04"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Relate / 关系化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/R05.json",
+      "category": "Relate / 关系化",
+      "compiled": true,
+      "evidence_ids": [
+        "RR08"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "资料来自观察而非实验，或学生凭同步变化画因果箭头。",
+      "name": "相关、共同原因、干预效应分离",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "R05",
+      "resource_key": "encoding/R05",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 279,
+            "heading": "### R05 相关、共同原因、干预效应分离",
+            "kind": "markdown_heading",
+            "start_line": 268
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/24",
+            "select_field": "id",
+            "select_value": "R05"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Relate / 关系化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/R06.json",
+      "category": "Relate / 关系化",
+      "compiled": true,
+      "evidence_ids": [
+        "RR08",
+        "RR12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "有变化规律且能追踪局部因果链；优先单次小扰动。",
+      "name": "局部扰动的动态传播",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "R06",
+      "resource_key": "encoding/R06",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 291,
+            "heading": "### R06 局部扰动的动态传播",
+            "kind": "markdown_heading",
+            "start_line": 280
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/25",
+            "select_field": "id",
+            "select_value": "R06"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Relate / 关系化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/R07.json",
+      "category": "Relate / 关系化",
+      "compiled": true,
+      "evidence_ids": [
+        "RR10",
+        "RR12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "局部链已正确，系统确有反馈，不强迫所有材料找反馈。",
+      "name": "回路闭合、延迟与稳定性",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "R07",
+      "resource_key": "encoding/R07",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 303,
+            "heading": "### R07 回路闭合、延迟与稳定性",
+            "kind": "markdown_heading",
+            "start_line": 292
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/26",
+            "select_field": "id",
+            "select_value": "R07"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Relate / 关系化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/R08.json",
+      "category": "Relate / 关系化",
+      "compiled": true,
+      "evidence_ids": [
+        "RR05",
+        "RR08"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "已有可运行的小模型，检验某条边或条件；复杂新手先补链再反事实。",
+      "name": "受约束反事实与干预对照",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "R08",
+      "resource_key": "encoding/R08",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 315,
+            "heading": "### R08 受约束反事实与干预对照",
+            "kind": "markdown_heading",
+            "start_line": 304
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/27",
+            "select_field": "id",
+            "select_value": "R08"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Relate / 关系化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/R09.json",
+      "category": "Relate / 关系化",
+      "compiled": true,
+      "evidence_ids": [],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "按目标、范围与条件分解重要性标准，并给有依据的排名、条件序关系或待测信息。",
+      "name": "重要性标准分解与条件排名",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "R09",
+      "resource_key": "encoding/R09",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 327,
+            "heading": "### R09 重要性标准分解与条件排名",
+            "kind": "markdown_heading",
+            "start_line": 316
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/28",
+            "select_field": "id",
+            "select_value": "R09"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Relate / 关系化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/R10.json",
+      "category": "Relate / 关系化",
+      "compiled": true,
+      "evidence_ids": [
+        "RR11",
+        "RR12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "部件作用与整体结果脱节；已有局部机制可整合。",
+      "name": "跨层链接与最小充分系统模型",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "R10",
+      "resource_key": "encoding/R10",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 339,
+            "heading": "### R10 跨层链接与最小充分系统模型",
+            "kind": "markdown_heading",
+            "start_line": 328
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/29",
+            "select_field": "id",
+            "select_value": "R10"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Relate / 关系化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/D01.json",
+      "category": "Differentiate / 辨析",
+      "compiled": true,
+      "evidence_ids": [
+        "DI01",
+        "DI02",
+        "DI03"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "将两例放进共同坐标，适用于关系结构或邻近概念；比较前至少解释必需术语。",
+      "name": "角色对齐比较",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "D01",
+      "resource_key": "encoding/D01",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 351,
+            "heading": "### D01 角色对齐比较",
+            "kind": "markdown_heading",
+            "start_line": 342
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/30",
+            "select_field": "id",
+            "select_value": "D01"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Differentiate / 辨析"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/D02.json",
+      "category": "Differentiate / 辨析",
+      "compiled": true,
+      "evidence_ids": [
+        "DI02",
+        "DI09"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "找出引发概念或策略切换的变量；已有可信规则或可控案例。",
+      "name": "最小对 / 单因素隔离",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "D02",
+      "resource_key": "encoding/D02",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 361,
+            "heading": "### D02 最小对 / 单因素隔离",
+            "kind": "markdown_heading",
+            "start_line": 352
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/31",
+            "select_field": "id",
+            "select_value": "D02"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Differentiate / 辨析"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/D03.json",
+      "category": "Differentiate / 辨析",
+      "compiled": true,
+      "evidence_ids": [
+        "DI05",
+        "DI07",
+        "DI09"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "发现学习者以颜色、措辞、熟悉外形替代定义；知觉任务中则保留真正诊断的表面特征。",
+      "name": "诊断线索与伪线索分离",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "D03",
+      "resource_key": "encoding/D03",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 371,
+            "heading": "### D03 诊断线索与伪线索分离",
+            "kind": "markdown_heading",
+            "start_line": 362
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/32",
+            "select_field": "id",
+            "select_value": "D03"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Differentiate / 辨析"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/D04.json",
+      "category": "Differentiate / 辨析",
+      "compiled": true,
+      "evidence_ids": [
+        "DI02",
+        "DI06"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "确认分类规则的覆盖和排除能力；知道概念定义后。",
+      "name": "正例—非例规则验证",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "D04",
+      "resource_key": "encoding/D04",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 381,
+            "heading": "### D04 正例—非例规则验证",
+            "kind": "markdown_heading",
+            "start_line": 372
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/33",
+            "select_field": "id",
+            "select_value": "D04"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Differentiate / 辨析"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/D05.json",
+      "category": "Differentiate / 辨析",
+      "compiled": true,
+      "evidence_ids": [
+        "DI02",
+        "DI09"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "精确定位缺失条件；用于常见混淆，掌握基本正例后。",
+      "name": "Near-miss / 最小修复",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "D05",
+      "resource_key": "encoding/D05",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 391,
+            "heading": "### D05 Near-miss / 最小修复",
+            "kind": "markdown_heading",
+            "start_line": 382
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/34",
+            "select_field": "id",
+            "select_value": "D05"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Differentiate / 辨析"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/D06.json",
+      "category": "Differentiate / 辨析",
+      "compiled": true,
+      "evidence_ids": [
+        "DI11",
+        "DI12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "防止过度概括；适用于明确域、阈值或渐变类别。",
+      "name": "边界探查与信息不足",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "D06",
+      "resource_key": "encoding/D06",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 401,
+            "heading": "### D06 边界探查与信息不足",
+            "kind": "markdown_heading",
+            "start_line": 392
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/35",
+            "select_field": "id",
+            "select_value": "D06"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Differentiate / 辨析"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/D07.json",
+      "category": "Differentiate / 辨析",
+      "compiled": true,
+      "evidence_ids": [
+        "DI11",
+        "DI12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "遇到违反预测案例时，决定修正规则、补条件或检查测量。",
+      "name": "例外归因与规则修订",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "D07",
+      "resource_key": "encoding/D07",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 411,
+            "heading": "### D07 例外归因与规则修订",
+            "kind": "markdown_heading",
+            "start_line": 402
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/36",
+            "select_field": "id",
+            "select_value": "D07"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Differentiate / 辨析"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/D08.json",
+      "category": "Differentiate / 辨析",
+      "compiled": true,
+      "evidence_ids": [
+        "DI08"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "已有具体错误命题；纠正关键机制而不只修答案。",
+      "name": "误概念—反驳—替代解释",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "D08",
+      "resource_key": "encoding/D08",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 421,
+            "heading": "### D08 误概念—反驳—替代解释",
+            "kind": "markdown_heading",
+            "start_line": 412
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/37",
+            "select_field": "id",
+            "select_value": "D08"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Differentiate / 辨析"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/D09.json",
+      "category": "Differentiate / 辨析",
+      "compiled": true,
+      "evidence_ids": [
+        "DI02"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "建立灵活策略选择；至少能跟踪一种方法，或提供充分逐步支持。",
+      "name": "同题异解与选择条件",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "D09",
+      "resource_key": "encoding/D09",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 431,
+            "heading": "### D09 同题异解与选择条件",
+            "kind": "markdown_heading",
+            "start_line": 422
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/38",
+            "select_field": "id",
+            "select_value": "D09"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Differentiate / 辨析"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/D10.json",
+      "category": "Differentiate / 辨析",
+      "compiled": true,
+      "evidence_ids": [
+        "DI07"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "降低早期备选项负荷，并检测是否真正会独立判别；主要针对可混淆类别。",
+      "name": "配对鉴别→独立分类",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "D10",
+      "resource_key": "encoding/D10",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 441,
+            "heading": "### D10 配对鉴别→独立分类",
+            "kind": "markdown_heading",
+            "start_line": 432
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/39",
+            "select_field": "id",
+            "select_value": "D10"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Differentiate / 辨析"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/I01.json",
+      "category": "Instantiate / 具体化",
+      "compiled": true,
+      "evidence_ids": [
+        "DI09",
+        "DI11"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "让符号和角色有指称；陌生概念、低先验时使用。",
+      "name": "简洁典型例落地",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "I01",
+      "resource_key": "encoding/I01",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 453,
+            "heading": "### I01 简洁典型例落地",
+            "kind": "markdown_heading",
+            "start_line": 444
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/40",
+            "select_field": "id",
+            "select_value": "I01"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Instantiate / 具体化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/I02.json",
+      "category": "Instantiate / 具体化",
+      "compiled": true,
+      "evidence_ids": [
+        "DI03",
+        "DI04"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "初步抽象，尚不能追踪跨域远例时。",
+      "name": "近邻多例找不变量",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "I02",
+      "resource_key": "encoding/I02",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 463,
+            "heading": "### I02 近邻多例找不变量",
+            "kind": "markdown_heading",
+            "start_line": 454
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/41",
+            "select_field": "id",
+            "select_value": "I02"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Instantiate / 具体化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/I03.json",
+      "category": "Instantiate / 具体化",
+      "compiled": true,
+      "evidence_ids": [
+        "DI09"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "防止绑定特定措辞、方向、颜色或背景；已有稳定的关系目标。",
+      "name": "只变非诊断维度",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "I03",
+      "resource_key": "encoding/I03",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 473,
+            "heading": "### I03 只变非诊断维度",
+            "kind": "markdown_heading",
+            "start_line": 464
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/42",
+            "select_field": "id",
+            "select_value": "I03"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Instantiate / 具体化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/I04.json",
+      "category": "Instantiate / 具体化",
+      "compiled": true,
+      "evidence_ids": [
+        "DI03",
+        "DI04",
+        "DI09",
+        "U02"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "近例已能解释，目标是识别可迁移原则。",
+      "name": "关系不变、情境变远",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "I04",
+      "resource_key": "encoding/I04",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 483,
+            "heading": "### I04 关系不变、情境变远",
+            "kind": "markdown_heading",
+            "start_line": 474
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/43",
+            "select_field": "id",
+            "select_value": "I04"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Instantiate / 具体化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/I05.json",
+      "category": "Instantiate / 具体化",
+      "compiled": true,
+      "evidence_ids": [
+        "DI11",
+        "DI12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "检验量变与规则含义；适用于数学或明确机制模型。",
+      "name": "极端/限制实例",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "I05",
+      "resource_key": "encoding/I05",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 493,
+            "heading": "### I05 极端/限制实例",
+            "kind": "markdown_heading",
+            "start_line": 484
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/44",
+            "select_field": "id",
+            "select_value": "I05"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Instantiate / 具体化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/I06.json",
+      "category": "Instantiate / 具体化",
+      "compiled": true,
+      "evidence_ids": [
+        "DI10",
+        "DI11",
+        "DI12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "实物确实熟悉且能表达关键结构；目标包含抽象符号理解。",
+      "name": "具体—图式—符号对应",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "I06",
+      "resource_key": "encoding/I06",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 503,
+            "heading": "### I06 具体—图式—符号对应",
+            "kind": "markdown_heading",
+            "start_line": 494
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/45",
+            "select_field": "id",
+            "select_value": "I06"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Instantiate / 具体化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/I07.json",
+      "category": "Instantiate / 具体化",
+      "compiled": true,
+      "evidence_ids": [
+        "DI11",
+        "DI12"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "已有规则/符号但缺乏现实解释，或具体材料引入额外机制。",
+      "name": "抽象→具体的定向实例化",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "I07",
+      "resource_key": "encoding/I07",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 513,
+            "heading": "### I07 抽象→具体的定向实例化",
+            "kind": "markdown_heading",
+            "start_line": 504
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/46",
+            "select_field": "id",
+            "select_value": "I07"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Instantiate / 具体化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/I08.json",
+      "category": "Instantiate / 具体化",
+      "compiled": true,
+      "evidence_ids": [
+        "DI03",
+        "DI11"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "学习者真正熟悉来源域，且来源—目标有可信关系对应。",
+      "name": "显式类比映射与破裂点",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "I08",
+      "resource_key": "encoding/I08",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 523,
+            "heading": "### I08 显式类比映射与破裂点",
+            "kind": "markdown_heading",
+            "start_line": 514
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/47",
+            "select_field": "id",
+            "select_value": "I08"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Instantiate / 具体化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/I09.json",
+      "category": "Instantiate / 具体化",
+      "compiled": true,
+      "evidence_ids": [
+        "DI02",
+        "DI03",
+        "DI09",
+        "U02"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "会把熟悉表面误当同结构；已建立一个候选schema。",
+      "name": "反类比配对 / 表面诱饵",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "I09",
+      "resource_key": "encoding/I09",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 533,
+            "heading": "### I09 反类比配对 / 表面诱饵",
+            "kind": "markdown_heading",
+            "start_line": 524
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/48",
+            "select_field": "id",
+            "select_value": "I09"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Instantiate / 具体化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/I10.json",
+      "category": "Instantiate / 具体化",
+      "compiled": true,
+      "evidence_ids": [
+        "DI06"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "学习者已能解释一个例子；用于检查规则是否具有生产性。",
+      "name": "受约束新例生成与验证",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "I10",
+      "resource_key": "encoding/I10",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 543,
+            "heading": "### I10 受约束新例生成与验证",
+            "kind": "markdown_heading",
+            "start_line": 534
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/49",
+            "select_field": "id",
+            "select_value": "I10"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Instantiate / 具体化"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/X01.json",
+      "category": "Re-represent / 重表征",
+      "compiled": true,
+      "evidence_ids": [
+        "RR01"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "会读步骤但不懂步骤为何合法，数学/程序/科学例题。",
+      "name": "原理约束的自解释",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "X01",
+      "resource_key": "encoding/X01",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 556,
+            "heading": "### X01 原理约束的自解释",
+            "kind": "markdown_heading",
+            "start_line": 546
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/50",
+            "select_field": "id",
+            "select_value": "X01"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Re-represent / 重表征"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/X02.json",
+      "category": "Re-represent / 重表征",
+      "compiled": true,
+      "evidence_ids": [
+        "RR06"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "给定可靠标准推理及局部支架，补出理由链关键关系，按目标观察撤除相关线索后的解释。",
+      "name": "约束补全与支架撤除",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "X02",
+      "resource_key": "encoding/X02",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 567,
+            "heading": "### X02 约束补全与支架撤除",
+            "kind": "markdown_heading",
+            "start_line": 557
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/51",
+            "select_field": "id",
+            "select_value": "X02"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Re-represent / 重表征"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/X03.json",
+      "category": "Re-represent / 重表征",
+      "compiled": true,
+      "evidence_ids": [
+        "RR02",
+        "RR10"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "文本包含多个互依关系，需要外显结构以便核对。",
+      "name": "命题化概念图/因果图构建",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "X03",
+      "resource_key": "encoding/X03",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 578,
+            "heading": "### X03 命题化概念图/因果图构建",
+            "kind": "markdown_heading",
+            "start_line": 568
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/52",
+            "select_field": "id",
+            "select_value": "X03"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Re-represent / 重表征"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/X04.json",
+      "category": "Re-represent / 重表征",
+      "compiled": true,
+      "evidence_ids": [
+        "RR03",
+        "RR10"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "学习者已经有图，需防止错误生成固化。",
+      "name": "生成图—规范图差异审计—修图",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "X04",
+      "resource_key": "encoding/X04",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 589,
+            "heading": "### X04 生成图—规范图差异审计—修图",
+            "kind": "markdown_heading",
+            "start_line": 579
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/53",
+            "select_field": "id",
+            "select_value": "X04"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Re-represent / 重表征"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/X05.json",
+      "category": "Re-represent / 重表征",
+      "compiled": true,
+      "evidence_ids": [
+        "RR06",
+        "RR07"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "能认符号但不能说明变量变化或公式适用性。",
+      "name": "公式↔语言：变量依赖而非符号念读",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "X05",
+      "resource_key": "encoding/X05",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 600,
+            "heading": "### X05 公式↔语言：变量依赖而非符号念读",
+            "kind": "markdown_heading",
+            "start_line": 590
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/54",
+            "select_field": "id",
+            "select_value": "X05"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Re-represent / 重表征"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/X06.json",
+      "category": "Re-represent / 重表征",
+      "compiled": true,
+      "evidence_ids": [
+        "RR06",
+        "RR07",
+        "U01"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "看图、算式各会但相互无法映射。",
+      "name": "图↔方程：对应点与不变量校验",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "X06",
+      "resource_key": "encoding/X06",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 611,
+            "heading": "### X06 图↔方程：对应点与不变量校验",
+            "kind": "markdown_heading",
+            "start_line": 601
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/55",
+            "select_field": "id",
+            "select_value": "X06"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Re-represent / 重表征"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/X07.json",
+      "category": "Re-represent / 重表征",
+      "compiled": true,
+      "evidence_ids": [
+        "RR07",
+        "RR09"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "有至少可比较的例子且学生已识别关键关系，目标为迁移。",
+      "name": "案例→规则→回测：保留边界的抽象",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "X07",
+      "resource_key": "encoding/X07",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 622,
+            "heading": "### X07 案例→规则→回测：保留边界的抽象",
+            "kind": "markdown_heading",
+            "start_line": 612
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/56",
+            "select_field": "id",
+            "select_value": "X07"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Re-represent / 重表征"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/X08.json",
+      "category": "Re-represent / 重表征",
+      "compiled": true,
+      "evidence_ids": [
+        "RR04"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "目标包括组织概念与解释，学习者有基本知识，可给讲授准备时间。",
+      "name": "预告讲授目标的受众化讲解",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "X08",
+      "resource_key": "encoding/X08",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 633,
+            "heading": "### X08 预告讲授目标的受众化讲解",
+            "kind": "markdown_heading",
+            "start_line": 623
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/57",
+            "select_field": "id",
+            "select_value": "X08"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Re-represent / 重表征"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/X09.json",
+      "category": "Re-represent / 重表征",
+      "compiled": true,
+      "evidence_ids": [
+        "RR05",
+        "RR10"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "已有暂定模型且存在可以区分它与正确模型的情境；错误必须得到后续反馈。",
+      "name": "预测—观察/答案—模型修订",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "X09",
+      "resource_key": "encoding/X09",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 644,
+            "heading": "### X09 预测—观察/答案—模型修订",
+            "kind": "markdown_heading",
+            "start_line": 634
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/58",
+            "select_field": "id",
+            "select_value": "X09"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Re-represent / 重表征"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "encoding/X10.json",
+      "category": "Re-represent / 重表征",
+      "compiled": true,
+      "evidence_ids": [
+        "RR01"
+      ],
+      "execution_limit": "完整包可直接读取；按当前理解目标实例化正文操作、前置、风险和反馈，不由compiled认定适配或学习效果。",
+      "identity_kind": "original_encoding_card_id",
+      "intended_work": "学习者已经完成正确局部模型，需形成可检索、可重建的schema。",
+      "name": "功能性压缩与重建",
+      "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+      "original_id": "X10",
+      "resource_key": "encoding/X10",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": "R03",
+      "source_refs": [
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "end_line": 655,
+            "heading": "### X10 功能性压缩与重建",
+            "kind": "markdown_heading",
+            "start_line": 645
+          },
+          "project_relative_path": "../docs/research/02_Encoding微操作与提问库.md",
+          "source_id": "R02",
+          "workspace_relative_path": "docs/research/02_Encoding微操作与提问库.md"
+        },
+        {
+          "declared_revision": "2.0",
+          "identity_kind": "card",
+          "locator": {
+            "kind": "json_pointer",
+            "pointer": "/operations/59",
+            "select_field": "id",
+            "select_value": "X10"
+          },
+          "project_relative_path": "../docs/research/04_Encoding策略库.json",
+          "source_id": "R03",
+          "workspace_relative_path": "docs/research/04_Encoding策略库.json"
+        }
+      ],
+      "source_version": "2.0",
+      "tags": [
+        {
+          "field": "category",
+          "origin": "original_field",
+          "value": "Re-represent / 重表征"
+        },
+        {
+          "origin": "suite_added",
+          "value": "encoding"
+        },
+        {
+          "origin": "suite_added",
+          "value": "checked_bundle"
+        }
+      ]
+    },
+    {
+      "bundle_path": "post/retrieve-relation.json",
+      "category": "Post",
+      "compiled": true,
+      "execution_limit": "套件新增条件说明，非原始P卡；当前内容/用途/帮助条件须另核对。",
+      "identity_kind": "suite_added_method_key",
+      "name": "按目标恢复并形成关系",
+      "original_claim_status": {
+        "no_original_post_card_id": true,
+        "research_claim_ratings_not_method_score": true,
+        "status": "H：本套件条件化设计综合"
+      },
+      "original_id": null,
+      "resource_key": "post/retrieve-relation",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": null,
+      "source_refs": [
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 170,
+            "heading": "### 1. 恢复：确定恢复对象与合法入口",
+            "kind": "markdown_heading",
+            "start_line": 161
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 184,
+            "heading": "### 2. 关系整合：同时处理连接、区分与整体组织",
+            "kind": "markdown_heading",
+            "start_line": 171
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 237,
+            "heading": "### 3. 返回 Encoding 的最小范围",
+            "kind": "markdown_heading",
+            "start_line": 230
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 155,
+            "heading": "### 5.3 更适合 relational / causal integration：恢复关系前提与约束",
+            "kind": "markdown_heading",
+            "start_line": 150
+          },
+          "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 230,
+            "heading": "### 7.3 Successful、partial、failed 与 erroneous retrieval",
+            "kind": "markdown_heading",
+            "start_line": 215
+          },
+          "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 420,
+            "heading": "### 13.1 最小但有区分力的测量组合",
+            "kind": "markdown_heading",
+            "start_line": 404
+          },
+          "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 31,
+            "heading": "## 从结果倒推操作",
+            "kind": "markdown_heading",
+            "start_line": 22
+          },
+          "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 44,
+            "heading": "## 六种组合如何判断",
+            "kind": "markdown_heading",
+            "start_line": 32
+          },
+          "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 51,
+            "heading": "## 三个使用边界",
+            "kind": "markdown_heading",
+            "start_line": 45
+          },
+          "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 200,
+            "heading": "## 五、组合、顺序与相互干扰",
+            "kind": "markdown_heading",
+            "start_line": 167
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+          "source_id": "D07",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 231,
+            "heading": "## 六、从通用卡片到可执行任务",
+            "kind": "markdown_heading",
+            "start_line": 201
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+          "source_id": "D07",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 289,
+            "heading": "## 七、时间与证据：教学进展、当前可用和持久可用分别成立",
+            "kind": "markdown_heading",
+            "start_line": 246
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 120,
+            "heading": "### E18｜Mulligan, N. W., Buchin, Z. L., & Powers, A.（2023）",
+            "kind": "markdown_heading",
+            "start_line": 115
+          },
+          "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 226,
+            "heading": "### E35｜Gjerde, Paulsen, Holst, & Kolstø（2022）",
+            "kind": "markdown_heading",
+            "start_line": 221
+          },
+          "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+        }
+      ],
+      "source_version": null,
+      "tags": [
+        {
+          "origin": "suite_added",
+          "value": "post"
+        }
+      ]
+    },
+    {
+      "bundle_path": "post/select-method.json",
+      "category": "Post",
+      "compiled": true,
+      "execution_limit": "套件新增条件说明，非原始P卡；当前内容/用途/帮助条件须另核对。",
+      "identity_kind": "suite_added_method_key",
+      "name": "在实际线索条件下选择、拒用并执行",
+      "original_claim_status": {
+        "no_original_post_card_id": true,
+        "research_claim_ratings_not_method_score": true,
+        "status": "H：本套件条件化设计综合"
+      },
+      "original_id": null,
+      "resource_key": "post/select-method",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": null,
+      "source_refs": [
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 192,
+            "heading": "### 3. 自主选用与迁移：把识别、映射和执行分别看清",
+            "kind": "markdown_heading",
+            "start_line": 185
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 263,
+            "heading": "### 1. 检查应对应原目标声称的能力",
+            "kind": "markdown_heading",
+            "start_line": 248
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 174,
+            "heading": "### 5.5 更可能促进 transfer：练习发现何时用，再练如何用",
+            "kind": "markdown_heading",
+            "start_line": 162
+          },
+          "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 306,
+            "heading": "### 9.4 两个值得保留的非正向结果",
+            "kind": "markdown_heading",
+            "start_line": 297
+          },
+          "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 420,
+            "heading": "### 13.1 最小但有区分力的测量组合",
+            "kind": "markdown_heading",
+            "start_line": 404
+          },
+          "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 31,
+            "heading": "## 从结果倒推操作",
+            "kind": "markdown_heading",
+            "start_line": 22
+          },
+          "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 44,
+            "heading": "## 六种组合如何判断",
+            "kind": "markdown_heading",
+            "start_line": 32
+          },
+          "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 51,
+            "heading": "## 三个使用边界",
+            "kind": "markdown_heading",
+            "start_line": 45
+          },
+          "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 200,
+            "heading": "## 五、组合、顺序与相互干扰",
+            "kind": "markdown_heading",
+            "start_line": 167
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+          "source_id": "D07",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 231,
+            "heading": "## 六、从通用卡片到可执行任务",
+            "kind": "markdown_heading",
+            "start_line": 201
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+          "source_id": "D07",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 289,
+            "heading": "## 七、时间与证据：教学进展、当前可用和持久可用分别成立",
+            "kind": "markdown_heading",
+            "start_line": 246
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 78,
+            "heading": "### E11｜Butler, A. C., Black-Maier, A. C., Raley, N. D., & Marsh, E. J.（2017）",
+            "kind": "markdown_heading",
+            "start_line": 73
+          },
+          "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 84,
+            "heading": "### E12｜Corral, D., Carpenter, S. K., & St. Hilaire, K.（2023）",
+            "kind": "markdown_heading",
+            "start_line": 79
+          },
+          "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 90,
+            "heading": "### E13｜Snoddy & Kurtz（2021）",
+            "kind": "markdown_heading",
+            "start_line": 85
+          },
+          "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 102,
+            "heading": "### E15｜Foss, D. J., Pirozzolo, J. W., & Kulesz, P. A.（2023）",
+            "kind": "markdown_heading",
+            "start_line": 97
+          },
+          "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+        }
+      ],
+      "source_version": null,
+      "tags": [
+        {
+          "origin": "suite_added",
+          "value": "post"
+        }
+      ]
+    },
+    {
+      "bundle_path": "post/conditional-update.json",
+      "category": "Post",
+      "compiled": true,
+      "execution_limit": "套件新增条件说明，非原始P卡；当前内容/用途/帮助条件须另核对。",
+      "identity_kind": "suite_added_method_key",
+      "name": "保留合法旧域的条件化更新",
+      "original_claim_status": {
+        "no_original_post_card_id": true,
+        "research_claim_ratings_not_method_score": true,
+        "status": "H：本套件条件化设计综合"
+      },
+      "original_id": null,
+      "resource_key": "post/conditional-update",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": null,
+      "source_refs": [
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 223,
+            "heading": "### 1. 先确定哪一类变化有依据",
+            "kind": "markdown_heading",
+            "start_line": 211
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 229,
+            "heading": "### 2. 更新成功应能排除哪些假象",
+            "kind": "markdown_heading",
+            "start_line": 224
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 245,
+            "heading": "### 4. 系统纠错与学习者更新分开完成",
+            "kind": "markdown_heading",
+            "start_line": 238
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 289,
+            "heading": "### 4. Consolidation 与 Reconsolidation 的位置",
+            "kind": "markdown_heading",
+            "start_line": 282
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 230,
+            "heading": "### 7.3 Successful、partial、failed 与 erroneous retrieval",
+            "kind": "markdown_heading",
+            "start_line": 215
+          },
+          "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 245,
+            "heading": "### 8.1 反馈信息与目标状态的对应",
+            "kind": "markdown_heading",
+            "start_line": 233
+          },
+          "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 347,
+            "heading": "### 10.3 Reconsolidation：须区分三个层级",
+            "kind": "markdown_heading",
+            "start_line": 336
+          },
+          "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 420,
+            "heading": "### 13.1 最小但有区分力的测量组合",
+            "kind": "markdown_heading",
+            "start_line": 404
+          },
+          "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 31,
+            "heading": "## 从结果倒推操作",
+            "kind": "markdown_heading",
+            "start_line": 22
+          },
+          "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 44,
+            "heading": "## 六种组合如何判断",
+            "kind": "markdown_heading",
+            "start_line": 32
+          },
+          "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 51,
+            "heading": "## 三个使用边界",
+            "kind": "markdown_heading",
+            "start_line": 45
+          },
+          "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 200,
+            "heading": "## 五、组合、顺序与相互干扰",
+            "kind": "markdown_heading",
+            "start_line": 167
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+          "source_id": "D07",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 231,
+            "heading": "## 六、从通用卡片到可执行任务",
+            "kind": "markdown_heading",
+            "start_line": 201
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+          "source_id": "D07",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 289,
+            "heading": "## 七、时间与证据：教学进展、当前可用和持久可用分别成立",
+            "kind": "markdown_heading",
+            "start_line": 246
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 164,
+            "heading": "### E25｜Schroeder, N. L., & Kucera, A. C.（2022；2021 在线）",
+            "kind": "markdown_heading",
+            "start_line": 159
+          },
+          "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 246,
+            "heading": "### E38｜Ye, Z., Shi, L., Li, A., Chen, C., & Xue, G.（2020）",
+            "kind": "markdown_heading",
+            "start_line": 241
+          },
+          "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 314,
+            "heading": "### E49｜Schroyens, N., Beckers, T., & Luyten, L.（2023；2022 在线）",
+            "kind": "markdown_heading",
+            "start_line": 309
+          },
+          "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+        }
+      ],
+      "source_version": null,
+      "tags": [
+        {
+          "origin": "suite_added",
+          "value": "post"
+        }
+      ]
+    },
+    {
+      "bundle_path": "post/retrieve-generate-order.json",
+      "category": "Post",
+      "compiled": true,
+      "execution_limit": "套件新增条件说明，非原始P卡；当前内容/用途/帮助条件须另核对。",
+      "identity_kind": "suite_added_method_key",
+      "name": "按前提、可见输入与证据用途选择恢复/生成顺序",
+      "original_claim_status": {
+        "no_original_post_card_id": true,
+        "research_claim_ratings_not_method_score": true,
+        "status": "H：本套件条件化设计综合"
+      },
+      "original_id": null,
+      "resource_key": "post/retrieve-generate-order",
+      "resource_revision": "pl-strategies/0.1.0",
+      "source_id": null,
+      "source_refs": [
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 156,
+            "heading": "### 3. 活动顺序由功能决定",
+            "kind": "markdown_heading",
+            "start_line": 147
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 208,
+            "heading": "### 4. 反馈：修复目标需要的那一层",
+            "kind": "markdown_heading",
+            "start_line": 193
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 273,
+            "heading": "### 9.1 先界定 synergy",
+            "kind": "markdown_heading",
+            "start_line": 264
+          },
+          "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 284,
+            "heading": "### 9.2 六种目标组合的证据地图",
+            "kind": "markdown_heading",
+            "start_line": 274
+          },
+          "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 296,
+            "heading": "### 9.3 顺序效应的最新证据需要改写默认流程",
+            "kind": "markdown_heading",
+            "start_line": 285
+          },
+          "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 306,
+            "heading": "### 9.4 两个值得保留的非正向结果",
+            "kind": "markdown_heading",
+            "start_line": 297
+          },
+          "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 312,
+            "heading": "### 9.5 哪些“生成在前”证据不能直接移植",
+            "kind": "markdown_heading",
+            "start_line": 307
+          },
+          "project_relative_path": "../docs/research/Post-Encoding-Dynamics-深度增量研究.md",
+          "source_id": "R05",
+          "workspace_relative_path": "docs/research/Post-Encoding-Dynamics-深度增量研究.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 31,
+            "heading": "## 从结果倒推操作",
+            "kind": "markdown_heading",
+            "start_line": 22
+          },
+          "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 44,
+            "heading": "## 六种组合如何判断",
+            "kind": "markdown_heading",
+            "start_line": 32
+          },
+          "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 51,
+            "heading": "## 三个使用边界",
+            "kind": "markdown_heading",
+            "start_line": 45
+          },
+          "project_relative_path": "../docs/research/Retrieval-Integration-快速矩阵.md",
+          "source_id": "R04",
+          "workspace_relative_path": "docs/research/Retrieval-Integration-快速矩阵.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 200,
+            "heading": "## 五、组合、顺序与相互干扰",
+            "kind": "markdown_heading",
+            "start_line": 167
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+          "source_id": "D07",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 231,
+            "heading": "## 六、从通用卡片到可执行任务",
+            "kind": "markdown_heading",
+            "start_line": 201
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md",
+          "source_id": "D07",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包6_策略使用规则_设计方案_v0.md"
+        },
+        {
+          "declared_revision": "v0",
+          "identity_kind": "document_section",
+          "locator": {
+            "end_line": 289,
+            "heading": "## 七、时间与证据：教学进展、当前可用和持久可用分别成立",
+            "kind": "markdown_heading",
+            "start_line": 246
+          },
+          "project_relative_path": "../docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md",
+          "source_id": "D06",
+          "workspace_relative_path": "docs/designs/AI个人学习系统_工作包5_Post-Encoding_设计方案_v0.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 190,
+            "heading": "### E29｜Roelle, J., Froese, L., Krebs, R., Obergassel, N., & Waldeyer, J.（2022）",
+            "kind": "markdown_heading",
+            "start_line": 185
+          },
+          "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 196,
+            "heading": "### E30｜Obergassel, N., Renkl, A., Endres, T., Nückles, M., Carpenter, S. K., & Roelle, J.（2025）",
+            "kind": "markdown_heading",
+            "start_line": 191
+          },
+          "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 202,
+            "heading": "### E31｜Obergassel, N., Renkl, A., Endres, T., Nückles, M., Carpenter, S. K., & Roelle, J.（2026）",
+            "kind": "markdown_heading",
+            "start_line": 197
+          },
+          "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 214,
+            "heading": "### E33｜O’Day, G. M., & Karpicke, J. D.（2021）",
+            "kind": "markdown_heading",
+            "start_line": 209
+          },
+          "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+        },
+        {
+          "declared_revision": null,
+          "identity_kind": "literature_entry",
+          "locator": {
+            "end_line": 220,
+            "heading": "### E34｜McDaniel, M. A.（2023）",
+            "kind": "markdown_heading",
+            "start_line": 215
+          },
+          "project_relative_path": "../docs/research/post-encoding证据台账与参考文献.md",
+          "source_id": "R06",
+          "workspace_relative_path": "docs/research/post-encoding证据台账与参考文献.md"
+        }
+      ],
+      "source_version": null,
+      "tags": [
+        {
+          "origin": "suite_added",
+          "value": "post"
+        }
+      ]
+    }
+  ],
+  "index_is_execution_config": false,
+  "post_method_note_count": 4,
+  "resource_revision": "pl-strategies/0.1.0",
+  "schema_version": "pl-strategy-resources/1",
+  "selection_limits": [
+    "分类只是导航，不是教学阶段、能力等级或自动评分。",
+    "不固定候选数量，不按证据数量、篇幅或家族评级算策略效用。",
+    "已有合法有效配置可复用；库中无合适卡时沿D07可靠直接教学路径。"
+  ],
+  "source_version": "2.0"
+}

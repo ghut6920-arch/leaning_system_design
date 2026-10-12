@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="530" viewBox="0 0 1480 530">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#334155"/></marker></defs>
+<rect width="1480" height="530" fill="#ffffff"/>
+<g font-family="Microsoft YaHei, SimHei, Arial, sans-serif" fill="#172033" text-anchor="middle">
+<text x="740" y="44" font-size="27" font-weight="bold">同一个闭环：命令改变状态，状态再改变下一输入</text>
+<text x="730" y="91" font-size="18" fill="#475569">真实状态还参与执行与环境反应</text>
+<g fill="#f0f7ff" stroke="#6483a8" stroke-width="2">
+<rect x="35" y="160" width="200" height="190" rx="16"/>
+<rect x="285" y="160" width="230" height="190" rx="16"/>
+<rect x="565" y="160" width="220" height="190" rx="16"/>
+<rect x="835" y="160" width="260" height="190" rx="16"/>
+<rect x="1145" y="160" width="300" height="190" rx="16"/>
+</g>
+<g font-size="22" font-weight="bold">
+<text x="135" y="202">真实状态 xₜ</text>
+<text x="400" y="202">传感器与输入</text>
+<text x="675" y="202">策略 πθ</text>
+<text x="965" y="202">部署接口与低层执行</text>
+<text x="1295" y="202">环境 F</text>
+</g>
+<g font-size="20">
+<text x="135" y="246">位置、速度、接触等</text><text x="135" y="284">未必直接可见</text>
+<text x="400" y="243">oₜ = g(xₜ)</text><text x="400" y="278">hₜ = 观测 / 动作历史</text><text x="400" y="313">历史仍可能不充分</text>
+<text x="675" y="250">aₜ = πθ(hₜ)</text><text x="675" y="288">输出的是命令</text>
+<text x="965" y="245">C(a≤ₜ, x≤ₜ, 时序)</text><text x="965" y="281">还原、跟踪、延迟</text><text x="965" y="316">产生实际输入 uₜ</text>
+<text x="1295" y="246">xₜ₊₁ = F(xₜ, uₜ, wₜ)</text><text x="1295" y="284">下一状态；扰动 wₜ</text>
+</g>
+<g font-size="18" fill="#475569"><text x="540" y="143">hₜ</text><text x="810" y="143">aₜ</text><text x="1120" y="143">uₜ</text></g>
+</g>
+<g fill="none" stroke="#334155" stroke-width="3" marker-end="url(#arrow)">
+<path d="M235 255 H282"/><path d="M515 255 H562"/><path d="M785 255 H832"/><path d="M1095 255 H1142"/>
+<path d="M135 160 V115 H1295 V157"/><path d="M965 115 V157"/>
+<path d="M1295 350 V430 H135 V353"/>
+</g>
+<text x="740" y="475" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="23" fill="#172033">进入下一控制时刻：t ← t+1，新状态再形成新观测与策略输入</text>
+<text x="740" y="511" text-anchor="middle" font-family="Microsoft YaHei, SimHei, Arial, sans-serif" font-size="18" fill="#64748b">箭头表示对象依赖与时间连接；不表示每个量都可以直接测得</text>
+</svg>

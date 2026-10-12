@@ -1,0 +1,6 @@
+{
+  "order": 11,
+  "target": "/root/ag2_disciplinary",
+  "mode": "send_message",
+  "message": "补充一个成品交接位置核对：03-experiment-example-v1.md 的“下一份”目前指向04-case-and-task-v1。若主案例v2成为活动版本，请让最终主线入口/正文导航/备用/参考/用途引用实际相容版本；需要改动已交文件时保留原版本另存，版本变更可只是导航，不需重写其已充分专业内容。"
+}

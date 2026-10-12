@@ -1,0 +1,55 @@
+$taskRoot=(Get-Location).Path
+$taskArchive=Join-Path $taskRoot 'experiments/preparation-20261012-bc-loop-01'
+$taskArchiveIndex=Join-Path $taskArchive 'archive-inventory.json'
+$taskCreatedIndex=Join-Path $taskArchive 'environment/task-created-files.json'
+$taskMan=Get-Content -LiteralPath (Join-Path $taskArchive 'deliverables-manifest.json') -Raw | ConvertFrom-Json
+$taskExpected=@($taskMan | ForEach-Object {$_.path})
+$taskArchiveFiles=@(Get-ChildItem -LiteralPath $taskArchive -Recurse -File)
+$taskCreatedPaths=@($taskExpected)+@($taskArchiveFiles | ForEach-Object {[IO.Path]::GetRelativePath($taskRoot,$_.FullName).Replace('\','/')})
+$taskCreatedPaths+=@('experiments/preparation-20261012-bc-loop-01/archive-inventory.json','experiments/preparation-20261012-bc-loop-01/environment/archive-seal-result.json')
+$taskCreatedPaths=@($taskCreatedPaths|Where-Object {$_ -ne 'experiments/preparation-20261012-bc-loop-01/environment/task-created-files.json'}|Sort-Object -Unique)
+$taskCreatedPaths | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $taskCreatedIndex -Encoding utf8
+
+function Write-TaskArchiveIndex {
+ $taskEntries=@(foreach($taskFile in (Get-ChildItem -LiteralPath $taskArchive -Recurse -File | Where-Object {$_.FullName -ne $taskArchiveIndex})){
+  [pscustomobject]@{path=[IO.Path]::GetRelativePath($taskArchive,$taskFile.FullName).Replace('\','/');bytes=$taskFile.Length;sha256=(Get-FileHash -LiteralPath $taskFile.FullName -Algorithm SHA256).Hash.ToLower()}
+ })
+ $taskEntries | Sort-Object path | ConvertTo-Json -Depth 7 | Set-Content -LiteralPath $taskArchiveIndex -Encoding utf8
+ return $taskEntries.Count
+}
+$taskFirstIndexCount=Write-TaskArchiveIndex
+$taskLinks=Get-Content -LiteralPath (Join-Path $taskArchive 'environment/local-link-check.json') -Raw | ConvertFrom-Json
+foreach($taskLink in $taskLinks){
+ $taskDoc=Join-Path $taskRoot $taskLink.document
+ $taskResolved=if([IO.Path]::IsPathRooted($taskLink.target)){$taskLink.target}else{Join-Path (Split-Path $taskDoc -Parent) $taskLink.target}
+ $taskLink.exists=Test-Path -LiteralPath $taskResolved
+}
+$taskLinks | ConvertTo-Json -Depth 7 | Set-Content -LiteralPath (Join-Path $taskArchive 'environment/local-link-check.json') -Encoding utf8
+$taskVerification=Get-Content -LiteralPath (Join-Path $taskArchive 'environment/final-verification.json') -Raw | ConvertFrom-Json
+$taskVerification | Add-Member -NotePropertyName local_links_checked -NotePropertyValue $taskLinks.Count -Force
+$taskVerification | Add-Member -NotePropertyName missing_local_links -NotePropertyValue @($taskLinks|Where-Object {-not $_.exists}).Count -Force
+$taskVerification | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $taskArchive 'environment/final-verification.json') -Encoding utf8
+
+$taskMissingCreated=@($taskCreatedPaths | Where-Object {$_ -ne 'experiments/preparation-20261012-bc-loop-01/environment/archive-seal-result.json' -and -not(Test-Path -LiteralPath (Join-Path $taskRoot $_))})
+$taskNormalMismatch=@(foreach($taskItem in $taskMan){
+ if((Get-FileHash -LiteralPath (Join-Path $taskRoot $taskItem.path) -Algorithm SHA256).Hash.ToLower() -ne $taskItem.sha256){$taskItem.path}
+})
+$taskSeal=[pscustomobject]@{
+ completed_local_time=(Get-Date).ToString('o');
+ normal_files=$taskMan.Count;active_files=@($taskMan|Where-Object {$_.active}).Count;
+ all_created_paths_excluding_list_itself=$taskCreatedPaths.Count;
+ missing_created_files=$taskMissingCreated;
+ normal_manifest_mismatches=$taskNormalMismatch;
+ local_links_checked=$taskLinks.Count;missing_local_links=@($taskLinks|Where-Object {-not $_.exists}).Count;
+ learner_artifact_exists=(Test-Path -LiteralPath (Join-Path $taskRoot 'artifacts/bc-closed-loop-20261012/learner-dossier-initial.md'));
+ note='归档索引不自列自身；本脚本的完整宿主工具响应未递归归档，结果由实际写入及下方输出取得。'
+}
+$taskSeal | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $taskArchive 'environment/archive-seal-result.json') -Encoding utf8
+$taskStatus=@(& git -c "safe.directory=$taskRoot" -c core.quotepath=false status --porcelain=v1 --untracked-files=all)
+$taskStatus | Set-Content -LiteralPath (Join-Path $taskArchive 'environment/git-status-end.txt') -Encoding utf8
+$taskIndexCount=Write-TaskArchiveIndex
+$taskIndex=Get-Content -LiteralPath $taskArchiveIndex -Raw | ConvertFrom-Json
+$taskIndexMismatch=@(foreach($taskItem in $taskIndex){
+ if((Get-FileHash -LiteralPath (Join-Path $taskArchive $taskItem.path) -Algorithm SHA256).Hash.ToLower() -ne $taskItem.sha256){$taskItem.path}
+})
+[pscustomobject]@{seal=$taskSeal;archive_files_indexed=$taskIndexCount;archive_hash_mismatches=$taskIndexMismatch;git_status_lines=$taskStatus.Count} | ConvertTo-Json -Depth 8

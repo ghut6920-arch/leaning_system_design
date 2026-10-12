@@ -1,0 +1,6 @@
+{
+  "order": 9,
+  "target": "/root/ag1_design",
+  "mode": "followup_task",
+  "message": "AG2已有可观察v1可见成品，父入口已保存快照：questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v1.md、02-mechanisms-and-methods-v1.md、03-experiment-example-v1.md、04-case-and-task-v1.md、closed-loop-v1.svg。AG2正核图/时间表并完成备用、多解参考和材料用途，尚未最终交付。请现在按正常认知→成品局部读回确认这些实际可见输入/题面是否承担设计M1–M5、目标R1–R4和教师/学习者分工；实质缺口直接反馈AG2具体位置，只修受影响部分。你只写自身ownership下的materialization-check-v1.md，完整保留可观察结果，不覆盖目标/设计/计划v1。未就绪参考可明确pending，等完整交付再确认受影响功能，别提前宣称备课完成。不读取AG3先定问题或实验归档。此步是既有流程的成品功能读回，不增标准/任务。"
+}

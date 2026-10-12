@@ -1,0 +1,19 @@
+diff --git "a/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\teacher-reference\\bc-closed-loop-20261012\\reference-v2.md" "b/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\teacher-reference\\bc-closed-loop-20261012\\reference-v3.md"
+index d98d684..35a28cc 100644
+--- "a/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\teacher-reference\\bc-closed-loop-20261012\\reference-v2.md"
++++ "b/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\teacher-reference\\bc-closed-loop-20261012\\reference-v3.md"
+@@ -1,6 +1,6 @@
+-# BC 闭环连续作品的教师参考 v2
++# BC 闭环连续作品的教师参考 v3
+ 
+-后台教师参考，prepared，未展示、未授课、无原答。目标 `EMB-G-BC-CLOSED-LOOP-20261012` revision1（R1–R4），认知设计v1 M1–M5；输入为四份当前正文v2（01/02/03仅导航变更、04明确两条件速度均0；专业稿/Goal/认知设计仍v1）：`questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v2.md` 至 `04-case-and-task-v2.md`，图为closed-loop-v1.svg/png。来源：学科稿/来源稿v1及后续原创教学模型。不是唯一答案模板；合法不同论证与“先补关键记录”均可。
++后台教师参考，prepared，未展示、未授课、无原答。目标 `EMB-G-BC-CLOSED-LOOP-20261012` revision1（R1–R4），认知设计v1 M1–M5；当前输入分别为01-model-and-feedback-v3.md、02-mechanisms-and-methods-v3.md、03-experiment-example-v2.md、04-case-and-task-v2.md，均在questions/visible/bc-closed-loop-20261012/；Goal/认知设计仍v1，图为closed-loop-v1.svg/png。来源：学科稿/来源稿v2（仅三时域章节定位更正为II-C，实质内容相容）及后续原创教学模型。不是唯一答案模板；合法不同论证与“先补关键记录”均可。
+ 
+ ## 1. 输入与专业正确性锚点
+ 
+@@ -79,4 +79,4 @@ R1需对象及中间反馈；R2需案例竞争解释和条件；R3需干预/保
+ 
+ 仅收到机制段时反馈R1的实际贡献，直接接已备M3/M4/M5；不宣称R2–R4整体支持。收到整份说明时按其原件和真实帮助检查；保存初答与修订，不把教师整理稿替换学习者贡献。后台完整方案一旦展示，记录所代选/设计范围；之后可以支持理解/映射，但不能倒算未提示自主设计。重要整体结论由AG3按实际证据处理。
+ 
+-备用支持为 `questions/backup/bc-closed-loop-20261012/support-v2.md` B1–B6。局部帮助够用回原说明，不加逐题继续开关、换数字微题或复习队列。未完成连接可接同一作品修订；讲解请求可以完整解释后结束，不强制验收。
++备用支持为 `questions/backup/bc-closed-loop-20261012/support-v3.md` B1–B6。局部帮助够用回原说明，不加逐题继续开关、换数字微题或复习队列。未完成连接可接同一作品修订；讲解请求可以完整解释后结束，不强制验收。

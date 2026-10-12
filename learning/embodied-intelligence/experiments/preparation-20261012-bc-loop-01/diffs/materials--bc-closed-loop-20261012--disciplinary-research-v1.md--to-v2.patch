@@ -1,0 +1,33 @@
+diff --git "a/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\bc-closed-loop-20261012\\disciplinary-research-v1.md" "b/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\bc-closed-loop-20261012\\disciplinary-research-v2.md"
+index aadba48..1fdd4de 100644
+--- "a/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\bc-closed-loop-20261012\\disciplinary-research-v1.md"
++++ "b/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\bc-closed-loop-20261012\\disciplinary-research-v2.md"
+@@ -1,10 +1,10 @@
+-# BC 策略从离线拟合到闭环行为：AG2 学科依据 v1
++# BC 策略从离线拟合到闭环行为：AG2 学科依据 v2
+ 
+-- 对象：`EMB-BC-CLOSED-LOOP-DISCIPLINARY-20261012`，revision 1，owner AG2，人工文件视图，`pl-contracts/0.1.0`。
++- 对象：`EMB-BC-CLOSED-LOOP-DISCIPLINARY-20261012`，revision 2，owner AG2，人工文件视图，`pl-contracts/0.1.0`。
+ - 状态：有限专业研究交接；尚未由 AG1 采用为正式目标，尚未形成全部教学成品，未展示、未授课、无学习者表现。
+ - 原用途：`sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt` revision 1。学习者自报有 Python、机器学习、机器人仿真和 BC 训练经验；这些是自报前提，不是能力测量。
+ - 委派：父入口 AG0 于 2026-10-12 请求正常 AG2 第一阶段备课研究；写入范围仅本目录。预算、实际任务、传感器、动作接口和设备 unknown。本稿不承诺运行实验、安装、收费、真实机器人动作或长期安排。
+-- 来源与实际读取范围：同目录 `source-notes-v1.md` revision 1。本稿的原创推导、教学假设、一般项目分析和论文报告明确分开。
++- 来源与实际读取范围：同目录 `source-notes-v2.md` revision 2。本稿的原创推导、教学假设、一般项目分析和论文报告明确分开。
+ 
+ ## 1. 专业问题与第一阶段范围候选
+ 
+@@ -106,7 +106,7 @@ S1 的 DAgger 算法用访问状态的专家标签聚合数据，不是把模型
+ 
+ ACT 的原始说明区分动作块与每时刻重新查询；时间集成合并的是**不同预测起点对同一执行时刻的预测**，不是随意平均邻接时刻的动作。其消融中更长块和集成并非对所有方法单调有益。[来源 S3，§IV-A、Algorithm 2、§VI-A](https://arxiv.org/pdf/2304.13705v1)
+ 
+-Diffusion Policy 定义观测时域 T_o、预测时域 T_p、执行时域 T_a，并报告推理延迟限制；“动作块能降低有效决策次数”不能直接推成“块越长越稳定”，也不能将 T/k 填进 S1 理论界宣称保证。[来源 S4，§III-C、§VIII](https://arxiv.org/pdf/2303.04137v3)
++Diffusion Policy 定义观测时域 T_o、预测时域 T_p、执行时域 T_a，并报告推理延迟限制；“动作块能降低有效决策次数”不能直接推成“块越长越稳定”，也不能将 T/k 填进 S1 理论界宣称保证。[来源 S4，§II-C、§VIII](https://arxiv.org/pdf/2303.04137v3)
+ 
+ ## 6. 实验怎样从相关观察推进到条件化判断
+ 
+@@ -138,3 +138,5 @@ Diffusion Policy 定义观测时域 T_o、预测时域 T_p、执行时域 T_a，
+ 当前交接不需向学习者回问；其自报基础足以设计一个可收束的纸面第一阶段。若以后要分析真实工程失败，最影响分支的缺口是：实际任务与失败轨迹、观测/动作/低层控制及时间规格、数据标签和划分、闭环评价条件。预算和设备只在承诺执行相应实验之前成为必要约束。
+ 
+ 下一责任：AG1/SK03 按原用途采用/取舍本稿并设计认知主线；AG2 接具体回问或设计稿后落实相应用途的资料与核验；AG3 从原用途反向审查。v1 为不可覆盖交付；局部修订另存 v2 并注明受影响关系，不替换已交原稿。
++
++v2修订仅更正Diffusion Policy三时域章节定位§III-C→§II-C；相关已读内容与专业范围不变，原v1保留。认知设计v1依赖的实质关系继续相容，未改变目标或判据。

@@ -1,0 +1,425 @@
+{
+  "audit_date": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "archive_root": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01",
+  "first_pass_sha256": "630a016fa76a3c75e850c83eaca466178fbae13051b75504ee5097188eec038a",
+  "inventory_checked": 240,
+  "inventory_failures": [],
+  "active_files": [
+    {
+      "path": "artifacts/bc-closed-loop-20261012/cognitive-design-v1.md",
+      "expected": "f18c5641d2d06258c2af6abaa2aab8ea7949cc79dfe590d0730d5f5bbfa8e035",
+      "frozen": "f18c5641d2d06258c2af6abaa2aab8ea7949cc79dfe590d0730d5f5bbfa8e035",
+      "live": "f18c5641d2d06258c2af6abaa2aab8ea7949cc79dfe590d0730d5f5bbfa8e035",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "artifacts/bc-closed-loop-20261012/materialization-check-v2.md",
+      "expected": "366f2ca9cf46dc2360349e20237e4a043b0c16180f2578e9a00e5a843c76c11d",
+      "frozen": "366f2ca9cf46dc2360349e20237e4a043b0c16180f2578e9a00e5a843c76c11d",
+      "live": "366f2ca9cf46dc2360349e20237e4a043b0c16180f2578e9a00e5a843c76c11d",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "artifacts/bc-closed-loop-20261012/materialization-check-v3.md",
+      "expected": "04ef8fe29a06e1a21c752e2d17977f5deac77ba0ef103ec9e7efd5568eb4ee55",
+      "frozen": "04ef8fe29a06e1a21c752e2d17977f5deac77ba0ef103ec9e7efd5568eb4ee55",
+      "live": "04ef8fe29a06e1a21c752e2d17977f5deac77ba0ef103ec9e7efd5568eb4ee55",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "assessment/bc-closed-loop-20261012/review-questions-v1.md",
+      "expected": "ffac2f9cc0883e7e68ebc848b8e7508d50e59e5ae4fd4f58058ae094959a6bbc",
+      "frozen": "ffac2f9cc0883e7e68ebc848b8e7508d50e59e5ae4fd4f58058ae094959a6bbc",
+      "live": "ffac2f9cc0883e7e68ebc848b8e7508d50e59e5ae4fd4f58058ae094959a6bbc",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "assessment/bc-closed-loop-20261012/review-v1.md",
+      "expected": "dbed32e68d3a1340e6eae06ed2abc3304ac59d2e1f23f012c7a5fb4eae3633c4",
+      "frozen": "dbed32e68d3a1340e6eae06ed2abc3304ac59d2e1f23f012c7a5fb4eae3633c4",
+      "live": "dbed32e68d3a1340e6eae06ed2abc3304ac59d2e1f23f012c7a5fb4eae3633c4",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "assessment/bc-closed-loop-20261012/review-v2.md",
+      "expected": "6f50a479ca8e2fc96b82db593a6edcb7b7f46d9f00cd5ee690328595a71aa344",
+      "frozen": "6f50a479ca8e2fc96b82db593a6edcb7b7f46d9f00cd5ee690328595a71aa344",
+      "live": "6f50a479ca8e2fc96b82db593a6edcb7b7f46d9f00cd5ee690328595a71aa344",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "goals/bc-closed-loop-20261012/goal-v1.md",
+      "expected": "5f4fe9f8a9dbc7e1985be51f46aff920dbcbca27303b600413c457f6cb873490",
+      "frozen": "5f4fe9f8a9dbc7e1985be51f46aff920dbcbca27303b600413c457f6cb873490",
+      "live": "5f4fe9f8a9dbc7e1985be51f46aff920dbcbca27303b600413c457f6cb873490",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+      "expected": "fa43f10cf4daa94c4869d3275026cee36802453525d8dab3830437485ef91fb2",
+      "frozen": "fa43f10cf4daa94c4869d3275026cee36802453525d8dab3830437485ef91fb2",
+      "live": "fa43f10cf4daa94c4869d3275026cee36802453525d8dab3830437485ef91fb2",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "materials/bc-closed-loop-20261012/material-uses-v3.md",
+      "expected": "22a25d152f1861eb34bfed11b0581135838a74a92de5fdd16c30dcdbe57d6cc1",
+      "frozen": "22a25d152f1861eb34bfed11b0581135838a74a92de5fdd16c30dcdbe57d6cc1",
+      "live": "22a25d152f1861eb34bfed11b0581135838a74a92de5fdd16c30dcdbe57d6cc1",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "materials/bc-closed-loop-20261012/source-notes-v2.md",
+      "expected": "7b04ba3a4ab99ee08f948a4ffe5737645c948428a1a0386058e62b795fcba0dc",
+      "frozen": "7b04ba3a4ab99ee08f948a4ffe5737645c948428a1a0386058e62b795fcba0dc",
+      "live": "7b04ba3a4ab99ee08f948a4ffe5737645c948428a1a0386058e62b795fcba0dc",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "expected": "af130a4fc534bcdd413d8a128aebab4d91154546080a7db3e41830fe162f7499",
+      "frozen": "af130a4fc534bcdd413d8a128aebab4d91154546080a7db3e41830fe162f7499",
+      "live": "af130a4fc534bcdd413d8a128aebab4d91154546080a7db3e41830fe162f7499",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "questions/backup/bc-closed-loop-20261012/support-v3.md",
+      "expected": "d27960fbb07a9c054a53a42e02280af3bc8713375ca73c89f73f4b4e708b7b1f",
+      "frozen": "d27960fbb07a9c054a53a42e02280af3bc8713375ca73c89f73f4b4e708b7b1f",
+      "live": "d27960fbb07a9c054a53a42e02280af3bc8713375ca73c89f73f4b4e708b7b1f",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+      "expected": "3555a1cf5b21612a6aa73784aa4189b0cb854539d2a14e9ca2c02881a34685cb",
+      "frozen": "3555a1cf5b21612a6aa73784aa4189b0cb854539d2a14e9ca2c02881a34685cb",
+      "live": "3555a1cf5b21612a6aa73784aa4189b0cb854539d2a14e9ca2c02881a34685cb",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+      "expected": "78ab65a6dd1403684aa3a9df652fe22d8055269218a960fe1dcbc93d4a633d93",
+      "frozen": "78ab65a6dd1403684aa3a9df652fe22d8055269218a960fe1dcbc93d4a633d93",
+      "live": "78ab65a6dd1403684aa3a9df652fe22d8055269218a960fe1dcbc93d4a633d93",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+      "expected": "32c5b5ae4df136245bd306df61e60b8827b1c8a40841300cf2a1266dca509dc9",
+      "frozen": "32c5b5ae4df136245bd306df61e60b8827b1c8a40841300cf2a1266dca509dc9",
+      "live": "32c5b5ae4df136245bd306df61e60b8827b1c8a40841300cf2a1266dca509dc9",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+      "expected": "13ddcfa00890f9f0731f67530e42e8c21ffd23eb1d19e3563f74b1b1580eef9c",
+      "frozen": "13ddcfa00890f9f0731f67530e42e8c21ffd23eb1d19e3563f74b1b1580eef9c",
+      "live": "13ddcfa00890f9f0731f67530e42e8c21ffd23eb1d19e3563f74b1b1580eef9c",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+      "expected": "9a4fcb235c77a0941e0fd15831dbe5ac0df2f13eb9d4359e29dbfbc1be1544b1",
+      "frozen": "9a4fcb235c77a0941e0fd15831dbe5ac0df2f13eb9d4359e29dbfbc1be1544b1",
+      "live": "9a4fcb235c77a0941e0fd15831dbe5ac0df2f13eb9d4359e29dbfbc1be1544b1",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+      "expected": "67e3fab5ca1e3287a7a9c030976d9d9d279073360daa0f7e28e6a5558cf6c4a9",
+      "frozen": "67e3fab5ca1e3287a7a9c030976d9d9d279073360daa0f7e28e6a5558cf6c4a9",
+      "live": "67e3fab5ca1e3287a7a9c030976d9d9d279073360daa0f7e28e6a5558cf6c4a9",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+      "expected": "e83d8cf34895fa986db5be57431c45b8ce0bde47912ddbb8bd716fd350ecdbd9",
+      "frozen": "e83d8cf34895fa986db5be57431c45b8ce0bde47912ddbb8bd716fd350ecdbd9",
+      "live": "e83d8cf34895fa986db5be57431c45b8ce0bde47912ddbb8bd716fd350ecdbd9",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "sessions/2026-10-12-bc-preparation-01/preparation-result.md",
+      "expected": "49de7284d4e51aa790102dc387aefa6da6c6923be048a39b6bdd97bf3a757163",
+      "frozen": "49de7284d4e51aa790102dc387aefa6da6c6923be048a39b6bdd97bf3a757163",
+      "live": "49de7284d4e51aa790102dc387aefa6da6c6923be048a39b6bdd97bf3a757163",
+      "matches_frozen": true,
+      "live_matches": true
+    },
+    {
+      "path": "sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt",
+      "expected": "73ded7e2a0d824d994e03af59014e856ba692dc2f67c6585cde3fd604ca6fad9",
+      "frozen": "73ded7e2a0d824d994e03af59014e856ba692dc2f67c6585cde3fd604ca6fad9",
+      "live": "73ded7e2a0d824d994e03af59014e856ba692dc2f67c6585cde3fd604ca6fad9",
+      "matches_frozen": true,
+      "live_matches": true
+    }
+  ],
+  "final_snapshot_local_links": [
+    {
+      "file": "assessment/bc-closed-loop-20261012/review-questions-v1.md",
+      "line": 10,
+      "href": "../../sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\sessions\\2026-10-12-bc-preparation-01\\raw\\learning-request.txt",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "assessment/bc-closed-loop-20261012/review-v1.md",
+      "line": 7,
+      "href": "review-questions-v1.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\assessment\\bc-closed-loop-20261012\\review-questions-v1.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "assessment/bc-closed-loop-20261012/review-v1.md",
+      "line": 7,
+      "href": "../../sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\sessions\\2026-10-12-bc-preparation-01\\raw\\learning-request.txt",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "assessment/bc-closed-loop-20261012/review-v2.md",
+      "line": 6,
+      "href": "review-v1.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\assessment\\bc-closed-loop-20261012\\review-v1.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 15,
+      "href": "../../goals/bc-closed-loop-20261012/goal-v1.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\goals\\bc-closed-loop-20261012\\goal-v1.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 16,
+      "href": "../../artifacts/bc-closed-loop-20261012/cognitive-design-v1.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\artifacts\\bc-closed-loop-20261012\\cognitive-design-v1.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 17,
+      "href": "../../materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\materials\\bc-closed-loop-20261012\\disciplinary-research-v2.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 17,
+      "href": "../../materials/bc-closed-loop-20261012/source-notes-v2.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\materials\\bc-closed-loop-20261012\\source-notes-v2.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 18,
+      "href": "../../materials/bc-closed-loop-20261012/material-uses-v3.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\materials\\bc-closed-loop-20261012\\material-uses-v3.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 19,
+      "href": "../../questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\questions\\visible\\bc-closed-loop-20261012\\01-model-and-feedback-v3.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 20,
+      "href": "../../questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\questions\\visible\\bc-closed-loop-20261012\\02-mechanisms-and-methods-v3.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 21,
+      "href": "../../questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\questions\\visible\\bc-closed-loop-20261012\\03-experiment-example-v2.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 22,
+      "href": "../../questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\questions\\visible\\bc-closed-loop-20261012\\04-case-and-task-v2.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 23,
+      "href": "../../questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\questions\\visible\\bc-closed-loop-20261012\\closed-loop-v1.svg",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 23,
+      "href": "../../questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\questions\\visible\\bc-closed-loop-20261012\\closed-loop-v1.png",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 24,
+      "href": "../../questions/backup/bc-closed-loop-20261012/support-v3.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\questions\\backup\\bc-closed-loop-20261012\\support-v3.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 25,
+      "href": "../../questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\questions\\teacher-reference\\bc-closed-loop-20261012\\reference-v3.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 26,
+      "href": "../../artifacts/bc-closed-loop-20261012/materialization-check-v1.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\artifacts\\bc-closed-loop-20261012\\materialization-check-v1.md",
+      "exists": false,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 26,
+      "href": "../../artifacts/bc-closed-loop-20261012/materialization-check-v2.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\artifacts\\bc-closed-loop-20261012\\materialization-check-v2.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 26,
+      "href": "../../artifacts/bc-closed-loop-20261012/materialization-check-v3.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\artifacts\\bc-closed-loop-20261012\\materialization-check-v3.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 27,
+      "href": "../../assessment/bc-closed-loop-20261012/review-v1.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\assessment\\bc-closed-loop-20261012\\review-v1.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "line": 27,
+      "href": "../../assessment/bc-closed-loop-20261012/review-v2.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\assessment\\bc-closed-loop-20261012\\review-v2.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+      "line": 8,
+      "href": "E:/文献资料/学习系统架构设计/learning/embodied-intelligence/questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\bc-closed-loop-20261012\\closed-loop-v1.png",
+      "exists": true,
+      "outside_final_snapshot": true
+    },
+    {
+      "file": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+      "line": 61,
+      "href": "E:/文献资料/学习系统架构设计/learning/embodied-intelligence/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\bc-closed-loop-20261012\\02-mechanisms-and-methods-v3.md",
+      "exists": true,
+      "outside_final_snapshot": true
+    },
+    {
+      "file": "questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+      "line": 65,
+      "href": "E:/文献资料/学习系统架构设计/learning/embodied-intelligence/questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\bc-closed-loop-20261012\\03-experiment-example-v2.md",
+      "exists": true,
+      "outside_final_snapshot": true
+    },
+    {
+      "file": "questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+      "line": 41,
+      "href": "E:/文献资料/学习系统架构设计/learning/embodied-intelligence/questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\bc-closed-loop-20261012\\04-case-and-task-v2.md",
+      "exists": true,
+      "outside_final_snapshot": true
+    },
+    {
+      "file": "sessions/2026-10-12-bc-preparation-01/preparation-result.md",
+      "line": 3,
+      "href": "raw/learning-request.txt",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\sessions\\2026-10-12-bc-preparation-01\\raw\\learning-request.txt",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "sessions/2026-10-12-bc-preparation-01/preparation-result.md",
+      "line": 7,
+      "href": "../../plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\plan\\bc-closed-loop-20261012\\first-stage-plan-v2.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "sessions/2026-10-12-bc-preparation-01/preparation-result.md",
+      "line": 9,
+      "href": "../../assessment/bc-closed-loop-20261012/review-v1.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\assessment\\bc-closed-loop-20261012\\review-v1.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    },
+    {
+      "file": "sessions/2026-10-12-bc-preparation-01/preparation-result.md",
+      "line": 9,
+      "href": "../../assessment/bc-closed-loop-20261012/review-v2.md",
+      "resolved": "E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\experiments\\preparation-20261012-bc-loop-01\\stages\\12-final-delivery\\assessment\\bc-closed-loop-20261012\\review-v2.md",
+      "exists": true,
+      "outside_final_snapshot": false
+    }
+  ],
+  "link_summary": {
+    "checked": 30,
+    "missing": 1,
+    "outside_snapshot": 4
+  }
+}

@@ -1,0 +1,55 @@
+# 第一阶段近期安排与最终备课入口 v2
+
+对象 `EMB-P-BC-CLOSED-LOOP-20261012`，revision 2，owner AG1/SK05；`pl-contracts/0.1.0` 人工 PlanCommitment 视图，2026-10-12。保留 `first-stage-plan-v1.md` 生成时的 `design_prepared_materialization_pending` 快照，不倒改原观察。本版只收口当前准备状态和实际版本定位，不新增目标、学习任务或排期。
+
+当前准备状态：第一阶段纸面教学准备已完成，父AG0已实际采用这一有限范围。AG1已读回AG3完整原意见 `review-v1.md` 与最终局部复核 `review-v2.md`：建议采用，无未解决阻断或目标内回修项。这里的已采用仅指本次备课，尚未展示或授课，尚无学习者原答、作品、能力判断或真实实验。
+
+## 1. 当前范围与可执行入口
+
+原用途为 `sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt` revision1。有效目标/单元仍是 `EMB-G-BC-CLOSED-LOOP-20261012` / `EMB-U-BC-CLOSED-LOOP-20261012`，Goal-v1 R1–R4及criterion revision1不变：反馈关系、竞争解释、具体实验或记录及有限结果判断、条件化改进，由一份“闭环失败分析与实验判断说明”连续承担。whole_required的连接仍是“机制→解释→干预/记录→可能结果→改进”，不是若干独立小测。
+
+下面均为本学习目录中的实际已存原件。未来用户真实开始时，父AG0从01-v3按主线交付必要输入，使用同一目标和作品；当前仅接好入口，不开始教学。
+
+| 责任/功能 | 当前确切原件与修订 | 使用定位 |
+|---|---|---|
+| 目标与判据 | [goal-v1.md](../../goals/bc-closed-loop-20261012/goal-v1.md) revision1 | R1–R4、整体义务、允许资源与暂缓范围 |
+| 认知设计与师生分工 | [cognitive-design-v1.md](../../artifacts/bc-closed-loop-20261012/cognitive-design-v1.md) revision1 | M1–M5、具体主线、所选完整Encoding R07与Post retrieve-relation/select-method、支持/反馈/返回；策略资源仍为已取得的pl-strategies/0.1.0 |
+| 专业依据与来源边界 | [disciplinary-research-v2.md](../../materials/bc-closed-loop-20261012/disciplinary-research-v2.md) revision2；[source-notes-v2.md](../../materials/bc-closed-loop-20261012/source-notes-v2.md) revision2 | 当前关系、完整教学规格与有限原文读取，来源章节修正§II-C与历史生成时点说明 |
+| 实际材料用途 | [material-uses-v3.md](../../materials/bc-closed-loop-20261012/material-uses-v3.md) revision3 | 当前版本、内容/用途/模态核验、泄露边界、整体参考位置与责任方说明 |
+| 主线第1份：M1/M2 | [01-model-and-feedback-v3.md](../../questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md) revision3 | 对象链、评价量、反馈模型及完整数值范例；教师给输入，不要求重复算表 |
+| 主线第2份：M3 | [02-mechanisms-and-methods-v3.md](../../questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md) revision3 | 合法机制对照、时域与方法条件，不代选主案例根因 |
+| 主线第3份：M4 | [03-experiment-example-v2.md](../../questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md) revision2 | 完整接口实验示范、保持项、结果范围及闭环返回 |
+| 主线第4份：M5 | [04-case-and-task-v2.md](../../questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md) revision2 | 有限假设案例与开放整体题面；两条件速度均0，学习者保留解释/方案/结果/改进选择 |
+| 主线中的实际图 | [closed-loop-v1.svg](../../questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg)与[closed-loop-v1.png](../../questions/visible/bc-closed-loop-20261012/closed-loop-v1.png) revision1 | 01-v3嵌入PNG；已实际渲染/查看，对象、a/u与下一时刻返回可读 |
+| 按需局部支持 | [support-v3.md](../../questions/backup/bc-closed-loop-20261012/support-v3.md) revision3 | B1–B6可展示正文、实际代做范围及同一作品返回；不整份默认展示 |
+| 可靠多解参考 | [reference-v3.md](../../questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md) revision3 | §1–7，时序/恢复专家标签/先补关键日志三类合法路线、边界与整体反馈；不作为唯一模板 |
+| AG1实际功能读回 | [materialization-check-v1.md](../../artifacts/bc-closed-loop-20261012/materialization-check-v1.md) revision1；[v2](../../artifacts/bc-closed-loop-20261012/materialization-check-v2.md) revision2；[v3](../../artifacts/bc-closed-loop-20261012/materialization-check-v3.md) revision3 | v1保留首次媒体及待项事实；v2核局部修订/备用/参考；v3接最终MaterialUse-v3。当前功能确认由v2及v3共同承接 |
+| AG3实际反向审查 | [review-v1.md](../../assessment/bc-closed-loop-20261012/review-v1.md) revision1；[review-v2.md](../../assessment/bc-closed-loop-20261012/review-v2.md) revision2 | v1完整原意见与有限来源复核；v2仅核最终用途版本相容，维持充分结论 |
+
+Goal/认知v1保留生成时专业v1依据；当前专业/来源v2只更正定位和补记实际读取，与原机制、条件和判据相容。01/02-v3、03-v2的导航已经接主案例04-v2；图保持v1。版本号无需齐平，不借更新重设计已充分部分。
+
+## 2. 已完成、未执行与责任收口
+
+已完成授权内的学科依据、认知目标及整体安排、完整策略与所需Post选用、具体主线/图/题面/备用/多解参考制作、AG1功能读回、AG3反向审查，以及父AG0对有限备课范围的采用。当前没有待制作的目标内材料或待处理阻断；不因完成准备新增学习者欠账。
+
+AG3-v1的F1针对当时实际读到的MaterialUse-v1概述，最终MaterialUse-v3已先存在并由review-v2核与可见正文相容。本版不把该修清记作AG3导致的修复收益或多角色净收益。原意见与各版观察继续保留，不以最终正确文字倒写原v1。
+
+未执行：教学展示、学习者作答/作品、教学反馈和能力/成绩判断，代码/训练/仿真或机器人实验、真实项目根因确认，以及效果/耗时/个体适配验证。Goal指定的 `artifacts/bc-closed-loop-20261012/learner-dossier-initial.md` 当前not_executed，实际尚不存在；不提前创建伪学习者产物。主案例36个配置与数表是教学规格，不是用户已执行实验或预算承诺。
+
+## 3. 用户真实开始后的同一作品接续
+
+父AG0仍是唯一面向用户教学入口。用户实际开始时，按当前入口取得必要输入与作品位置；M1–M4承担已备教师输入/完整范例，M5让学习者据具体条件连接解释、实验或必要记录、可能结果和改进。可以分段写同一说明，也可在输入足够后一次提交整体，不安排固定时长或新增课表。
+
+收到真实原答先原样保存并读回，再给简短必要反馈；普通反馈沿已备未完成连接接续，真正需要学习者贡献时等待。按需调用B1–B6，记实际提供的关系或代做；完整参考若被展示，后续不能把重复其内容当无帮助自主工作。允许查阅条件保留，不增加闭卷、延迟复习或远迁移要求。
+
+暂停/缩时保留同一作品当前位置与未完成连接，恢复沿实际原件继续，不重做已完成内容。预先可选等待动作不算额外作业。当前未发生的个体适配不用预先穷举分支；有真实项目原件时再沿必要证据处理。后续整体判断依真实原答和实际帮助，准备结论不移作能力结论。
+
+## 4. 共同预算、来源限制与暂缓范围
+
+共同预算仍为 `EMB-B-BC-PREPARATION-20261012` 人工视图：用户活跃时间、阻塞等待、系统完整准备工作量与未来学习/反馈成本均unknown，实际范围沿原件记录；没有计时/费用依据，不填零或虚构分钟。日期、周资源、总课时和设备仍unknown；本次纸面准备不需额外安装、付费、训练、机器人动作或发布，不据此声称未来项目零成本。
+
+AG2来源以source-notes-v2明确的S1–S4文本/公式读取、锚点和未核模态范围为限；没有声称全部论文图表、算法或当前软件实现已复核。AG3直接取得的Ross原文/robomimic作者页及给定模型重新推演范围，见review-v1；其后ACT、Diffusion、robomimic PMLR补取网络失败，未取得新正文，不能计作再次独立原文读取。有限关系/纸面规格可核的准备范围因此保留，不推论文效果排名、完整复现或真实工程保证。
+
+真实故障定位和实验执行、DAgger定理及RNN/ACT/扩散完整训练实现、高维/接触稳定性证明、长期排期/延迟保持/广泛无提示迁移仍按v1理由暂缓，不阻塞当前R1–R4。实际项目分析或方案实施被用户要求且所需接口、轨迹、环境和预算可取得时，才按相关原件再展开；当前不形成这些能力或可靠性结论。
+
+本次备课于有限范围采用后收束。仅真实新增反证或用途变化才回修受影响位置，不重复充分内容、不再加诊断/题目/审查轮次。本版只写本owner下计划；不改全局state/control、正式规则或架构，不接管其他聊天教学。

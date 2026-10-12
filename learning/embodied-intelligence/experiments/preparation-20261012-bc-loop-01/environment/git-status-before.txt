@@ -1,0 +1,6 @@
+ M AGENTS.md
+ M FRAMEWORK.md
+ M MODEL_ENTRY.md
+ M framework-manifest.json
+?? experiments/preparation-20261012-bc-loop-01/
+?? sessions/2026-10-12-bc-preparation-01/

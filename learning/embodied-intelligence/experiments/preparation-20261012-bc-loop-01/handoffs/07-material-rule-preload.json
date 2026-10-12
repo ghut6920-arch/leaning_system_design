@@ -1,0 +1,6 @@
+{
+  "order": 7,
+  "target": "/root/ag2_disciplinary",
+  "mode": "followup_task",
+  "message": "AG1已取得专业v1并正在保存认知稿，尚未交付成品需求。你现在可先按现有AG2职责取得后续落实材料必需的 SK03 design-whole、SK02 materials-examples 及必要INTERACTION规则（已读不重复），仍不要读取实验归档/审查问题或先生成题面。待父入口下一条认知交接后，你将负责材料用途文件和 questions/visible、questions/backup、questions/teacher-reference 下 bc-closed-loop-20261012/ 专用成品。保持专业研究v1不覆盖；如无新专业缺口就不重研。此时返回实际补读清单后等待认知稿。"
+}

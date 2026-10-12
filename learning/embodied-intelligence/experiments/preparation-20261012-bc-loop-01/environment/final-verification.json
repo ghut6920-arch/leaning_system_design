@@ -1,0 +1,16 @@
+{
+  "regular_files": 37,
+  "active_files": 21,
+  "diff_pairs": 18,
+  "diff_failures": 0,
+  "snapshots_compared": 116,
+  "snapshot_mismatches": 0,
+  "framework_entries": 119,
+  "framework_mismatches": 0,
+  "existing_files_checked": 7,
+  "existing_files_changed": 0,
+  "head": "1bd3a8d93dbcfc17913787c7663a29b9d682a867",
+  "unexpected_paths": [],
+  "local_links_checked": 99,
+  "missing_local_links": 0
+}

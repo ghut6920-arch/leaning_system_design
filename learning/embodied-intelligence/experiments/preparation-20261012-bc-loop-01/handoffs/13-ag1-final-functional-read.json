@@ -1,0 +1,6 @@
+{
+  "order": 13,
+  "target": "/root/ag1_design",
+  "mode": "followup_task",
+  "message": "AG2完整成品和用途已保存：materials/bc-closed-loop-20261012/material-uses-v1.md 给实际版本与功能。请正常完成局部读回：重点读04-case-and-task-v2（两条件速度均0）、support-v3、reference-v3，以及source-notes/disciplinary-research-v2的定位更正相容性；01-v3/02-v3/03-v2主要是来源定位/导航，稳定正文复用，图仍v1。AG3已开始从原用途审查，尚无最终意见。把你materialization-check-v1的pending与局部修订实际处理结果另存materialization-check-v2.md，确认当前功能或指出具体缺口；保留原v1，不提前宣称整体准备通过。暂不更改计划pending为最终通过，待审查真实返回后父入口再接采用。仍不读取审查先定问题或实验归档，不增目标/任务。"
+}

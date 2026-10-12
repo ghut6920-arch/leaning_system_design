@@ -1,0 +1,34 @@
+diff --git "a/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\bc-closed-loop-20261012\\source-notes-v1.md" "b/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\bc-closed-loop-20261012\\source-notes-v2.md"
+index 86855c7..8766174 100644
+--- "a/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\bc-closed-loop-20261012\\source-notes-v1.md"
++++ "b/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\bc-closed-loop-20261012\\source-notes-v2.md"
+@@ -1,6 +1,6 @@
+-# BC 闭环专业来源与执行读取回执 v1
++# BC 闭环专业来源与执行读取回执 v2
+ 
+-对象 `EMB-BC-CLOSED-LOOP-SOURCES-20261012`，revision 1，owner AG2，`pl-contracts/0.1.0` 人工 SourceFragment 视图。访问日期 2026-10-12；具体访问时刻未记录。用于 `disciplinary-research-v1.md` revision 1 的有限专业研究，不表示全部来源全文精读或全部模态核验。
++对象 `EMB-BC-CLOSED-LOOP-SOURCES-20261012`，revision 2，owner AG2，`pl-contracts/0.1.0` 人工 SourceFragment 视图。访问日期 2026-10-12；具体访问时刻未记录。用于 `disciplinary-research-v1.md` revision 1 的有限专业研究，不表示全部来源全文精读或全部模态核验。
+ 
+ ## S1：DAgger 原始论文
+ 
+@@ -34,10 +34,10 @@
+ ## S4：Diffusion Policy 原始 RSS 版本
+ 
+ - 来源身份：Chi et al.，*Diffusion Policy: Visuomotor Policy Learning via Action Diffusion*，[arXiv 2303.04137v3 PDF](https://arxiv.org/pdf/2303.04137v3)，v3 于2023-05-22；使用原2023稿，未使用扩展2024 v5的实验结果。版本元数据由[arXiv来源页](https://arxiv.org/abs/2303.04137)核得。来源 ID S4。
+-- 已读文字 known：introduction 的任务表征问题；PDF第3页 §III-C动作序列和三个时域，第4–5页 §IV-A/C 的多模态/时间一致性说明，第11页 §VIII限制。主要抽取行41–67、260–280、406–436、477–484、1029–1043。
++- 已读文字 known：introduction 的任务表征问题；PDF第3页 §II-C动作序列和三个时域，第4–5页 §IV-A/C 的多模态/时间一致性说明，第11页 §VIII限制。主要抽取行41–67、260–280、406–436、467–494、1029–1043。
+ - 已读公式 known：条件 p(A_t|O_t) 及 T_o/T_p/T_a 的含义；扩散/score 的训练与采样公式未精读，不用作该算法完整教学依据。
+ - 图像 unknown：截图尝试无可见图；未核 Fig3/4的可见成品，抽取图注不等图像阅读。故未复制图及其有限 rollout 图证据。
+-- 已核主张 supported（内容修订1）：预测时域与执行时域不同；多模态/段内一致性是论文结构动机；论文明确示范不足与推理延迟限制。方法 source_comparison；required_modalities text/formula；锚点 §III-C、§IV-A/C、§VIII。
++- 已核主张 supported（内容修订1）：预测时域与执行时域不同；多模态/段内一致性是论文结构动机；论文明确示范不足与推理延迟限制。方法 source_comparison；required_modalities text/formula；锚点 §II-C、§IV-A/C、§VIII。
+ - 未读/未核 known：完整扩散模型推导、全部基准数值、实时代码与附录/视频、当前库接口，未复现。初次尝试官方名称猜测 PDF 路径失败；未将其列为已读来源。
+ 
+ ## 原创推导与教学情境
+@@ -65,3 +65,7 @@
+ `SourceFragment` 读取/内容核验已具上列限定范围；`MaterialUse` 的学习者可见输入、备用帮助、教师参考与实际功能须待 AG1 认知设计后落实。当前稿及来源只用于后台学科交接，prepared，不是 displayed。不会以截图尝试成功定位声称图像已读，不会以四论文相互一致证明新情境答案。
+ 
+ 下一接收者 AG1/SK03；如返回具体缺口，AG2 只回修受影响关系与来源，并另存 v2。当前 v1 不覆盖；接受、采用与范围确认由父入口/对应专业方另记。
++
++## v2局部定位更正与新增读取事实
++2026-10-12核原PDF行115、260–280、317：三个时域的正确章节为§II-C；§III-C讨论noise schedule。v1该处章节号误记，所读文字和使用主张未变；现在只修定位，不改变目标、机制或材料内容资格。另完成§IV-C行467–494的时间一致性上下文读取。图像仍unknown。后续材料绑定本v2及专业研究v2；原v1保留，不将来源定位更正解释为真实学习纠错事件。
++后续成品阶段另实际补读design-whole、materials-examples、INTERACTION全文，及本课程Goal/认知设计/近期安排三份v1全文。未读取AG3审查问题或实验归档。

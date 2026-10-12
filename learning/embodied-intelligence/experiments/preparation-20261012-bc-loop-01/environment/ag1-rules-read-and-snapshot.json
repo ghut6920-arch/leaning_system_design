@@ -1,0 +1,56 @@
+[
+  {
+    "source": "..\\..\\personal-learning-suite\\src\\skills\\learning-goals\\SKILL.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\skills\\learning-goals\\SKILL.md",
+    "sha256": "267ffad6e6b6c569d64c5d09d5947cd74d38370ee3a86c77d7a82841ad32e2b4",
+    "read_by": "AG1 receipt, not newly read by AG0"
+  },
+  {
+    "source": "..\\..\\personal-learning-suite\\src\\skills\\learning-goals\\references\\goal-design.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\skills\\learning-goals\\references\\goal-design.md",
+    "sha256": "cc05c9f37aea08ce9b4de8a06093a905718da6d78c3ee161188620b630ee17fb",
+    "read_by": "AG1 receipt, not newly read by AG0"
+  },
+  {
+    "source": "..\\..\\personal-learning-suite\\src\\skills\\learning-teaching\\references\\encoding.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\skills\\learning-teaching\\references\\encoding.md",
+    "sha256": "3714590ae024bd2993a62ad8e7d3056de5bc8c657e6780dab3f23b35daec01c7",
+    "read_by": "AG1 receipt, not newly read by AG0"
+  },
+  {
+    "source": "..\\..\\personal-learning-suite\\src\\skills\\learning-teaching\\references\\post-encoding.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\skills\\learning-teaching\\references\\post-encoding.md",
+    "sha256": "81c5f80f002910255ac27d4b6c77f16424c7344c1a48424fd2746b8c6de7c7dc",
+    "read_by": "AG1 receipt, not newly read by AG0"
+  },
+  {
+    "source": "..\\..\\personal-learning-suite\\src\\skills\\learning-planning\\SKILL.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\skills\\learning-planning\\SKILL.md",
+    "sha256": "5617b5826c2b4ce5a0509f6ef6bd99af576f5418b5cb3bf4fdfcc2be0007193e",
+    "read_by": "AG1 receipt, not newly read by AG0"
+  },
+  {
+    "source": "..\\..\\personal-learning-suite\\src\\skills\\learning-planning\\references\\planning.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\skills\\learning-planning\\references\\planning.md",
+    "sha256": "72beb50667895537040ec5355d36496d3c3a0cfe0d38ce8fa9a7c2fddc02fa33",
+    "read_by": "AG1 receipt, not newly read by AG0"
+  },
+  {
+    "source": "..\\..\\personal-learning-suite\\src\\skills\\learning-planning\\references\\multi-scale-plan.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\skills\\learning-planning\\references\\multi-scale-plan.md",
+    "sha256": "4e36c03a26c27adcf45d92a41ccf7387f31f93609815ab830a6fc96783749e3e",
+    "read_by": "AG1 receipt, not newly read by AG0"
+  },
+  {
+    "source": "..\\..\\personal-learning-suite\\src\\skills\\learning-strategies\\SKILL.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\skills\\learning-strategies\\SKILL.md",
+    "sha256": "60c61e24f057b942ae9f20dbaf3707e6d60b4d256250544aaf1dac720ddcdbdb",
+    "read_by": "AG1 receipt, not newly read by AG0"
+  },
+  {
+    "source": "..\\..\\personal-learning-suite\\src\\skills\\learning-strategies\\references\\selection-adaptation.md",
+    "archive": "experiments\\preparation-20261012-bc-loop-01\\environment\\rules-snapshot\\src\\skills\\learning-strategies\\references\\selection-adaptation.md",
+    "sha256": "43e6f0c2113b2aea3b453e5d64355799d36b92568b87446955b9558f6bffd799",
+    "read_by": "AG1 receipt, not newly read by AG0"
+  }
+]

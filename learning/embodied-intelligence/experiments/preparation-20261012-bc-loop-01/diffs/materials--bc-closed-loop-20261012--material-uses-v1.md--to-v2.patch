@@ -1,0 +1,29 @@
+diff --git "a/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\bc-closed-loop-20261012\\material-uses-v1.md" "b/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\bc-closed-loop-20261012\\material-uses-v2.md"
+index 65ac551..6b0ba44 100644
+--- "a/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\bc-closed-loop-20261012\\material-uses-v1.md"
++++ "b/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\materials\\bc-closed-loop-20261012\\material-uses-v2.md"
+@@ -1,6 +1,6 @@
+-# 第一阶段实际材料与用途核验 v1
++# 第一阶段实际材料与用途核验 v2
+ 
+-对象 `EMB-M-BC-CLOSED-LOOP-20261012`，revision1，owner AG2；`pl-contracts/0.1.0`人工MaterialUse视图。状态为成品已制作、内容与本设计用途已核，prepared；AG1功能读回/AG3反向审查及父AG0最终采用分别成立，本稿不代称整体备课已通过。未展示、未授课、无学习者表现/能力结论。
++对象 `EMB-M-BC-CLOSED-LOOP-20261012`，revision2，owner AG2；`pl-contracts/0.1.0`人工MaterialUse视图。状态为成品已制作、内容与本设计用途已核，prepared；AG1最终功能读回、AG3反向审查及父AG0最终采用由对应责任方另行确认，本稿不代称这些步骤已完成或整体备课已通过。未展示、未授课、无学习者表现/能力结论。
+ 
+ 目标与设计：`goals/bc-closed-loop-20261012/goal-v1.md` revision1（R1–R4），`artifacts/bc-closed-loop-20261012/cognitive-design-v1.md` revision1（M1–M5及支持返回），`plan/bc-closed-loop-20261012/first-stage-plan-v1.md` revision1。原用途为保存的learning-request.txt revision1。预算/设备unknown，仅交完整可分段纸面主线，未安装、训练、付费、发布或运行机器人。
+ 
+@@ -24,7 +24,7 @@
+ 
+ 当前专业版本为 `disciplinary-research-v2.md` revision2、`source-notes-v2.md` revision2；两者与v1实质内容相同，唯一专业稿修订是Diffusion Policy三个时域的定位§III-C→**§II-C（PDF第3页，抽取行260–280）**。本执行回原始v3 PDF行115/260–280/317核得；§III-C实际为noise schedule。可见02-v3已修锚点。Goal/认知设计v1采用的机制、条件和判据保持相容，无需重设目标或新增任务；旧稿错误章节号不再用作当前定位。
+ 
+-S1–S4仍按来源稿的有限读取/核验范围使用；没有复制未读图表数值或主张完整复现。source-notes-v2保留v1生成时的研究回执并追加后续事实；其中原阶段“尚未读取认知稿/成品规则”等语句只描述原v1时点，当前实际读取以本稿第5节及其v2末尾后续补读事实为准。
++S1–S4仍按来源稿的有限读取/核验范围使用；没有复制未读图表数值或主张完整复现。source-notes-v2与disciplinary-research-v2保留v1研究阶段正文及其当时状态，再追加局部修订事实；其中“尚未读取认知稿/成品规则”“尚未形成全部教学成品”等语句描述原v1研究时点，当前材料状态与实际读取以本稿第1、5节及来源稿v2末尾后续补读事实为准。
+ 
+ 新增局部材料是原创教学假设：缺位置输入时速度±1需要相反动作；固定命令流绝对/增量接口；T_o/T_p/T_a明确索引例；主案例的配置、扰动、次数与轨迹。身份是generated_material/teacher_reference，未被包装为论文数据、真实项目日志或已执行实验。它们的成立依据是可见完整规格与下述独立推导/核对，不以题干与答案彼此一致证明正确。
+ 
+@@ -62,3 +62,6 @@ whole_coverage：supported_for_current_preparation。target_operations为R1反
+ 未读取AG3先定审查问题、指定旧专题审计/诊断或实验归档；未写其他owner文件或规则/架构。未核真实项目、真实软件行为或真实稳定性，未获得学习者原答，无PerformanceEvent/Judgment或伪造实验预算。当前不需学习者回问；实际工程诊断/实验执行仍需真实轨迹、接口、环境与预算。
+ 
+ 交AG1读回当前成品功能/兼容，AG3从原用途反向审查；父AG0唯一面向用户入口确认采用和整体准备状态。已充分部分保留；具体回修只更受影响版本。当前无AG2目标内待制作缺项，未来意外分支/真实项目材料按实际需要补；无额外质量报告或固定任务数量要求。
++
++## v2回执措辞澄清
++保留原v1，仅明确各责任方最终采用仍需各自确认，以及两份专业v2保留原研究阶段状态文字的时间身份。当前主线、材料范围和用途判据未变。全部当前文字已完整保存读回，四个正文内本地导航/图像链接均存在；SVG/PNG仍为已经实际查看的v1。

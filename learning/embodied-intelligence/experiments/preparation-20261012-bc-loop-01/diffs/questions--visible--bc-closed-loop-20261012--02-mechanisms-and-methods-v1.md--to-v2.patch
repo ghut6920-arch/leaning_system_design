@@ -1,0 +1,15 @@
+diff --git "a/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\bc-closed-loop-20261012\\02-mechanisms-and-methods-v1.md" "b/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\bc-closed-loop-20261012\\02-mechanisms-and-methods-v2.md"
+index 5f82cad..674becb 100644
+--- "a/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\bc-closed-loop-20261012\\02-mechanisms-and-methods-v1.md"
++++ "b/E:\\文献资料\\学习系统架构设计\\learning\\embodied-intelligence\\questions\\visible\\bc-closed-loop-20261012\\02-mechanisms-and-methods-v2.md"
+@@ -1,3 +1,4 @@
++<!-- revision 2：仅更新下一份导航，正文专业内容与v1相同；保留v1。 -->
+ # 不同失败机制，需要不同条件
+ 
+ 以下都是教学假设与限定模型，用来区分解释。它们不是已观察到的个人误解，也不要求逐项答题。
+@@ -61,4 +62,4 @@ MSE在 a=0 最小，0却不在合法集内；选择-1或+1都有更高标签MSE
+ 
+ 历史依赖、动作块和生成式动作表示是候选结构，各自改变不同关系。当前只需理解这些条件，不需安装或训练它们。相关限定来源：[robomimic](https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf)、[ACT §IV-A](https://arxiv.org/pdf/2304.13705v1)、[Diffusion Policy §III-C/IV/VIII](https://arxiv.org/pdf/2303.04137v3)。完整学科依据见学科稿v1 §3.2–5。
+ 
+-下一份：[完整实验判断示范](E:/文献资料/学习系统架构设计/learning/embodied-intelligence/questions/visible/bc-closed-loop-20261012/03-experiment-example-v1.md)。
++下一份：[完整实验判断示范](E:/文献资料/学习系统架构设计/learning/embodied-intelligence/questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md)。

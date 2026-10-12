@@ -1,0 +1,12 @@
+{
+  "completed_local_time": "2026-10-12T15:00:43.1884118+08:00",
+  "normal_files": 37,
+  "active_files": 21,
+  "all_created_paths_excluding_list_itself": 277,
+  "missing_created_files": [],
+  "normal_manifest_mismatches": [],
+  "local_links_checked": 99,
+  "missing_local_links": 0,
+  "learner_artifact_exists": false,
+  "note": "归档索引不自列自身；本脚本的完整宿主工具响应未递归归档，结果由实际写入及下方输出取得。"
+}

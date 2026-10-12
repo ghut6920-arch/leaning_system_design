@@ -1,0 +1,6 @@
+{
+  "order": 12,
+  "target": "/root/ag3_review",
+  "mode": "followup_task",
+  "message": "完整候选成品已实际保存，开始正常反向审查。请复用你先定的review-questions-v1和原用途；先读实际可见输入/题面与图：questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md、02-mechanisms-and-methods-v3.md、03-experiment-example-v2.md、04-case-and-task-v2.md、closed-loop-v1.png（实际查看）及SVG；再读 questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md 和 questions/backup/bc-closed-loop-20261012/support-v3.md；原始目标goals/.../goal-v1.md、专业materials/.../disciplinary-research-v2.md与source-notes-v2.md提供依据，认知artifacts/.../cognitive-design-v1.md与plan/.../first-stage-plan-v1.md及materials/.../material-uses-v1.md作者总结最后读。各...均为bc-closed-loop-20261012目录。实际v1/v2已保留；此前成品局部读回澄清了两条件速度初始化，来源稿v2更正Diffusion三时域章节定位，目标实质不变，最终对应版本以上述清单为准。按既有职责判断原用途覆盖、专业关系/教学功能、剩余学习者工作、参考多解/条件不足/帮助影响、可执行范围，不加标准/任务。若有缺口，请给AG2/AG1具体位置与当前影响；充分则保留。请完整保存原始review-v1.md，写被审确切版本/读取范围/验收结论与限制；不要等回修后才保存意见。如果需要回修后复核另存v2。只备课无原答，不做学习者能力判断、不读旧审计或实验归档。"
+}

@@ -1,0 +1,149 @@
+[
+  {
+    "stage": "material-file-presence",
+    "tool": "exec_command",
+    "input": {
+      "cmd": "if (Test-Path -LiteralPath questions/visible/bc-closed-loop-20261012) { Get-ChildItem -LiteralPath questions/visible/bc-closed-loop-20261012 -File | Select-Object Name,Length,LastWriteTime }",
+      "max_output_tokens": 1000
+    },
+    "result": {
+      "chunk_id": "c23e63",
+      "wall_time_seconds": 3.0676179,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  {
+    "stage": "ag2-visible-v1-snapshot",
+    "tool": "exec_command",
+    "input": {
+      "cmd": "Get-ChildItem -LiteralPath questions/visible/bc-closed-loop-20261012 -File | Select-Object Name,Length\n$taskDest = 'experiments/preparation-20261012-bc-loop-01/stages/04-ag2-materials-visible-v1/questions/visible/bc-closed-loop-20261012'\nNew-Item -ItemType Directory -Force -Path $taskDest | Out-Null\nGet-ChildItem -LiteralPath questions/visible/bc-closed-loop-20261012 -File | Copy-Item -Destination $taskDest",
+      "max_output_tokens": 1100
+    },
+    "result": {
+      "chunk_id": "cd65c8",
+      "wall_time_seconds": 3.3132226,
+      "exit_code": 0,
+      "original_token_count": 71,
+      "output": "\r\nName                            Length\r\n----                            ------\r\n01-model-and-feedback-v1.md       5054\r\n02-mechanisms-and-methods-v1.md   6501\r\n03-experiment-example-v1.md       3458\r\n04-case-and-task-v1.md            4483\r\nclosed-loop-v1.svg                2797\r\n\r\n"
+    }
+  },
+  {
+    "stage": "ag0-visible-input-and-task-read",
+    "tool": "exec_command",
+    "input": {
+      "cmd": "Get-Content -LiteralPath questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v1.md\nGet-Content -LiteralPath questions/visible/bc-closed-loop-20261012/04-case-and-task-v1.md",
+      "max_output_tokens": 4700
+    },
+    "result": {
+      "chunk_id": "27ae78",
+      "wall_time_seconds": 3.4057374,
+      "exit_code": 0,
+      "original_token_count": 2411,
+      "output": "# 为什么离线预测好，闭环仍可能失败\r\n\r\n本单元要把一次闭环失败接成可核对的项目判断：评价了什么，偏差怎样传下去，哪些解释仍成立，怎样用实验帮助选择。先看对象和机制，随后看条件对照与一份完整实验示范，最后分析同一个教学案例。案例和数值均是明确假设，不是你的项目数据，也不是已运行实验。\r\n\r\n## 把命令接回下一次输入\r\n\r\n![策略、执行和环境组成的闭环](E:/文献资料/学习系统架构设计/learning/embodied-intelligence/questions/visible/bc-closed-loop-20261012/closed-loop-v1.png)\r\n\r\n图中的真实状态 x_t 包括机器人和物体的位置、速度、接触等，未必直接可见。传感器将它变成观测 o_t；策略实际使用输入 h_t，可以是当前观测，也可以加历史。策略输出的是**命令 a_t**，部署接口及低层控制器将它变成**实际输入 u_t**。环境据当前状态、实际输入和扰动，产生下一状态；下一状态又形成下一次输入。箭头表示依赖与时刻连接，不自动表示每项都能直接测得。\r\n\r\n| 同一控制时刻的对象 | 用途与关系 |\r\n|---|---|\r\n| x_t → o_t | `o_t=g(x_t,传感条件)`；图像不是全部物理状态 |\r\n| o_t/历史 → h_t | 可以使用过去观测和已发动作；历史不保证足够区分所需动作 |\r\n| h_t → a_t | `a_t=πθ(h_t)`；网络给出命令 |\r\n| a_t/状态/时序 → u_t | `u_t=C(a_≤t,x_≤t,时序)`；包含还原、坐标、命令语义、跟踪与延迟 |\r\n| x_t、u_t、w_t → x_(t+1) | `x_(t+1)=F(x_t,u_t,w_t)`；实际动作改变下一输入 |\r\n\r\n图上方的状态支路提醒我们：同一个命令在不同状态下，执行和环境反应可以不同。真实状态不可观察时，记录必须说明用了什么代理，不能把图像特征直接当真实 x_t。\r\n\r\nBC 的离线目标通常类似 `L_demo=E_(h,a*)~D[ℓ(πθ(h),a*)]`，比较示范输入上的预测与标签。闭环任务则关心 `J=E_τ[Σ c(x_t,u_t)]`、任务成功及恢复表现；这里的轨迹由策略、执行接口、环境和传感共同产生。因此，评价输入来自谁、动作造成什么、用什么标准判成功，都是模型判断的一部分。\r\n\r\n| 观察 | 它实际回答什么 | 仍未回答什么 |\r\n|---|---|---|\r\n| episode 留出集动作误差低 | 相似示范输入上，预测与标签接近 | 自身动作造成的新输入上会怎样；任务容差和恢复 |\r\n| 某些初始条件下闭环成功 | 这些条件下整条执行链完成任务 | 其他条件、扰动范围、原因和可靠性 |\r\n| 扰动后能恢复 | 这类扰动及检查条件下存在恢复行为 | 所有扰动、所有阶段或真实机械臂稳定性 |\r\n\r\n## 一个完整示范：同样的离线误差，反馈不同\r\n\r\n使用一维无量纲模型，e_t 是偏离目标的数值。没有惯性、噪声、接触和约束，环境固定为 `e_(t+1)=e_t+u_t`。演示只包含 `e=0、正确动作u*=0`。取两种策略：\r\n\r\n`u_q(e)=-(1-q)e+b`。\r\n\r\n在演示输入 e=0 上，两种策略都输出 b，离线平方误差都是 b²。但把动作代回环境：\r\n\r\n`e_(t+1)=e_t-(1-q)e_t+b=q e_t+b`。\r\n\r\n这里 b 每步引入同一偏置；q 决定已有偏差怎样传到下一步。q 由所给环境和策略共同形成，不是 BC 的统一性能指标。\r\n\r\n从 e_0=0 开始，取 b=0.01。完整短轨迹为：\r\n\r\n| 时刻 | q=0.5 的偏差 | q=1 的偏差 | q=1.2 的偏差 |\r\n|---|---:|---:|---:|\r\n| 0 | 0 | 0 | 0 |\r\n| 1 | 0.010000 | 0.010000 | 0.010000 |\r\n| 2 | 0.015000 | 0.020000 | 0.022000 |\r\n| 3 | 0.017500 | 0.030000 | 0.036400 |\r\n| 4 | 0.018750 | 0.040000 | 0.053680 |\r\n| 5 | 0.019375 | 0.050000 | 0.074416 |\r\n\r\n例如 q=1.2 的第二步是 `1.2×0.01+0.01=0.022`；这个新偏差成为第三步的输入，又得到0.0364。相同的演示误差 0.0001，没有约束偏离输入上的反馈斜率。q=0.5 把已有偏差减半，但偏置每步仍在加入，最终趋近0.02而非零；q=1则持续积累偏置。\r\n\r\n展开递推可得 `e_t=bΣ_(j=0)^(t-1)q^j`。q≠1 时为 `b(1-q^t)/(1-q)`，q=1 时为 tb。这是给定标量模型中的合法关系，不是根据几次数值证明真实机器人稳定。\r\n\r\n把 b 改为0，演示输入上的误差严格为零。若外部扰动使 e_0=0.05，q=0.5 的下一偏差为0.025，q=1.2则为0.06：离线完美仍没有确定恢复反应。实际机械臂的状态、观测、低层控制和接触要复杂得多，不能把一个 q 或这张数表直接当其稳定性证明。\r\n\r\n这些输入已经给出了完整计算。接下来要使用的是其中的关系：**原评价在何种输入上成立，部署怎样改变输入，对新输入的行为又有哪些依据。**无需另做换数字练习。\r\n\r\n下一份：[机制与条件](E:/文献资料/学习系统架构设计/learning/embodied-intelligence/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v1.md)。专业依据为学科稿v1 §2–3；策略诱导分布的原始锚点见 [DAgger §2–3](https://proceedings.mlr.press/v15/ross11a/ross11a.pdf)。\r\n# 教学案例：拾取、对准槽口并放置\r\n\r\n**以下规格、数值和观察全部是明确构造的教学假设，未实际运行，不是论文实验或你的项目记录。**暂不执行实验，可查阅前面三份材料与来源。\r\n\r\n## 已有资料\r\n\r\n策略输入为当前RGB图像与当前关节位置，不含显式速度/接触输入。输出是标定还原后的绝对关节目标，低层采用位置控制。同一个保存输入上的标签、归一化还原与命令含义检查正确；整段在线执行、观测同步和时序尚未审计。\r\n\r\n示范主要是无扰动的成功轨迹。验证集按episode划分，输入仍来自相同初始分布，标签MSE较低；这里没有给出MSE单位与各阶段误差，不能把“低”当任务容差已验证。\r\n\r\n使用一个冻结checkpoint，来自一次训练；训练种子未保留。36个仿真初始配置/环境种子，在两条件下逐一配对，物体、槽口、任务标准和低层参数保持。两个条件均完成拾取并进入对准阶段。标准条件原样继续；扰动条件在该阶段从配对完整快照重置为合法状态：末端与被夹物体横向偏8 mm，关节按合法逆解同步设置、速度置0、相对夹持位姿保持，未发生碰撞或落物。两个条件均采用同样的阶段重置流程，标准条件只不加这项偏移。\r\n\r\n成功标准为：在同一限定episode时域内完成放置，物体中心距目标不超过5 mm且保持两个评价采样，过程中无掉落/禁用碰撞。这个标准只用于本案例。\r\n\r\n| 条件 | 同一checkpoint的放置成功 | 评价说明 |\r\n|---|---:|---|\r\n| 标准条件 | 28/36 | 36个配对配置；均已成功拾取 |\r\n| 横向状态扰动 | 12/36 | 相同配置/环境种子；只按上列规格改变阶段状态 |\r\n\r\n没有给出每对成败的对应表、全部轨迹或统计区间。分母36是教学数据规格，不是你的实验预算；一次训练的环境重复也不是多个训练种子的验证。两组观察表示这些构造条件下存在差异，不指定唯一机制。\r\n\r\n在评价结果揭晓前预先选的8个扰动快照上，专家重新控制，6个完成任务，2个失败。没有提供全部失败的可恢复性、专家动作序列或与策略完全同步的观测。因此，部分状态可恢复，但不能说36个扰动条件全部可恢复。\r\n\r\n还有一条扰动轨迹的稀疏记录：横向误差来自仿真状态代理；策略使用的RGB采集时刻、关节采集时刻、推理结束、命令实际应用时刻均未保存。\r\n\r\n| 记录序号（不是实际执行时间） | 仿真横向误差代理 | 根据绝对关节目标与当时关节位置换算的预计横向改变量 | 实际低层输入/时间 |\r\n|---|---:|---:|---|\r\n| 0 | +8 mm | -2 mm | unknown |\r\n| 1 | +6 mm | -2 mm | unknown |\r\n| 2 | +9 mm | +1 mm | unknown |\r\n| 3 | +10 mm | 未保存 | unknown |\r\n\r\n预计改变量是目标位姿的运动学差值，不是实测末端运动或底层力矩。记录显示策略曾请求纠正，后来目标方向与当前误差方向相同；没有时间对应，不能将某行目标直接归因于下一行误差。缺同状态专家标签，缺足够信息来确定策略看的是哪个状态。\r\n\r\n## 写一份连续的项目判断\r\n\r\n请给这个项目写一份**闭环失败分析与实验判断说明**，文字、表格或注释图均可；可以查阅前面的模型、对照和示范。\r\n\r\n先说明离线评价能支持什么，闭环哪条连接使它不充分；用一个中间理由把命令、执行、新状态/输入接起来。再据现有资料保留有依据的竞争解释，说明哪些断言现在不能下，哪些新信息会改变判断。\r\n\r\n然后设计你认为最能帮助下一步决定的一项具体比较，或先补一项必需记录：写清改变什么、比较什么、保持什么、记录/评价什么，以及不同可能结果将怎样影响解释。最后给出与你的证据和实验相容的条件化改进：它改变哪条关系，需要什么条件或成本，仍留下什么缺口。无需写所有算法，也不要求唯一标准路线。\r\n\r\n可以先交已完成部分，或指出卡点；后续修订仍接这份说明。提交后若还在等待，可圈出说明里最不确定的一处依据；做完即可停，回复到达后回到这里。这个动作可不做，不增加必交项。\r\n\r\n本案例依据学科稿v1 §2–6和认知设计v1 M5构造；全部观察均未执行，未对任何学习者作能力判断。\r\n"
+    }
+  },
+  {
+    "stage": "material-finalization-presence",
+    "tool": "exec_command",
+    "input": {
+      "cmd": "$taskPaths = @('questions/visible/bc-closed-loop-20261012','questions/backup/bc-closed-loop-20261012','questions/teacher-reference/bc-closed-loop-20261012','materials/bc-closed-loop-20261012')\nforeach ($taskPath in $taskPaths) { if (Test-Path -LiteralPath $taskPath) { Get-ChildItem -LiteralPath $taskPath -File | Select-Object Name,Length,LastWriteTime } }",
+      "max_output_tokens": 1400
+    },
+    "result": {
+      "chunk_id": "220dd5",
+      "wall_time_seconds": 3.2178132,
+      "exit_code": 0,
+      "original_token_count": 148,
+      "output": "\r\nName                            Length LastWriteTime\r\n----                            ------ -------------\r\n01-model-and-feedback-v1.md       5054 2026/10/12 14:25:21\r\n02-mechanisms-and-methods-v1.md   6501 2026/10/12 14:25:22\r\n03-experiment-example-v1.md       3458 2026/10/12 14:25:22\r\n04-case-and-task-v1.md            4483 2026/10/12 14:25:23\r\nclosed-loop-v1.png               80788 2026/10/12 14:27:25\r\nclosed-loop-v1.svg                2797 2026/10/12 14:25:23\r\ndisciplinary-research-v1.md      18572 2026/10/12 14:05:03\r\nsource-notes-v1.md                9665 2026/10/12 14:05:03\r\n\r\n"
+    }
+  },
+  {
+    "stage": "diagram-actual-render",
+    "tool": "view_image",
+    "input": {
+      "path": "questions/visible/bc-closed-loop-20261012/closed-loop-v1.png"
+    },
+    "result": {
+      "image_seen": true,
+      "size": "renderer returned high-detail local PNG",
+      "note": "原图文件已单独快照，不在JSON中复制base64"
+    }
+  },
+  {
+    "stage": "diagram-snapshot",
+    "tool": "exec_command",
+    "input": {
+      "cmd": "Copy-Item -LiteralPath questions/visible/bc-closed-loop-20261012/closed-loop-v1.png -Destination experiments/preparation-20261012-bc-loop-01/stages/04-ag2-materials-visible-v1/questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+      "max_output_tokens": 500
+    },
+    "result": {
+      "chunk_id": "4919c5",
+      "wall_time_seconds": 3.0600199,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  },
+  {
+    "stage": "ag0-visible-mechanisms-example-read",
+    "tool": "exec_command",
+    "input": {
+      "cmd": "Get-Content -LiteralPath questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v1.md\nGet-Content -LiteralPath questions/visible/bc-closed-loop-20261012/03-experiment-example-v1.md",
+      "max_output_tokens": 4800
+    },
+    "result": {
+      "chunk_id": "05e164",
+      "wall_time_seconds": 3.0905038,
+      "exit_code": 0,
+      "original_token_count": 2516,
+      "output": "# 不同失败机制，需要不同条件\r\n\r\n以下都是教学假设与限定模型，用来区分解释。它们不是已观察到的个人误解，也不要求逐项答题。\r\n\r\n## 偏出成功轨迹后，能否恢复是关键条件\r\n\r\n假设机械臂夹住物体，准备对准槽口。在自由空间里横向偏离8 mm，若物体仍被夹住、还有运动空间，专家可能先退回并重新对准。这种状态需要的恢复动作，未必出现在只记录标准成功路径的数据里。多加相同成功轨迹不保证补到它；图像增强也不自动产生正确的物理恢复标签。\r\n\r\n若夹爪已经提前松开、物体落入无法再取出的区域，同样“偏了8 mm”可能已经不能完成原任务。失败可以一次越过容差，而不是必须逐步放大。观察策略失败后，应区分偏差位置、状态是否可恢复，以及策略是否学到了可恢复状态上的动作。专家少量恢复成功，只支持那些条件下有恢复路线。\r\n\r\n## 缺信息和合法多解，怎样区别\r\n\r\n考虑一维滑块即将到达目标，同一当前位置 x=0，策略输入仅包含位置。物体可能向右运动 `v=+1`，也可能向左运动 `v=-1`；任务规格要求下一时刻速度为0，动作会使 `v'=v+a`。前者正确动作必须是-1，后者必须是+1。当前输入完全相同，却必须采取不同动作；只用位置的确定性映射无法同时满足两者。\r\n\r\n可靠的速度测量能够区别这两个状态。若采样间隔已知、测量足够准确，过去和当前位置也可提供速度信息。没有可辨别信息的更长历史不会凭空解决问题；有历史的架构改善也不能单独证明唯一原因。机械臂当前图像/关节位置可能同样未给出运动方向或接触状态，需要检查具体输入而不是只按模型名字判断。\r\n\r\n另一个情形中，同一输入本来就允许两种正确动作。定义合法命令集合 `[-1,-0.8]∪[0.8,1]`，示范等概率给出-1和+1。固定输出 a 的平均平方误差为\r\n\r\n`0.5(a+1)²+0.5(a-1)²=a²+1`。\r\n\r\nMSE在 a=0 最小，0却不在合法集内；选择-1或+1都有更高标签MSE，但均合法。这是**充分输入下的合法多解**，不是前例的缺速度。动作方差也可能来自漏条件、不同意图或标注错误，必须先核标签与任务条件。整段任务还需要路线一致性：每步都有两条合法路线，不表示在它们之间不断切换仍能完成任务。\r\n\r\n## 同一网络，观测延迟也会改变反馈\r\n\r\n固定环境 `x_(t+1)=x_t+u_t`、目标0、策略 `u=-1.2x`。这是标量教学模型，没有机械臂动力学。无延迟时 `x_(t+1)=-0.2x_t`，偏差逐步衰减；一拍延迟时实际使用旧观测，得到 `x_(t+1)=x_t-1.2x_(t-1)`。\r\n\r\n令 x_-1=x_0=0.1，前几步可以直接跟踪：\r\n\r\n| 执行时刻t | 无延迟：使用的观测/命令/下一状态 | 一拍延迟：使用的观测/命令/下一状态 |\r\n|---|---|---|\r\n| 0 | x_0=0.1；u_0=-0.12；x_1=-0.02 | x_-1=0.1；u_0=-0.12；x_1=-0.02 |\r\n| 1 | x_1=-0.02；u_1=0.024；x_2=0.004 | x_0=0.1；u_1=-0.12；x_2=-0.14 |\r\n| 2 | x_2=0.004；u_2=-0.0048；x_3=-0.0008 | x_1=-0.02；u_2=0.024；x_3=-0.116 |\r\n| 3 | x_3=-0.0008；u_3=0.00096；x_4=0.00016 | x_2=-0.14；u_3=0.168；x_4=0.052 |\r\n\r\n延迟分支的一般特征关系是 `λ²-λ+1.2=0`，根为 `(1±i√3.8)/2`，模 `√1.2>1`。这解释给定模型中的振荡放大；不要求现在证明特征根理论，也不能由真实轨迹振荡就判唯一是延迟。网络对同一保存输入的预测仍可正确，改变的是哪份观测在何时产生并执行哪个命令。\r\n\r\n## 看多久、预测多久、执行多久\r\n\r\n在一个离散时刻例中，当前t=10：\r\n\r\n| 时域 | 明确的教学规格 | 影响什么 |\r\n|---|---|---|\r\n| 观测历史 T_o=2 | 使用观测o_9、o_10 | 本次决策可用的信息 |\r\n| 预测长度 T_p=5 | 预测a_10、a_11、a_12、a_13、a_14 | 可共同组织的动作范围 |\r\n| 不重规划执行长度 T_a=2 | 执行a_10、a_11；到t=12取得新输入并重新预测 | 多久才能用新信息修改剩余动作 |\r\n\r\n这个例子是已明示的索引规格，未假定所有库都采用同一索引。预测五步并不等于必须连续开环执行五步。更长执行段减少重新规划机会，但省去一些更新；更短执行段需要推理及新观测及时可用。必须将网络耗时、采集时间和实际执行时间接起来，不能仅据参数T_a推定真实反馈频率。\r\n\r\n同刻预测融合也不同于平均相邻动作：在t=12，可将t=10预测块中的 `a_(12|10)` 与t=11预测块中的 `a_(12|11)` 组合，它们均针对**时刻12**。不能用t=11的实际动作与t=12动作平均，冒称同一方法。融合可能平滑预测差异，也可能让旧信息持续影响输出；更长块或融合没有统一稳定性保证。\r\n\r\n## 将改进接到要改变的关系\r\n\r\n| 证据指向的缺口 | 有条件的改进 | 保留的限制/成本 |\r\n|---|---|---|\r\n| 可恢复状态少覆盖、缺正确动作 | 定向收集恢复示范/访问状态专家标签 | 需要可靠专家及访问条件；标准DAgger不能用策略自己的输出冒充专家，也不能在纯离线无标签条件下直接承诺 |\r\n| 当前输入混淆必须不同的动作 | 补真正有辨别力的历史、速度、接触或阶段信息 | 要核同步、初始化与新信息是否足够；不直接补恢复标签 |\r\n| 同条件合法多解或段内路线不一致 | 合适的动作分布表示和序列组织 | 模型/训练/推理成本变化；不自动解决状态覆盖和接口错误 |\r\n| 新信息进入太晚或执行语义不一致 | 核还原/坐标/命令含义、时序与低层跟踪 | 修接口收益不证明其他机制已消失 |\r\n| 段内一致性与反应机会需权衡 | 比较预测/执行长度及必要同刻融合 | 需实际时间预算；不能仅说“增大块、加平滑” |\r\n\r\n历史依赖、动作块和生成式动作表示是候选结构，各自改变不同关系。当前只需理解这些条件，不需安装或训练它们。相关限定来源：[robomimic](https://proceedings.mlr.press/v164/mandlekar22a/mandlekar22a.pdf)、[ACT §IV-A](https://arxiv.org/pdf/2304.13705v1)、[Diffusion Policy §III-C/IV/VIII](https://arxiv.org/pdf/2303.04137v3)。完整学科依据见学科稿v1 §3.2–5。\r\n\r\n下一份：[完整实验判断示范](E:/文献资料/学习系统架构设计/learning/embodied-intelligence/questions/visible/bc-closed-loop-20261012/03-experiment-example-v1.md)。\r\n# 一份完整示范：怎样限定接口实验的结论\r\n\r\n下面是明确的教学假设和手工推算，未运行实验。目标是演示“证据→比较→结论范围→选择”，后续主案例不预设同样原因。\r\n\r\n## 明确规格，先隔离一个接口\r\n\r\n单关节任务要求到达0.1 rad后保持。训练标签 a* 表示**绝对关节目标，单位rad**。已保存的三个输入通过同一冻结网络得到命令流 `[0.1,0.1,0.1]`，与标签一致；归一化已正确还原。本示范先重放这条固定命令流，隔离接口含义，不能把它当完整闭环泛化测试。\r\n\r\n假设低层执行理想，在每步末精确到达所收到的目标。初始q_0=0。比较两种接口：\r\n\r\n- 接口A把a当增量，发给低层 `target_t=q_t+a_t`。\r\n- 接口B按标签语义，发给低层 `target_t=a_t`。\r\n\r\n两者使用同一命令流、相同初值、步长和理想执行器，只改变目标转换规则。\r\n\r\n| t | 保存的网络命令a_t | 接口A目标→q_(t+1) | 接口B目标→q_(t+1) |\r\n|---|---:|---:|---:|\r\n| 0 | 0.1 rad | 0+0.1=0.1 rad | 0.1 rad |\r\n| 1 | 0.1 rad | 0.1+0.1=0.2 rad | 0.1 rad |\r\n| 2 | 0.1 rad | 0.2+0.1=0.3 rad | 0.1 rad |\r\n\r\n接口A的执行器每步都精确跟踪它收到的目标，却违反“保持在0.1”的任务要求。因此，“低层跟踪误差小”也不足以证明命令语义正确。\r\n\r\n## 比较为什么有用，结果又没证明什么\r\n\r\n先核原始标签、单位、还原、坐标和命令定义；不是见到漂移就默认是增量错误。随后在仿真隔离重放中记录：保存输入/标签/预测命令、转换后的低层目标、实际q、采集/发令/执行时刻。任务误差用 `|q-0.1|`；低层跟踪误差用 `|q-target|`，二者分开。\r\n\r\n在上述已定义模型中，B对同一命令流避免累积偏移，支持这处接口含义对结果有贡献。这个结论不需要换网络或多收演示。但它尚未测试策略在自身产生的新观测上会输出什么，也没核真实执行器、延迟、接触和恢复状态覆盖。\r\n\r\n若要评价项目收益，下一步冻结网络、数据版本、低层设置和评价标准，在配对初始条件下比较修正前后的完整闭环。记录实际输入和输出，而不是把保存命令流继续当在线策略。用于调接口的条件与最终留出条件分开；报告试次数、训练与环境随机性及不确定性。\r\n\r\n| 可能观察 | 可以支持的判断 | 下一步选择与剩余缺口 |\r\n|---|---|---|\r\n| 隔离重放与闭环均改善 | 语义修正有机械作用，且这些闭环条件下有收益 | 保留修正；还需核扰动恢复与其他条件 |\r\n| 重放按规格正确，闭环仍失败 | 这处接口隔离问题已排查，其他连接仍可能有问题 | 依据真实轨迹继续查观测、时序、恢复等；不盲目换模型 |\r\n| 原始标签其实定义为增量 | 前述“按绝对目标修正”的依据不成立 | 按实际规格重新核转换；不能用本例结论覆盖真实定义 |\r\n\r\n完整示范已经给出这处接口的方案。它帮助理解保持项和结论边界；后面的主案例保留不同解释，需要你据其资料作选择。\r\n\r\n下一份：[主案例与同一份分析说明](E:/文献资料/学习系统架构设计/learning/embodied-intelligence/questions/visible/bc-closed-loop-20261012/04-case-and-task-v1.md)。依据学科稿v1 §4.2、§6；这里的执行器规则、命令流和数表均为原创教学模型。\r\n"
+    }
+  },
+  {
+    "stage": "ag1-functional-check-v1",
+    "tool": "exec_command",
+    "input": {
+      "cmd": "Get-Content -LiteralPath artifacts/bc-closed-loop-20261012/materialization-check-v1.md\n$taskDest = 'experiments/preparation-20261012-bc-loop-01/stages/05-ag1-functional-check/artifacts/bc-closed-loop-20261012'\nNew-Item -ItemType Directory -Force -Path $taskDest | Out-Null\nCopy-Item -LiteralPath artifacts/bc-closed-loop-20261012/materialization-check-v1.md -Destination $taskDest",
+      "max_output_tokens": 2100
+    },
+    "result": {
+      "chunk_id": "05df97",
+      "wall_time_seconds": 3.1610467,
+      "exit_code": 0,
+      "original_token_count": 1815,
+      "output": "# AG1 认知设计到可见成品的功能读回 v1\r\n\r\n对象 `EMB-MCHECK-BC-CLOSED-LOOP-20261012`，revision 1，owner AG1/SK03。2026-10-12 可见成品的局部读回；不可覆盖本次观察，后续新增结果另存修订。依 Goal/认知设计/近期安排 v1 的既有 R1–R4、M1–M5 核功能，不增标准、任务或正式架构。未读取 AG3 先定审查问题、旧诊断或实验归档。\r\n\r\n状态：当前可见正文和图已兑现主要输入/任务功能；材料方尚未交齐备用帮助、多解参考和 MaterialUse，本稿不认定全部备课就绪。无学习者原答、实验或能力判断；文件准备与实际教学展示分别成立。\r\n\r\n## 实际取得与原件定位\r\n\r\n完整读取 `questions/visible/bc-closed-loop-20261012/` 下四份 markdown 和 SVG 源码。首次按01内嵌路径查看PNG时文件不存在；已直接告知AG2为媒体pending。AG2随后告知已渲染；本执行再次调用 view_image 实际观看1480×530 PNG，以下视觉观察来自实际图片，不以SVG存在替代呈现检查。\r\n\r\n| 实际原件 revision1 | 本次读取后文件SHA256 |\r\n|---|---|\r\n| 01-model-and-feedback-v1.md | ba59266c7b3363aa14708532cf20d299b83d58b9c1be438f99ca4f990b050022 |\r\n| 02-mechanisms-and-methods-v1.md | 6d5eddb49f67b8c8d8b7365ec3bfae7e524a096ee839819767ce66763fca3215 |\r\n| 03-experiment-example-v1.md | 2574df1c19f45acd6cf9d80842d81bfcf0f21f98ee67690a2411ac3edccd2e36 |\r\n| 04-case-and-task-v1.md | 092d01a9c8f9f92beedf54232a8d4443294b3954cf8d372c2aac8b259117bf1d |\r\n| closed-loop-v1.svg | e83d8cf34895fa986db5be57431c45b8ce0bde47912ddbb8bd716fd350ecdbd9 |\r\n| closed-loop-v1.png | 67e3fab5ca1e3287a7a9c030976d9d9d279073360daa0f7e28e6a5558cf6c4a9 |\r\n\r\n哈希只是定位本次可观察稿，不证明专业正确、执行或学习效果。父入口已经保存初稿快照；本执行未覆盖材料、目标、设计或计划。\r\n\r\n## 具体功能是否兑现\r\n\r\n| 设计连接 | 可观察的实际承担 | 判断及剩余边界 |\r\n|---|---|---|\r\n| M1/R1 对象与离线/闭环区别 | 01“把命令接回下一次输入”写 x/o/h/a/u/F/C；表中给函数与时间；评价表分示范输入误差、特定闭环成功、扰动恢复。图将真实状态同时接C/F，主路径分开命令a与实际输入u，底部明确t←t+1；图片文字可读、箭头及标签无截断 | 输入和图已承担共同对象/接口，未假定全部状态可测或历史充分。教师完整给图，后续学习者使用/解释；不能计自主构图 |\r\n| M2/R1 反馈的中间理由 | 01从环境和策略代入得到e_(t+1)=q e_t+b，完整0–5步表；解释b/q、偏置平衡、标量边界，随后b=0的外部扰动恢复对照 | 不仅给口号“误差累积”；离线误差与恢复斜率不可辨性可逐步追踪。数值已由教师给，任务无需换数字；边界明确，不能推出真实机器人稳定性 |\r\n| M3/R2 竞争机制与边界 | 02给可恢复/不可恢复机械臂阶段；位置相同而速度相反/必须动作不同的充分规格；与合法集±1的均值反例分开。延迟表逐行对齐旧观测、命令、下一状态；To/Tp/Ta和同刻预测索引具体，改进表接标签/信息/表示/接口/时域条件 | 各关系有实际合法模型或具体条件，足以让竞争解释及方法可跟踪；未强迫逐项答题。充分输入下合法多解与缺速度有区别，历史/动作块/生成模型未被写成保证 |\r\n| M4/R3–R4 实验判断示范 | 03明示固定命令流、绝对目标标签和理想执行器，比较增量转换/绝对转换；表呈现目标及q；区分任务误差与低层跟踪。明示隔离重放尚未评在线策略，后续完整闭环保持项与独立留出条件；结果分支给有限判断及选择 | 具有“证据→比较→有限结论→选择”的完整中间理由。示范原因清楚，但主任务不被直接代选；不把手推算写成已运行实验 |\r\n| M5/R1–R4 同一案例的连续工作 | 04有输入/动作接口、数据/episode划分、单checkpoint和训练种子未知；配对36配置的阶段标准/8mm扰动比较、成功判据、专家预先选8快照6成功的范围。稀疏记录将状态代理、预计命令运动学差值与实际输入/时间unknown分开。题面留机制连接、竞争解释、具体第一比较/补记录、结果分支、条件化改进，允许不同路线或局部先交 | 主案例仍允许恢复覆盖与时序/旧信息等解释共存；并未把根因、实验或改进写成唯一答案。评价限已拾取后的放置阶段；环境重复不伪装训练种子重复。原题与同一作品返回、可选等待动作已落地。合法多解可评分性须待教师参考读回 |\r\n\r\n教师/学习者分工整体成立：前三份给必要对象、完整模型/对照及不同接口问题的示范；第四份仍要求学习者把这些关系用于具体资料，自己限定主张、选择和具体化比较、把结果分支接到改进。题目没有要求复述所有算法或重新发现教师模型。资料可查阅与近期讲解条件须保留，不能称广泛无提示迁移、无帮助设计或已掌握。\r\n\r\n首轮输入可按认知设计分段；实际核心主线已经有正文，非仅备第一题。材料长度与图复杂度本身不作质量分数；实际适配尚无学习者表现，仍由未来AG0按负担、请求和贡献调整，普通反馈后接同一已备连接。\r\n\r\n## 已反馈的受影响位置及当前状态\r\n\r\n1. **媒体就绪：已恢复。**01嵌PNG最初文件缺失，AG2生成后本执行实际观看，图对象、依赖、命令/执行分区和下一时刻连接可用。该次缺失作为准备过程事实保留，不称已造成学习者误导。\r\n2. **主案例保持条件措辞：已发AG2，待读回。**04“扰动条件…速度置0”；标准条件“同样阶段重置流程、只不加这项偏移”。按上下文可以理解两者速度初始化相同，设计意图也为只改横移；但若被读成标准保留原速度，将同时改变速度和横移。已请求明确两条件都采用相同速度初始化。只影响该一句对照条件，不要求新案例、实验任务或目标版本；最终定位/修订须实际读回，不能因已提出而写已修复。\r\n\r\n其余已读可见内容当前未发现需要改目标、认知操作或主要题面的实质功能缺口。此判断是AG1按设计的局部成品读回，不替代AG2专业内容/用途核验，也不冒称AG3从原用途的独立反向审查。\r\n\r\n## 未就绪功能与下一连接\r\n\r\n备用帮助：pending，尚未实际取得最终原件。多解教师参考：pending，需确认时序比较、恢复状态/专家标签及先补日志等路线都可据条件核；输入已留合法不同工作，但评分/反馈资格不能仅据题面存在认定。MaterialUse与内容/用途声明：pending，需与最终成品及活动修订绑定。\r\n\r\n这些是准备责任内的待完成内容，不是学习者缺陷或新必修需求。完整交付后仅读回受影响说明、参考、帮助与用途；稳定可见正文复用。准备完成与专业采用由父AG0结合实际交付及AG3审查汇总；本稿不改state/control、不呈现教学、不创建学习事件。\r\n"
+    }
+  },
+  {
+    "stage": "observed-actual-revisions",
+    "tool": "exec_command",
+    "input": {
+      "cmd": "$taskPaths = @('questions/visible/bc-closed-loop-20261012','questions/backup/bc-closed-loop-20261012','questions/teacher-reference/bc-closed-loop-20261012','materials/bc-closed-loop-20261012')\nforeach ($taskPath in $taskPaths) { if (Test-Path -LiteralPath $taskPath) { Get-ChildItem -LiteralPath $taskPath -File | Select-Object Name,Length,LastWriteTime } }",
+      "max_output_tokens": 2300
+    },
+    "result": {
+      "chunk_id": "f8974d",
+      "wall_time_seconds": 3.2248579,
+      "exit_code": 0,
+      "original_token_count": 268,
+      "output": "\r\nName                            Length LastWriteTime\r\n----                            ------ -------------\r\n01-model-and-feedback-v1.md       5054 2026/10/12 14:25:21\r\n01-model-and-feedback-v2.md       5148 2026/10/12 14:31:40\r\n02-mechanisms-and-methods-v1.md   6501 2026/10/12 14:25:22\r\n02-mechanisms-and-methods-v2.md   6595 2026/10/12 14:31:40\r\n03-experiment-example-v1.md       3458 2026/10/12 14:25:22\r\n03-experiment-example-v2.md       3552 2026/10/12 14:31:40\r\n04-case-and-task-v1.md            4483 2026/10/12 14:25:23\r\n04-case-and-task-v2.md            4716 2026/10/12 14:31:40\r\nclosed-loop-v1.png               80788 2026/10/12 14:27:25\r\nclosed-loop-v1.svg                2797 2026/10/12 14:25:23\r\nsupport-v1.md                     4947 2026/10/12 14:30:35\r\nsupport-v2.md                     5019 2026/10/12 14:31:40\r\nreference-v1.md                  11263 2026/10/12 14:30:36\r\nreference-v2.md                  11379 2026/10/12 14:31:40\r\ndisciplinary-research-v1.md      18572 2026/10/12 14:05:03\r\nsource-notes-v1.md                9665 2026/10/12 14:05:03\r\n\r\n"
+    }
+  },
+  {
+    "stage": "material-revisions-snapshot",
+    "tool": "exec_command",
+    "input": {
+      "cmd": "$taskPaths = @('questions/visible/bc-closed-loop-20261012','questions/backup/bc-closed-loop-20261012','questions/teacher-reference/bc-closed-loop-20261012','materials/bc-closed-loop-20261012')\nforeach ($taskPath in $taskPaths) { $taskDest = Join-Path 'experiments/preparation-20261012-bc-loop-01/stages/06-ag2-material-revisions' $taskPath; New-Item -ItemType Directory -Force -Path $taskDest | Out-Null; foreach ($taskFile in Get-ChildItem -LiteralPath $taskPath -File) { $taskTarget = Join-Path $taskDest $taskFile.Name; if (-not (Test-Path -LiteralPath $taskTarget)) { Copy-Item -LiteralPath $taskFile.FullName -Destination $taskTarget } elseif ((Get-FileHash -LiteralPath $taskTarget).Hash -ne (Get-FileHash -LiteralPath $taskFile.FullName).Hash) { throw \"已归档文件被改变：$($taskFile.Name)\" } } }",
+      "max_output_tokens": 700
+    },
+    "result": {
+      "chunk_id": "6c82b2",
+      "wall_time_seconds": 3.2155286,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  }
+]

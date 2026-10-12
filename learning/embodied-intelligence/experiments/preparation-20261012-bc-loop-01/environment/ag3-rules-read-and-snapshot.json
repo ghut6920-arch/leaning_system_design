@@ -1,0 +1,12 @@
+[
+  {
+    "source": "src/skills/learning-assessment/SKILL.md",
+    "sha256": "791cfc8cd9092f034dfb93a1a49b57116222c71a4244ae8217fcdb1e27efff16",
+    "read_by": "AG3 receipt"
+  },
+  {
+    "source": "src/skills/learning-assessment/references/product-review.md",
+    "sha256": "2d825aee4c549ca28b6171711a1232c008a1b851870daf79a284ec48236b8829",
+    "read_by": "AG3 receipt"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "path": "artifacts\\bc-closed-loop-20261012\\cognitive-design-v1.md",
+    "sha256": "f18c5641d2d06258c2af6abaa2aab8ea7949cc79dfe590d0730d5f5bbfa8e035",
+    "bytes": 18675
+  },
+  {
+    "path": "artifacts\\bc-closed-loop-20261012\\materialization-check-v1.md",
+    "sha256": "d2c82bb61db7dde74e74d22ff19fe8846be027786397faaf4e4990f475e2df19",
+    "bytes": 7213
+  },
+  {
+    "path": "goals\\bc-closed-loop-20261012\\goal-v1.md",
+    "sha256": "5f4fe9f8a9dbc7e1985be51f46aff920dbcbca27303b600413c457f6cb873490",
+    "bytes": 6545
+  },
+  {
+    "path": "materials\\bc-closed-loop-20261012\\disciplinary-research-v1.md",
+    "sha256": "4c7548047aa02d61cf9401b1bc0130502239cd440fed14195c9cd0bf34f99c10",
+    "bytes": 18572
+  },
+  {
+    "path": "materials\\bc-closed-loop-20261012\\disciplinary-research-v2.md",
+    "sha256": "fa43f10cf4daa94c4869d3275026cee36802453525d8dab3830437485ef91fb2",
+    "bytes": 18781
+  },
+  {
+    "path": "materials\\bc-closed-loop-20261012\\material-uses-v1.md",
+    "sha256": "5d45b126a17d421fedef6f87c626ef56657c8a925bf428b6836db74c20e96f83",
+    "bytes": 9991
+  },
+  {
+    "path": "materials\\bc-closed-loop-20261012\\source-notes-v1.md",
+    "sha256": "7db3587f8659de1ecca44f395da571f523e1a8205f85ae9beb3c7c6c25190244",
+    "bytes": 9665
+  },
+  {
+    "path": "materials\\bc-closed-loop-20261012\\source-notes-v2.md",
+    "sha256": "7b04ba3a4ab99ee08f948a4ffe5737645c948428a1a0386058e62b795fcba0dc",
+    "bytes": 10350
+  },
+  {
+    "path": "plan\\bc-closed-loop-20261012\\first-stage-plan-v1.md",
+    "sha256": "0771a34a0c3c531ce430d93b9c3046d399790f9f511d58c3334c17679c38eba9",
+    "bytes": 4486
+  },
+  {
+    "path": "questions\\backup\\bc-closed-loop-20261012\\support-v1.md",
+    "sha256": "6660a37d98e09070d627b8182ff63cce5a764450ac53e47feb56727178b6b9ca",
+    "bytes": 4947
+  },
+  {
+    "path": "questions\\backup\\bc-closed-loop-20261012\\support-v2.md",
+    "sha256": "e7c104bf029454eee95bf6e8e4feafe314c74cb31f7911caf5047b9792e2e34c",
+    "bytes": 5019
+  },
+  {
+    "path": "questions\\backup\\bc-closed-loop-20261012\\support-v3.md",
+    "sha256": "d27960fbb07a9c054a53a42e02280af3bc8713375ca73c89f73f4b4e708b7b1f",
+    "bytes": 5062
+  },
+  {
+    "path": "questions\\teacher-reference\\bc-closed-loop-20261012\\reference-v1.md",
+    "sha256": "30e610a995a8fa4b1b952c5054ca7262a28989028746a31a8a0f1c698a7b35b8",
+    "bytes": 11263
+  },
+  {
+    "path": "questions\\teacher-reference\\bc-closed-loop-20261012\\reference-v2.md",
+    "sha256": "f304912e5ed685e9f448c72c0c52c40fcb780de76d4f65518c3215b7487347ad",
+    "bytes": 11379
+  },
+  {
+    "path": "questions\\teacher-reference\\bc-closed-loop-20261012\\reference-v3.md",
+    "sha256": "3555a1cf5b21612a6aa73784aa4189b0cb854539d2a14e9ca2c02881a34685cb",
+    "bytes": 11430
+  },
+  {
+    "path": "questions\\visible\\bc-closed-loop-20261012\\01-model-and-feedback-v1.md",
+    "sha256": "ba59266c7b3363aa14708532cf20d299b83d58b9c1be438f99ca4f990b050022",
+    "bytes": 5054
+  },
+  {
+    "path": "questions\\visible\\bc-closed-loop-20261012\\01-model-and-feedback-v2.md",
+    "sha256": "dca7dca3a49a69cad8fdec22a43e1cff752e1e33826b32e2a41c4a8cbc8e1e7f",
+    "bytes": 5148
+  },
+  {
+    "path": "questions\\visible\\bc-closed-loop-20261012\\01-model-and-feedback-v3.md",
+    "sha256": "78ab65a6dd1403684aa3a9df652fe22d8055269218a960fe1dcbc93d4a633d93",
+    "bytes": 5151
+  },
+  {
+    "path": "questions\\visible\\bc-closed-loop-20261012\\02-mechanisms-and-methods-v1.md",
+    "sha256": "6d5eddb49f67b8c8d8b7365ec3bfae7e524a096ee839819767ce66763fca3215",
+    "bytes": 6501
+  },
+  {
+    "path": "questions\\visible\\bc-closed-loop-20261012\\02-mechanisms-and-methods-v2.md",
+    "sha256": "e7dc8e57aae92638a8f03cbe334f0b77189a0ce008ed725ab7f1d295c77c6e4a",
+    "bytes": 6595
+  },
+  {
+    "path": "questions\\visible\\bc-closed-loop-20261012\\02-mechanisms-and-methods-v3.md",
+    "sha256": "32c5b5ae4df136245bd306df61e60b8827b1c8a40841300cf2a1266dca509dc9",
+    "bytes": 6606
+  },
+  {
+    "path": "questions\\visible\\bc-closed-loop-20261012\\03-experiment-example-v1.md",
+    "sha256": "2574df1c19f45acd6cf9d80842d81bfcf0f21f98ee67690a2411ac3edccd2e36",
+    "bytes": 3458
+  },
+  {
+    "path": "questions\\visible\\bc-closed-loop-20261012\\03-experiment-example-v2.md",
+    "sha256": "13ddcfa00890f9f0731f67530e42e8c21ffd23eb1d19e3563f74b1b1580eef9c",
+    "bytes": 3552
+  },
+  {
+    "path": "questions\\visible\\bc-closed-loop-20261012\\04-case-and-task-v1.md",
+    "sha256": "092d01a9c8f9f92beedf54232a8d4443294b3954cf8d372c2aac8b259117bf1d",
+    "bytes": 4483
+  },
+  {
+    "path": "questions\\visible\\bc-closed-loop-20261012\\04-case-and-task-v2.md",
+    "sha256": "9a4fcb235c77a0941e0fd15831dbe5ac0df2f13eb9d4359e29dbfbc1be1544b1",
+    "bytes": 4716
+  },
+  {
+    "path": "questions\\visible\\bc-closed-loop-20261012\\closed-loop-v1.png",
+    "sha256": "67e3fab5ca1e3287a7a9c030976d9d9d279073360daa0f7e28e6a5558cf6c4a9",
+    "bytes": 80788
+  },
+  {
+    "path": "questions\\visible\\bc-closed-loop-20261012\\closed-loop-v1.svg",
+    "sha256": "e83d8cf34895fa986db5be57431c45b8ce0bde47912ddbb8bd716fd350ecdbd9",
+    "bytes": 2797
+  }
+]

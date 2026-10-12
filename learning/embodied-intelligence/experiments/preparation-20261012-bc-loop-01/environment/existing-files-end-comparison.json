@@ -1,0 +1,44 @@
+[
+  {
+    "path": "AGENTS.md",
+    "before": "9c2a04e035ddd7e6b89b409b12e8079e96484a039c817e2c65be6804043d4165",
+    "after": "9c2a04e035ddd7e6b89b409b12e8079e96484a039c817e2c65be6804043d4165",
+    "unchanged": true
+  },
+  {
+    "path": "FRAMEWORK.md",
+    "before": "662efdc59997fe56f3bfdcf8c414d05b06c44e5a572645885ca9cb641b53b4db",
+    "after": "662efdc59997fe56f3bfdcf8c414d05b06c44e5a572645885ca9cb641b53b4db",
+    "unchanged": true
+  },
+  {
+    "path": "MODEL_ENTRY.md",
+    "before": "4cb85dc05c3bdc9ba35a401eec14586b2f82c03bcf580e553cf9be85dce9913e",
+    "after": "4cb85dc05c3bdc9ba35a401eec14586b2f82c03bcf580e553cf9be85dce9913e",
+    "unchanged": true
+  },
+  {
+    "path": "framework-manifest.json",
+    "before": "3628441bb43218a7b2760731a4215bf6ac143474d263d92236c53df4c4b4b70e",
+    "after": "3628441bb43218a7b2760731a4215bf6ac143474d263d92236c53df4c4b4b70e",
+    "unchanged": true
+  },
+  {
+    "path": "INTERACTION.md",
+    "before": "31c334e7a14965c1825cf0d9cfc5802219f7dddbba1a20a211b6ef098d398cca",
+    "after": "31c334e7a14965c1825cf0d9cfc5802219f7dddbba1a20a211b6ef098d398cca",
+    "unchanged": true
+  },
+  {
+    "path": "state/control.md",
+    "before": "d7ba0aa3bf5c84b0a6888bbcccb48da66ddb7c3dbdc623daf31ff99b44692d87",
+    "after": "d7ba0aa3bf5c84b0a6888bbcccb48da66ddb7c3dbdc623daf31ff99b44692d87",
+    "unchanged": true
+  },
+  {
+    "path": "state/current.md",
+    "before": "0cdb6c945d41f929f66c9d1752403bb47b516e10ddd6fb763e160f84e3719977",
+    "after": "0cdb6c945d41f929f66c9d1752403bb47b516e10ddd6fb763e160f84e3719977",
+    "unchanged": true
+  }
+]

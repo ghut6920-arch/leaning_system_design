@@ -1,0 +1,6 @@
+{
+  "order": 8,
+  "target": "/root/ag2_disciplinary",
+  "mode": "followup_task",
+  "message": "现在正式交具体认知稿：请全文读取 goals/bc-closed-loop-20261012/goal-v1.md、artifacts/bc-closed-loop-20261012/cognitive-design-v1.md、plan/bc-closed-loop-20261012/first-stage-plan-v1.md。AG1设计§3给M1–M5实际材料/示范/可执行候选题面与多解参考功能，§4给备用支持与返回；父入口已读回并保存v1快照。请按现有AG2/SK02与SK03协作生成完整可审查教学成品：questions/visible/bc-closed-loop-20261012/、questions/backup/bc-closed-loop-20261012/、questions/teacher-reference/bc-closed-loop-20261012/，材料用途核验写materials/bc-closed-loop-20261012/。这些新路径纳入你的ownership，仍不修改AG1文件；你不是独自在目录工作，不回滚他人改动。具体文件/范围依据正常规则自主落实，保留必要图/时刻表的实际功能；不要求媒体或代码数量。若有专业缺口或需实质改候选题面，请回AG1具体疑点，充分项保持。虚构教学条件/数据标明，无实际实验/授课/能力结论；所有v1可观察交付不可覆盖，修订另存v2。完成后返回实际成品、被核用途/范围、文件间引用与未处理项及真实读取清单。无需额外质量报告，不读取AG3先定问题或实验归档。"
+}

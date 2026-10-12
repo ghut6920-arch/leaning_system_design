@@ -1,0 +1,582 @@
+[
+  {
+    "snapshot": "stages/01-ag3-purpose-questions/assessment/bc-closed-loop-20261012/review-questions-v1.md",
+    "original": "assessment/bc-closed-loop-20261012/review-questions-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/02-ag2-research/materials/bc-closed-loop-20261012/disciplinary-research-v1.md",
+    "original": "materials/bc-closed-loop-20261012/disciplinary-research-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/02-ag2-research/materials/bc-closed-loop-20261012/source-notes-v1.md",
+    "original": "materials/bc-closed-loop-20261012/source-notes-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/03-ag1-design/artifacts/bc-closed-loop-20261012/cognitive-design-v1.md",
+    "original": "artifacts/bc-closed-loop-20261012/cognitive-design-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/03-ag1-design/goals/bc-closed-loop-20261012/goal-v1.md",
+    "original": "goals/bc-closed-loop-20261012/goal-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/03-ag1-design/plan/bc-closed-loop-20261012/first-stage-plan-v1.md",
+    "original": "plan/bc-closed-loop-20261012/first-stage-plan-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/04-ag2-materials-visible-v1/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/04-ag2-materials-visible-v1/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/04-ag2-materials-visible-v1/questions/visible/bc-closed-loop-20261012/03-experiment-example-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/03-experiment-example-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/04-ag2-materials-visible-v1/questions/visible/bc-closed-loop-20261012/04-case-and-task-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/04-case-and-task-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/04-ag2-materials-visible-v1/questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "original": "questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/04-ag2-materials-visible-v1/questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "original": "questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/05-ag1-functional-check/artifacts/bc-closed-loop-20261012/materialization-check-v1.md",
+    "original": "artifacts/bc-closed-loop-20261012/materialization-check-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/materials/bc-closed-loop-20261012/disciplinary-research-v1.md",
+    "original": "materials/bc-closed-loop-20261012/disciplinary-research-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+    "original": "materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/materials/bc-closed-loop-20261012/source-notes-v1.md",
+    "original": "materials/bc-closed-loop-20261012/source-notes-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/materials/bc-closed-loop-20261012/source-notes-v2.md",
+    "original": "materials/bc-closed-loop-20261012/source-notes-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/backup/bc-closed-loop-20261012/support-v1.md",
+    "original": "questions/backup/bc-closed-loop-20261012/support-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/backup/bc-closed-loop-20261012/support-v2.md",
+    "original": "questions/backup/bc-closed-loop-20261012/support-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/backup/bc-closed-loop-20261012/support-v3.md",
+    "original": "questions/backup/bc-closed-loop-20261012/support-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/teacher-reference/bc-closed-loop-20261012/reference-v1.md",
+    "original": "questions/teacher-reference/bc-closed-loop-20261012/reference-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/teacher-reference/bc-closed-loop-20261012/reference-v2.md",
+    "original": "questions/teacher-reference/bc-closed-loop-20261012/reference-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+    "original": "questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v2.md",
+    "original": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "original": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v2.md",
+    "original": "questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "original": "questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/03-experiment-example-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/03-experiment-example-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "original": "questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/04-case-and-task-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/04-case-and-task-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+    "original": "questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "original": "questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/06-ag2-material-revisions/questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "original": "questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/artifacts/bc-closed-loop-20261012/cognitive-design-v1.md",
+    "original": "artifacts/bc-closed-loop-20261012/cognitive-design-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/artifacts/bc-closed-loop-20261012/materialization-check-v1.md",
+    "original": "artifacts/bc-closed-loop-20261012/materialization-check-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/goals/bc-closed-loop-20261012/goal-v1.md",
+    "original": "goals/bc-closed-loop-20261012/goal-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/materials/bc-closed-loop-20261012/disciplinary-research-v1.md",
+    "original": "materials/bc-closed-loop-20261012/disciplinary-research-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+    "original": "materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/materials/bc-closed-loop-20261012/material-uses-v1.md",
+    "original": "materials/bc-closed-loop-20261012/material-uses-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/materials/bc-closed-loop-20261012/source-notes-v1.md",
+    "original": "materials/bc-closed-loop-20261012/source-notes-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/materials/bc-closed-loop-20261012/source-notes-v2.md",
+    "original": "materials/bc-closed-loop-20261012/source-notes-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/plan/bc-closed-loop-20261012/first-stage-plan-v1.md",
+    "original": "plan/bc-closed-loop-20261012/first-stage-plan-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/backup/bc-closed-loop-20261012/support-v1.md",
+    "original": "questions/backup/bc-closed-loop-20261012/support-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/backup/bc-closed-loop-20261012/support-v2.md",
+    "original": "questions/backup/bc-closed-loop-20261012/support-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/backup/bc-closed-loop-20261012/support-v3.md",
+    "original": "questions/backup/bc-closed-loop-20261012/support-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/teacher-reference/bc-closed-loop-20261012/reference-v1.md",
+    "original": "questions/teacher-reference/bc-closed-loop-20261012/reference-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/teacher-reference/bc-closed-loop-20261012/reference-v2.md",
+    "original": "questions/teacher-reference/bc-closed-loop-20261012/reference-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+    "original": "questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v2.md",
+    "original": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "original": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v2.md",
+    "original": "questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "original": "questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/03-experiment-example-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/03-experiment-example-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "original": "questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/04-case-and-task-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/04-case-and-task-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+    "original": "questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "original": "questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/07-reviewed-candidate/questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "original": "questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/materials/bc-closed-loop-20261012/disciplinary-research-v1.md",
+    "original": "materials/bc-closed-loop-20261012/disciplinary-research-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+    "original": "materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/materials/bc-closed-loop-20261012/material-uses-v1.md",
+    "original": "materials/bc-closed-loop-20261012/material-uses-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/materials/bc-closed-loop-20261012/material-uses-v2.md",
+    "original": "materials/bc-closed-loop-20261012/material-uses-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/materials/bc-closed-loop-20261012/material-uses-v3.md",
+    "original": "materials/bc-closed-loop-20261012/material-uses-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/materials/bc-closed-loop-20261012/source-notes-v1.md",
+    "original": "materials/bc-closed-loop-20261012/source-notes-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/materials/bc-closed-loop-20261012/source-notes-v2.md",
+    "original": "materials/bc-closed-loop-20261012/source-notes-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/backup/bc-closed-loop-20261012/support-v1.md",
+    "original": "questions/backup/bc-closed-loop-20261012/support-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/backup/bc-closed-loop-20261012/support-v2.md",
+    "original": "questions/backup/bc-closed-loop-20261012/support-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/backup/bc-closed-loop-20261012/support-v3.md",
+    "original": "questions/backup/bc-closed-loop-20261012/support-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/teacher-reference/bc-closed-loop-20261012/reference-v1.md",
+    "original": "questions/teacher-reference/bc-closed-loop-20261012/reference-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/teacher-reference/bc-closed-loop-20261012/reference-v2.md",
+    "original": "questions/teacher-reference/bc-closed-loop-20261012/reference-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+    "original": "questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v2.md",
+    "original": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "original": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v2.md",
+    "original": "questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "original": "questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/03-experiment-example-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/03-experiment-example-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "original": "questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/04-case-and-task-v1.md",
+    "original": "questions/visible/bc-closed-loop-20261012/04-case-and-task-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+    "original": "questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "original": "questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/08-ag2-complete-return/questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "original": "questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/09-ag1-final-functional-read/artifacts/bc-closed-loop-20261012/materialization-check-v1.md",
+    "original": "artifacts/bc-closed-loop-20261012/materialization-check-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/09-ag1-final-functional-read/artifacts/bc-closed-loop-20261012/materialization-check-v2.md",
+    "original": "artifacts/bc-closed-loop-20261012/materialization-check-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/09-ag1-final-functional-read/artifacts/bc-closed-loop-20261012/materialization-check-v3.md",
+    "original": "artifacts/bc-closed-loop-20261012/materialization-check-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/10-ag3-review/assessment/bc-closed-loop-20261012/review-questions-v1.md",
+    "original": "assessment/bc-closed-loop-20261012/review-questions-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/10-ag3-review/assessment/bc-closed-loop-20261012/review-v1.md",
+    "original": "assessment/bc-closed-loop-20261012/review-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/10-ag3-review/assessment/bc-closed-loop-20261012/review-v2.md",
+    "original": "assessment/bc-closed-loop-20261012/review-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/11-ag1-plan-closeout/plan/bc-closed-loop-20261012/first-stage-plan-v1.md",
+    "original": "plan/bc-closed-loop-20261012/first-stage-plan-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/11-ag1-plan-closeout/plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "original": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/artifacts/bc-closed-loop-20261012/cognitive-design-v1.md",
+    "original": "artifacts/bc-closed-loop-20261012/cognitive-design-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/artifacts/bc-closed-loop-20261012/materialization-check-v2.md",
+    "original": "artifacts/bc-closed-loop-20261012/materialization-check-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/artifacts/bc-closed-loop-20261012/materialization-check-v3.md",
+    "original": "artifacts/bc-closed-loop-20261012/materialization-check-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/assessment/bc-closed-loop-20261012/review-questions-v1.md",
+    "original": "assessment/bc-closed-loop-20261012/review-questions-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/assessment/bc-closed-loop-20261012/review-v1.md",
+    "original": "assessment/bc-closed-loop-20261012/review-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/assessment/bc-closed-loop-20261012/review-v2.md",
+    "original": "assessment/bc-closed-loop-20261012/review-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/goals/bc-closed-loop-20261012/goal-v1.md",
+    "original": "goals/bc-closed-loop-20261012/goal-v1.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+    "original": "materials/bc-closed-loop-20261012/disciplinary-research-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/materials/bc-closed-loop-20261012/material-uses-v3.md",
+    "original": "materials/bc-closed-loop-20261012/material-uses-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/materials/bc-closed-loop-20261012/source-notes-v2.md",
+    "original": "materials/bc-closed-loop-20261012/source-notes-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "original": "plan/bc-closed-loop-20261012/first-stage-plan-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/questions/backup/bc-closed-loop-20261012/support-v3.md",
+    "original": "questions/backup/bc-closed-loop-20261012/support-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+    "original": "questions/teacher-reference/bc-closed-loop-20261012/reference-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "original": "questions/visible/bc-closed-loop-20261012/01-model-and-feedback-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "original": "questions/visible/bc-closed-loop-20261012/02-mechanisms-and-methods-v3.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "original": "questions/visible/bc-closed-loop-20261012/03-experiment-example-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+    "original": "questions/visible/bc-closed-loop-20261012/04-case-and-task-v2.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "original": "questions/visible/bc-closed-loop-20261012/closed-loop-v1.png",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "original": "questions/visible/bc-closed-loop-20261012/closed-loop-v1.svg",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/sessions/2026-10-12-bc-preparation-01/preparation-result.md",
+    "original": "sessions/2026-10-12-bc-preparation-01/preparation-result.md",
+    "matches": true
+  },
+  {
+    "snapshot": "stages/12-final-delivery/sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt",
+    "original": "sessions/2026-10-12-bc-preparation-01/raw/learning-request.txt",
+    "matches": true
+  }
+]
