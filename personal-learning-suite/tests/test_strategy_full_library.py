@@ -38,7 +38,8 @@ class FullLibraryTests(unittest.TestCase):
 
     def test_all_generated_files_are_byte_reproducible(self):
         files = build_files()
-        self.assertEqual(len(files), 68)
+        self.assertEqual(len(files), 132)
+        self.assertEqual(sum(name.startswith("runtime/") for name in files), 64)
         for name, data in files.items():
             with self.subTest(path=name):
                 self.assertEqual((SUITE / "resources/strategies" / name).read_bytes(), data)

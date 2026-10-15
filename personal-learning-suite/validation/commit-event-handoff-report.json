@@ -1,0 +1,31 @@
+{
+  "evidence": "synthetic_demo",
+  "real_agents_launched": false,
+  "event": "AG2 submit event read from coordinator event stream",
+  "executor": "ordinary Python thread; zero LLM/model calls",
+  "model_call_counts": {
+    "AG0": 0,
+    "AG1": 0,
+    "AG2": 0
+  },
+  "python_wait_polls": 3,
+  "ag2_committed_ref": {
+    "id": "demo-note",
+    "revision": 1
+  },
+  "ag1_fixed_input_ref": {
+    "id": "demo-note",
+    "revision": 1
+  },
+  "ag2_committed_sha256": "3916aed0a03f059229f1d55b8cf754eb83a72fe7e26a25031dcee06030403209",
+  "ag1_input_sha256": "3916aed0a03f059229f1d55b8cf754eb83a72fe7e26a25031dcee06030403209",
+  "ag1_result": "AG1 read demo-note v1: Fictional AG2 payload: blue lantern.\n",
+  "assertions": {
+    "event_after_commit": true,
+    "ag1_read_exact_revision": true,
+    "ag1_read_exact_bytes": true,
+    "no_repeated_ag0_model_requests": true,
+    "both_agents_are_llm_agents": false
+  },
+  "boundary": "Proves local event-driven Python handoff and exact-version snapshot. Does not prove ordinary Python can launch an AG1 Codex model; this host exposes no such model-launch API to the script."
+}

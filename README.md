@@ -2,6 +2,8 @@
 
 本目录将运行套件、设计研究、演示数据与维护记录分开。需要使用或修改 Agent／Skill 时，从 `personal-learning-suite` 开始；需要理解设计依据时，从 `docs` 开始。
 
+2026-10-13任务与产物协调器已补齐原方案并接入当前人工文件工作区：[日常简短指南](personal-learning-suite/specs/coordinator-agent-guide.md)、[实际入口](learning/embodied-intelligence/COORDINATION.md)、[完整协议](personal-learning-suite/specs/coordinator-protocol.md)、[实施与验收](docs/implementation/AI个人学习系统_任务与产物协调器_原方案完整实现与接入_2026-10-13.md)。版本、依赖和采用由程序校验，专业决定仍由原AG0–AG3承担。
+
 开始／继续具身智能学习可直接复制 [启动提示词](learning/embodied-intelligence/START_PROMPT.md)。当前公开指令与导航已按 [重构路线](docs/implementation/AI个人学习系统_教学内容重构执行路线_v1.md)推进到第六阶段。最新的全套来源比较、新上下文审查及局部修复见 [原意复审](docs/audits/AI个人学习系统_全套Skill与Agent原意复审_2026-10-05.md)，第六阶段当时的修改与验证保留在 [历史记录](docs/implementation/AI个人学习系统_教学内容重构_第六阶段实施与验证_2026-10-05.md)。程序和虚构首回合核查不替代真实学习效果。
 
 ## 去哪里找什么

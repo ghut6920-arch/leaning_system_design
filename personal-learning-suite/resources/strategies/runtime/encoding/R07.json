@@ -1,0 +1,274 @@
+{
+  "archive_binding": {
+    "path": "encoding/R07.json",
+    "sha256": "20afeaab3c7ff49d5169fa505b3dfdc7330783b0fed7adda0b17db2453ec0d6c"
+  },
+  "evidence_spans": [
+    {
+      "end": 331,
+      "mandatory_start": 246,
+      "pointer": "/research_excerpts/0/content_markdown"
+    },
+    {
+      "end": 368,
+      "mandatory_start": 292,
+      "pointer": "/research_excerpts/1/content_markdown"
+    }
+  ],
+  "expansion_rule": "引用研究效应/样本/时间作具体决策、来源争议、跨域外推或需要论证比较时，先展开相关原研究条目及必要原始依据；指纹和本地台账不证明外部论文已核。",
+  "field_disposition": {
+    "/category": "mandatory",
+    "/common_rules": "mandatory_except_provenance",
+    "/compiled": "mandatory",
+    "/conditions": "mandatory",
+    "/content_markdown": "equivalent_to_full_R03",
+    "/cost": "mandatory",
+    "/evidence_ids": "mandatory",
+    "/evidence_limits": "mandatory",
+    "/evidence_refs": "evidence_identity_and_verification_mandatory_locator_on_demand",
+    "/exclusions": "mandatory",
+    "/full_carriers": "checked_equivalent_carriers",
+    "/help_and_feedback_constraints": "mandatory",
+    "/intended_work": "mandatory",
+    "/local_adaptations": "mandatory",
+    "/name": "mandatory",
+    "/nearby_method_difference": "mandatory",
+    "/original_claim_status": "mandatory",
+    "/original_id": "mandatory",
+    "/prerequisites": "mandatory",
+    "/required_learner_operations": "mandatory",
+    "/research_excerpts": "all_nonbibliographic_cells_mandatory",
+    "/resource_key": "mandatory",
+    "/resource_kind": "mandatory",
+    "/resource_revision": "mandatory",
+    "/review_status": "mandatory",
+    "/schema_version": "mandatory",
+    "/section_extraction": "mandatory",
+    "/source_body_sections": "full_R03_plus_preserved_additional_sections",
+    "/source_refs": "provenance",
+    "/source_version": "mandatory",
+    "/stop_or_return_conditions": "mandatory",
+    "/template_status": "mandatory",
+    "/time_constraints": "mandatory"
+  },
+  "layer_revision": "pl-strategy-runtime/0.1.0",
+  "mandatory": {
+    "additional_card_sections": {
+      "examples": "「恒温器加热使温度上升，何时导致加热停止？传感与关闭延迟会改变什么？」\n「有负反馈，所以系统一定稳定且没有波动。」"
+    },
+    "canonical_card_body": "- 目的/条件：局部链已正确，系统确有反馈，不强迫所有材料找反馈。\n- Prompt：「沿一条闭合回路传播扰动，回到起点时会抵消还是放大原扰动？哪个延迟可能造成过冲？请画时间线。」\n- 好例：「恒温器加热使温度上升，何时导致加热停止？传感与关闭延迟会改变什么？」\n- 坏例：「有负反馈，所以系统一定稳定且没有波动。」\n- 风险/校正：正负号不等于好坏；回路极性不足以保证稳定，需动态参数/延迟；本轮只分析一条回路。\n- 表征变化：开放单向链→闭合调节结构及动态限制。\n- 证据：RR10 特定图解释+反馈；RR12 难度测量；具体延迟任务为设计。\n- **深化任务（H）：**“先判局部回路极性，再列增益、延迟与非线性假设；据哪个模型能判稳定、振荡或发散？”\n- **约束与验收：**正反馈不必然发散，负反馈不必然稳定。无模型时只给有依据的局部方向；即使净极性为负，也不能编出振荡周期。\n",
+    "category": "Relate / 关系化",
+    "common_rules": {
+      "carrier_relationship": "R02/R03是同一卡库的两个载体，不计为两份独立证据。",
+      "closing": "## 添加例子与停止的规则\n\n不规定科学上不存在的“最佳3例”。初始工程默认可用一对以降低负荷（仅启发式），追加例子必须有明确用途：排除一个伪线索、覆盖一个未见条件、跨越一项表面变化、检验一项边界。学习者能在未见例识别关系、解释为什么并拒绝近似非例时结束当前编码段。若错误来自先决知识，加例通常不如补支架。\n\n**比较的内核不是“相同还是不同”**：先问“我现在需要扩展同一schema，还是分开两个schema？”前者优先类内共同关系，后者优先类间诊断差异。要比较的维度、预期表征变化、验收新例均应写入AI tutor任务卡。\n\n\n新增案例须说明它排除的错误或补足的条件；局部支架结束后返回整体。表面与结构变化分开记录；目标关系已足够且独立检查通过时结束本轮，长期保持另测。\n",
+      "governing_overrides": [
+        "N00 第七节与D07/D04/D05/D06优先：原卡完整训练设想按实际借用部分使用。",
+        "R01的两三项默认、诊断步骤及延迟建议不编译为固定流程；无错误模型也可可靠输入。",
+        "R02的撤提示/新例/长期保持不自动成为新增课程目标；是否需要由GoalSpec决定。",
+        "不按六类走完，不固定候选/卡数，不设置统一间隔、失败次数或神经机制状态。"
+      ],
+      "opening": "# Encoding 微操作与提问库\n\n版本2.0。60张操作卡，每类10张；保留原ID与名称。与《Encoding 研究报告》的选择矩阵、证据台账和决策算法配套使用。\n\n**每次从当前表征缺口选择必要操作，不按目录逐项完成。** 同一任务可同时覆盖两类目的。所列内部表征变化是目标，需以无帮助的新题与修订表现验证。中文模板及案例均为原创设计综合；文献支持策略家族或邻近机制，不代表每个模板已有独立实验验证。\n\n证据约定：E1=聚合证据，E2=情境实证，H=理论/设计推论。操作中“直接家族”也只表示上级活动获支持；“相邻”不等于教学因果证据。\n\n\n本次逐卡新增“深化任务（H）”和“约束与验收”。这些段落与原目的、先备条件、示例和证据一起使用；H指教学设计及收益外推，不把其中的数学定义或合法推导也降为猜测。任务允许信息不足、不适用和多解。\n\n共同执行约定：先声明学习目标与所需前置，再指定允许变化项、必须保持的关系和不能凭空补入的信息；记录可见材料及提示程度；按卡片判据检查新例。只选适用卡，不要求每轮把六类走完。\n\n",
+      "resource_revision": "pl-strategies/0.1.0",
+      "schema_version": "pl-strategy-resources/1",
+      "single_performance_rule": "S07与X02对同一材料、关键补全与可观察变化重合时，只执行一次任务、保存一份原答；分别注明借用部分。"
+    },
+    "compiled": true,
+    "conditions": [
+      {
+        "explanation": "本次目标内工作、用途和允许资源可引用；不由选卡改写目标。",
+        "key": "goal_work_defined",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "本次内容、题面和参考在拟定用途内有核验依据；研究引文不代替内容核验。",
+        "key": "materials_reliable",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "能兑现必要的可靠纠正、反馈、修订与收束；成本包含这些工作。",
+        "key": "feedback_available",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "明确仍留给学习者的关键工作；模板槽已按当前内容实例化。",
+        "key": "learner_operation_preserved",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "目标允许输入与真实暴露条件下，拟观察的关键操作未被提示或材料代做；不等于一律闭卷。",
+        "key": "unaided_observation_preserved",
+        "origin": "suite_added",
+        "required_for": [
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "已把本卡目的/前置、风险、约束与实际任务核对，并说明保留的学习者操作和返回点；不是仅按卡名采用。",
+        "key": "card_scope_and_constraints_checked",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      }
+    ],
+    "cost": {
+      "basis": "通用资源无具体课程和用时；实例化时引用实际预算/估计依据。",
+      "execution": "unknown",
+      "feedback": "unknown",
+      "preparation": "unknown",
+      "review": "unknown"
+    },
+    "evidence_boundaries": [
+      {
+        "evidence_id": "RR10",
+        "externally_reverified_in_b3c": false,
+        "grade_population_outcome_limits": [
+          {
+            "role": "设计/场景",
+            "value": "63韩国高中生随机三组；因果图理解"
+          },
+          {
+            "role": "可支持的最小论断",
+            "value": "自解释与读解释相当；把自解释与规范解释比较的元层反馈增强效果"
+          },
+          {
+            "role": "边界与访问级别",
+            "value": "小样本特定生物领域；一侧推理、错误解释、缺推论是实际难点；出版方摘要"
+          }
+        ]
+      },
+      {
+        "evidence_id": "RR12",
+        "externally_reverified_in_b3c": false,
+        "grade_population_outcome_limits": [
+          {
+            "role": "设计/场景",
+            "value": "高中/本科生横断面测量；血钙调节系统"
+          },
+          {
+            "role": "可支持的最小论断",
+            "value": "间接关系、反向初始条件会增加反馈推理难度"
+          },
+          {
+            "role": "边界与访问级别",
+            "value": "作者只是提出教学可能受益；非教学干预，不能称已证实训练效果；开放全文"
+          }
+        ]
+      }
+    ],
+    "evidence_ids": [
+      "RR10",
+      "RR12"
+    ],
+    "evidence_limits": [
+      "研究组件、学科内容正确性、任务与帮助条件、真实学习收益分别核验。",
+      "目标所需独立、整体、迁移与时间条件不由方法名称或卡片验收代替。",
+      "未知接触保持未知；隐藏答案、更换措辞或执行者不能重置暴露历史。",
+      "索引命中与本地资源正文核对不证明当前任务已可执行。",
+      "完整两载体正文保留；链接目标差异不构成第二份证据，未来实质冲突先限制相关用途。",
+      "原文H针对教学设计与收益外推，不把可核验数学定义/合法推导降为猜测。",
+      "按本卡实际认知工作与近邻方法区别取舍；分类不是必经阶段，深化建议按原目标需要借用。"
+    ],
+    "exclusions": [
+      "正负号不等于好坏；回路极性不足以保证稳定，需动态参数/延迟；本轮只分析一条回路。",
+      "正反馈不必然发散，负反馈不必然稳定。无模型时只给有依据的局部方向；即使净极性为负，也不能编出振荡周期。"
+    ],
+    "help_and_feedback_constraints": [
+      "记录可见输入、备用帮助与教师参考；备用内容未展示不计暴露。",
+      "保存帮助前原答以及实际帮助内容、作用、顺序与相关发生时间。",
+      "允许提供足以继续的可靠帮助；帮助后的成功按实际条件解释。",
+      "用户请求示范或答案时可以转教学；不为维持独立证据拒绝必要帮助。"
+    ],
+    "intended_work": "局部链已正确，系统确有反馈，不强迫所有材料找反馈。",
+    "local_adaptations": [
+      "结构化条件、标签与资源键为本套件新增整理；不视为经验证的调度算法。"
+    ],
+    "name": "回路闭合、延迟与稳定性",
+    "nearby_method_difference": "按本卡实际认知工作与近邻方法区别取舍；分类不是必经阶段，深化建议按原目标需要借用。",
+    "original_claim_status": {
+      "per_template_experimentally_verified": false,
+      "status": "H：设计综合",
+      "template_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断"
+    },
+    "original_id": "R07",
+    "prerequisites": [
+      "局部链已正确，系统确有反馈，不强迫所有材料找反馈。",
+      "按正文前置和当前目标核对可用对象；未知不补成已满足。"
+    ],
+    "required_learner_operations": [
+      "「沿一条闭合回路传播扰动，回到起点时会抵消还是放大原扰动？哪个延迟可能造成过冲？请画时间线。」",
+      "“先判局部回路极性，再列增益、延迟与非线性假设；据哪个模型能判稳定、振荡或发散？”"
+    ],
+    "resource_key": "encoding/R07",
+    "resource_kind": "encoding-card-bundle",
+    "resource_revision": "pl-strategies/0.1.0",
+    "review_status": {
+      "course_applicability_verified": false,
+      "external_references_verified": false,
+      "learning_effect_verified": false,
+      "personal_data_included": false,
+      "scope": "核对本地选中正文、完整必要约束、源定位与指纹；按正式方案处理冲突。",
+      "status": "local_source_text_checked"
+    },
+    "schema_version": "pl-strategy-resources/1",
+    "section_extraction": "从R03原正文按已存在标签提取，未新增研究主张；全文与两载体同时保留。",
+    "source_version": "2.0",
+    "stop_or_return_conditions": [
+      "目标内当前工作已有充分证据时结束；不为展示策略制造额外活动。",
+      "预算结束、用户暂停、无新增信息或参考争议时保存已做/未做与恢复点。",
+      "局部可用即回同一父任务；保留父任务卡点、已有支持、局部够用条件、返回位置与预算。",
+      "局部成功而父任务仍失败时重审接口、整体组织、额外前置或诊断；不无限下钻。",
+      "目标只缺未来时间条件时收束，给同一目标内需求；不即时加题补未来证据。"
+    ],
+    "template_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+    "time_constraints": {
+      "fixed_retrieval_first": false,
+      "fixed_spacing_interval": null,
+      "follows_goal_spec": true,
+      "required_events": "按相关学习、练习、帮助/反馈与已知再接触事件解释；不编造时间。"
+    }
+  },
+  "research_on_demand": [
+    {
+      "body_sha256": "8c033ecf19cc9907e4c5b94128c1d9a186d8c115ce1c59783bb295ff9e713228",
+      "evidence_id": "RR10",
+      "section": "/research_excerpts/0"
+    },
+    {
+      "body_sha256": "c2479c769924ed6a51ac06c2791ce851175b73651caa5fa408c2252ffb7fe35f",
+      "evidence_id": "RR12",
+      "section": "/research_excerpts/1"
+    }
+  ],
+  "resource_key": "encoding/R07",
+  "schema_version": "pl-strategy-runtime/1"
+}

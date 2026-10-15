@@ -20,6 +20,8 @@ WORKSPACE_ROOT = SUITE_ROOT.parent
 DEFAULT_OUTPUT = SUITE_ROOT / "resources" / "strategies"
 RESOURCE_REVISION = "pl-strategies/0.1.0"
 SCHEMA_VERSION = "pl-strategy-resources/1"
+sys.path.insert(0, str(SUITE_ROOT / "src"))
+from runtime.strategy_layers import LAYER_REVISION, compile_contract, normalized_citations
 COMPILED_IDS = tuple(prefix + f"{number:02d}" for prefix in "OSRDIX" for number in range(1, 11))
 INPUT_IDS = ("N00", "D04", "D05", "D06", "D07", "R01", "R02", "R03", "R04", "R05", "R06")
 
@@ -252,12 +254,7 @@ def parse_cards(sources: Sources) -> tuple[dict, dict, list]:
 
 def normalize_citations(text: str) -> str:
     """Only expand same-family citation shorthand, e.g. OS01/04 or DI01–03."""
-    def expand(match):
-        prefix, first, tail = match.groups()
-        start = int(first)
-        numbers = [start] + [int(x) for x in tail.split("/")[1:]] if tail.startswith("/") else list(range(start, int(tail[1:]) + 1))
-        return "、".join(prefix + f"{x:02d}" for x in numbers)
-    return re.sub(r"(?<![A-Z0-9])(OS|DI|RR|F|U)(\d{2})((?:/\d{2})+|[–—-]\d{2})", expand, text)
+    return normalized_citations(text)
 
 
 def compile_encoding(sources: Sources, library: dict, markdown: dict, common: dict) -> dict[str, dict]:
@@ -523,6 +520,14 @@ def build_files() -> dict[str, bytes]:
                         "source_refs": resource["source_refs"],
                         "original_claim_status": resource["original_claim_status"],
                         "execution_limit": "套件新增条件说明，非原始P卡；当前内容/用途/帮助条件须另核对。"})
+    runtime_files = {}
+    for entry in entries:
+        path = entry["bundle_path"]
+        entry.update(runtime_path="runtime/" + path, runtime_revision=LAYER_REVISION,
+                     research_archive_path=path)
+        runtime_files["runtime/" + path] = compile_contract(resources[path], bundle_path=path,
+                                                          bundle_sha256=sha256(json_bytes(resources[path])), source_texts=sources.texts)
+    resources.update(runtime_files)
     resources["strategy-index.json"] = {
         "schema_version": SCHEMA_VERSION, "resource_revision": RESOURCE_REVISION,
         "source_version": library["version"], "encoding_card_count": 60,
@@ -538,7 +543,9 @@ def build_files() -> dict[str, bytes]:
         "registry": {"path": "resources/source-registry.json", "sha256": sha256(sources.registry_bytes),
                      "modified": False},
         "builder": {"path": "scripts/build_b3c_resources.py", "sha256": sha256(Path(__file__).read_bytes()),
-                    "standard_library_only": True, "deterministic_no_wallclock_fields": True},
+                    "standard_library_only": True, "deterministic_no_wallclock_fields": True,
+                    "runtime_compiler": {"path": "src/runtime/strategy_layers.py", "sha256": sha256((SUITE_ROOT / "src/runtime/strategy_layers.py").read_bytes()),
+                                         "layer_revision": LAYER_REVISION}},
         "source_path_base": "personal-learning-suite/ (project_relative_path); workspace root (workspace_relative_path)",
         "source_fingerprints": sources.fingerprints,
         "resources": [{"path": path, "sha256": sha256(files[path]),
@@ -569,12 +576,16 @@ def build_files() -> dict[str, bytes]:
     files["README.md"] = ("# B3c 通用策略资源\n\n"
         f"运行资源修订 `{RESOURCE_REVISION}`，来源 Encoding 库 v2.0。60张Encoding卡全部编译为完整两载体卡包；"
         "另有4份携带完整来源段落的Post条件包。全部64个资源键可直接读取。\n\n"
-        "先从理解目标与认知工作定位strategy-index.json，再读取选中完整包及conditions；无须一次加载全库。compiled不代表当前课程准入。"
+        "先从理解目标与认知工作定位strategy-index.json，再用read_learning_resource.py的strategy-runtime视图读取选中完整运行契约；无须一次加载全库。compiled不代表当前课程准入。"
         "conditions 为套件新增检查项，未知不按满足处理；exclusion 项已知 false 才表示未触发。"
         "教学可提供目标允许帮助；独立证据另核对未被代做的关键操作。\n\n"
         "Encoding 包携带 R02 文首与文末规则、D07/D05/N00 覆盖规则、R01 相关完整证据条目。"
         "S07/X02 共享补全只是一份实际表现；R09 保留空证据及 H 性质。Post 的有意义键为套件新增，"
         "E01—E49 为文献编号、D06 的 P1—P5 为验收编号。\n\n"
+        "runtime/中64份契约可复现编译，绑定原完整包指纹；直接字段、规范卡全文、共用约束、混合操作段落及研究强度/范围/反例边界必读。"
+        "研究目录与纯书目信息按具体争议展开；以研究效应/人群/时间作决策或外推前，读取对应原条目及必要原始依据。"
+        "旧完整包和两载体保留，strategy视图仍可查全档案，strategy-research加section选择确切原条目。"
+        "运行契约不是任意摘要，未知字段、载体实质冲突或未覆盖正文会阻止编译/读取。\n\n"
         "原文件和来源登记不修改。legacy_link_mappings 将旧 outputs 定位映射到当前登记本地来源；"
         "完整原文摘录保留原链接，运行按 source_id/locator 及当前映射解析，不依赖另一台机器上的旧绝对路径。\n\n"
         "`python scripts/build_b3c_resources.py` 可复现生成；追加 `--check` 只读比较当前产物、原文及登记指纹。"

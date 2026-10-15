@@ -1,5 +1,7 @@
 # personal-learning-suite：B0—B7 开发基线
 
+2026-10-13：任务与产物协调的日常操作见[简短指南](specs/coordinator-agent-guide.md)和[实际入口](../learning/embodied-intelligence/COORDINATION.md)，详细机制按需查[完整协议](specs/coordinator-protocol.md)。程序封装状态号、指纹、指针和回执匹配，专业决定由原角色明确填写。协调器已维护真实文件元数据，不改变以下学习运行器的虚构数据边界。
+
 当前协作修订（2026-10-11）：[学科研究与教学转换](src/skills/learning-teaching/references/disciplinary-to-teaching.md)按AG2先研究→AG1／SK03认知设计与师生分工→具体资料、必要可视化与问题→AG3反向审查推进，认知分析可反馈学科研究，充分内容保留。依据、WM两次实践及验证见 [实施记录](../docs/implementation/AI个人学习系统_学科研究与教学转换协作修订_2026-10-11.md)。
 
 当前学习使用：[SK00 总入口](src/skills/personal-learning/SKILL.md)及 [开始／恢复](src/skills/personal-learning/references/session-entry.md)，真实具身智能文件模式见 [MODEL_ENTRY](../learning/embodied-intelligence/MODEL_ENTRY.md)。自然学习请求直接进入所需教学工作；四角色可顺序兼任，文件模式不要求虚构 CLI 初始化。全套来源比较、新上下文实际首回合及当前边界见 [原意复审](../docs/audits/AI个人学习系统_全套Skill与Agent原意复审_2026-10-05.md)，六阶段当时的修订保留在 [历史记录](../docs/implementation/AI个人学习系统_教学内容重构_第六阶段实施与验证_2026-10-05.md)。维护或明确试用时才用 [有限验证](src/skills/personal-learning/references/verification.md)。以下 B0—B7 内容描述程序开发历史与技术范围，不作为人工学习的教学禁令。
@@ -14,6 +16,9 @@
 
 入口与交付：
 
+- [任务与产物协调器第一批](../docs/implementation/AI个人学习系统_任务与产物协调器_第一批只读回放_2026-10-13.md)：独立的只读历史回放工具，索引真实BC备课版本、交接和审查绑定；不接管学习状态，不改变B1—B6的虚构数据边界。
+- [任务与产物协调器第二批](../docs/implementation/AI个人学习系统_任务与产物协调器_第二批最小提交闭环_2026-10-13.md)：文件任务、固定快照、候选、版本审查和整组采用的本地接口；[操作说明](specs/coordinator-workspace-batch2.md)。现有真实学习入口未切换，本地操作员声明不等于宿主身份认证。
+- [任务与产物协调器第三批](../docs/implementation/AI个人学习系统_任务与产物协调器_第三批并发与恢复_2026-10-13.md)：并发/幂等、具体结果有界等待、本地增量事件、回执查询及退出恢复检查；[当前操作说明](specs/coordinator-reliability-batch3.md)。三批本地组件与隔离验收完成，正式学习入口尚未切换。
 - [共用契约](contracts/shared-contracts.md)：对象、责任、授权、六类交付包、采用顺序与控制规则；唯一字段维护源。
 - [B1 承载与控制接口](contracts/runtime-b1.md)：SQLite 单一记录来源、事务提交、精确历史引用、限制、两阶段删除与宿主边界；承载格式为 `pl-store/0.1.0`，共用协议保持原版。
 - [SK00 开发入口](src/skills/personal-learning/SKILL.md)、[入口控制说明](src/skills/personal-learning/references/entry-controls.md)与 [AG0 外壳](src/runtime/personal_learning.py)：检查开始条件、恢复位置、候选路由及受控记录操作。相对依赖沿当前项目布局解析，尚非自包含安装包。

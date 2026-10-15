@@ -1,0 +1,282 @@
+{
+  "archive_binding": {
+    "path": "encoding/S07.json",
+    "sha256": "fc98b08fd23ff72e1069055c2bec072bfcb06fd2467761ff39cf24041459e437"
+  },
+  "evidence_spans": [
+    {
+      "end": 435,
+      "mandatory_start": 311,
+      "pointer": "/research_excerpts/0/content_markdown"
+    },
+    {
+      "end": 316,
+      "mandatory_start": 214,
+      "pointer": "/research_excerpts/1/content_markdown"
+    }
+  ],
+  "expansion_rule": "引用研究效应/样本/时间作具体决策、来源争议、跨域外推或需要论证比较时，先展开相关原研究条目及必要原始依据；指纹和本地台账不证明外部论文已核。",
+  "field_disposition": {
+    "/category": "mandatory",
+    "/common_rules": "mandatory_except_provenance",
+    "/compiled": "mandatory",
+    "/conditions": "mandatory",
+    "/content_markdown": "equivalent_to_full_R03",
+    "/cost": "mandatory",
+    "/evidence_ids": "mandatory",
+    "/evidence_limits": "mandatory",
+    "/evidence_refs": "evidence_identity_and_verification_mandatory_locator_on_demand",
+    "/exclusions": "mandatory",
+    "/full_carriers": "checked_equivalent_carriers",
+    "/help_and_feedback_constraints": "mandatory",
+    "/intended_work": "mandatory",
+    "/local_adaptations": "mandatory",
+    "/name": "mandatory",
+    "/nearby_method_difference": "mandatory",
+    "/original_claim_status": "mandatory",
+    "/original_id": "mandatory",
+    "/prerequisites": "mandatory",
+    "/required_learner_operations": "mandatory",
+    "/research_excerpts": "all_nonbibliographic_cells_mandatory",
+    "/resource_key": "mandatory",
+    "/resource_kind": "mandatory",
+    "/resource_revision": "mandatory",
+    "/review_status": "mandatory",
+    "/schema_version": "mandatory",
+    "/section_extraction": "mandatory",
+    "/source_body_sections": "full_R03_plus_preserved_additional_sections",
+    "/source_refs": "provenance",
+    "/source_version": "mandatory",
+    "/stop_or_return_conditions": "mandatory",
+    "/template_status": "mandatory",
+    "/time_constraints": "mandatory"
+  },
+  "layer_revision": "pl-strategy-runtime/0.1.0",
+  "mandatory": {
+    "canonical_card_body": "- **目的与适用：**把生成限制在可承受范围；范例之后、关键一两步尚未稳固\n- **提示模板：**“保留上下文与其他正确步骤，只遮住 [关键步骤]；补上它并说明需要检查的条件。”\n- **好/坏问题：**好：“贝叶斯例题给出所有条件概率，只补分母的两种路径。” 坏：“给一堆空白让新手重建全部推导。”\n- **风险与校正：**凭相邻符号猜空而不懂；变换数字/表面，检查同原理新空格\n- **目标表征变化与证据：**被动跟读→局部自主状态转换；E2 OS10；H OS12；H\n- **深化任务（H）：**“先补一个缺失步骤并说明依据；再做不保留相邻答案线索的变式，独立完成相同组件。”\n- **约束与验收：**防止根据前后文字猜词。S07主要降低程序执行或步骤搜索负担；若目标是理由链是否独立形成，使用X02。两卡目的重合时只安排一次任务。\n",
+    "category": "Scaffold / 支架",
+    "common_rules": {
+      "carrier_relationship": "R02/R03是同一卡库的两个载体，不计为两份独立证据。",
+      "closing": "## 添加例子与停止的规则\n\n不规定科学上不存在的“最佳3例”。初始工程默认可用一对以降低负荷（仅启发式），追加例子必须有明确用途：排除一个伪线索、覆盖一个未见条件、跨越一项表面变化、检验一项边界。学习者能在未见例识别关系、解释为什么并拒绝近似非例时结束当前编码段。若错误来自先决知识，加例通常不如补支架。\n\n**比较的内核不是“相同还是不同”**：先问“我现在需要扩展同一schema，还是分开两个schema？”前者优先类内共同关系，后者优先类间诊断差异。要比较的维度、预期表征变化、验收新例均应写入AI tutor任务卡。\n\n\n新增案例须说明它排除的错误或补足的条件；局部支架结束后返回整体。表面与结构变化分开记录；目标关系已足够且独立检查通过时结束本轮，长期保持另测。\n",
+      "governing_overrides": [
+        "N00 第七节与D07/D04/D05/D06优先：原卡完整训练设想按实际借用部分使用。",
+        "R01的两三项默认、诊断步骤及延迟建议不编译为固定流程；无错误模型也可可靠输入。",
+        "R02的撤提示/新例/长期保持不自动成为新增课程目标；是否需要由GoalSpec决定。",
+        "不按六类走完，不固定候选/卡数，不设置统一间隔、失败次数或神经机制状态。"
+      ],
+      "opening": "# Encoding 微操作与提问库\n\n版本2.0。60张操作卡，每类10张；保留原ID与名称。与《Encoding 研究报告》的选择矩阵、证据台账和决策算法配套使用。\n\n**每次从当前表征缺口选择必要操作，不按目录逐项完成。** 同一任务可同时覆盖两类目的。所列内部表征变化是目标，需以无帮助的新题与修订表现验证。中文模板及案例均为原创设计综合；文献支持策略家族或邻近机制，不代表每个模板已有独立实验验证。\n\n证据约定：E1=聚合证据，E2=情境实证，H=理论/设计推论。操作中“直接家族”也只表示上级活动获支持；“相邻”不等于教学因果证据。\n\n\n本次逐卡新增“深化任务（H）”和“约束与验收”。这些段落与原目的、先备条件、示例和证据一起使用；H指教学设计及收益外推，不把其中的数学定义或合法推导也降为猜测。任务允许信息不足、不适用和多解。\n\n共同执行约定：先声明学习目标与所需前置，再指定允许变化项、必须保持的关系和不能凭空补入的信息；记录可见材料及提示程度；按卡片判据检查新例。只选适用卡，不要求每轮把六类走完。\n\n",
+      "resource_revision": "pl-strategies/0.1.0",
+      "schema_version": "pl-strategy-resources/1",
+      "single_performance_rule": "S07与X02对同一材料、关键补全与可观察变化重合时，只执行一次任务、保存一份原答；分别注明借用部分。"
+    },
+    "compiled": true,
+    "conditions": [
+      {
+        "explanation": "本次目标内工作、用途和允许资源可引用；不由选卡改写目标。",
+        "key": "goal_work_defined",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "本次内容、题面和参考在拟定用途内有核验依据；研究引文不代替内容核验。",
+        "key": "materials_reliable",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "能兑现必要的可靠纠正、反馈、修订与收束；成本包含这些工作。",
+        "key": "feedback_available",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "明确仍留给学习者的关键工作；模板槽已按当前内容实例化。",
+        "key": "learner_operation_preserved",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "目标允许输入与真实暴露条件下，拟观察的关键操作未被提示或材料代做；不等于一律闭卷。",
+        "key": "unaided_observation_preserved",
+        "origin": "suite_added",
+        "required_for": [
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "可靠范例及保留上下文/其余步骤当前可用。",
+        "key": "example_context_available",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      },
+      {
+        "explanation": "选中的关键步骤是当前目标内必要工作，未要求从零重建整体。",
+        "key": "key_step_identified",
+        "origin": "suite_added",
+        "required_for": [
+          "teaching",
+          "independent"
+        ],
+        "scope": "requirement",
+        "unknown_policy": "保持待核；未知不按满足/未触发处理。"
+      }
+    ],
+    "cost": {
+      "basis": "通用资源无具体课程和用时；实例化时引用实际预算/估计依据。",
+      "execution": "unknown",
+      "feedback": "unknown",
+      "preparation": "unknown",
+      "review": "unknown"
+    },
+    "evidence_boundaries": [
+      {
+        "evidence_id": "OS10",
+        "externally_reverified_in_b3c": false,
+        "grade_population_outcome_limits": [
+          {
+            "role": "研究类型 / 场景 / 对照",
+            "value": "B；SQL tutor；固定例题/解题交替 vs 按所需帮助自适应选择完整例、渐隐例、解题"
+          },
+          {
+            "role": "支持的核心结论",
+            "value": "自适应条件学习更多；新手更快、较熟练者收获更大；指导量可随表现调整"
+          },
+          {
+            "role": "不支持的推断 / 访问范围",
+            "value": "不证明任意 LLM 可准确判断 schema，也不提供通用掌握阈值；作者机构全文已核"
+          }
+        ]
+      },
+      {
+        "evidence_id": "OS12",
+        "externally_reverified_in_b3c": false,
+        "grade_population_outcome_limits": [
+          {
+            "role": "研究类型 / 场景 / 对照",
+            "value": "C；范例学习研究综合；原则解释、子目标、选择解释、渐隐"
+          },
+          {
+            "role": "支持的核心结论",
+            "value": "把步骤编码为实现某子目标的有意义单元，比记固定链更适合灵活应用；指导应支持原则提取而非替代所有加工"
+          },
+          {
+            "role": "不支持的推断 / 访问范围",
+            "value": "不能把每条设计建议称独立元分析结论；全文已核"
+          }
+        ]
+      }
+    ],
+    "evidence_ids": [
+      "OS10",
+      "OS12"
+    ],
+    "evidence_limits": [
+      "研究组件、学科内容正确性、任务与帮助条件、真实学习收益分别核验。",
+      "目标所需独立、整体、迁移与时间条件不由方法名称或卡片验收代替。",
+      "未知接触保持未知；隐藏答案、更换措辞或执行者不能重置暴露历史。",
+      "索引命中与本地资源正文核对不证明当前任务已可执行。",
+      "完整两载体正文保留；链接目标差异不构成第二份证据，未来实质冲突先限制相关用途。",
+      "原文H针对教学设计与收益外推，不把可核验数学定义/合法推导降为猜测。",
+      "S07主要处理步骤补全和搜索负担；理由链独立性借X02；重合只做一次。"
+    ],
+    "exclusions": [
+      "不让新手重建一堆空白或全部推导。",
+      "只靠相邻符号/文字猜中不能证明组件可自主调用。"
+    ],
+    "help_and_feedback_constraints": [
+      "记录可见输入、备用帮助与教师参考；备用内容未展示不计暴露。",
+      "保存帮助前原答以及实际帮助内容、作用、顺序与相关发生时间。",
+      "允许提供足以继续的可靠帮助；帮助后的成功按实际条件解释。",
+      "用户请求示范或答案时可以转教学；不为维持独立证据拒绝必要帮助。"
+    ],
+    "intended_work": "可靠范例后局部补全关键步骤，降低程序执行/步骤搜索负担。",
+    "local_adaptations": [
+      "结构化条件、标签与资源键为本套件新增整理；不视为经验证的调度算法。"
+    ],
+    "name": "局部补全",
+    "nearby_method_difference": "S07主要处理步骤补全和搜索负担；理由链独立性借X02；重合只做一次。",
+    "original_claim_status": {
+      "per_template_experimentally_verified": false,
+      "status": "H：设计综合",
+      "template_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断"
+    },
+    "original_id": "S07",
+    "prerequisites": [
+      "有可靠范例、必要上下文及其余正确步骤。",
+      "可定位本次尚需承担的关键步骤与条件。"
+    ],
+    "required_learner_operations": [
+      "补出选定关键步骤，说明其依据与应检查条件。",
+      "目标需要组件独立性时，另在不保留相邻答案线索的合法变式观察同一组件。"
+    ],
+    "resource_key": "encoding/S07",
+    "resource_kind": "encoding-card-bundle",
+    "resource_revision": "pl-strategies/0.1.0",
+    "review_status": {
+      "course_applicability_verified": false,
+      "external_references_verified": false,
+      "learning_effect_verified": false,
+      "personal_data_included": false,
+      "scope": "核对本地选中正文、完整必要约束、源定位与指纹；按正式方案处理冲突。",
+      "status": "local_source_text_checked"
+    },
+    "schema_version": "pl-strategy-resources/1",
+    "section_extraction": "从R03原正文按已存在标签提取，未新增研究主张；全文与两载体同时保留。",
+    "source_version": "2.0",
+    "stop_or_return_conditions": [
+      "目标内当前工作已有充分证据时结束；不为展示策略制造额外活动。",
+      "预算结束、用户暂停、无新增信息或参考争议时保存已做/未做与恢复点。",
+      "局部可用即回同一父任务；保留父任务卡点、已有支持、局部够用条件、返回位置与预算。",
+      "局部成功而父任务仍失败时重审接口、整体组织、额外前置或诊断；不无限下钻。",
+      "目标只缺未来时间条件时收束，给同一目标内需求；不即时加题补未来证据。"
+    ],
+    "template_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
+    "time_constraints": {
+      "fixed_retrieval_first": false,
+      "fixed_spacing_interval": null,
+      "follows_goal_spec": true,
+      "required_events": "按相关学习、练习、帮助/反馈与已知再接触事件解释；不编造时间。"
+    }
+  },
+  "research_on_demand": [
+    {
+      "body_sha256": "ff7262ec3fce1166790c59a0332a64f56cbb505746d9cbb063fe88fadd79c4bc",
+      "evidence_id": "OS10",
+      "section": "/research_excerpts/0"
+    },
+    {
+      "body_sha256": "9b16546dcd7d1c8906741b5c0035b4e5ea835e7d1ee126dea021ed810f7281ba",
+      "evidence_id": "OS12",
+      "section": "/research_excerpts/1"
+    }
+  ],
+  "resource_key": "encoding/S07",
+  "schema_version": "pl-strategy-runtime/1"
+}

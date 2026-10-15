@@ -51,6 +51,11 @@ class StrategyCatalog:
         manifest = json.loads(self._path("manifest.json").read_text(encoding="utf-8-sig"))
         if manifest.get("resource_revision") != VERSION:
             raise ValueError("resource revision")
+        compiler = manifest.get("builder", {}).get("runtime_compiler")
+        if compiler is not None:
+            if (compiler.get("path") != "src/runtime/strategy_layers.py"
+                    or hashlib.sha256(Path(__file__).with_name("strategy_layers.py").read_bytes()).hexdigest() != compiler.get("sha256")):
+                raise ValueError("runtime compiler changed")
         for source in manifest["source_fingerprints"]:
             path = (self.project_root / source["workspace_relative_path"]).resolve()
             if not path.is_relative_to(self.project_root) or hashlib.sha256(path.read_bytes()).hexdigest() != source["sha256"]:
@@ -125,6 +130,36 @@ class StrategyCatalog:
                     "limitations": ["Complete source constraints require current task adaptation and subject verification."]}
         except (OSError, ValueError, TypeError, KeyError):
             return {"status": "blocked", "reasons": [issue("resource_integrity_unavailable")], "mutated": False}
+
+    def load_runtime(self, resource_key):
+        """Re-derive the complete contract from its unchanged, registered archive."""
+        from runtime.strategy_layers import LAYER_REVISION, compile_contract
+        try:
+            loaded = self.load(resource_key)
+            if loaded.get("status") != "ok":
+                return loaded
+            manifest = self._manifest()
+            index = self._verified_json("strategy-index.json", manifest)
+            entry = next(e for e in index["entries"] if e["resource_key"] == resource_key)
+            if entry.get("runtime_revision") != LAYER_REVISION:
+                raise ValueError("runtime layer revision")
+            runtime = self._verified_json(entry["runtime_path"], manifest)
+            archive_hash = hashlib.sha256(self._path(entry["bundle_path"]).read_bytes()).hexdigest()
+            texts = {}
+            for source in manifest["source_fingerprints"]:
+                path = (self.project_root / source["workspace_relative_path"]).resolve()
+                raw = path.read_bytes()
+                if hashlib.sha256(raw).hexdigest() != source["sha256"]:
+                    raise ValueError("source changed during contract verification")
+                texts[source["source_id"]] = raw.decode("utf-8-sig").replace("\r\n", "\n")
+            expected = compile_contract(loaded["resource"], bundle_path=entry["bundle_path"], bundle_sha256=archive_hash, source_texts=texts)
+            if runtime != expected:
+                raise ValueError("runtime obligations changed")
+            return {"status": "ok", "runtime": runtime, "executable": False, "mutated": False,
+                    "archive_path": str(self._path(entry["bundle_path"])), "runtime_path": str(self._path(entry["runtime_path"])),
+                    "limitations": ["Contract fidelity is not task adaptation, external paper verification, or learning evidence."]}
+        except (OSError, ValueError, TypeError, KeyError, StopIteration):
+            return {"status": "blocked", "reasons": [issue("runtime_contract_integrity_unavailable")], "mutated": False}
 
 
 class StrategiesService:

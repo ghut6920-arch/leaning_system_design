@@ -1,5 +1,9 @@
 # 共享框架路由
 
+执行资源治理按[有界备课执行](../../personal-learning-suite/specs/preparation-execution.md)，读取视图按协调日常指南；它们改善输入、交接和上下文生命周期，不替代完整专业依据与反向审查，也不新增专业角色或另一套状态来源。
+
+任务与产物协调的实际人工文件宿主入口见[COORDINATION](COORDINATION.md)，日常读取[简短指南](../../personal-learning-suite/specs/coordinator-agent-guide.md)并调用desk/alerts及明确意图；[协调文件协议](../../personal-learning-suite/specs/coordinator-protocol.md)仅供必要的详细依据和恢复查询。已登记产物的版本/采用/审查仍由原程序门禁校验，不新增专业角色；真实学习正文和学习事实仍留在原工作区。
+
 维护源在项目根的 personal-learning-suite；本学习目录引用当前 Agent／Skill 指导，不维护另一份专业规则。更换模型先读同一入口和真实记录，再按需读当前规则。移动整个项目时相对路径保持可用；只复制本目录须补齐所依赖框架。
 
 人工文件模式见 [MODEL_ENTRY](MODEL_ENTRY.md)，总入口为 [SK00](../../personal-learning-suite/src/skills/personal-learning/SKILL.md)及 [开始／恢复](../../personal-learning-suite/src/skills/personal-learning/references/session-entry.md)。这里的真实记录不导入虚构 SQLite；程序 API 和分期开发状态仅在实际调试／调用时读取。无原生 Skill 发现时，模型仍可读取文件执行指导，不宣称已安装或绑定宿主。缺读取能力说明缺项与可用范围。
@@ -14,10 +18,12 @@
 | 新单元没备好 | 先按SK03的 [学科研究与教学转换](../../personal-learning-suite/src/skills/learning-teaching/references/disciplinary-to-teaching.md)取得或复用AG2学科依据，再由AG1／SK03设计认知操作和师生分工，落实具体资料／可视化／问题并由AG3反向审查；按需Encoding、Post与SK06，SK05接近期整体；实际读所选完整策略，备主要路径后展示，旧范例／一题不算已备单元 |
 | 活动已适用／作品已存在 | 直接 SK03 执行，或 SK04 按原件与条件检查；不遍历全部角色 |
 | 复习／应用 | Post 功能分流；必要局部 Encoding 后回父任务，选法有差异才 SK06 |
-| 单元整体收束／重要跳过／关键未完成取舍 | AG3职责与SK04整体评审，按原答和帮助分项核对；AG1接同一作品的下一可执行工作，AG0呈现，允许同模型兼任，不要求四独立Agent |
+| 单元整体收束／重要跳过／关键未完成取舍 | AG3职责与SK04整体评审，按原答和帮助分项核对；AG1接同一作品的下一可执行工作，AG0呈现。普通教学收束可兼任；备课采用前的专业审查沿默认分发规则 |
 | 解释安排、换形式、跳过检查、缩时、争议、换模型 | SK00 相应控制／恢复分支，再按需读计划／专业复核；用户可看完整依据并转教学，形式就是目标时保留未覆盖要求 |
 
-四角色表示决定责任。当前模型可顺序兼任相容职责，普通反馈无需全员会签；必要的重要复核仍需足够能力及依据，不能以换角色代替独立性。默认不自动发起子 Agent 或后台工作。
+四角色表示决定责任。**新单元或实质回修的备课默认分发真实子 Agent／独立执行上下文**：AG2负责学科研究与材料，AG1负责认知设计与功能读回，AG3在成品可审时独立执行反向审查，AG0保持唯一用户入口并组织依赖和最终采用。按依赖分阶段启动，复用同主题专业上下文，不提前启动下游空等；输入齐备的独立问题才并行。具体派发与等待沿[有界备课执行](../../personal-learning-suite/specs/preparation-execution.md)。
+
+正式备课必须先用[正常备课启动入口](../../personal-learning-suite/specs/preparation-runtime-start.md)的start-preparation取得持久计划和真实监听接管回执；程序自动完成项目首次初始化与当前聊天登记。成功后AG0结束当前轮，由Python等待和唤醒原聊天，不用模型轮询。失败明确处理，不能静默退回原生子Agent等待。普通讲解、原答反馈和已有合格活动的接续可由AG0直接执行，不每次召集全部角色；用户明确改变执行方式时按其指令处理。同模型的分开执行不等于不同模型、盲评或认证；只有角色名称变化不能算分发。监听是否在线查真实运行状态，不凭框架文字宣称后台仍在运行。
 
 ## 四角色
 

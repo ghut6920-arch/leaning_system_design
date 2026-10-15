@@ -1,6 +1,6 @@
 {
   "format": "file-learning-framework-links/0.1",
-  "generated_at": "2026-10-11",
+  "generated_at": "2026-10-15",
   "mode": "manual_files",
   "shared_schema_reference": "pl-contracts/0.1.0",
   "native_skill_installation": false,
@@ -9,11 +9,11 @@
   "entries": [
     {
       "path": "AGENTS.md",
-      "sha256": "9c2a04e035ddd7e6b89b409b12e8079e96484a039c817e2c65be6804043d4165"
+      "sha256": "63ea4716e7696fed05947f6dde9d9085cfdcc763402a4d3afef2ad814ecb8c63"
     },
     {
       "path": "FRAMEWORK.md",
-      "sha256": "662efdc59997fe56f3bfdcf8c414d05b06c44e5a572645885ca9cb641b53b4db"
+      "sha256": "faf2b628b056042836c8c42f21da8d38ac71c176978b42e719e67899d0b8368a"
     },
     {
       "path": "INTERACTION.md",
@@ -21,11 +21,11 @@
     },
     {
       "path": "MODEL_ENTRY.md",
-      "sha256": "4cb85dc05c3bdc9ba35a401eec14586b2f82c03bcf580e553cf9be85dce9913e"
+      "sha256": "a9e54682757233928c7fe6878a67ac234d04624824b1f414f3b78c27e2504cb2"
     },
     {
       "path": "START_PROMPT.md",
-      "sha256": "9de36eece2362cd7103ce368de7997c638ab83ecd63afca5b9d3273d7b6e4b01"
+      "sha256": "04ba6f204a0952dd491ebbd18dccf2bbd7aaa53321be4e862ccbf2251456dac5"
     },
     {
       "path": "../../personal-learning-suite/contracts/shared-contracts.md",
@@ -277,7 +277,7 @@
     },
     {
       "path": "../../personal-learning-suite/resources/strategies/manifest.json",
-      "sha256": "83306754e9f802531a15a8be3ec35dfbaafc65e9cae2e2a45b92e7fd16457954"
+      "sha256": "4dd194437aa43c19d586be8c7f974d658194ceeb4b3757b6be736690b66f97b8"
     },
     {
       "path": "../../personal-learning-suite/resources/strategies/post/conditional-update.json",
@@ -297,27 +297,27 @@
     },
     {
       "path": "../../personal-learning-suite/resources/strategies/README.md",
-      "sha256": "64c07b5360b40a6724efffb850e14c2ffc3dad6ad82d5c1ddb07e434ad3db1cb"
+      "sha256": "589f9541b119116a87eacad68672c5c4d3d003f96388813eab39e9033182dcc0"
     },
     {
       "path": "../../personal-learning-suite/resources/strategies/strategy-index.json",
-      "sha256": "59a70c5da52e89f0da3e52c8e42267881168b99f4c864f5e86d11030be33685d"
+      "sha256": "be4263f7f228538c8c69c97f7f42ae3b9269d2202137904c465199f7a7f8afe7"
     },
     {
       "path": "../../personal-learning-suite/src/agents/AG0-coach.md",
-      "sha256": "fd2fab691e8089a9e2df4ecf4748711e5445fee6adda4680e2bef2fff418fe5f"
+      "sha256": "80df009263f81494529c295049197b6040993bdaac1cd06f15e959ed87ed48cf"
     },
     {
       "path": "../../personal-learning-suite/src/agents/AG1-design-planning.md",
-      "sha256": "612786c22ac09cbe5fcfca4f711b74c6d6a5a438b8a7ed754aadd3cabd5ba946"
+      "sha256": "3aa2c1f7bfbe121d5984bcd5403131561a0a182da158346b9afa1c3a02a93a58"
     },
     {
       "path": "../../personal-learning-suite/src/agents/AG2-materials.md",
-      "sha256": "02a0ae21c9dd407ec5a5ea705ddad63bab09b1d4ffa73ad035049b3a20a3f23e"
+      "sha256": "00d100c3304bbaa622c778e3284ebf9ae8445770206df804d313bd89af784c1d"
     },
     {
       "path": "../../personal-learning-suite/src/agents/AG3-assessment.md",
-      "sha256": "ed4a300883403ac145dbe247418b385894f678c82f439e65997ab99cf95705ff"
+      "sha256": "356879d54d06dacbb718a2454cf262eca7fb9ac0e212c48320030c863dc1d415"
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-assessment/references/diagnosis-review.md",
@@ -329,7 +329,7 @@
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-assessment/references/product-review.md",
-      "sha256": "2d825aee4c549ca28b6171711a1232c008a1b851870daf79a284ec48236b8829"
+      "sha256": "31eae72479facd9f5476af4982991bff6488c35b4bf5539452319be1190f6ce5"
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-assessment/references/runtime.md",
@@ -373,7 +373,7 @@
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-materials/references/materials-workflow.md",
-      "sha256": "72469e3bbf1d999de66cc6e470df32eb315a19b9ed2110cfad27cc505daeb1b3"
+      "sha256": "4cf1790939a5559f824d9c34a6821e36fb5f05b7357bb971df7ad85a8b8416fd"
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-materials/references/runtime.md",
@@ -413,11 +413,11 @@
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-strategies/references/selection-adaptation.md",
-      "sha256": "43e6f0c2113b2aea3b453e5d64355799d36b92568b87446955b9558f6bffd799"
+      "sha256": "32c8d6c89208aac0d01f9e118f35ebaf477222a3f5afbd8eb8b448af841eaa19"
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-strategies/SKILL.md",
-      "sha256": "60c61e24f057b942ae9f20dbaf3707e6d60b4d256250544aaf1dac720ddcdbdb"
+      "sha256": "72716c988a6ab557e6ef8bc4d2a919ab9616de81afb36983c589724ac7996d01"
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-teaching/references/c0.md",
@@ -425,7 +425,7 @@
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-teaching/references/design-whole.md",
-      "sha256": "75439d5bc92e67925c3489d3480730064f7ae11664ed1cc75e3c2ee46e8f2c82"
+      "sha256": "a582e5ae21f2905662e9f894bcb300c5e50b4ccd22c5ef7e37ac80998a554d95"
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-teaching/references/encoding.md",
@@ -437,7 +437,7 @@
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-teaching/references/post-encoding.md",
-      "sha256": "81c5f80f002910255ac27d4b6c77f16424c7344c1a48424fd2746b8c6de7c7dc"
+      "sha256": "f8537c6fad1d48adc8a959ea6a683d65628ffda4979ced568de8bbb3fdf8bde4"
     },
     {
       "path": "../../personal-learning-suite/src/skills/learning-teaching/references/runtime.md",
@@ -482,6 +482,447 @@
     {
       "path": "../../personal-learning-suite/src/skills/learning-teaching/references/disciplinary-to-teaching.md",
       "sha256": "ff4df1e86585c97ac3d3ae1b13dd63c6d10a4584e68e65604220cdaf399e04e8"
+    },
+    {
+      "path": "COORDINATION.md",
+      "sha256": "f01c50aea06845781f80134d77c532d150810c9dff041019809283c5ca24d88d"
+    },
+    {
+      "path": "../../personal-learning-suite/specs/coordinator-protocol.md",
+      "sha256": "31f518ef88cf4b7bf3aa73c77d5fa7db9f1cdc76e5d346af931bbdd7831cb5c1"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/__init__.py",
+      "sha256": "5056904c9e7140289804b25ab80210ed93f329edaf499e3d52e7be01ad06d11d"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/workspace.py",
+      "sha256": "b08d600367b1713b6b608fc7f2fa741615f2c5e69aa5719748e6c6ba38f8280c"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/reliability.py",
+      "sha256": "5bdd81f00ad1f266f6aaea99cd81a85ee0a41f33762a9028dbed783f7d07b3b4"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/complete.py",
+      "sha256": "a93f462ebd9a850b4ba0426d84d38b80f87e9365269750ee155bde1b71d92b93"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/publication.py",
+      "sha256": "d77fd6933927292da0da2772083094148b7c189b1c3e00f0c84d7f468d154ed9"
+    },
+    {
+      "path": "../../personal-learning-suite/scripts/coordinate_preparation.py",
+      "sha256": "9331b2124d7852e70bddeb9d67e4271eb1ab887cec9b1c096a5d900e1de35b48"
+    },
+    {
+      "path": "../../personal-learning-suite/specs/coordinator-agent-guide.md",
+      "sha256": "01ac287280e3fc0d5eeb805bd736688fc68b122d4f0d27e257b3976d4a617286"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/agent_api.py",
+      "sha256": "9e0db459939cd0bebdbbf3096c3f4cb808970c6ad9eecaa9b50803350fa93478"
+    },
+    {
+      "path": "../../personal-learning-suite/scripts/coordinate_agents.py",
+      "sha256": "2f536d1bba71f77f80031f5009d5b8bcebf6b74e9f8d6c261ac887fe4dedcd48"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/reading.py",
+      "sha256": "da37774049d1902564e086d2c6f167fb0cd27bfd8474c333e2b816c60fdecb85"
+    },
+    {
+      "path": "../../personal-learning-suite/scripts/read_learning_resource.py",
+      "sha256": "bd398a0ee4cedcebad9462840dff4850b3fbece75c28714cd73ffa28c1ff7c0e"
+    },
+    {
+      "path": "../../personal-learning-suite/specs/preparation-execution.md",
+      "sha256": "19a69a4d4a9feae6659a01c526fce89e579e0e1938ccc8be3425682ee8d26d02"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/control_projection.py",
+      "sha256": "31d9796f55fc18881584ab386ea3355415aa517466f7ea61a82c018365f17790"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/delivery.py",
+      "sha256": "852d6d9a93d2df0443b454d76f59687f106eb239ec4b6e0260720bf5eafd4911"
+    },
+    {
+      "path": "../../personal-learning-suite/scripts/read_learning_batch.py",
+      "sha256": "4487aa283e7286e386766dc3175ab07cbab499dd78bdd0ae1585200af49d7cb5"
+    },
+    {
+      "path": "../../personal-learning-suite/scripts/check_read_delivery.py",
+      "sha256": "06fd199cbb8d47f6493c93e2f31fbd6fe404917dc6b14a6748e83ea4b4d65cef"
+    },
+    {
+      "path": "../../personal-learning-suite/scripts/build_b3c_resources.py",
+      "sha256": "e933e229a3b3740101fa6836bc68e44073d9b1cecc2affc0a9b64871f32d65b2"
+    },
+    {
+      "path": "../../personal-learning-suite/src/runtime/strategy_layers.py",
+      "sha256": "737089303410f457b0928da53ed19981fc1143635f0b8c474e7911ed9da94c9c"
+    },
+    {
+      "path": "../../personal-learning-suite/src/runtime/learning_strategies.py",
+      "sha256": "5466aa19cd568e63731dd2819a884271b150105de8c2807b9e77f613d572e13f"
+    },
+    {
+      "path": "../../personal-learning-suite/contracts/strategies-b3c.md",
+      "sha256": "cfb16c44350c2e4699bfd423088196036d7036d1b0c718534c3914888db3f7f6"
+    },
+    {
+      "path": "../../personal-learning-suite/specs/skills/SK06-learning-strategies.md",
+      "sha256": "227cd88ef0f676233292a6c4a86d726aaff44ba58d21cd298018ad8b401df48e"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/O01.json",
+      "sha256": "8ca05a498a9810fbdd9704ab55d1934dbec4f2fed2f369e6876730dff5cb796c"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/O02.json",
+      "sha256": "0727ddcb5ea5b847953c34f387f97ef7a6957cd3a6d69e20f1aa26dc2f7f99c3"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/O03.json",
+      "sha256": "9cf3baf9bf9629800f104cfcda3f1bd4de3bd05e95ad6d5624bcd90a90532b0c"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/O04.json",
+      "sha256": "e180e4b5a23b5583f231e918747f6d479e6815a8528fbfa607811e4fd75e50be"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/O05.json",
+      "sha256": "d2bda7eef33676e5c8d4e6608d5d7293225179925b6bb9a6c2ec804e464ee958"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/O06.json",
+      "sha256": "efaa7300da58de5d6ed6084c324bfc4660203959cae0aab933a3326fa1e868fb"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/O07.json",
+      "sha256": "177083b69aab70df5a609bb91d223d707381a2fbf2f0be09c2bfe9d1bf369412"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/O08.json",
+      "sha256": "bd594ea8db991820171c8aba464eb6bde90b14901c252fc5b865453d0f83168e"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/O09.json",
+      "sha256": "2671b04d9e5b924b925408751febce66be2759d77e34d5c27a3fa3ee8decdb88"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/O10.json",
+      "sha256": "38fbc0add2c2762445c9a2570ea19ae5e19ff0b4fbfca82b6d7bdf2fe49f488a"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/S01.json",
+      "sha256": "0091969c453fa80d50203ede1214f236e6d9f16bbc6e91f12aee7f813e957b2e"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/S02.json",
+      "sha256": "fd9b7c2d6d161f986ad7826703163bfd109ea164e07a47cfb5e08ae90902b5c1"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/S03.json",
+      "sha256": "7ba484f38e5b3d3756f15252b93486e252e0eb7fd41e230c2a2c4f695a9a0357"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/S04.json",
+      "sha256": "537fa9a1aa0234b237fb2a33a50eaf41442d988a392e529b8fa6830de236b721"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/S05.json",
+      "sha256": "aed8780a3cc3300861ef63068768e9f405f95dc966f29a489df2862c209fb847"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/S06.json",
+      "sha256": "6485b3ab9f132d78e761cc0283c6fdc21d1ab49c714cee20093af3271824ec15"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/S07.json",
+      "sha256": "50adbe876b05399680b7726a39293fd5bf655bb4bbc43dca76862b84d5db03ef"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/S08.json",
+      "sha256": "1e5f4cb999be67c30d2a3c1b9f3d84fb314f0450347a1261561d52141cd18865"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/S09.json",
+      "sha256": "cd6c98285ef7c08edaf6c00e523181a14fd72ad13a94e8dbd40e72754221926e"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/S10.json",
+      "sha256": "7e54ef8473e50c906d337160b1674800ff89da1eabe77939e30676c58cc79443"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/R01.json",
+      "sha256": "002a7efae606a3312ff6e92e759581750480f451b134b6767b49da921873ca97"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/R02.json",
+      "sha256": "1d4c5fb1c4c86a6b9f7dfa9ed74254f37b0b5e9efe738b7842f4e93d7ef2655a"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/R03.json",
+      "sha256": "bc4e3d9c9e3eaf474c9159beef352f7a1a99ea15bb568edfdbac4a2777c01303"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/R04.json",
+      "sha256": "f2b36720da7f08b44dc229a41b61e0ee99a5b6c4a9e84bda9b477f52bf5d3008"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/R05.json",
+      "sha256": "1b1baaf6f1cde67b1b8df56fb1f4677995a13cbd07634bba8f27cc328a633805"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/R06.json",
+      "sha256": "4cd6da71a18cd48a9dec8e4095938fc90c3fe73dc71facf22ffedb4a1fd2049a"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/R07.json",
+      "sha256": "df3e48b590e832d2a633d2c3d65dcd9263dae0924406cf6789f50d96213107ca"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/R08.json",
+      "sha256": "fde88627e88ece33b1db39ad6f8dffea0c9bb6371d5eeecda07bdb65a338d5d7"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/R09.json",
+      "sha256": "5ae340cb100e51ea994e3a2867492a5956c7afa256899348b71a4289f2ee2071"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/R10.json",
+      "sha256": "78939e9d3992de0fe4c445e771fd9a30ffcbf26aa8cd5e978738d729dc64f9a1"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/D01.json",
+      "sha256": "ad03d66344c525cd13a41e99a8ab0594f6ea3e5376fd0d94e8954c9b606e2f8f"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/D02.json",
+      "sha256": "a4628d3ae0bcd289de8939d6558be47f26f36a4b083efeb11b5c2f321863dd62"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/D03.json",
+      "sha256": "0940245baa442aa7edf7f8003cb0743fe8dda32714a33023986b3f9c8f32f1f1"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/D04.json",
+      "sha256": "0b0620cf0cb2e74840c23f9a12c1cddf32b26a0620d523f0ac91e648c53f3175"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/D05.json",
+      "sha256": "fdb010d2456ccd0e5aa8d1f78cb09c5b1f7940fac770239a24df84fc7ff07917"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/D06.json",
+      "sha256": "0df176dc7155edad3ac8fa14ed6623eb1fd37bda1d75d917646a1dd2b1f308f0"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/D07.json",
+      "sha256": "04051599429d3ec6dbf09f782f69f7c457f170c426ba4cda0c8ccfae02f34971"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/D08.json",
+      "sha256": "051c025a8d996d8ba61ea69eba23dc1dc3bc6ddf5c007a0878d6698e8bc064e7"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/D09.json",
+      "sha256": "e944fddc70cb8f2f490746a39f034087ff47a999ed281b237fe54dfd0afd03d2"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/D10.json",
+      "sha256": "f7b54f41066df80dfd73cd645c6b9fd3e5c4713321ddc322254785de934f913e"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/I01.json",
+      "sha256": "0167ce0f677de2257926e3acd0bc3742cc1ad16baa55df9f58e5f5f81c270f3d"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/I02.json",
+      "sha256": "503eeed451e782cb6750a6c1c12c914d90cd6c6ce851425cf10853846a454b9e"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/I03.json",
+      "sha256": "6b199cea8e5ac8741ea78e67ff25e415af65f1361bc7c562edde0fc11157e29d"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/I04.json",
+      "sha256": "58719273c11562afca9986a8e9a29ff8c6e8de2a21b87bd532e443147b7a21e5"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/I05.json",
+      "sha256": "cbacb8c9fdfaa87eb3d6edbbe6e95862078e53069c0f0f8a6bebf26c9e322346"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/I06.json",
+      "sha256": "46daea4dbee091aee5958412556efa45c91ca2c50fabeab099ef3137b84075bb"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/I07.json",
+      "sha256": "56b66ad525b1d5f563de7ea20212953083fe4f71b2975d2cc6ec6d4d36018ad7"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/I08.json",
+      "sha256": "e8f0e1ef42115fb9aed14d136f2459fe909a38483bf6ff7652e0c88a6e1c2068"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/I09.json",
+      "sha256": "04cb1da2deaa02f3edc6ec09fdfb655de80d8373f4829b3991a2b3c733f8e2ea"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/I10.json",
+      "sha256": "fa778806d93e095d11242a02c96a398dabefdfcee763221254214882658d9d55"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/X01.json",
+      "sha256": "91b9200060a5283fddfd6c858442a819261df50e3b78843c1d5015ac568eeb61"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/X02.json",
+      "sha256": "01f8ce3891327e31fc3561374abbe781f069bcfb380bb7dfad549c9f4efb1251"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/X03.json",
+      "sha256": "9dca7f080325dde44e0c4f2bbeaa9f91dd74fc5dcc22d555a5d7bd56d91f94c8"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/X04.json",
+      "sha256": "245f0048bfbbbf4412a210dc61080cb0c3909b84a7e0f39a24bfe05b72b2e190"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/X05.json",
+      "sha256": "e51877ba750202b8070da37535bbce293aefb92e5c73d54b884c7f5baffddc3e"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/X06.json",
+      "sha256": "779f80456e75d2d36e1b4ae96cb355bd0ceca83cbc095070ab5871c44572248b"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/X07.json",
+      "sha256": "8495b896cdfcb07f63ece6ac8a63fe8d41944ba381aa920873d47fe70c53de2a"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/X08.json",
+      "sha256": "04ea7decdd2ca4bdef0c4edbb541e25ffe0ce26455721d01e0759fc6d2e2cd9c"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/X09.json",
+      "sha256": "dbbbf1b8bbc40f5aa75d7ba3ae42b37a52947b3a9cd7dd7e08dd5fa32f893c5d"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/encoding/X10.json",
+      "sha256": "e9927bc5e5359914e63caaa5623b2de3a09cedd8c02bf2b18e3adb0a94d7d315"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/post/retrieve-relation.json",
+      "sha256": "fcfb3c29957bc4b6c820db11d8ed28ff7f675125d8207acd69b2d08c9bc0c69d"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/post/select-method.json",
+      "sha256": "8d46113846c9ad7615864a8268224940aef108c27593db56ed8f5bb7078f204d"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/post/conditional-update.json",
+      "sha256": "c328ee5b073506419f70b0773b0ed9e07a798ec85f5816479e58b937bcd0798f"
+    },
+    {
+      "path": "../../personal-learning-suite/resources/strategies/runtime/post/retrieve-generate-order.json",
+      "sha256": "862b40068d06ca4a31d67461c98208abc20e742e9aebbc2c08bc4a6da11280dc"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/control_batch.py",
+      "sha256": "905c0e69844f66c696259374802727ace6ca22b679f221f9fa1083b1a8f77efd"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/preparation_sources.py",
+      "sha256": "57621b526b2541af8cdcc44fc9e6c855f0e6be7466fb98e3e495164e61b513fc"
+    },
+    {
+      "path": "../../personal-learning-suite/scripts/build_preparation_sources.py",
+      "sha256": "8f993b904bb223226bbd57009a8a04eace1b37ccb2072ae7306decdfe2b1050f"
+    },
+    {
+      "path": "../../personal-learning-suite/specs/coordinator-runtime.md",
+      "sha256": "7bbc4747ee2d68c9656bcb39baeb7cd7384a0be3857ff4ddfc9f16018e4cc8a5"
+    },
+    {
+      "path": "../../personal-learning-suite/scripts/coordinate_runtime.py",
+      "sha256": "d0122cfe08231fac629a564f8f9b5ab6e3128b51e32b9f03e55ead5e2b12b811"
+    },
+    {
+      "path": "../../personal-learning-suite/scripts/start_coordinator_runtime.ps1",
+      "sha256": "16e1165cb5a431cc7119472980fd759ba682e523e64b084f95c8806129219063"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/runtime_store.py",
+      "sha256": "73365dd95f0c6d7bbd2e00078c44d5716b9476c45a32502b9c40956166f21707"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/runtime_scheduler.py",
+      "sha256": "a5e6586d3c15acc869c54ca3139eb4d07d304bc366c538c5191c20d01da370f0"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/hosts/__init__.py",
+      "sha256": "17a3d6a33962dc1ccc04bf35b4f070b988e17681d240b2439b1cf0354e06a540"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/hosts/desktop_mcp.py",
+      "sha256": "064402ebaa17da545295c6f7f41058a5a8fe9a11c65be22e592781e922d0e2ba"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/hosts/cli_resume.py",
+      "sha256": "bdc39d880f78de96c221536764ebd7f82388cba1a47d638efffe6a3c58c1a058"
+    },
+    {
+      "path": "../../personal-learning-suite/specs/preparation-runtime-start.md",
+      "sha256": "ca73d0235c83c64579e821204d70165798650f5d89ea534e53ba19d57e3074c6"
+    },
+    {
+      "path": "../../personal-learning-suite/scripts/start_preparation.py",
+      "sha256": "3f56e8656af5cf2825cabc745c33502baccdd26ea06500480b873d9468a33acd"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/preparation_start.py",
+      "sha256": "bdec3b5bdee3ed8468bb5269af9807f12e019f05a2a7d4e18dc873fb3bbb8ad0"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/preparation_graph.py",
+      "sha256": "9e7c295cb7e754355d5c2c0e604390f15c4761bf7589d1bf43fc8a69b46d5cff"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/runtime_companion.py",
+      "sha256": "e0a8dc2896c785ae77ba2ecff08ac5357f71d69c22d8e13312bb75bc90db8112"
+    },
+    {
+      "path": "../../personal-learning-suite/src/coordinator/runtime_outputs.py",
+      "sha256": "23c31e277e4a16da5700e0921d0011215b53719966575d3f1e334a53f67c723e"
     }
-  ]
+  ],
+  "coordination_binding": {
+    "mode": "event_runtime_for_preparation",
+    "entry": "coordination/entry.json",
+    "identity": "local_operator_attested",
+    "llm_dispatch": true,
+    "event_runtime_available": true,
+    "activation": "automatic_per_preparation_start",
+    "listener_health": "query_runtime_not_manifest",
+    "context_updates": "python_event_wakeup_and_business_gates"
+  },
+  "preparation_dispatch_policy": {
+    "default": "real_specialist_agents",
+    "roles": [
+      "AG2",
+      "AG1",
+      "AG3"
+    ],
+    "user_entry": "AG0",
+    "routing": "automatic_event_runtime_on_preparation_start",
+    "guide": "../../personal-learning-suite/specs/preparation-runtime-start.md",
+    "startup_command": "start-preparation",
+    "automatic_current_chat_binding": true,
+    "automatic_project_runtime_initialization": true,
+    "failure_policy": "report_no_model_polling_fallback"
+  }
 }

@@ -17,8 +17,11 @@
       "name": "目标事实缺口",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "O01",
+      "research_archive_path": "encoding/O01.json",
       "resource_key": "encoding/O01",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/O01.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -78,8 +81,11 @@
       "name": "定向趋势预测",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "O02",
+      "research_archive_path": "encoding/O02.json",
       "resource_key": "encoding/O02",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/O02.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -141,8 +147,11 @@
       "name": "机制候选预测",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "O03",
+      "research_archive_path": "encoding/O03.json",
       "resource_key": "encoding/O03",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/O03.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -203,8 +212,11 @@
       "name": "局部模型草图",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "O04",
+      "research_archive_path": "encoding/O04.json",
       "resource_key": "encoding/O04",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/O04.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -265,8 +277,11 @@
       "name": "竞争模型分叉",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "O05",
+      "research_archive_path": "encoding/O05.json",
       "resource_key": "encoding/O05",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/O05.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -327,8 +342,11 @@
       "name": "知识缺口定位",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "O06",
+      "research_archive_path": "encoding/O06.json",
       "resource_key": "encoding/O06",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/O06.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -389,8 +407,11 @@
       "name": "结构预览与位置预测",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "O07",
+      "research_archive_path": "encoding/O07.json",
       "resource_key": "encoding/O07",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/O07.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -451,8 +472,11 @@
       "name": "可解决的解释矛盾",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "O08",
+      "research_archive_path": "encoding/O08.json",
       "resource_key": "encoding/O08",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/O08.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -513,8 +537,11 @@
       "name": "信心与可反驳条件",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "O09",
+      "research_archive_path": "encoding/O09.json",
       "resource_key": "encoding/O09",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/O09.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -574,8 +601,11 @@
       "name": "有界发明 / 准备性失败",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "O10",
+      "research_archive_path": "encoding/O10.json",
       "resource_key": "encoding/O10",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/O10.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -636,8 +666,11 @@
       "name": "先备组件点检/补齐",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "S01",
+      "research_archive_path": "encoding/S01.json",
       "resource_key": "encoding/S01",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/S01.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -698,8 +731,11 @@
       "name": "整合呈现对应信息",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "S02",
+      "research_archive_path": "encoding/S02.json",
       "resource_key": "encoding/S02",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/S02.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -759,8 +795,11 @@
       "name": "语义分段与暂停",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "S03",
+      "research_archive_path": "encoding/S03.json",
       "resource_key": "encoding/S03",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/S03.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -820,8 +859,11 @@
       "name": "子目标命名组块",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "S04",
+      "research_archive_path": "encoding/S04.json",
       "resource_key": "encoding/S04",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/S04.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -883,8 +925,11 @@
       "name": "正确范例追踪",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "S05",
+      "research_archive_path": "encoding/S05.json",
       "resource_key": "encoding/S05",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/S05.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -945,8 +990,11 @@
       "name": "原则定向的单步解释",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "S06",
+      "research_archive_path": "encoding/S06.json",
       "resource_key": "encoding/S06",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/S06.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1007,8 +1055,11 @@
       "name": "局部补全",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "S07",
+      "research_archive_path": "encoding/S07.json",
       "resource_key": "encoding/S07",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/S07.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1070,8 +1121,11 @@
       "name": "按知识组件渐隐",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "S08",
+      "research_archive_path": "encoding/S08.json",
       "resource_key": "encoding/S08",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/S08.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1132,8 +1186,11 @@
       "name": "局部关系到全局组装",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "S09",
+      "research_archive_path": "encoding/S09.json",
       "resource_key": "encoding/S09",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/S09.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1193,8 +1250,11 @@
       "name": "定位提示阶梯与回退",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "S10",
+      "research_archive_path": "encoding/S10.json",
       "resource_key": "encoding/S10",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/S10.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1254,8 +1314,11 @@
       "name": "关系定型与层级定位",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "R01",
+      "research_archive_path": "encoding/R01.json",
       "resource_key": "encoding/R01",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/R01.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1315,8 +1378,11 @@
       "name": "跨知识连接的桥梁推断",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "R02",
+      "research_archive_path": "encoding/R02.json",
       "resource_key": "encoding/R02",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/R02.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1378,8 +1444,11 @@
       "name": "机制黑箱展开",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "R03",
+      "research_archive_path": "encoding/R03.json",
       "resource_key": "encoding/R03",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/R03.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1439,8 +1508,11 @@
       "name": "必要、充分、促成、背景条件分离",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "R04",
+      "research_archive_path": "encoding/R04.json",
       "resource_key": "encoding/R04",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/R04.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1500,8 +1572,11 @@
       "name": "相关、共同原因、干预效应分离",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "R05",
+      "research_archive_path": "encoding/R05.json",
       "resource_key": "encoding/R05",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/R05.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1562,8 +1637,11 @@
       "name": "局部扰动的动态传播",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "R06",
+      "research_archive_path": "encoding/R06.json",
       "resource_key": "encoding/R06",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/R06.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1624,8 +1702,11 @@
       "name": "回路闭合、延迟与稳定性",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "R07",
+      "research_archive_path": "encoding/R07.json",
       "resource_key": "encoding/R07",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/R07.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1686,8 +1767,11 @@
       "name": "受约束反事实与干预对照",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "R08",
+      "research_archive_path": "encoding/R08.json",
       "resource_key": "encoding/R08",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/R08.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1745,8 +1829,11 @@
       "name": "重要性标准分解与条件排名",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "R09",
+      "research_archive_path": "encoding/R09.json",
       "resource_key": "encoding/R09",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/R09.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1807,8 +1894,11 @@
       "name": "跨层链接与最小充分系统模型",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "R10",
+      "research_archive_path": "encoding/R10.json",
       "resource_key": "encoding/R10",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/R10.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1870,8 +1960,11 @@
       "name": "角色对齐比较",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "D01",
+      "research_archive_path": "encoding/D01.json",
       "resource_key": "encoding/D01",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/D01.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1932,8 +2025,11 @@
       "name": "最小对 / 单因素隔离",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "D02",
+      "research_archive_path": "encoding/D02.json",
       "resource_key": "encoding/D02",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/D02.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -1995,8 +2091,11 @@
       "name": "诊断线索与伪线索分离",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "D03",
+      "research_archive_path": "encoding/D03.json",
       "resource_key": "encoding/D03",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/D03.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2057,8 +2156,11 @@
       "name": "正例—非例规则验证",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "D04",
+      "research_archive_path": "encoding/D04.json",
       "resource_key": "encoding/D04",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/D04.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2119,8 +2221,11 @@
       "name": "Near-miss / 最小修复",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "D05",
+      "research_archive_path": "encoding/D05.json",
       "resource_key": "encoding/D05",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/D05.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2181,8 +2286,11 @@
       "name": "边界探查与信息不足",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "D06",
+      "research_archive_path": "encoding/D06.json",
       "resource_key": "encoding/D06",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/D06.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2243,8 +2351,11 @@
       "name": "例外归因与规则修订",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "D07",
+      "research_archive_path": "encoding/D07.json",
       "resource_key": "encoding/D07",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/D07.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2304,8 +2415,11 @@
       "name": "误概念—反驳—替代解释",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "D08",
+      "research_archive_path": "encoding/D08.json",
       "resource_key": "encoding/D08",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/D08.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2365,8 +2479,11 @@
       "name": "同题异解与选择条件",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "D09",
+      "research_archive_path": "encoding/D09.json",
       "resource_key": "encoding/D09",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/D09.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2426,8 +2543,11 @@
       "name": "配对鉴别→独立分类",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "D10",
+      "research_archive_path": "encoding/D10.json",
       "resource_key": "encoding/D10",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/D10.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2488,8 +2608,11 @@
       "name": "简洁典型例落地",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "I01",
+      "research_archive_path": "encoding/I01.json",
       "resource_key": "encoding/I01",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/I01.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2550,8 +2673,11 @@
       "name": "近邻多例找不变量",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "I02",
+      "research_archive_path": "encoding/I02.json",
       "resource_key": "encoding/I02",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/I02.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2611,8 +2737,11 @@
       "name": "只变非诊断维度",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "I03",
+      "research_archive_path": "encoding/I03.json",
       "resource_key": "encoding/I03",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/I03.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2675,8 +2804,11 @@
       "name": "关系不变、情境变远",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "I04",
+      "research_archive_path": "encoding/I04.json",
       "resource_key": "encoding/I04",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/I04.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2737,8 +2869,11 @@
       "name": "极端/限制实例",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "I05",
+      "research_archive_path": "encoding/I05.json",
       "resource_key": "encoding/I05",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/I05.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2800,8 +2935,11 @@
       "name": "具体—图式—符号对应",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "I06",
+      "research_archive_path": "encoding/I06.json",
       "resource_key": "encoding/I06",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/I06.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2862,8 +3000,11 @@
       "name": "抽象→具体的定向实例化",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "I07",
+      "research_archive_path": "encoding/I07.json",
       "resource_key": "encoding/I07",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/I07.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2924,8 +3065,11 @@
       "name": "显式类比映射与破裂点",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "I08",
+      "research_archive_path": "encoding/I08.json",
       "resource_key": "encoding/I08",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/I08.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -2988,8 +3132,11 @@
       "name": "反类比配对 / 表面诱饵",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "I09",
+      "research_archive_path": "encoding/I09.json",
       "resource_key": "encoding/I09",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/I09.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -3049,8 +3196,11 @@
       "name": "受约束新例生成与验证",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "I10",
+      "research_archive_path": "encoding/I10.json",
       "resource_key": "encoding/I10",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/I10.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -3110,8 +3260,11 @@
       "name": "原理约束的自解释",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "X01",
+      "research_archive_path": "encoding/X01.json",
       "resource_key": "encoding/X01",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/X01.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -3171,8 +3324,11 @@
       "name": "约束补全与支架撤除",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "X02",
+      "research_archive_path": "encoding/X02.json",
       "resource_key": "encoding/X02",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/X02.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -3233,8 +3389,11 @@
       "name": "命题化概念图/因果图构建",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "X03",
+      "research_archive_path": "encoding/X03.json",
       "resource_key": "encoding/X03",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/X03.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -3295,8 +3454,11 @@
       "name": "生成图—规范图差异审计—修图",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "X04",
+      "research_archive_path": "encoding/X04.json",
       "resource_key": "encoding/X04",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/X04.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -3357,8 +3519,11 @@
       "name": "公式↔语言：变量依赖而非符号念读",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "X05",
+      "research_archive_path": "encoding/X05.json",
       "resource_key": "encoding/X05",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/X05.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -3420,8 +3585,11 @@
       "name": "图↔方程：对应点与不变量校验",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "X06",
+      "research_archive_path": "encoding/X06.json",
       "resource_key": "encoding/X06",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/X06.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -3482,8 +3650,11 @@
       "name": "案例→规则→回测：保留边界的抽象",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "X07",
+      "research_archive_path": "encoding/X07.json",
       "resource_key": "encoding/X07",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/X07.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -3543,8 +3714,11 @@
       "name": "预告讲授目标的受众化讲解",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "X08",
+      "research_archive_path": "encoding/X08.json",
       "resource_key": "encoding/X08",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/X08.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -3605,8 +3779,11 @@
       "name": "预测—观察/答案—模型修订",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "X09",
+      "research_archive_path": "encoding/X09.json",
       "resource_key": "encoding/X09",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/X09.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -3666,8 +3843,11 @@
       "name": "功能性压缩与重建",
       "original_claim_status": "H：设计综合；v2.0新增问法与组合未逐条实验验证；学科结论与学习收益分开判断",
       "original_id": "X10",
+      "research_archive_path": "encoding/X10.json",
       "resource_key": "encoding/X10",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/encoding/X10.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": "R03",
       "source_refs": [
         {
@@ -3727,8 +3907,11 @@
         "status": "H：本套件条件化设计综合"
       },
       "original_id": null,
+      "research_archive_path": "post/retrieve-relation.json",
       "resource_key": "post/retrieve-relation",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/post/retrieve-relation.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": null,
       "source_refs": [
         {
@@ -3935,8 +4118,11 @@
         "status": "H：本套件条件化设计综合"
       },
       "original_id": null,
+      "research_archive_path": "post/select-method.json",
       "resource_key": "post/select-method",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/post/select-method.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": null,
       "source_refs": [
         {
@@ -4156,8 +4342,11 @@
         "status": "H：本套件条件化设计综合"
       },
       "original_id": null,
+      "research_archive_path": "post/conditional-update.json",
       "resource_key": "post/conditional-update",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/post/conditional-update.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": null,
       "source_refs": [
         {
@@ -4403,8 +4592,11 @@
         "status": "H：本套件条件化设计综合"
       },
       "original_id": null,
+      "research_archive_path": "post/retrieve-generate-order.json",
       "resource_key": "post/retrieve-generate-order",
       "resource_revision": "pl-strategies/0.1.0",
+      "runtime_path": "runtime/post/retrieve-generate-order.json",
+      "runtime_revision": "pl-strategy-runtime/0.1.0",
       "source_id": null,
       "source_refs": [
         {

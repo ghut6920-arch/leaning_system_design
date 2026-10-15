@@ -14,6 +14,12 @@
 
 ## 四个 Agent
 
+新增的 [coordinator/replay.py](coordinator/replay.py) 是执行层只读历史回放组件，不是Agent，也不是src/runtime的真实学习记录入口。[第一批交付](../../docs/implementation/AI个人学习系统_任务与产物协调器_第一批只读回放_2026-10-13.md)包含案例与验收结果。
+
+[coordinator/workspace.py](coordinator/workspace.py)提供第二批文件任务、快照、候选及采用检查；本地操作员负责绑定角色，现有学习入口与旧运行器边界未改。[第二批交付](../../docs/implementation/AI个人学习系统_任务与产物协调器_第二批最小提交闭环_2026-10-13.md)说明接口、测试与部署范围。
+
+[coordinator/reliability.py](coordinator/reliability.py)是第三批本地可靠性扩展，提供明确期限的结果等待、同事务增量事件、操作回执和只读恢复检查。[第三批交付](../../docs/implementation/AI个人学习系统_任务与产物协调器_第三批并发与恢复_2026-10-13.md)包含真实多进程/硬退出验证；普通CLI不自动升级第二批历史工作区。
+
 | Agent | 文件 | 责任 |
 |---|---|---|
 | AG0 | [AG0-coach.md](agents/AG0-coach.md) | 入口、教学执行、真实发生事实、恢复与控制 |
@@ -38,6 +44,8 @@
 每个 Skill 的 `references` 是其正常依赖，和 SKILL.md 保存在一起。共享语义见[契约](../contracts/shared-contracts.md)，资源见[资源说明](../resources/README.md)。
 
 ## 运行程序
+
+任务与产物协调采用[src/coordinator完整实现](coordinator/complete.py)，日常通过[Agent简化接口](coordinator/agent_api.py)和[简短指南](../specs/coordinator-agent-guide.md)取得必要状态、固定正文并提交明确意图；[技术入口](../scripts/coordinate_preparation.py)及[完整协调说明](../specs/coordinator-protocol.md)按需查询。真实模式只登记原工作区文件的协调元数据，专业决定保留给原角色。
 
 开发 CLI 为 [personal_learning.py](runtime/personal_learning.py)；B5 顺序集成为 [entry_b5.py](runtime/entry_b5.py)，B6 受控串行宿主为 [network_b6.py](runtime/network_b6.py)，共享保存为 [learning_store.py](runtime/learning_store.py)。各专业服务在 runtime，仅用于其声明的虚构开发输入；日常人工教学按 SK00 指导与所在课程的文件协议开展。
 

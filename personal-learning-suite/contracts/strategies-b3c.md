@@ -10,6 +10,8 @@
 
 ## 资源加载
 
+2026-10-14读取层迁移：原64份完整包和来源修订保持，另编译`pl-strategy-runtime/0.1.0`的64份源绑定契约。日常strategy-runtime读取完整必要约束；混合操作/研究段、研究强度/样本/结果/限制与反例都保留，纯书目和追溯按影响决定的研究问题展开。读取时校验档案/契约指纹并重新编译比对，未知字段或载体实质冲突拒绝。此层不修改MethodConfig、准入Fact、来源并集或采用语义；实际读取范围不能因档案定位存在而虚称完整研究已读。
+
 `strategy-index.json`为导航，当前60个Encoding原ID全部有完整包，另有四个Post包：`post/retrieve-relation`、`post/select-method`、`post/conditional-update`、`post/retrieve-generate-order`。`intended_work`帮助从认知工作发现候选，`compiled`及`bundle_path`说明正文可读；读取、适配、专业采用和实际教学分别成立。未来新增未编译项仍保留原文位置，不解释为方法不存在。完整包保留原始两载体、前后共用约束、认知目的／操作／风险／验收及全部原证据定位；不新增经过实验验证的主张。
 
 已编译 Encoding 包携带 R03 完整 `content_markdown`、R02 同卡正文及文首／文尾共用约束，保留原 ID、`source_version=2.0`、`template_status`、`evidence_ids` 和来源位置。R02／R03 是同一库的载体，不计为独立研究。R09 的 `evidence_ids=[]` 和设计综合主张不得被补写为实证支持或自动禁用。
